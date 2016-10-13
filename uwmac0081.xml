@@ -34,6 +34,9 @@
                     langcode="eng" scriptcode="Latn">English.</language></langusage>
         </profiledesc>
         <revisiondesc>
+            <change><date normal="2016-10-13">October 13, 2016</date><item>Brad Houston added accession 2016-008 to the collection. Changes were made to
+                    titleproper, unittitle, extent, arrangement, relatedmaterial, phystech, acqinfo,
+                processinfo, and the contents list.</item>
             <change>
                 <date>June 23, 2016</date>
                 <item>Brad Houston updated the finding aid to reflect some additional changes in
