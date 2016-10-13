@@ -1,0 +1,2987 @@
+<?xml version="1.0" encoding="ascii"?>
+<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
+<!-- wiarchives version:2009-03-26 -->
+<ead id="uw-mil-uwmac0081" relatedencoding="MARC21">
+    <eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
+        dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924"
+        relatedencoding="MARC21">
+        <eadid countrycode="US" mainagencycode="wimiugma"
+            url="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0081"
+            encodinganalog="856$u">uw-mil-uwmac0081</eadid>
+        <filedesc>
+            <titlestmt>
+                <titleproper encodinganalog="245$a">Finding Aid of the UW-Milwaukee Peck School of
+                    the Arts, 1936-2013</titleproper>
+            </titlestmt>
+            <publicationstmt>
+                <publisher encodinganalog="260$b">University of Wisconsin-Milwaukee Libraries,
+                    Archives Department</publisher>
+                <address>
+          <addressline>University of Wisconsin-Milwaukee</addressline>
+          <addressline>UWM Libraries</addressline>
+          <addressline>Archives Department</addressline>
+          <addressline>P.O. Box 604</addressline>
+          <addressline>Milwaukee, Wisconsin 53201-0604</addressline>
+          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
+        </address>
+                <date encodinganalog="260$c" type="publication" normal="2007">Copyright &#169; 2007
+                    University of Wisconsin Board of Regents</date>
+            </publicationstmt>
+        </filedesc>
+        <profiledesc>
+            <creation encodinganalog="500">Finding aid encoded by Dan Vinson</creation>
+            <langusage encodinganalog="546">Finding aid written in <language encodinganalog="041"
+                    langcode="eng" scriptcode="Latn">English.</language></langusage>
+        </profiledesc>
+        <revisiondesc>
+            <change>
+                <date>June 23, 2016</date>
+                <item>Brad Houston updated the finding aid to reflect some additional changes in
+                    description. Changes were made to boxes 1, 4, 5, 18, and 21. </item>
+            </change>
+            <change encodinganalog="583">
+                <date normal="2016-05-24">May 24, 2016</date>
+                <item>Phyllis Reske updated the finding aid to reflect the addition of new materials
+                    to the collection. Changes were made to titleproper (to reflect change in year
+                    end date), extent, scope and content, access restrictions, process information,
+                    and the contents list (boxes 18-27 were added; the former boxes 17-18 were converted to 16-17 for numeric continuity).</item>
+            </change>
+            <change encodinganalog="583">
+                <date normal="2014-12-08">December 8, 2014</date>
+                <item>Brad Houston updated the finding aid to reflect the addition of new materials
+                    to the collection. Changes were made to Processinfo and the contents list (Box
+                    18, Folder 5).</item>
+            </change>
+            <change encodinganalog="583">
+                <date normal="2013-08-29">August 29, 2013</date>
+                <item>Brad Houston updated the finding aid to reflect the addition of electronic
+                    records to the collection. Changes were made to titleproper (to reflect school
+                    name change), bioghist, title, extent, phystech, and the contents list.</item>
+            </change>
+            <change encodinganalog="583">
+                <date normal="2012-05-08">May 8, 2012</date>
+                <item>Brad Houston updated the related materials note to reflect a name change to
+                    UWM AC 12.</item>
+            </change>
+            <change encodinganalog="583">
+                <date normal="2009-01-22">January 22, 2009</date>
+                <item>Christel Maass updated the physdesc, processing note, and the contents
+                    list.</item>
+            </change>
+            <change encodinganalog="583">
+                <date normal="2010-03-11">March 11, 2010</date>
+                <item>Christel Maass updated the related collections note of this finding aid to
+                    reflect the name change to UWM AC 6.</item>
+            </change>
+        </revisiondesc>
+    </eadheader>
+    <archdesc level="collection" relatedencoding="MARC21">
+        <did>
+            <physloc type="locationcode" audience="internal">wimiugma</physloc>
+            <unittitle encodinganalog="245$a">UW-Milwaukee Peck School of the Arts, Office of the
+                Dean Records, <unitdate type="inclusive" encodinganalog="245$f" normal="1936/2013"
+                    >1936-2013</unitdate></unittitle>
+            <origination label="Creator">
+                <corpname encodinganalog="110">University of Wisconsin-Milwaukee. Peck School of the
+                    Arts. Office of the Dean</corpname>
+            </origination>
+            <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma"
+                countrycode="US">UWM Archival Collection 81</unitid>
+            <physdesc label="Quantity">
+                <extent encodinganalog="300">22.2 cubic ft. (27 boxes including 5 audio
+                    reels)</extent>
+                <extent encodinganalog="300">1 oversize folder</extent>
+                <extent encodinganalog="300">2 digital text files (3 MB)</extent>
+            </physdesc>
+            <repository encodinganalog="852">
+                <extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
+                    title="University of Wisconsin-Milwaukee Logo." role="logoimage"/>
+                <corpname>University of Wisconsin-Milwaukee Libraries, Archives
+                    Department</corpname>
+            </repository>
+            <abstract encodinganalog="520">Records of the deans of the school and
+                records of the departments that preceded the school's creation in 1963. Consists
+                largely of correspondence with the school's departments of Film, Theatre and Dance,
+                Art, and Music and with visiting artists concerning curriculum, budgeting and events
+                planning. Contains meeting minutes, affirmative action material, and minority
+                program and retention material, as well as items on urban services of the school.
+                Also includes posters and programs of art exhibitions and performances. Unrestricted
+                material from search and screen committees concern the hiring of two of the school's
+                deans as well as various faculty positions. Includes calendars published in the
+                1930s by the Wisconsin Printmakers, an organization of Wisconsin Artists which
+                featured artworks by students and faculty of Milwaukee State Teachers
+                College.</abstract>
+            <langmaterial encodinganalog="546" label="Language">
+                <language encodinganalog="041" langcode="eng">English</language>
+            </langmaterial>
+        </did>
+        <bioghist encodinganalog="545">
+            <p>From 1956 (when the University of Wisconsin-Milwaukee was established) to 1962, the
+                departments of Music and Art answered to the College of Letters &amp; Science and
+                the School of Education, respectively.</p>
+            <p>In December 1962, the University of Wisconsin Board of Regents approved the creation
+                of the School of Fine Arts at the University of Wisconsin-Milwaukee. The School of
+                Fine Arts administered the newly created departments of Theatre, Dance, and Film. At
+                the same time, the departments of Music and Art transferred into the School of Fine
+                Arts. In 1982, Theatre and Dance were merged into one department.</p>
+            <p>In 1998, the school changed its name to School of the Arts, in order to more
+                accurately and expansively describe the activities of the school devoted to the
+                study of the Arts. In 2000, the Milton and Lillian Peck Foundation in 2000 made a
+                grant to allow the school to purchase the Temple Emanu-El B'Ne Jeshurun building
+                (today the Helene Zelazo Center), and as part of the conditions of the grant the
+                school was renamed again, to the Milton and Lillian Peck School of the Arts. </p>
+            <bioghist>
+                <head>Deans of the School</head>
+                <chronlist>
+                    <chronitem>
+                        <date>1962-1974</date>
+                        <event>Adolph A. Suppan</event>
+                    </chronitem>
+                    <chronitem>
+                        <date>1974-1985</date>
+                        <event>Robert Corrigan</event>
+                    </chronitem>
+                    <chronitem>
+                        <date>1985</date>
+                        <event>Gerard McKenna (Acting)</event>
+                    </chronitem>
+                    <chronitem>
+                        <date>1985-1989</date>
+                        <event>Robert Hickock</event>
+                    </chronitem>
+                    <chronitem>
+                        <date>1989</date>
+                        <event>Corliss Phillabaum (Acting)</event>
+                    </chronitem>
+                    <chronitem>
+                        <date>1989-1992</date>
+                        <event>James A. Sappenfield (Interim)</event>
+                    </chronitem>
+                    <chronitem>
+                        <date>1992-1993</date>
+                        <event>Will H. Rockett</event>
+                    </chronitem>
+                    <chronitem>
+                        <date>1993-1994</date>
+                        <event>Leslie Vansen</event>
+                    </chronitem>
+                    <chronitem>
+                        <date>1995-1999</date>
+                        <event>Catherine Davy </event>
+                    </chronitem>
+                    <chronitem>
+                        <date>1999-2001</date>
+                        <event>Robert Greenstreet (interim)</event>
+                    </chronitem>
+                    <chronitem>
+                        <date>2001-2007</date>
+                        <event>W. Robert Bucker</event>
+                    </chronitem>
+                    <chronitem>
+                        <date>2007-2008</date>
+                        <event>Scott Emmons (Interim)</event>
+                    </chronitem>
+                    <chronitem>
+                        <date>2008-2011</date>
+                        <event>Wade Hobgood</event>
+                    </chronitem>
+                    <chronitem>
+                        <date>2012-2013</date>
+                        <event>Scott Emmons (Interim)</event>
+                    </chronitem>
+                    <chronitem>
+                        <date>2013- </date>
+                        <event>Scott Emmons</event>
+                    </chronitem>
+                </chronlist>
+            </bioghist>
+        </bioghist>
+        <scopecontent encodinganalog="520">
+            <p>Miscellaneous records of the deans of the school as well as records of the
+                departments that preceded the school's creation in 1963. Collection documents the
+                development of curricula, budgeting of the departments and the school at large,
+                planning of events, performances, and art exhibitions. The majority of the records
+                are correspondence sent to or by the dean's office and the departments of Film,
+                Theatre and Dance, Music, and Art. The files also contain agendas, minutes, and
+                supporting materials from departmental ad hoc and standing committees, including the
+                Academic Appeals Committee, the Anonymous Funds Committee, the Budget Advisory
+                Committee, departmental Executive Committees, the Master of Fine Arts Planning
+                Committee, and the Promotion and Tenure Committee.</p>
+            <p>The files on Affirmative Action (1973-1978) consist of statistics on hiring in the
+                School of Fine Arts and statistical breakdowns of the school's enrollment and fine
+                arts degrees awarded in the United States. These files also include guidelines set
+                by the U.S. Department of Health, Education, and Welfare.</p>
+            <p>There is a folder of items regarding the Artists-In-Residence program. This program
+                brought artists in music, painting, sculpture, dance, theatre, and poetry to UWM.
+                While at the university, the artists would offer performances or exhibitions, engage
+                in informal discussion sessions, and teach short classes in their respective media.
+                The files contain correspondence between the school and the artists as well as some
+                biographies of artists.</p>
+            <p>The Correspondence files contain the letters to and from the dean with individuals
+                regarding funding, staffing, and policy issues. There are letters to and from
+                artists, prospective faculty and deans of other fine arts schools. There is some
+                overlap in other correspondence items found in committee, departmental, and program
+                files.</p>
+            <p>Files on the Curriculum Committee contain minutes and agendas. The committee reviewed
+                plans for majors and minors. The committee also reviewed matters regarding course
+                addition or deletion and name changes as well as credit amounts and plans for
+                inter-arts majors.</p>
+            <p>Fine Arts Quartet files contain performance programs, reviews of performances, and
+                correspondences. The group, which was originally the Fine Arts Quartet of Chicago,
+                joined the UWM faculty in 1963.</p>
+            <p>The Fine Arts Center opened in 1968 with Inaugural Week of events that included a
+                film festival, a play, several music performances, and a dance concert. These files
+                include event planning, correspondence, programs, and three lectures on audio
+                reels.</p>
+            <p>Several folders of Posters and Related Materials include event flyers and posters
+                announcing performances, exhibitions, and symposia.</p>
+            <p>Search and Screen files contain meeting minutes and correspondence of several Search
+                and Screen Committees, concerning the searches for two of the school's deans (in
+                1974 and 1985) and various faculty and department chair positions.</p>
+            <p>Several files are included on the University Arts Council, which was involved in the
+                arts activities of the University of Wisconsin System. This council was involved in
+                events planning, administering surveys, and distributing a monthly newsletter to
+                arts programs and schools.</p>
+            <p>The Wisconsin Artists Calendars were printed in the mid to late 1930s by the
+                Wisconsin Printmakers, an artists' organization which supported the graphic arts.
+                The calendars feature wood and linoleum cuts by artists who were students of the
+                Milwaukee State Teachers College, a predecessor of UWM.</p>
+            <p>The May 2016 addition to the collection contains administration, program, and
+                exhibition records, including records of development of the Master of Fine Arts
+                program, and records relating to the collaboration between the School of Fine Arts
+                and the Milwaukee Public Schools to offer art classes to MPS students. Also included are records of the People's Theater, a community organization to which the School provided significant financial and administrative support, including shared personnel, between 1968-1988. Much of this recent addition is
+                comprised of folders on the future of the UWM Art Museum, including responses to a proposal
+                to sell some of UWM's art collection.</p>
+        </scopecontent>
+        <arrangement encodinganalog="351">
+            <p>The files are organized alphabetically by subject, then chronologically.</p>
+        </arrangement>
+        <otherfindaid encodinganalog="555">
+            <p>An inventory of the personnel files in boxes 10-14 is available in the Archives' case
+                files.</p>
+        </otherfindaid>
+        <prefercite encodinganalog="524">
+            <p>
+                <extref
+                    href="http://uwm.edu/libraries/archives/research/citation-guide-for-primary-sources/"
+                    >Citation Guide for Primary Sources</extref>
+            </p>
+        </prefercite>
+        <relatedmaterial encodinganalog="544 1">
+            <head>Related Material in the UWM Libraries</head>
+            <archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmmss0030"
+                actuate="onrequest" show="new">
+                <unittitle>Fine Arts Quartet Records</unittitle>
+                <unitid>UWM Manuscript Collection 30</unitid>
+            </archref>
+            <archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0001"
+                actuate="onrequest" show="new">
+                <unittitle>UW-Milwaukee College of Letters &amp; Science Records</unittitle>
+                <unitid>UWM Archival Collection 1</unitid>
+            </archref>
+            <archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0030"
+                actuate="onrequest" show="new">
+                <unittitle>UW-Milwaukee Department of Dance Records</unittitle>
+                <unitid>UWM Archival Collection 30</unitid>
+            </archref>
+            <archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0012"
+                actuate="onrequest" show="new">
+                <unittitle>UW-Milwaukee Office of the Provost and Vice Chancellor for Academic
+                    Affairs Records</unittitle>
+                <unitid>UWM Archival Collection 12</unitid>
+            </archref>
+            <archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0006"
+                actuate="onrequest" show="new">
+                <unittitle>UW-Milwaukee Photographs Collection</unittitle>
+                <unitid>UWM Archival Collection 6</unitid>
+            </archref>
+            <archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0005"
+                actuate="onrequest" show="new">
+                <unittitle>UW-Milwaukee School of Education Records</unittitle>
+                <unitid>UWM Archival Collection 5</unitid>
+            </archref>
+        </relatedmaterial>
+        <descgrp type="admininfo">
+            <head>Administrative/Restriction Information</head>
+
+            <accessrestrict encodinganalog="506">
+                <p>The unclassified personnel files in boxes 10-14, as well as the personnel-related files in box 27, are restricted in
+                    accordance with UWM Personnel File Policy S-42 and Wis. Stat. 19.36 (10.b). Access is regulated by Section
+                    III.A.2 and III.A.3.</p>
+                <p>The student fellowship records in box 26 are restricted in accordance with the
+                    Family Educational Rights and Privacy Act (FERPA) and UW-System RRDA UWSTU046. Access may be granted by
+                    permission of the University Records Custodian or pursuant to the terms
+                    stipulated in 34 CFR 99.31. Records in Box 26 relating to the sale of Art Museum
+                    Assets contain confidential legal advice and are restricted under Wis. Stat.
+                    905.03 (Lawyer-Client Privilege).</p>
+                <p>There are no access restrictions on the rest of the collection, which is open to
+                    all members of the public in accordance with state law.</p>
+            </accessrestrict>
+            <userestrict encodinganalog="540">
+                <p>The researcher assumes full responsibility for conforming with the laws of libel,
+                    privacy, and copyright which may be involved in the use of this collection
+                    (Wisconsin Statutes 19.21-19.39).</p>
+            </userestrict>
+            <acqinfo encodinganalog="541">
+                <p>An unknown individual transferred the collection to the Archives prior to 1989.
+                    Peck School of the Arts transferred accession 2015-041 in April 2016.</p>
+            </acqinfo>
+            <processinfo encodinganalog="583">
+                <p>Bill Jackson processed the original collection at the Archives in May through
+                    June 1994. The material in box 15 was added in September 1994. Christel Maass
+                    added a box of planning documents in November 1997 (box 17). Christel Maass
+                    added an unprocessed box of posters to the collection in January 2009. The
+                    unprocessed posters were integrated with posters formerly in box 16 and placed
+                    in an oversize folder. Brad Houston processed some additional material in
+                    December 2014. Phyllis Reske and Brad Houston processed accession 2015-041 (boxes 18-27) in
+                    May 2016.</p>
+            </processinfo>
+            <phystech audience="internal" encodinganalog="538">
+                <p>As of August 30, 2013, all electronic files were accessible on a Intel Core 2 Duo
+                    CPU (2.33 GHz, 1.95 GB RAM) running Windows XP Professional Version 2002, with
+                    Service Pack 3. Adobe Reader XI was used to access the files.</p>
+                <p>The collection includes records in the following file formats:</p>
+                <list type="marked">
+                    <item>Acrobat PDF 1.6 - Portable Document Format [.pdf]</item>
+                </list>
+            </phystech>
+        </descgrp>
+        <dsc type="in-depth">
+            <head>Contents List</head>
+            <c01>
+                <did>
+                    <unittitle>Academic Appeals Committee</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle><unitdate>1974-1977</unitdate></unittitle>
+                        <container type="box" label="Box">1</container>
+                        <container type="folder" label="Folder">1</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>
+                            <unitdate>1976-1995</unitdate>
+                        </unittitle>
+                        <container type="box" label="Box">18</container>
+                        <container type="folder" label="Folder">1</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Academic Computing Needs, <unitdate>undated</unitdate></unittitle>
+                    <container type="box" label="Box">1</container>
+                    <container type="folder" label="Folder">2</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Academic Dean's Council, <unitdate>1970-1974</unitdate></unittitle>
+                    <container type="box" label="Box">1</container>
+                    <container type="folder" label="Folder">3</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Academic Planning Committee,
+                        <unitdate>1987-1993</unitdate></unittitle>
+                    <container type="box" label="Box">18</container>
+                    <container type="folder" label="Folder">2-3</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Academic Staff Committee, <unitdate>1977</unitdate></unittitle>
+                    <container type="box" label="Box">1</container>
+                    <container type="folder" label="Folder">4</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Affirmative Action, <unitdate>1973-1978</unitdate></unittitle>
+                    <container type="box" label="Box">1</container>
+                    <container type="folder" label="Folder">5</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>All-Campus Arts Festival, <unitdate>1969-1970</unitdate></unittitle>
+                    <container type="box" label="Box">1</container>
+                    <container type="folder" label="Folder">6</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>American National Theatre and Academy,
+                        <unitdate>1963-1970</unitdate></unittitle>
+                    <container type="box" label="Box">1</container>
+                    <container type="folder" label="Folder">7</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Ann Arbor Film Festival, <unitdate>1967</unitdate></unittitle>
+                    <container type="box" label="Box">1</container>
+                    <container type="folder" label="Folder">8</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Anonymous Funds Committee, <unitdate>1970-1972</unitdate></unittitle>
+                    <container type="box" label="Box">1</container>
+                    <container type="folder" label="Folder">9</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Art Exhibitions Committee, <unitdate>1967</unitdate></unittitle>
+                    <container type="box" label="Box">1</container>
+                    <container type="folder" label="Folder">10</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Artists-in-Residence Program,
+                        <unitdate>1959-1964</unitdate></unittitle>
+                    <container type="box" label="Box">1</container>
+                    <container type="folder" label="Folder">11</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle><title render="italic">Artists-in-Residence</title> Roundtable
+                            "<title render="italic">The Artist and the University</title>,"
+                            <unitdate>1966</unitdate></unittitle>
+                    <container type="box" label="Box">9</container>
+                    <container type="audio" label="Audio">1</container>
+                    <physdesc>
+                        <extent>Audio reel (&#188; in.)</extent>
+                    </physdesc>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Arts and Humanities Executive Committee,
+                            <unitdate>1969-1974</unitdate></unittitle>
+                    <container type="box" label="Box">1</container>
+                    <container type="folder" label="Folder">12</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Arts Extension, UW-Extension/School of Fine Arts,
+                            <unitdate>1974-1977</unitdate></unittitle>
+                    <container type="box" label="Box">18</container>
+                    <container type="folder" label="Folder">4</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle><title render="italic">Arts in Society</title>,
+                            <unitdate>1975-1976</unitdate></unittitle>
+                    <container type="box" label="Box">1</container>
+                    <container type="folder" label="Folder">13</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Asian Art Show, <unitdate>1977-1978</unitdate></unittitle>
+                    <container type="box" label="Box">1</container>
+                    <container type="folder" label="Folder">14</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Assistant to the Dean for Publicity, Elizabeth Earnest,
+                            <unitdate>1975-1979</unitdate></unittitle>
+                    <container type="box" label="Box">18</container>
+                    <container type="folder" label="Folder">5</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Associate Dean Cook, Wayne, General Correspondence,
+                            <unitdate>1983-1984</unitdate></unittitle>
+                    <container type="box" label="Box">18</container>
+                    <container type="folder" label="Folder">6</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Associate Dean Phillabaum, Corliss, General Correspondence,
+                            <unitdate>1987-1990</unitdate></unittitle>
+                    <container type="box" label="Box">18</container>
+                    <container type="folder" label="Folder">7</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Audit of Bachelors and Masters of Fine Arts Programs in UW System,
+                            <unitdate>1976</unitdate></unittitle>
+                    <container type="box" label="Box">18</container>
+                    <container type="folder" label="Folder">8</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Bachelor of Arts Committee,
+                        <unitdate>1979-1981</unitdate></unittitle>
+                    <container type="box" label="Box">1</container>
+                    <container type="folder" label="Folder">15</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Biennial Budget Advisory Committee,
+                        <unitdate>1973-1975</unitdate></unittitle>
+                    <container type="box" label="Box">1</container>
+                    <container type="folder" label="Folder">16</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Brochures, <unitdate>1979-1991</unitdate></unittitle>
+                    <container type="box" label="Box">1</container>
+                    <container type="folder" label="Folder">17</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Budget Advisory Committee</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle><unitdate>1974-1981</unitdate></unittitle>
+                        <container type="box" label="Box">1</container>
+                        <container type="folder" label="Folder">18-19</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>
+                            <unitdate>1975-1984</unitdate>
+                        </unittitle>
+                        <container type="box" label="Box">18</container>
+                        <container type="folder" label="Folder">9</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Budget Planning Document</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle>
+                            <unitdate>1982-1983</unitdate>
+                        </unittitle>
+                        <container type="box" label="Box">16</container>
+                        <container type="folder" label="Folder">1</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>
+                            <unitdate>1993</unitdate>
+                        </unittitle>
+                        <container type="box" label="Box">1</container>
+                        <container type="folder" label="Folder">20</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>
+                            <unitdate>1994-1995</unitdate>
+                        </unittitle>
+                        <container type="box" label="Box">16</container>
+                        <container type="folder" label="Folder">2</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Business/Fine Arts Building Committee,
+                        <unitdate>1985-1991</unitdate></unittitle>
+                    <container type="box" label="Box">18</container>
+                    <container type="folder" label="Folder">10-12</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Calendar, <unitdate>2008</unitdate>,
+                        <unitdate>2013</unitdate></unittitle>
+                    <container type="electronic" label="Electronic Folder"/>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Calendar Listings</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle>
+                            <unitdate>1989-1994</unitdate>
+                        </unittitle>
+                        <container type="box" label="Box">18</container>
+                        <container type="folder" label="Folder">13</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>
+                            <unitdate>1994-1998</unitdate>
+                        </unittitle>
+                        <container type="box" label="Box">18</container>
+                        <container type="folder" label="Folder">14-16</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Calendars of Fine Arts Events,
+                        <unitdate>1966-1992</unitdate></unittitle>
+                    <container type="box" label="Box">1</container>
+                    <container type="folder" label="Folder">21</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Carnicus Project, <unitdate>1976-1977</unitdate></unittitle>
+                    <container type="box" label="Box">1</container>
+                    <container type="folder" label="Folder">22</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Center for Electronic Arts and Culture Proposal,
+                            <unitdate>1997-2001</unitdate></unittitle>
+                    <container type="box" label="Box">18</container>
+                    <container type="folder" label="Folder">17</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Center for Twentieth Century Studies,
+                        <unitdate>1970-1973</unitdate></unittitle>
+                    <container type="box" label="Box">1</container>
+                    <container type="folder" label="Folder">23</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Centers and Institutes, <unitdate>1997-2000</unitdate></unittitle>
+                    <container type="box" label="Box">18</container>
+                    <container type="folder" label="Folder">18</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Centers of Excellence, <unitdate>1987-1993</unitdate></unittitle>
+                    <container type="box" label="Box">18</container>
+                    <container type="folder" label="Folder">19-20</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Children's Performing Arts, Incorporated,
+                        <unitdate>1967</unitdate></unittitle>
+                    <container type="box" label="Box">1</container>
+                    <container type="folder" label="Folder">24</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Committees, School of Fine Arts,
+                        <unitdate>1981-1994</unitdate></unittitle>
+                    <container type="box" label="Box">19</container>
+                    <container type="folder" label="Folder">1-6</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Community Arts Programming,
+                        <unitdate>1976-1991</unitdate></unittitle>
+                    <container type="box" label="Box">19</container>
+                    <container type="folder" label="Folder">7</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Community Services, <unitdate>1967-1973</unitdate></unittitle>
+                    <container type="box" label="Box">1</container>
+                    <container type="folder" label="Folder">25</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Community Theatre Institute,
+                        <unitdate>1970-1973</unitdate></unittitle>
+                    <container type="box" label="Box">1</container>
+                    <container type="folder" label="Folder">26</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Composer's Showcase, <unitdate>1973-1974</unitdate></unittitle>
+                    <container type="box" label="Box">1</container>
+                    <container type="folder" label="Folder">27</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Comprehensive Employment and Training Act,
+                            <unitdate>1977-1978</unitdate></unittitle>
+                    <container type="box" label="Box">1</container>
+                    <container type="folder" label="Folder">28</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Computer Study Committee, <unitdate>1987</unitdate></unittitle>
+                    <container type="box" label="Box">19</container>
+                    <container type="folder" label="Folder">8</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Conferences and Workshops, <unitdate>1955-1972</unitdate></unittitle>
+                    <container type="box" label="Box">1</container>
+                    <container type="folder" label="Folder">29</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Contemporary Arts Festival,
+                        <unitdate>1965-1966</unitdate></unittitle>
+                    <container type="box" label="Box">1</container>
+                    <container type="folder" label="Folder">30</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Coordinating Council for Higher Education,
+                            <unitdate>1968-1970</unitdate></unittitle>
+                    <container type="box" label="Box">1</container>
+                    <container type="folder" label="Folder">31-32</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Correspondence</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle>
+                            <unitdate>1959-1964</unitdate>
+                        </unittitle>
+                        <container type="box" label="Box">1</container>
+                        <container type="folder" label="Folder">33-34</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>
+                            <unitdate>1965-1973</unitdate>
+                        </unittitle>
+                        <container type="box" label="Box">2</container>
+                        <container type="folder" label="Folder">1-6</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Corrigan, Robert: Fullbright Award,
+                        <unitdate>1977</unitdate></unittitle>
+                    <container type="box" label="Box">2</container>
+                    <container type="folder" label="Folder">7</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Corrigan, Robert, University of Wisconsin-Milwaukee, Foundation
+                        Reimbursements, <unitdate>1975-1984</unitdate></unittitle>
+                    <container type="box" label="Box">2</container>
+                    <container type="folder" label="Folder">8-9</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Creative Writing Department,
+                        <unitdate>1964-1968</unitdate></unittitle>
+                    <container type="box" label="Box">2</container>
+                    <container type="folder" label="Folder">10</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Credits to Degree, Memorandums,
+                        <unitdate>1995-1996</unitdate></unittitle>
+                    <container type="box" label="Box">19</container>
+                    <container type="folder" label="Folder">9</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Curriculum, <unitdate>1963-1970</unitdate></unittitle>
+                    <container type="box" label="Box">2</container>
+                    <container type="folder" label="Folder">11</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Curriculum Committee, <unitdate>1962-1982</unitdate></unittitle>
+                    <container type="box" label="Box">2</container>
+                    <container type="folder" label="Folder">12-13</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Dean's Roundtable on WUWM Radio,
+                        <unitdate>1991-2001</unitdate></unittitle>
+                    <container type="box" label="Box">19</container>
+                    <container type="folder" label="Folder">10-12</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Dean's Student Advisory Committee,
+                        <unitdate>1968-1972</unitdate></unittitle>
+                    <container type="box" label="Box">2</container>
+                    <container type="folder" label="Folder">14</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Decorative Arts Forum, <unitdate>1964-1965</unitdate></unittitle>
+                    <container type="box" label="Box">2</container>
+                    <container type="folder" label="Folder">15</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Department of Art</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle>Audit and Review, <unitdate>1976</unitdate></unittitle>
+                        <container type="box" label="Box">2</container>
+                        <container type="folder" label="Folder">16</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Executive Committee, <unitdate>1963-1974</unitdate></unittitle>
+                        <container type="box" label="Box">2</container>
+                        <container type="folder" label="Folder">17</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Department of Dance</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle>Correspondence, <unitdate>1970-1972</unitdate></unittitle>
+                        <container type="box" label="Box">2</container>
+                        <container type="folder" label="Folder">18</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Curriculum, <unitdate>1970-1971</unitdate></unittitle>
+                        <container type="box" label="Box">2</container>
+                        <container type="folder" label="Folder">19</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Financial Projections, <unitdate>1965-1970</unitdate></unittitle>
+                        <container type="box" label="Box">2</container>
+                        <container type="folder" label="Folder">20</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>News Releases, <unitdate>1965-1975</unitdate></unittitle>
+                        <container type="box" label="Box">2</container>
+                        <container type="folder" label="Folder">21</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Department of Music</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle>Chairperson Correspondence,
+                            <unitdate>1972-1975</unitdate></unittitle>
+                        <container type="box" label="Box">2</container>
+                        <container type="folder" label="Folder">22</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Correspondence, <unitdate>1969-1973</unitdate></unittitle>
+                        <container type="box" label="Box">2</container>
+                        <container type="folder" label="Folder">23-26</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Curriculum, <unitdate>1970-1972</unitdate></unittitle>
+                        <container type="box" label="Box">2</container>
+                        <container type="folder" label="Folder">27</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Executive Committee, <unitdate>1963-1970</unitdate></unittitle>
+                        <container type="box" label="Box">2</container>
+                        <container type="folder" label="Folder">28</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Meeting Minutes, <unitdate>1969-1973</unitdate></unittitle>
+                        <container type="box" label="Box">2</container>
+                        <container type="folder" label="Folder">29</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Department of Theatre and Dance</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle>Executive Committee Minutes,
+                            <unitdate>1984-1988</unitdate></unittitle>
+                        <container type="box" label="Box">2</container>
+                        <container type="folder" label="Folder">30</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Department of Theatre Arts</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle>Correspondence, <unitdate>1969-1971</unitdate></unittitle>
+                        <container type="box" label="Box">3</container>
+                        <container type="folder" label="Folder">2</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Executive Committee, <unitdate>1969-1976</unitdate></unittitle>
+                        <container type="box" label="Box">3</container>
+                        <container type="folder" label="Folder">31</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle> Executive Committee Meetings,
+                            <unitdate>1966-1979</unitdate></unittitle>
+                        <container type="box" label="Box">3</container>
+                        <container type="folder" label="Folder">3</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Position Announcements, <unitdate>1971</unitdate></unittitle>
+                        <container type="box" label="Box">3</container>
+                        <container type="folder" label="Folder">4</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Productions, <unitdate>1971-1972</unitdate></unittitle>
+                        <container type="box" label="Box">3</container>
+                        <container type="folder" label="Folder">5</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Departmental Profiles, <unitdate>1972-1978</unitdate></unittitle>
+                    <container type="box" label="Box">3</container>
+                    <container type="folder" label="Folder">6</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Departments of Art Meeting, <unitdate>1972</unitdate></unittitle>
+                    <container type="box" label="Box">3</container>
+                    <container type="folder" label="Folder">7</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Distance Education, UWM, <unitdate>1996-2000</unitdate></unittitle>
+                    <container type="box" label="Box">19</container>
+                    <container type="folder" label="Folder">13</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Door County Cultural Center Committee,
+                        <unitdate>1961-1962</unitdate></unittitle>
+                    <container type="box" label="Box">3</container>
+                    <container type="folder" label="Folder">8</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Downey Book Project, UWM Libraries and Peck School of the Arts,
+                            <unitdate>2000</unitdate>, <unitdate>2005-2006</unitdate></unittitle>
+                    <container type="box" label="Box">19</container>
+                    <container type="folder" label="Folder">14</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Downey Festival in London, <unitdate>1999</unitdate></unittitle>
+                    <container type="box" label="Box">19</container>
+                    <container type="folder" label="Folder">15</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Early Registration System, <unitdate>1994-1996</unitdate></unittitle>
+                    <container type="box" label="Box">19</container>
+                    <container type="folder" label="Folder">16</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Economics in School of Fine Arts,
+                        <unitdate>1969-1970</unitdate></unittitle>
+                    <container type="box" label="Box">3</container>
+                    <container type="folder" label="Folder">9</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Education Council, <unitdate>1972-1977</unitdate></unittitle>
+                    <container type="box" label="Box">3</container>
+                    <container type="folder" label="Folder">10</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Engelman Hall Remodeling Committee,
+                        <unitdate>1969-1973</unitdate></unittitle>
+                    <container type="box" label="Box">3</container>
+                    <container type="folder" label="Folder">11</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Evening Classes and GER Course Meeting Times,
+                            <unitdate>1966-1996</unitdate></unittitle>
+                    <container type="box" label="Box">19</container>
+                    <container type="folder" label="Folder">17</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Event Announcements and Information,
+                        <unitdate>1972-1973</unitdate></unittitle>
+                    <container type="box" label="Box">3</container>
+                    <container type="folder" label="Folder">12-13</container>
+                </did>
+            </c01>
+           
+            <c01>
+                <did>
+                    <unittitle>Executive Committee of Arts and Humanities,
+                            <unitdate>1963-1974</unitdate></unittitle>
+                    <container type="box" label="Box">3</container>
+                    <container type="folder" label="Folder">14</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Expansion Arts and Humanities Program,
+                        <unitdate>1983-1988</unitdate></unittitle>
+                    <container type="box" label="Box">19</container>
+                    <container type="folder" label="Folder">18</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Facilities and Space</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle><unitdate>1974-1997</unitdate></unittitle>
+                        <container type="box" label="Box">19</container>
+                        <container type="folder" label="Folder">19-21</container></did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Fine Arts Center, <unitdate>1971-1981</unitdate></unittitle>
+                        <container type="box" label="Box">19</container>
+                        <container type="folder" label="Folder">22</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Holton Hall, <unitdate>1974-1976</unitdate></unittitle>
+                        <container type="box" label="Box">20</container>
+                        <container type="folder" label="Folder">1</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Mitchell Hall, <unitdate>1973-1984</unitdate></unittitle>
+                        <container type="box" label="Box">20</container>
+                        <container type="folder" label="Folder">2</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Faculty and Student Advisory Committee Minutes,
+                            <unitdate>1969-1976</unitdate></unittitle>
+                    <container type="box" label="Box">3</container>
+                    <container type="folder" label="Folder">19</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Faculty Meeting Minutes, <unitdate>1963-1981</unitdate></unittitle>
+                    <container type="box" label="Box">3</container>
+                    <container type="folder" label="Folder">15-16</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Faculty Meetings, Agenda and Minutes,
+                        <unitdate>1969-1976</unitdate></unittitle>
+                    <container type="box" label="Box">3</container>
+                    <container type="folder" label="Folder">17</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Faculty Meetings, University of Wisconsin-Milwaukee,
+                            <unitdate>1971-1974</unitdate></unittitle>
+                    <container type="box" label="Box">3</container>
+                    <container type="folder" label="Folder">18</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Film Arts Undergraduate Major,
+                        <unitdate>1973-1975</unitdate></unittitle>
+                    <container type="box" label="Box">3</container>
+                    <container type="folder" label="Folder">20</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Fine Arts Core Curriculum, <unitdate>1971-1972</unitdate></unittitle>
+                    <container type="box" label="Box">3</container>
+                    <container type="folder" label="Folder">21</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Fine Arts Education Council</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle><unitdate>1964-1976</unitdate></unittitle>
+                        <container type="box" label="Box">3</container>
+                        <container type="folder" label="Folder">22-23</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle><unitdate>1975-1978</unitdate></unittitle>
+                        <container type="box" label="Box">20</container>
+                        <container type="folder" label="Folder">3</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Fine Arts, Education Jurisdictional Controversy,
+                            <unitdate>1963-1965</unitdate></unittitle>
+                    <container type="box" label="Box">3</container>
+                    <container type="folder" label="Folder">24</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Fine Arts Events, <unitdate>1962-1970</unitdate></unittitle>
+                    <container type="box" label="Box">3</container>
+                    <container type="folder" label="Folder">25</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Fine Arts Galleries, <unitdate>1969-1973</unitdate></unittitle>
+                    <container type="box" label="Box">3</container>
+                    <container type="folder" label="Folder">26-28</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Fine Arts Marketing Committee,
+                        <unitdate>1996-1998</unitdate></unittitle>
+                    <container type="box" label="Box">20</container>
+                    <container type="folder" label="Folder">4</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Fine Arts Quartet</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle>Letters and Memos, <unitdate>1961-1976</unitdate></unittitle>
+                        <container type="box" label="Box">3</container>
+                        <container type="folder" label="Folder">29</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>News Releases, <unitdate>1960-1971</unitdate></unittitle>
+                        <container type="box" label="Box">3</container>
+                        <container type="folder" label="Folder">30</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Programs, <unitdate>1971-1987</unitdate></unittitle>
+                        <container type="box" label="Box">4</container>
+                        <container type="folder" label="Folder">1</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Fine Arts Traveling Groups,
+                        <unitdate>1966-1968</unitdate></unittitle>
+                    <container type="box" label="Box">4</container>
+                    <container type="folder" label="Folder">2</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Fire Insurance Inventory, <unitdate>1957-1975</unitdate></unittitle>
+                    <container type="box" label="Box">4</container>
+                    <container type="folder" label="Folder">3</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Four Year Graduation Guarantee,
+                        <unitdate>1996-1998</unitdate></unittitle>
+                    <container type="box" label="Box">20</container>
+                    <container type="folder" label="Folder">5</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Gifts, <unitdate>1966-1972</unitdate></unittitle>
+                    <container type="box" label="Box">4</container>
+                    <container type="folder" label="Folder">4</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Gifts to Fine Arts Gallery,
+                        <unitdate>1975-1979</unitdate></unittitle>
+                    <container type="box" label="Box">4</container>
+                    <container type="folder" label="Folder">5</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Juris Gotshalks Memorial Fund, <unitdate>1976</unitdate></unittitle>
+                    <container type="box" label="Box">4</container>
+                    <container type="folder" label="Folder">28</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Graduate Program Committee</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle><unitdate>1978-1983</unitdate></unittitle>
+                        <container type="box" label="Box">4</container>
+                        <container type="folder" label="Folder">6</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle><unitdate>1978-1979</unitdate>, <unitdate>1983-1987</unitdate>, <unitdate>1991-1995</unitdate></unittitle>
+                        <container type="box" label="Box">20</container>
+                        <container type="folder" label="Folder">6</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Graduate Program in Art, Five Year Reviews,
+                            <unitdate>1972-1977</unitdate></unittitle>
+                    <container type="box" label="Box">4</container>
+                    <container type="folder" label="Folder">7</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Graduate School Fellowship Awards to School of Fine Arts Students,
+                            <unitdate>1979-2000</unitdate></unittitle>
+                    <container type="box" label="Box">26</container>
+                    <container type="folder" label="Folder">1-2</container>
+                </did>
+                <accessrestrict>
+                    <p>Restricted</p>
+                </accessrestrict>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Graduate Student Special Assistance Committee,
+                            <unitdate>1978-1979</unitdate></unittitle>
+                    <container type="box" label="Box">4</container>
+                    <container type="folder" label="Folder">8</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Grand Avenue Mall Proposal,
+                        <unitdate>1980-1983</unitdate></unittitle>
+                    <container type="box" label="Box">20</container>
+                    <container type="folder" label="Folder">7</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Growth Projections, <unitdate>1969-1970</unitdate></unittitle>
+                    <container type="box" label="Box">4</container>
+                    <container type="folder" label="Folder">9</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Hansberry-Sands Theatre Company,
+                        <unitdate>1981-1985</unitdate></unittitle>
+                    <container type="box" label="Box">20</container>
+                    <container type="folder" label="Folder">8</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>High School Counselor Breakfast,
+                        <unitdate>1998</unitdate></unittitle>
+                    <container type="box" label="Box">20</container>
+                    <container type="folder" label="Folder">9</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Human Relations Code Requirements,
+                        <unitdate>1974-1975</unitdate></unittitle>
+                    <container type="box" label="Box">4</container>
+                    <container type="folder" label="Folder">10</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Inaugural Week</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle>Critic Correspondence, <unitdate>1967-1968</unitdate></unittitle>
+                        <container type="box" label="Box">4</container>
+                        <container type="folder" label="Folder">12</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Dance Concert, <unitdate>1967-1968</unitdate></unittitle>
+                        <container type="box" label="Box">4</container>
+                        <container type="folder" label="Folder">13</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Etler Correspondence, <unitdate>1967-1968</unitdate></unittitle>
+                        <container type="box" label="Box">4</container>
+                        <container type="folder" label="Folder">14</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Exhibition Catalog, <unitdate>1968</unitdate></unittitle>
+                        <container type="box" label="Box">4</container>
+                        <container type="folder" label="Folder">15</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Films, <unitdate>1968</unitdate></unittitle>
+                        <container type="box" label="Box">4</container>
+                        <container type="folder" label="Folder">16</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Hovhaness Correspondence,
+                            <unitdate>1966-1968</unitdate></unittitle>
+                        <container type="box" label="Box">4</container>
+                        <container type="folder" label="Folder">17</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Imbrie Correspondence, <unitdate>1966-1968</unitdate></unittitle>
+                        <container type="box" label="Box">4</container>
+                        <container type="folder" label="Folder">18</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Invitation, <unitdate>1968</unitdate></unittitle>
+                        <container type="box" label="Box">4</container>
+                        <container type="folder" label="Folder">19</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Lecture by Professor William Arrowsmith: "Euripedes' The Bacchae,
+                            or God Isn't Dead but Mad," <unitdate>1968</unitdate></unittitle>
+                        <container type="box" label="Box">9</container>
+                        <container type="audio" label="Audio">2</container>
+                        <physdesc>
+                            <extent>Audio reel (&#188; in.)</extent>
+                        </physdesc>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Lecture on the Exhibition "Hang Ups and Put Downs,"
+                                <unitdate>1968</unitdate></unittitle>
+                        <container type="box" label="Box">9</container>
+                        <container type="audio" label="Audio">3</container>
+                        <physdesc>
+                            <extent>Audio reel (&#188; in.)</extent>
+                        </physdesc>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Orchestra Concert, <unitdate>1968</unitdate></unittitle>
+                        <container type="box" label="Box">4</container>
+                        <container type="folder" label="Folder">20</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Play, <unitdate>1967-1968</unitdate></unittitle>
+                        <container type="box" label="Box">4</container>
+                        <container type="folder" label="Folder">21</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Press Releases, <unitdate>1967-1968</unitdate></unittitle>
+                        <container type="box" label="Box">4</container>
+                        <container type="folder" label="Folder">22</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Programs, <unitdate>1965-1968</unitdate></unittitle>
+                        <container type="box" label="Box">4</container>
+                        <container type="folder" label="Folder">23</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Proposal, <unitdate>1965</unitdate></unittitle>
+                        <container type="box" label="Box">4</container>
+                        <container type="folder" label="Folder">24</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Sculpture, <unitdate>1968</unitdate></unittitle>
+                        <container type="box" label="Box">4</container>
+                        <container type="folder" label="Folder">25</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Symposium on the Arts <title render="italic">The Arts in an Age
+                                of Violence</title>, <unitdate>1968</unitdate></unittitle>
+                        <container type="box" label="Box">9</container>
+                        <container type="audio" label="Audio">4</container>
+                        <physdesc>
+                            <extent>Audio reel (&#188; in.)</extent>
+                        </physdesc>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Inaugural Week of Fine Arts Center, Correspondence,
+                            <unitdate>1965-1968</unitdate></unittitle>
+                    <container type="box" label="Box">4</container>
+                    <container type="folder" label="Folder">11</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Institute of Visual Art</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle>Advisory Committee, <unitdate>2003-2005</unitdate></unittitle>
+                        <container type="box" label="Box">23</container>
+                        <container type="folder" label="Folder">8</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Art Collection Controversy/Solution,
+                                <unitdate>1997-2001</unitdate></unittitle>
+                        <container type="box" label="Box">26</container>
+                        <container type="folder" label="Folder">3-4</container>
+                    </did>
+                    <accessrestrict>
+                        <p>Restricted</p>
+                    </accessrestrict>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Art Collection Move, <unitdate>2000-2006</unitdate></unittitle>
+                        <container type="box" label="Box">23</container>
+                        <container type="folder" label="Folder">10</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Art Collections Focus Groups,
+                            <unitdate>1998-1999</unitdate></unittitle>
+                        <container type="box" label="Box">23</container>
+                        <container type="folder" label="Folder">9</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Art Gallery or Fine Arts Gallery,
+                            <unitdate>1972-1993</unitdate></unittitle>
+                        <container type="box" label="Box">23</container>
+                        <container type="folder" label="Folder">11</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Art History Gallery, <unitdate>1982-2005</unitdate></unittitle>
+                        <container type="box" label="Box">23</container>
+                        <container type="folder" label="Folder">12</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Art Museum Advisory Committee,
+                            <unitdate>1984-1989</unitdate></unittitle>
+                        <container type="box" label="Box">23</container>
+                        <container type="folder" label="Folder">13</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Art Museum Fundraising Committee,
+                            <unitdate>1985-1994</unitdate></unittitle>
+                        <container type="box" label="Box">23</container>
+                        <container type="folder" label="Folder">14</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Art Museum Policy Committee</unittitle>
+                    </did>
+                    <c03>
+                        <did>
+                            <unittitle><unitdate>1983-1999</unitdate></unittitle>
+                            <container type="box" label="Box">23</container>
+                            <container type="folder" label="Folder">15-20</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>1999</unittitle>
+                            <container type="box" label="Box">24</container>
+                            <container type="folder" label="Folder">1</container>
+                        </did>
+                    </c03>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Art Museum Policy Statements,
+                            <unitdate>1984-1996</unitdate></unittitle>
+                        <container type="box" label="Box">24</container>
+                        <container type="folder" label="Folder">2</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Computer Audit and Needs Analysis,
+                            <unitdate>1993</unitdate></unittitle>
+                        <container type="box" label="Box">24</container>
+                        <container type="folder" label="Folder">3</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Correspondence/General,
+                            <unitdate>1974-2004</unitdate></unittitle>
+                        <container type="box" label="Box">24</container>
+                        <container type="folder" label="Folder">4-16</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Dedication/Opening, <unitdate>1984</unitdate></unittitle>
+                        <container type="box" label="Box">24</container>
+                        <container type="folder" label="Folder">17</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Director and Curator Positions,
+                            <unitdate>1998-2008</unitdate></unittitle>
+                        <container type="box" label="Box">24</container>
+                        <container type="folder" label="Folder">18</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Disposal of Works of Art, Resolution,
+                            <unitdate>1994</unitdate></unittitle>
+                        <container type="box" label="Box">24</container>
+                        <container type="folder" label="Folder">19</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Exhibition Schedules, <unitdate>1979-1986</unitdate></unittitle>
+                        <container type="box" label="Box">24</container>
+                        <container type="folder" label="Folder">20</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>General Information, <unitdate>1997-2008</unitdate></unittitle>
+                        <container type="box" label="Box">24</container>
+                        <container type="folder" label="Folder">21</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Internal Audit of Fine Arts Galleries,
+                                <unitdate>1976-1981</unitdate></unittitle>
+                        <container type="box" label="Box">24</container>
+                        <container type="folder" label="Folder">22</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Internal Audit of UWM Art Museum,
+                            <unitdate>1976-1986</unitdate></unittitle>
+                        <container type="box" label="Box">24</container>
+                        <container type="folder" label="Folder">23-24</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Internal Audit, Stewardship of UW Art, Science, and Special
+                            Library Collections, <unitdate>2002</unitdate></unittitle>
+                        <container type="box" label="Box">25</container>
+                        <container type="folder" label="Folder">1</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Johnson, Philip/Greene Museum Proposal,
+                                <unitdate>1999-2001</unitdate></unittitle>
+                        <container type="box" label="Box">25</container>
+                        <container type="folder" label="Folder">2</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Name Change, From UWM Art Museum to INOVA,
+                                <unitdate>1997</unitdate></unittitle>
+                        <container type="box" label="Box">25</container>
+                        <container type="folder" label="Folder">3</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Newsletters, <unitdate>1984-1994</unitdate></unittitle>
+                        <container type="box" label="Box">25</container>
+                        <container type="folder" label="Folder">4</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Permanent Collection, <unitdate>1973-1988</unitdate></unittitle>
+                        <container type="box" label="Box">25</container>
+                        <container type="folder" label="Folder">5</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Rosenberg Bequest and Collection,
+                            <unitdate>1974-1980</unitdate></unittitle>
+                        <container type="box" label="Box">25</container>
+                        <container type="folder" label="Folder">6</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Task Force on the Status and Future of the UWM Art Museum,
+                                <unitdate>1994-1996</unitdate></unittitle>
+                        <container type="box" label="Box">25</container>
+                        <container type="folder" label="Folder">7-8</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Volunteers, Handbook and Memorandum,
+                            <unitdate>1986</unitdate></unittitle>
+                        <container type="box" label="Box">25</container>
+                        <container type="folder" label="Folder">9</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Integrated Arts and Sciences Program Proposal,
+                            <unitdate>1972</unitdate></unittitle>
+                    <container type="box" label="Box">4</container>
+                    <container type="folder" label="Folder">26</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Inter-Arts Camp Projections, <unitdate>1971</unitdate></unittitle>
+                    <container type="box" label="Box">4</container>
+                    <container type="folder" label="Folder">27</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Inter-Institutional Agreements &amp; UW-Extension Arts Development,
+                            <unitdate>1980-1982</unitdate></unittitle>
+                    <container type="box" label="Box">20</container>
+                    <container type="folder" label="Folder">10</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>International Baccalaureate Diploma Programs,
+                            <unitdate>1998</unitdate></unittitle>
+                    <container type="box" label="Box">20</container>
+                    <container type="folder" label="Folder">11</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Jewish Art Lecture, <unitdate>1980</unitdate></unittitle>
+                    <container type="box" label="Box">9</container>
+                    <container type="folder" label="Folder">5</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Jewish Community's
+                        Sesquicentennial, <unitdate>1993-1994</unitdate></unittitle>
+                    <container type="box" label="Box">20</container>
+                    <container type="folder" label="Folder">12</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Kenilworth Building, <unitdate>1972-1975</unitdate></unittitle>
+                    <container type="box" label="Box">4</container>
+                    <container type="folder" label="Folder">29</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Knapp Bequest Committee, <unitdate>1965-1975</unitdate></unittitle>
+                    <container type="box" label="Box">4</container>
+                    <container type="folder" label="Folder">30</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Lectures Committee, <unitdate>1962-1976</unitdate></unittitle>
+                    <container type="box" label="Box">4</container>
+                    <container type="folder" label="Folder">31</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Lincoln Center for the Arts</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle>
+                            <unitdate>1979-1980</unitdate>
+                        </unittitle>
+                        <container type="box" label="Box">4</container>
+                        <container type="folder" label="Folder">32-33</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>
+                            <unitdate>1979-1984</unitdate>
+                        </unittitle>
+                        <container type="box" label="Box">20</container>
+                        <container type="folder" label="Folder">13-18</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle><title render="italic">Literature and the Other Arts</title>
+                        Symposium, <unitdate>1974</unitdate></unittitle>
+                    <container type="box" label="Box">4</container>
+                    <container type="folder" label="Folder">34</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Marketing Task Force, <unitdate>1996</unitdate></unittitle>
+                    <container type="box" label="Box">20</container>
+                    <container type="folder" label="Folder">19</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Martha Graham Dance Company, <unitdate>1970</unitdate></unittitle>
+                    <container type="box" label="Box">4</container>
+                    <container type="folder" label="Folder">35</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Master of Fine Arts Degree</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle>Planning Committee</unittitle>
+                    </did>
+                    <c03>
+                        <did>
+                            <unittitle>
+                                <unitdate>1973-1997</unitdate>
+                            </unittitle>
+                            <container type="box" label="Box">20</container>
+                            <container type="folder" label="Folder">20</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>
+                                <unitdate>1976</unitdate>
+                            </unittitle>
+                            <container type="box" label="Box">4</container>
+                            <container type="folder" label="Folder">36</container>
+                        </did>
+                    </c03>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Program Study, <unitdate>1977-1978</unitdate></unittitle>
+                        <container type="box" label="Box">20</container>
+                        <container type="folder" label="Folder">21</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Proposal Drafts</unittitle>
+                    </did>
+                    <c03>
+                        <did>
+                            <unittitle>
+                                <unitdate>1976-1977</unitdate>
+                            </unittitle>
+                            <container type="box" label="Box">20</container>
+                            <container type="folder" label="Folder">22-23</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>First Review by UW System Administration,
+                                <unitdate>1978</unitdate></unittitle>
+                            <container type="box" label="Box">21</container>
+                            <container type="folder" label="Folder">1</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>Miscellaneous Documentation,
+                                <unitdate>1976-1977</unitdate></unittitle>
+                            <container type="box" label="Box">21</container>
+                            <container type="folder" label="Folder">2</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>Submitted to UW System,
+                                <unitdate>1977-1978</unitdate></unittitle>
+                            <container type="box" label="Box">21</container>
+                            <container type="folder" label="Folder">3-4</container>
+                        </did>
+                    </c03>
+                </c02>
+
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Mayor's Council on the Arts,
+                        <unitdate>1965-1967</unitdate></unittitle>
+                    <container type="box" label="Box">4</container>
+                    <container type="folder" label="Folder">37</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Mayor's Task Force on Public Support for Cultural Organizations,
+                            <unitdate>1988-1990</unitdate></unittitle>
+                    <container type="box" label="Box">21</container>
+                    <container type="folder" label="Folder">5</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Merce Cunningham Dance Company Performance,
+                        <unitdate>1971</unitdate></unittitle>
+                    <container type="box" label="Box">4</container>
+                    <container type="folder" label="Folder">38</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Meredith Monk Dance Company Performance,
+                        <unitdate>1971</unitdate></unittitle>
+                    <container type="box" label="Box">4</container>
+                    <container type="folder" label="Folder">39</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Metropolitan Arts Council, <unitdate>1961-1965</unitdate></unittitle>
+                    <container type="box" label="Box">4</container>
+                    <container type="folder" label="Folder">40</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Metropolitan Arts Program</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle>
+                            <unitdate>1980-1985</unitdate>
+                        </unittitle>
+                        <container type="box" label="Box">21</container>
+                        <container type="folder" label="Folder">6-7</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Planning Document, <unitdate>1983-1984</unitdate></unittitle>
+                        <container type="box" label="Box">17</container>
+                        <container type="folder" label="Folder">1</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Milwaukee Artists Foundation,
+                        <unitdate>1982-1993</unitdate></unittitle>
+                    <container type="box" label="Box">21</container>
+                    <container type="folder" label="Folder">8-10</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Milwaukee Ballet Company</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle>
+                            <unitdate>1994-1995</unitdate>
+                        </unittitle>
+                        <container type="box" label="Box">21</container>
+                        <container type="folder" label="Folder">11</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Concert, <unitdate>1971</unitdate></unittitle>
+                        <container type="box" label="Box">4</container>
+                        <container type="folder" label="Folder">41</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Milwaukee County Radio and Television Council,
+                            <unitdate>1956-1964</unitdate></unittitle>
+                    <container type="box" label="Box">4</container>
+                    <container type="folder" label="Folder">42</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Milwaukee High School of the Arts,
+                        <unitdate>1984-2004</unitdate></unittitle>
+                    <container type="box" label="Box">21</container>
+                    <container type="folder" label="Folder">12</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Milwaukee Institute of Art and Design,
+                        <unitdate>1987-1998</unitdate></unittitle>
+                    <container type="box" label="Box">21</container>
+                    <container type="folder" label="Folder">13</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Milwaukee Public Schools</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle>
+                            <unitdate>1977-1998</unitdate>
+                        </unittitle>
+                        <container type="box" label="Box">21</container>
+                        <container type="folder" label="Folder">14</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Arts Specialty Schools Collaboration,
+                                <unitdate>1991-1992</unitdate></unittitle>
+                        <container type="box" label="Box">21</container>
+                        <container type="folder" label="Folder">15</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Milwaukee's Sesquicentennial,
+                        <unitdate>1995-1996</unitdate></unittitle>
+                    <container type="box" label="Box">21</container>
+                    <container type="folder" label="Folder">16</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Minority Programs, <unitdate>1972-1973</unitdate></unittitle>
+                    <container type="box" label="Box">4</container>
+                    <container type="folder" label="Folder">43</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Minority Retention, <unitdate>1968-1982</unitdate></unittitle>
+                    <container type="box" label="Box">4</container>
+                    <container type="folder" label="Folder">44</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Mitchell Hall Remodling, <unitdate>1974</unitdate></unittitle>
+                    <container type="box" label="Box">4</container>
+                    <container type="folder" label="Folder">45</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Music Opportunities Day, <unitdate>1972</unitdate></unittitle>
+                    <container type="box" label="Box">4</container>
+                    <container type="folder" label="Folder">46</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>National Association of Schools of Music Self-Survey
+                        Report</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle>1974</unittitle>
+                        <container type="box" label="Box">4</container>
+                        <container type="folder" label="Folder">47</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>1974</unittitle>
+                        <container type="box" label="Box">5</container>
+                        <container type="folder" label="Folder">1</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>National Conference of Fine Arts Deans,
+                        <unitdate>1965</unitdate></unittitle>
+                    <container type="box" label="Box">5</container>
+                    <container type="folder" label="Folder">2</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>National Council for Accreditation of Teacher Education Report,
+                            <unitdate>1973</unitdate></unittitle>
+                    <container type="box" label="Box">5</container>
+                    <container type="folder" label="Folder">3</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>National Dance Company of Senegal,
+                        <unitdate>1974-1980</unitdate></unittitle>
+                    <container type="box" label="Box">21</container>
+                    <container type="folder" label="Folder">17</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>National Invitational Crafts Symposium,
+                        <unitdate>1973</unitdate></unittitle>
+                    <container type="box" label="Box">5</container>
+                    <container type="folder" label="Folder">4</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>New American Cinema Proposal, <unitdate>1973</unitdate></unittitle>
+                    <container type="box" label="Box">5</container>
+                    <container type="folder" label="Folder">5</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Newsletter, <unitdate>1987-1988</unitdate></unittitle>
+                    <container type="box" label="Box">5</container>
+                    <container type="folder" label="Folder">6</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Nominating Committee</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle>
+                            <unitdate>1975-1982</unitdate>
+                        </unittitle>
+                        <container type="box" label="Box">5</container>
+                        <container type="folder" label="Folder">7</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle><unitdate>1976-1978</unitdate>, <unitdate>1983-1985</unitdate>, <unitdate>1991-1994</unitdate></unittitle>
+                        <container type="box" label="Box">21</container>
+                        <container type="folder" label="Folder">18</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Opera Theatre, <unitdate>1970-1971</unitdate></unittitle>
+                    <container type="box" label="Box">5</container>
+                    <container type="folder" label="Folder">8</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Parents' Weekend, <unitdate>1972-1974</unitdate></unittitle>
+                    <container type="box" label="Box">5</container>
+                    <container type="folder" label="Folder">9</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Pellman Theatre Proposal, <unitdate>1975-1976</unitdate></unittitle>
+                    <container type="box" label="Box">21</container>
+                    <container type="folder" label="Folder">19</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Peoples' Theatre Company, Personnel Matters, <unitdate>1976-1988</unitdate></unittitle>
+                    <container type="box" label="Box">27</container>
+                    <container type="folder" label="Folder">1-3</container>
+                </did>
+                <accessrestrict>
+                    <p>Restricted</p>
+                </accessrestrict>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Planning and Budget Document,
+                        <unitdate>1981-1982</unitdate></unittitle>
+                    <container type="box" label="Box">16</container>
+                    <container type="folder" label="Folder">3</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Planning Document</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle>
+                            <unitdate>1981-1991</unitdate>
+                        </unittitle>
+                        <container type="box" label="Box">5</container>
+                        <container type="folder" label="Folder">10-19</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle><unitdate>1982-1983</unitdate></unittitle>
+                        <container type="box" label="Box">16</container>
+                        <container type="folder" label="Folder">4</container>
+                    </did>
+                </c02>
+                                <c02>
+                    <did>
+                        <unittitle><unitdate>1983-1984</unitdate></unittitle>
+                        <container type="box" label="Box">16</container>
+                        <container type="folder" label="Folder">5</container>
+                    </did>
+                </c02>
+              
+                <c02>
+                    <did>
+                        <unittitle><unitdate>1995-1996</unitdate>, <unitdate>1994</unitdate></unittitle>
+                        <container type="box" label="Box">16</container>
+                        <container type="folder" label="Folder">6</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle><unitdate>1997-1998</unitdate></unittitle>
+                        <container type="box" label="Box">17</container>
+                        <container type="folder" label="Folder">2-3</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Posters, <unitdate>1959-1974</unitdate>,
+                            <unitdate>1980-1990</unitdate>, undated</unittitle>
+                    <container type="oversize" label="Oversize Folder">1</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Posters and Related Materials</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle><unitdate>1962-1971</unitdate></unittitle>
+                        <container type="box" label="Box">5</container>
+                        <container type="folder" label="Folder">20-29</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle><unitdate>1986-1989</unitdate></unittitle>
+                        <container type="box" label="Box">5</container>
+                        <container type="folder" label="Folder">21</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Professional Theatre Training Program Brochure,
+                            <unitdate>1989</unitdate></unittitle>
+                    <container type="box" label="Box">17</container>
+                    <container type="folder" label="Folder">4</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Program Committee, <unitdate>1970-1975</unitdate></unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">1</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Programming</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle>General Correspondence, 
+                            <unitdate>1987-1996</unitdate>
+                        </unittitle>
+                        <container type="box" label="Box">22</container>
+                        <container type="folder" label="Folder">1-3</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Great Artist Series Brochures,
+                            <unitdate>1988-1996</unitdate></unittitle>
+                        <container type="box" label="Box">22</container>
+                        <container type="folder" label="Folder">4-5</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Programming Committee, <unitdate>1966-1969</unitdate></unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">2</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Promotion and Tenure Committee,
+                        <unitdate>1965-1968</unitdate></unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">3</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Promotional Materials, <unitdate>1963-1970</unitdate></unittitle>
+                    <container type="box" label="Box">17</container>
+                    <container type="folder" label="Folder">5</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Proposals, <unitdate>1968-1972</unitdate></unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">4</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Proposals for Undergraduate Teaching Improvement Grants,
+                            <unitdate>1971-1972</unitdate></unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">5</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Publications, <unitdate>1966-1988</unitdate></unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">6</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Research Facilities Subcommittee,
+                        <unitdate>1981</unitdate></unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">7</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Roosevelt Middle School of the Arts,
+                        <unitdate>1986-1992</unitdate></unittitle>
+                    <container type="box" label="Box">22</container>
+                    <container type="folder" label="Folder">6</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Rules and Regulations of University of Wisconsin-Milwaukee and
+                        University of Wisconsin System, <unitdate>1958-1972</unitdate></unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">8</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Safety and Security, <unitdate>1985-1993</unitdate></unittitle>
+                    <container type="box" label="Box">22</container>
+                    <container type="folder" label="Folder">7</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>St. Louis Symphony Orchestra, <unitdate>1971</unitdate></unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">9</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Scholastic Appeals Committee</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle>
+                            <unitdate>1976-1981</unitdate>
+                        </unittitle>
+                        <container type="box" label="Box">6</container>
+                        <container type="folder" label="Folder">10</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>
+                            <unitdate>1984-1994</unitdate>
+                        </unittitle>
+                        <container type="box" label="Box">22</container>
+                        <container type="folder" label="Folder">8</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>School of Education, <unitdate>1971-1974</unitdate></unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">11</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>School of Fine Arts, Creation of,
+                        <unitdate>1963-1968</unitdate></unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">12</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Schoolwide Scheduling Committee,
+                        <unitdate>1996-1999</unitdate></unittitle>
+                    <container type="box" label="Box">22</container>
+                    <container type="folder" label="Folder">9</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Search and Screen Committee</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle>Assistant Professor of Cello Search,
+                            <unitdate>1979</unitdate></unittitle>
+                        <container type="box" label="Box">6</container>
+                        <container type="folder" label="Folder">13</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Assistant Professor of Film,
+                            <unitdate>1979</unitdate></unittitle>
+                        <container type="box" label="Box">6</container>
+                        <container type="folder" label="Folder">14</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Assistant Professor of Theory and Composition Search,
+                                <unitdate>1980</unitdate></unittitle>
+                        <container type="box" label="Box">6</container>
+                        <container type="folder" label="Folder">15</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Associate Dean Search, <unitdate>1974-1975</unitdate></unittitle>
+                        <container type="box" label="Box">6</container>
+                        <container type="folder" label="Folder">16</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Associate Professor Job Announcement, Forms A and B,
+                                <unitdate>1978</unitdate></unittitle>
+                        <container type="box" label="Box">6</container>
+                        <container type="folder" label="Folder">17</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Dean of Fine Arts,</unittitle>
+                    </did>
+                    <c03>
+                        <did>
+                            <unittitle><unitdate>1973-1974</unitdate></unittitle>
+                            <container type="box" label="Box">6</container>
+                            <container type="folder" label="Folder">18-19</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle><unitdate>1984-1985</unitdate></unittitle>
+                            <container type="box" label="Box">6</container>
+                            <container type="folder" label="Folder">20-22</container>
+                        </did>
+                    </c03>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Director of Bands Position Search,
+                            <unitdate>1978</unitdate></unittitle>
+                        <container type="box" label="Box">6</container>
+                        <container type="folder" label="Folder">23</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Film Department Chairperson Search,
+                                <unitdate>1975-1976</unitdate></unittitle>
+                        <container type="box" label="Box">6</container>
+                        <container type="folder" label="Folder">24</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Film Junior Faculty Position,
+                            <unitdate>1976-1979</unitdate></unittitle>
+                        <container type="box" label="Box">6</container>
+                        <container type="folder" label="Folder">25</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Music Therapy Position Search,
+                            <unitdate>1978</unitdate></unittitle>
+                        <container type="box" label="Box">6</container>
+                        <container type="folder" label="Folder">26</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Professor of String Pedagogy Search,
+                            <unitdate>1979</unitdate></unittitle>
+                        <container type="box" label="Box">6</container>
+                        <container type="folder" label="Folder">27</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Technical Director Job Announcement, Form A and B,
+                                <unitdate>1978</unitdate></unittitle>
+                        <container type="box" label="Box">6</container>
+                        <container type="folder" label="Folder">28</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Security Committee, <unitdate>1978</unitdate></unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">29</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Signs for Fine Arts Facilities,
+                        <unitdate>1985-1997</unitdate></unittitle>
+                    <container type="box" label="Box">22</container>
+                    <container type="folder" label="Folder">10</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>State Arts Festival, <unitdate>1965-1966</unitdate></unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">30</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Stowell House, <unitdate>1972-1973</unitdate></unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">31</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Student Services, <unitdate>1972-1975</unitdate></unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">32-33</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Student Strike, <unitdate>1970</unitdate></unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">34</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Summer Arts Festival</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle><unitdate>1961-1971</unitdate></unittitle>
+                        <container type="box" label="Box">15</container>
+                        <container type="folder" label="Folder">1-9</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>
+                            <unitdate>1971-1974</unitdate>
+                        </unittitle>
+                        <container type="box" label="Box">6</container>
+                        <container type="folder" label="Folder">35-39</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Summer Evenings of Music, <unitdate>1955-1971</unitdate></unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">40</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Sunday Evenings of Music, <unitdate>1968-1973</unitdate></unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">41-42</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Suppan, Adolph, Dean Emeritus, <unitdate>1979</unitdate></unittitle>
+                    <container type="box" label="Box">22</container>
+                    <container type="folder" label="Folder">11</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Symphony on Campus Week, <unitdate>1972</unitdate></unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">43</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Syllabi</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle>Arts Alive Course 370-101,
+                            <unitdate>1992-1998</unitdate></unittitle>
+                        <container type="box" label="Box">22</container>
+                        <container type="folder" label="Folder">12</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Fine Arts at UWM Course 270-189,
+                            <unitdate>1995-2001</unitdate></unittitle>
+                        <container type="box" label="Box">22</container>
+                        <container type="folder" label="Folder">13</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Task Force for Long Range Planning</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle>
+                            <unitdate>1975</unitdate>
+                        </unittitle>
+                        <container type="box" label="Box">7</container>
+                        <container type="folder" label="Folder">1</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Dean's Notes, <unitdate>1975</unitdate></unittitle>
+                        <container type="box" label="Box">22</container>
+                        <container type="folder" label="Folder">14</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Technology Committee, <unitdate>1992-1998</unitdate></unittitle>
+                    <container type="box" label="Box">22</container>
+                    <container type="folder" label="Folder">15</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Technology Research Plan, <unitdate>1994-1995</unitdate></unittitle>
+                    <container type="box" label="Box">22</container>
+                    <container type="folder" label="Folder">16-17</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Tenth Anniversary, <unitdate>1973</unitdate></unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">2-3</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Ten-Year Academic Program Intentions,
+                        <unitdate>1972-1974</unitdate></unittitle>
+                    <container type="box" label="Box">22</container>
+                    <container type="folder" label="Folder">18</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>
+                        <title render="italic">Ten Years: Ten Artists, </title>
+                        <unitdate>1973</unitdate>
+                    </unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">4</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Theatre of Color, <unitdate>1997-2001</unitdate></unittitle>
+                    <container type="box" label="Box">22</container>
+                    <container type="folder" label="Folder">19</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Thirtieth Anniversary, <unitdate>1991-1992</unitdate></unittitle>
+                    <container type="box" label="Box">23</container>
+                    <container type="folder" label="Folder">1-2</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Twenty-Fifth Anniversary, <unitdate>1987-1988</unitdate></unittitle>
+                    <container type="box" label="Box">23</container>
+                    <container type="folder" label="Folder">3</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Undergraduate Committee Minutes,
+                        <unitdate>1971-1973</unitdate></unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">5</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>University Arts Council</unittitle>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle>All Campus Arts Festival,
+                            <unitdate>1969-1970</unitdate></unittitle>
+                        <container type="box" label="Box">7</container>
+                        <container type="folder" label="Folder">6</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Arts Resources Survey, <unitdate>1966-1967</unitdate></unittitle>
+                        <container type="box" label="Box">7</container>
+                        <container type="folder" label="Folder">7</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Correspondence, <unitdate>1966-1968</unitdate></unittitle>
+                        <container type="box" label="Box">7</container>
+                        <container type="folder" label="Folder">8</container>
+                    </did>
+                </c02>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>University Arts Council Newsletter,
+                        <unitdate>1966-1971</unitdate></unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">9-11</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>University Ballet, <unitdate>1974</unitdate></unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">12</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>University Ballet Concert, <unitdate>1972</unitdate></unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">13</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>University Committee, <unitdate>1971-1973</unitdate></unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">14</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>University Extension, <unitdate>1967-1975</unitdate></unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">15-16</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>University Honors Program, <unitdate>1981-1984</unitdate></unittitle>
+                    <container type="box" label="Box">23</container>
+                    <container type="folder" label="Folder">4</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>University of Wisconsin System Correspondence,
+                            <unitdate>1972-1975</unitdate></unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">17</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>University of Wisconsin System Policies,
+                            <unitdate>1972-1973</unitdate></unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">18</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Urban Planning Master's Degree Proposal,
+                        <unitdate>1973</unitdate></unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">19</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Urban Services, <unitdate>1971-1972</unitdate></unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">20</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Vanderbeek Workshop, <unitdate>1970</unitdate></unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">21</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Very Special Arts Wisconsin,
+                        <unitdate>1986-1990</unitdate></unittitle>
+                    <container type="box" label="Box">23</container>
+                    <container type="folder" label="Folder">5</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Vilas Festival of Music, <unitdate>1969-1970</unitdate></unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">22</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Vilas String Quartet, <unitdate>1971-1973</unitdate></unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">23</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Welcome Week/Fall Orientation Activities,
+                            <unitdate>1995-1999</unitdate></unittitle>
+                    <container type="box" label="Box">23</container>
+                    <container type="folder" label="Folder">6</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Wisconsin Art Education Association,
+                        <unitdate>1972</unitdate></unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">24</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Wisconsin Artists Calendars,
+                        <unitdate>1936-1938</unitdate></unittitle>
+                    <container type="box" label="Box">8</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Wisconsin Painters and Sculptors Exhibition,
+                            <unitdate>1972</unitdate></unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">25</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Wisconsin Press Photographers Association/Alfred Eisenstaedt Show,
+                            <unitdate>1972</unitdate></unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">26</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Women in the Arts Celebration/Wisconsin Women in the Arts
+                        Organization, <unitdate>1972-1974</unitdate></unittitle>
+                    <container type="box" label="Box">23</container>
+                    <container type="folder" label="Folder">7</container>
+                </did>
+            </c01>
+            <c01>
+                <did>
+                    <unittitle>Workshops, <unitdate>1970-1973</unitdate></unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">27</container>
+                </did>
+            </c01>
+        </dsc>
+    </archdesc>
+</ead>
