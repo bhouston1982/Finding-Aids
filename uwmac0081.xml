@@ -34,6 +34,9 @@
                     langcode="eng" scriptcode="Latn">English.</language></langusage>
         </profiledesc>
         <revisiondesc>
+            <change><date normal="2016-10-13">October 13, 2016</date><item>Brad Houston added accession 2016-008 to the collection. Changes were made to
+                    titleproper, unittitle, extent, arrangement, relatedmaterial, phystech, acqinfo,
+                processinfo, and the contents list.</item>
             <change>
                 <date>June 23, 2016</date>
                 <item>Brad Houston updated the finding aid to reflect some additional changes in
@@ -2981,6 +2984,376 @@
                     <container type="box" label="Box">7</container>
                     <container type="folder" label="Folder">27</container>
                 </did>
+            </c01>
+            <c01 level="otherlevel" otherlevel="minimal" id="acc2016-008">
+                <did>
+                    <unitid>Accession 2016-008</unitid>
+                    <unittitle>Planning Documents, Program Review and Accreditation Files, and
+                        Subject Files, <unitdate>1978-2016</unitdate></unittitle>
+                    <physdesc>
+                        <extent>16.4 cubic ft. (17 boxes) and 20 digital text files (0.336
+                            MB)</extent>
+                    </physdesc>
+                    <abstract>The accession includes budget and planning documents for Peck School
+                        of the Arts as a whole, individual program review files for the constituent
+                        departments of PSOA (Art, Performing Arts, Dance, Music, Film, and Theatre),
+                        as well as subject files on issues of particular interest to the dean, such
+                        as the 2012-2013 Year of the Arts celebration, the construction and
+                        renovation of the Kenilworth Square building, publicity for the Fine Arts
+                        Quartet and Summer Evenings of Music, and the School's relationship with the
+                        Slovenian Arts Council. Of interest in the budget files is the School's
+                        official response to the 2009-2010 state budget crisis.</abstract>
+                </did>
+                <c02>
+                    <did>
+                        <unittitle>Planning and Budget Documents</unittitle>
+                    </did>
+                    <c03>
+                        <did>
+                            <unittitle>
+                                <unitdate>1981-1995</unitdate>
+                            </unittitle>
+                            <container type="box" label="Box">1</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>
+                                <unitdate>1988-1993</unitdate>
+                            </unittitle>
+                            <container type="box" label="Box">2</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>
+                                <unitdate>1993-1996</unitdate>
+                            </unittitle>
+                            <container type="box" label="Box">3</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>
+                                <unitdate>1996-1998</unitdate>
+                            </unittitle>
+                            <container type="box" label="Box">4</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>
+                                <unitdate>1998-2001</unitdate>
+                            </unittitle>
+                            <container type="box" label="Box">5</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>
+                                <unitdate>2000-2004</unitdate>
+                            </unittitle>
+                            <container type="box" label="Box">6</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>
+                                <unitdate>2003-2008</unitdate>
+                            </unittitle>
+                            <container type="box" label="Box">7</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>
+                                <unitdate>2008-2014</unitdate>
+                            </unittitle>
+                            <container type="box" label="Box">8</container>
+                        </did>
+                    </c03>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Program Reviews and Accreditation</unittitle>
+                    </did>
+                    <c03>
+                        <did>
+                            <unittitle>Art, Graduate and Undergraduate,
+                                    <unitdate>1978-2013</unitdate></unittitle>
+                            <container type="box" label="Box">9</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>Dance, Graduate and Undergraduate,
+                                    <unitdate>1978-2012</unitdate></unittitle>
+                            <container type="box" label="Box">10</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>Performing Arts MFA,
+                                <unitdate>1978-1998</unitdate></unittitle>
+                            <container type="box" label="Box">10</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>Film, Graduate and Undergraduate,
+                                    <unitdate>1974-2005</unitdate></unittitle>
+                            <container type="box" label="Box">10</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>Inter-Arts BFA, <unitdate>1985</unitdate></unittitle>
+                            <container type="box" label="Box">11</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>Music, Graduate and Undergraduate,
+                                <unitdate>1977</unitdate></unittitle>
+                            <container type="box" label="Box">11</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>National Academy of Schools of Music (NASM) Music
+                                Accreditation Review, <unitdate>1988-2013</unitdate></unittitle>
+                            <container type="box" label="Box">12</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>Theatre, Undergraduate,
+                                <unitdate>1998-2007</unitdate></unittitle>
+                            <container type="box" label="Box">12</container>
+                        </did>
+                    </c03>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Subject Files</unittitle>
+                    </did>
+                    <c03>
+                        <did>
+                            <unittitle>Alumni Association</unittitle>
+                        </did>
+
+                        <c04>
+                            <did>
+                                <unittitle>Asawa, Ruth, PSOA Distinguished Alumna,
+                                        <unitdate>1998</unitdate></unittitle>
+                                <container type="box" label="Box">12</container>
+                            </did>
+                        </c04>
+                        <c04>
+                            <did>
+                                <unittitle>PSOA Alumni Awards,
+                                    <unitdate>1996-2012</unitdate></unittitle>
+                                <container type="box" label="Box">12</container>
+                            </did>
+                        </c04>
+                        <c04>
+                            <did>
+                                <unittitle>PSOA Alumni Board and Events,
+                                        <unitdate>1995-1998</unitdate></unittitle>
+                                <container type="box" label="Box">12</container>
+                            </did>
+                        </c04>
+                        <c04>
+                            <did>
+                                <unittitle>UWM Alumni College,
+                                    <unitdate>undated</unitdate></unittitle>
+                                <container type="box" label="Box">13</container>
+                            </did>
+                        </c04>
+                        <c04>
+                            <did>
+                                <unittitle>UWM Alumni Event, "Backstage at Zelazo,"
+                                        <unitdate>2002</unitdate></unittitle>
+                                <container type="box" label="Box">13</container>
+                            </did>
+                        </c04>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>Dean's Advisory Council,
+                                <unitdate>1986-1989</unitdate></unittitle>
+                            <container type="box" label="Box">13</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>Design Research Institute,
+                                <unitdate>2011</unitdate></unittitle>
+                            <container type="box" label="Box">13</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>Facilities, <unitdate>1988-2010</unitdate></unittitle>
+                            <container type="box" label="Box">13</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>Fine Arts Quartet</unittitle>
+                        </did>
+                        <c04>
+                            <did>
+                                <unittitle>Announcements, Flyers, Photos,
+                                        <unitdate>1980-2016</unitdate></unittitle>
+                                <container type="box" label="Box">13</container>
+                            </did>
+                        </c04>
+                        <c04>
+                            <did>
+                                <unittitle>Clippings and Articles,
+                                    <unitdate>1980-2016</unitdate></unittitle>
+                                <container type="box" label="Box">14</container>
+                            </did>
+                        </c04>
+                        <c04>
+                            <did>
+                                <unittitle>Clippings and Programs,
+                                    <unitdate>1980-2016</unitdate></unittitle>
+                                <container type="box" label="Box">14</container>
+                            </did>
+                        </c04>
+                        <c04>
+                            <did>
+                                <unittitle>Press Releases,
+                                    <unitdate>1980-2016</unitdate></unittitle>
+                                <container type="box" label="Box">14</container>
+                            </did>
+                        </c04>
+                        <c04>
+                            <did>
+                                <unittitle>Programs, <unitdate>1984-2008</unitdate></unittitle>
+                                <container type="box" label="Box">14</container>
+                            </did>
+                        </c04>
+                        <c04>
+                            <did>
+                                <unittitle>Season Brochures,
+                                    <unitdate>1984-2008</unitdate></unittitle>
+                                <container type="box" label="Box">14</container>
+                            </did>
+                        </c04>
+                        <c04>
+                            <did>
+                                <unittitle>Season Brochures for Summer Evenings of Music,
+                                        <unitdate>1980-2015</unitdate></unittitle>
+                                <container type="box" label="Box">14</container>
+                            </did>
+                        </c04>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>Graduation Convocation Programs,
+                                    <unitdate>2006-2016</unitdate></unittitle>
+                            <container type="box" label="Box">14</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>Grand Viennese Ball,
+                                <unitdate>1979-2008</unitdate></unittitle>
+                            <container type="box" label="Box">14</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>Homecoming, UWM, <unitdate>2003-2004</unitdate></unittitle>
+                            <container type="box" label="Box">14</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>Kenilworth Open Studios,
+                                <unitdate>2007-2012</unitdate></unittitle>
+                            <container type="box" label="Box">14</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>Kenilworth Square East Project Redevelopment Files,
+                                    <unitdate>2000-2007</unitdate></unittitle>
+                            <container type="box" label="Box">15</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>LGBT Film Festival Brochures,
+                                <unitdate>1995-2015</unitdate></unittitle>
+                            <container type="box" label="Box">15</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>Neighborhood Block Party, UWM,
+                                <unitdate>2000</unitdate></unittitle>
+                            <container type="box" label="Box">15</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>Open House, UWM, <unitdate>1995-2012</unitdate></unittitle>
+                            <container type="box" label="Box">15</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>PSOA Pre-College Summer Arts Camp/Teen University,
+                                    <unitdate>2001-2002</unitdate></unittitle>
+                            <container type="box" label="Box">16</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>Showdown at Turner Hall,
+                                <unitdate>2004</unitdate></unittitle>
+                            <container type="box" label="Box">16</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>Slovenian Arts Council,
+                                <unitdate>1983-2008</unitdate></unittitle>
+                            <container type="box" label="Box">16</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>Spatial City Exhibit,
+                                <unitdate>2009-2010</unitdate></unittitle>
+                            <container type="box" label="Box">16</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>Ventilation Assessment and Health and Safety Report, Art
+                                Building, <unitdate>1992-1999</unitdate></unittitle>
+                            <container type="box" label="Box">16</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>Vilas Trust Grants,
+                                <unitdate>1973-2013</unitdate></unittitle>
+                            <container type="box" label="Box">17</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>Year of the Arts, <unitdate>2012-2013</unitdate></unittitle>
+                            <container type="box" label="Box">17</container>
+                        </did>
+                    </c03>
+                </c02>
             </c01>
         </dsc>
     </archdesc>
