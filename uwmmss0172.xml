@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ascii"?>
- <!--<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] >--> 
+<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
 <!-- wiarchives version:2009-09-24 -->
 <ead id="uw-mil-uwmmss0172" relatedencoding="MARC21">
   <eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
@@ -11,7 +11,7 @@
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Finding Aid of the Society of American Archivists
-          Records, 1935-2014</titleproper>
+          Records, 1935-2016</titleproper>
         <author encodinganalog="245$c">Michael Doylen</author>
       </titlestmt>
       <publicationstmt>
@@ -23,8 +23,7 @@
           <addressline>Archives Department</addressline>
           <addressline>P.O. Box 604</addressline>
           <addressline>Milwaukee, Wisconsin 53201-0604</addressline>
-          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr
-              href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
+          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
         </address>
         <date encodinganalog="260$c" type="publication" normal="2008">Copyright &#169; 2008
           University of Wisconsin Board of Regents</date>
@@ -36,6 +35,12 @@
           langcode="eng" scriptcode="Latn">English.</language></langusage>
     </profiledesc>
     <revisiondesc>
+      <change encodinganalog="583">
+        <date normal="2016-10-13">October 13, 2016</date>
+        <item>Brad Houston updated the finding aid to reflect addition of the SAA Oral History
+          Project Administrative files. Changes were made to extent, titleproper, unitdate,
+          processinfo, otherfindaid, phystech, and the contents list (Series 8.3).</item>
+      </change>
       <change encodinganalog="583">
         <date normal="2016-08-25">August 25, 2016</date>
         <item>Christel Maass updated the extent.</item>
@@ -150,8 +155,8 @@
     <did>
       <physloc type="locationcode" audience="internal">wimiugma</physloc>
       <unittitle encodinganalog="245$a">Society of American Archivists Records, <unitdate
-          type="inclusive" encodinganalog="245$f" normal="1935/2014"
-        >1935-2014</unitdate></unittitle>
+          type="inclusive" encodinganalog="245$f" normal="1935/2016"
+        >1935-2016</unitdate></unittitle>
       <origination label="Creator">
         <corpname encodinganalog="110">Society of American Archivists</corpname>
       </origination>
@@ -168,10 +173,12 @@
       <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
         >Accession 2015-015</unitid>
       <physdesc label="Quantity">
-        <extent encodinganalog="300">271.9 cubic ft. (385 boxes, including 16 audio cassettes and 33 videocassettes)</extent>
+        <extent encodinganalog="300">271.9 cubic ft. (385 boxes, including 16 audio cassettes and 33
+          videocassettes)</extent>
         <extent encodinganalog="300">1 oversize folder</extent>
         <extent encodinganalog="300">463 digital audio files (11.6 GB)</extent>
         <extent encodinganalog="300">321 digital video files (428 MB)</extent>
+        <extent encodinganalog="300">154 other digital files (544 MB)</extent>
         <extent encodinganalog="300">1 film reel</extent>
         <extent encodinganalog="300">5 microfilm reels</extent>
         <extent encodinganalog="300">approximately 170 books and serial titles</extent>
@@ -1121,10 +1128,13 @@
       </list>
     </arrangement>
     <otherfindaid encodinganalog="555">
-      <p>A spreadsheet with file-level information on the electronic records is available in the
-        Archives department. The spreadsheet contains information on approximate date of recording,
-        duration of recording, image size, file format, file size, and software used to create the
-        files. Additional technical metadata is available; see an archivist for details.</p>
+      <p>A spreadsheet with file-level information on the electronic records in series 8.3 and 9.3
+        is available in the Archives department. For Series 9.3, the spreadsheet contains
+        information on approximate date of recording, duration of recording, image size, file
+        format, file size, and software used to create the files. For Series 8.3, the spreadsheet
+        contains information on document titles, authors, file format, file size, and approximate
+        date of creation. Additional technical metadata is available; see an archivist for
+        details.</p>
     </otherfindaid>
     <prefercite encodinganalog="524">
       <p>
@@ -1133,16 +1143,23 @@
           >Citation Guide for Primary Sources</extref>
       </p>
     </prefercite>
-    <phystech encodinganalog="532">
-      <p>As of June 10, 2013, all electronic files were accessible on a Intel Core 2 Duo CPU (2.33
-        GHz, 1.95 GB RAM) running Windows XP Professional Version 2002, with Service Pack 3.
-        Software used to access the files includes Windows Picture and Fax Viewer and Windows Media
-        Player.</p>
+    <phystech audience="internal" encodinganalog="532">
+      <p>As of October 10, 2016, all electronic files were accessible on a all electronic files were
+        accessible on an Intel Core i5-4570 CPU (3.20 GHz, 4 GB RAM) running Windows 7 Enterprise
+        with service pack 1. Software used to access the files includes Windows Picture and Fax
+        Viewer, Adobe Reader, Windows Notepad, LibreOffice, and Windows Media Player.</p>
       <p>The collection includes records in the following file formats:</p>
       <list type="marked">
         <item>MPEG 1/2 Audio Layer 3 [.mp3]</item>
         <item>Graphic Interchange Format 89a [.gif]</item>
         <item>Hypertext Markup Language [.html]</item>
+        <item>Portable Document Format [.pdf]</item>
+        <item>Rich Text Format [.rtf]</item>
+        <item>Microsoft Word for Windows [.docx]</item>
+        <item>Microsoft Word 97-2003 [.doc]</item>
+        <item>QuickTime for Windows [.mov]</item>
+        <item>Microsoft Excel 97-2003 [.xls]</item>
+        <item>Windows Media Video [.wmv]</item>
       </list>
     </phystech>
     <relatedmaterial encodinganalog="544 1">
@@ -1247,11 +1264,15 @@
       <processinfo encodinganalog="583">
         <p>Detailed information about processing is available upon request.</p>
       </processinfo>
-      <processinfo>
+      <processinfo audience="internal">
         <head>Preservation Information</head>
         <p>During processing, digital audio files in .mp3 format originally received on CDs were
           copied to network storage and now serve as preservation master and access copies. The
           original CDs were discarded.</p>
+        <p>During processing of administrative files from the SAA Oral History project, files were
+          migrated to preservation formats using the National Archives of Australia's XENA digital
+          preservation software. Files in their original formats will serve as the access
+          copies.</p>
       </processinfo>
     </descgrp>
     <dsc type="combined">
@@ -1259,13 +1280,15 @@
       <c01 level="otherlevel" otherlevel="processed" id="uwmmss0172">
         <did>
           <unitid>UWM Manuscript Collection 172</unitid>
-          <unittitle>Records, <unitdate type="inclusive" normal="1935/2014"
-            >1935-2014</unitdate></unittitle>
+          <unittitle>Records, <unitdate type="inclusive" normal="1935/2016"
+            >1935-2016</unitdate></unittitle>
           <physdesc>
-            <extent encodinganalog="300">271.9 cubic ft. (385 boxes, including 16 audio cassettes and 33 videocassettes)</extent>
+            <extent encodinganalog="300">271.9 cubic ft. (385 boxes, including 16 audio cassettes
+              and 33 videocassettes)</extent>
             <extent encodinganalog="300">1 oversize folder</extent>
             <extent encodinganalog="300">463 digital audio files (11.6 GB)</extent>
             <extent encodinganalog="300">321 digital video files (428 MB)</extent>
+            <extent encodinganalog="300">154 other digital files (544 MB)</extent>
             <extent encodinganalog="300">1 film reel</extent>
             <extent encodinganalog="300">5 microfilm reels</extent>
             <extent encodinganalog="300">approximately 170 books and serial titles</extent>
@@ -45787,9 +45810,10 @@
                   reports, newsletters and other publications relating to the work of the section.
                   Researchers should also consult the records of the executive director, who
                   receives section reports.</p>
-                <p>From 2009 to 2012, the Oral History Section created a series of interviews as part of the SAA 75th
-                  Anniversary Oral History Project. These interviews, along with previous oral histories, can be found under
-                  the Oral History Section records.</p>
+                <p>From 2009 to 2012, the Oral History Section created a series of interviews as
+                  part of the SAA 75th Anniversary Oral History Project. These interviews, along
+                  with previous oral histories, can be found under the Oral History Section
+                  records.</p>
               </scopecontent>
               <scopecontent>
                 <head>Web Collection</head>
@@ -47151,7 +47175,7 @@
             </c04>
             <c04>
               <did>
-                <unittitle>Oral History Section, 1983-2014</unittitle>
+                <unittitle>Oral History Section, 1983-2016</unittitle>
               </did>
               <c05>
                 <did>
@@ -47169,7 +47193,8 @@
               </c05>
               <c05>
                 <did>
-                  <unittitle>Oral History Interviews of the SAA Oral History Past Presidents Series, <unitdate>2014</unitdate></unittitle>
+                  <unittitle>Oral History Interviews of the SAA Oral History Past Presidents Series,
+                      <unitdate>2014</unitdate></unittitle>
                 </did>
                 <c06>
                   <did>
@@ -47975,7 +48000,48 @@
                       </physdesc>
                     </did>
                   </c07>
-                </c06>              
+                </c06>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>SAA Oral History Project Administrative Files</unittitle>
+                </did>
+                <c06>
+                  <did>
+                    <unittitle>Correspondence, <unitdate>2010-2013</unitdate></unittitle>
+                    <container type="electronic" label="Electronic Folder"/>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Final Draft Transcripts, <unitdate>2016</unitdate></unittitle>
+                    <container type="electronic" label="Electronic Folder"/>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Project Manual, <unitdate>2010-2015</unitdate></unittitle>
+                    <container type="electronic" label="Electronic Folder"/>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Promo Reel, <unitdate>2010</unitdate></unittitle>
+                    <container type="electronic" label="Electronic Folder"/>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Reports and Budgets, <unitdate>2010-2012</unitdate></unittitle>
+                    <container type="electronic" label="Electronic Folder"/>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Soundbytes, <unitdate>2015</unitdate></unittitle>
+                    <container type="electronic" label="Electronic Folder"/>
+                  </did>
+                </c06>
               </c05>
             </c04>
             <c04>
