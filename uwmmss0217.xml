@@ -1,0 +1,2443 @@
+<?xml version="1.0" encoding="ascii"?>
+<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
+<!-- wiarchives version:2009-04-02 -->
+<ead id="uw-mil-uwmmss0217" relatedencoding="MARC21">
+  <eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
+    dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924"
+    relatedencoding="MARC21">
+    <eadid countrycode="US" mainagencycode="wimiugma"
+      url="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmmss0217"
+      encodinganalog="856$u">uw-mil-uwmmss0217</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245$a">Finding Aid of the More Than One Struggle Oral History
+          Project Records, 1939-2004, bulk 1995-1996</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="260$b">University of Wisconsin-Milwaukee Libraries, Archives
+          Department</publisher>
+        <address>
+          <addressline>University of Wisconsin-Milwaukee</addressline>
+          <addressline>UWM Libraries</addressline>
+          <addressline>Archives Department</addressline>
+          <addressline>P.O. Box 604</addressline>
+          <addressline>Milwaukee, Wisconsin 53201-0604</addressline>
+          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr
+              href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
+        </address>
+        <date encodinganalog="260$c" type="publication" normal="2007">Copyright &#169; 2007
+          University of Wisconsin Board of Regents</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation encodinganalog="500">Finding aid encoded by Dan Vinson</creation>
+      <langusage encodinganalog="546">Finding aid written in <language encodinganalog="041"
+          langcode="eng" scriptcode="Latn">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change encodinganalog="583">
+        <date normal="2011-12-02">January 7, 2016</date>
+        <item>Charles Hosale updated the finding aid, renumbering the cassettes in box 8 to follow a
+          single numerical order continuing from the last number in box 7. Also updated links to
+          digitized records in the March on Milwaukee CONTENTdm digital collection following the
+          relaunch of that website.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2011-12-02">December 2, 2011</date>
+        <item>Ellen Engseth updated the finding aid, adding the interview abstracts that were
+          written by archivists in 2011 to provide additional description.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2011-06-29">June 29, 2011</date>
+        <item>Christel Maass updated the finding aid, changing "abstract" to "transcript" in the
+          contents list.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2011-06-22">June 22, 2011</date>
+        <item>Ellen Engseth updated the finding aid, adding the Annette Polly Williams transcript
+          and a recording.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2010-07-29">July 29, 2010</date>
+        <item>Christel Maass updated the finding aid, adding an altformavail note and links to the
+          March on Milwaukee digital collection.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="collection" relatedencoding="MARC21">
+    <did>
+      <physloc type="locationcode" audience="internal">wimiugma</physloc>
+      <unittitle encodinganalog="245$a">More Than One Struggle Oral History Project Records,
+          <unitdate type="inclusive" encodinganalog="245$f" normal="1939/2004"
+          >1939-2004</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1995/1996">bulk
+          1995-1996</unitdate></unittitle>
+      <origination label="Creator">
+        <persname encodinganalog="100">Dougherty, Jack</persname>
+      </origination>
+      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
+        >UWM Manuscript Collection 217</unitid>
+      <physdesc label="Quantity">
+        <extent encodinganalog="300">4.1 cubic ft. (8 boxes)</extent>
+      </physdesc>
+      <repository encodinganalog="852">
+        <extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
+          title="University of Wisconsin-Milwaukee Logo." role="logoimage"/>
+        <extref href="http://www.uwm.edu/Libraries/arch/index.html">
+          <corpname>University of Wisconsin-Milwaukee Libraries, Archives Department</corpname>
+        </extref>
+      </repository>
+      <abstract encodinganalog="520">Collection consists of oral history interviews conducted by
+        Jack Dougherty during the course of researching his book <title render="italic">More Than
+          One Struggle: The Evolution of Black School Reform in Milwaukee</title>. The oral
+        histories consist of audio cassettes, transcripts, correspondence with interviewees, and
+        post-interview notes. The collection also contains Dougherty's research files on related
+        subjects.</abstract>
+      <langmaterial encodinganalog="546" label="Language">
+        <language encodinganalog="041" langcode="eng">English</language>
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="545">
+      <p>While researching his dissertation on African American school reform and activism from the
+        1930s to the 1990s in Milwaukee, Wisconsin, Jack Dougherty conducted over sixty-five oral
+        history interviews. Most were recorded during the summers of 1995 and 1996, and transcribed
+        within the following year or two. Portions of these stories were included in his book,
+          <title render="italic">More Than One Struggle: The Evolution of Black School Reform in
+          Milwaukee</title>.</p>
+      <p>The oral history project sought to interview and document African Americans who engaged in
+        one or more K-12 school reform movements from the 1930s to the 1990s. Interviewees included
+        individuals who represented different perspectives on the school reform movement due to
+        gender or position within the organization (leading spokesperson versus ordinary
+        participants). Detailed information about Dougherty's interview process, the impact of these
+        interviews on his writing, and similar matters is contained in series 2, in a folder titled
+        "Project Background." This folder also contains detailed information about topics discussed
+        in each interview.</p>
+      <p>Although the interviews played a significant role in shaping Dougherty's understanding of
+        African American school reform and activism, excerpts from the interviews appear
+        infrequently in the published work. Thus the collection contains a wealth of information to
+        support original research into and writing about this topic.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>Scope and content notes of each series are included in the contents list.</p>
+    </scopecontent>
+    <arrangement encodinganalog="351">
+      <p>The records are arranged into the following series:</p>
+      <list type="ordered" numeration="arabic">
+        <item>
+          <ref target="series1" show="replace" actuate="onrequest">Oral History Interviews,
+            1995-1996</ref>
+        </item>
+        <item>
+          <ref target="series2" show="replace" actuate="onrequest">Research Files, 1939-2004</ref>
+        </item>
+      </list>
+      <p>The files are organized alphabetically within each series.</p>
+    </arrangement>
+    <prefercite encodinganalog="524">
+      <p>
+        <extref
+          href="http://uwm.edu/libraries/archives/research/citation-guide-for-primary-sources/"
+          >Citation Guide for Primary Sources</extref>
+      </p>
+    </prefercite>
+    <altformavail encodinganalog="530">
+      <head>Alternate Format</head>
+      <p>Selections from this collection are included in the UWM Libraries' digital collection
+          <extref href="http://www4.uwm.edu/libraries/digilib/march/index.cfm" actuate="onrequest"
+          show="new">
+          <title>The March On Milwaukee: Civil Rights History Project</title>.</extref>
+      </p>
+    </altformavail>
+    <relatedmaterial encodinganalog="544 1">
+      <head>Related Material in the UWM Libraries</head>
+      <archref href="http://arcat.library.wisc.edu/cgi-bin/Pwebrecon.cgi?BBID=302"
+        actuate="onrequest" show="new">
+        <unittitle>Congress of Racial Equality Milwaukee Chapter Records</unittitle>
+        <unitid>Milwaukee Manuscript Collection 27</unitid>
+      </archref>
+      <archref href="http://arcat.library.wisc.edu/cgi-bin/Pwebrecon.cgi?BBID=497"
+        actuate="onrequest" show="new">
+        <unittitle>James Groppi Papers</unittitle>
+        <unitid>Milwaukee Manuscript Collection EX</unitid>
+        <unitid>Milwaukee Tape 5</unitid>
+      </archref>
+      <archref href="http://arcat.library.wisc.edu/cgi-bin/Pwebrecon.cgi?BBID=3218"
+        actuate="onrequest" show="new">
+        <unittitle>Lloyd A. Barbee Papers</unittitle>
+        <unitid>Milwaukee Manuscript Collection 16</unitid>
+        <unitid>Milwaukee Micro Collection 42</unitid>
+      </archref>
+      <archref href="http://arcat.library.wisc.edu/cgi-bin/Pwebrecon.cgi?BBID=803"
+        actuate="onrequest" show="new">
+        <unittitle>Milwaukee United School Integration Committee Records</unittitle>
+        <unitid>Milwaukee Manuscript Collection 5</unitid>
+      </archref>
+      <archref href="http://arcat.library.wisc.edu/cgi-bin/Pwebrecon.cgi?BBID=804"
+        actuate="onrequest" show="new">
+        <unittitle>Milwaukee Urban League Records</unittitle>
+        <unitid>Milwaukee Manuscript Collection EZ</unitid>
+        <unitid>Milwaukee Micro Collection 20</unitid>
+        <unitid>Milwaukee Tape 6</unitid>
+      </archref>
+      <archref href="http://arcat.library.wisc.edu/cgi-bin/Pwebrecon.cgi?BBID=864"
+        actuate="onrequest" show="new">
+        <unittitle>National Association for the Advancement of Colored People, Milwaukee Branch
+          Records</unittitle>
+        <unitid>Milwaukee Manuscript Collection EP</unitid>
+      </archref>
+      <archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmmss0192"
+        actuate="onrequest" show="new">
+        <unittitle>Ray Alexander Papers</unittitle>
+        <unitid>UWM Manuscript Collection 192</unitid>
+      </archref>
+    </relatedmaterial>
+    <descgrp type="admininfo">
+      <head>Administrative/Restriction Information</head>
+      <accessrestrict encodinganalog="506">
+        <p>There are no access restrictions on the materials, and the collection is open to all
+          members of the public in accordance with state law.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>The researcher assumes full responsibility for conforming with the laws of libel,
+          privacy, and copyright which may be involved in the use of this collection (Wisconsin
+          Statutes 19.21-19.39). The Archives did not receive a signed release from Vada Harris. She
+          retains copyright to her interview.</p>
+      </userestrict>
+      <acqinfo encodinganalog="541">
+        <p>Jack Dougherty donated the collection to the Archives in October 2004 (accession
+          2004-022).</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+        <p>Karen Bjork processed the collection at the Archives in December 2004. Ellen Engseth
+          added the Annette Polly Williams interview in June 2011.</p>
+      </processinfo>
+    </descgrp>
+    <dsc type="combined">
+      <head>Contents List</head>
+      <c01 id="series1" level="series">
+        <did>
+          <unittitle>1. Oral History Interviews, 1995-1996</unittitle>
+        </did>
+        <scopecontent>
+          <p>Series contains oral history interviews, consisting of audio cassettes and transcripts,
+            conducted between 1995-1996 by Jack Dougherty. Interviewees provide insight into
+            Milwaukee school reform activism through their discussions about Coalition of Parents
+            for Quality Education, Committee of One Hundred, CORE (Congress of Racial Equality),
+            Federation of Independent Community Schools, Freedom Schools, MUSIC (Milwaukee United
+            School Integration), Milwaukee Urban League, NAACP (National Association for the
+            Advancement of Colored People), North Division High School, Parents Action Committee for
+            Education (PACE), Sherman Park Community Association, Triple O-Blacks For Two-Way
+            Integration, Urban Day School, and Washington High School. Also included in this series
+            are Dougherty's post-interview notes.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <unittitle>Adams, Juanita, and Arlene Johnson</unittitle>
+          </did>
+          <scopecontent>
+            <p>Juanita Adams and Arlene Johnson were two founders of the Congress of Racial
+              Equality's (CORE) Milwaukee chapter. Topics include their choice to become involved
+              with school integration, differences between CORE and Milwaukee United School
+              Integration Committee (MUSIC), personal experiences with racism including threats of
+              violence, the school boycott of 1964, fellow members of CORE, and gender roles in
+              CORE.</p>
+          </scopecontent>
+          <dao href="http://collections.lib.uwm.edu/u?/march,1566" actuate="onrequest" show="new">
+            <daodesc>
+              <p>Listen to this interview, view the index, and search the transcript.</p>
+            </daodesc>
+          </dao>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">1-2</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">1</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Alexander, Ray</unittitle>
+          </did>
+          <scopecontent>
+            <p>Ray Alexander was Executive Director of the Afro Urban Institute beginning in 1970.
+              He also served as Community Relations Director for the North Town Development and
+              Planning Council. His interview topics include fellow community activists of the late
+              1960's, the United Community Action Group, and inner city youth employment
+              programming.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">3</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">2</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Banks, Phyllis, and Teresa Green</unittitle>
+          </did>
+          <scopecontent>
+            <p>Phyllis Banks began teaching at Riverside High School in 1962. Theresa Pauline Green,
+              her sister, was a Professor at UC-Berkeley and became involved with Milwaukee from
+              afar. They discuss the teaching of black history at Riverside High School, the school
+              boycott of 1964, racism that Banks faced from Riverside High School's administration,
+              the feeling of unity during the movement, and problems with initial school integration
+              efforts.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">4</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">3</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Barbee, Lloyd</unittitle>
+          </did>
+          <scopecontent>
+            <p>Attorney Lloyd Barbee represented the 18th Assembly District (formerly the 6th
+              District, Milwaukee) in the Wisconsin State Assembly and held numerous offices
+              including in the National Association for the Advancement of Colored People (NAACP)
+              and in the Milwaukee United School Integration Committee (MUSIC). His interview topics
+              include Congress of Racial Equality, the Harold Story Committee in 1963, the NAACP,
+              and his role in education reform in Milwaukee.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">5-6</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">4</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Beason, Jake</unittitle>
+          </did>
+          <scopecontent>
+            <p>Jake Beason, a retired high school teacher, taught at both North Division and Custer
+              High Schools. His interview topics include the early efforts at teaching black history
+              in Milwaukee, the 1967 textbook turn-in, previous unwillingness of Milwaukee Public
+              Schools (MPS) to hire black teachers and the groups which affected change in this
+              area. He also discusses MPS' recruitment efforts at historically black southern
+              colleges, the problems of teaching with inadequate textbooks, and success of black
+              students in integrated schools.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">7</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">5</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Beckley, Maurice</unittitle>
+          </did>
+          <scopecontent>
+            <p>Maurice Beckley was managing editor of the <title render="italic">Milwaukee
+                Star</title> newspaper and worked as an industrial engineer at Johnson Controls. In
+              his interview Beckley critiques the Milwaukee United School Integration Committee
+              (MUSIC). Beckley discusses in contrast the Alliance for Better Education and the
+              importance of education in the advancement of African Americans during the 1960's.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">8</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">6</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Bell, Martha</unittitle>
+          </did>
+          <scopecontent>
+            <p>Martha Bell worked as a teacher's aide at Wells Junior High School. Her interview
+              topics include her involvement with the Parents Action Committee for Education and the
+              school boycotts of 1964 and 1965. She also discusses the MacDowell school construction
+              protest, the disturbance at Wells over the need to hire black cooks, the Milwaukee
+              Public School system's reluctance to hire teachers from black colleges, problems with
+              busing, and the prevalence of women in the school integration movement.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">9</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">7</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Brown, Cecil, Jr., and Loretta Brown</unittitle>
+          </did>
+          <scopecontent>
+            <p>Cecil Brown Jr. founded Milwaukee's chapter of Congress of Racial Equality (CORE) in
+              1963 and also served as chairman of the chapter. He also served as Vice-Chairman of
+              Milwaukee United School Integration Committee (MUSIC). Cecil and Loretta Brown discuss
+              de facto segregation, the National Association for the Advancement of Colored People's
+              local fight for the hiring of African American teachers in Milwaukee Public Schools,
+              CORE, and the relationship between CORE and MUSIC.</p>
+          </scopecontent>
+          <dao href="http://collections.lib.uwm.edu/u?/march,1584" actuate="onrequest" show="new">
+            <daodesc>
+              <p>Listen to this interview, view the index, and search the transcript.</p>
+            </daodesc>
+          </dao>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">10-11</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">8</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Caesar, Elsie, M.</unittitle>
+          </did>
+          <scopecontent>
+            <p>Elsie Caesar was involved with the Coalition to Save North Division in 1979. She
+              discusses the motivations of the group, other's perceptions that they were
+              anti-integration, their eventual success, her politically active daughter, the belief
+              of some that integration wasn't as important as having good teachers, and the busing
+              of her grandchildren in 1979 and 1980.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">12</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">9</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Champion, Rev. Leo, Inonia, and Eugene</unittitle>
+          </did>
+          <scopecontent>
+            <p>Inonia and Rev. Leo Champion came to Milwaukee in 1959. Inonia was a teacher at the
+              Jerusalem Freedom School, and they both were involved with Congress of Racial Equality
+              (CORE) and in the Milwaukee United School Integration Committee (MUSIC) campaign
+              against intact busing. Their interview topics include the effects of intact busing on
+              African American children, the organization and planning of the Milwaukee school
+              boycotts, and the relationships between CORE, MUSIC, and the National Association for
+              the Advancement of Colored People (NAACP).</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">13-14</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">10</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Chancey, Felmers</unittitle>
+          </did>
+          <scopecontent>
+            <p>Felmers Chancey is a former Milwaukee Police officer who worked with Milwaukee Urban
+              League and the National Association for the Advancement of Colored People (NAACP) in
+              Milwaukee. He reflects on being a policeman during the open housing marches and a
+              member of the Central City Development Corporation during the North Division High
+              School controversy. He also discusses his work on the Milwaukee Public Schools
+              desegregation lawsuit settlement, and explains his opposition to many of the
+              integration reformers of the 1960's.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1996</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">15</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1996</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">11</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Cheeks, Thomas M.</unittitle>
+          </did>
+          <scopecontent>
+            <p>Thomas M. Cheeks was assigned to teach at Lincoln High School in 1951, making him the
+              first African American to teach secondary public school in Milwaukee. He transferred
+              to school administration in 1964. His interview topics include We-Milwaukee, The
+              Academy Report of 1967, busing of African American children, and The Committee of 34,
+              an organization created in the 1960's to address conditions in Milwaukee.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">16</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">12</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Davis, Reginald</unittitle>
+          </did>
+          <scopecontent>
+            <p>Reginald Davis, a Milwaukee native, attended Riverside, Washington and West Division
+              High Schools. He discusses starting the group BOY (Black Organized Youth) in 1967 as a
+              result of dissatisfaction with the Milwaukee Public Schools, Cynthia Pitts and Lloyd
+              Barbee as mentors of BOY, an incident of teacher brutality at Riverside in 1968, and
+              "walkout" protests with which he was involved.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">17</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">13</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>El-Amin, Saleem (formley Jeff Crawford), Mustafa, and Haneefah Hasan, and
+              Muhammad Aleem</unittitle>
+          </did>
+          <scopecontent>
+            <p>Saleem El-Amin came to Milwaukee when he was 6 years old and attended North Division
+              High School. He later became principle of Clara Muhammad School, an independent Muslim
+              school founded in 1972. This is a group interview, but is mostly conducted with Saleem
+              El-Amin. The interview topics include Clara Muhammad School as an alternative to Lloyd
+              Barbee's call for integration, and the education reform movement as it applied to
+              Milwaukee's African American Muslim community.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1996</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">18</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1996</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">14</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Finlayson, Edith</unittitle>
+          </did>
+          <scopecontent>
+            <p>Edith Finlayson is a Milwaukee nurse who became involved with the school issue reform
+              because of her children. She discusses the founding of the EB Phillips Daycare Center,
+              her relationship with Lloyd Barbee, her involvement in Milwaukee United School
+              Integration Committee, her children's experience in school, problems finding housing
+              near the better schools, and an incident of racism at University School.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">19-20</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">15</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Flowers, Allen</unittitle>
+          </did>
+          <scopecontent>
+            <p>Allen Flowers moved to Milwaukee to become part of the economic development movement
+              and was director of the North Side Community Design Center. He argued for building
+              North Division High School just west of its current site because the current site
+              disrupted an area of high black home ownership. He also discusses the Northtown
+              Development Committee, Milwaukee's political structure and its effect on the housing
+              movement and urban development.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">21</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">16</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Fuller, Howard</unittitle>
+          </did>
+          <scopecontent>
+            <p>Howard Fuller, a native of Milwaukee, was one of the founding members of the
+              Coalition to Save North Division. His topics include his experiences with school
+              integration issues in Cleveland and being the first black student at Carroll College,
+              the importance of integration for better education, the importance of coalitions for
+              reaching the community, the founding of and opposition to the Coalition to Save North
+              Division, and Lloyd Barbee.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">22-23</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">17</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Goens, Geraldine, and Jay Gilmer</unittitle>
+          </did>
+          <scopecontent>
+            <p>Geraldine Gilmer Goens, a teacher in the Milwaukee Public School system since 1951,
+              comprises the bulk of this interview. Her interview topics include African American
+              teachers having to teach far from their neighborhood schools, and classroom conditions
+              for African American children and teachers. She also discusses teacher education for
+              African Americans at Wisconsin State Teachers College and their policy of forcing
+              African Americans to sign an agreement not to teach secondary school in Milwaukee
+              Public Schools upon graduation.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1996</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">24</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1996</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">18</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Gordon, Grant, and Lucinda Gordon</unittitle>
+          </did>
+          <scopecontent>
+            <p>Grant Gordon became the first black principal in Milwaukee in 1960 at Garfield High
+              School; Lucinda Gordon was active with the National Association for the Advancement of
+              Colored People (NAACP) in Milwaukee. They share their impressions of the Milwaukee
+              United School Integration Committee's school boycotts in 1964 and 1965, the problems
+              of busing in 1979 and 1980, the Project Rise program for academically struggling
+              schools, and the Lady Pitts program for providing education for pregnant teens.</p>
+          </scopecontent>
+          <dao href="http://collections.lib.uwm.edu/u?/march,1599" actuate="onrequest" show="new">
+            <daodesc>
+              <p>Listen to this interview, view the index, and search the transcript.</p>
+            </daodesc>
+          </dao>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">25</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">19</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Gregg, Rev. B. S.</unittitle>
+          </did>
+          <scopecontent>
+            <p>Reverend B.S. Gregg was pastor of St. Matthew CME church for several years, and
+              served as treasurer of Milwaukee United School Integration Committee (MUSIC) in 1964.
+              Interview topics include his relationship with Mayor Maier, the Freedom Schools and
+              St. Matthew's role in the school boycott in 1964, and his work with Lloyd Barbee on
+              education reform.</p>
+          </scopecontent>
+          <dao href="http://collections.lib.uwm.edu/u?/march,1635" actuate="onrequest" show="new">
+            <daodesc>
+              <p>Listen to this interview, view the index, and search the transcript.</p>
+            </daodesc>
+          </dao>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">26</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">20</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Hannah, F. Marvin</unittitle>
+          </did>
+          <scopecontent>
+            <p>F. Marvin Hannah came to Milwaukee in 1955 after leaving the Navy. He discusses his
+              work to enter African American students into apprenticeship programs, the North
+              Division Subsystem, sending his children to Harambee Community School, his time as
+              president of the Milwaukee Alliance of Black School Educators, problems with the
+              initial school desegregation plan for Milwaukee after the 1976 court ruling, and his
+              feelings on magnet schools.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1996</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">27</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1996</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">1</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Harper, Rev. Fred</unittitle>
+          </did>
+          <scopecontent>
+            <p>Reverend Fred Harper was pastor during the 1960's at King Solomon Church. His
+              interview topics include his experience as a parent transferring his daughter from a
+              predominately black school to a predominately white school, the role of King Solomon
+              Church in the Freedom Schools, the school desegregation lawsuit of 1965, and African
+              American immersion schools as a response to the fight for school integration.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">28</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">2</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Harpole, Mildred</unittitle>
+          </did>
+          <scopecontent>
+            <p>Mildred Harpole worked as a Reading Specialist at Wells Junior High School and
+              Lincoln High School. She discusses teaching at Freedom Schools during 1964 and 1965,
+              problems with Milwaukee Public Schools' busing program, her experience growing up in
+              segregated schools in Baltimore and Cleveland, and running for the Milwaukee School
+              Board in 1971.</p>
+          </scopecontent>
+          <dao href="http://collections.lib.uwm.edu/u?/march,1653" actuate="onrequest" show="new">
+            <daodesc>
+              <p>Listen to this interview, view the index, and search the transcript.</p>
+            </daodesc>
+          </dao>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">29</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">3</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Harpole, Reuben, Jr.</unittitle>
+          </did>
+          <scopecontent>
+            <p>Reuben Harpole Jr, helped develop many Milwaukee institutions such as the Black
+              Holocaust Museum, UWM's Center for Urban Community Development and the Harambee
+              Community Development Corporation. His interview topics include a personal account of
+              white flight in the Harambee neighborhood, boycotts of Boston Store and Gimbles,
+                <title render="italic">Milwaukee Star's</title> role in disseminating information to
+              the African American community, Concerned Citizens for Quality Education, and key
+              community leaders in the fight for equality in education.</p>
+          </scopecontent>
+          <dao href="http://collections.lib.uwm.edu/u?/march,1632" actuate="onrequest" show="new">
+            <daodesc>
+              <p>Listen to this interview, view the index, and search the transcript.</p>
+            </daodesc>
+          </dao>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">30</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">4</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Harris, Robert</unittitle>
+          </did>
+          <scopecontent>
+            <p>Robert Harris is a Milwaukee native who began working for Milwaukee Public Schools in
+              1954. He discusses his time as a football coach at North Division High School starting
+              in 1964, the inequities that existed between North Division and other high schools in
+              the area, the Milwaukee United School Integration Committee in 1964 and 1965, and his
+              views on what providing a quality education entails.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">31-32</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">5</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Harris, Vada</unittitle>
+          </did>
+          <scopecontent>
+            <p>Vada Harris discusses her activities as Secretary of Wisconsin's National Association
+              for the Advancement of Colored People (NAACP) Youth Council and as a member of the
+              Youth Council Commandos, teaching black history in the Freedom Schools, and marching
+              for open housing. She also attended Riverside High School where she led a "textbook
+              turn-in" in 1967 to protest the lack of black history curriculum and instruction.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">33</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">6</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Holt, Mikel</unittitle>
+          </did>
+          <scopecontent>
+            <p>Mikel Holt, a Milwaukee native, is associated with the <title render="italic"
+                >Milwaukee Community Journal</title> from 1967 to the present as a reporter, editor
+              and associate publisher. Holt discusses the stance of the African American community
+              in regards to school integration, the <title render="italic">Community
+                Journal's</title> criticism of desegregation in 1976-1977, black politicians who
+              were involved in the school movement, and school choice issues taking place in
+              Milwaukee during the 1980's.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1996</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">34</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1996</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">7</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Hopkins, Fred</unittitle>
+          </did>
+          <scopecontent>
+            <p>Fred Hopkins was born and raised in Milwaukee and attended North Division High School
+              and Clifford McKissick Community School. He was a member of North Division's School
+              Community Site Committee and the first vice-president of Blac-A-Vention, a group of
+              inner-city activists who lobbied for black representation on the Milwaukee Public
+              School board. His interview topics include his experience of intact busing as a
+              student, participating in a school boycott, attending Clifford McKissick Community
+              School, and the state of the Milwaukee Public Schools in the 1960's and early
+              1970's.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1996</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">35</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1996</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">8</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Jackson, Carolyn</unittitle>
+          </did>
+          <scopecontent>
+            <p>Carolyn Jackson moved to the Sherman Park neighborhood of Milwaukee in 1975. In 1976
+              she joined the Sherman Park Community Association Education Committee. She discusses
+              the education committee's focus, working with the Coalition for Peaceful Schools, the
+              push for Metro Milwaukee desegregation in 1975, and being part of the Committee of 100
+              in 1978.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1996</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">36</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1996</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">9</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Jackson, Gwen</unittitle>
+          </did>
+          <scopecontent>
+            <p>Gwen Jackson, a community activist with a Milwaukee elementary school named in her
+              honor, served in the 1960's as Chair of the Milwaukee Urban League Family Life
+              Committee. Her interview topics include the National Association for the Advancement
+              of Colored People and the Milwaukee Urban League's role in Milwaukee education reform,
+              a critique of Father Groppi's leadership of Milwaukee youth, and Lloyd Barbee's role
+              as a lawyer in the struggle for equality in Milwaukee.</p>
+          </scopecontent>
+          <dao href="http://collections.lib.uwm.edu/u?/march,1650" actuate="onrequest" show="new">
+            <daodesc>
+              <p>Listen to this interview, view the index, and search the transcript.</p>
+            </daodesc>
+          </dao>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">37</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">10</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Jackson, Harold B., Jr.</unittitle>
+          </did>
+          <scopecontent>
+            <p>Harold B. Jackson Jr. was elected to the Milwaukee School Board in 1970 after serving
+              as an Assistant District Attorney in Milwaukee. He discusses growing up under
+              segregation in Washington D.C., the decision to end the intact busing program in
+              Milwaukee, the decision to reinstate teacher Jake Beason in 1971, the desegregation
+              lawsuit against the school board and the 1976 decision in that suit.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1996</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">38-39</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1996</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">11</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Jeter, Maxine</unittitle>
+          </did>
+          <scopecontent>
+            <p>Maxine Jeter, a member of Milwaukee United School Integration Committee in the
+              1960's, helped organize protests at St. Boniface Church. Her interview topics include
+              Father Groppi at St. Boniface Church and in the local civil rights movement. She also
+              discusses Lloyd Barbee's lawsuit against the Milwaukee School Board, the Catholic
+              Family Movement at St. Boniface, and provides a detailed explanation of intact
+              busing.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">40</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">12</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Johnson, Ronald</unittitle>
+          </did>
+          <scopecontent>
+            <p>Ronald Johnson, a Milwaukee native, graduated from Custer High School in 1969 and
+              taught Black History at Harambee Community School beginning in 1971. He discusses his
+              time as a member of the Milwaukee Black Panthers, teaching at Harambee, and his
+              opinions on the pressure placed on Milwaukee Public Schools to teach black
+              history.</p>
+          </scopecontent>
+          <scopecontent>
+            <p/>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio">41</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">13</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Jones, Nellie</unittitle>
+          </did>
+          <scopecontent>
+            <p>Nellie Jones was secretary of Parents Action Committee for Education (PACE) and a
+              member of the 20th Street School's Parent Teacher Association. Her interview topics
+              include the creation and ending of PACE as well as Lloyd Barbee's assistance with it.
+              She also discusses sending her children to Lancaster Elementary School while it was
+              predominantly white as an alternative to intact busing.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">42</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">14</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Jones, Walter</unittitle>
+          </did>
+          <scopecontent>
+            <p>Walter Jones moved to Milwaukee in 1959 when he began working for the <title
+                render="italic">Milwaukee Star</title>. In 1967 he began working for the <title
+                render="italic">Milwaukee Courier</title>. He discusses why the <title
+                render="italic">Star</title> got involved with education issues, his views on the
+              Milwaukee United School Integration Committee boycotts of 1964 and 1965, the Black
+              Power movement in Milwaukee starting in 1966 and 1967, and student involvement in the
+              school movement.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">43-44</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">15</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Kenner, Peggy</unittitle>
+          </did>
+          <scopecontent>
+            <p>Peggy Kenner, former president of the Milwaukee Public School (MPS) Board and winner
+              of the Wisconsin Women's Network Stateswomen of the Year, speaks to her work with the
+              Peckham-Steuben Community Council to develop an integration plan, MPS' discriminatory
+              transfer policy in the 1960's and early 1970's, the "Committee of 100", and her work
+              with the MPS school board.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1996</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">45</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1996</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">16</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Lucas, Reaber</unittitle>
+          </did>
+          <scopecontent>
+            <p>Reaber Lucas moved to Milwaukee in 1965 from Mississippi when she started working
+              with the Organizations of Organizations (Triple O). She discusses her work with Triple
+              O including working on Title 1, organizing the teacher's aides, their involvement with
+              the North Division and Rufus King clusters and the racial make-up of the organization.
+              She also gives her opinion on the school desegregation lawsuit, and growing up in
+              segregated schools.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1996</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">46</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1996</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">17</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>McAlister, Mona</unittitle>
+          </did>
+          <scopecontent>
+            <p>Mona McAlister graduated from St. Benedict High School and sent her five children to
+              St. Boniface School. She witnessed St. Boniface's transition from predominately white
+              to predominately black. Her interview topics include St. Boniface's transition from a
+              parochial school to a community school, the Federation of Independent Community
+              Schools and the effect of white flight on the Milwaukee parochial schools.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">47</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">18</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>McKay, Pauline</unittitle>
+          </did>
+          <scopecontent>
+            <p>Pauline McKay moved to Milwaukee in 1950 from Lexington, MS. She discusses her work
+              with North Division High School groups, her involvement with the site planning
+              committee for the new North Division building, the Chapter 220 program, problems with
+              busing, the desegregation plan of 1976, and growing up in segregated schools.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1996</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">48</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1996</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">19</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>McNeil, Rev. Joseph</unittitle>
+          </did>
+          <scopecontent>
+            <p>Reverend Joseph McNeil, a Milwaukee native, was active in education reform for
+              African American children, and served as the chairman of the North Division Advisory
+              Council in the 1970's. His interview topics include Title III and cluster schools,
+              parent involvement with changes at North Division High School in the late 1960's early
+              1970's, Milwaukee's attempt to decentralize the school system, segregation at Tech
+              High School, and dealing with Police Chief Harold Breier.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">49</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">20</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Murrell, Peter, Sr., and Eva Ruth</unittitle>
+          </did>
+          <scopecontent>
+            <p>Eva and Peter Murrell came to Milwaukee in the 1940's and became active in school
+              issues through their children. They discuss We-Milwaukee, Eva's work with the Parent
+              Teacher Association from 1962-1966, problems with the Milwaukee schools their children
+              attended, busing, the desegregation decisions of 1976 and 1979, and African American
+              immersion schools.</p>
+          </scopecontent>
+          <dao href="http://collections.lib.uwm.edu/u?/march,1614" actuate="onrequest" show="new">
+            <daodesc>
+              <p>Listen to this interview, view the index, and search the transcript.</p>
+            </daodesc>
+          </dao>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">50</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">21</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Nicholas, Clarence P.</unittitle>
+          </did>
+          <scopecontent>
+            <p>Clarence P. Nicholas came to Milwaukee in 1970 to teach in the Milwaukee Public
+              School system where he taught for 36 years and was the spokesman for the Black
+              Teacher's Caucus (BTC) in 1977. Interview topics include the activities and members of
+              the BTC, friction between BTC and the Milwaukee Teachers' Education Association
+              (MTEA), and BTC's interaction with key activists such as Lloyd Barbee.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1996</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">51</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1996</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">22</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Pitts, Cynthia Bryant</unittitle>
+          </did>
+          <scopecontent>
+            <p>Cynthia Pitts came to Milwaukee in 1965 and worked with the Inner City Development
+              Project. She discusses growing up in segregated Baltimore, her role with the Inner
+              City Development Project, school issues, student protests, and the goals of the United
+              Community Action Committee.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">52</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">23</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Robertson, Helen</unittitle>
+          </did>
+          <scopecontent>
+            <p>Helen Robertson came to Milwaukee in 1970 to teach after attending UW-Madison. Her
+              interview topics include the quality of education in Milwaukee's independent community
+              school movement in the 1970's, Milwaukee magnet and Montessori schools, the Coalition
+              to Save North Division High School and the Governor's Commission on Better Quality of
+              Schools.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1996</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">53</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1996</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">24</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Robinson, Jeanetta</unittitle>
+          </did>
+          <scopecontent>
+            <p>Jeanetta Robinson came to Milwaukee in 1957 and participated in many civil rights
+              groups in Milwaukee. She discusses her work with Congress of Racial Equality, the
+              Freedom School boycott of 1964, the Poverty Advisory Council, organizing student
+              walkouts, her children's school experience, the difference between integrated and
+              quality education, and her work with the Triple O-sponsored Two-Way or No-Way busing
+              protest of 1979-1980.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">54</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">25</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Rogers, Tazaleen, and Theodora Cecelia Rogers</unittitle>
+          </did>
+          <scopecontent>
+            <p>Tazzaleen Rogers, interviewed with her daughter Theodora Cecelia Rogers, discusses
+              working with Milwaukee United School Integration Committee and the Coalition to Save
+              North Division High School. She was also president of 12th Street School PTA. Her
+              interview topics include her children's experience as the first group of African
+              Americans to attend Shorewood and South Division High Schools and her involvement, in
+              general, with the Milwaukee civil rights movement.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">55</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">26</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Saunders, Lawrence, and Kathleen Saunders</unittitle>
+          </did>
+          <scopecontent>
+            <p>Larry Saunders came to Milwaukee to attend Marquette University where he met
+              Kathleen. They discuss working for the <title render="italic">Milwaukee Globe</title>
+              and the <title render="italic">Milwaukee Star</title>, the hatred in Milwaukee for
+              African Americans, and the 1963 March on Washington for Jobs and Freedom which Larry
+              participated in. </p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">56</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">27</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Savage, Rochelle, and Roosevelt Savage</unittitle>
+          </did>
+          <scopecontent>
+            <p>Rochelle Savage and her husband, Roosevelt, were involved with Milwaukee United
+              School Integration Committee in 1965. Their interview topics include intact busing at
+              Garden Homes School, communicating and information in the education reform movement,
+              Father Groppi and the Commandos, and Lloyd Barbee and the school desegregation
+              lawsuit. They also discuss the concept of improving neighborhood schools instead of
+              integration, and the removal of strong African American teachers from the inner-city
+              schools. </p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">57</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">28</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Scott, Wesley L.</unittitle>
+          </did>
+          <scopecontent>
+            <p>Wesley L. Scott was the CEO of the Milwaukee Urban League and an active member of
+              We-Milwaukee. He discusses Milwaukee civil rights in the 1950's, his activities with
+              the Urban League, criticism of newspaper coverage of the school movement, the goals of
+              We-Milwaukee, efforts to support black history, and the role of civil rights groups in
+              the 1970's desegregation fight.</p>
+          </scopecontent>
+          <dao href="http://collections.lib.uwm.edu/u?/march,1593" actuate="onrequest" show="new">
+            <daodesc>
+              <p>Listen to this interview, view the index, and search the transcript.</p>
+            </daodesc>
+          </dao>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">58</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">29</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Seefeldt, Flora B.</unittitle>
+          </did>
+          <scopecontent>
+            <p>Flora Seefeldt came to Milwaukee in 1958 and was appointed by President Johnson to
+              serve as a member of the educational board for Counselor Finch, then United States
+              Secretary of Health, Education and Welfare. Her interview topics include the United
+              Community Action Group, her children's experience with intact busing from McKinley
+              School to Garden Homes School, and the poor quality of Milwaukee schools in the black
+              community including lack of books and supplies.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">59-60</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">30</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Smith, Michael C.</unittitle>
+          </did>
+          <scopecontent>
+            <p>Michael Smith came to Milwaukee in 1972 to teach at the University of
+              Wisconsin-Milwaukee. He discusses his involvement with Organization of Organizations
+              (Triple O) in 1974-1975, his children's school experience in 1976, problems with the
+              Milwaukee Public School System's Chapter 220 program, goals of the Concerned Citizens
+              for Quality Education, his work with the Governor's Commission on Quality Education,
+              and the fight over the North Division District in the early 1990's.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1996</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">61</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1996</unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">1</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Spencer, Anita K.</unittitle>
+          </did>
+          <scopecontent>
+            <p>Anita Spencer, a Milwaukee native, attended Ninth Street School, McKinley Elementary,
+              West Division and Lincoln High Schools. Her interview topics include her membership
+              with local organizations such as the United Black Community Council, Project Respect
+              and Two-Way or No-Way. Spencer also talks about overcrowding in Auer Elementary school
+              and how intact busing affected her family.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1996</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">62</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1996</unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">2</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Swan, Monroe</unittitle>
+          </did>
+          <scopecontent>
+            <p>Monroe Swan came to Milwaukee in 1955 and was elected state senator in 1972. He
+              discusses his involvement with Organization of Organizations (Triple O), which he
+              joined in 1967, his integration stance as senator, his role in Blac-A-Vention, a 1974
+              meeting of inner-city activists, problems with the Chapter 220 program, the 1976
+              desegregation decision, goals of the Two-Way or No-Way busing protest, and the reform
+              movements of 1989.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1996</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">63-64</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1996</unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">3</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Todd, Leon</unittitle>
+          </did>
+          <scopecontent>
+            <p>Leon Todd was elected to the Milwaukee Public School (MPS) Board in 1975. His
+              interview topics include his strategy for becoming one of the first blacks elected to
+              the MPS Board and his alliance with the German-American societies in Milwaukee which
+              resulted in the development of Milwaukee's integrated language immersion schools. He
+              also talks about the Chapter 220 voluntary integration program, magnet schools, and
+              the Coalition to Save North Division High School.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1996</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">65</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1996</unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">4</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Verdin, Brian</unittitle>
+          </did>
+          <scopecontent>
+            <p>Brian Verdin is a Milwaukee native and graduate of North Division High School. He
+              discusses his run for the school board in 1972, his activities with Organization of
+              Organizations (Triple O) which he joined in 1975, the goals of Blacks for Two-Way
+              Integration, problems with Superintendant McMurrin's desegregation plan, and the
+              activities of the Coalitions for Peaceful Schools and to Save North Division.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">76</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">13</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Waiss, Beatrice J.</unittitle>
+          </did>
+          <scopecontent>
+            <p>Beatrice Weiss came to Milwaukee in 1967 and was a co-founder of the McKissick
+              Community School. Her interview topics include the creation of the McKissick Community
+              School, her children's experiences in Milwaukee Public Schools (MPS), and a comparison
+              of MPS and Milwaukee Choice Schools. Waiss also gives an analysis of the rise and
+              decline of Milwaukee's education reform movement.</p>
+          </scopecontent>
+          <scopecontent>
+            <p/>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">66-67</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">5</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Walker, Rev. Lucius</unittitle>
+          </did>
+          <scopecontent>
+            <p>Reverend Lucius Walker came to Milwaukee in the late 1950's. He was the first youth
+              director for the Milwaukee Christian Center on Milwaukee's south side and was the
+              founding director of Northcott Neighborhood House. His interview topics include the
+              use of integration as a means for African Americans to access Milwaukee's educational
+              resources. He also talks about Northcott Neighborhood House and the role it played in
+              community development, including its role in the Organization of Organizations (Triple
+              O).</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1996</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">68</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1996</unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">6</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Ward, Adolphus</unittitle>
+          </did>
+          <scopecontent>
+            <p>Adolphus Ward is former faculty member in the University of Wisconsin - Milwaukee's
+              Theatre Department. Ward organized a parent conference in 1970 with the North Division
+              Cluster to increase African American parent involvement in local schools. His
+              interview topics include racial changes in the neighborhood of Center and 22nd
+              streets, the difference in curriculum in predominately African American schools in
+              1960's, and his decision to send his children to Freedom Schools in 1964. He also
+              talks about Organization of Organizations (Triple O) and its influence on community
+              organization in Milwaukee in the 1960's.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">69</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">7</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Watkins, Ivory, and Linda Watkins Jefferson</unittitle>
+          </did>
+          <scopecontent>
+            <p>Linda (Watkins) Jefferson was the original plaintiff in the Barbee School
+              desegregation case. Ivory Watkins is her mother. Linda is the major interviewee and
+              discusses how she became involved in the legal case, the 1964 school boycott,
+              testifying in court, civil rights activities while at Rufus King High School, her
+              children's school experience, and Ivory's civil rights activities. </p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1996</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">70</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1996</unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">8</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Williams, Evelyn Lockhart, and Ralph Williams Jr.</unittitle>
+          </did>
+          <scopecontent>
+            <p>Evelyn and Ralph Williams, both Milwaukee natives, discuss the 1964 Freedom School
+              boycott, the Coalition to Save North Division, Howard Fuller, problems with the school
+              board during the 1970's, the relationship between the Milwaukee Urban League and the
+              Coalition, and involvement with the New North Division District in 1988.</p>
+          </scopecontent>
+          <scopecontent>
+            <p/>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">71</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">9</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Williams, Annette Polly</unittitle>
+          </did>
+          <scopecontent>
+            <p>Annette Polly Williams graduated from North Division High School and attended both
+              Milwaukee Area Technical College and the University of Wisconsin-Milwaukee. She was
+              elected to the Wisconsin State Assembly in 1981 and served until 2011. Her interview
+              topics include her participation as a parent on the board of the Urban Day School
+              which offered Montessori education to African American children, racism her children
+              experienced as students at Riverside High School, her work with the coalition to Save
+              North Division High School, and the political climate in Milwaukee's African American
+              community in the early 1970's.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1996</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">77</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1996</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">51</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Wray, Jessie E.</unittitle>
+          </did>
+          <scopecontent>
+            <p>Jessie Wray served as treasurer for Organization of Organizations (Triple O). Triple
+              O used non-violent protest to promote social change in the late 1960's. Wray's
+              interview topics include The Federation of Independent Schools, Parents for
+              Educational Progress, marching with Dick Gregory, and working with Milwaukee United
+              School Integration Committee in the mid-1960's.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">72</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">10</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Wynn, Lauri</unittitle>
+          </did>
+          <scopecontent>
+            <p>Lauri Wynn was a teacher in the Milwaukee Public School district starting in the
+              1960's. She discussed her work with the Board of Governmental Operations, the planning
+              and implementation of the Interrelated Language Skills Center, her work with the
+              United Community Action Group, and her children's experience in schools during the
+              1960's and 1970's.</p>
+          </scopecontent>
+          <dao href="http://collections.lib.uwm.edu/u?/march,1560" actuate="onrequest" show="new">
+            <daodesc>
+              <p>Listen to this interview, view the index, and search the transcript.</p>
+            </daodesc>
+          </dao>
+          <c03>
+            <did>
+              <unittitle>Interview, 1995</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">73-74</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1995</unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">11</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Young, Ruby</unittitle>
+          </did>
+          <scopecontent>
+            <p>Ruby Young discusses substitute teaching in the Milwaukee Public School (MPS) system
+              in the 1940's and 1950's, her journey in MPS to becoming a full time teacher as a
+              married woman, and being an MPS elementary school teacher during the 1960's.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Interview, 1996</unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="audio" label="Audio">75</container>
+              <physdesc>
+                <extent>Audio cassette</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Transcript, 1996</unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">12</container>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 id="series2" level="series">
+        <did>
+          <unittitle>2. Research Files, 1939-2004</unittitle>
+        </did>
+        <scopecontent>
+          <p>Series contains commission reports and transcripts on school desegregation and
+            government housing; correspondence; leaflets and pamphlets produced by Committee of One
+            Hundred, People United for Integration, and Triple O-Blacks For Two-Way Integration; and
+            newspaper clippings.<lb/><lb/>The collection case file includes a CD containing project
+            background and transcripts; it is available for research use on request.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <unittitle><title render="italic">Administrative Change in Milwaukee Municipal
+                Government</title>, Thesis, 1969</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Barbee, Lloyd, 1978</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Beckley, Griselda, 1974</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">3</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Black Catholic, St. Benedict Parish, 1946, 1967, 1969</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">4</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Black Catholic, St. Elizabeth Parish, 1977, undated</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Coggs, Marcia, and Isaac, 1973, 1978-1980</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">6</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Committee of One Hundred, 1976, undated</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">7</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Farrell, Walter, 1980</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">8</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Givens, John, 1971, 1973</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">9</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Golightly, Cornelius, 1956, 1963, 1973</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">10</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Halyard, Ardie, 1965</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">11</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Holt, Cornelius, 1968</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">12</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Kelley, William, 1939, 1960</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">13</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title render="italic">Learning from the Past-Lessons for the Future</title>,
+              Conference Report, undated</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">14</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Lindsay, Bernice, 1969, 1973</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">15</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Malone, Carole, 1976, 1978</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">16</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Metro Integration Research Center, 1976, 1980-1984</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">17</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title render="italic">The Milwaukee Community Journal</title>,
+              1978-1979</unittitle>
+            <container type="box" label="Box">6</container>
+            <container type="folder" label="Folder">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Morheuser, Marilyn, 1966, 1995</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">18</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>New North Division District, 1985-1987</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">19</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Parrish, Clarence, 1962, 1967-1968, 1980</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">20</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Perlaus, E'Allyne, 1965, 1968</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">21</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Pitts, Terrance, and Orville, 1968, 1972, 1977-1980</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">22</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>People United For Integration, 1976-1980</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Project Background, 2004</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title render="italic">Relationship Between School Desegregation and
+                Government Housing Program</title> Report, undated</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">3</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Scott, Sarah, 1972, 1979</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">4</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Smyth, Edward, 1966, 1973</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Starms, Frances and Robert, 1973, 1986</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">6</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Triple O-Blacks for Two-Way Integration, 1976, undated</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">7</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Wisconsin Advisory Committee to the United States Commission on Civil Rights,
+              1990</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">8</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Wisconsin Advisory Committee to the United States Commission on Civil Rights,
+              Transcripts, May 22, 1990</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">9-10</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Wisconsin Advisory Committee to the United States Commission on Civil Rights,
+              Transcripts, May 23, 1990</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">11</container>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
