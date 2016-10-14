@@ -36,6 +36,13 @@
     </profiledesc>
     <revisiondesc>
       <change encodinganalog="583">
+        <date normal="2016-10-14">October 21, 2016</date>
+        <item>Brad Houston updated the finding aid to reflect the new format for the transcripts
+          maintained in the case file. Changes were made to altformavail and the contents list
+          (Series 2 notes).</item>
+      </change>
+      
+      <change encodinganalog="583">
         <date normal="2011-12-02">January 7, 2016</date>
         <item>Charles Hosale updated the finding aid, renumbering the cassettes in box 8 to follow a
           single numerical order continuing from the last number in box 7. Also updated links to
@@ -146,6 +153,8 @@
           show="new">
           <title>The March On Milwaukee: Civil Rights History Project</title>.</extref>
       </p>
+      <p>Electronic versions of transcripts for the interviews are also available for use in the
+        reading room. Consult an archivist for more information.</p>
     </altformavail>
     <relatedmaterial encodinganalog="544 1">
       <head>Related Material in the UWM Libraries</head>
@@ -2196,8 +2205,9 @@
           <p>Series contains commission reports and transcripts on school desegregation and
             government housing; correspondence; leaflets and pamphlets produced by Committee of One
             Hundred, People United for Integration, and Triple O-Blacks For Two-Way Integration; and
-            newspaper clippings.<lb/><lb/>The collection case file includes a CD containing project
-            background and transcripts; it is available for research use on request.</p>
+            newspaper clippings.<lb/><lb/>The collection case file includes electronic copies of
+            project background files and transcripts; it is available for research use on
+            request.</p>
         </scopecontent>
         <c02>
           <did>
