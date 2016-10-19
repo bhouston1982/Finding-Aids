@@ -4325,14 +4325,7 @@
             <unittitle>9. WUWM <title render="italic">UWM Today</title>,
                 <unitdate>2005-2012</unitdate></unittitle>
           </did>
-          <c03>
-            <did>
-              <unittitle>Services to Students, with Mary Roggeman, Jim Hill, and Tom Luljak,
-                  <unitdate>December 30, 2004</unitdate></unittitle>
-              <container type="electronic" label="ID No.">20041230</container>
-            </did>
-          </c03>
-          <c03>
+                    <c03>
             <did>
               <unittitle>Info Studies in the Age of Technology, with Tom Walker and Tom Luljak,
                   <unitdate>January 6, 2005</unitdate></unittitle>
@@ -4341,7 +4334,7 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Edison Initiative, with Nigel Rothfels, Zara, and Tom Luljak,
+              <unittitle>Edison Initiative, with Nigel Rothfels, Josh Zara, and Tom Luljak,
                   <unitdate>January 13, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20050113</container>
             </did>
@@ -4383,7 +4376,7 @@
           </c03>
           <c03>
             <did>
-              <unittitle>BioTech Business Venture, with Sandra Millon-Underwood, Moyer and Tom
+              <unittitle>BioTech Business Venture, with Sandra Millon, Mark Underwood, James Moyer and Tom
                 Luljak, <unitdate>March 17, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20050317</container>
             </did>
@@ -4579,7 +4572,7 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Difficult Dialogues, with Greg Jay, Reitman and Tom Luljak,
+              <unittitle>Difficult Dialogues, with Greg Jay, Meredith Reitman and Tom Luljak,
                   <unitdate>January 26, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060126</container>
             </did>
@@ -4593,7 +4586,7 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Almost Home Documentary, with Lisa Lichtenstein and Tom Luljak,
+              <unittitle>Almost Home Documentary, with Brad Lichtenstein and Tom Luljak,
                   <unitdate>February 9, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060209</container>
             </did>
@@ -4684,7 +4677,7 @@
           </c03>
           <c03>
             <did>
-              <unittitle>HBSSW, with Stan Stojkovic and Tom Luljak, <unitdate>June 22,
+              <unittitle>Helen Bader School of Social Welfare, with Stan Stojkovic and Tom Luljak, <unitdate>June 22,
                   2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060622</container>
             </did>
@@ -4950,7 +4943,7 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Freshwater Lakes Today, with J. Klump and Tom Luljak, <unitdate>June 21,
+              <unittitle>Freshwater Lakes Today, with Val Klump and Tom Luljak, <unitdate>June 21,
                   2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070621</container>
             </did>
@@ -5055,7 +5048,7 @@
           </c03>
           <c03>
             <did>
-              <unittitle>DocUWM, with Lisa Lichtenstein, Caddell, and Tom Luljak, <unitdate>November
+              <unittitle>DocUWM, with Brad Lichtenstein, Terry Caddell, and Tom Luljak, <unitdate>November
                   22, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20071122</container>
             </did>
@@ -5237,7 +5230,7 @@
           </c03>
           <c03>
             <did>
-              <unittitle>First Year Center, with Ericca Rolland, Stein, and Tom Luljak,
+              <unittitle>First Year Center, with Ericca Pollack, Jessica Stein, and Tom Luljak,
                   <unitdate>July 24, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080724</container>
             </did>
@@ -5391,7 +5384,7 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Time Slips, with Basting, Murphy, and Tom Luljak, <unitdate>March 12,
+              <unittitle>Time Slips, with Anne Basting, Marina Murphy, and Tom Luljak, <unitdate>March 12,
                   2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">20090312</container>
             </did>
@@ -5475,7 +5468,7 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Head Start, with Karen Stoiber, Leezer, and Tom Luljak, <unitdate>October
+              <unittitle>Head Start, with Karen Stoiber, Vera Lee Leezer, and Tom Luljak, <unitdate>October
                   8, 2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">091008</container>
             </did>
@@ -5657,7 +5650,7 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Water Treatment Systems, with He, Drew, and Tom Luljak, <unitdate>July 15,
+              <unittitle>Water Treatment Systems, with Jason He, David Drew, and Tom Luljak, <unitdate>July 15,
                   2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">100715</container>
             </did>
@@ -5678,7 +5671,7 @@
           </c03>
           <c03>
             <did>
-              <unittitle>English as a Second Language, with Janet Wilgus, Alhudair, and Tom Luljak,
+              <unittitle>English as a Second Language, with Janet Wilgus, Ali Alhudair, and Tom Luljak,
                   <unitdate>August 12, 2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">100812</container>
             </did>
@@ -5762,7 +5755,7 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Senior Auditors, with Bea, George Strick, Barbara Ferderlin, and Tom
+              <unittitle>Senior Auditors, with Bea Strick, George Strick, Barbara Ferderlin, and Tom
                 Luljak, <unitdate>January 13, 2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">110113</container>
             </did>
@@ -5888,14 +5881,14 @@
           </c03>
           <c03>
             <did>
-              <unittitle>SARUP, with Robert Greenstreet and Tom Luljak, <unitdate>September 29,
+              <unittitle>School of Architecture and Urban Planning, with Robert Greenstreet and Tom Luljak, <unitdate>September 29,
                   2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">110929</container>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>UWM Baseball, with Pierce, Doffek, and Tom Luljak, <unitdate>October 13,
+              <unittitle>UWM Baseball, with Chad Pierce, Scott Doffek, and Tom Luljak, <unitdate>October 13,
                   2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">111013</container>
             </did>
