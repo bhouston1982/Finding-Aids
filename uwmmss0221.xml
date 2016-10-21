@@ -35,6 +35,13 @@
     </profiledesc>
     <revisiondesc>
       <change encodinganalog="583">
+        <date normal="2016-10-17">October 17, 2016</date>
+        <item>Brad Houston updated the finding aid to reflect addition of electronic copies of the
+          blueprints in the collection scanned by AGSL in 2005 and returned in October 2016. Changes
+          were made to extent, processinfo, altformavail, phystech, and the contents list (Oversize
+          folders in Subgroup 4).</item>
+      </change>
+      <change encodinganalog="583">
         <date normal="2015-06-12">June 12, 2015</date>
         <item>Christel Maass added some publications from accession 2010-059 to the collection and
           noted the remaining accession as minimally processed.</item>
@@ -106,6 +113,7 @@
       <physdesc label="Quantity">
         <extent encodinganalog="300">27.3 cubic ft. (32 boxes)</extent>
         <extent encodinganalog="300">2 oversize folders</extent>
+        <extent encodinganalog="300">24 digital image files (7.93 GB)</extent>
         <extent encodinganalog="300">plus additions of 1.6 cubic ft. (3 boxes)</extent>
       </physdesc>
       <repository encodinganalog="852">
@@ -204,6 +212,11 @@
         <unitid>Milwaukee Manuscript Collection BP</unitid>
       </archref>
     </relatedmaterial>
+    <altformavail encodinganalog="530">
+      <head>Alternate Format</head>
+      <p>High-resolution scans of a selection of architectural drawings in Subgroup 4 are available in the
+        archives.</p>
+    </altformavail>
     <separatedmaterial encodinganalog="544 0">
       <head>Deaccession Information</head>
       <p>Floral prints (removed from box 21) were returned to the Woman's Club of Wisconsin in
@@ -220,6 +233,15 @@
           privacy, and copyright which may be involved in the use of this collection (Wisconsin
           Statutes 19.21-19.39).</p>
       </userestrict>
+      <phystech audience="internal" encodinganalog="532">
+        <p>As of October 17, 2016, all electronic files were accessible on an Intel Core i5-4570 CPU
+          (3.20 GHz, 4 GB RAM) running Windows 7 Enterprise with service pack 1. Windows Picture and
+          Fax Viewer was used to access the files.</p>
+        <p>The collection includes records in the following file formats:</p>
+        <list type="marked">
+          <item>Tagged Image File Format [.tif]</item>
+        </list>
+      </phystech>
       <acqinfo encodinganalog="541">
         <p>The Woman's Club of Wisconsin donated this collection to the Archives in December 2004
           (accession 2004-040). The Club donated additional materials in April 2007 (accession
@@ -242,6 +264,14 @@
           and 2012-045 in August 2013. Hayley Jackson (supervised by Christel Maass) processed
           accessions 2013-044 and 2014-030 in May 2015 (boxes 31-32). Christel Maass added some
           publications from accession 2010-059 to the processed collection in June 2015.</p>
+        <p>Brad Houston updated the finding aid in October 2016 to reflect the discovery of
+          architectural drawing scans in the American Geographic Society Library's collection.</p>
+      </processinfo>
+      <processinfo audience="internal">
+        <head>Preservation Information</head>
+        <p>Between January and February 2005, high-resolution scans of the architectural drawings
+          were created by AGSL and saved to TIFF format. Brad Houston migrated these scans to the
+          Archives server in October 2016 and created JPEG access copies for ease of accessibility. </p>
       </processinfo>
     </descgrp>
     <dsc type="combined">
@@ -254,6 +284,7 @@
           <physdesc>
             <extent encodinganalog="300">27.3 cubic ft. (32 boxes)</extent>
             <extent encodinganalog="300">2 oversize folders</extent>
+            <extent encodinganalog="300">24 digital image files (7.93 GB)</extent>
           </physdesc>
         </did>
         <c02 id="subgrp1" level="subgrp">
@@ -1787,6 +1818,7 @@
                 <did>
                   <unittitle>Architectural Drawings</unittitle>
                 </did>
+                <altformavail><p>High-resolution scans of a selection of these drawings are available in the reading room. Consult an archivist for more information.</p></altformavail>
                 <c06>
                   <did>
                     <unittitle>Eschweiler and Eschweiler, Club Renovations, 1936</unittitle>
