@@ -35,6 +35,10 @@
     </profiledesc>
     <revisiondesc>
       <change encodinganalog="583">
+        <date normal="2016-10-20">October 20, 2016</date>
+        <item>Brad Houston added information about the audio reels in the collection to the extent.</item>
+      </change>
+      <change encodinganalog="583">
         <date normal="2016-10-14">October 14, 2016</date>
         <item>Christel Maass made several corrections.</item>
       </change>
@@ -64,7 +68,7 @@
       <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
         >Accession 2007-038</unitid>
       <physdesc label="Quantity">
-        <extent encodinganalog="300">9.2 cubic ft. (13 boxes)</extent>
+        <extent encodinganalog="300">9.2 cubic ft. (13 boxes, including 277 audio reels)</extent>
         <extent encodinganalog="300">398 digital audio files (96.2 GB)</extent>
         <extent encodinganalog="300">111 audio cassettes</extent>
         <extent encodinganalog="300">plus additions of 0.5 cubic ft. (1 box and 1 folder)</extent>
