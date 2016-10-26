@@ -21,8 +21,7 @@
           <addressline>Archives Department</addressline>
           <addressline>P.O. Box 604</addressline>
           <addressline>Milwaukee, Wisconsin 53201-0604</addressline>
-          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr
-              href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
+          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
         </address>
         <date encodinganalog="260$c" type="publication" normal="2007">Copyright &#169; 2007
           University of Wisconsin Board of Regents</date>
@@ -35,8 +34,21 @@
     </profiledesc>
     <revisiondesc>
       <change encodinganalog="583">
+        <date normal="2016-10-26">October 26, 2016</date>
+        <item>Brad Houston updated the finding aid to reflect the move of cassettes in series 7-9
+          into cassette boxes. He also updated information about extent and physical description of
+          audio in boxes 13-14.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2016-10-21">October 21, 2016</date>
+        <item>Christel Maass updated the extent in the contents list and made a few other small
+          corrections. Brad Houston updated the contents list to indicate that materials consisted
+          of digital audio files.</item>
+      </change>
+      <change encodinganalog="583">
         <date normal="2016-10-20">October 20, 2016</date>
-        <item>Brad Houston added information about the audio reels in the collection to the extent.</item>
+        <item>Brad Houston added information about the audio reels in the collection to the
+          extent.</item>
       </change>
       <change encodinganalog="583">
         <date normal="2016-10-14">October 14, 2016</date>
@@ -68,10 +80,9 @@
       <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
         >Accession 2007-038</unitid>
       <physdesc label="Quantity">
-        <extent encodinganalog="300">9.2 cubic ft. (13 boxes, including 277 audio reels)</extent>
+        <extent encodinganalog="300">9.4 cubic ft. (17 boxes, including 227 audio reels and 161 audio cassettes)</extent>
         <extent encodinganalog="300">398 digital audio files (96.2 GB)</extent>
-        <extent encodinganalog="300">111 audio cassettes</extent>
-        <extent encodinganalog="300">plus additions of 0.5 cubic ft. (1 box and 1 folder)</extent>
+                <extent encodinganalog="300">plus additions of 0.5 cubic ft. (1 box and 1 folder)</extent>
       </physdesc>
       <repository encodinganalog="852">
         <extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
@@ -331,9 +342,9 @@
           <unitid>UWM Archival Collection 2</unitid>
           <unittitle>WUWM Records, <unitdate>1950-2014</unitdate></unittitle>
           <physdesc>
-            <extent encodinganalog="300">9.2 cubic ft. (13 boxes)</extent>
+            <extent encodinganalog="300">9.4 cubic ft. (17 boxes, including 227 audio
+              reels and 161 audio cassettes)</extent>
             <extent encodinganalog="300">398 digital audio files (96.2 GB)</extent>
-            <extent encodinganalog="300">111 audio cassettes</extent>
           </physdesc>
         </did>
         <c02 id="series1" level="series">
@@ -2618,7 +2629,7 @@
               <container type="box" label="Box">13</container>
               <container type="folder" label="Audio">228</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2629,7 +2640,7 @@
               <container type="box" label="Box">13</container>
               <container type="folder" label="Audio">229</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2640,7 +2651,7 @@
               <container type="box" label="Box">13</container>
               <container type="folder" label="Audio">230</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2651,7 +2662,7 @@
               <container type="box" label="Box">13</container>
               <container type="folder" label="Audio">231</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2662,7 +2673,7 @@
               <container type="box" label="Box">13</container>
               <container type="folder" label="Audio">232</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2673,7 +2684,7 @@
               <container type="box" label="Box">13</container>
               <container type="folder" label="Audio">233</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2684,7 +2695,7 @@
               <container type="box" label="Box">13</container>
               <container type="folder" label="Audio">234</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2695,7 +2706,7 @@
               <container type="box" label="Box">13</container>
               <container type="folder" label="Audio">235</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2706,7 +2717,7 @@
               <container type="box" label="Box">13</container>
               <container type="folder" label="Audio">236</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2717,7 +2728,7 @@
               <container type="box" label="Box">13</container>
               <container type="folder" label="Audio">237</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2728,7 +2739,7 @@
               <container type="box" label="Box">13</container>
               <container type="folder" label="Audio">238</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2739,7 +2750,7 @@
               <container type="box" label="Box">13</container>
               <container type="folder" label="Audio">239</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2750,7 +2761,7 @@
               <container type="box" label="Box">13</container>
               <container type="folder" label="Audio">240</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2761,7 +2772,7 @@
               <container type="box" label="Box">13</container>
               <container type="folder" label="Audio">241</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2771,7 +2782,7 @@
               <container type="box" label="Box">13</container>
               <container type="folder" label="Audio">242</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2781,7 +2792,7 @@
               <container type="box" label="Box">13</container>
               <container type="folder" label="Audio">243</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2791,7 +2802,7 @@
               <container type="box" label="Box">13</container>
               <container type="folder" label="Audio">244</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2802,7 +2813,7 @@
               <container type="box" label="Box">13</container>
               <container type="folder" label="Audio">245</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2814,7 +2825,7 @@
               <container type="box" label="Box">13</container>
               <container type="folder" label="Audio">246</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2825,7 +2836,7 @@
               <container type="box" label="Box">13</container>
               <container type="folder" label="Audio">247</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2836,7 +2847,7 @@
               <container type="box" label="Box">13</container>
               <container type="folder" label="Audio">248</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2847,7 +2858,7 @@
               <container type="box" label="Box">13</container>
               <container type="folder" label="Audio">249</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2858,28 +2869,28 @@
               <container type="box" label="Box">14</container>
               <container type="folder" label="Audio">250</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Side 1:First HUB Credit Union, <unitdate>Nov. 24, 1977</unitdate>; Side 2,
+              <unittitle>Side 1: First HUB Credit Union, <unitdate>Nov. 24, 1977</unitdate>; Side 2,
                   <unitdate>Dec. 29, 1977</unitdate></unittitle>
               <container type="box" label="Box">14</container>
               <container type="folder" label="Audio">251</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Side 1: and 2: Desegregation, <unitdate>Dec. 1, 1977</unitdate></unittitle>
+              <unittitle>Side 1 and 2: Desegregation, <unitdate>Dec. 1, 1977</unitdate></unittitle>
               <container type="box" label="Box">14</container>
               <container type="folder" label="Audio">252</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2891,7 +2902,7 @@
               <container type="box" label="Box">14</container>
               <container type="folder" label="Audio">253</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2902,7 +2913,7 @@
               <container type="box" label="Box">14</container>
               <container type="folder" label="Audio">254</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2913,7 +2924,7 @@
               <container type="box" label="Box">14</container>
               <container type="folder" label="Audio">255</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2925,7 +2936,7 @@
               <container type="box" label="Box">14</container>
               <container type="folder" label="Audio">256</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2936,7 +2947,7 @@
               <container type="box" label="Box">14</container>
               <container type="folder" label="Audio">257</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2947,7 +2958,7 @@
               <container type="box" label="Box">14</container>
               <container type="folder" label="Audio">258</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2959,7 +2970,7 @@
               <container type="box" label="Box">14</container>
               <container type="folder" label="Audio">259</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2970,7 +2981,7 @@
               <container type="box" label="Box">14</container>
               <container type="folder" label="Audio">260</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2981,7 +2992,7 @@
               <container type="box" label="Box">14</container>
               <container type="folder" label="Audio">261</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -2992,7 +3003,7 @@
               <container type="box" label="Box">14</container>
               <container type="folder" label="Audio">262</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -3003,7 +3014,7 @@
               <container type="box" label="Box">14</container>
               <container type="folder" label="Audio">263</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -3014,7 +3025,7 @@
               <container type="box" label="Box">14</container>
               <container type="folder" label="Audio">264</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -3025,7 +3036,7 @@
               <container type="box" label="Box">14</container>
               <container type="folder" label="Audio">265</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -3036,7 +3047,7 @@
               <container type="box" label="Box">14</container>
               <container type="folder" label="Audio">266</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -3047,7 +3058,7 @@
               <container type="box" label="Box">14</container>
               <container type="folder" label="Audio">267</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -3059,29 +3070,29 @@
               <container type="box" label="Box">14</container>
               <container type="folder" label="Audio">268</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Side 1: and 2: Exam Stress, <unitdate>Dec. 14, 1978</unitdate>- Dec. 17,
+              <unittitle>Side 1 and 2: Exam Stress, <unitdate>Dec. 14, 1978</unitdate>- Dec. 17,
                 1978</unittitle>
               <container type="box" label="Box">14</container>
               <container type="folder" label="Audio">269</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Side 1: and 2: Humanities, <unitdate>Jan. 11, 1979</unitdate>-Jan. 14,
+              <unittitle>Side 1 and 2: Humanities, <unitdate>Jan. 11, 1979</unitdate>-Jan. 14,
                 1979</unittitle>
               <container type="box" label="Box">14</container>
               <container type="folder" label="Audio">270</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -3092,7 +3103,7 @@
               <container type="box" label="Box">14</container>
               <container type="folder" label="Audio">271</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -3103,7 +3114,7 @@
               <container type="box" label="Box">14</container>
               <container type="folder" label="Audio">272</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -3114,7 +3125,7 @@
               <container type="box" label="Box">14</container>
               <container type="folder" label="Audio">273</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -3125,7 +3136,7 @@
               <container type="box" label="Box">14</container>
               <container type="folder" label="Audio">274</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -3136,7 +3147,7 @@
               <container type="box" label="Box">14</container>
               <container type="folder" label="Audio">275</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -3147,7 +3158,7 @@
               <container type="box" label="Box">14</container>
               <container type="folder" label="Audio">276-277</container>
               <physdesc>
-                <extent>Audio reel</extent>
+                <extent>1 audio cassette</extent>
               </physdesc>
             </did>
           </c03>
@@ -4062,6 +4073,9 @@
               <unittitle>Science Bag, with Norm Lasca, Robert Greenler and Tom Luljak,
                   <unitdate>January 14, 2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20040115</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4069,6 +4083,9 @@
               <unittitle>Drug Use Research, with Mike Allen and Tom Luljak, <unitdate>February 12,
                   2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20040212</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4076,6 +4093,9 @@
               <unittitle>Cultures and Communities, with Karen Thorne, Sarah Stoecker, and Tom
                 Luljak, <unitdate>March 11, 2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20040311</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4083,6 +4103,9 @@
               <unittitle>Financial Aid, with Jane Hojan-Clark and Tom Luljak, <unitdate>March 18,
                   2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20040318</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4090,6 +4113,9 @@
               <unittitle>Career Development Center, with Tom Bachhuber and Tom Luljak,
                   <unitdate>March 25, 2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20040325</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4097,6 +4123,9 @@
               <unittitle>Scholarship Campaign, with Lucia Petrie and Tom Luljak, <unitdate>April 15,
                   2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20040415</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4104,6 +4133,9 @@
               <unittitle>2004 Milwaukee Elections, with Mordecai Lee and Tom Luljak, <unitdate>April
                   22, 2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20040422</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4111,13 +4143,19 @@
               <unittitle>Panthercom, with Bambi Riehl and Tom Luljak, <unitdate>April 29,
                   2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20040429</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Alumni Association, with Barbara Flint and Joe Czarnezki and Tom Luljak,
+              <unittitle>Alumni Association, with Barbara Flint, Joe Czarnezki, and Tom Luljak,
                   <unitdate>May 13, 2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20040513</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4125,6 +4163,9 @@
               <unittitle>IDEAL, with Amy Batiste and Tom Luljak, <unitdate>May 20,
                 2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20040520</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4132,6 +4173,9 @@
               <unittitle>Black and Gold Committee, with Mary Roggeman and Tom Luljak, <unitdate>May
                   27, 2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20040527</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4139,6 +4183,9 @@
               <unittitle>Technology in Education, with Randy Ryder and Tom Luljak, <unitdate>June
                   17, 2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20040617</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4146,6 +4193,9 @@
               <unittitle>Center for Workforce Development, with Sammis White and Tom Luljak,
                   <unitdate>June 24, 2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20040624</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4153,6 +4203,9 @@
               <unittitle>Center for International Education and Global Studies BA with Patrice Petro
                 and Tom Luljak, <unitdate>June 30, 2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20040701</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4160,6 +4213,9 @@
               <unittitle>Low Income Taxpayer Clinic, with Christine Bauman and Tom Luljak,
                   <unitdate>July 8, 2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20040708</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4167,6 +4223,9 @@
               <unittitle>Harvard Survey, North American Dialects, with Bert Vaux and Tom Luljak,
                   <unitdate>July 15, 2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20040715</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4174,13 +4233,19 @@
               <unittitle>Dancemakers Concert Program, with Simone Ferro and Tom Luljak,
                   <unitdate>July 22, 2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20040722</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Institute of Aging And Environment, with Gerald Weisman and Tom Luljak,
+              <unittitle>Institute of Aging and Environment, with Gerald Weisman and Tom Luljak,
                   <unitdate>July 29, 2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20040729</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4188,6 +4253,9 @@
               <unittitle>Gay Rights Attitudes, with Paul Brewer and Tom Luljak, <unitdate>August 5,
                   2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20040805</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4195,6 +4263,9 @@
               <unittitle>Conflict Resolution Training, with Nancy Burrell and Tom Luljak,
                   <unitdate>August 12, 2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20040812</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4202,6 +4273,9 @@
               <unittitle>Pharmaceuticals and Anxiety, with Cook and Tom Luljak, <unitdate>August 19,
                   2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20040819</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4209,6 +4283,9 @@
               <unittitle>Center for Economic Development, with Marc Levine and Tom Luljak,
                   <unitdate>August 26, 2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20040826</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4216,6 +4293,9 @@
               <unittitle>Peck School of the Arts 2004 Season, with W. Robert Bucker and Tom Luljak,
                   <unitdate>September 2, 2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20040902</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4223,6 +4303,9 @@
               <unittitle>Microbial Proteins Research, with M. Collins and Tom Luljak,
                   <unitdate>September 9, 2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20040909</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4230,6 +4313,9 @@
               <unittitle>Milwaukee Planning and Design, with Bob Greenstreet and Tom Luljak,
                   <unitdate>September 16, 2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20040916</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4237,20 +4323,29 @@
               <unittitle>Get Out the Vote, with Hable, Watson and Tom Luljak, <unitdate>September
                   23, 2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20040923</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>WUWM, with Ruane Hill, Dave Edwards and Tom Luljak, <unitdate>September 30,
-                  2004</unitdate></unittitle>
+              <unittitle>WUWM, with Ruane Hill, Dave Edwards, and Tom Luljak, <unitdate>September
+                  30, 2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20040930</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>CABHR, with Allen Zweben, Laura Otto-Salaj and Tom Luljak,
+              <unittitle>CABHR, with Allen Zweben, Laura Otto-Salaj, and Tom Luljak,
                   <unitdate>October 7, 2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20041007</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4258,6 +4353,9 @@
               <unittitle>Fall 2004 Symphony Season, with Margarey Deutsch and Tom Luljak,
                   <unitdate>October 14, 2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20041014</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4265,13 +4363,19 @@
               <unittitle>2004 Elections, with Kathleen Dolan and Tom Luljak, <unitdate>October 21,
                   2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20041021</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>2004-2005 Basketball Season, with Sandy Botham, Bruce Pearl, and Tom Luljak,
-                  <unitdate>November 4, 2004</unitdate></unittitle>
+              <unittitle>2004-2005 Basketball Season, with Sandy Botham, Bruce Pearl, and Tom
+                Luljak, <unitdate>November 4, 2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20041104</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4279,6 +4383,9 @@
               <unittitle>Aquaculture, with Rick Goetz and Tom Luljak, <unitdate>November 11,
                   2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20041111</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4286,6 +4393,9 @@
               <unittitle>Library Programs, with Ewa Barczyk and Tom Luljak, <unitdate>November 18,
                   2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20041118</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4293,6 +4403,9 @@
               <unittitle>History of Eating and Food, with Martha Carlin and Tom Luljak,
                   <unitdate>November 25, 2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20041125</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4300,6 +4413,9 @@
               <unittitle>Health Care System, with Sally Lundeen and Tom Luljak, <unitdate>December
                   2, 2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20041202</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4307,6 +4423,9 @@
               <unittitle>Norris Health Center Programs, with Don Craig and Tom Luljak,
                   <unitdate>December 9, 2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20041209</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4314,6 +4433,9 @@
               <unittitle>Women's Resource Center, with Merry Wiesner-Hanks and Tom Luljak,
                   <unitdate>December 16, 2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20041216</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4321,6 +4443,9 @@
               <unittitle>Services to Students, with Mary Roggeman, Jim Hill, and Tom Luljak,
                   <unitdate>December 30, 2004</unitdate></unittitle>
               <container type="electronic" label="ID No.">20041230</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
         </c02>
@@ -4329,11 +4454,14 @@
             <unittitle>9. WUWM <title render="italic">UWM Today</title>,
                 <unitdate>2005-2012</unitdate></unittitle>
           </did>
-                    <c03>
+          <c03>
             <did>
               <unittitle>Info Studies in the Age of Technology, with Tom Walker and Tom Luljak,
                   <unitdate>January 6, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20050106</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4341,6 +4469,9 @@
               <unittitle>Edison Initiative, with Nigel Rothfels, Josh Zara, and Tom Luljak,
                   <unitdate>January 13, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20050113</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4348,6 +4479,9 @@
               <unittitle>Invasion of Exotic Species into Great Lakes, with Art Brooks and Tom
                 Luljak, <unitdate>January 20, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20050120</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4355,6 +4489,9 @@
               <unittitle>R2D2 Center, with R. Smith and Tom Luljak, <unitdate>January 27,
                   2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20050127</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4362,6 +4499,9 @@
               <unittitle>Kenilworth Update, with Mary Roggeman, W. Robert Bucker, and Tom Luljak,
                   <unitdate>February 17, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20050217</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4369,6 +4509,9 @@
               <unittitle>Reading Circle, with Marianne Maris and Tom Luljak, <unitdate>February 24,
                   2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20050224</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4376,13 +4519,19 @@
               <unittitle>Human Performance Lab, with Ann Snyder and Tom Luljak, <unitdate>March 10,
                   2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20050310</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>BioTech Business Venture, with Sandra Millon, Mark Underwood, James Moyer and Tom
-                Luljak, <unitdate>March 17, 2005</unitdate></unittitle>
+              <unittitle>BioTech Business Venture, with Sandra Millon, Mark Underwood, James Moyer,
+                and Tom Luljak, <unitdate>March 17, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20050317</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4390,6 +4539,9 @@
               <unittitle>Environmental Writing and Reporting, with Dave Backes and Tom Luljak,
                   <unitdate>March 24, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20050324</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4397,6 +4549,9 @@
               <unittitle>Alzheimer's, with Christine Kovac, <unitdate>March 31,
                 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20050331</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4404,6 +4559,9 @@
               <unittitle>Center for Volunteerism, with Laurie Marks and Tom Luljak, <unitdate>April
                   14, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20050414</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4411,6 +4569,9 @@
               <unittitle>Small Business Development Center, with Lucy Holifield and Tom Luljak,
                   <unitdate>April 21, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20050421</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4418,6 +4579,9 @@
               <unittitle>Marcus Prize for Architecture, with Bob Greenstreet and Tom Luljak,
                   <unitdate>April 28, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20050428</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4425,6 +4589,9 @@
               <unittitle>GIS, with Bill Huxhold, Zong Peng and Tom Luljak, <unitdate>May 12,
                   2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20050512</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4432,6 +4599,9 @@
               <unittitle>Summer Arts Program, with W. Robert Bucker and Tom Luljak, <unitdate>May
                   19, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20050519</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4439,6 +4609,9 @@
               <unittitle>Teacher Education Initiative, with Alonso Thurman and Tom Luljak,
                   <unitdate>May 26, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20050526</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4446,6 +4619,9 @@
               <unittitle>StoryCorps, with Dave Edwards and Tom Luljak, <unitdate>June 2,
                   2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20050602</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4453,6 +4629,9 @@
               <unittitle>Environmental Health, with David Petering and Tom Luljak, <unitdate>June 9,
                   2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20050609</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4460,6 +4639,9 @@
               <unittitle>New Provost, with Rita Cheng and Tom Luljak, <unitdate>June 16,
                   2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20050616</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4467,6 +4649,9 @@
               <unittitle>Copyright and Information Issues, with Tomas Lipinski and Tom Luljak,
                   <unitdate>June 23, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20050623</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4474,6 +4659,9 @@
               <unittitle>Career Development Center, with Tom Bachhuber and Tom Luljak,
                   <unitdate>July 21, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20050721</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4481,6 +4669,9 @@
               <unittitle>Center for Composite Materials, with Pradeep Rohatgi and Tom Luljak,
                   <unitdate>July 28, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20050728</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4488,6 +4679,9 @@
               <unittitle>Volcanology, with Barry Cameron and Tom Luljak, <unitdate>August 11,
                   2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20050811</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4495,6 +4689,9 @@
               <unittitle>Toddlers and Security Blankets, with Richard Passman and Tom Luljak,
                   <unitdate>August 25, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20050825</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4502,6 +4699,9 @@
               <unittitle>Wellness Works Program, with Cynthia Hasbrook and Tom Luljak,
                   <unitdate>September 8, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20050908</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4509,6 +4709,9 @@
               <unittitle>Happy Retirement, with Keith Bender and Tom Luljak, <unitdate>September 15,
                   2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20050915</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4516,6 +4719,9 @@
               <unittitle>Weather Forecasting, with Paul Roebber and Tom Luljak, <unitdate>September
                   29, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20050929</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4523,6 +4729,9 @@
               <unittitle>Access to Success, with Ruth Williams and Tom Luljak, <unitdate>October 13,
                   2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20051031</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4530,6 +4739,9 @@
               <unittitle>Einstein@home Project, with Bruce Allen and Tom Luljak, <unitdate>October
                   20, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20051020</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4537,6 +4749,9 @@
               <unittitle>Economic Growth in China, with Dennis Wei and Tom Luljak, <unitdate>October
                   27, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20051027</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4544,6 +4759,9 @@
               <unittitle>Tourette's Syndrome, with Doug Woods and Tom Luljak, <unitdate>November 17,
                   2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20051117</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4551,6 +4769,9 @@
               <unittitle>Alumni Association, with Andrea Simpson and Tom Luljak, <unitdate>December
                   8, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20051208</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4558,6 +4779,9 @@
               <unittitle>Norris Health Center, with Julia Bonner and Tom Luljak, <unitdate>December
                   15, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">20051215</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4565,6 +4789,9 @@
               <unittitle>Peck School of the Arts Programs, with W. Robert Bucker and Tom Luljak,
                   <unitdate>January 12, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060112</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4572,13 +4799,19 @@
               <unittitle>Student Affairs, with Jim Hill and Tom Luljak, <unitdate>January 19,
                   2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060119</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Difficult Dialogues, with Greg Jay, Meredith Reitman and Tom Luljak,
+              <unittitle>Difficult Dialogues, with Greg Jay, Meredith Reitman, and Tom Luljak,
                   <unitdate>January 26, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060126</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4586,6 +4819,9 @@
               <unittitle>TRIO/Pre-College Programs, with Pam Clark and Tom Luljak,
                   <unitdate>February 2, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060202</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4593,6 +4829,9 @@
               <unittitle>Almost Home Documentary, with Brad Lichtenstein and Tom Luljak,
                   <unitdate>February 9, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060209</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4600,6 +4839,9 @@
               <unittitle>Drugs in the Water System, with Rebecca Klaper and Tom Luljak,
                   <unitdate>February 16, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060216</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4607,6 +4849,9 @@
               <unittitle>Creative Writing, with Maurice Kilwein-Guevara, Dave Clark, and Tom Luljak,
                   <unitdate>February 23, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060223</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4614,6 +4859,9 @@
               <unittitle>Peck School of the Arts Programs, with W. Robert Bucker and Tom Luljak,
                   <unitdate>March 9, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060309</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4621,6 +4869,9 @@
               <unittitle>Life Impact Program, with Rick Clark, Scott Gore, and Tom Luljak,
                   <unitdate>March 16, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060316</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4628,6 +4879,9 @@
               <unittitle>Substance Abuse, with Paul Dupont, Carol Haertlein-Sells, and Tom Luljak,
                   <unitdate>March 23, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060323</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4635,6 +4889,9 @@
               <unittitle>Soccer, with Jon Coleman and Tom Luljak, <unitdate>March 30,
                   2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060330</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4642,6 +4899,9 @@
               <unittitle>Ojibwa Health Study, with John Dellinger and Tom Luljak, <unitdate>April
                   13, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060413</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4649,6 +4909,9 @@
               <unittitle>English as a Second Language, with Nancy Barbieri and Tom Luljak,
                   <unitdate>April 20, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060420</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4656,6 +4919,9 @@
               <unittitle>Center for Volunteerism, with Laurie Marks and Tom Luljak, <unitdate>April
                   27, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060427</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4663,6 +4929,9 @@
               <unittitle>Athlete Training, with Barbara Meyer and Tom Luljak, <unitdate>May 11,
                   2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060511</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4670,6 +4939,9 @@
               <unittitle>Computer Safety, with Bruce Maas, Steve Brukbacher, and Tom Luljak,
                   <unitdate>June 8, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060608</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4677,13 +4949,19 @@
               <unittitle>College For Kids, with Cindy Ruffert and Tom Luljak, <unitdate>June 15,
                   2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060615</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Helen Bader School of Social Welfare, with Stan Stojkovic and Tom Luljak, <unitdate>June 22,
-                  2006</unitdate></unittitle>
+              <unittitle>Helen Bader School of Social Welfare, with Stan Stojkovic and Tom Luljak,
+                  <unitdate>June 22, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060622</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4691,6 +4969,9 @@
               <unittitle>Center for Technology Innovation, with William Haseman and Tom Luljak,
                   <unitdate>June 29, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060629</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4698,6 +4979,9 @@
               <unittitle>Union Programming, with Scott Gore and Tom Luljak, <unitdate>July 13,
                   2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060713</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4705,6 +4989,9 @@
               <unittitle>UWM Fundraising, with Lucia Petrie and Tom Luljak, <unitdate>July 20,
                   2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060720</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4712,6 +4999,9 @@
               <unittitle>Volcanology, with Barry Cameron and Tom Luljak, <unitdate>July 27,
                   2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060727</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4719,6 +5009,9 @@
               <unittitle>Teaching Excellence, with Diane Reddy, Florence Johnson, and Tom Luljak,
                   <unitdate>August 17, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060817</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4726,6 +5019,9 @@
               <unittitle>Light Therapy, with Janis Eells and Tom Luljak, <unitdate>August 24,
                   2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060824</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4733,6 +5029,9 @@
               <unittitle>Teaching, with Stephen Percy and Tom Luljak, <unitdate>August 31,
                   2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060831</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4740,6 +5039,9 @@
               <unittitle>Study of the Brain, with Fred Helmstetter and Tom Luljak,
                   <unitdate>September 14, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060914</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4747,6 +5049,9 @@
               <unittitle>Political Messages, with Paul Brewer and Tom Luljak, <unitdate>September
                   21, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060921</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4754,6 +5059,9 @@
               <unittitle>Mandatory Res/MPS Employees, with Mark Schug and Tom Luljak,
                   <unitdate>September 28, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20060928</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4761,6 +5069,9 @@
               <unittitle>Lights On, with Pam Boulton, Rae Williams Dimilo, and Tom Luljak,
                   <unitdate>October 12, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20061012</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4768,6 +5079,9 @@
               <unittitle>Renewable Resources, with Sarah Gong and Tom Luljak, <unitdate>October 19,
                   2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20061019</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4775,6 +5089,9 @@
               <unittitle>Special Education, with Dave Edyburn and Tom Luljak, <unitdate>October 26,
                   2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20061026</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4782,6 +5099,9 @@
               <unittitle>Arts at UWM, with W. Robert Bucker and Tom Luljak, <unitdate>November 9,
                   2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20061109</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4789,13 +5109,19 @@
               <unittitle>Climatology, with Mark Schwartz and Tom Luljak, <unitdate>November 16,
                   2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20061116</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>UWM Foundation, with David Gilbert, Brian Thompson and Tom Luljak,
+              <unittitle>UWM Foundation, with David Gilbert, Brian Thompson, and Tom Luljak,
                   <unitdate>November 30, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20061130</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4803,6 +5129,9 @@
               <unittitle>Architecture and UWM Campus, with Claude Schuttey and Tom Luljak,
                   <unitdate>December 14, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20061214</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4810,6 +5139,9 @@
               <unittitle>WUWM, with Dave Edwards and Tom Luljak, <unitdate>December 21,
                   2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">20061221</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4817,6 +5149,9 @@
               <unittitle>Alumni Association, with Andrea Simpson, Lawrence Schnuck, and Tom Luljak,
                   <unitdate>January 11, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070111</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4824,6 +5159,9 @@
               <unittitle>TV and Sex, with Elana Levine and Tom Luljak, <unitdate>January 18,
                   2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070118</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4831,6 +5169,9 @@
               <unittitle>UWM's Charter High School, with Nancy Frank, Kirk Harris, and Tom Luljak,
                   <unitdate>January 25, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070125</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4838,6 +5179,9 @@
               <unittitle>Wounded Soldiers, with Randy Lambrecht, Cynthia Hasbrook, and Tom Luljak,
                   <unitdate>February 8, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070208</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4845,6 +5189,9 @@
               <unittitle>Science Bag, with Andrew Petto and Tom Luljak, <unitdate>February 15,
                   2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070215</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4852,6 +5199,9 @@
               <unittitle>StoryCorps, with Anne Basting, Joan Johnson, Mary Milinkovich, and Tom
                 Luljak, <unitdate>February 22, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070222</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4859,6 +5209,9 @@
               <unittitle>Career Development, with Tom Bachhuber, Cindy Petrites, and Tom Luljak,
                   <unitdate>March 8, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070308</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4866,6 +5219,9 @@
               <unittitle>Teaching Excellence, with John Kahl, Jenny Wanasek, and Tom Luljak,
                   <unitdate>March 15, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070315</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4873,6 +5229,9 @@
               <unittitle>Counseling and Psychology, with Azara Santiago-Rivera, Nadya Fouad, and Tom
                 Luljak, <unitdate>March 22, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070322</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4880,6 +5239,9 @@
               <unittitle>Norris Health Center, with Julia Bonner, Jane Ramsden, and Tom Luljak,
                   <unitdate>March 29, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070329</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4887,6 +5249,9 @@
               <unittitle>Institute of World Affairs, with Douglas Savage and Tom Luljak,
                   <unitdate>April 12, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070412</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4894,6 +5259,9 @@
               <unittitle>American Indian Student Services, with Diane Amour and Tom Luljak,
                   <unitdate>April 19, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070419</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4901,6 +5269,9 @@
               <unittitle>Campus Safety, with Pam Hodermann, Sherwood Wilson, and Tom Luljak,
                   <unitdate>April 26, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070426</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4908,6 +5279,9 @@
               <unittitle>Campus Safety, with Julia Bonner, Stu Tentoni, and Tom Luljak,
                   <unitdate>May 3, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070503</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4915,6 +5289,9 @@
               <unittitle>Honors College, with Robin Weigert, Larry Baldassaro, and Tom Luljak,
                   <unitdate>May 10, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070510</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4922,6 +5299,9 @@
               <unittitle>UWM's Map Collection, with Ewa Barczyk, Chris Baruth, and Tom Luljak,
                   <unitdate>May 17, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070517</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4929,6 +5309,9 @@
               <unittitle>Bacteria's Role, with Mark McBride and Tom Luljak, <unitdate>May 24,
                   2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070524</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4936,6 +5319,9 @@
               <unittitle>Peck School of the Arts, with W. Robert Bucker and Tom Luljak,
                   <unitdate>May 31, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070531</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4943,6 +5329,9 @@
               <unittitle>Weather Forecasting Service, with Paul Roebber, Mike Westendorf, and Tom
                 Luljak, <unitdate>June 14, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070614</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4950,6 +5339,9 @@
               <unittitle>Freshwater Lakes Today, with Val Klump and Tom Luljak, <unitdate>June 21,
                   2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070621</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4957,6 +5349,9 @@
               <unittitle>Baseball and Education at UWM, with Marianne Maris and Tom Luljak,
                   <unitdate>July 12, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070712</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4964,6 +5359,9 @@
               <unittitle>School of Public Health, with Rita Cheng and Tom Luljak, <unitdate>July 19,
                   2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070719</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4971,6 +5369,9 @@
               <unittitle>Diversity, with Donna Shepard and Tom Luljak, <unitdate>July 26,
                   2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070726</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4978,13 +5379,19 @@
               <unittitle>Breast Cancer, with Sandra Millon-Underwood and Tom Luljak,
                   <unitdate>August 9, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070809</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Celtic Studies, with Bettina Arnold, Jeff Ksiazek and Tom Luljak,
+              <unittitle>Celtic Studies, with Bettina Arnold, Jeff Ksiazek, and Tom Luljak,
                   <unitdate>August 16, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070816</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4992,6 +5399,9 @@
               <unittitle>Center for Instructional and Professional Development, with Anthony Ciccone
                 and Tom Luljak, <unitdate>August 23, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070823</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -4999,6 +5409,9 @@
               <unittitle>Peck School of the Arts, with Scott Emmons and Tom Luljak, <unitdate>August
                   30, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070830</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5006,6 +5419,9 @@
               <unittitle>Great Lakes in Africa and US, with Harvey Bootsma and Tom Luljak,
                   <unitdate>September 13, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070913</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5013,6 +5429,9 @@
               <unittitle>Peaceful Negotiating Resolutions, with Rob Ricigliano and Tom Luljak,
                   <unitdate>September 20, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070920</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5020,6 +5439,9 @@
               <unittitle>Insurance and Literature, with Jason Puskar and Tom Luljak,
                   <unitdate>September 27, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070927</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5027,6 +5449,9 @@
               <unittitle>Carbon Dioxide, with Margaret Fraiser and Tom Luljak, <unitdate>October 11,
                   2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20071011</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5034,6 +5459,9 @@
               <unittitle>Excellence in Teaching, with Diane Reddy and Tom Luljak, <unitdate>October
                   18, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20071018</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5041,6 +5469,9 @@
               <unittitle>Blending Life and Learning, with Laura Pedrick, Bob Koleta, and Tom Luljak,
                   <unitdate>October 25, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20071025</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5048,13 +5479,19 @@
               <unittitle>Burma, with Ingrid Jordt and Tom Luljak, <unitdate>November 15,
                   2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20071115</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>DocUWM, with Brad Lichtenstein, Terry Caddell, and Tom Luljak, <unitdate>November
-                  22, 2007</unitdate></unittitle>
+              <unittitle>DocUWM, with Brad Lichtenstein, Terry Caddell, and Tom Luljak,
+                  <unitdate>November 22, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20071122</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5062,6 +5499,9 @@
               <unittitle>Black Men in Milwaukee, with David Pate and Tom Luljak, <unitdate>December
                   13, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20071213</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5069,6 +5509,9 @@
               <unittitle>Stuttering, with Carol Seery and Tom Luljak, <unitdate>December 20,
                   2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20071220</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5076,6 +5519,9 @@
               <unittitle>Study Abroad and International Education, with Jennifer Gruenewald and Tom
                 Luljak, <unitdate>December 27, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20071227</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5083,6 +5529,9 @@
               <unittitle>McNair Program, with Karen Dredge, Tomas Garrett, and Tom Luljak,
                   <unitdate>January 10, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080110</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5090,6 +5539,9 @@
               <unittitle>Addiction and Behavioral Research, with Susan Rose and Tom Luljak,
                   <unitdate>January 17, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080117</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5097,6 +5549,9 @@
               <unittitle>Center for Volunteerism, with Laurie Marks, Jonathan Marks, and Tom Luljak,
                   <unitdate>January 24, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080124</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5104,6 +5559,9 @@
               <unittitle>Africology, with Winston van Horne, Joyce Kirk, and Tom Luljak,
                   <unitdate>January 31, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080131</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5111,6 +5569,9 @@
               <unittitle>Wisconsin Politics, with Kathleen Dolan, Mordecai Lee, and Tom Luljak,
                   <unitdate>February 14, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080214</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5118,6 +5579,9 @@
               <unittitle>Adult and Returning Students, with Kim Folstein, Tomas Garrett, and Tom
                 Luljak, <unitdate>February 21, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080221</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5125,6 +5589,9 @@
               <unittitle>Gravitational Waves, with Patrick Brady, Alan Wiseman, and Tom Luljak,
                   <unitdate>February 28, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080228</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5132,6 +5599,9 @@
               <unittitle>Technology and the Disabled, with Dave Edyburn and Tom Luljak,
                   <unitdate>March 13, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080313</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5139,6 +5609,9 @@
               <unittitle>Science Bag, with Norm Lasca, Guilherme Indig, and Tom Luljak,
                   <unitdate>March 20, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080320</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5146,6 +5619,9 @@
               <unittitle>Research Initiatives, with Colin Scanes and Tom Luljak, <unitdate>March 27,
                   2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080327</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5153,6 +5629,9 @@
               <unittitle>Community Nursing, with Jean Bell-Calvin, Beth Peterman, and Tom Luljak,
                   <unitdate>April 10, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080410</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5160,6 +5639,9 @@
               <unittitle>UWM Going Green, with Kate Nelson and Tom Luljak, <unitdate>April 17,
                   2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080417</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5167,6 +5649,9 @@
               <unittitle>Green Roofs, with Scott Peak, Jim Wosley, and Tom Luljak, <unitdate>April
                   17, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080717</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5174,6 +5659,9 @@
               <unittitle>Polls, with Nancy Mathiowetz and Tom Luljak, <unitdate>April 24,
                   2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080424</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5181,6 +5669,9 @@
               <unittitle>History of Computers, with Tom Haigh and Tom Luljak, <unitdate>May 8,
                   2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080508</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5188,6 +5679,9 @@
               <unittitle>Building a Solar Home, with Greg Thomson, Chris Cornelius, and Tom Luljak,
                   <unitdate>May 15, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080515</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5195,6 +5689,9 @@
               <unittitle>ZipCar, with Scott Peak, Larios Berlin, and Tom Luljak, <unitdate>May 22,
                   2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080522</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5202,6 +5699,9 @@
               <unittitle>Summer Dance, with Ed Burgess and Tom Luljak, <unitdate>May 29,
                   2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080529</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5209,6 +5709,9 @@
               <unittitle>Milwaukee Mosaic, with Joan Prince and Tom Luljak, <unitdate>June 12,
                   2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080612</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5216,6 +5719,9 @@
               <unittitle>Electronic Bio-Sensors, with David Klemer and Tom Luljak, <unitdate>June
                   19, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080619</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5223,6 +5729,9 @@
               <unittitle>School of Public Health, with Rita Cheng and Tom Luljak, <unitdate>June 26,
                   2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080626</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5230,6 +5739,9 @@
               <unittitle>Campus Safety Report, with Stan Stojkovic and Tom Luljak, <unitdate>July
                   10, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080710</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5237,6 +5749,9 @@
               <unittitle>First Year Center, with Ericca Pollack, Jessica Stein, and Tom Luljak,
                   <unitdate>July 24, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080724</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5244,6 +5759,9 @@
               <unittitle>Freshwater Industry, with Sam White and Tom Luljak, <unitdate>July 31,
                   2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080731</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5251,6 +5769,9 @@
               <unittitle>Burma Aid, with Ingrid Jordt and Tom Luljak, <unitdate>August 14,
                   2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080814</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5258,6 +5779,9 @@
               <unittitle>Career Development Center and Alumni Counseling, with Tom Bachhuber, Cindy
                 Petrites, and Tom Luljak, <unitdate>August 21, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080821</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5265,6 +5789,9 @@
               <unittitle>Community Media Project, with Portia Cobb and Tom Luljak, <unitdate>August
                   28, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080828</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5272,6 +5799,9 @@
               <unittitle>Knowledge-Based Nursing, with Sally Lundeen, Norma Lang, and Tom Luljak,
                   <unitdate>September 11, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080911</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5279,6 +5809,9 @@
               <unittitle>Africa, with Jacques Du Plessis, Dick Kwooya, and Tom Luljak,
                   <unitdate>September 18, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080918</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5286,6 +5819,9 @@
               <unittitle>College of Engineering, with Mike Lovell and Tom Luljak,
                   <unitdate>September 25, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080925</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5293,6 +5829,9 @@
               <unittitle>Political Media Coverage, with Paul Brewer and Tom Luljak,
                   <unitdate>October 9, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20081009</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5300,6 +5839,9 @@
               <unittitle>SPARK Literacy, with Rob Longwell-Grice, Abby Kagan, and Tom Luljak,
                   <unitdate>October 16, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20081016</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5307,6 +5849,9 @@
               <unittitle>Peck School of the Arts, with Wade Hobgood and Tom Luljak,
                   <unitdate>October 23, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20081023</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5314,6 +5859,9 @@
               <unittitle>Job Security, with John Heywood and Tom Luljak, <unitdate>October 30,
                   2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20081030</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5321,6 +5869,9 @@
               <unittitle>"Can We Afford College?", with Jane Hojan-Clark, Beth Weckmueller, and Tom
                 Luljak, <unitdate>November 20, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20081120</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5328,6 +5879,9 @@
               <unittitle>UWM Chair of City Development, with Bob Greenstreet and Tom Luljak,
                   <unitdate>December 11, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20081211</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5335,6 +5889,9 @@
               <unittitle>Black Male Unemployment, with Marc Levine and Tom Luljak,
                   <unitdate>December 18, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20081218</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5342,6 +5899,9 @@
               <unittitle>Postpartum, with Anita Doering and Tom Luljak, <unitdate>November 18,
                   2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">081811</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5349,6 +5909,9 @@
               <unittitle>Sleep Apnea, with Beth Rodgers and Tom Luljak, <unitdate>October 26,
                   2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">080109</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5356,6 +5919,9 @@
               <unittitle>New Orleans, with Cheryl Ajirotutu and Tom Luljak, <unitdate>January 8,
                   2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">20090108</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5363,6 +5929,9 @@
               <unittitle>Emotional Intelligence, with Barbara Meyer and Tom Luljak,
                   <unitdate>January 15, 2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">20090115</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5370,6 +5939,9 @@
               <unittitle>Nerve Regeneration, with Ava Udvadia and Tom Luljak, <unitdate>January 22,
                   2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">20090122</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5377,6 +5949,9 @@
               <unittitle>Research Foundation, with Brian Thompson and Tom Luljak, <unitdate>February
                   19, 2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">20090219</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5384,13 +5959,19 @@
               <unittitle>Meditation, with James Topitzes and Tom Luljak, <unitdate>February 26,
                   2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">20090226</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Time Slips, with Anne Basting, Marina Murphy, and Tom Luljak, <unitdate>March 12,
-                  2009</unitdate></unittitle>
+              <unittitle>Time Slips, with Anne Basting, Marina Murphy, and Tom Luljak,
+                  <unitdate>March 12, 2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">20090312</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5398,6 +5979,9 @@
               <unittitle>Planetarium and Year of Astronomy, with Jean Creighton and Tom Luljak,
                   <unitdate>March 19, 2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">20090319</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5405,6 +5989,9 @@
               <unittitle>Career Transition Center, with Sam White and Tom Luljak, <unitdate>March
                   26, 2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">20090326</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5412,6 +5999,9 @@
               <unittitle>Arts Programming, with Wade Hobgood and Tom Luljak, <unitdate>April 9,
                   2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">20090409</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5419,6 +6009,9 @@
               <unittitle>Undergraduate Research, with Nigel Rothfels, Kyla Moore, Mina Saeed, and
                 Tom Luljak, <unitdate>April 16, 2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">20090416</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5426,6 +6019,9 @@
               <unittitle>STEM Education, with Tracy Posnanski and Tom Luljak, <unitdate>April 23,
                   2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">20090423</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5433,6 +6029,9 @@
               <unittitle>Food and Water Contamination, with Bob Burlage and Tom Luljak,
                   <unitdate>April 30, 2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">20090430</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5440,6 +6039,9 @@
               <unittitle>Substance Abuse Prevention, with Michael Fendrich, Sarah Belstock, and Tom
                 Luljak, <unitdate>May 14, 2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">20090514</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5447,6 +6049,9 @@
               <unittitle>Photo Voice, with Virginia Stoffel and Tom Luljak, <unitdate>May 21,
                   2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">090521</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5454,6 +6059,9 @@
               <unittitle>NSBE, with Beverly Pickering-Reyna, Chad Lane, and Tom Luljak,
                   <unitdate>June 11, 2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">090611</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5461,6 +6069,9 @@
               <unittitle>Athletic Training, with Jennifer Earl and Tom Luljak, <unitdate>June 18,
                   2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">090618</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5468,13 +6079,19 @@
               <unittitle>Freshwater, with John Dellinger and Tom Luljak, <unitdate>September 24,
                   2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">090924</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Head Start, with Karen Stoiber, Vera Lee Leezer, and Tom Luljak, <unitdate>October
-                  8, 2009</unitdate></unittitle>
+              <unittitle>Head Start, with Karen Stoiber, Vera Lee Leezer, and Tom Luljak,
+                  <unitdate>October 8, 2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">091008</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5482,6 +6099,9 @@
               <unittitle>Arts, with Wade Hobgood and Tom Luljak, <unitdate>October 15,
                   2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">091015</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5489,6 +6109,9 @@
               <unittitle>UWM Basketball, with Sandy Botham, Rob Jeter, and Tom Luljak,
                   <unitdate>October 22, 2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">091022</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5496,6 +6119,9 @@
               <unittitle>New Orleans, with Cheryl Ajirotutu and Tom Luljak, <unitdate>November 12,
                   2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">091112</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5503,6 +6129,9 @@
               <unittitle>UWM Athletics, with George Koonce and Tom Luljak, <unitdate>November 19,
                   2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">091119</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5510,6 +6139,9 @@
               <unittitle>Chlamydia Bacteria, with Anthony Azenabor and Tom Luljak,
                   <unitdate>November 29, 2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">20091129</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5517,6 +6149,9 @@
               <unittitle>School of Business, with Timothy Smunt and Tom Luljak, <unitdate>December
                   17, 2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">091217</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5524,6 +6159,9 @@
               <unittitle>Water Industry, with Sam White and Tom Luljak, <unitdate>January 14,
                   2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">100114</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5531,6 +6169,9 @@
               <unittitle>Soref Learning Commons, with Ewa Barczyk, Molly Mathias, and Tom Luljak,
                   <unitdate>January 21, 2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">100121</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5538,6 +6179,9 @@
               <unittitle>Arts, with Wade Hobgood and Tom Luljak, <unitdate>January 28,
                   2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">100128</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5545,6 +6189,9 @@
               <unittitle>Institute of World Affairs, with Rob Ricgliano, Susan Yelich Biniecki, and
                 Tom Luljak, <unitdate>February 11, 2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">100211</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5552,6 +6199,9 @@
               <unittitle>Exercise To Ward Off Alzheimer's, with Carson Smith and Tom Luljak,
                   <unitdate>February 25, 2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">100225</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5559,6 +6209,9 @@
               <unittitle>Finding a Job, with Cindy Petrites and Tom Luljak, <unitdate>March 11,
                   2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">100311</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5566,6 +6219,9 @@
               <unittitle>Diet, with Taylor de Olivera and Tom Luljak, <unitdate>March 18,
                   2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">100318</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5573,6 +6229,9 @@
               <unittitle>UWM Veteran Students, with Jim Schmidt and Tom Luljak, <unitdate>March 25,
                   2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">100325</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5580,6 +6239,9 @@
               <unittitle>Public Health, with Stephen Percy, Bevin Baker, and Tom Luljak,
                   <unitdate>April 8, 2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">100408</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5587,6 +6249,9 @@
               <unittitle>BB and BS Program, with Laurie Marks, Travon Haase, and Tom Luljak,
                   <unitdate>April 15, 2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">100415</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5594,6 +6259,9 @@
               <unittitle>Undergraduate Research, with Nigel Rothfels, Anita Manogaran, and Tom
                 Luljak, <unitdate>April 22, 2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">100422</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5601,6 +6269,9 @@
               <unittitle>Regents, with Charles Pruitt, Michael Spector, and Tom Luljak,
                   <unitdate>April 29, 2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">100429</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5608,6 +6279,9 @@
               <unittitle>SWETRC, with Mike Lovell, Ram Pai, Rich Coehl, and Tom Luljak,
                   <unitdate>May 13, 2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">100513</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5615,6 +6289,9 @@
               <unittitle>Arts, with Wade Hobgood, Ed Burgess, and Tom Luljak, <unitdate>May 20,
                   2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">100520</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5622,6 +6299,9 @@
               <unittitle>Water Festival, with Michael Carvan, Don Levy, and Tom Luljak,
                   <unitdate>May 27, 2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">100527</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5629,6 +6309,9 @@
               <unittitle>NEH Grant, with Ewa Barczyk, Christopher Baruth, and Tom Luljak,
                   <unitdate>June 10, 2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">100610</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5636,6 +6319,9 @@
               <unittitle>Social Networking, with Michael Zimmer and Tom Luljak, <unitdate>June 17,
                   2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">100617</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5643,6 +6329,9 @@
               <unittitle>Poet Laureate, with Brenda Cardenas and Tom Luljak, <unitdate>June 24,
                   2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">062410</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5650,13 +6339,19 @@
               <unittitle>WUWM Transitions, with Rue Hill, Dave Edwards, and Tom Luljak,
                   <unitdate>July 8, 2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">100708</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Water Treatment Systems, with Jason He, David Drew, and Tom Luljak, <unitdate>July 15,
-                  2010</unitdate></unittitle>
+              <unittitle>Water Treatment Systems, with Jason He, David Drew, and Tom Luljak,
+                  <unitdate>July 15, 2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">100715</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5664,6 +6359,9 @@
               <unittitle>Making Good Decisions, with Jim Hill, Sarah Belstock, and Tom Luljak,
                   <unitdate>July 22, 2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">100722</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5671,13 +6369,19 @@
               <unittitle>First Year Center, with Ericca Rolland and Tom Luljak, <unitdate>July 29,
                   2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">100729</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>English as a Second Language, with Janet Wilgus, Ali Alhudair, and Tom Luljak,
-                  <unitdate>August 12, 2010</unitdate></unittitle>
+              <unittitle>English as a Second Language, with Janet Wilgus, Ali Alhudair, and Tom
+                Luljak, <unitdate>August 12, 2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">100812</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5685,6 +6389,9 @@
               <unittitle>MBA and MS Programs, with Timothy Smunt and Tom Luljak, <unitdate>September
                   9, 2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">100909</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5692,6 +6399,9 @@
               <unittitle>Across the Divide, with Rob Longwell-Grice, Danielle Hartke, and Tom
                 Luljak, <unitdate>September 16, 2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">091610</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5699,6 +6409,9 @@
               <unittitle>Nixon Book, with Mordecai Lee and Tom Luljak, <unitdate>September 23,
                   2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">100923</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5706,6 +6419,9 @@
               <unittitle>Phenology, with Mark Schwartz and Tom Luljak, <unitdate>September 30,
                   2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">100930</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5713,6 +6429,9 @@
               <unittitle>People's Pulsar, with Xavi Siemens, Jeff Anderson, and Tom Luljak,
                   <unitdate>October 21, 2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">101021</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5720,6 +6439,9 @@
               <unittitle>Caring Community, with Vince Adesso, Mike Marzion, and Tom Luljak,
                   <unitdate>October 28, 2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">101028</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5727,6 +6449,9 @@
               <unittitle>Linguistics PhD and MS Programs, with Fred Eckman, Gregory Iverson, and Tom
                 Luljak, <unitdate>November 11, 2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">101111</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5734,6 +6459,9 @@
               <unittitle>Center for Jewish Studies, with Joel Berkowitz and Tom Luljak,
                   <unitdate>November 18, 2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">101118</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5741,6 +6469,9 @@
               <unittitle>Training Police, with Patrick Kennedy and Tom Luljak, <unitdate>December 9,
                   2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">101209</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5748,6 +6479,9 @@
               <unittitle>Memories, with Anthony Greene and Tom Luljak, <unitdate>December 16,
                   2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">101216</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5755,6 +6489,9 @@
               <unittitle>Living/Learning Communities, with Scott Peak, Tim Ehlinger, Lauren West,
                 and Tom Luljak, <unitdate>December 23, 2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">101223</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5762,6 +6499,9 @@
               <unittitle>Senior Auditors, with Bea Strick, George Strick, Barbara Ferderlin, and Tom
                 Luljak, <unitdate>January 13, 2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">110113</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5769,6 +6509,9 @@
               <unittitle>NPR Chair, with Dave Edwards and Tom Luljak, <unitdate>January 20,
                   2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">110120</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5776,6 +6519,9 @@
               <unittitle>Civility After Elections, with James Topitzes and Tom Luljak,
                   <unitdate>January 27, 2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">110127</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5783,6 +6529,9 @@
               <unittitle>Pain Management, with Joyce Engel and Tom Luljak, <unitdate>February 10,
                   2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">110210</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5790,6 +6539,9 @@
               <unittitle>Telecommuting, with Kathryn Fonner and Tom Luljak, <unitdate>February 17,
                   2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">110217</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5797,6 +6549,9 @@
               <unittitle>Economy, with James Peoples and Tom Luljak, <unitdate>February 24,
                   2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">110224</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5804,6 +6559,9 @@
               <unittitle>Arts and Harmony Initiative, with Wade Hobgood, Buehler, and Tom Luljak,
                   <unitdate>March 3, 2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">110303</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5811,6 +6569,9 @@
               <unittitle>Supply Chain, with Anthony Ross and Tom Luljak, <unitdate>March 10,
                   2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">110310</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5818,6 +6579,9 @@
               <unittitle>Research, with Brian Thompson, Vali Raicu, Tom Mozer, and Tom Luljak,
                   <unitdate>March 17, 2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">110317</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5825,6 +6589,9 @@
               <unittitle>Online Teaching, with Simone Conceicao, Regina Smith, and Tom Luljak,
                   <unitdate>March 24, 2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">110324</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5832,6 +6599,9 @@
               <unittitle>Women Engineering, with Nadya Fouad, Ramila Singh, and Tom Luljak,
                   <unitdate>March 31, 2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">110331</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5839,6 +6609,9 @@
               <unittitle>UWM Athletics, with Kevin Costello and Tom Luljak, <unitdate>April 7,
                   2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">110407</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5846,6 +6619,9 @@
               <unittitle>Workforce Center, with Patricia Arredondo, Sam White, and Tom Luljak,
                   <unitdate>April 14, 2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">110414</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5853,6 +6629,9 @@
               <unittitle>School Nurses, with Mary Jo Baisch and Tom Luljak, <unitdate>April 21,
                   2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">110421</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5860,6 +6639,9 @@
               <unittitle>TCARE, with Rhonda Montgomery and Tom Luljak, <unitdate>April 28,
                   2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">110428</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5867,6 +6649,9 @@
               <unittitle>Lyme Disease and Arthritis, with Dean Nardelli and Tom Luljak,
                   <unitdate>May 12, 2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">110512</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5874,6 +6659,9 @@
               <unittitle>UWM Language Programs, with Jenny Watson and Tom Luljak,
                   <unitdate>September 15, 2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">110915</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5881,20 +6669,29 @@
               <unittitle>Film Department, with Rob Yeo and Tom Luljak, <unitdate>September 22,
                   2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">110922</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>School of Architecture and Urban Planning, with Robert Greenstreet and Tom Luljak, <unitdate>September 29,
-                  2011</unitdate></unittitle>
+              <unittitle>School of Architecture and Urban Planning, with Robert Greenstreet and Tom
+                Luljak, <unitdate>September 29, 2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">110929</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>UWM Baseball, with Chad Pierce, Scott Doffek, and Tom Luljak, <unitdate>October 13,
-                  2011</unitdate></unittitle>
+              <unittitle>UWM Baseball, with Chad Pierce, Scott Doffek, and Tom Luljak,
+                  <unitdate>October 13, 2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">111013</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5902,6 +6699,9 @@
               <unittitle>Battery Research, with Mike Lovell, Marianne Wright, and Tom Luljak,
                   <unitdate>October 20, 2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">111020</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5909,6 +6709,9 @@
               <unittitle>Careers and Majors, with Tom Bachhuber, Jan Ford, and Tom Luljak,
                   <unitdate>October 27, 2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">111027</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5916,6 +6719,9 @@
               <unittitle>Facial Metrics, with Michael Haselhuhn, Elaine Wong, and Tom Luljak,
                   <unitdate>November 10, 2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">111110</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5923,6 +6729,9 @@
               <unittitle>Trichotillomania, with Doug Woods and Tom Luljak, <unitdate>November 17,
                   2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">111117</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5930,6 +6739,9 @@
               <unittitle>LGBT Center, with Jen Murray, Saad Akbar Khan, and Tom Luljak,
                   <unitdate>December 8, 2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">111208</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5937,6 +6749,9 @@
               <unittitle>Honors College, with Charles Schuster, Liz Noonan, and Tom Luljak,
                   <unitdate>December 15, 2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">111215</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5944,6 +6759,9 @@
               <unittitle>American Indian Education, with David Beaulieu and Tom Luljak,
                   <unitdate>December 22, 2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">111222</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5951,6 +6769,9 @@
               <unittitle>School of Education, with Carol Colbeck and Tom Luljak, <unitdate>December
                   29, 2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">111229</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5958,6 +6779,9 @@
               <unittitle>Microgrids, with Adad Nasiri, John Bobrowich, and Tom Luljak,
                   <unitdate>January 12, 2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">120112</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5965,6 +6789,9 @@
               <unittitle>Guitars, with Beverly Belfer et al. and Tom Luljak, <unitdate>January 19,
                   2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">120119</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5972,6 +6799,9 @@
               <unittitle>STOP Program, with Kimberly Hassel, Tina Freiburger, Bill Singleton, and
                 Tom Luljak, <unitdate>January 26, 2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">120126</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5979,6 +6809,9 @@
               <unittitle>Electronic Medical Records, with Carla Wiggins and Tom Luljak,
                   <unitdate>February 9, 2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">120209</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5986,6 +6819,9 @@
               <unittitle>Cultures and Communities, with Gregory Jay and Tom Luljak,
                   <unitdate>February 16, 2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">120216</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -5993,6 +6829,9 @@
               <unittitle>UWM Alumni Fellows, with Milton Coleman, Patricia Borger, and Tom Luljak,
                   <unitdate>February 23, 2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">120223</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6000,6 +6839,9 @@
               <unittitle>Industry Sponsored Studios, with Jim Dicker, Max Hanisch, and Tom Luljak,
                   <unitdate>March 8, 2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">120308</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6007,6 +6849,9 @@
               <unittitle>Iron Age, with Bettina Arnold, Kevin Cullen, and Tom Luljak,
                   <unitdate>March 15, 2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">120315</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6014,6 +6859,9 @@
               <unittitle>School of Freshwater, with David Garman and Tom Luljak, <unitdate>March 22,
                   2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">120322</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6021,6 +6869,9 @@
               <unittitle>Access for Blind, with Rakish Babu, Woosop Jeong, and Tom Luljak,
                   <unitdate>March 29, 2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">120329</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6028,6 +6879,9 @@
               <unittitle>High Energy and Alcoholic Drinks, with Michael Fendrich and Tom Luljak,
                   <unitdate>April 12, 2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">120412</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6035,6 +6889,9 @@
               <unittitle>School of Public Health, with Magda Peck and Tom Luljak, <unitdate>April
                   19, 2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">120419</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6042,6 +6899,9 @@
               <unittitle>Maternal and Child Health, with Penninah Kako, Lucy Mkandawire-Valhmu, and
                 Tom Luljak, <unitdate>April 26, 2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">120426</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6049,6 +6909,9 @@
               <unittitle>Biomedical Informatics, with David Yu and Tom Luljak, <unitdate>May 10,
                   2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">120510</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6056,6 +6919,9 @@
               <unittitle>Industrial Assessment Center, with Chris Yuan and Tom Luljak, <unitdate>May
                   17, 2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">120517</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6063,6 +6929,9 @@
               <unittitle>Innovative Weather Center, with Mike Westondorf, Michael Hansen, and Tom
                 Luljak, <unitdate>May 24, 2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">120524</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6070,6 +6939,9 @@
               <unittitle>Accessibility Strategies, with Roger Smith and Tom Luljak, <unitdate>May
                   31, 2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">120531</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6077,6 +6949,9 @@
               <unittitle>AOTA, with Virginia Stoffel and Tom Luljak, <unitdate>June 14,
                   2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">120614</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6084,6 +6959,9 @@
               <unittitle>Arts Programming, with Scott Emmons and Tom Luljak, <unitdate>June 21,
                   2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">120621</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6091,6 +6969,9 @@
               <unittitle>UWM Athletics, with Andy Geiger and Tom Luljak, <unitdate>June 28,
                   2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">120628</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
         </c02>
@@ -6141,7 +7022,7 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Chancellor's Address:  Premier Urban Research University, with Nancy
+              <unittitle>Chancellor's Address: Premier Urban Research University, with Nancy
                 Zimpher, <unitdate>September 20, 2001</unitdate></unittitle>
               <container type="audio" label="Audio">371</container>
               <physdesc>
@@ -6213,7 +7094,7 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Chancellor's Address:  Building a Metric for UWM, with Nancy Zimpher,
+              <unittitle>Chancellor's Address: Building a Metric for UWM, with Nancy Zimpher,
                   <unitdate>September 19, 2002</unitdate></unittitle>
               <container type="audio" label="Audio">378</container>
               <physdesc>
@@ -6326,6 +7207,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>February 3, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">020305</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6333,6 +7217,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago, <unitdate>March
                   3, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">030305</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6340,6 +7227,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago, <unitdate>April
                   7, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">040705</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6347,6 +7237,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago, <unitdate>May
                   4, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">050405</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6354,6 +7247,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago, <unitdate>July
                   7, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">070705</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6361,6 +7257,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>August 4, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">080405</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6368,6 +7267,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>October 6, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">100605</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6375,6 +7277,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>November 3, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">110305</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6382,6 +7287,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>December 1, 2005</unitdate></unittitle>
               <container type="electronic" label="ID No.">120105</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6389,6 +7297,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago, <unitdate>March
                   20, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">030206</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6396,6 +7307,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago, <unitdate>April
                   6, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">040606</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6403,6 +7317,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago, <unitdate>May
                   4, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">050406</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6410,6 +7327,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago, <unitdate>June
                   1, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">060106</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6417,6 +7337,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago, <unitdate>July
                   3, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">070306</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6424,6 +7347,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>August 3, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">080306</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6431,6 +7357,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>September 1, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">090106</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6438,6 +7367,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>October 1, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">100106</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6445,6 +7377,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>November 1, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">110106</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6452,6 +7387,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>December 1, 2006</unitdate></unittitle>
               <container type="electronic" label="ID No.">120106</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6459,6 +7397,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>January 1, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">070101</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6466,6 +7407,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>February 1, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">20070201</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6473,6 +7417,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago, <unitdate>March
                   1, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">030107</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6480,6 +7427,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago, <unitdate>June
                   7, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">060707</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6487,6 +7437,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago, <unitdate>July
                   5, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">070507</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6494,6 +7447,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>August 2, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">080207</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6501,6 +7457,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>September 6, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">090607</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6508,6 +7467,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>October 4, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">100407</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6515,6 +7477,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>November 1, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">110107</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6522,6 +7487,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>December 6, 2007</unitdate></unittitle>
               <container type="electronic" label="ID No.">120607</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6529,6 +7497,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>January 3, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">010308</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6536,6 +7507,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>February 7, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">020708</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6543,6 +7517,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago, <unitdate>March
                   6, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">030608</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6550,6 +7527,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago, <unitdate>April
                   1, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">040108</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
 
@@ -6558,6 +7538,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago, <unitdate>May
                   1, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">050108</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6565,6 +7548,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago, <unitdate>June
                   5, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">20080605</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6572,6 +7558,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago, <unitdate>July
                   3, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">070308</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6579,6 +7568,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>August 7, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">080708</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6586,6 +7578,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>September 1, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">090108</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6593,6 +7588,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>October 1, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">100108</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6600,6 +7598,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>November 6, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">110608</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6607,6 +7608,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>December 4, 2008</unitdate></unittitle>
               <container type="electronic" label="ID No.">120408</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
 
@@ -6615,6 +7619,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>January 9, 2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">090109</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6622,6 +7629,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>February 5, 2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">020509</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6629,6 +7639,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago, <unitdate>March
                   5, 2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">030509</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6636,6 +7649,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago, <unitdate>April
                   3, 2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">040209</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6643,6 +7659,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago, <unitdate>June
                   2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">060109</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6650,6 +7669,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago, <unitdate>July
                   2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">200907</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6657,6 +7679,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>August 2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">080109</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6664,6 +7689,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>September 2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">200909</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6671,6 +7699,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>October 2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">200910</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6678,6 +7709,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>November 2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">200911</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6685,6 +7719,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>December 2009</unitdate></unittitle>
               <container type="electronic" label="ID No.">200912</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6692,6 +7729,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>January 2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">201001</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6699,6 +7739,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>February 2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">201002</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6706,6 +7749,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago, <unitdate>March
                   2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">201003</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6713,6 +7759,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago, <unitdate>April
                   2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">201004</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6720,6 +7769,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago, <unitdate>May
                   2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">201005</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6727,6 +7779,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago, <unitdate>June
                   2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">201006</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6734,6 +7789,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago, <unitdate>July
                   2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">201007</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6741,6 +7799,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>August 2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">201008</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6748,6 +7809,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Carlos Santiago,
                   <unitdate>September 2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">201009</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6755,6 +7819,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>November
                   2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">201011</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6762,6 +7829,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>December
                   2010</unitdate></unittitle>
               <container type="electronic" label="ID No.">201012</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6769,6 +7839,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>January
                   2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">201101</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6776,6 +7849,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>February
                   2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">201102</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6783,6 +7859,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>May
                   2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">201105</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6790,6 +7869,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>June
                   2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">201106</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6797,6 +7879,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>July
                   2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">201107</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6804,6 +7889,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>September
                   2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">201109</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6811,6 +7899,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>October
                   2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">201110</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6818,6 +7909,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>November
                   2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">201111</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6825,6 +7919,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>December
                   2011</unitdate></unittitle>
               <container type="electronic" label="ID No.">201112</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6832,6 +7929,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>January
                   2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">201201</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6839,6 +7939,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>February
                   2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">201202</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6846,6 +7949,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>March
                   2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">201203</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6853,6 +7959,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>April
                   2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">201204</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6860,6 +7969,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>May
                   2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">201205</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6867,6 +7979,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>June
                   2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">201206</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6874,6 +7989,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>July
                   2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">201207</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6881,6 +7999,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>August
                   2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">201208</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6888,6 +8009,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>September
                   2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">201209</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6895,6 +8019,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>October
                   2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">201210</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6902,6 +8029,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>November
                   2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">201211</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6909,6 +8039,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>December
                   2012</unitdate></unittitle>
               <container type="electronic" label="ID No.">201212</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6916,6 +8049,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>January
                   2013</unitdate></unittitle>
               <container type="electronic" label="ID No.">201301</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6923,6 +8059,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>February
                   2013</unitdate></unittitle>
               <container type="electronic" label="ID No.">201302</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6930,6 +8069,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>March
                   2013</unitdate></unittitle>
               <container type="electronic" label="ID No.">201303</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6937,6 +8079,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>April
                   2013</unitdate></unittitle>
               <container type="electronic" label="ID No.">201304</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6944,6 +8089,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>May
                   2013</unitdate></unittitle>
               <container type="electronic" label="ID No.">201305</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6951,6 +8099,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>June
                   2013</unitdate></unittitle>
               <container type="electronic" label="ID No.">201306</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6958,6 +8109,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>July
                   2013</unitdate></unittitle>
               <container type="electronic" label="ID No.">201307</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6965,6 +8119,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>August
                   2013</unitdate></unittitle>
               <container type="electronic" label="ID No.">201308</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6972,6 +8129,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>September
                   2013</unitdate></unittitle>
               <container type="electronic" label="ID No.">201309</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6979,6 +8139,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>October
                   2013</unitdate></unittitle>
               <container type="electronic" label="ID No.">201310</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6986,6 +8149,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>November
                   2013</unitdate></unittitle>
               <container type="electronic" label="ID No.">201311</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -6993,6 +8159,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>December
                   2013</unitdate></unittitle>
               <container type="electronic" label="ID No.">201312</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -7000,6 +8169,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>January
                   2014</unitdate></unittitle>
               <container type="electronic" label="ID No.">201401</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -7007,6 +8179,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>February
                   2014</unitdate></unittitle>
               <container type="electronic" label="ID No.">201402</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
           <c03>
@@ -7014,6 +8189,9 @@
               <unittitle>Chancellor's Report, with Dave Edwards and Mike Lovell, <unitdate>March
                   2014</unitdate></unittitle>
               <container type="electronic" label="ID No.">201403</container>
+              <physdesc>
+                <extent>1 digital audio file</extent>
+              </physdesc>
             </did>
           </c03>
         </c02>
@@ -7026,9 +8204,9 @@
             <extent>0.4 cubic ft. (1 box)</extent>
           </physdesc>
           <abstract>Materials from Doug Freshner, WUWM's first program director, including photo,
-            print items, 4 audio reels (1964-1965) and audio cassette duplicates. Three reels (including
-            recordings of James Farmer and Louis Armstrong) were added on 04/13/07 when donated in
-            Accession 2006-056.</abstract>
+            print items, 4 audio reels (1964-1965) and audio cassette duplicates. Three reels
+            (including recordings of James Farmer and Louis Armstrong) were added on 04/13/07 when
+            donated in Accession 2006-056.</abstract>
         </did>
       </c01>
       <c01 id="acc2007-038" level="otherlevel" otherlevel="unprocessed">
