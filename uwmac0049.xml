@@ -37,9 +37,9 @@
       <change encodinganalog="800">
         <date normal="2016-11-01">November 1, 2016</date>
         <item>Brad Houston updated the finding aid to reflect addition of accession 2016-010 and
-          processing 2013-002. Changes were made to Titleproper, unitdate, extent, acqinfo,
-          processinfo, otherfindaid, accessrestrict, and the contents list (added 1 electronic
-          folder and accession information).</item>
+          processing 2013-002 and electronic portions of 2011-049. Changes were made to Titleproper, unitdate, extent, acqinfo,
+          processinfo, otherfindaid, accessrestrict, and the contents list (added 3 electronic
+          folders and accession information).</item>
       </change>
       <change encodinganalog="583">
         <date normal="2015-05-11">May 11, 2016</date>
@@ -145,7 +145,7 @@
         >Accession 2016-010</unitid>
       <physdesc label="Quantity">
         <extent encodinganalog="300">34 cubic ft. (40 boxes)</extent>
-        <extent>90 digital image files (179 MB)</extent>
+        <extent>104 digital files (187 MB)</extent>
         <extent encodinganalog="300">plus additions of 12 cubic ft. (16 boxes)</extent>
       </physdesc>
       <repository encodinganalog="852">
@@ -344,10 +344,13 @@
       <phystech audience="internal" encodinganalog="532">
         <p>As of November 1, 2016, all electronic files were accessible on an Intel Core i5-4570 CPU
           (3.20 GHz, 4 GB RAM) running Windows 7 Enterprise with service pack 1. Windows Picture and
-          Fax Viewer was used to access the files.</p>
+          Fax Viewer, Microsoft Office 2016, and LibreOffice were used to access the files.</p>
         <p>The collection includes records in the following file formats:</p>
         <list type="marked">
           <item>JPEG File Interchange Format[.jpg]</item>
+          <item>Microsoft Word Document 6.0 [.doc]</item>
+          <item>Microsoft Word Document 97-2003 [.doc]</item>
+          <item>Acrobat PDF - Portable Document Format [.pdf] </item>
         </list>
       </phystech>
       <accessrestrict encodinganalog="506">
@@ -379,7 +382,7 @@
           2001-014 in November 2014. Brad Houston and Charlie Tonelli processed accessions 2011-049
           and 2012-005 over Winter 2015. Ashlie Biddle processed the non-restricted portions of
           accessions 2002-075 and 2003-047 in April 2016 (Brad Houston supervised). Brad Houston
-          added information about accession 2016-010 and processed accession 2013-002 in October
+          added information about accession 2016-010 and processed accession 2013-002 and the electronic portion of accession 2011-049 in October
           2016.</p>
       </processinfo>
       <processinfo>
@@ -397,7 +400,7 @@
             >1960-2013</unitdate></unittitle>
           <physdesc>
             <extent>34 cubic ft. (40 boxes)</extent>
-            <extent>90 digital image files (179 MB)</extent>
+            <extent>104 digital files (187 MB)</extent>
           </physdesc>
         </did>
         <c02>
@@ -1253,14 +1256,19 @@
             </did>
           </c03>
         </c02>
-        <c02>
+       <c02><did><unittitle>Fifth International Conference on Healthcare Systems</unittitle></did> <c03>
           <did>
-            <unittitle>Fifth International Conference on Healthcare Systems,
-                <unitdate>2008</unitdate></unittitle>
+            <unittitle><unitdate>2008</unitdate></unittitle>
             <container type="Box" label="Box">21</container>
             <container type="Folder" label="Folder">11-12</container>
           </did>
-        </c02>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>Proceedings, <unitdate>2008</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"></container>
+                      </did>
+        </c03></c02>
         <c02>
           <did>
             <unittitle>Forensic Science Certificate, <unitdate>2000</unitdate></unittitle>
@@ -2917,13 +2925,20 @@
             </did>
           </c03>
         </c02>
-        <c02>
+        <c02><did><unittitle>Strategic Plan</unittitle></did>
+          <c03>
           <did>
-            <unittitle>Strategic Plan, <unitdate>2000-2005</unitdate></unittitle>
+            <unittitle><unitdate>2000</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"></container>
+                     </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><unitdate>2000-2005</unitdate></unittitle>
             <container type="Box" label="Box">34</container>
             <container type="Folder" label="Folder">1</container>
           </did>
-        </c02>
+        </c03></c02>
         <c02>
           <did>
             <unittitle>Student Newsletter, <unitdate>1979</unitdate></unittitle>
