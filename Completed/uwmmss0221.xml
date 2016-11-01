@@ -1,0 +1,3592 @@
+<?xml version="1.0" encoding="ascii" standalone="no"?>
+<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
+<!-- wiarchives version:2008-11-14 -->
+<ead id="uw-mil-uwmmss0221" relatedencoding="MARC21">
+  <eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
+    dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924"
+    relatedencoding="MARC21">
+    <eadid countrycode="US" mainagencycode="wimiugma"
+      url="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmmss0221"
+      encodinganalog="856$u">uw-mil-uwmmss0221</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245$a">Finding Aid of the Woman's Club of Wisconsin Records,
+          1870-2012</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="260$b">University of Wisconsin-Milwaukee Libraries, Archives
+          Department</publisher>
+        <address>
+          <addressline>University of Wisconsin-Milwaukee</addressline>
+          <addressline>UWM Libraries</addressline>
+          <addressline>Archives Department</addressline>
+          <addressline>P.O. Box 604</addressline>
+          <addressline>Milwaukee, Wisconsin 53201-0604</addressline>
+          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
+        </address>
+        <date encodinganalog="260$c" type="publication" normal="2007">Copyright &#169; 2007
+          University of Wisconsin Board of Regents</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation encodinganalog="500">Finding aid encoded by Jeff Desannoy</creation>
+      <langusage encodinganalog="546">Finding aid written in <language encodinganalog="041"
+          langcode="eng" scriptcode="Latn">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change encodinganalog="583">
+        <date normal="2016-10-17">October 17, 2016</date>
+        <item>Brad Houston updated the finding aid to reflect addition of electronic copies of the
+          blueprints in the collection scanned by AGSL in 2005 and returned in October 2016. Changes
+          were made to extent, processinfo, altformavail, phystech, and the contents list (Oversize
+          folders in Subgroup 4).</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2015-06-12">June 12, 2015</date>
+        <item>Christel Maass added some publications from accession 2010-059 to the collection and
+          noted the remaining accession as minimally processed.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2015-05-28">May 29, 2015</date>
+        <item>Hayley Jackson updated the finding aid to reflect the processing and integration of
+          accessions 2013-044 and 2014-030 (boxes 31-32) into the processed collection.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2015-04-15">April 15, 2015</date>
+        <item>Christel Maass updated the finding aid, changing "unprocessed" to "minimal" for
+          several accessions.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2014-11-19">November 19, 2014</date>
+        <item>Christel Maass updated the finding aid, adding information about new, unprocessed
+          accession 2014-030.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2014-04-10">April 10, 2014</date>
+        <item>Hayley Jackson updated the finding aid, adding information about new, unprocessed
+          accession 2013-044.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2013-08-01">August 1, 2013</date>
+        <item>Christel Maass updated the finding aid, adding information about new, unprocessed
+          accessions.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2012-01-04">January 4, 2012</date>
+        <item>Bob Jaeger updated this finding aid following separation of the safety film negatives.
+          Updates included: physdesc, processinfo, and dsc.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2010-10-27">October 27, 2010</date>
+        <item>Christel Maass removed the floral prints from the contents list and added a
+          separatedmaterial note.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2010-01-07">April 30, 2010</date>
+        <item>Sarah Phillips and Christel Maass updated the finding aid to reflect the addition of
+          two additional accessions. Updated sections include physdesc, acqinfo, processinfo, and
+          the contents list.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2010-01-07">January 7, 2010</date>
+        <item>Denise Gergetz and Christel Maass update the finding aid to reflect the addition of
+          two additional accessions. Updated sections include physdesc, acqinfo, processinfo, and
+          the contents list.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="collection" relatedencoding="MARC21">
+    <did>
+      <physloc type="locationcode" audience="internal">wimiugma</physloc>
+      <unittitle encodinganalog="245$a">Woman's Club of Wisconsin Records, <unitdate
+          type="inclusive" encodinganalog="245$f" normal="1870/2012"
+        >1870-2012</unitdate></unittitle>
+      <origination label="Creator">
+        <corpname encodinganalog="110">Woman's Club of Wisconsin</corpname>
+      </origination>
+      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
+        >UWM Manuscript Collection 221</unitid>
+      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
+        >Accession 2010-059</unitid>
+      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
+        >Accession 2012-045</unitid>
+      <physdesc label="Quantity">
+        <extent encodinganalog="300">27.3 cubic ft. (32 boxes)</extent>
+        <extent encodinganalog="300">2 oversize folders</extent>
+        <extent encodinganalog="300">24 digital image files (7.93 GB)</extent>
+        <extent encodinganalog="300">plus additions of 1.6 cubic ft. (3 boxes)</extent>
+      </physdesc>
+      <repository encodinganalog="852">
+        <extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
+          title="University of Wisconsin-Milwaukee Logo." role="logoimage"/>
+        <extref href="http://www.uwm.edu/Libraries/arch/index.html">
+          <corpname>University of Wisconsin-Milwaukee Libraries, Archives Department</corpname>
+        </extref>
+      </repository>
+      <abstract encodinganalog="520">This collection contains records from the Woman's Club of
+        Wisconsin and the affiliated organizations of the Athenaeum Stock Company, the Guardian
+        Realty Stock Company, the League of Patriotic Women, and the Woman's Club of Wisconsin
+        Foundation, Inc. The records mainly consist of correspondence, meeting minutes, committee
+        files, legal papers, architectural drawings, programs, newspaper clippings, newsletters,
+        yearbooks, and photographs of the club and its members.</abstract>
+      <langmaterial encodinganalog="546" label="Language">
+        <language encodinganalog="041" langcode="eng">English</language>
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="545">
+      <p>The Woman's Club of Wisconsin was created in 1876 by a group of woman looking to enrich
+        their lives with various social, intellectual, and philanthropic pursuits. They established
+        the second club of its kind in the United States, the first being the Woman's Club of New
+        England. In addition to this accomplishment, these founding women also created the very
+        first all-women's stock company in the country. According to its mission statement, "The
+        Woman's Club of Wisconsin is a private club providing its members with philanthropic,
+        cultural, educational, and social activities. The club is dedicated to the support of, and
+        involvement in, community service. The club is also committed to the preservation of its
+        registered landmark building."</p>
+      <p>The collection includes many of the documents that went into celebration of the club's
+        125th anniversary in 2001, which led to the creation of the book, <title render="italic">A
+          Club of Their Own</title>. This book chronicles the club's history and gave birth to the
+        project undertaken by the history committee to gather and organize the club's records so
+        that members of the club, as well as the community, can have access to the history of this
+        pioneering organization. <title render="italic">A Club of Their Own</title>, is available in
+        the Archives. Call number: (ARC) HQ1905.W6 T88x 2000.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>Scope and content notes of each series are included in the contents list.</p>
+    </scopecontent>
+    <arrangement encodinganalog="351">
+      <p>This collection was received in, and is organized in, multiple parts. Additional materials
+        have not been physically or intellectually arranged and interfiled, and researchers may need
+        to consult more than one part of the collection to locate similar materials.</p>
+      <p>The collection is arranged into the following subgroups:</p>
+      <list type="ordered" numeration="arabic">
+        <item>
+          <ref target="subgrp1" show="replace" actuate="onrequest">The Athenaeum, 1886-1964</ref>
+        </item>
+        <item>
+          <ref target="subgrp2" show="replace" actuate="onrequest">Guardian Realty Company,
+            1924-1936</ref>
+        </item>
+        <item>
+          <ref target="subgrp3" show="replace" actuate="onrequest">League of Patriotic Women,
+            1917</ref>
+        </item>
+        <item>
+          <ref target="subgrp4" show="replace" actuate="onrequest">Woman's Club of Wisconsin,
+            1870-2012</ref>
+        </item>
+        <item>
+          <ref target="subgrp5" show="replace" actuate="onrequest">Woman's Club of Wisconsin
+            Foundation, Inc., 1961-2004</ref>
+        </item>
+      </list>
+      <p>The files are organized alphabetically by subject, then chronologically, within each
+        group.</p>
+      <p>The collection contains two additional accessions.</p>
+      <list type="simple">
+        <item>
+          <ref target="acc2010-059" show="replace" actuate="onrequest">Accession 2010-059:
+            Additions, 1980-2001</ref>
+        </item>
+        <item>
+          <ref target="acc2012-045" show="replace" actuate="onrequest">Accession 2012-045: Athenaeum
+            Board Meeting Minutes, 1893-1919</ref>
+        </item>
+      </list>
+    </arrangement>
+    <otherfindaid encodinganalog="555">
+      <p>Finding aid for accession 2010-059 available in the Archives.</p>
+    </otherfindaid>
+    <prefercite encodinganalog="524">
+      <p>
+        <extref
+          href="http://uwm.edu/libraries/archives/research/citation-guide-for-primary-sources/"
+          >Citation Guide for Primary Sources</extref>
+      </p>
+    </prefercite>
+    <relatedmaterial encodinganalog="544 1">
+      <head>Related Material in the UWM Libraries</head>
+      <archref href=" 	http://arcat.library.wisc.edu/cgi-bin/Pwebrecon.cgi?BBID=16514"
+        actuate="onrequest" show="new">
+        <unittitle>Albert J. Earling Papers</unittitle>
+        <unitid>Milwaukee Manuscript Collection BP</unitid>
+      </archref>
+    </relatedmaterial>
+    <altformavail encodinganalog="530">
+      <head>Alternate Format</head>
+      <p>High-resolution scans of a selection of architectural drawings in Subgroup 4 are available in the
+        archives.</p>
+    </altformavail>
+    <separatedmaterial encodinganalog="544 0">
+      <head>Deaccession Information</head>
+      <p>Floral prints (removed from box 21) were returned to the Woman's Club of Wisconsin in
+        October 2010.</p>
+    </separatedmaterial>
+    <descgrp type="admininfo">
+      <head>Administrative/Restriction Information</head>
+      <accessrestrict encodinganalog="506">
+        <p>There are no access restrictions on the materials, and the collection is open to all
+          members of the public in accordance with state law.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>The researcher assumes full responsibility for conforming with the laws of libel,
+          privacy, and copyright which may be involved in the use of this collection (Wisconsin
+          Statutes 19.21-19.39).</p>
+      </userestrict>
+      <phystech audience="internal" encodinganalog="532">
+        <p>As of October 17, 2016, all electronic files were accessible on an Intel Core i5-4570 CPU
+          (3.20 GHz, 4 GB RAM) running Windows 7 Enterprise with service pack 1. Windows Picture and
+          Fax Viewer was used to access the files.</p>
+        <p>The collection includes records in the following file formats:</p>
+        <list type="marked">
+          <item>Tagged Image File Format [.tif]</item>
+        </list>
+      </phystech>
+      <acqinfo encodinganalog="541">
+        <p>The Woman's Club of Wisconsin donated this collection to the Archives in December 2004
+          (accession 2004-040). The Club donated additional materials in April 2007 (accession
+          2006-055), June 2008 (accession 2007-067), and April 2010 (accession 2009-055). The
+          Milwaukee County Historical Society donated Club materials, deaccessioned from its
+          holdings, in February 2010 (accession 2009-045). The Club donated additional materials in
+          June 2011 (accession 2010-059) and James Henderson donated additions in March 2013
+          (accession 2012-045). Valerie McDonald donated additions in April, 2014 (accession
+          2013-044).</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+        <p>Ann Stachewicz processed the collection at the Woman's Club from June-August 2004 and at
+          the Archives in January 2005. Christel Maass finished processing the collection in January
+          and February 2005. Denise Gergetz (supervised by Christel Maass) processed accessions
+          2006-055 and 2007-067 in December 2009. Sarah Phillips (supervised by Christel Maass)
+          processed accessions 2009-045 and 2009-055 in April 2010 (boxes 28-29).</p>
+        <p>In December 2011, Matt Eidem removed the safety film negatives from box 11, folder 6, and
+          box 25, folder 35, and placed them in box 30.</p>
+        <p>Christel Maass updated the finding aid to include information about accessions 2010-059
+          and 2012-045 in August 2013. Hayley Jackson (supervised by Christel Maass) processed
+          accessions 2013-044 and 2014-030 in May 2015 (boxes 31-32). Christel Maass added some
+          publications from accession 2010-059 to the processed collection in June 2015.</p>
+        <p>Brad Houston updated the finding aid in October 2016 to reflect the discovery of
+          architectural drawing scans in the American Geographic Society Library's collection.</p>
+      </processinfo>
+      <processinfo audience="internal">
+        <head>Preservation Information</head>
+        <p>Between January and February 2005, high-resolution scans of the architectural drawings
+          were created by AGSL and saved to TIFF format. Brad Houston migrated these scans to the
+          Archives server in October 2016 and created JPEG access copies for ease of accessibility. </p>
+      </processinfo>
+    </descgrp>
+    <dsc type="combined">
+      <head>Contents List</head>
+      <c01 level="otherlevel" otherlevel="processed" id="uwmmss0221">
+        <did>
+          <unitid>UWM Manuscript Collection 221</unitid>
+          <unittitle>Records, <unitdate type="inclusive" normal="1870/2012"
+            >1870-2012</unitdate></unittitle>
+          <physdesc>
+            <extent encodinganalog="300">27.3 cubic ft. (32 boxes)</extent>
+            <extent encodinganalog="300">2 oversize folders</extent>
+            <extent encodinganalog="300">24 digital image files (7.93 GB)</extent>
+          </physdesc>
+        </did>
+        <c02 id="subgrp1" level="subgrp">
+          <did>
+            <unittitle>1. The Athenaeum, <unitdate>1886-1964</unitdate></unittitle>
+          </did>
+          <scopecontent>
+            <p>The Athenaeum is the name of both the clubhouse building and the first stock company.
+              Originally called the Pioneer Woman's Stock Company, it was later renamed the
+              Athenaeum Company. This was the first all-woman's stock company in the United States,
+              and was formed in 1886 to raise the funds needed to build the clubhouse. It was
+              originally created as a separate entity from the Woman's Club of Wisconsin (WCW) with
+              its own board of directors. All groups interested in using space within the building
+              did so through the Athenaeum. In 1920 the Athenaeum formally merged with the WCW, but
+              the name was still used for renting the building to outside clubs and parties. This
+              subgroup includes photographs of the building and the first president, Martha
+              Fitch.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Articles and By-Laws, Annual Reports, 1888, 1892</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">1</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Articles of Association and Minutes, 1886-1893</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="volume" label="Volume">1</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Board of Directors, Meetings, 1907-1912</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="volume" label="Volume">2</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Deeds and Title to the Athenaeum, 1886</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">2</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Histories of the Athenaeum, 1897, undated</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">3</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Legal Documents, Transfer of the Athenaeum to WCW, 1920-1921</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">4</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Lists of Receptions, Parties, and Cotillions, 1888-1893</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="volume" label="Volume">3</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Martha Fitch</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Speeches Given to Board of Directors, 1886-1890</unittitle>
+                <container type="box" label="Box">1</container>
+                <container type="folder" label="Folder">5</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Speeches Given to Woman's Clubs, 1890, 1900</unittitle>
+                <container type="box" label="Box">1</container>
+                <container type="folder" label="Folder">6</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Newspaper Clippings, Formation of the Athenaeum Company, 1923,
+                1964</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">7</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Photographs of Athenaeum, 1888</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="volume" label="Volume">4</container>
+              <physdesc>
+                <extent>Bound volume of exterior views of the building and interior views of rooms
+                  and furnishings.</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Photographs of Athenaeum, undated</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">8</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Stock Certificates, 1886-1893</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="volume" label="Volume">5</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Stock Certificates, 1893-1920</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="volume" label="Volume">6</container>
+            </did>
+          </c03>
+        </c02>
+        <c02 id="subgrp2" level="subgrp">
+          <did>
+            <unittitle>2. Guardian Realty Company, <unitdate>1924-1936</unitdate>
+            </unittitle>
+          </did>
+          <scopecontent>
+            <p>The Guardian Realty Company was the second stock company formed by the club. Created
+              in 1924, its purpose was to raise money needed to purchase several properties
+              surrounding the club in preparation for future expansion. The clubhouse addition was
+              completed in 1936, and in February of that year Guardian Realty was dissolved. This
+              subgroup mainly consists of financial and legal materials. </p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Correspondence of the Corresponding Secretary, 1924-1936</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">1</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Correspondence of the President, 1926-1936</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">2</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Financial Statements, 1924-1936</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">3</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Legal Documents</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Abstract of Title, Lots 11 and 12, 1835-1935</unittitle>
+                <container type="box" label="Box">2</container>
+                <container type="folder" label="Folder">4</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Contractors, 1932-1936</unittitle>
+                <container type="box" label="Box">2</container>
+                <container type="folder" label="Folder">5</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Deeds, Titles, and Mortgages, 1924-1936</unittitle>
+                <container type="box" label="Box">2</container>
+                <container type="folder" label="Folder">6</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Stock Certificates, 1924, 1929</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">7</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Stockholder Lists and Meetings, 1924-1935</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">8</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Stockholder's Meeting Minute Book, 1924-1936</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="volume" label="Volume">7</container>
+            </did>
+          </c03>
+        </c02>
+        <c02 id="subgrp3" level="subgrp">
+          <did>
+            <unittitle>3. League of Patriotic Women, <unitdate>1917</unitdate>
+            </unittitle>
+          </did>
+          <scopecontent>
+            <p>This league formed in 1917 in response to the United States' entrance into World War
+              I. The Woman's Club of Wisconsin invited all the women from various clubs in Milwaukee
+              to join them in March of 1917 to form the league. Soon after the league merged with
+              the National League for Women's Service, which was based in New York City. Records
+              include information on the first meeting and the formation of the league.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>First Meeting Invitation and Notes, March 7, 1917</unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">1</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>List of Participating Organizations and Copy of Telegram Sent to President
+                Woodrow Wilson, undated</unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">2</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Newspaper Clippings, Formation of the League, 1917</unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">3</container>
+            </did>
+          </c03>
+        </c02>
+        <c02 id="subgrp4" level="subgrp">
+          <did>
+            <unittitle>4. Woman's Club of Wisconsin, <unitdate>1870-2012</unitdate>
+            </unittitle>
+          </did>
+          <scopecontent>
+            <p>The Woman's Club of Wisconsin has a board of directors consisting of a president,
+              several vice presidents, corresponding secretary, recording secretary, treasurer, and
+              members-at-large. In addition to the records of the board of directors and many
+              committees and sub-committees, this subgroup, which makes up the bulk of this
+              collection, contains materials documenting the club's history, activities, and
+              programs; finances; building, including architectural drawings; and membership. Also
+              included are newsletters, yearbooks, and photographs.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Articles of Incorporation and By-Laws</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Constitution, and Printed By-Laws, 1921</unittitle>
+                <container type="box" label="Box">4</container>
+                <container type="folder" label="Folder">1</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>General Club Organization, undated</unittitle>
+                <container type="box" label="Box">4</container>
+                <container type="folder" label="Folder">2</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Policies, 2003</unittitle>
+                <container type="box" label="Box">32</container>
+                <container type="folder" label="Folder">18</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Revisions, 1976, 1996, 1999</unittitle>
+                <container type="box" label="Box">4</container>
+                <container type="folder" label="Folder">3</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Board of Directors</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Annual Reports, 1961-1981</unittitle>
+                <container type="box" label="Box">22</container>
+                <container type="folder" label="Folder">1-2</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Correspondence, 1923-1927</unittitle>
+                <container type="box" label="Box">4</container>
+                <container type="folder" label="Folder">4</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Correspondence, 1932-1951</unittitle>
+                <container type="box" label="Box">4</container>
+                <container type="folder" label="Folder">5</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Correspondence, 1960-1987</unittitle>
+                <container type="box" label="Box">4</container>
+                <container type="folder" label="Folder">6-8</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Correspondence, 1978-2001</unittitle>
+                <container type="box" label="Box">22</container>
+                <container type="folder" label="Folder">3-16</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Manuals</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>Committee Chairs, 1988-1989, undated</unittitle>
+                  <container type="box" label="Box">4</container>
+                  <container type="folder" label="Folder">9</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>President and Club Manager, undated</unittitle>
+                  <container type="box" label="Box">4</container>
+                  <container type="folder" label="Folder">10</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Treasurer/ Finance Chair, undated</unittitle>
+                  <container type="box" label="Box">4</container>
+                  <container type="folder" label="Folder">11</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Vice Presidents, Secretaries, and Member-At-Large, undated</unittitle>
+                  <container type="box" label="Box">4</container>
+                  <container type="folder" label="Folder">12</container>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Meeting Announcements, 1997-1998</unittitle>
+                <container type="box" label="Box">22</container>
+                <container type="folder" label="Folder">17</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Meeting Menus, 2002-2003</unittitle>
+                <container type="box" label="Box">31</container>
+                <container type="folder" label="Folder">8</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Members of the Board, 1981-1988</unittitle>
+                <container type="box" label="Box">4</container>
+                <container type="folder" label="Folder">13</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Minutes, 1876-1884</unittitle>
+                <container type="box" label="Box">4</container>
+                <container type="folder" label="Folder">14</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Minutes, 1887-1955</unittitle>
+                <container type="box" label="Box">4</container>
+                <container type="folder" label="Folder">15-27</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Minutes, 1956-1995</unittitle>
+                <container type="box" label="Box">5</container>
+                <container type="folder" label="Folder">1-20</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Minutes, 2001-2004</unittitle>
+                <container type="box" label="Box">31</container>
+                <container type="folder" label="Folder">9-10</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous, 1966, undated</unittitle>
+                <container type="box" label="Box">22</container>
+                <container type="folder" label="Folder">18</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Protocols, 2002-2003</unittitle>
+                <container type="box" label="Box">31</container>
+                <container type="folder" label="Folder">11</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Report to the Board, 1948-1951</unittitle>
+                <container type="box" label="Box">22</container>
+                <container type="folder" label="Folder">19</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Club History</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Anniversary Celebrations</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>50th</unittitle>
+                </did>
+                <c06>
+                  <did>
+                    <unittitle>Photographs, 1926</unittitle>
+                    <container type="box" label="Box">25</container>
+                    <container type="folder" label="Folder">1</container>
+                  </did>
+                </c06>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>75th</unittitle>
+                </did>
+                <c06>
+                  <did>
+                    <unittitle>Yearbook, 1951</unittitle>
+                    <container type="box" label="Box">22</container>
+                    <container type="folder" label="Folder">20</container>
+                  </did>
+                </c06>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>100th</unittitle>
+                </did>
+                <c06>
+                  <did>
+                    <unittitle>Correspondence, 1976</unittitle>
+                    <container type="box" label="Box">22</container>
+                    <container type="folder" label="Folder">21</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Planning, 1976</unittitle>
+                    <container type="box" label="Box">22</container>
+                    <container type="folder" label="Folder">22</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Photo Album, Centennial Celebration, 1876-1976, 1976</unittitle>
+                    <container type="box" label="Box">27</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Program, 1976</unittitle>
+                    <container type="box" label="Box">22</container>
+                    <container type="folder" label="Folder">23</container>
+                  </did>
+                </c06>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>125th</unittitle>
+                </did>
+                <c06>
+                  <did>
+                    <unittitle>Anniversary Art Photographs, 2001</unittitle>
+                    <container type="box" label="Box">26</container>
+                    <container type="folder" label="Folder">1</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Anniversary Celebration Photographs, 2001</unittitle>
+                    <container type="box" label="Box">25</container>
+                    <container type="folder" label="Folder">2</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Anniversary Certificate of Recognition from Senator Feingold,
+                      2001</unittitle>
+                    <container type="box" label="Box">31</container>
+                    <container type="folder" label="Folder">1</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Commemorative Book "A Club of Their Own" Development and Marketing,
+                      2002</unittitle>
+                    <container type="box" label="Box">31</container>
+                    <container type="folder" label="Folder">16</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Correspondence, 2001</unittitle>
+                    <container type="box" label="Box">22</container>
+                    <container type="folder" label="Folder">24</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Sculpture Project, 2001-2012</unittitle>
+                    <container type="box" label="Box">32</container>
+                    <container type="folder" label="Folder">22</container>
+                  </did>
+                </c06>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Bank Vault Information, 1944-2004</unittitle>
+                <container type="box" label="Box">22</container>
+                <container type="folder" label="Folder">25</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Book Plates, undated</unittitle>
+                <container type="box" label="Box">22</container>
+                <container type="folder" label="Folder">26-27</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Brochures, undated</unittitle>
+                <container type="box" label="Box">22</container>
+                <container type="folder" label="Folder">28</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Founding and Organizing, 1876-1899</unittitle>
+                <container type="box" label="Box">22</container>
+                <container type="folder" label="Folder">29</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Founding and Organizing, Photographs, undated</unittitle>
+                <container type="box" label="Box">25</container>
+                <container type="folder" label="Folder">3</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Historical Information</unittitle>
+                <container type="box" label="Box">22</container>
+                <container type="folder" label="Folder">30</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Histories, Club Member Recollections, 1920-1975</unittitle>
+                <container type="box" label="Box">6</container>
+                <container type="folder" label="Folder">1</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Histories, Printed/Published, 1886-1983</unittitle>
+                <container type="box" label="Box">6</container>
+                <container type="folder" label="Folder">2</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Menus, Weddings, Dinners and Events, 1977-1979</unittitle>
+                <container type="box" label="Box">22</container>
+                <container type="folder" label="Folder">31</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Newspaper Clippings, circa 1900</unittitle>
+                <container type="box" label="Box">6</container>
+                <container type="folder" label="Folder">3</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Newspaper Clippings, 1920s-1980s, 2000</unittitle>
+                <container type="box" label="Box">6</container>
+                <container type="folder" label="Folder">4-7</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Scrapbook, 2001</unittitle>
+                <container type="box" label="Box">22</container>
+                <container type="folder" label="Folder">32</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Stationary, undated</unittitle>
+                <container type="box" label="Box">22</container>
+                <container type="folder" label="Folder">33</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Committees</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Activities</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>Antiques Study Group, 2001-2002</unittitle>
+                  <container type="box" label="Box">31</container>
+                  <container type="folder" label="Folder">7</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Art</unittitle>
+                </did>
+                <c06>
+                  <did>
+                    <unittitle>Committee Description, 1979-1992, undated</unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">8</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Correspondence, 1882, 1892, 1973</unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">9</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Correspondence, 1980-1987</unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">10</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Correspondence, 1991-1995</unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">11</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Exhibits, 1970s-1990s</unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">12-13</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Exhibits, Insurance, 1979-1988</unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">14-16</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Folk Handicraft Exhibits, French, 1920</unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="volume" label="Volume">9</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Folk Handicraft Exhibits, Greek, 1920</unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="volume" label="Volume">10</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Folk Handicraft Exhibits, Italian, 1920</unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="volume" label="Volume">11</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Folk Handicraft Exhibits, Japanese and Chinese, 1920</unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="volume" label="Volume">12</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Folk Handicraft Exhibits, Romanian, 1920</unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="volume" label="Volume">13</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Folk Handicraft Exhibits, Russian, 1920</unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="volume" label="Volume">14</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Folk Handicraft Exhibits, Scandinavian, 1920</unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="volume" label="Volume">15</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Folk Handicraft Exhibits, Yugo-Slavic, 1920</unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="volume" label="Volume">16</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Member Lists, 1970-1995, undated</unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">17</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Minutes, 1972-1989</unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">18-19</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Newspaper Clippings, undated</unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">20</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Photographs, undated</unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">21</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Toshi Engravings, 1892</unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">22</container>
+                  </did>
+                </c06>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Book Club, 1997-2002</unittitle>
+                  <container type="box" label="Box">22</container>
+                  <container type="folder" label="Folder">34</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Bridge</unittitle>
+                </did>
+                <c06>
+                  <did>
+                    <unittitle>Committee Description, undated</unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">23</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Committee Members, 1970-1988</unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">24</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Correspondence, 1984-1986</unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">25</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Meeting Minutes, 1975-1988</unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">26</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Meeting Minutes, 2001-2002</unittitle>
+                    <container type="box" label="Box">31</container>
+                    <container type="folder" label="Folder">12</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Reports, 1966-1975</unittitle>
+                    <container type="box" label="Box">6</container>
+                    <container type="folder" label="Folder">27</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Reports, 1973-1988</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">1</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Schedules of Events, 1965, 1981-1989</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">2</container>
+                  </did>
+                </c06>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Club Services</unittitle>
+                </did>
+                <c06>
+                  <did>
+                    <unittitle>Hospitality Committee</unittitle>
+                  </did>
+                  <c07>
+                    <did>
+                      <unittitle>Minutes, 2004</unittitle>
+                      <container type="box" label="Box">32</container>
+                      <container type="folder" label="Folder">7</container>
+                    </did>
+                  </c07>
+                  <c07>
+                    <did>
+                      <unittitle>Reports, 2002-2004</unittitle>
+                      <container type="box" label="Box">32</container>
+                      <container type="folder" label="Folder">8</container>
+                    </did>
+                  </c07>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Minutes, 2002-2003</unittitle>
+                    <container type="box" label="Box">31</container>
+                    <container type="folder" label="Folder">13</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Reports, 2001-2003</unittitle>
+                    <container type="box" label="Box">31</container>
+                    <container type="folder" label="Folder">14</container>
+                  </did>
+                </c06>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Community Projects</unittitle>
+                </did>
+                <c06>
+                  <did>
+                    <unittitle>Minutes, 2004</unittitle>
+                    <container type="box" label="Box">31</container>
+                    <container type="folder" label="Folder">19</container>
+                  </did>
+                </c06>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Coordinator</unittitle>
+                </did>
+                <c06>
+                  <did>
+                    <unittitle>Correspondence, 1980-1986</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">3</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Correspondence, 1980-1989</unittitle>
+                    <container type="box" label="Box">22</container>
+                    <container type="folder" label="Folder">35</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Correspondence, 1992-1999</unittitle>
+                    <container type="box" label="Box">22</container>
+                    <container type="folder" label="Folder">36</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Description of Committee and Members, 1986-1988</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">4</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Minutes, 1979-1987</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">5</container>
+                  </did>
+                </c06>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Drama</unittitle>
+                </did>
+                <c06>
+                  <did>
+                    <unittitle>Minutes, Programs and Reports, 1955-1961, 1980</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">6</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Newspaper Clippings, 1957-1958</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">7</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Photographs, 1961, undated</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">8</container>
+                  </did>
+                </c06>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Education and Enrichment</unittitle>
+                </did>
+                <c06>
+                  <did>
+                    <unittitle>Duties and Member Lists and Correspondence, 1983-1987</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">9</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Minutes, 1984-1987</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">10</container>
+                  </did>
+                </c06>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Exercise and Dance</unittitle>
+                </did>
+                <c06>
+                  <did>
+                    <unittitle>Member Lists and Schedules, 1969-1988</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">11</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Minutes and Reports, 1973-1986</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">12</container>
+                  </did>
+                </c06>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Fitness and Fun Class, 1997-1998</unittitle>
+                  <container type="box" label="Box">22</container>
+                  <container type="folder" label="Folder">37</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Garden Club, 2001-2004</unittitle>
+                  <container type="box" label="Box">32</container>
+                  <container type="folder" label="Folder">5</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Heritage Docents, 1996-1998</unittitle>
+                  <container type="box" label="Box">23</container>
+                  <container type="folder" label="Folder">1</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Library</unittitle>
+                </did>
+                <c06>
+                  <did>
+                    <unittitle>Chair and Committee Lists, 1936-1968, 1979-1988</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">13</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Correspondence, 1988-1989</unittitle>
+                    <container type="box" label="Box">23</container>
+                    <container type="folder" label="Folder">2</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Minutes, Reports and Correspondence, 1948-1955, 1973-1987,
+                      undated</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">14</container>
+                  </did>
+                </c06>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Social</unittitle>
+                </did>
+                <c06>
+                  <did>
+                    <unittitle>Correspondence, 1973-1981</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">15</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Correspondence, 1997</unittitle>
+                    <container type="box" label="Box">23</container>
+                    <container type="folder" label="Folder">3</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Minutes and Reports, 1927-1946, 1965-1986</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">16</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Responsibilities and Member Lists, 1979-1988</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">17</container>
+                  </did>
+                </c06>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Welfare</unittitle>
+                </did>
+                <c06>
+                  <did>
+                    <unittitle>Accepted Applications, 1978-1979</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">18-19</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Committee Description, undated</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">20</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Correspondence, 1957-1968</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">21</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Correspondence, 1973-1987</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">22</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Denied Applications, 1980</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">23</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>General Club Information, undated</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">24</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Member Lists, 1937-1988</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">25</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Minutes, 1932, 1955-1987</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">26-28</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Miscellaneous Applications and Forms, undated</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">29</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Newspaper Clippings, 1957-1958, 1968</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">30</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Reports, 1927-1987</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">31-33</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Vacation School, circa 1899</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">34</container>
+                  </did>
+                </c06>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Zita Style Show, 1986-2001</unittitle>
+                  <container type="box" label="Box">23</container>
+                  <container type="folder" label="Folder">4-6</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Zita Style Show, 2001-2004</unittitle>
+                  <container type="box" label="Box">32</container>
+                  <container type="folder" label="Folder">24</container>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Ad-Hoc Study, 1976, 1985</unittitle>
+                <container type="box" label="Box">7</container>
+                <container type="folder" label="Folder">35</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Ad-Hoc Study, 1985-1987</unittitle>
+                <container type="box" label="Box">23</container>
+                <container type="folder" label="Folder">7</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>By-Laws, Proposed Changes, 1956-1957, 1976</unittitle>
+                <container type="box" label="Box">7</container>
+                <container type="folder" label="Folder">36</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>By-Laws, Proposed Changes, 1997-1999</unittitle>
+                <container type="box" label="Box">23</container>
+                <container type="folder" label="Folder">8</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Evaluation, Reviews of Policies, 1977, 1986-1987</unittitle>
+                <container type="box" label="Box">7</container>
+                <container type="folder" label="Folder">37</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Finance</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>Accountant, 1982</unittitle>
+                  <container type="box" label="Box">23</container>
+                  <container type="folder" label="Folder">9</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Committee Description and Policies, circa 1980s</unittitle>
+                  <container type="box" label="Box">7</container>
+                  <container type="folder" label="Folder">38</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Committee Members, 1936-1968, 1977-1978, 1985-1988</unittitle>
+                  <container type="box" label="Box">7</container>
+                  <container type="folder" label="Folder">39</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Correspondence, 1936-1981</unittitle>
+                  <container type="box" label="Box">7</container>
+                  <container type="folder" label="Folder">40-43</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Correspondence, 1992-1999</unittitle>
+                  <container type="box" label="Box">23</container>
+                  <container type="folder" label="Folder">10</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Finance Policy Handbook, 1978-1985</unittitle>
+                  <container type="box" label="Box">23</container>
+                  <container type="folder" label="Folder">11</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Financial Summaries</unittitle>
+                </did>
+                <c06>
+                  <did>
+                    <unittitle>Balance Sheets, 1940-1955</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">44</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>General Journals, 1947-1956</unittitle>
+                    <container type="box" label="Box">7</container>
+                    <container type="folder" label="Folder">45</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>General Ledger, 1948-1969</unittitle>
+                    <container type="box" label="Box">8</container>
+                    <container type="folder" label="Folder">1-6</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Operating Statements, 1959-1961</unittitle>
+                    <container type="box" label="Box">8</container>
+                    <container type="folder" label="Folder">7</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Treasurer's Book, 1877-1884</unittitle>
+                    <container type="box" label="Box">8</container>
+                    <container type="volume" label="Volume">16</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Treasurer's Book, 1912-1923</unittitle>
+                    <container type="box" label="Box">8</container>
+                    <container type="volume" label="Volume">17</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Treasurer's Reports, 2001-2004</unittitle>
+                    <container type="box" label="Box">32</container>
+                    <container type="volume" label="Volume">23</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Year-End, 1964, 1970-1990</unittitle>
+                    <container type="box" label="Box">8</container>
+                    <container type="folder" label="Folder">8-14</container>
+                  </did>
+                </c06>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Minutes, 1935-1963</unittitle>
+                  <container type="box" label="Box">8</container>
+                  <container type="folder" label="Folder">15-19</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Minutes, 1964-1990</unittitle>
+                  <container type="box" label="Box">9</container>
+                  <container type="folder" label="Folder">1-12</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Price Lists, Club Rentals and Dining, 1972-1987</unittitle>
+                  <container type="box" label="Box">9</container>
+                  <container type="folder" label="Folder">13</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Price Lists, Club Rentals and Dining, 1972-1987</unittitle>
+                  <container type="box" label="Box">9</container>
+                  <container type="folder" label="Folder">13</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Revenue Enhancement and Growth Committee Reports, 2001</unittitle>
+                  <container type="box" label="Box">32</container>
+                  <container type="folder" label="Folder">21</container>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Focus Group, 1993</unittitle>
+                <container type="box" label="Box">23</container>
+                <container type="folder" label="Folder">12</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>History</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>Archives</unittitle>
+                </did>
+                <c06>
+                  <did>
+                    <unittitle>Committee Description, 1970-1974</unittitle>
+                    <container type="box" label="Box">9</container>
+                    <container type="folder" label="Folder">14</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Committee Minutes, 1971-1976</unittitle>
+                    <container type="box" label="Box">9</container>
+                    <container type="folder" label="Folder">15</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Correspondence, 1876-1923, 1966-1967</unittitle>
+                    <container type="box" label="Box">23</container>
+                    <container type="folder" label="Folder">13</container>
+                  </did>
+                </c06>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Committee Description, 1970-1974</unittitle>
+                  <container type="box" label="Box">9</container>
+                  <container type="folder" label="Folder">14</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Committee Meeting Minutes, 2003-2004</unittitle>
+                  <container type="box" label="Box">32</container>
+                  <container type="folder" label="Folder">6</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>History Projects, undated</unittitle>
+                  <container type="box" label="Box">9</container>
+                  <container type="folder" label="Folder">17</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Milwaukee Landmark's Commission, 1972-1981</unittitle>
+                  <container type="box" label="Box">9</container>
+                  <container type="folder" label="Folder">18</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>National Register of Historic Places</unittitle>
+                </did>
+                <c06>
+                  <did>
+                    <unittitle>Application Information, 1980-1987</unittitle>
+                    <container type="box" label="Box">9</container>
+                    <container type="folder" label="Folder">19</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Correspondence, 1980-1987</unittitle>
+                    <container type="box" label="Box">9</container>
+                    <container type="folder" label="Folder">20</container>
+                  </did>
+                </c06>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>House</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>Appraisal, 1924</unittitle>
+                  <container type="box" label="Box">9</container>
+                  <container type="folder" label="Folder">21</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Appraisal, 1944</unittitle>
+                  <container type="box" label="Box">9</container>
+                  <container type="folder" label="Folder">22</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Appraisal, 1959</unittitle>
+                  <container type="box" label="Box">9</container>
+                  <container type="folder" label="Folder">23</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Appraisal, 1962</unittitle>
+                  <container type="box" label="Box">9</container>
+                  <container type="folder" label="Folder">24</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Appraisal, 1968-1981</unittitle>
+                  <container type="box" label="Box">9</container>
+                  <container type="folder" label="Folder">25-29</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Appraisal, 1982-1985</unittitle>
+                  <container type="box" label="Box">10</container>
+                  <container type="volumer" label="Volume">18</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Appraisal, 1983</unittitle>
+                  <container type="box" label="Box">10</container>
+                  <container type="folder" label="Folder">1-3</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Appraisal, 1985</unittitle>
+                  <container type="box" label="Box">10</container>
+                  <container type="folder" label="Folder">4</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Appraisal, 1988-1991</unittitle>
+                  <container type="box" label="Box">10</container>
+                  <container type="folder" label="Folder">5-6</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Architectural Drawings</unittitle>
+                </did>
+                <altformavail><p>High-resolution scans of a selection of these drawings are available in the reading room. Consult an archivist for more information.</p></altformavail>
+                <c06>
+                  <did>
+                    <unittitle>Eschweiler and Eschweiler, Club Renovations, 1936</unittitle>
+                    <container type="box" label="Box">21</container>
+                    <container type="folder" label="Folder">1</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Eschweiler, Schneider and Associates, Inc., Club Renovations,
+                      1967-1968</unittitle>
+                    <container type="oversize" label="Oversize Folder">1</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>George Schley and Sons, Club Renovations, 1950</unittitle>
+                    <container type="box" label="Box">21</container>
+                    <container type="folder" label="Folder">2</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Various Architects, Club Renovations, 1963</unittitle>
+                    <container type="box" label="Box">21</container>
+                    <container type="folder" label="Folder">3</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Various Architects, Club Renovations, 1967-2002</unittitle>
+                    <container type="oversize" label="Oversize Folder">2</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Various Architects, Club Renovations, 1982, 1996</unittitle>
+                    <container type="box" label="Box">21</container>
+                    <container type="folder" label="Folder">4</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Window Renovation Project, undated</unittitle>
+                    <container type="box" label="Box">21</container>
+                    <container type="folder" label="Folder">5</container>
+                  </did>
+                </c06>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Building Renovation, 1977-1983</unittitle>
+                  <container type="box" label="Box">23</container>
+                  <container type="folder" label="Folder">14</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Clubhouse Window Restoration, 2001-2003</unittitle>
+                  <container type="box" label="Box">31</container>
+                  <container type="folder" label="Folder">15</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Committee Description and Policies, undated</unittitle>
+                  <container type="box" label="Box">10</container>
+                  <container type="folder" label="Folder">7</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Contracts for Repairs to Building, 1949, 1965-1968</unittitle>
+                  <container type="box" label="Box">10</container>
+                  <container type="folder" label="Folder">8</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Contracts for Repairs to Building, 1971-1988</unittitle>
+                  <container type="box" label="Box">10</container>
+                  <container type="folder" label="Folder">9-14</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Correspondence, 1965-1994</unittitle>
+                  <container type="box" label="Box">10</container>
+                  <container type="folder" label="Folder">15-17</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Correspondence, 1995-2001</unittitle>
+                  <container type="box" label="Box">23</container>
+                  <container type="folder" label="Folder">15</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Cupola Project, 2001-2004</unittitle>
+                  <container type="box" label="Box">23</container>
+                  <container type="folder" label="Folder">16</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Facilities Planning, 1991-1992</unittitle>
+                  <container type="box" label="Box">23</container>
+                  <container type="folder" label="Folder">17</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Facilities Planning, 1991-1994</unittitle>
+                  <container type="box" label="Box">10</container>
+                  <container type="folder" label="Folder">18</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Insurance Policies, 1970</unittitle>
+                  <container type="box" label="Box">10</container>
+                  <container type="folder" label="Folder">19</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Insurance Policies, 1970s-1980s</unittitle>
+                  <container type="box" label="Box">10</container>
+                  <container type="volume" label="Volume">19-20</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Insurance Policies, 1986-1987</unittitle>
+                  <container type="box" label="Box">10</container>
+                  <container type="folder" label="Folder">21</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Insurance Policies, 1994-1997</unittitle>
+                  <container type="box" label="Box">23</container>
+                  <container type="folder" label="Folder">18</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Interior Design Committee, 1991-1993</unittitle>
+                  <container type="box" label="Box">11</container>
+                  <container type="folder" label="Folder">1</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Maher and Associates Architects, Floor Plans, 1991-1992</unittitle>
+                  <container type="box" label="Box">23</container>
+                  <container type="folder" label="Folder">19</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Maher and Associates Architects, Program Plan, 1991</unittitle>
+                  <container type="box" label="Box">23</container>
+                  <container type="folder" label="Folder">20</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Minutes, 1928-1955</unittitle>
+                  <container type="box" label="Box">11</container>
+                  <container type="folder" label="Folder">2-4</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Minutes, 1986, 1996-1998</unittitle>
+                  <container type="box" label="Box">23</container>
+                  <container type="folder" label="Folder">21</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Minutes, 2002-2004</unittitle>
+                  <container type="box" label="Box">32</container>
+                  <container type="folder" label="Folder">9</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Miscellaneous Items, undated</unittitle>
+                  <container type="box" label="Box">11</container>
+                  <container type="folder" label="Folder">5</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Negatives of Building, undated</unittitle>
+                  <physdesc>
+                    <extent>35 mm safety film negatives</extent>
+                  </physdesc>
+                  <container type="box" label="Box">30</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Photograph Book for Appraisals, undated</unittitle>
+                  <container type="box" label="Box">11</container>
+                  <container type="volume" label="Volume">20</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Photographs, Miscellaneous of Building and Staff, undated</unittitle>
+                  <container type="box" label="Box">11</container>
+                  <container type="folder" label="Folder">7</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Remodel Plans, 1993</unittitle>
+                  <container type="box" label="Box">23</container>
+                  <container type="folder" label="Folder">22</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Reports, 1955-1973</unittitle>
+                  <container type="box" label="Box">11</container>
+                  <container type="folder" label="Folder">8</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Reports, 2001-2004</unittitle>
+                  <container type="box" label="Box">32</container>
+                  <container type="folder" label="Folder">10</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Slides of Building, undated</unittitle>
+                  <container type="box" label="Box">11</container>
+                  <container type="folder" label="Folder">6</container>
+                  <physdesc>
+                    <extent>Slides (35 mm)</extent>
+                  </physdesc>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Membership</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>Application Lists, 1895-1921</unittitle>
+                  <container type="box" label="Box">11</container>
+                  <container type="volume" label="Volume">21</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Application Lists, 1924-1964</unittitle>
+                  <container type="box" label="Box">11</container>
+                  <container type="folder" label="Folder">9</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Application Receipts, 1888, 1931, 1934-1947</unittitle>
+                  <container type="box" label="Box">11</container>
+                  <container type="folder" label="Folder">10-11</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Committee Policies and Members, 1969-1973</unittitle>
+                  <container type="box" label="Box">11</container>
+                  <container type="folder" label="Folder">12</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Correspondence, 1966, 1970, 1980-1986</unittitle>
+                  <container type="box" label="Box">11</container>
+                  <container type="folder" label="Folder">13</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Correspondence, 1992-1999</unittitle>
+                  <container type="box" label="Box">23</container>
+                  <container type="folder" label="Folder">23-27</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Correspondence, 2002-2003</unittitle>
+                  <container type="box" label="Box">32</container>
+                  <container type="folder" label="Folder">11</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Enhancement and Growth, 1996-1997</unittitle>
+                  <container type="box" label="Box">23</container>
+                  <container type="folder" label="Folder">28</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Enhancement and Growth Committee, 2003-2004</unittitle>
+                  <container type="box" label="Box">32</container>
+                  <container type="folder" label="Folder">14</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Membership Applications, 1925-1926</unittitle>
+                  <container type="box" label="Box">11</container>
+                  <container type="folder" label="Folder">14</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Membership Applications, 1991-1995</unittitle>
+                  <container type="box" label="Box">11</container>
+                  <container type="folder" label="Folder">15</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Membership Survey, 1985, 1999</unittitle>
+                  <container type="box" label="Box">12</container>
+                  <container type="volume" label="Volume">22</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Membership Survey, 1993</unittitle>
+                  <container type="box" label="Box">23</container>
+                  <container type="folder" label="Folder">29</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Membership Survey, 1999</unittitle>
+                  <container type="box" label="Box">23</container>
+                  <container type="folder" label="Folder">30</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Memory Book, undated</unittitle>
+                  <container type="box" label="Box">12</container>
+                  <container type="volume" label="Volume">23</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Minutes, 1966-1990</unittitle>
+                  <container type="box" label="Box">12</container>
+                  <container type="folder" label="Folder">1</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Minutes, 2003</unittitle>
+                  <container type="box" label="Box">32</container>
+                  <container type="folder" label="Folder">12</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>New Member Orientation, 1974-1984, 1998</unittitle>
+                  <container type="box" label="Box">12</container>
+                  <container type="folder" label="Folder">2</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Non-Resident Members, 1923-1983</unittitle>
+                  <container type="box" label="Box">12</container>
+                  <container type="volume" label="Volume">24</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Prospective Member Event, 1996-1999</unittitle>
+                  <container type="box" label="Box">23</container>
+                  <container type="folder" label="Folder">31</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Reports, 2001-2002</unittitle>
+                  <container type="box" label="Box">32</container>
+                  <container type="folder" label="Folder">13</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Resident Members, 1923-1936</unittitle>
+                  <container type="box" label="Box">12</container>
+                  <container type="volume" label="Volume">25</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Samples Application Forms, undated</unittitle>
+                  <container type="box" label="Box">12</container>
+                  <container type="folder" label="Folder">3</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Samples Members' Party Menus, 1977-1979</unittitle>
+                  <container type="box" label="Box">12</container>
+                  <container type="folder" label="Folder">4</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Waiting Lists for Membership, 1964-1982</unittitle>
+                  <container type="box" label="Box">12</container>
+                  <container type="folder" label="Folder">5</container>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Nominating</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>Committee Description and Members, 1952-1981</unittitle>
+                  <container type="box" label="Box">12</container>
+                  <container type="folder" label="Folder">6</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Correspondence, 1993-1999</unittitle>
+                  <container type="box" label="Box">24</container>
+                  <container type="folder" label="Folder">1</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Minutes, 1970-1979</unittitle>
+                  <container type="box" label="Box">12</container>
+                  <container type="folder" label="Folder">7</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Reports and Slates of Officers, 1965-1984</unittitle>
+                  <container type="box" label="Box">12</container>
+                  <container type="folder" label="Folder">8</container>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Planning, Strategic Plan, 1993-1997</unittitle>
+                <container type="box" label="Box">24</container>
+                <container type="folder" label="Folder">2</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Professional, Minutes, June 22, 1987</unittitle>
+                <container type="box" label="Box">12</container>
+                <container type="folder" label="Folder">9</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Personnel</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>Reports, 2004</unittitle>
+                  <container type="box" label="Box">32</container>
+                  <container type="folder" label="Folder">17</container>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Program</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>Autograph Book of Speakers, 1919-1979</unittitle>
+                  <container type="box" label="Box">12</container>
+                  <container type="volume" label="Volume">26</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>College Endowment, 1975-1982</unittitle>
+                  <container type="box" label="Box">12</container>
+                  <container type="folder" label="Folder">10</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Committee Description and Members, 1936-1994</unittitle>
+                  <container type="box" label="Box">12</container>
+                  <container type="folder" label="Folder">11</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Concerts, 1998-1999</unittitle>
+                  <container type="box" label="Box">24</container>
+                  <container type="folder" label="Folder">3</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Contracts, 1976-1987</unittitle>
+                  <container type="box" label="Box">12</container>
+                  <container type="folder" label="Folder">12-15</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Correspondence, 1899, 1920, 1927</unittitle>
+                  <container type="box" label="Box">12</container>
+                  <container type="folder" label="Folder">16</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Correspondence, 1964-1987</unittitle>
+                  <container type="box" label="Box">12</container>
+                  <container type="folder" label="Folder">17-19</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Correspondence, 1998-1999</unittitle>
+                  <container type="box" label="Box">24</container>
+                  <container type="folder" label="Folder">4-5</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Events Postcards/Invitations, 1947-1970, undated</unittitle>
+                  <container type="box" label="Box">28</container>
+                  <container type="folder" label="Folder">1</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Hollander Concert (Chicago Symphony Preview Series),
+                    1979-1987</unittitle>
+                  <container type="box" label="Box">12</container>
+                  <container type="folder" label="Folder">20</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Mac Dowell Club, Rental of Athenaeum, 1981-1987</unittitle>
+                  <container type="box" label="Box">12</container>
+                  <container type="folder" label="Folder">21</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Members, 1995-1996</unittitle>
+                  <container type="box" label="Box">24</container>
+                  <container type="folder" label="Folder">6</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Minutes, 1927-1928, 1980-1988</unittitle>
+                  <container type="box" label="Box">12</container>
+                  <container type="folder" label="Folder">22</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Minutes, 1997</unittitle>
+                  <container type="box" label="Box">24</container>
+                  <container type="folder" label="Folder">7</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Minutes, 2001-2004</unittitle>
+                  <container type="box" label="Box">32</container>
+                  <container type="folder" label="Folder">19</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Monday</unittitle>
+                </did>
+                <c06>
+                  <did>
+                    <unittitle>Committee Description and Members, 1941-1979</unittitle>
+                    <container type="box" label="Box">12</container>
+                    <container type="folder" label="Folder">23</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Correspondence, 1954-1971</unittitle>
+                    <container type="box" label="Box">12</container>
+                    <container type="folder" label="Folder">24</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Minutes, 1955-1978</unittitle>
+                    <container type="box" label="Box">12</container>
+                    <container type="folder" label="Folder">25</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Program Schedules, 1965-1977</unittitle>
+                    <container type="box" label="Box">12</container>
+                    <container type="folder" label="Folder">26</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Programs, 1950s-1970s</unittitle>
+                    <container type="box" label="Box">12</container>
+                    <container type="folder" label="Folder">27-30</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Reports, 1940-1969</unittitle>
+                    <container type="box" label="Box">12</container>
+                    <container type="folder" label="Folder">31-32</container>
+                  </did>
+                </c06>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Newspaper Clippings, circa 1900, 1942-1985</unittitle>
+                  <container type="box" label="Box">12</container>
+                  <container type="folder" label="Folder">33</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Photo Album, Club Events, 1987</unittitle>
+                  <container type="box" label="Box">14</container>
+                  <container type="volume" label="Volume">27</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Photo Album, Special Events, 1985-1986</unittitle>
+                  <container type="box" label="Box">14</container>
+                  <container type="volume" label="Volume">28</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Photographs, Miscellaneous Events, undated</unittitle>
+                  <container type="box" label="Box">13</container>
+                  <container type="folder" label="Folder">1</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Program Schedules, 1954-1965</unittitle>
+                  <container type="box" label="Box">13</container>
+                  <container type="folder" label="Folder">2</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Program Schedules, 1979-1999</unittitle>
+                  <container type="box" label="Box">13</container>
+                  <container type="folder" label="Folder">3</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Programs, 1870-1890</unittitle>
+                  <container type="box" label="Box">13</container>
+                  <container type="folder" label="Folder">4-5</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Programs, 1890-1968</unittitle>
+                  <container type="box" label="Box">13</container>
+                  <container type="folder" label="Folder">6-7</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Programs, 1970s</unittitle>
+                  <container type="box" label="Box">13</container>
+                  <container type="folder" label="Folder">8</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Programs, 1980s, 1990s</unittitle>
+                  <container type="box" label="Box">13</container>
+                  <container type="folder" label="Folder">9-10</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Reports, 2001-2004</unittitle>
+                  <container type="box" label="Box">32</container>
+                  <container type="folder" label="Folder">20</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Reports and Budget, 1970-1985</unittitle>
+                  <container type="box" label="Box">13</container>
+                  <container type="folder" label="Folder">11</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Scrapbooks, Programs and Publicity, 1948-1951</unittitle>
+                  <container type="box" label="Box">14</container>
+                  <container type="volume" label="Volume">29-32</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Thursday</unittitle>
+                </did>
+                <c06>
+                  <did>
+                    <unittitle>Committee Members, 1936-1977</unittitle>
+                    <container type="box" label="Box">13</container>
+                    <container type="folder" label="Folder">12</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Committee Policies, 1947-1979</unittitle>
+                    <container type="box" label="Box">13</container>
+                    <container type="folder" label="Folder">13</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Correspondence, 1958, 1975</unittitle>
+                    <container type="box" label="Box">13</container>
+                    <container type="folder" label="Folder">14</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Minutes, 1927-1968, 1974-1978</unittitle>
+                    <container type="box" label="Box">13</container>
+                    <container type="folder" label="Folder">15-16</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Program Calendars, 1952-1977</unittitle>
+                    <container type="box" label="Box">13</container>
+                    <container type="folder" label="Folder">17</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Program Reports, 1970-1985</unittitle>
+                    <container type="box" label="Box">13</container>
+                    <container type="folder" label="Folder">18-19</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Programs, 1955-1979</unittitle>
+                    <container type="box" label="Box">13</container>
+                    <container type="folder" label="Folder">20-23</container>
+                  </did>
+                </c06>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Tours</unittitle>
+                </did>
+                <c06>
+                  <did>
+                    <unittitle>Calendars and Events, 1980-1981</unittitle>
+                    <container type="box" label="Box">13</container>
+                    <container type="folder" label="Folder">24</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Correspondence, 1997-1998</unittitle>
+                    <container type="box" label="Box">24</container>
+                    <container type="folder" label="Folder">8</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>House Tour, undated</unittitle>
+                    <container type="box" label="Box">24</container>
+                    <container type="folder" label="Folder">9</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Lyric Opera (Chicago), 1981-1986</unittitle>
+                    <container type="box" label="Box">13</container>
+                    <container type="folder" label="Folder">25</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Program Tours, 1997-1998</unittitle>
+                    <container type="box" label="Box">24</container>
+                    <container type="folder" label="Folder">10</container>
+                  </did>
+                </c06>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Public Relations</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>Correspondence, 1999-2000</unittitle>
+                  <container type="box" label="Box">24</container>
+                  <container type="folder" label="Folder">11</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Publicity Chairs, 1955-1968</unittitle>
+                  <container type="box" label="Box">15</container>
+                  <container type="folder" label="Folder">1</container>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Research and Long Term Planning</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>Committee Members and Policies, 1958-1986</unittitle>
+                  <container type="box" label="Box">15</container>
+                  <container type="folder" label="Folder">2</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Correspondence, 1966-1995</unittitle>
+                  <container type="box" label="Box">15</container>
+                  <container type="folder" label="Folder">3</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Correspondence, 1988-1992</unittitle>
+                  <container type="box" label="Box">24</container>
+                  <container type="folder" label="Folder">12</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Evaluation Report, 1977</unittitle>
+                  <container type="box" label="Box">24</container>
+                  <container type="folder" label="Folder">13</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Minutes, 1958-1986</unittitle>
+                  <container type="box" label="Box">15</container>
+                  <container type="folder" label="Folder">4-7</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Minutes, 1990-1995</unittitle>
+                  <container type="box" label="Box">15</container>
+                  <container type="folder" label="Folder">8</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Planning Literature, 1974-1995</unittitle>
+                  <container type="box" label="Box">15</container>
+                  <container type="folder" label="Folder">9</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Plans and Reports, 1976-1995</unittitle>
+                  <container type="box" label="Box">15</container>
+                  <container type="folder" label="Folder">10</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Strategic Plans for 1991-1995, 1991-1992</unittitle>
+                  <container type="box" label="Box">15</container>
+                  <container type="folder" label="Folder">11</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Strategic Plans for 1993-1997, 1993-1994</unittitle>
+                  <container type="box" label="Box">15</container>
+                  <container type="folder" label="Folder">12</container>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Science</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>Correspondence, 1892</unittitle>
+                  <container type="box" label="Box">15</container>
+                  <container type="folder" label="Folder">13</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Flower Sketches, 1892</unittitle>
+                  <container type="box" label="Box">15</container>
+                  <container type="volume" label="Volume">33</container>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Legal Documents</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Articles of Incorporation, Association and Historical Landmark Status,
+                  1910, 1921, 1970</unittitle>
+                <container type="box" label="Box">16</container>
+                <container type="folder" label="Folder">1</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Building Improvements, 1929, 1933, 1950</unittitle>
+                <container type="box" label="Box">16</container>
+                <container type="folder" label="Folder">2</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Court Cases Involving WCW, 1928, 1936, 1986</unittitle>
+                <container type="box" label="Box">16</container>
+                <container type="folder" label="Folder">3</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Insurance Titles, 1961-1965, 1981-1982</unittitle>
+                <container type="box" label="Box">16</container>
+                <container type="folder" label="Folder">4</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>IRS Case on Code Change, 1980-1981</unittitle>
+                <container type="box" label="Box">24</container>
+                <container type="folder" label="Folder">14</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Last Will and Testaments that Pertain to WCW, 1908, 1959, 1979,
+                  1987</unittitle>
+                <container type="box" label="Box">16</container>
+                <container type="folder" label="Folder">5</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Parking Lot Deeds and Titles, 1961-1965</unittitle>
+                <container type="box" label="Box">16</container>
+                <container type="folder" label="Folder">6</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Parking Lot History and Background, 1961-1980</unittitle>
+                <container type="box" label="Box">16</container>
+                <container type="folder" label="Folder">7</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Parking Lot Leases, 1970-1984</unittitle>
+                <container type="box" label="Box">16</container>
+                <container type="folder" label="Folder">8</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Real Estate Title, 1872</unittitle>
+                <container type="box" label="Box">16</container>
+                <container type="folder" label="Folder">9</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Tax Status Information, 1920-1931, 1964-1991</unittitle>
+                <container type="box" label="Box">16</container>
+                <container type="folder" label="Folder">10</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Meetings</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Annual</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>2002-2004</unittitle>
+                  <container type="box" label="Box">31</container>
+                  <container type="folder" label="Folder">4-6</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Agendas, 1973-1998</unittitle>
+                  <container type="box" label="Box">17</container>
+                  <container type="folder" label="Folder">1</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Board Reports</unittitle>
+                </did>
+                <c06>
+                  <did>
+                    <unittitle>Corresponding Secretary, 1887, 1924, 1949-1955, 1974-1991</unittitle>
+                    <container type="box" label="Box">17</container>
+                    <container type="folder" label="Folder">5</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Recording Secretary, 1953-1954, 1985</unittitle>
+                    <container type="box" label="Box">17</container>
+                    <container type="folder" label="Folder">6</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Vice President (1st)/Personnel Chair, 1974-1991</unittitle>
+                    <container type="box" label="Box">17</container>
+                    <container type="folder" label="Folder">7</container>
+                  </did>
+                </c06>
+                <c06>
+                  <did>
+                    <unittitle>Vice President (2nd)/Membership Chair, 1971-1999</unittitle>
+                    <container type="box" label="Box">17</container>
+                    <container type="folder" label="Folder">8</container>
+                  </did>
+                </c06>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Committee Reports, A-Z, 1953-1994</unittitle>
+                  <container type="box" label="Box">17</container>
+                  <container type="folder" label="Folder">9-36</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Meeting Announcements, 1958-2000</unittitle>
+                  <container type="box" label="Box">17</container>
+                  <container type="folder" label="Folder">37</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Minutes, 1924-1936, 1953, 1960-1989</unittitle>
+                  <container type="box" label="Box">17</container>
+                  <container type="folder" label="Folder">2-4</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Past President's Day, 1963-1995</unittitle>
+                  <container type="box" label="Box">17</container>
+                  <container type="folder" label="Folder">38</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Photographs, 1963, 1997-1998, undated</unittitle>
+                  <container type="box" label="Box">25</container>
+                  <container type="folder" label="Folder">4</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>President's Report, 1953, 1995-1998</unittitle>
+                  <container type="box" label="Box">17</container>
+                  <container type="folder" label="Folder">38</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Rules of Order, undated</unittitle>
+                  <container type="box" label="Box">17</container>
+                  <container type="folder" label="Folder">39</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Sample Ballots, undated</unittitle>
+                  <container type="box" label="Box">17</container>
+                  <container type="folder" label="Folder">40</container>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Club, 1883-1923</unittitle>
+                <container type="box" label="Box">17</container>
+                <container type="volume" label="Volume">34-45</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Election, Minutes, 1984-1989</unittitle>
+                <container type="box" label="Box">18</container>
+                <container type="folder" label="Folder">1</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Quarterly, Agendas, 1960-1979</unittitle>
+                <container type="box" label="Box">18</container>
+                <container type="folder" label="Folder">2</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Quarterly, Minutes, 1923-1982</unittitle>
+                <container type="box" label="Box">18</container>
+                <container type="folder" label="Folder">3-11</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Quarterly/Weekly, Minutes, 1947-1952</unittitle>
+                <container type="box" label="Box">18</container>
+                <container type="folder" label="Folder">12-13</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Weekly, Minutes, 1923-1967</unittitle>
+                <container type="box" label="Box">18</container>
+                <container type="folder" label="Folder">14-21</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Newsletters, 1951-1959</unittitle>
+              <container type="box" label="Box">28</container>
+              <container type="folder" label="Folder">2</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Newsletters, 1964-1982</unittitle>
+              <container type="box" label="Box">18</container>
+              <container type="folder" label="Folder">22-30</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Newsletters, 1983-1988</unittitle>
+              <container type="box" label="Box">19</container>
+              <container type="folder" label="Folder">1-3</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Newsletters, 1991-2000</unittitle>
+              <container type="box" label="Box">24</container>
+              <container type="folder" label="Folder">16</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Newsletters, 2001-2005</unittitle>
+              <container type="box" label="Box">32</container>
+              <container type="folder" label="Folder">15</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Newsletters, <title render="italic">Volunteer Voice</title>,
+                2000-2001</unittitle>
+              <container type="box" label="Box">24</container>
+              <container type="folder" label="Folder">17</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Newsletters, <title render="italic">Volunteer Voice</title>,
+                2002-2004</unittitle>
+              <container type="box" label="Box">32</container>
+              <container type="folder" label="Folder">16</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Photographs</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Christmas, 1980-1987, 2005</unittitle>
+                <container type="box" label="Box">25</container>
+                <container type="folder" label="Folder">5-11</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Committees, 2001-2003</unittitle>
+                <container type="box" label="Box">25</container>
+                <container type="folder" label="Folder">12</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Events</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>Book Sale, undated</unittitle>
+                  <container type="box" label="Box">25</container>
+                  <container type="folder" label="Folder">13</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Club Style Show, 2001-2006</unittitle>
+                  <container type="box" label="Box">25</container>
+                  <container type="folder" label="Folder">14</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>External Events, 2001</unittitle>
+                  <container type="box" label="Box">25</container>
+                  <container type="folder" label="Folder">15</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Goodwill Style Show, undated</unittitle>
+                  <container type="box" label="Box">25</container>
+                  <container type="folder" label="Folder">16</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Gourmet Dinners, 1990-2005</unittitle>
+                  <container type="box" label="Box">25</container>
+                  <container type="folder" label="Folder">17</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Halloween Hat Party, 2004</unittitle>
+                  <container type="box" label="Box">25</container>
+                  <container type="folder" label="Folder">18</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Holiday Ball, 1999-2001</unittitle>
+                  <container type="box" label="Box">25</container>
+                  <container type="folder" label="Folder">19</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Lecture Luncheons, 2002-2004</unittitle>
+                  <container type="box" label="Box">25</container>
+                  <container type="folder" label="Folder">20</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Miscellaneous Club Events, 1980-2003, undated</unittitle>
+                  <container type="box" label="Box">25</container>
+                  <container type="folder" label="Folder">21-22</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Spa Day, 2002</unittitle>
+                  <container type="box" label="Box">25</container>
+                  <container type="folder" label="Folder">23</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>A Taste of India, 2001</unittitle>
+                  <container type="box" label="Box">25</container>
+                  <container type="folder" label="Folder">24</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Theatre, 1955</unittitle>
+                  <container type="box" label="Box">25</container>
+                  <container type="folder" label="Folder">25</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>The Twelve Centuries of Christmas Program, 1963</unittitle>
+                  <container type="box" label="Box">25</container>
+                  <container type="folder" label="Folder">26</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Zita Style Show, 1986-1999</unittitle>
+                  <container type="box" label="Box">25</container>
+                  <container type="folder" label="Folder">27</container>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Foundation Day Event, 1992-1999, 2004-2005</unittitle>
+                <container type="box" label="Box">25</container>
+                <container type="folder" label="Folder">28</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>History, 2001</unittitle>
+                <container type="box" label="Box">25</container>
+                <container type="folder" label="Folder">29</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>House</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>Early Interior, undated</unittitle>
+                  <container type="box" label="Box">25</container>
+                  <container type="folder" label="Folder">30</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Food, undated</unittitle>
+                  <container type="box" label="Box">25</container>
+                  <container type="folder" label="Folder">31</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Interior Album, 1986, undated</unittitle>
+                  <container type="box" label="Box">25</container>
+                  <container type="folder" label="Folder">32</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Interior/Exterior, 1991-2002, undated</unittitle>
+                  <container type="box" label="Box">25</container>
+                  <container type="folder" label="Folder">33</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Men's Lounge Americana, Before and After, 1959</unittitle>
+                  <container type="box" label="Box">26</container>
+                  <container type="folder" label="Folder">2</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Repairing Cupola, 2002</unittitle>
+                  <container type="box" label="Box">25</container>
+                  <container type="folder" label="Folder">34</container>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Contact Sheets, undated</unittitle>
+                <container type="box" label="Box">25</container>
+                <container type="folder" label="Folder">35</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Negatives, undated</unittitle>
+                <physdesc>
+                  <extent>35 mm safety film negatives</extent>
+                </physdesc>
+                <container type="box" label="Box">30</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Photo Album, 1987, undated</unittitle>
+                <container type="box" label="Box">25</container>
+                <container type="folder" label="Folder">36</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Photo Album, Miscellaneous Events, 1959, undated</unittitle>
+                <container type="box" label="Box">26</container>
+                <container type="folder" label="Folder">3</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Photo Album, Miscellaneous Events, 1961, 1973, undated</unittitle>
+                <container type="box" label="Box">26</container>
+                <container type="folder" label="Folder">4</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>President Portraits, 1884-1918, 1981-2009</unittitle>
+                <container type="box" label="Box">28</container>
+                <container type="folder" label="Folder">3</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>President Portraits and Golden Anniversary Scrapbook,
+                  1876-1979</unittitle>
+                <container type="box" label="Box">29</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Singers, 2001-2003</unittitle>
+                <container type="box" label="Box">25</container>
+                <container type="folder" label="Folder">37</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Staff, 1985, 2001, undated</unittitle>
+                <container type="box" label="Box">25</container>
+                <container type="folder" label="Folder">38</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Yearbooks, 1884-1915</unittitle>
+              <container type="box" label="Box">19</container>
+              <container type="volume" label="Volume">46-47</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Yearbooks, 1885-1954</unittitle>
+              <container type="box" label="Box">19</container>
+              <container type="folder" label="Folder">4-12</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Yearbooks, 1954-2003</unittitle>
+              <container type="box" label="Box">24</container>
+              <container type="folder" label="Folder">18-27</container>
+            </did>
+          </c03>
+        </c02>
+        <c02 id="subgrp5" level="subgrp">
+          <did>
+            <unittitle>5. Woman's Club of Wisconsin Foundation, Inc., <unitdate>1961-2004</unitdate>
+            </unittitle>
+          </did>
+          <scopecontent>
+            <p>The Woman's Club of Wisconsin Foundation, Inc. was founded to assume many of the
+              duties previously handled by the welfare committee. The foundation is solely a
+              philanthropic organization, in charge of reviewing and awarding grant money to various
+              community organizations in need of assistance. Although legally a separate entity, the
+              foundation works closely with the Woman's Club and shares many club projects. Records
+              include board of directors and committee minutes, financial reports, and publicity
+              materials.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Articles of Incorporation and By-Laws, 1964-1994</unittitle>
+              <container type="box" label="Box">20</container>
+              <container type="folder" label="Folder">1</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Benefits, 1991-1993</unittitle>
+              <container type="box" label="Box">20</container>
+              <container type="folder" label="Folder">2</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Board of Directors Minutes, 1965-1994</unittitle>
+              <container type="box" label="Box">20</container>
+              <container type="folder" label="Folder">3</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Community Outreach and Foundation Development Committees,
+                1988-1994</unittitle>
+              <container type="box" label="Box">20</container>
+              <container type="folder" label="Folder">4</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Community Outreach Committee, 1992-1999</unittitle>
+              <container type="box" label="Box">20</container>
+              <container type="folder" label="Folder">5-8</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Community Outreach Committee Minutes, 2001-2004</unittitle>
+              <container type="box" label="Box">31</container>
+              <container type="folder" label="Folder">17</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Community Outreach Committee Reports, 2001-2004</unittitle>
+              <container type="box" label="Box">31</container>
+              <container type="folder" label="Folder">18</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Drought, Bette, Correspondence, 1995-1996</unittitle>
+              <container type="box" label="Box">20</container>
+              <container type="folder" label="Folder">9</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Financial Policies, 1982-1990</unittitle>
+              <container type="box" label="Box">20</container>
+              <container type="folder" label="Folder">10</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Financial Reports, 1961-1963, 1970-1990</unittitle>
+              <container type="box" label="Box">20</container>
+              <container type="folder" label="Folder">11-12</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Financial Statements, 1990-1994</unittitle>
+              <container type="box" label="Box">20</container>
+              <container type="folder" label="Folder">13</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Foundation Committee Minutes, 2001-2004</unittitle>
+              <container type="box" label="Box">32</container>
+              <container type="folder" label="Folder">1</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Foundation Committee Reports, 2002-2004</unittitle>
+              <container type="box" label="Box">32</container>
+              <container type="folder" label="Folder">2</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Foundation Day, Correspondence, 1996-1999</unittitle>
+              <container type="box" label="Box">20</container>
+              <container type="folder" label="Folder">14</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Foundation Development Committee, 1991-1996</unittitle>
+              <container type="box" label="Box">20</container>
+              <container type="folder" label="Folder">15</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Foundation Tea and Toy Show, 1991-1996</unittitle>
+              <container type="box" label="Box">20</container>
+              <container type="folder" label="Folder">16</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Grant Allocation Committee</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Annual Reports, 1967-2001</unittitle>
+                <container type="box" label="Box">20</container>
+                <container type="folder" label="Folder">17</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Grant Applications, 1997-2001</unittitle>
+                <container type="box" label="Box">20</container>
+                <container type="folder" label="Folder">18</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Grant Letters, 1992-1994</unittitle>
+                <container type="box" label="Box">20</container>
+                <container type="folder" label="Folder">19</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Job Description, 1993</unittitle>
+                <container type="box" label="Box">20</container>
+                <container type="folder" label="Folder">20</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Meetings, 1995-1997</unittitle>
+                <container type="box" label="Box">20</container>
+                <container type="folder" label="Folder">21</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Minutes, 1992-2001</unittitle>
+                <container type="box" label="Box">20</container>
+                <container type="folder" label="Folder">22</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Minutes, 2001-2002</unittitle>
+                <container type="box" label="Box">32</container>
+                <container type="folder" label="Folder">3</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Notices, 1991-1999</unittitle>
+                <container type="box" label="Box">20</container>
+                <container type="folder" label="Folder">23</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Grant Allocation Newsletter, Correspondence, 1994-1999</unittitle>
+              <container type="box" label="Box">20</container>
+              <container type="folder" label="Folder">24</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Grant Recipients, 1991-2002</unittitle>
+              <container type="box" label="Box">32</container>
+              <container type="folder" label="Folder">4</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Grants, 1967-1994</unittitle>
+              <container type="box" label="Box">20</container>
+              <container type="folder" label="Folder">25</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Job Descriptions, 1993, undated</unittitle>
+              <container type="box" label="Box">20</container>
+              <container type="folder" label="Folder">26</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Policies and Guidelines, 1989-1993</unittitle>
+              <container type="box" label="Box">20</container>
+              <container type="folder" label="Folder">27</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Publicity, 1991-1994</unittitle>
+              <container type="box" label="Box">20</container>
+              <container type="folder" label="Folder">28</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Wiley, Barbara, Correspondence, 1995-1997</unittitle>
+              <container type="box" label="Box">20</container>
+              <container type="folder" label="Folder">29</container>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="otherlevel" otherlevel="minimal" id="acc2010-059">
+        <did>
+          <unitid>Accession 2010-059</unitid>
+          <unittitle>Additions, <unitdate>1980-2001</unitdate></unittitle>
+          <physdesc>
+            <extent>1.4 cubic ft. (2 boxes)</extent>
+          </physdesc>
+          <abstract>Additions of records from 1999 to 2001, as well as miscellaneous records from
+            earlier years (1980-2000).</abstract>
+        </did>
+      </c01>
+      <c01 level="otherlevel" otherlevel="minimal" id="acc2012-045">
+        <did>
+          <unitid>Accession 2012-045</unitid>
+          <unittitle>Athenaeum Board Meeting Minutes, <unitdate>1893-1919</unitdate></unittitle>
+          <physdesc>
+            <extent>.2 cubic ft. (1 box)</extent>
+          </physdesc>
+          <abstract>Additions of 3 volumes of Athenaeum board meeting minutes, dating from 1893 to
+            1907 and 1913 to 1919.</abstract>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
