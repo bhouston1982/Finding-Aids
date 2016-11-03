@@ -37,9 +37,9 @@
       <change encodinganalog="800">
         <date normal="2016-11-01">November 1, 2016</date>
         <item>Brad Houston updated the finding aid to reflect addition of accession 2016-010 and
-          processing 2013-002 and electronic portions of 2011-049. Changes were made to Titleproper, unitdate, extent, acqinfo,
-          processinfo, otherfindaid, accessrestrict, and the contents list (added 3 electronic
-          folders and accession information).</item>
+          processing 2013-002 and electronic portions of 2011-049. Changes were made to Titleproper,
+          unitdate, extent, acqinfo, processinfo, otherfindaid, accessrestrict, and the contents
+          list (added 3 electronic folders and accession information).</item>
       </change>
       <change encodinganalog="583">
         <date normal="2015-05-11">May 11, 2016</date>
@@ -288,10 +288,11 @@
       <p>An inventory of the personnel files in boxes 3-11, 16, and 34 is available in the Archives'
         case files. Finding aids for accessions 1998-048, 2001-014, 2002-075, 2003-047, 2007-016,
         2010-003, and 2016-010 are also available in the Archives.</p>
-      <p>A file-level inventory of the electronic images in the collection is available in the
+      <p>A file-level inventory of the electronic files in the collection is available in the
         archives. This inventory includes information about the date of creation, the file size and
-        image dimensions, file formats, and embedded keywords provided by UWM Photo Services. See an
-        archivist for more information. </p>
+        image dimensions, file formats, and embedded keywords provided by UWM Photo Services, as
+        well as information embedded at time of creation for text files. See an archivist for more
+        information. </p>
     </otherfindaid>
     <prefercite encodinganalog="524">
       <p>
@@ -358,7 +359,7 @@
           (box 2), 2002-075, 2003-047, 2007-016, 2010-003, 2016-010, and boxes 3-4 of 2001-014 are
           restricted in accordance with UWM Personnel File Policy S-42. Access is regulated by
           Section III.A.2 and III.A.3. Additional folders in box 19 are restricted in accordance
-          with the Family Educational Rights and Privacy Act on 1973 (FERPA).</p>
+          with the Family Educational Rights and Privacy Act of 1973 (FERPA).</p>
         <p>There are no access restrictions on the rest of the collection, which is open to all
           members of the public in accordance with state law.</p>
       </accessrestrict>
@@ -382,8 +383,8 @@
           2001-014 in November 2014. Brad Houston and Charlie Tonelli processed accessions 2011-049
           and 2012-005 over Winter 2015. Ashlie Biddle processed the non-restricted portions of
           accessions 2002-075 and 2003-047 in April 2016 (Brad Houston supervised). Brad Houston
-          added information about accession 2016-010 and processed accession 2013-002 and the electronic portion of accession 2011-049 in October
-          2016.</p>
+          added information about accession 2016-010 and processed accession 2013-002 and the
+          electronic portion of accession 2011-049 in October 2016.</p>
       </processinfo>
       <processinfo>
         <head>Deaccession Information</head>
@@ -1256,19 +1257,26 @@
             </did>
           </c03>
         </c02>
-       <c02><did><unittitle>Fifth International Conference on Healthcare Systems</unittitle></did> <c03>
+        <c02>
           <did>
-            <unittitle><unitdate>2008</unitdate></unittitle>
-            <container type="Box" label="Box">21</container>
-            <container type="Folder" label="Folder">11-12</container>
+            <unittitle>Fifth International Conference on Healthcare Systems</unittitle>
           </did>
-        </c03>
-        <c03>
-          <did>
-            <unittitle>Proceedings, <unitdate>2008</unitdate></unittitle>
-            <container type="electronic" label="Electronic Folder"></container>
-                      </did>
-        </c03></c02>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>2008</unitdate>
+              </unittitle>
+              <container type="Box" label="Box">21</container>
+              <container type="Folder" label="Folder">11-12</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Proceedings, <unitdate>2008</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+        </c02>
         <c02>
           <did>
             <unittitle>Forensic Science Certificate, <unitdate>2000</unitdate></unittitle>
@@ -1431,7 +1439,8 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Adult Fitness Program, <unitdate>1982-1984</unitdate>, <unitdate>undated</unitdate></unittitle>
+              <unittitle>Adult Fitness Program, <unitdate>1982-1984</unitdate>,
+                  <unitdate>undated</unitdate></unittitle>
               <container type="box" label="Box">13</container>
               <container type="folder" label="Folder">19</container>
             </did>
@@ -1452,7 +1461,8 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Executive Committee Meeting Minutes, <unitdate>1979</unitdate>, <unitdate>1989-1995</unitdate></unittitle>
+              <unittitle>Executive Committee Meeting Minutes, <unitdate>1979</unitdate>,
+                  <unitdate>1989-1995</unitdate></unittitle>
               <container type="box" label="Box">13</container>
               <container type="folder" label="Folder">21-22</container>
             </did>
@@ -2925,20 +2935,28 @@
             </did>
           </c03>
         </c02>
-        <c02><did><unittitle>Strategic Plan</unittitle></did>
-          <c03>
+        <c02>
           <did>
-            <unittitle><unitdate>2000</unitdate></unittitle>
-            <container type="electronic" label="Electronic Folder"></container>
-                     </did>
-        </c03>
-        <c03>
-          <did>
-            <unittitle><unitdate>2000-2005</unitdate></unittitle>
-            <container type="Box" label="Box">34</container>
-            <container type="Folder" label="Folder">1</container>
+            <unittitle>Strategic Plan</unittitle>
           </did>
-        </c03></c02>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>2000</unitdate>
+              </unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>2000-2005</unitdate>
+              </unittitle>
+              <container type="Box" label="Box">34</container>
+              <container type="Folder" label="Folder">1</container>
+            </did>
+          </c03>
+        </c02>
         <c02>
           <did>
             <unittitle>Student Newsletter, <unitdate>1979</unitdate></unittitle>
@@ -3096,7 +3114,7 @@
       <c01 level="otherlevel" otherlevel="minimal" id="acc2016-010">
         <did>
           <unitid>Accession 2016-010</unitid>
-          <unittitle>Personnel Files,<unitdate>1979-2013</unitdate></unittitle>
+          <unittitle>Personnel Files, <unitdate>1979-2013</unitdate></unittitle>
           <physdesc>
             <extent>3 cubic ft. (3 boxes)</extent>
           </physdesc>
