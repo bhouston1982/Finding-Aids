@@ -23,4 +23,7 @@ b. For larger, but specific changes, you can mouse over a particular line and cl
 
 c. For overall comments, or when you have completed your line-level review, you can click on the green "Review Changes" button and enter general comments. You can either save this as comments, or, if you're working on someone else's submission, you can select "request changes" before you approve the changes.
 
-3. When you are ready to approve changes, 
+When you are ready to approve changes, return to the "Conversations" tab in the pull request and select "Merge Pull Request." Write some comments about the nature of the changes. Once a pull request is submitted, your changes will be added to the Master branch and you can delete the in progress branch. (The changes will be added to version history so you can revert to an early version if you need to.)
+
+## Move through EAD workflow
+From this point, save the EAD to the in-progress directory and upload to ARW dev site as needed. If additional edits are required, you can save a copy back to your repository folder and make changes as described above.
