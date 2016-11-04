@@ -13,7 +13,9 @@ GitHub, though intended as a repository for open-source code, is also notable fo
 5. With the secondary branch selected in GitHub Desktop, enter a summary (e.g. "Added accession 2013-024") and description (e.g. "Changes were made to titleproper, unitdate, acqinfo, processinfo, etc.) under the list of changes. When you're happy with how these look, click "Commit", and then "Sync" to publish to the branch.
 6. Click "Pull request" to submit the request. Tag the finding aid reviewer (@bhouston1982 for the moment) to notify.
 
-## Reviewing Changes
+## Reviewing Changes and Making Corrections
 1. Go to the Pull Requests tab and click on the request most relevant to the finding aid you're reviewing.
 2. Once you've opened the pull request, go to the Files Changed tab. You have a few options at this point if changes need to be made:
+
 a. For minor changes, you can edit directly in the editor by clicking on the "pencil" button on the top right of the window. Changes will automatically commit to the in progress branch.
+b. For larger, but specific changes, you can mouse over a particular line and click on the blue plus sign. This will allow you to leave a comment on a specific part of the EAD
