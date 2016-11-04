@@ -18,4 +18,9 @@ GitHub, though intended as a repository for open-source code, is also notable fo
 2. Once you've opened the pull request, go to the Files Changed tab. You have a few options at this point if changes need to be made:
 
 a. For minor changes, you can edit directly in the editor by clicking on the "pencil" button on the top right of the window. Changes will automatically commit to the in progress branch.
-b. For larger, but specific changes, you can mouse over a particular line and click on the blue plus sign. This will allow you to leave a comment on a specific part of the EAD
+
+b. For larger, but specific changes, you can mouse over a particular line and click on the blue plus sign. This will allow you to leave a comment on a specific part of the EAD for changes to be made.
+
+c. For overall comments, or when you have completed your line-level review, you can click on the green "Review Changes" button and enter general comments. You can either save this as comments, or, if you're working on someone else's submission, you can select "request changes" before you approve the changes.
+
+3. When you are ready to approve changes, 
