@@ -1185,7 +1185,6 @@
           </c03>
         </c02>
         <c02><did><unittitle>Committee Memberships, 	<unitdate>2002-2010</unitdate></unittitle>	<container type="electronic" label="Electronic Folder" />	</did></c02>
-        
         <c02>
           <did>
             <unittitle>Committee on Conversion of the MALS to MLS,
@@ -1390,8 +1389,7 @@
             <c04><did><unittitle><unitdate>2006-2008</unitdate></unittitle>	<container type="electronic" label="Electronic Folder" />	</did></c04>
             <c04><did><unittitle>Academic Planning Survey Results, 	<unitdate>2008</unitdate></unittitle>	<container type="electronic" label="Electronic Folder" />	</did></c04>
             <c04><did><unittitle><title render="doublequote">Dean's Communique</title>, 	<unitdate>2007-2008</unitdate></unittitle>	<container type="electronic" label="Electronic Folder" />	</did></c04></c03>
-          
-          <c03>
+                    <c03>
             <did>
               <unittitle>Walker, Thomas, <unitdate>2003-2004</unitdate></unittitle>
               <container type="box" label="Box">19</container>
