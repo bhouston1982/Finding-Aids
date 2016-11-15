@@ -22,7 +22,8 @@
           <addressline>Archives Department</addressline>
           <addressline>P.O. Box 604</addressline>
           <addressline>Milwaukee, Wisconsin 53201-0604</addressline>
-          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
+          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr
+              href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
         </address>
         <date encodinganalog="260$c" type="publication" normal="2007">Copyright &#169; 2007
           University of Wisconsin Board of Regents</date>
@@ -168,12 +169,23 @@
             <event>Andrew Martin</event>
           </chronitem>
           <chronitem>
-            <date>2010- </date>
+            <date>2010-2014</date>
             <event>Liam Callanan</event>
+          </chronitem>
+          <chronitem>
+            <date>2014-</date>
+            <event>Mark Netzloff</event>
           </chronitem>
         </chronlist>
       </bioghist>
     </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>This collection contains mostly documents from various programs within the department as
+        well as meetings minutes from the executive committee, departmental committee, and some
+        subcommittees. Of note are the records on the Milton Tercentenary Conference, which contain
+        27 audio reels, correspondence, and conference paraphenilia.</p>
+      <p>The accession to this collection contains syllabi from several english courses, dating from 1994-2008.</p>
+    </scopecontent>
     <arrangement encodinganalog="351">
       <p>This collection was received in, and is organized in, multiple parts. Additional materials
         have not been physically or intellectually arranged and interfiled, and researchers may need
@@ -195,8 +207,9 @@
     </arrangement>
     <prefercite encodinganalog="524">
       <p>
-        <extref href="http://uwm.edu/libraries/archives/research/citation-guide-for-primary-sources/">Citation Guide for
-          Primary Sources</extref>
+        <extref
+          href="http://uwm.edu/libraries/archives/research/citation-guide-for-primary-sources/"
+          >Citation Guide for Primary Sources</extref>
       </p>
     </prefercite>
     <relatedmaterial encodinganalog="544 1">
@@ -1011,7 +1024,7 @@
           </did>
         </c02>
       </c01>
-      <c01 level="otherlevel" otherlevel="unprocessed" id="acc2010-037">
+      <c01 level="otherlevel" otherlevel="minimal" id="acc2010-037">
         <did>
           <unitid>Accession 2010-037</unitid>
           <unittitle>Syllabi, <unitdate>1994-2008</unitdate></unittitle>
@@ -1020,6 +1033,54 @@
           </physdesc>
           <abstract>Additions of syllabi files dating from 1994 to 2008.</abstract>
         </did>
+        <c02>
+          <did>
+            <unititle>
+              <unitdate>1994-1997</unitdate>
+            </unititle>
+            <container type="box" label="Box">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate>1997-1999</unitdate>
+            </unittitle>
+            <container type="box" label="Box">2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate>2000-2002</unitdate>
+            </unittitle>
+            <container type="box" label="Box">3</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate>2002-2004</unitdate>
+            </unittitle>
+            <container type="box" label="Box">4</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate>2005-2006</unitdate>
+            </unittitle>
+            <container type="box" label="Box">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate>2007-2008</unitdate>
+            </unittitle>
+            <container type="box" label="Box">6</container>
+          </did>
+        </c02>
       </c01>
     </dsc>
   </archdesc>
