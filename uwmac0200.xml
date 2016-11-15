@@ -23,8 +23,7 @@
           <addressline>Archives Department</addressline>
           <addressline>P.O. Box 604</addressline>
           <addressline>Milwaukee, Wisconsin 53201-0604</addressline>
-          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr
-              href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
+          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
         </address>
         <date encodinganalog="260$c" type="publication" normal="2008">Copyright &#169; 2008
           University of Wisconsin Board of Regents</date>
@@ -36,6 +35,13 @@
           langcode="eng" scriptcode="Latn">English. </language></langusage>
     </profiledesc>
     <revisiondesc>
+      <change encodinganalog="583">
+        <date normal="2016-11-14">November 14, 2016</date>
+        <item>Ashlie Biddle updated the finding aid to reflect the addition of accession 2015-045 to
+          the main collection. Changes were made to extent, arrangement, processinfo, Preservation
+          Information, phystech, and the contents list. Series 4 was also removed from the finding
+          aid in favor of including the electronic folders in series 1 and 3. </item>
+      </change>
       <change encodinganalog="583">
         <date normal="2016-05-25">May 25, 2016</date>
         <item>Ashlie Biddle added accession 2015-045 to the finding aid, updating the contents list,
@@ -82,7 +88,7 @@
     <did>
       <physloc type="locationcode" audience="internal">wimiugma</physloc>
       <unittitle encodinganalog="245$a">UW-Milwaukee University Communications &amp; Media Relations
-        Photographs, <unitdate type="inclusive" encodinganalog="245$f" normal="1900/2011">circa
+        Photographs, <unitdate type="inclusive" encodinganalog="245$f" normal="1900/2014">circa
           1900-2014</unitdate></unittitle>
       <origination label="Creator">
         <corpname encodinganalog="110">University of Wisconsin-Milwaukee. University Communications
@@ -90,13 +96,10 @@
       </origination>
       <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
         >UWM Archival Collection 200</unitid>
-      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
-        >Accession 2015-045</unitid>
       <physdesc label="Quantity">
-        <extent encodinganalog="300">6.2 cubic ft. (7 boxes)</extent>
+        <extent encodinganalog="300">6.4 cubic ft. (8 boxes)</extent>
         <extent encodinganalog="300">65 safety film negatives</extent>
-        <extent encodinganalog="300">1,368 digital files (5.9 GB)</extent>
-        <extent encodinganalog="300">plus additions of .4 cubic ft. (1 box) and digital files (approx. 350 CD-ROMs)</extent>
+        <extent encodinganalog="300">7,597 digital files (40.7 GB)</extent>
       </physdesc>
       <repository encodinganalog="852">
         <extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
@@ -105,11 +108,11 @@
           <corpname>University of Wisconsin-Milwaukee Libraries, Archives Department</corpname>
         </extref>
       </repository>
-      <abstract encodinganalog="520">Approximately 12,000 photographic prints, negatives, slides,
-        and digital images pertaining to the activities of the University of Wisconsin-Milwaukee
-        (UWM) and its predecessors compiled or created by the office of University Communications
-        &amp; Media Relations. The photographs were created primarily to illustrate the publications
-        of University Communications &amp; Media Relations dating from 1989 to 2011. The collection
+      <abstract encodinganalog="520">Photographic prints, negatives, slides, and digital images
+        pertaining to the activities of the University of Wisconsin-Milwaukee (UWM) and its
+        predecessors compiled or created by the office of University Communications &amp; Media
+        Relations. The photographs were created primarily to illustrate the publications of
+        University Communications &amp; Media Relations dating from 1989 to 2014. The collection
         includes photographs of prominent visitors to campus; accomplished faculty members,
         students, and alumni; student activities, including the arts, athletic events, and
         commencement ceremonies; and activities of senior officials from the UWM administration. The
@@ -128,24 +131,24 @@
         (1987-1999), and University Communications &amp; Media Relations (2000-present). The office
         produces news articles, publications, web content and marketing materials on university
         events, people, achievements and priorities. Publications include <title render="italic">UWM
-          Report </title>(1978-present), <title render="italic">UWM Today</title> (1988-present),
-        and <title render="italic">Kenwood</title> (1983-1988).</p>
+          Report </title>(1978-2014), <title render="italic">UWM Today</title> (1988-2013), and
+          <title render="italic">Kenwood</title> (1983-1988).</p>
     </bioghist>
     <scopecontent encodinganalog="520">
       <p>The collection consists of photographic prints, negatives, slides, and digital images
         pertaining to the activities of UWM and its predecessors compiled or created by University
         Communications &amp; Media Relations. The majority of the photographs were taken during the
         daily activities of publishing the <title render="italic">UWM Report</title> and <title
-          render="italic">UWM Today</title> (the magazine of the UWM Alumni Association). The
-        photographs primarily provide a chronological record of the university and the greater
-        Milwaukee community between 1987 and 1986. Some of the photographs in the collection were
-        compiled between circa 1900 and 1986, but appear to have been used for features in the
-        publications produced during the bulk date period.</p>
+          render="italic">UWM Today</title> (the magazine of the UWM Alumni Association, renamed
+          <title>UWM Alumni</title> in 2013). The photographs primarily provide a chronological
+        record of the university and the greater Milwaukee community between 1987 and 1986. Some of
+        the photographs in the collection were compiled between circa 1900 and 1986, but appear to
+        have been used for features in the publications produced during the bulk date period.</p>
       <p>The collection documents university communications regarding such topics as UWM buildings,
         administrative changes, student activities, athletics, campus events, minority student
         groups, faculty and student research, alumni accomplishments, and the university's
         involvement in world affairs. It includes photographs of prominent visitors to campus from
-        2000 to 2006, including politicians, academics, and authors; photographs of campus
+        2000 to 2014, including politicians, academics, and authors; photographs of campus
         buildings; portraits of accomplished faculty members, students, and alumni; snapshots of
         daily life and student activities on campus, including the arts, athletic events, and
         commencement ceremonies; and photographs of activities of senior officials from the UWM
@@ -159,15 +162,15 @@
       <list type="ordered" numeration="arabic">
         <item>
           <ref target="series1" show="replace" actuate="onrequest">Publication Files,
-            1987-2009</ref>
+            1987-2014</ref>
           <list type="ordered" numeration="upperalpha">
             <item>
               <ref target="subseries1a" show="replace" actuate="onrequest">UWM Report/UWM Today
-                Photos, 1993-2002</ref>
+                Photos, 1989-2014</ref>
             </item>
             <item>
               <ref target="subseries1b" show="replace" actuate="onrequest">Other Publications,
-                1993-2009</ref>
+                1987-2009</ref>
             </item>
           </list>
         </item>
@@ -176,17 +179,10 @@
         </item>
         <item>
           <ref target="series3" show="replace" actuate="onrequest">Subject Files, circa
-            1900-2009</ref>
-        </item>
-        <item>
-          <ref target="series4" show="replace" actuate="onrequest">Digital Images, 2001-2010</ref>
-        </item>
-        <item>
-          <ref target="acc2015-045" show="replace" actuate="onrequest">Accession 2015-045: Prints
-            and Publications, 1982-2014</ref>
+            1900-2011</ref>
         </item>
       </list>
-      <p>The files in series 1, 3, and 4 are organized alphabetically by folder heading within each
+      <p>The files in series 1 and 3 are organized alphabetically by folder heading within each
         series. Files in series 2 are organized approximately reverse-chronologically by date of
         event.</p>
     </arrangement>
@@ -233,7 +229,7 @@
       <acqinfo encodinganalog="541">
         <p>University Communications &amp; Media Relations transferred the collection (accession
           2006-069) in June 2006. University Communications donated additional materials in August
-          2014 (accession 2014-028).</p>
+          2014 (accession 2014-028) and May 2016 (accession 2015-045).</p>
       </acqinfo>
       <processinfo encodinganalog="583">
         <p>Michelle Caswell processed the collection at the Archives from January through April 2008
@@ -241,6 +237,8 @@
         <p>In January 2012, Bob Jaeger removed 65 safety film negatives and placed them with other
           safety film negatives.</p>
         <p>In August 2015, Ashlie Biddle processed accession 2014-028 (Brad Houston supervised).</p>
+        <p>In November 2016, Ashlie Biddle processed accession 2015-045 (Brad Houston
+          supervised).</p>
       </processinfo>
       <processinfo audience="internal">
         <head>Preservation Information</head>
@@ -254,17 +252,25 @@
           word processing files). A number of InDesign files were not added to the active collection
           but were preserved on network storage in the event that the archives are able to convert
           them at some later date. </p>
+        <p>During processing of accession 2015-045, digital files originally received on CDs were
+          copied to network storage and reformatted to various preservation formats. Access copies
+          in .jpg format were also copied to network storage. The original CDs were kept as back-up
+          copies.</p>
       </processinfo>
       <phystech audience="internal" encodinganalog="538">
-        <p>As of September 24, 2015, all electronic files were accessible on a Intel Core i5-4570
-          CPU (3.20 GHz, 4 GB RAM) running Windows XP Professional Version 2002, with Service Pack
-          3. Windows Picture and Fax Viewer was used to access the files.</p>
+        <p>As of November 15, 2016, all electronic files were accessible on a Intel Core i5-4570 CPU
+          (3.20 GHz, 4 GB RAM) running Windows 7 Enterprise, with Service Pack 1. Windows Picture
+          and Fax Viewer and Adobe Acrobat were used to access the files.</p>
         <p>The collection includes records in the following file formats:</p>
         <list type="marked">
           <item>Tagged Image File Format [.tif]</item>
           <item>JPEG Interchange File Format [.jpg]</item>
           <item>Portable Document Format [.pdf]</item>
+          <item>Portable Network Graphics [.png]</item>
+          <item>Windows Bitmap [.bmp]</item>
+          <item>Graphics Interchange Format [.gif]</item>
           <item>Adobe Encapsulated PostScript [.eps]</item>
+          <item>Adobe Illustrator [.ai]</item>
           <item>Microsoft Word Document 97-2003 [.doc]</item>
         </list>
       </phystech>
@@ -275,30 +281,35 @@
         <did>
           <unitid>UWM Archival Collection 200</unitid>
           <unittitle>Records, <unitdate type="inclusive" normal="1900/2011">circa
-              1900-2011</unitdate></unittitle>
+              1900-2014</unitdate></unittitle>
           <physdesc>
-            <extent>6.2 cubic ft. (7 boxes)</extent>
+            <extent>6.4 cubic ft. (8 boxes)</extent>
             <extent>65 safety negatives</extent>
-            <extent>1,368 digital files (5.9 GB)</extent>
+            <extent>7,597 digital files (40.7 GB)</extent>
           </physdesc>
         </did>
         <c02 id="series1" level="series">
           <did>
-            <unittitle>1. Publications, <unitdate>1987-2009</unitdate></unittitle>
+            <unittitle>1. Publications, <unitdate>1987-2014</unitdate></unittitle>
           </did>
           <scopecontent>
             <p>Most of the photographs in this series were taken during the daily activities of
               publishing the <title render="italic">UWM Report</title> and <title render="italic"
-                >UWM Today</title> from 1989 to 2002. Also present are photographs from other
-              university publications, such as the <title render="italic">View Book</title>, <title
-                render="italic">Kenwood</title>, the UWM portion of <title render="italic">The
-                University of Wisconsin System Introduction</title>, <title render="italic">Panther
-                Family News</title>, <title render="italic"> Neighbor Notes</title>, Fact Card, and
-              a variety of brochures.</p>
+                >UWM Today</title> from 1989 to 2014. Photographs of interest from both the Report
+              and Today include presidential candidates George W. Bush (2002) and John Kerry (2004),
+              the Rube Golderberg Contest from the summer of 2002, Commencement photos from
+              2003-2006, Pantherfest, UWM Alumni Association event photos, Panther Prowl, and many
+              UWM sports photographs including the men's basketball Sweet Sixteen trip (2005) and
+              the Horizon League Tournament.</p>
+            <p>Also present are photographs from other university publications, such as the <title
+                render="italic">View Book</title>, <title render="italic">Kenwood</title>, the UWM
+              portion of <title render="italic">The University of Wisconsin System
+                Introduction</title>, <title render="italic">Panther Family News</title>, <title
+                render="italic"> Neighbor Notes</title>, Fact Card, and a variety of brochures.</p>
           </scopecontent>
           <c03 id="subseries1a" level="subseries">
             <did>
-              <unittitle>A. UWM Report/UWM Today Photos, <unitdate>1993-2002</unitdate></unittitle>
+              <unittitle>A. UWM Report/UWM Today Photos, <unitdate>1989-2014</unitdate></unittitle>
             </did>
             <c04>
               <did>
@@ -322,6 +333,23 @@
                   <container type="folder" label="Folder">1-48</container>
                 </did>
               </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate>2002-2003</unitdate>
+                  </unittitle>
+                  <container type="box" label="Box">8</container>
+                  <container type="folder" label="Folder">5-7</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate>2002-2014</unitdate>
+                  </unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                </did>
+              </c05>
             </c04>
             <c04>
               <did>
@@ -336,35 +364,46 @@
                   <container type="folder" label="Folder">1-33</container>
                 </did>
               </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate>2001-2009</unitdate>
+                  </unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate>2003-2004</unitdate>
+                  </unittitle>
+                  <container type="box" label="Box">8</container>
+                  <container type="folder" label="Folder">8-11</container>
+                </did>
+              </c05>
             </c04>
           </c03>
           <c03 id="subseries1b" level="subseries">
             <did>
-              <unittitle>B. Other Publications, <unitdate>1993-2009</unitdate></unittitle>
+              <unittitle>B. Other Publications, <unitdate>1987-2009</unitdate></unittitle>
             </did>
             <c04>
               <did>
-                <unittitle>Building Brochures</unittitle>
+                <unittitle>Brochures</unittitle>
               </did>
               <c05>
                 <did>
                   <unittitle>
-                    <unitdate>1993-1999</unitdate>
+                    <unitdate>1993-1999</unitdate>, <unitdate>2000</unitdate>
                   </unittitle>
                   <container type="box" label="Box">4</container>
-                  <container type="folder" label="Folder">1</container>
+                  <container type="folder" label="Folder">1-2</container>
                 </did>
               </c05>
               <c05>
-                <did>
-                  <unittitle>
-                    <unitdate>2000</unitdate>
-                  </unittitle>
-                  <container type="box" label="Box">4</container>
-                  <container type="folder" label="Folder">2</container>
-                </did>
+                <did><unittitle><unitdate>2006</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"></container></did>
               </c05>
-
             </c04>
             <c04>
               <did>
@@ -374,13 +413,17 @@
                 <container type="folder" label="Folder">3</container>
               </did>
             </c04>
-            <c04>
+           <c04><did><unittitle>Fact Card</unittitle></did> <c05>
               <did>
-                <unittitle>Fact Card, <unitdate>2000-2006</unitdate></unittitle>
+                <unittitle><unitdate>2000-2006</unitdate></unittitle>
                 <container type="box" label="Box">7</container>
                 <container type="folder" label="Folder">4</container>
               </did>
-            </c04>
+            </c05>
+           <c05>
+             <did><unittitle><unitdate>2005</unitdate></unittitle>
+             <container type="electronic" label="Electronic Folder"></container></did>
+           </c05></c04>
             <c04>
               <did>
                 <unittitle><title render="italic">Kenwood</title> Photographs,
@@ -391,11 +434,23 @@
             </c04>
             <c04>
               <did>
-                <unittitle><title render="italic">Neighbor Notes</title>,
-                    <unitdate>2000-2008</unitdate></unittitle>
-                <container type="box" label="Box">7</container>
-                <container type="folder" label="Folder">6</container>
+                <unittitle><title render="italic">Neighbor Notes</title></unittitle>
               </did>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate>2000-2008</unitdate></unittitle>
+                  <container type="box" label="Box">7</container>
+                  <container type="folder" label="Folder">6</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate>2002-2008</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                </did>
+              </c05>
             </c04>
             <c04>
               <did>
@@ -406,11 +461,22 @@
             </c04>
             <c04>
               <did>
-                <unittitle><title render="italic">Panther Family News</title>,
-                    <unitdate>2004-2009</unitdate></unittitle>
-                <container type="box" label="Box">7</container>
-                <container type="folder" label="Folder">7</container>
+                <unittitle><title render="italic">Panther Family News</title></unittitle>
               </did>
+              <c05>
+                <did>
+                  <unittitle><unitdate>2004-2008</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate>2004-2009</unitdate></unittitle>
+                  <container type="box" label="Box">7</container>
+                  <container type="folder" label="Folder">7</container>
+                </did>
+              </c05>
             </c04>
             <c04>
               <did>
@@ -442,6 +508,13 @@
                   <container type="folder" label="Folder">8</container>
                 </did>
               </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate>2009</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                </did>
+              </c05>
             </c04>
           </c03>
         </c02>
@@ -461,8 +534,7 @@
           </scopecontent>
           <c03>
             <did>
-              <unittitle>Chancellor Michael R. Lovell Holiday Card,
-                <unitdate>2011</unitdate></unittitle>
+              <unittitle>Chancellor Lovell Holiday Card, <unitdate>2011</unitdate></unittitle>
               <container type="box" label="Box">7</container>
               <container type="folder" label="Folder">1</container>
             </did>
@@ -823,10 +895,10 @@
         </c02>
         <c02 id="series3" level="series">
           <did>
-            <unittitle>3. Subject Files, <unitdate>circa 1900-2009</unitdate></unittitle>
+            <unittitle>3. Subject Files, <unitdate>circa 1900-2011</unitdate></unittitle>
           </did>
           <scopecontent>
-            <p>Series 3 covers a variety of topics relating to campus life from circa 1900 to 2009.
+            <p>Series 3 covers a variety of topics relating to campus life from circa 1900 to 2011.
               Highlights of the series include photographs of historic theaters in the Milwaukee
               area, UWM's involvement with the early years of the Peace Corps, the launch of the
               Milwaukee Idea initiative in 1998, and campus aerial shots, 1989-1998. The series also
@@ -834,8 +906,26 @@
               School in the "Old Main" building (now Mitchell Hall), to the construction of new
               administrative, classroom, library, athletic, and arts buildings during the 1960s and
               1970s, through the dedication of the Zelazo Center for the Performing Arts in
-              2002.</p>
+              2002.Images include those of prominent political figures who visited campus, including
+              George W. Bush, and 2004 Democratic primary presidential hopefuls Dennis Kucinich and
+              Howard Dean. Also included are photographs of commencement from 2004 to 20011,
+              American Indian Awareness Days 2004, Pantherfest from 2003 to 2005, UWM events at
+              Miller Park, and some men's and women's basketball games from 2003 to 2006.</p>
           </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Activities, <unitdate>2004 June</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Aerial Photos, <unitdate>2001</unitdate>,<unitdate>2006</unitdate>, and
+                  <unitdate>2008</unitdate></unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="folder" label="Folder">1-3</container>
+            </did>
+          </c03>
           <c03>
             <did>
               <unittitle>AIM Meetings, <unitdate>2001</unitdate></unittitle>
@@ -848,6 +938,24 @@
               <unittitle>Albert Hall, <unitdate>undated</unitdate></unittitle>
               <container type="box" label="Box">5</container>
               <container type="folder" label="Folder">2</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Alumni Association Photos, <unitdate>2005</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>American Indian Awareness, <unitdate>2004 April</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Art Gallery Images, <unitdate>2008</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
             </did>
           </c03>
           <c03>
@@ -930,9 +1038,21 @@
           </c03>
           <c03>
             <did>
+              <unittitle>Beasties at Miller Park, <unitdate>circa 2004</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
               <unittitle>Black and Gold Day, <unitdate>undated</unitdate></unittitle>
               <container type="box" label="Box">5</container>
               <container type="folder" label="Folder">11</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Block Party, <unitdate>2002</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
             </did>
           </c03>
           <c03>
@@ -958,6 +1078,12 @@
           </c03>
           <c03>
             <did>
+              <unittitle>Bush, George W., <unitdate>2002</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
               <unittitle>Business and Industry Fair, <unitdate>1965-1966</unitdate></unittitle>
               <container type="box" label="Box">5</container>
               <container type="folder" label="Folder">15</container>
@@ -974,6 +1100,12 @@
                 </unittitle>
                 <container type="box" label="Box">5</container>
                 <container type="folder" label="Folder">16</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><unitdate>undated</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
               </did>
             </c04>
           </c03>
@@ -1023,7 +1155,6 @@
               </did>
             </c04>
           </c03>
-
           <c03>
             <did>
               <unittitle>Campus Elementary School, <unitdate>undated</unitdate></unittitle>
@@ -1093,6 +1224,12 @@
           </c03>
           <c03>
             <did>
+              <unittitle>Career Fair, <unitdate>2002</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
               <unittitle>Celebrities, <unitdate>2000-2004</unitdate></unittitle>
               <container type="box" label="Box">5</container>
               <container type="folder" label="Folder">36</container>
@@ -1124,6 +1261,12 @@
               <unittitle>Class Reunions, <unitdate>1965</unitdate></unittitle>
               <container type="box" label="Box">5</container>
               <container type="folder" label="Folder">40</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Clinton-Rose Senior Center Photos, <unitdate>2004</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
             </did>
           </c03>
           <c03>
@@ -1166,6 +1309,14 @@
                 <container type="folder" label="Folder">44</container>
               </did>
             </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>2004-2006</unitdate>, <unitdate>2011</unitdate>
+                </unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+              </did>
+            </c04>
           </c03>
           <c03>
             <did>
@@ -1183,6 +1334,12 @@
           </c03>
           <c03>
             <did>
+              <unittitle>Davida Icons, <unitdate>2004</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
               <unittitle>Department of Theater Arts, <unitdate>1966-1968</unitdate></unittitle>
               <container type="box" label="Box">5</container>
               <container type="folder" label="Folder">47</container>
@@ -1193,6 +1350,12 @@
               <unittitle>Displays, <unitdate>2003-2009</unitdate></unittitle>
               <container type="box" label="Box">7</container>
               <container type="folder" label="Folder">3</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Distinguished Lecture Series, <unitdate>2004</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
             </did>
           </c03>
           <c03>
@@ -1225,6 +1388,12 @@
           </c03>
           <c03>
             <did>
+              <unittitle>Extra Profile Photos, <unitdate>2003</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
               <unittitle>Faculty, <unitdate>circa 1920s-1990s</unitdate></unittitle>
               <container type="box" label="Box">5</container>
               <container type="folder" label="Folder">52</container>
@@ -1232,9 +1401,28 @@
           </c03>
           <c03>
             <did>
+              <unittitle>Freshwater Research Brochure, <unitdate>2007</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Girls Basketball League Quarterfinals Photos,
+                <unitdate>2005</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
               <unittitle>Harnischfeger Home, <unitdate>undated</unitdate></unittitle>
               <container type="box" label="Box">6</container>
               <container type="folder" label="Folder">1</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Hartford School, <unitdate>2008</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
             </did>
           </c03>
           <c03>
@@ -1253,6 +1441,23 @@
           </c03>
           <c03>
             <did>
+              <unittitle>Horizon League</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle><unitdate>2003</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Tournament Crowd Photos, <unitdate>2011</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
               <unittitle>IBM Lectern, <unitdate>undated</unitdate></unittitle>
               <container type="box" label="Box">6</container>
               <container type="folder" label="Folder">4</container>
@@ -1263,6 +1468,13 @@
               <unittitle>International Students, <unitdate>1966</unitdate></unittitle>
               <container type="box" label="Box">6</container>
               <container type="folder" label="Folder">5</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Keodouangnsy Trip to Thailand and Laos Photos,
+                <unitdate>2004</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
             </did>
           </c03>
           <c03>
@@ -1281,12 +1493,29 @@
           </c03>
           <c03>
             <did>
+              <unittitle>LearnMore, <unitdate>2003</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
               <unittitle>License Plate Poster, <unitdate>2009</unitdate></unittitle>
               <container type="box" label="Box">7</container>
               <container type="folder" label="Folder">5</container>
             </did>
           </c03>
-
+          <c03>
+            <did>
+              <unittitle>March Madness, <unitdate>2006</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Miller Park, <unitdate>2005-2010</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
           <c03>
             <did>
               <unittitle>Milwaukee</unittitle>
@@ -1338,6 +1567,12 @@
           </c03>
           <c03>
             <did>
+              <unittitle>Milwaukee Night Sky, <unitdate>2006</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
               <unittitle>Milwaukee Partnership Academy, <unitdate>undated</unitdate></unittitle>
               <container type="box" label="Box">6</container>
               <container type="folder" label="Folder">13</container>
@@ -1366,12 +1601,19 @@
               <container type="box" label="35 mm Safety Film Box">1</container>
             </did>
           </c03>
-          <c03>
+          <c03><did><unittitle>Miscellaneous</unittitle></did><c04>
             <did>
-              <unittitle>Miscellaneous, <unitdate>1896-2005</unitdate></unittitle>
+              <unittitle><unitdate>1896-2005</unitdate></unittitle>
               <container type="box" label="Box">6</container>
               <container type="folder" label="Folder">15</container>
             </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle><unitdate>2000-2005</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c04>
           </c03>
           <c03>
             <did>
@@ -1396,6 +1638,24 @@
           </c03>
           <c03>
             <did>
+              <unittitle>NCAA</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Men, <unitdate>2005-2006</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Women, <unitdate>2006</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+              </did>
+            </c04>
+          </c03>
+
+          <c03>
+            <did>
               <unittitle>Oceanography, <unitdate>undated</unitdate></unittitle>
               <container type="box" label="Box">6</container>
               <container type="folder" label="Folder">19</container>
@@ -1403,16 +1663,49 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Pantherfest, <unitdate>2002-2005</unitdate></unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="folder" label="Folder">20</container>
+              <unittitle>Odyssey, <unitdate>undated</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
             </did>
+          </c03>
+
+          <c03>
+            <did>
+              <unittitle>Pantherfest</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unitdate>2002-2005</unitdate>
+                <container type="box" label="Box">6</container>
+                <container type="folder" label="Folder">20</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>2003-2005</unitdate>
+                </unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+              </did>
+            </c04>
           </c03>
           <c03>
             <did>
               <unittitle>Peace Corps, <unitdate>1963-1966</unitdate></unittitle>
               <container type="box" label="Box">6</container>
               <container type="folder" label="Folder">21</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Photo Archive, <unitdate>1982-2000</unitdate></unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="folder" label="Folder">4</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Plenary, <unitdate>2008</unitdate>, <unitdate>2011</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
             </did>
           </c03>
           <c03>
@@ -1432,6 +1725,12 @@
           </c03>
           <c03>
             <did>
+              <unittitle>Presidential Candidates, <unitdate>2004</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
               <unittitle>Pritzlaff Home, <unitdate>undated</unitdate></unittitle>
               <container type="box" label="Box">6</container>
               <container type="folder" label="Folder">24</container>
@@ -1439,23 +1738,41 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Prominent Alumnae, <unitdate>circa 1916-1950s</unitdate></unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="folder" label="Folder">25</container>
+              <unittitle>Professor Photos, Clark &amp; Pradeep,
+                <unitdate>2006</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Prominent Alumni, <unitdate>circa 1961-1990s</unitdate></unittitle>
+              <unittitle>Prominent Alumni, <unitdate>circa 1916-1990s</unitdate></unittitle>
               <container type="box" label="Box">6</container>
-              <container type="folder" label="Folder">26-27</container>
+              <container type="folder" label="Folder">25-27</container>
             </did>
           </c03>
-          <c03>
+                   <c03>
             <did>
               <unittitle>Prominent Non-Alumni, <unitdate>circa 1980s-1990s</unitdate></unittitle>
               <container type="box" label="Box">6</container>
               <container type="folder" label="Folder">28</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>River &amp; Fountain Images, <unitdate>2010</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Roberto Hernandez Center Photos, <unitdate>2007</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Rube Goldberg Contest, <unitdate>2002</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
             </did>
           </c03>
           <c03>
@@ -1523,6 +1840,24 @@
           </c03>
           <c03>
             <did>
+              <unittitle>Students on Campus, <unitdate>2007</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Sturgeon, <unitdate>undated</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Summer Photos, <unitdate>2010</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
               <unittitle>Temple Emanu-El, <unitdate>1956-2001</unitdate></unittitle>
               <container type="box" label="Box">6</container>
               <container type="folder" label="Folder">36</container>
@@ -1533,6 +1868,36 @@
               <unittitle>Tree Lighting Ceremony, <unitdate>circa 1960s</unitdate></unittitle>
               <container type="box" label="Box">6</container>
               <container type="folder" label="Folder">37</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Travel McKinley, <unitdate>undated</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>UWM Adult Guidebook Photos, <unitdate>2010</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>UWM Bike Photos, <unitdate>2003</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>UWM Highlights, <unitdate>2005</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>UWM v. Butler, <unitdate>2003</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
             </did>
           </c03>
           <c03>
@@ -1559,16 +1924,40 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Vevier with African Teachers, <unitdate>undated</unitdate></unittitle>
+              <unittitle>Vevier (George) with African Teachers,
+                <unitdate>undated</unitdate></unittitle>
               <container type="box" label="Box">6</container>
               <container type="folder" label="Folder">43</container>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Welcome Week, <unitdate>2001-2005</unitdate></unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="folder" label="Folder">44</container>
+              <unittitle>Viennese Ball, <unitdate>2004</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Welcome Week</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle><unitdate>2001-2005</unitdate></unittitle>
+                <container type="box" label="Box">6</container>
+                <container type="folder" label="Folder">44</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><unitdate>2005</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Williams, Ruth, <unitdate>undated</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
             </did>
           </c03>
           <c03>
@@ -1585,395 +1974,12 @@
               <container type="folder" label="Folder">46</container>
             </did>
           </c03>
-        </c02>
-        <c02 id="series4" level="series">
-          <did>
-            <unittitle>4. Digital Images, <unitdate>2001-2010</unitdate></unittitle>
-          </did>
-          <scopecontent>
-            <p>Series 4 contains digital images created during the process of producing publications
-              from 2001 to 2010. Images include those of prominent political figures who visited
-              campus, including George W. Bush, and 2004 Democratic primary presidential hopefuls
-              Dennis Kucinich and Howard Dean. Also included are photographs of commencement from
-              2004 to 2006, American Indian Awareness Days 2004, Pantherfest from 2003 to 2005, UWM
-              events at Miller Park, and some men's and women's basketball games from 2003 to
-              2006.</p>
-          </scopecontent>
-          <c03>
-            <did>
-              <unittitle>Activities, <unitdate>2004 June</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>American Indian Awareness, <unitdate>2004 April</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Art Gallery Images, <unitdate>2008</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Beasties at Miller Park, <unitdate>circa 2004</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Block Party, <unitdate>2002</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Bush, George W., <unitdate>2002</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Campus Overhead Photos, <unitdate>undated</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Career Fair, <unitdate>2002</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Commencement</unittitle>
-            </did>
-            <c04>
-              <did>
-                <unittitle>
-                  <unitdate>2004</unitdate>
-                </unittitle>
-                <container type="electronic" label="Electronic Folder"/>
-              </did>
-            </c04>
-            <c04>
-              <did>
-                <unittitle>
-                  <unitdate>2005</unitdate>
-                </unittitle>
-                <container type="electronic" label="Electronic Folder"/>
-              </did>
-            </c04>
-            <c04>
-              <did>
-                <unittitle>
-                  <unitdate>2006</unitdate>
-                </unittitle>
-                <container type="electronic" label="Electronic Folder"/>
-              </did>
-            </c04>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Distinguished Lecture Series, <unitdate>2004</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Freshwater Research Brochure, <unitdate>2007</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Hartford School, <unitdate>undated</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Horizon League, <unitdate>2003</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>LearnMore, <unitdate>2003</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>March Madness, <unitdate>2006</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Miller Park, <unitdate>2005-2010</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Milwaukee Night Sky, <unitdate>2006</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Miscellaneous, <unitdate>2000-2005</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>NCAA</unittitle>
-            </did>
-            <c04>
-              <did>
-                <unittitle>Men, <unitdate>2005</unitdate></unittitle>
-                <container type="electronic" label="Electronic Folder"/>
-              </did>
-            </c04>
-            <c04>
-              <did>
-                <unittitle>Men, <unitdate>2006</unitdate></unittitle>
-                <container type="electronic" label="Electronic Folder"/>
-              </did>
-            </c04>
-            <c04>
-              <did>
-                <unittitle>Women, <unitdate>2006</unitdate></unittitle>
-                <container type="electronic" label="Electronic Folder"/>
-              </did>
-            </c04>
-          </c03>
-          <c03>
-            <did>
-              <unittitle><title render="italic">Neighbor Notes</title>,
-                  <unitdate>2002-2008</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Odyssey, <unitdate>undated</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle><title render="italic">Panther Family News</title>,
-                  <unitdate>2004-2008</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Pantherfest</unittitle>
-            </did>
-            <c04>
-              <did>
-                <unittitle>
-                  <unitdate>2003</unitdate>
-                </unittitle>
-                <container type="electronic" label="Electronic Folder"/>
-              </did>
-            </c04>
-            <c04>
-              <did>
-                <unittitle>
-                  <unitdate>2004</unitdate>
-                </unittitle>
-                <container type="electronic" label="Electronic Folder"/>
-              </did>
-            </c04>
-            <c04>
-              <did>
-                <unittitle>
-                  <unitdate>2005</unitdate>
-                </unittitle>
-                <container type="electronic" label="Electronic Folder"/>
-              </did>
-            </c04>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Plenary, <unitdate>2008</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Presidential Candidates, <unitdate>2004</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Professor Photos, Clark &amp; Pradeep,
-                <unitdate>2006</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>River &amp; Fountain Images, <unitdate>2010</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Rube Goldberg Contest, <unitdate>2002</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Students on Campus, <unitdate>2007</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sturgeon, <unitdate>undated</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Summer Photos, <unitdate>2010</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Travel McKinley, <unitdate>undated</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>UWM Highlights, <unitdate>2005</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>
-                <title render="italic">UWM Today</title>
-              </unittitle>
-            </did>
-            <c04>
-              <did>
-                <unittitle>
-                  <unitdate>2001 Fall</unitdate>
-                </unittitle>
-                <container type="electronic" label="Electronic Folder"/>
-              </did>
-            </c04>
-            <c04>
-              <did>
-                <unittitle>
-                  <unitdate>2001 Summer</unitdate>
-                </unittitle>
-                <container type="electronic" label="Electronic Folder"/>
-              </did>
-            </c04>
-            <c04>
-              <did>
-                <unittitle>
-                  <unitdate>2001 Winter</unitdate>
-                </unittitle>
-                <container type="electronic" label="Electronic Folder"/>
-              </did>
-            </c04>
-            <c04>
-              <did>
-                <unittitle>
-                  <unitdate>2002 Fall</unitdate>
-                </unittitle>
-                <container type="electronic" label="Electronic Folder"/>
-              </did>
-            </c04>
-            <c04>
-              <did>
-                <unittitle>
-                  <unitdate>2002 Winter</unitdate>
-                </unittitle>
-                <container type="electronic" label="Electronic Folder"/>
-              </did>
-            </c04>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>UWM v. Butler, <unitdate>2003</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Viennese Ball, <unitdate>2004</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle><title render="italic">View Book</title>,
-                <unitdate>2009</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Welcome Week, <unitdate>2005</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Williams, Ruth, <unitdate>undated</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
           <c03>
             <did>
               <unittitle>Zelazo Center, <unitdate>undated</unitdate></unittitle>
               <container type="electronic" label="Electronic Folder"/>
             </did>
           </c03>
-        </c02>
-      </c01>
-      <c01 level="otherlevel" otherlevel="minimal" id="acc2015-045">
-        <did>
-          <unitid>Accession 2015-045</unitid>
-          <unittitle>Prints and Publications, <unitdate>1982-2014</unitdate></unittitle>
-          <physdesc>
-            <extent>0.4 cubic ft. (1 box)</extent>
-            <extent>Digital files (approx. 350 CD-ROMs)</extent>
-          </physdesc>
-          <abstract>Photographs used in various University Communications publications from
-            1982-2014. The vast majority of the photos are in electronic format. Of these, most are
-            form one of two publications: UWM Today and UWM Report.</abstract>
-        </did>
-        <c02>
-          <did>
-            <unittitle>Aerial Photos and Prints from Publications,
-              <unitdate>1982-2004</unitdate></unittitle>
-            <container type="box" label="Box">1</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Publications Digital Images, <unitdate>2002-2014</unitdate></unittitle>
-            <container label="Electronic Folder" type="Electronic"/>
-            <physdesc>Approximately 350 CD-ROMs</physdesc>
-          </did>
         </c02>
       </c01>
     </dsc>
