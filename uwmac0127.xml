@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="ascii" standalone="no"?>
+<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
+<!-- wiarchives version:2008-05-22 -->
+<ead id="uw-mil-uwmac0127" relatedencoding="MARC21">
+  <eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
+    dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924"
+    relatedencoding="MARC21">
+    <eadid countrycode="US" mainagencycode="wimiugma"
+      url="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0127"
+      encodinganalog="856$u">uw-mil-uwmac0127</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245$a">Finding Aid of the UW-Milwaukee Dept. of English
+          Records, 1945-2008</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="260$b">University of Wisconsin-Milwaukee Libraries, Archives
+          Department</publisher>
+        <address>
+          <addressline>University of Wisconsin-Milwaukee</addressline>
+          <addressline>UWM Libraries</addressline>
+          <addressline>Archives Department</addressline>
+          <addressline>P.O. Box 604</addressline>
+          <addressline>Milwaukee, Wisconsin 53201-0604</addressline>
+          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
+        </address>
+        <date encodinganalog="260$c" type="publication" normal="2007">Copyright &#169; 2007
+          University of Wisconsin Board of Regents</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation encodinganalog="500">Finding aid encoded by Dan Vinson</creation>
+      <langusage encodinganalog="546">Finding aid written in <language encodinganalog="041"
+          langcode="eng" scriptcode="Latn">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date normal="2013-09-26">September 26, 2013</date>
+        <item>Kimberly Johnson updated the list of department chairs.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2013-08-16">August 16, 2013</date>
+        <item>Hayley Jackson updated the finding aid, adding information about new, unprocessed
+          accessions.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="collection" relatedencoding="MARC21">
+    <did>
+      <physloc type="locationcode" audience="internal">wimiugma</physloc>
+      <unittitle encodinganalog="245$a">UW-Milwaukee Dept. of English Records, <unitdate
+          type="inclusive" encodinganalog="245$f" normal="1945/2008"
+        >1945-2008</unitdate></unittitle>
+      <origination label="Creator">
+        <corpname encodinganalog="110">University of Wisconsin-Milwaukee. Dept. of
+          English</corpname>
+      </origination>
+      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
+        >UWM Archival Collection 127</unitid>
+      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
+        >Accession 2010-037</unitid>
+      <physdesc label="Quantity">
+        <extent encodinganalog="300">4.6 cubic ft. (4 boxes)</extent>
+        <extent encodinganalog="300">plus additions of 6 cubic ft. (6 boxes)</extent>
+      </physdesc>
+      <repository encodinganalog="852">
+        <extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
+          title="University of Wisconsin-Milwaukee Logo." role="logoimage"/>
+        <extref href="http://www.uwm.edu/Libraries/arch/index.html">
+          <corpname>University of Wisconsin-Milwaukee Libraries, Archives Department</corpname>
+        </extref>
+      </repository>
+      <abstract encodinganalog="520">Collection documents much of the routine administrative
+        operations of the UW-Milwaukee Dept. of English mainly from 1959 to 1979. Included are
+        various committee files and on-campus correspondence documenting curriculum planning,
+        staffing and budgeting. Correspondence is largely on-campus. The collection contains subject
+        files dealing with the <title render="italic">Cheshire</title> literary magazine and a 1960
+        radio series entitled "The Poet Views the World." Also includes records of Project Destiny,
+        a 1960s program which introduced impoverished public school students to a university
+        setting. Also included are a series of audio reel tapes which document the Milton
+        Tercentenary Conference of 1974, held on the 300th anniversary of the poet's death to
+        commemorate his works. Pre-1956 records were created by the English Department chair of the
+        Wisconsin State College, Milwaukee, and concern the merger with the University of Wisconsin
+        Extension and routine administrative affairs.</abstract>
+      <langmaterial encodinganalog="546" label="Language">
+        <language encodinganalog="041" langcode="eng">English</language>
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="545">
+      <p>In 1927, when the Normal School became the Milwaukee State Teacher's College, English was
+        incorporated into the program leading to a four year Bachelor's of Education degree. English
+        itself was offered as a Bachelor of Arts degree when the transition into Wisconsin State
+        College occured in 1951. In 1956, following the merger of Wisconsin State College and the
+        University of Wisconsin Extension, the English Department became part of the University of
+        Wisconsin-Milwaukee College of Letters &amp; Science, where it continued as a bachelor's
+        program. In 1962, the department added two graduate degrees--either an M.A. in English or an
+        M.S. which combined English and education. Beginning in 1967, a Ph.D was also offered by the
+        department.</p>
+      <bioghist>
+        <head>Department Chairs</head>
+        <chronlist>
+          <chronitem>
+            <date>1956-1959</date>
+            <event>Max Freeman</event>
+          </chronitem>
+          <chronitem>
+            <date>1959-1961</date>
+            <event>Ralph Aderman</event>
+          </chronitem>
+          <chronitem>
+            <date>1961-1964</date>
+            <event>Edward D. Holst</event>
+          </chronitem>
+          <chronitem>
+            <date>1964-1967</date>
+            <event>Gareth W. Dunleavy</event>
+          </chronitem>
+          <chronitem>
+            <date>1967-1970</date>
+            <event>Robert K. Turner</event>
+          </chronitem>
+          <chronitem>
+            <date>1970-1973</date>
+            <event>Justin Replogle</event>
+          </chronitem>
+          <chronitem>
+            <date>1973-1976</date>
+            <event>Kathryn Whitford</event>
+          </chronitem>
+          <chronitem>
+            <date>1976-1979</date>
+            <event>Donald Emerson</event>
+          </chronitem>
+          <chronitem>
+            <date>1979-1982</date>
+            <event>Thomas Bontly</event>
+          </chronitem>
+          <chronitem>
+            <date>1982-1985</date>
+            <event>James Kuist</event>
+          </chronitem>
+          <chronitem>
+            <date>1985-1989</date>
+            <event>James Sappenfield</event>
+          </chronitem>
+          <chronitem>
+            <date>1990-1994</date>
+            <event>Jane B. Nardin</event>
+          </chronitem>
+          <chronitem>
+            <date>1994-1998</date>
+            <event>James A. Sappenfield</event>
+          </chronitem>
+          <chronitem>
+            <date>1998-2001</date>
+            <event>Michael Noonan</event>
+          </chronitem>
+          <chronitem>
+            <date>2001-2002</date>
+            <event>James A. Sappenfield</event>
+          </chronitem>
+          <chronitem>
+            <date>2002-2005</date>
+            <event>Alice Gillam</event>
+          </chronitem>
+          <chronitem>
+            <date>2005-2010</date>
+            <event>Andrew Martin</event>
+          </chronitem>
+          <chronitem>
+            <date>2010- </date>
+            <event>Liam Callanan</event>
+          </chronitem>
+        </chronlist>
+      </bioghist>
+    </bioghist>
+    <arrangement encodinganalog="351">
+      <p>This collection was received in, and is organized in, multiple parts. Additional materials
+        have not been physically or intellectually arranged and interfiled, and researchers may need
+        to consult more than one part of the collection to locate similar materials.</p>
+      <list type="simple">
+        <item>
+          <ref target="uwmac0127" show="replace" actuate="onrequest">UWM Archival Collection 127:
+            Records, 1945-1989</ref>
+        </item>
+      </list>
+      <p>The collection contains one additional accession.</p>
+      <list type="simple">
+        <item>
+          <ref target="acc2010-037" show="replace" actuate="onrequest">Accession 2010-037: Syllabi,
+            1994-2008</ref>
+        </item>
+      </list>
+      <p>The files are organized alphabetically by subject, then chronologically.</p>
+    </arrangement>
+    <prefercite encodinganalog="524">
+      <p>
+        <extref href="http://uwm.edu/libraries/archives/research/citation-guide-for-primary-sources/">Citation Guide for
+          Primary Sources</extref>
+      </p>
+    </prefercite>
+    <relatedmaterial encodinganalog="544 1">
+      <head>Related Material in the UWM Libraries</head>
+      <archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmmss0104"
+        actuate="onrequest" show="new">
+        <unittitle>Milton Society of America Records</unittitle>
+        <unitid>UWM Manuscript Collection 104</unitid>
+      </archref>
+      <archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0001"
+        actuate="onrequest" show="new">
+        <unittitle>UW-Milwaukee College of Letters &amp; Science Records</unittitle>
+        <unitid>UWM Archival Collection 1</unitid>
+      </archref>
+      <archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0022"
+        actuate="onrequest" show="new">
+        <unittitle>UW-Milwaukee Dept. of Classics Records</unittitle>
+        <unitid>UWM Archival Collection 22</unitid>
+      </archref>
+      <archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0040"
+        actuate="onrequest" show="new">
+        <unittitle>UW-Milwaukee Dept. of English and Comparative Literature Records</unittitle>
+        <unitid>UWM Archival Collection 40</unitid>
+      </archref>
+    </relatedmaterial>
+    <descgrp type="admininfo">
+      <head>Administrative/Restriction Information</head>
+      <accessrestrict encodinganalog="506">
+        <p>There are no access restrictions on the materials, and the collection is open to all
+          members of the public in accordance with state law.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>The researcher assumes full responsibility for conforming with the laws of libel,
+          privacy, and copyright which may be involved in the use of this collection (Wisconsin
+          Statutes 19.21-19.39).</p>
+      </userestrict>
+      <acqinfo encodinganalog="541">
+        <p>An unknown individual transferred the collection to the Archives prior to 1989. The
+          Department of English donated additional materials in February 2011 (accession
+          2010-037).</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+        <p>Jeremy Green processed the collection at the Archives in November 1995. Jeremy Brett
+          added a few files in January 2007. Hayley Jackson updated the finding aid to include
+          information about accession 2010-037 in August 2013.</p>
+      </processinfo>
+    </descgrp>
+    <dsc type="combined">
+      <head>Contents List</head>
+      <c01 level="otherlevel" otherlevel="processed" id="uwmac0127">
+        <did>
+          <unitid>UWM Archival Collection 127</unitid>
+          <unittitle>Records, <unitdate type="inclusive" normal="1945/1989"
+            >1945-1989</unitdate></unittitle>
+          <physdesc>
+            <extent>4.6 cubic ft. (4 boxes)</extent>
+          </physdesc>
+        </did>
+        <c02>
+          <did>
+            <unittitle>Afro-American Program, 1968</unittitle>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>American Civilization Committee, 1957-1960</unittitle>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Articulated Instructional Media Program, Brochures/Pamphlets,
+              1964-1965</unittitle>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">3</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Brochures and Information Sheets, 1962-1974</unittitle>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">4</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Cheshire Literary Magazine, 1962</unittitle>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>College Level Examination Program, 1970-1974</unittitle>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">6</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Committee on Regional Activity and Development, 1958</unittitle>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">7</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Correspondence, 1953-1974</unittitle>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">8-16</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Curriculum Committee, 1954-1969</unittitle>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">17</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Departmental Bibliographer Records</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Departmental Library Committee, 1962-1970</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">18</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Files, 1957-1976</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">19</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Library Report, 1974</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">20</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Ruth Mary Fox Fund, 1974-1977</unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">21</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Departmental By-Laws and Policies, 1968</unittitle>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">22</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Departmental Committee, 1957-1981</unittitle>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">23-33</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>English Composition Program Coordinator</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Remedial English, 1969-1970</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">1</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Testing, 1972-1974</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">2</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Writing Lab, 1971-1976</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">3</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>English Graduate Programs: 1969-1971, 1974-1977, 1979-1980</unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">4</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>English Institute, 1959-1960</unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Executive Committee, 1956-1983</unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">6-18</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Five Year Review</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>1974</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">19</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>1979-1980</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">20</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>1986</unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">21</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Freshman Course Committee, 1956-1965</unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">22-23</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Freshman English, 1956-1966</unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">24</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Freshman English News, 1981-1982</unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">25</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Graduate Faculty, 1959-1972</unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">1-7</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Graduate Policy, 1973-1984</unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">8-13</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Graduate Policy Committee Meetings, 1979-1988</unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">14-15</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Handbook, 1972-1973</unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">16</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Honors Program, 1961-1964</unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">17</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Irish Studies</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Membership List and Yeats Exhibit, 1972-1973</unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">18</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Newsletter, 1971-1978</unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">19</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Joint Control Committee, 1957-1963</unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">20</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Library Committee, 1957-1965</unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">21</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Linguistics Workshop, 1962-1963</unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">22</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Load Reduction Committee, 1973-1976</unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">23</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Meetings and Memos, 1954-1968</unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">24-26</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Memos, 1956-1983</unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">27</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Milton Tercentenary Conference, Audio, 1974</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Charles Mann</unittitle>
+              <container type="box" label="Box">5</container>
+              <container type="audio" label="Audio reel">1</container>
+              <physdesc>
+                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Gerald Stacey and Wolfgang Rudat</unittitle>
+              <container type="box" label="Box">5</container>
+              <container type="audio" label="Audio reel">2</container>
+              <physdesc>
+                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Robert T. Fallon and Mortimer Frank</unittitle>
+              <container type="box" label="Box">5</container>
+              <container type="audio" label="Audio reel">3</container>
+              <physdesc>
+                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>William A. Oram and Barry Wind</unittitle>
+              <container type="box" label="Box">5</container>
+              <container type="audio" label="Audio reel">4</container>
+              <physdesc>
+                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>James Campbell and Gert Schiff</unittitle>
+              <container type="box" label="Box">5</container>
+              <container type="audio" label="Audio reel">5</container>
+              <physdesc>
+                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Stella Revard-Baum and C.A. Patrides</unittitle>
+              <container type="box" label="Box">5</container>
+              <container type="audio" label="Audio reel">6</container>
+              <physdesc>
+                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>D.M. Harralson and R.G. Schoen</unittitle>
+              <container type="box" label="Box">5</container>
+              <container type="audio" label="Audio reel">7</container>
+              <physdesc>
+                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Richard S. Ide and James Stephens</unittitle>
+              <container type="box" label="Box">5</container>
+              <container type="audio" label="Audio reel">8</container>
+              <physdesc>
+                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>John F. Huntley and M.F. McCanles</unittitle>
+              <container type="box" label="Box">5</container>
+              <container type="audio" label="Audio reel">9</container>
+              <physdesc>
+                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>John Mulder and Roger Rollin</unittitle>
+              <container type="box" label="Box">6</container>
+              <container type="audio" label="Audio reel">10</container>
+              <physdesc>
+                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Sister Mason and James H. Sims</unittitle>
+              <container type="box" label="Box">6</container>
+              <container type="audio" label="Audio reel">11</container>
+              <physdesc>
+                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>V.R. Mollencott and John A. Via</unittitle>
+              <container type="box" label="Box">6</container>
+              <container type="audio" label="Audio reel">12</container>
+              <physdesc>
+                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>T. Kranidas and T. O'Keeffe</unittitle>
+              <container type="box" label="Box">6</container>
+              <container type="audio" label="Audio reel">13</container>
+              <physdesc>
+                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>C.J. Summers and James J. Egan</unittitle>
+              <container type="box" label="Box">6</container>
+              <container type="audio" label="Audio reel">14</container>
+              <physdesc>
+                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>M. Mikolajczak and William Hunter</unittitle>
+              <container type="box" label="Box">6</container>
+              <container type="audio" label="Audio reel">15</container>
+              <physdesc>
+                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>John Shawcross and R.F. Fleissner</unittitle>
+              <container type="box" label="Box">6</container>
+              <container type="audio" label="Audio reel">16</container>
+              <physdesc>
+                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Florence Walzl and J. Max Patrick</unittitle>
+              <container type="box" label="Box">6</container>
+              <container type="audio" label="Audio reel">17</container>
+              <physdesc>
+                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Sidney Warhaft and Ted Pebworth</unittitle>
+              <container type="box" label="Box">6</container>
+              <container type="audio" label="Audio reel">18</container>
+              <physdesc>
+                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>S.S. Stollman and R.C. Flannagan</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio reel">19</container>
+              <physdesc>
+                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>James G. Mengert and Thomas W. Hayes</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio reel">20</container>
+              <physdesc>
+                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>E.R. Gregory and Desmond Hamlet</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio reel">21</container>
+              <physdesc>
+                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Rabbi J. Goldman, and Roger H. Sundell</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio reel">22</container>
+              <physdesc>
+                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Michael Lieb Symposium [Audio reel</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio reel">23</container>
+              <physdesc>
+                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Barry Wind and Thomas Hayes</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio reel">24</container>
+              <physdesc>
+                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>E.R. Gregory and J. Max Patrick</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio reel">25</container>
+              <physdesc>
+                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>James Sims and John Shawcross</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio reel">26</container>
+              <physdesc>
+                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Roger Sundell and A. Chambers</unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="audio" label="Audio reel">27</container>
+              <physdesc>
+                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Milton Tercentenary Conference, Correspondence, 1974</unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">28</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Milton Tercentenary Conference, Participant Handouts and Bibliographies,
+              1974</unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">29</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Milton Tercentenary Conference, Programs and Event Lists, 1974</unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">30</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Milwaukee Studies in Language, 1989</unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">31</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>NDEA Institute</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Administration, Reports, 1965-1967</unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">32</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Press Releases, Clippings, 1966-1967</unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">33</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Newsletter, 1961-1974</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Planning Documents, 1983-1985</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>"Poet Views the World," English Department Radio Series, 1960</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">3</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Poetry Center Proposal, 1963-1966</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">4</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Project Destiny</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence, 1964-1969</unittitle>
+              <container type="box" label="Box">4</container>
+              <container type="folder" label="Folder">5</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Description, 1964</unittitle>
+              <container type="box" label="Box">4</container>
+              <container type="folder" label="Folder">6</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Photographs, 1966</unittitle>
+              <container type="box" label="Box">4</container>
+              <container type="folder" label="Folder">7</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Press Releases, Newsclippings, 1964-1967</unittitle>
+              <container type="box" label="Box">4</container>
+              <container type="folder" label="Folder">8</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Publicity, Pamphlets, 1964-1968</unittitle>
+              <container type="box" label="Box">4</container>
+              <container type="folder" label="Folder">9</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Reports, 1964-1967</unittitle>
+              <container type="box" label="Box">4</container>
+              <container type="folder" label="Folder">10</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Proposals, PhD and M.A. Program, 1966-1968</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">11</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Publications, English Usage Handbook, 1945-1960</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">12</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Re-evaluation Committee, 1963-1964</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">13</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title render="italic">The Research Paper</title>, 1960</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">14</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Steering Committee, 1956</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">15</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Student Teacher's Handbook, undated</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">16</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>T.A. Materials, 1983-1984</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">17</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Teaching Majors and Minors, 1961-1962</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">18</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="otherlevel" otherlevel="unprocessed" id="acc2010-037">
+        <did>
+          <unitid>Accession 2010-037</unitid>
+          <unittitle>Syllabi, <unitdate>1994-2008</unitdate></unittitle>
+          <physdesc>
+            <extent>6 cubic ft. (6 boxes)</extent>
+          </physdesc>
+          <abstract>Additions of syllabi files dating from 1994 to 2008.</abstract>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
