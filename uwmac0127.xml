@@ -35,6 +35,12 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date normal="2016-11-15">November 15, 2016</date>
+        <item>Ashlie Biddle and Brad Houston updated the finding aid to reflect minimal processing
+          of accession 2010-037. Changes were made to bioghist, scopecontent, relatedmaterial,
+          acqinfo, processinfo, and the contents list.</item>
+      </change>
+      <change>
         <date normal="2013-09-26">September 26, 2013</date>
         <item>Kimberly Johnson updated the list of department chairs.</item>
       </change>
@@ -73,15 +79,10 @@
       <abstract encodinganalog="520">Collection documents much of the routine administrative
         operations of the UW-Milwaukee Dept. of English mainly from 1959 to 1979. Included are
         various committee files and on-campus correspondence documenting curriculum planning,
-        staffing and budgeting. Correspondence is largely on-campus. The collection contains subject
-        files dealing with the <title render="italic">Cheshire</title> literary magazine and a 1960
-        radio series entitled "The Poet Views the World." Also includes records of Project Destiny,
-        a 1960s program which introduced impoverished public school students to a university
-        setting. Also included are a series of audio reel tapes which document the Milton
-        Tercentenary Conference of 1974, held on the 300th anniversary of the poet's death to
-        commemorate his works. Pre-1956 records were created by the English Department chair of the
-        Wisconsin State College, Milwaukee, and concern the merger with the University of Wisconsin
-        Extension and routine administrative affairs.</abstract>
+        staffing and budgeting. Correspondence is largely on-campus. Pre-1956 records were created
+        by the English Department chair of the Wisconsin State College, Milwaukee, and concern the
+        merger with the University of Wisconsin Extension and routine administrative
+        affairs.</abstract>
       <langmaterial encodinganalog="546" label="Language">
         <language encodinganalog="041" langcode="eng">English</language>
       </langmaterial>
@@ -168,12 +169,27 @@
             <event>Andrew Martin</event>
           </chronitem>
           <chronitem>
-            <date>2010- </date>
+            <date>2010-2014</date>
             <event>Liam Callanan</event>
+          </chronitem>
+          <chronitem>
+            <date>2014-</date>
+            <event>Mark Netzloff</event>
           </chronitem>
         </chronlist>
       </bioghist>
     </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>This collection contains mostly documents from various programs within the department as
+        well as meetings minutes from the executive committee, departmental committee, and some
+        subcommittees. Of note are the records on the Milton Tercentenary Conference, held on the
+        300th anniversary of the poet's death to commemorate his works, which contain 27 audio
+        reels, correspondence, and conference paraphenalia. The collection also contains subject
+        files dealing with the <title render="italic">Cheshire</title> literary magazine, as well as
+        files related to a 1960 radio series entitled "The Poet Views the World." Also included are
+        records of Project Destiny, a 1960s program which introduced impoverished public school
+        students to a university setting.</p>
+    </scopecontent>
     <arrangement encodinganalog="351">
       <p>This collection was received in, and is organized in, multiple parts. Additional materials
         have not been physically or intellectually arranged and interfiled, and researchers may need
@@ -195,8 +211,9 @@
     </arrangement>
     <prefercite encodinganalog="524">
       <p>
-        <extref href="http://uwm.edu/libraries/archives/research/citation-guide-for-primary-sources/">Citation Guide for
-          Primary Sources</extref>
+        <extref
+          href="http://uwm.edu/libraries/archives/research/citation-guide-for-primary-sources/"
+          >Citation Guide for Primary Sources</extref>
       </p>
     </prefercite>
     <relatedmaterial encodinganalog="544 1">
@@ -221,6 +238,16 @@
         <unittitle>UW-Milwaukee Dept. of English and Comparative Literature Records</unittitle>
         <unitid>UWM Archival Collection 40</unitid>
       </archref>
+      <archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0225"
+        actuate="onrequest" show="new">
+        <unittitle>Cream City Review Records</unittitle>
+        <unitid>UWM Archival Collection 225</unitid>
+      </archref>
+      <archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmmss300"
+        actuate="onrequest" show="new">
+        <unittitle>James Liddy Papers</unittitle>
+        <unitid>UWM Manuscript Collection 300</unitid>
+      </archref>
     </relatedmaterial>
     <descgrp type="admininfo">
       <head>Administrative/Restriction Information</head>
@@ -241,7 +268,8 @@
       <processinfo encodinganalog="583">
         <p>Jeremy Green processed the collection at the Archives in November 1995. Jeremy Brett
           added a few files in January 2007. Hayley Jackson updated the finding aid to include
-          information about accession 2010-037 in August 2013.</p>
+          information about accession 2010-037 in August 2013. Ashlie Biddle performed minimal
+          processing of accession 2010-037 in November 2016.</p>
       </processinfo>
     </descgrp>
     <dsc type="combined">
@@ -257,14 +285,14 @@
         </did>
         <c02>
           <did>
-            <unittitle>Afro-American Program, 1968</unittitle>
+            <unittitle>Afro-American Program, <unitdate>1968</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">1</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>American Civilization Committee, 1957-1960</unittitle>
+            <unittitle>American Civilization Committee, <unitdate>1957-1960</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">2</container>
           </did>
@@ -279,42 +307,43 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Brochures and Information Sheets, 1962-1974</unittitle>
+            <unittitle>Brochures and Information Sheets, <unitdate>1962-1974</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">4</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Cheshire Literary Magazine, 1962</unittitle>
+            <unittitle>Cheshire Literary Magazine, <unitdate>1962</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">5</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>College Level Examination Program, 1970-1974</unittitle>
+            <unittitle>College Level Examination Program, <unitdate>1970-1974</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">6</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Committee on Regional Activity and Development, 1958</unittitle>
+            <unittitle>Committee on Regional Activity and Development,
+              <unitdate>1958</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">7</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Correspondence, 1953-1974</unittitle>
+            <unittitle>Correspondence, <unitdate>1953-1974</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">8-16</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Curriculum Committee, 1954-1969</unittitle>
+            <unittitle>Curriculum Committee, <unitdate>1954-1969</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">17</container>
           </did>
@@ -325,28 +354,28 @@
           </did>
           <c03>
             <did>
-              <unittitle>Departmental Library Committee, 1962-1970</unittitle>
+              <unittitle>Departmental Library Committee, <unitdate>1962-1970</unitdate></unittitle>
               <container type="box" label="Box">1</container>
               <container type="folder" label="Folder">18</container>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Files, 1957-1976</unittitle>
+              <unittitle>Files, <unitdate>1957-1976</unitdate></unittitle>
               <container type="box" label="Box">1</container>
               <container type="folder" label="Folder">19</container>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Library Report, 1974</unittitle>
+              <unittitle>Library Report, <unitdate>1974</unitdate></unittitle>
               <container type="box" label="Box">1</container>
               <container type="folder" label="Folder">20</container>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Ruth Mary Fox Fund, 1974-1977</unittitle>
+              <unittitle>Ruth Mary Fox Fund, <unitdate>1974-1977</unitdate></unittitle>
               <container type="box" label="Box">1</container>
               <container type="folder" label="Folder">21</container>
             </did>
@@ -354,14 +383,14 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Departmental By-Laws and Policies, 1968</unittitle>
+            <unittitle>Departmental By-Laws and Policies, <unitdate>1968</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">22</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Departmental Committee, 1957-1981</unittitle>
+            <unittitle>Departmental Committee, <unitdate>1957-1981</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">23-33</container>
           </did>
@@ -372,21 +401,21 @@
           </did>
           <c03>
             <did>
-              <unittitle>Remedial English, 1969-1970</unittitle>
+              <unittitle>Remedial English, <unitdate>1969-1970</unitdate></unittitle>
               <container type="box" label="Box">2</container>
               <container type="folder" label="Folder">1</container>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Testing, 1972-1974</unittitle>
+              <unittitle>Testing, <unitdate>1972-1974</unitdate></unittitle>
               <container type="box" label="Box">2</container>
               <container type="folder" label="Folder">2</container>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Writing Lab, 1971-1976</unittitle>
+              <unittitle>Writing Lab, <unitdate>1971-1976</unitdate></unittitle>
               <container type="box" label="Box">2</container>
               <container type="folder" label="Folder">3</container>
             </did>
@@ -394,21 +423,22 @@
         </c02>
         <c02>
           <did>
-            <unittitle>English Graduate Programs: 1969-1971, 1974-1977, 1979-1980</unittitle>
+            <unittitle>English Graduate Programs, <unitdate>1969-1971</unitdate>,
+                <unitdate>1974-1977</unitdate>, <unitdate>1979-1980</unitdate></unittitle>
             <container type="box" label="Box">2</container>
             <container type="folder" label="Folder">4</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>English Institute, 1959-1960</unittitle>
+            <unittitle>English Institute, <unitdate>1959-1960</unitdate></unittitle>
             <container type="box" label="Box">2</container>
             <container type="folder" label="Folder">5</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Executive Committee, 1956-1983</unittitle>
+            <unittitle>Executive Committee, <unitdate>1956-1983</unitdate></unittitle>
             <container type="box" label="Box">2</container>
             <container type="folder" label="Folder">6-18</container>
           </did>
@@ -419,21 +449,27 @@
           </did>
           <c03>
             <did>
-              <unittitle>1974</unittitle>
+              <unittitle>
+                <unitdate>1974</unitdate>
+              </unittitle>
               <container type="box" label="Box">2</container>
               <container type="folder" label="Folder">19</container>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>1979-1980</unittitle>
+              <unittitle>
+                <unitdate>1979-1980</unitdate>
+              </unittitle>
               <container type="box" label="Box">2</container>
               <container type="folder" label="Folder">20</container>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>1986</unittitle>
+              <unittitle>
+                <unitdate>1986</unitdate>
+              </unittitle>
               <container type="box" label="Box">2</container>
               <container type="folder" label="Folder">21</container>
             </did>
@@ -441,56 +477,57 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Freshman Course Committee, 1956-1965</unittitle>
+            <unittitle>Freshman Course Committee, <unitdate>1956-1965</unitdate></unittitle>
             <container type="box" label="Box">2</container>
             <container type="folder" label="Folder">22-23</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Freshman English, 1956-1966</unittitle>
+            <unittitle>Freshman English, <unitdate>1956-1966</unitdate></unittitle>
             <container type="box" label="Box">2</container>
             <container type="folder" label="Folder">24</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Freshman English News, 1981-1982</unittitle>
+            <unittitle>Freshman English News, <unitdate>1981-1982</unitdate></unittitle>
             <container type="box" label="Box">2</container>
             <container type="folder" label="Folder">25</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Graduate Faculty, 1959-1972</unittitle>
+            <unittitle>Graduate Faculty, <unitdate>1959-1972</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">1-7</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Graduate Policy, 1973-1984</unittitle>
+            <unittitle>Graduate Policy, <unitdate>1973-1984</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">8-13</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Graduate Policy Committee Meetings, 1979-1988</unittitle>
+            <unittitle>Graduate Policy Committee Meetings,
+              <unitdate>1979-1988</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">14-15</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Handbook, 1972-1973</unittitle>
+            <unittitle>Handbook, <unitdate>1972-1973</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">16</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Honors Program, 1961-1964</unittitle>
+            <unittitle>Honors Program, <unitdate>1961-1964</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">17</container>
           </did>
@@ -501,14 +538,15 @@
           </did>
           <c03>
             <did>
-              <unittitle>Membership List and Yeats Exhibit, 1972-1973</unittitle>
+              <unittitle>Membership List and Yeats Exhibit,
+                <unitdate>1972-1973</unitdate></unittitle>
               <container type="box" label="Box">3</container>
               <container type="folder" label="Folder">18</container>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Newsletter, 1971-1978</unittitle>
+              <unittitle>Newsletter, <unitdate>1971-1978</unitdate></unittitle>
               <container type="box" label="Box">3</container>
               <container type="folder" label="Folder">19</container>
             </did>
@@ -516,346 +554,355 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Joint Control Committee, 1957-1963</unittitle>
+            <unittitle>Joint Control Committee, <unitdate>1957-1963</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">20</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Library Committee, 1957-1965</unittitle>
+            <unittitle>Library Committee, <unitdate>1957-1965</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">21</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Linguistics Workshop, 1962-1963</unittitle>
+            <unittitle>Linguistics Workshop, <unitdate>1962-1963</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">22</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Load Reduction Committee, 1973-1976</unittitle>
+            <unittitle>Load Reduction Committee, <unitdate>1973-1976</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">23</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Meetings and Memos, 1954-1968</unittitle>
+            <unittitle>Meetings and Memos, <unitdate>1954-1968</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">24-26</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Memos, 1956-1983</unittitle>
+            <unittitle>Memos, <unitdate>1956-1983</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">27</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Milton Tercentenary Conference, Audio, 1974</unittitle>
+            <unittitle>Milton Tercentenary Conference</unittitle>
           </did>
           <c03>
             <did>
-              <unittitle>Charles Mann</unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="audio" label="Audio reel">1</container>
-              <physdesc>
-                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
-              </physdesc>
+              <unittitle>Audio</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Charles Mann, <unitdate>1974</unitdate></unittitle>
+                <container type="box" label="Box">5</container>
+                <container type="audio" label="Audio reel">1</container>
+                <physdesc>
+                  <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Gerald Stacey and Wolfgang Rudat, <unitdate>1974</unitdate></unittitle>
+                <container type="box" label="Box">5</container>
+                <container type="audio" label="Audio reel">2</container>
+                <physdesc>
+                  <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Robert T. Fallon and Mortimer Frank,
+                  <unitdate>1974</unitdate></unittitle>
+                <container type="box" label="Box">5</container>
+                <container type="audio" label="Audio reel">3</container>
+                <physdesc>
+                  <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>William A. Oram and Barry Wind, <unitdate>1974</unitdate></unittitle>
+                <container type="box" label="Box">5</container>
+                <container type="audio" label="Audio reel">4</container>
+                <physdesc>
+                  <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>James Campbell and Gert Schiff, <unitdate>1974</unitdate></unittitle>
+                <container type="box" label="Box">5</container>
+                <container type="audio" label="Audio reel">5</container>
+                <physdesc>
+                  <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Stella Revard-Baum and C.A. Patrides,
+                  <unitdate>1974</unitdate></unittitle>
+                <container type="box" label="Box">5</container>
+                <container type="audio" label="Audio reel">6</container>
+                <physdesc>
+                  <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>D.M. Harralson and R.G. Schoen, <unitdate>1974</unitdate></unittitle>
+                <container type="box" label="Box">5</container>
+                <container type="audio" label="Audio reel">7</container>
+                <physdesc>
+                  <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Richard S. Ide and James Stephens, <unitdate>1974</unitdate></unittitle>
+                <container type="box" label="Box">5</container>
+                <container type="audio" label="Audio reel">8</container>
+                <physdesc>
+                  <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>John F. Huntley and M.F. McCanles, <unitdate>1974</unitdate></unittitle>
+                <container type="box" label="Box">5</container>
+                <container type="audio" label="Audio reel">9</container>
+                <physdesc>
+                  <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>John Mulder and Roger Rollin, <unitdate>1974</unitdate></unittitle>
+                <container type="box" label="Box">6</container>
+                <container type="audio" label="Audio reel">10</container>
+                <physdesc>
+                  <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Sister Mason and James H. Sims, <unitdate>1974</unitdate></unittitle>
+                <container type="box" label="Box">6</container>
+                <container type="audio" label="Audio reel">11</container>
+                <physdesc>
+                  <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>V.R. Mollencott and John A. Via, <unitdate>1974</unitdate></unittitle>
+                <container type="box" label="Box">6</container>
+                <container type="audio" label="Audio reel">12</container>
+                <physdesc>
+                  <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>T. Kranidas and T. O'Keeffe, <unitdate>1974</unitdate></unittitle>
+                <container type="box" label="Box">6</container>
+                <container type="audio" label="Audio reel">13</container>
+                <physdesc>
+                  <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>C.J. Summers and James J. Egan, <unitdate>1974</unitdate></unittitle>
+                <container type="box" label="Box">6</container>
+                <container type="audio" label="Audio reel">14</container>
+                <physdesc>
+                  <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>M. Mikolajczak and William Hunter, <unitdate>1974</unitdate></unittitle>
+                <container type="box" label="Box">6</container>
+                <container type="audio" label="Audio reel">15</container>
+                <physdesc>
+                  <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>John Shawcross and R.F. Fleissner, <unitdate>1974</unitdate></unittitle>
+                <container type="box" label="Box">6</container>
+                <container type="audio" label="Audio reel">16</container>
+                <physdesc>
+                  <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Florence Walzl and J. Max Patrick, <unitdate>1974</unitdate></unittitle>
+                <container type="box" label="Box">6</container>
+                <container type="audio" label="Audio reel">17</container>
+                <physdesc>
+                  <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Sidney Warhaft and Ted Pebworth, <unitdate>1974</unitdate></unittitle>
+                <container type="box" label="Box">6</container>
+                <container type="audio" label="Audio reel">18</container>
+                <physdesc>
+                  <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>S.S. Stollman and R.C. Flannagan, <unitdate>1974</unitdate></unittitle>
+                <container type="box" label="Box">7</container>
+                <container type="audio" label="Audio reel">19</container>
+                <physdesc>
+                  <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>James G. Mengert and Thomas W. Hayes,
+                  <unitdate>1974</unitdate></unittitle>
+                <container type="box" label="Box">7</container>
+                <container type="audio" label="Audio reel">20</container>
+                <physdesc>
+                  <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>E.R. Gregory and Desmond Hamlet, <unitdate>1974</unitdate></unittitle>
+                <container type="box" label="Box">7</container>
+                <container type="audio" label="Audio reel">21</container>
+                <physdesc>
+                  <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Rabbi J. Goldman and Roger H. Sundell,
+                  <unitdate>1974</unitdate></unittitle>
+                <container type="box" label="Box">7</container>
+                <container type="audio" label="Audio reel">22</container>
+                <physdesc>
+                  <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Michael Lieb Symposium, <unitdate>1974</unitdate></unittitle>
+                <container type="box" label="Box">7</container>
+                <container type="audio" label="Audio reel">23</container>
+                <physdesc>
+                  <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Barry Wind and Thomas Hayes, <unitdate>1974</unitdate></unittitle>
+                <container type="box" label="Box">7</container>
+                <container type="audio" label="Audio reel">24</container>
+                <physdesc>
+                  <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>E.R. Gregory and J. Max Patrick, <unitdate>1974</unitdate></unittitle>
+                <container type="box" label="Box">7</container>
+                <container type="audio" label="Audio reel">25</container>
+                <physdesc>
+                  <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>James Sims and John Shawcross, <unitdate>1974</unitdate></unittitle>
+                <container type="box" label="Box">7</container>
+                <container type="audio" label="Audio reel">26</container>
+                <physdesc>
+                  <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Roger Sundell and A. Chambers, <unitdate>1974</unitdate></unittitle>
+                <container type="box" label="Box">7</container>
+                <container type="audio" label="Audio reel">27</container>
+                <physdesc>
+                  <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Correspondence, <unitdate>1974</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">28</container>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Gerald Stacey and Wolfgang Rudat</unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="audio" label="Audio reel">2</container>
-              <physdesc>
-                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
-              </physdesc>
+              <unittitle>Participant Handouts and Bibliographies,
+                <unitdate>1974</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">29</container>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Robert T. Fallon and Mortimer Frank</unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="audio" label="Audio reel">3</container>
-              <physdesc>
-                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
-              </physdesc>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>William A. Oram and Barry Wind</unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="audio" label="Audio reel">4</container>
-              <physdesc>
-                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
-              </physdesc>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>James Campbell and Gert Schiff</unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="audio" label="Audio reel">5</container>
-              <physdesc>
-                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
-              </physdesc>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Stella Revard-Baum and C.A. Patrides</unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="audio" label="Audio reel">6</container>
-              <physdesc>
-                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
-              </physdesc>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>D.M. Harralson and R.G. Schoen</unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="audio" label="Audio reel">7</container>
-              <physdesc>
-                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
-              </physdesc>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Richard S. Ide and James Stephens</unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="audio" label="Audio reel">8</container>
-              <physdesc>
-                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
-              </physdesc>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>John F. Huntley and M.F. McCanles</unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="audio" label="Audio reel">9</container>
-              <physdesc>
-                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
-              </physdesc>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>John Mulder and Roger Rollin</unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="audio" label="Audio reel">10</container>
-              <physdesc>
-                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
-              </physdesc>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sister Mason and James H. Sims</unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="audio" label="Audio reel">11</container>
-              <physdesc>
-                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
-              </physdesc>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>V.R. Mollencott and John A. Via</unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="audio" label="Audio reel">12</container>
-              <physdesc>
-                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
-              </physdesc>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>T. Kranidas and T. O'Keeffe</unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="audio" label="Audio reel">13</container>
-              <physdesc>
-                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
-              </physdesc>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>C.J. Summers and James J. Egan</unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="audio" label="Audio reel">14</container>
-              <physdesc>
-                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
-              </physdesc>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>M. Mikolajczak and William Hunter</unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="audio" label="Audio reel">15</container>
-              <physdesc>
-                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
-              </physdesc>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>John Shawcross and R.F. Fleissner</unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="audio" label="Audio reel">16</container>
-              <physdesc>
-                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
-              </physdesc>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Florence Walzl and J. Max Patrick</unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="audio" label="Audio reel">17</container>
-              <physdesc>
-                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
-              </physdesc>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sidney Warhaft and Ted Pebworth</unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="audio" label="Audio reel">18</container>
-              <physdesc>
-                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
-              </physdesc>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>S.S. Stollman and R.C. Flannagan</unittitle>
-              <container type="box" label="Box">7</container>
-              <container type="audio" label="Audio reel">19</container>
-              <physdesc>
-                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
-              </physdesc>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>James G. Mengert and Thomas W. Hayes</unittitle>
-              <container type="box" label="Box">7</container>
-              <container type="audio" label="Audio reel">20</container>
-              <physdesc>
-                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
-              </physdesc>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>E.R. Gregory and Desmond Hamlet</unittitle>
-              <container type="box" label="Box">7</container>
-              <container type="audio" label="Audio reel">21</container>
-              <physdesc>
-                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
-              </physdesc>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Rabbi J. Goldman, and Roger H. Sundell</unittitle>
-              <container type="box" label="Box">7</container>
-              <container type="audio" label="Audio reel">22</container>
-              <physdesc>
-                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
-              </physdesc>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Michael Lieb Symposium [Audio reel</unittitle>
-              <container type="box" label="Box">7</container>
-              <container type="audio" label="Audio reel">23</container>
-              <physdesc>
-                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
-              </physdesc>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Barry Wind and Thomas Hayes</unittitle>
-              <container type="box" label="Box">7</container>
-              <container type="audio" label="Audio reel">24</container>
-              <physdesc>
-                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
-              </physdesc>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>E.R. Gregory and J. Max Patrick</unittitle>
-              <container type="box" label="Box">7</container>
-              <container type="audio" label="Audio reel">25</container>
-              <physdesc>
-                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
-              </physdesc>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>James Sims and John Shawcross</unittitle>
-              <container type="box" label="Box">7</container>
-              <container type="audio" label="Audio reel">26</container>
-              <physdesc>
-                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
-              </physdesc>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Roger Sundell and A. Chambers</unittitle>
-              <container type="box" label="Box">7</container>
-              <container type="audio" label="Audio reel">27</container>
-              <physdesc>
-                <extent>Audio reel (&#188; in., 3 &#190; ips)</extent>
-              </physdesc>
+              <unittitle>Programs and Event Lists, <unitdate>1974</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">30</container>
             </did>
           </c03>
         </c02>
         <c02>
           <did>
-            <unittitle>Milton Tercentenary Conference, Correspondence, 1974</unittitle>
-            <container type="box" label="Box">3</container>
-            <container type="folder" label="Folder">28</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Milton Tercentenary Conference, Participant Handouts and Bibliographies,
-              1974</unittitle>
-            <container type="box" label="Box">3</container>
-            <container type="folder" label="Folder">29</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Milton Tercentenary Conference, Programs and Event Lists, 1974</unittitle>
-            <container type="box" label="Box">3</container>
-            <container type="folder" label="Folder">30</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Milwaukee Studies in Language, 1989</unittitle>
+            <unittitle>Milwaukee Studies in Language, <unitdate>1989</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">31</container>
           </did>
@@ -866,14 +913,14 @@
           </did>
           <c03>
             <did>
-              <unittitle>Administration, Reports, 1965-1967</unittitle>
+              <unittitle>Administration, Reports, <unitdate>1965-1967</unitdate></unittitle>
               <container type="box" label="Box">3</container>
               <container type="folder" label="Folder">32</container>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Press Releases, Clippings, 1966-1967</unittitle>
+              <unittitle>Press Releases, Clippings, <unitdate>1966-1967</unitdate></unittitle>
               <container type="box" label="Box">3</container>
               <container type="folder" label="Folder">33</container>
             </did>
@@ -881,28 +928,29 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Newsletter, 1961-1974</unittitle>
+            <unittitle>Newsletter, <unitdate>1961-1974</unitdate></unittitle>
             <container type="box" label="Box">4</container>
             <container type="folder" label="Folder">1</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Planning Documents, 1983-1985</unittitle>
+            <unittitle>Planning Documents, <unitdate>1983-1985</unitdate></unittitle>
             <container type="box" label="Box">4</container>
             <container type="folder" label="Folder">2</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>"Poet Views the World," English Department Radio Series, 1960</unittitle>
+            <unittitle>"Poet Views the World," English Department Radio Series,
+                <unitdate>1960</unitdate></unittitle>
             <container type="box" label="Box">4</container>
             <container type="folder" label="Folder">3</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Poetry Center Proposal, 1963-1966</unittitle>
+            <unittitle>Poetry Center Proposal, <unitdate>1963-1966</unitdate></unittitle>
             <container type="box" label="Box">4</container>
             <container type="folder" label="Folder">4</container>
           </did>
@@ -913,42 +961,42 @@
           </did>
           <c03>
             <did>
-              <unittitle>Correspondence, 1964-1969</unittitle>
+              <unittitle>Correspondence, <unitdate>1964-1969</unitdate></unittitle>
               <container type="box" label="Box">4</container>
               <container type="folder" label="Folder">5</container>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Description, 1964</unittitle>
+              <unittitle>Description, <unitdate>1964</unitdate></unittitle>
               <container type="box" label="Box">4</container>
               <container type="folder" label="Folder">6</container>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Photographs, 1966</unittitle>
+              <unittitle>Photographs, <unitdate>1966</unitdate></unittitle>
               <container type="box" label="Box">4</container>
               <container type="folder" label="Folder">7</container>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Press Releases, Newsclippings, 1964-1967</unittitle>
+              <unittitle>Press Releases, Newsclippings, <unitdate>1964-1967</unitdate></unittitle>
               <container type="box" label="Box">4</container>
               <container type="folder" label="Folder">8</container>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Publicity, Pamphlets, 1964-1968</unittitle>
+              <unittitle>Publicity, Pamphlets, <unitdate>1964-1968</unitdate></unittitle>
               <container type="box" label="Box">4</container>
               <container type="folder" label="Folder">9</container>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Reports, 1964-1967</unittitle>
+              <unittitle>Reports, <unitdate>1964-1967</unitdate></unittitle>
               <container type="box" label="Box">4</container>
               <container type="folder" label="Folder">10</container>
             </did>
@@ -956,62 +1004,64 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Proposals, PhD and M.A. Program, 1966-1968</unittitle>
+            <unittitle>Proposals, PhD and M.A. Program, <unitdate>1966-1968</unitdate></unittitle>
             <container type="box" label="Box">4</container>
             <container type="folder" label="Folder">11</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Publications, English Usage Handbook, 1945-1960</unittitle>
+            <unittitle>Publications, English Usage Handbook,
+              <unitdate>1945-1960</unitdate></unittitle>
             <container type="box" label="Box">4</container>
             <container type="folder" label="Folder">12</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Re-evaluation Committee, 1963-1964</unittitle>
+            <unittitle>Re-Evaluation Committee, <unitdate>1963-1964</unitdate></unittitle>
             <container type="box" label="Box">4</container>
             <container type="folder" label="Folder">13</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle><title render="italic">The Research Paper</title>, 1960</unittitle>
+            <unittitle><title render="italic">The Research Paper</title>,
+              <unitdate>1960</unitdate></unittitle>
             <container type="box" label="Box">4</container>
             <container type="folder" label="Folder">14</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Steering Committee, 1956</unittitle>
+            <unittitle>Steering Committee, <unitdate>1956</unitdate></unittitle>
             <container type="box" label="Box">4</container>
             <container type="folder" label="Folder">15</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Student Teacher's Handbook, undated</unittitle>
+            <unittitle>Student Teacher's Handbook, <unitdate>undated</unitdate></unittitle>
             <container type="box" label="Box">4</container>
             <container type="folder" label="Folder">16</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>T.A. Materials, 1983-1984</unittitle>
+            <unittitle>T.A. Materials, <unitdate>1983-1984</unitdate></unittitle>
             <container type="box" label="Box">4</container>
             <container type="folder" label="Folder">17</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Teaching Majors and Minors, 1961-1962</unittitle>
+            <unittitle>Teaching Majors and Minors, <unitdate>1961-1962</unitdate></unittitle>
             <container type="box" label="Box">4</container>
             <container type="folder" label="Folder">18</container>
           </did>
         </c02>
       </c01>
-      <c01 level="otherlevel" otherlevel="unprocessed" id="acc2010-037">
+      <c01 level="otherlevel" otherlevel="minimal" id="acc2010-037">
         <did>
           <unitid>Accession 2010-037</unitid>
           <unittitle>Syllabi, <unitdate>1994-2008</unitdate></unittitle>
@@ -1020,6 +1070,54 @@
           </physdesc>
           <abstract>Additions of syllabi files dating from 1994 to 2008.</abstract>
         </did>
+        <c02>
+          <did>
+            <unititle>
+              <unitdate>1994-1997</unitdate>
+            </unititle>
+            <container type="box" label="Box">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate>1997-1999</unitdate>
+            </unittitle>
+            <container type="box" label="Box">2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate>2000-2002</unitdate>
+            </unittitle>
+            <container type="box" label="Box">3</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate>2002-2004</unitdate>
+            </unittitle>
+            <container type="box" label="Box">4</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate>2005-2006</unitdate>
+            </unittitle>
+            <container type="box" label="Box">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate>2007-2008</unitdate>
+            </unittitle>
+            <container type="box" label="Box">6</container>
+          </did>
+        </c02>
       </c01>
     </dsc>
   </archdesc>
