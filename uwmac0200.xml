@@ -99,7 +99,7 @@
       <physdesc label="Quantity">
         <extent encodinganalog="300">6.4 cubic ft. (8 boxes)</extent>
         <extent encodinganalog="300">65 safety film negatives</extent>
-        <extent encodinganalog="300">7,597 digital files (40.7 GB)</extent>
+        <extent encodinganalog="300">7,707 digital files (14.4 GB)</extent>
       </physdesc>
       <repository encodinganalog="852">
         <extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
@@ -285,7 +285,7 @@
           <physdesc>
             <extent>6.4 cubic ft. (8 boxes)</extent>
             <extent>65 safety negatives</extent>
-            <extent>7,597 digital files (40.7 GB)</extent>
+            <extent>7,707 digital files (14.4 GB)</extent>
           </physdesc>
         </did>
         <c02 id="series1" level="series">
@@ -297,7 +297,7 @@
               publishing the <title render="italic">UWM Report</title> and <title render="italic"
                 >UWM Today</title> from 1989 to 2014. Photographs of interest from both the Report
               and Today include presidential candidates George W. Bush (2002) and John Kerry (2004),
-              the Rube Golderberg Contest from the summer of 2002, Commencement photos from
+              the Rube Goldberg Contest from the summer of 2002, Commencement photos from
               2003-2006, Pantherfest, UWM Alumni Association event photos, Panther Prowl, and many
               UWM sports photographs including the men's basketball Sweet Sixteen trip (2005) and
               the Horizon League Tournament.</p>
@@ -615,7 +615,7 @@
           </c03>
           <c03>
             <did>
-              <unittitle>College Connections UWM and MATC, <unitdate>2002 December
+              <unittitle>College Connections, UWM and MATC, <unitdate>2002 December
                 </unitdate></unittitle>
               <container type="box" label="Box">4</container>
               <container type="folder" label="Folder">17</container>
@@ -886,7 +886,7 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Johnson, Lady Bird Visit to Milwaukee,
+              <unittitle>Johnson, Lady Bird, Visit to Milwaukee,
                 <unitdate>1965</unitdate></unittitle>
               <container type="box" label="Box">4</container>
               <container type="folder" label="Folder">54</container>
@@ -1265,7 +1265,7 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Clinton-Rose Senior Center Photos, <unitdate>2004</unitdate></unittitle>
+              <unittitle>Clinton-Rose Senior Center, <unitdate>2004</unitdate></unittitle>
               <container type="electronic" label="Electronic Folder"/>
             </did>
           </c03>
@@ -1472,7 +1472,7 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Keodouangnsy Trip to Thailand and Laos Photos,
+              <unittitle>Keodouangnsy Trip to Thailand and Laos,
                 <unitdate>2004</unitdate></unittitle>
               <container type="electronic" label="Electronic Folder"/>
             </did>
