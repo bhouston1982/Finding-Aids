@@ -38,9 +38,9 @@
       <change encodinganalog="583">
         <date normal="2016-11-14">November 14, 2016</date>
         <item>Ashlie Biddle updated the finding aid to reflect the addition of accession 2015-045 to
-          the main collection. Changes were made to extent, arrangement, processinfo, Preservation
-          Information, phystech, and the contents list. Series 4 was also removed from the finding
-          aid in favor of including the electronic folders in series 1 and 3. </item>
+          the main collection. Changes were made to extent, arrangement, processinfo, bioghist,
+          Preservation Information, phystech, and the contents list. Series 4 was also removed from
+          the finding aid in favor of including the electronic folders in series 1 and 3. </item>
       </change>
       <change encodinganalog="583">
         <date normal="2016-05-25">May 25, 2016</date>
@@ -140,10 +140,11 @@
         Communications &amp; Media Relations. The majority of the photographs were taken during the
         daily activities of publishing the <title render="italic">UWM Report</title> and <title
           render="italic">UWM Today</title> (the magazine of the UWM Alumni Association, renamed
-          <title>UWM Alumni</title> in 2013). The photographs primarily provide a chronological
-        record of the university and the greater Milwaukee community between 1987 and 1986. Some of
-        the photographs in the collection were compiled between circa 1900 and 1986, but appear to
-        have been used for features in the publications produced during the bulk date period.</p>
+          <title render="italic">UWM Alumni</title> in 2013). The photographs primarily provide a
+        chronological record of the university and the greater Milwaukee community between 1987 and
+        1986. Some of the photographs in the collection were compiled between circa 1900 and 1986,
+        but appear to have been used for features in the publications produced during the bulk date
+        period.</p>
       <p>The collection documents university communications regarding such topics as UWM buildings,
         administrative changes, student activities, athletics, campus events, minority student
         groups, faculty and student research, alumni accomplishments, and the university's
@@ -297,10 +298,10 @@
               publishing the <title render="italic">UWM Report</title> and <title render="italic"
                 >UWM Today</title> from 1989 to 2014. Photographs of interest from both the Report
               and Today include presidential candidates George W. Bush (2002) and John Kerry (2004),
-              the Rube Goldberg Contest from the summer of 2002, Commencement photos from
-              2003-2006, Pantherfest, UWM Alumni Association event photos, Panther Prowl, and many
-              UWM sports photographs including the men's basketball Sweet Sixteen trip (2005) and
-              the Horizon League Tournament.</p>
+              the Rube Goldberg Contest from the summer of 2002, Commencement photos from 2003-2006,
+              Pantherfest, UWM Alumni Association event photos, Panther Prowl, and many UWM sports
+              photographs including the men's basketball Sweet Sixteen trip (2005) and the Horizon
+              League Tournament.</p>
             <p>Also present are photographs from other university publications, such as the <title
                 render="italic">View Book</title>, <title render="italic">Kenwood</title>, the UWM
               portion of <title render="italic">The University of Wisconsin System
@@ -394,15 +395,19 @@
               <c05>
                 <did>
                   <unittitle>
-                    <unitdate>1993-1999</unitdate>, <unitdate>2000</unitdate>
+                    <unitdate>1993-2000</unitdate>
                   </unittitle>
                   <container type="box" label="Box">4</container>
                   <container type="folder" label="Folder">1-2</container>
                 </did>
               </c05>
               <c05>
-                <did><unittitle><unitdate>2006</unitdate></unittitle>
-                <container type="electronic" label="Electronic Folder"></container></did>
+                <did>
+                  <unittitle>
+                    <unitdate>2006</unitdate>
+                  </unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                </did>
               </c05>
             </c04>
             <c04>
@@ -413,17 +418,28 @@
                 <container type="folder" label="Folder">3</container>
               </did>
             </c04>
-           <c04><did><unittitle>Fact Card</unittitle></did> <c05>
+            <c04>
               <did>
-                <unittitle><unitdate>2000-2006</unitdate></unittitle>
-                <container type="box" label="Box">7</container>
-                <container type="folder" label="Folder">4</container>
+                <unittitle>Fact Card</unittitle>
               </did>
-            </c05>
-           <c05>
-             <did><unittitle><unitdate>2005</unitdate></unittitle>
-             <container type="electronic" label="Electronic Folder"></container></did>
-           </c05></c04>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate>2000-2006</unitdate>
+                  </unittitle>
+                  <container type="box" label="Box">7</container>
+                  <container type="folder" label="Folder">4</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate>2005</unitdate>
+                  </unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                </did>
+              </c05>
+            </c04>
             <c04>
               <did>
                 <unittitle><title render="italic">Kenwood</title> Photographs,
@@ -434,12 +450,15 @@
             </c04>
             <c04>
               <did>
-                <unittitle><title render="italic">Neighbor Notes</title></unittitle>
+                <unittitle>
+                  <title render="italic">Neighbor Notes</title>
+                </unittitle>
               </did>
               <c05>
                 <did>
                   <unittitle>
-                    <unitdate>2000-2008</unitdate></unittitle>
+                    <unitdate>2000-2008</unitdate>
+                  </unittitle>
                   <container type="box" label="Box">7</container>
                   <container type="folder" label="Folder">6</container>
                 </did>
@@ -447,7 +466,8 @@
               <c05>
                 <did>
                   <unittitle>
-                    <unitdate>2002-2008</unitdate></unittitle>
+                    <unitdate>2002-2008</unitdate>
+                  </unittitle>
                   <container type="electronic" label="Electronic Folder"/>
                 </did>
               </c05>
@@ -461,18 +481,23 @@
             </c04>
             <c04>
               <did>
-                <unittitle><title render="italic">Panther Family News</title></unittitle>
+                <unittitle>
+                  <title render="italic">Panther Family News</title>
+                </unittitle>
               </did>
               <c05>
                 <did>
-                  <unittitle><unitdate>2004-2008</unitdate></unittitle>
+                  <unittitle>
+                    <unitdate>2004-2008</unitdate>
+                  </unittitle>
                   <container type="electronic" label="Electronic Folder"/>
                 </did>
               </c05>
               <c05>
                 <did>
                   <unittitle>
-                    <unitdate>2004-2009</unitdate></unittitle>
+                    <unitdate>2004-2009</unitdate>
+                  </unittitle>
                   <container type="box" label="Box">7</container>
                   <container type="folder" label="Folder">7</container>
                 </did>
@@ -511,7 +536,8 @@
               <c05>
                 <did>
                   <unittitle>
-                    <unitdate>2009</unitdate></unittitle>
+                    <unitdate>2009</unitdate>
+                  </unittitle>
                   <container type="electronic" label="Electronic Folder"/>
                 </did>
               </c05>
@@ -920,8 +946,7 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Aerial Photos, <unitdate>2001</unitdate>,<unitdate>2006</unitdate>, and
-                  <unitdate>2008</unitdate></unittitle>
+              <unittitle>Aerial Photos, <unitdate>2001-2008</unitdate></unittitle>
               <container type="box" label="Box">8</container>
               <container type="folder" label="Folder">1-3</container>
             </did>
@@ -1104,7 +1129,9 @@
             </c04>
             <c04>
               <did>
-                <unittitle><unitdate>undated</unitdate></unittitle>
+                <unittitle>
+                  <unitdate>undated</unitdate>
+                </unittitle>
                 <container type="electronic" label="Electronic Folder"/>
               </did>
             </c04>
@@ -1312,7 +1339,7 @@
             <c04>
               <did>
                 <unittitle>
-                  <unitdate>2004-2006</unitdate>, <unitdate>2011</unitdate>
+                  <unitdate>2004-2011</unitdate>
                 </unittitle>
                 <container type="electronic" label="Electronic Folder"/>
               </did>
@@ -1445,7 +1472,9 @@
             </did>
             <c04>
               <did>
-                <unittitle><unitdate>2003</unitdate></unittitle>
+                <unittitle>
+                  <unitdate>2003</unitdate>
+                </unittitle>
                 <container type="electronic" label="Electronic Folder"/>
               </did>
             </c04>
@@ -1580,18 +1609,11 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Milwaukee Skyline </unittitle>
+              <unittitle>Milwaukee Skyline, <unitdate>1991</unitdate></unittitle>
+              <container type="box" label="Box">6</container>
+              <container type="folder" label="Folder">14</container>
             </did>
-            <c04>
-              <did>
-                <unittitle>
-                  <unitdate>1991</unitdate>
-                </unittitle>
-                <container type="box" label="Box">6</container>
-                <container type="folder" label="Folder">14</container>
-              </did>
-            </c04>
-          </c03>
+                     </c03>
           <c03>
             <did>
               <unittitle>Miriam Sushman Negatives, <unitdate>undated</unitdate></unittitle>
@@ -1601,19 +1623,27 @@
               <container type="box" label="35 mm Safety Film Box">1</container>
             </did>
           </c03>
-          <c03><did><unittitle>Miscellaneous</unittitle></did><c04>
+          <c03>
             <did>
-              <unittitle><unitdate>1896-2005</unitdate></unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="folder" label="Folder">15</container>
+              <unittitle>Miscellaneous</unittitle>
             </did>
-          </c04>
-          <c04>
-            <did>
-              <unittitle><unitdate>2000-2005</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1896-2005</unitdate>
+                </unittitle>
+                <container type="box" label="Box">6</container>
+                <container type="folder" label="Folder">15</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>2000-2005</unitdate>
+                </unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+              </did>
+            </c04>
           </c03>
           <c03>
             <did>
@@ -1704,7 +1734,7 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Plenary, <unitdate>2008</unitdate>, <unitdate>2011</unitdate></unittitle>
+              <unittitle>Plenary, <unitdate>2008-2011</unitdate></unittitle>
               <container type="electronic" label="Electronic Folder"/>
             </did>
           </c03>
@@ -1750,7 +1780,7 @@
               <container type="folder" label="Folder">25-27</container>
             </did>
           </c03>
-                   <c03>
+          <c03>
             <did>
               <unittitle>Prominent Non-Alumni, <unitdate>circa 1980s-1990s</unitdate></unittitle>
               <container type="box" label="Box">6</container>
@@ -1942,14 +1972,18 @@
             </did>
             <c04>
               <did>
-                <unittitle><unitdate>2001-2005</unitdate></unittitle>
+                <unittitle>
+                  <unitdate>2001-2005</unitdate>
+                </unittitle>
                 <container type="box" label="Box">6</container>
                 <container type="folder" label="Folder">44</container>
               </did>
             </c04>
             <c04>
               <did>
-                <unittitle><unitdate>2005</unitdate></unittitle>
+                <unittitle>
+                  <unitdate>2005</unitdate>
+                </unittitle>
                 <container type="electronic" label="Electronic Folder"/>
               </did>
             </c04>

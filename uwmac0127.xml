@@ -38,7 +38,7 @@
         <date normal="2016-11-15">November 15, 2016</date>
         <item>Ashlie Biddle and Brad Houston updated the finding aid to reflect minimal processing
           of accession 2010-037. Changes were made to bioghist, scopecontent, relatedmaterial,
-          acqinfo, processinfo, and the contents list.</item>
+          acqinfo, processinfo, and the contents list. Brad also added proper date encoding to the contents list and reorganized some components to be more properly hierarchical.</item>
       </change>
       <change>
         <date normal="2013-09-26">September 26, 2013</date>
@@ -243,7 +243,7 @@
         <unittitle>Cream City Review Records</unittitle>
         <unitid>UWM Archival Collection 225</unitid>
       </archref>
-      <archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmmss300"
+      <archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmmss0300"
         actuate="onrequest" show="new">
         <unittitle>James Liddy Papers</unittitle>
         <unitid>UWM Manuscript Collection 300</unitid>
@@ -1072,9 +1072,9 @@
         </did>
         <c02>
           <did>
-            <unititle>
+            <unittitle>
               <unitdate>1994-1997</unitdate>
-            </unititle>
+            </unittitle>
             <container type="box" label="Box">1</container>
           </did>
         </c02>
