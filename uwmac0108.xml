@@ -36,6 +36,12 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date normal="2016-02-17">November 17, 2016</date>
+        <item>Phyllis Reske updated the finding aid to reflect the addition of accessions 2010-004 
+          and 2010-008 to the contents list. Changes also made to abstract, access restriction, 
+          arrangement, and physical description.</item>
+      </change>
+      <change>
         <date normal="2016-02-17">February 17, 2016</date>
         <item>Ashlie Biddle updated the finding aid after adding accession 2010-016 to the
           collection.</item>
@@ -76,9 +82,8 @@
       <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
         >Accession 2010-008</unitid>
       <physdesc label="Quantity">
-        <extent encodinganalog="300">2.6 cubic ft. (7 boxes)</extent>
+        <extent encodinganalog="300">6 cubic ft. (11 boxes)</extent>
         <extent encodinganalog="300">91 digital text files (10 MB)</extent>
-        <extent encodinganalog="300">plus additions of 5 cubic ft. (5 boxes)</extent>
       </physdesc>
       <repository encodinganalog="852">
         <extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
@@ -88,7 +93,7 @@
         </extref>
       </repository>
       <abstract encodinganalog="520">Records of the Department of Political Science, including
-        correspondence, staff meeting minutes, and miscellaneous information on lectures,
+        course syllabi, correspondence, staff meeting minutes, and miscellaneous information on lectures,
         undergraduate and graduate programs, and department seminars. A large portion of the
         collection is devoted to the development and organization of a Law Studies Program within
         the Dept. of Political Science.</abstract>
@@ -185,7 +190,7 @@
         consultation reports, budgets, correspondence, curricula, and other records of the Law
         Studies coordinator. The collection also contains materials on a Washington D.C. internship
         coordinated by the Dept. of Political Science and information regarding the Political
-        Research Laboratory. Also included are minutes of various committees, documentation of
+        Research Laboratory. Also included are course syllabi, minutes of various committees, documentation of
         graduate programs, information about the student strike of 1970, and correspondence of the
         Joint Conference Committee of the Political Science Departments of UW-Madison and
         UW-Milwaukee (1957-1963).</p>
@@ -193,29 +198,16 @@
         2010-2013.</p>
     </scopecontent>
     <arrangement encodinganalog="351">
-      <p>This collection was received in, and is organized in, multiple parts. Additional materials
-        have not been physically or intellectually arranged and interfiled, and researchers may need
-        to consult more than one part of the collection to locate similar materials.</p>
+      <p>This collection was received in multiple parts. Additional materials have been physically 
+        arranged and intellectually arranged and interfiled, and researchers may need to consult more 
+        than one part of the collection to locate similar materials.</p>
       <list type="simple">
         <item>
           <ref target="uwmac0108" show="replace" actuate="onrequest">UWM Archival Collection 108:
             Records, 1956-2013</ref>
         </item>
       </list>
-      <p>The collection contains two additional accessions.</p>
-      <list type="simple">
-        <item>
-          <ref target="acc2010-004" show="replace" actuate="onrequest">Accession 2010-004: Subject
-            Files, 1990-2007</ref>
-        </item>
-        <item>
-          <ref target="acc2010-008" show="replace" actuate="onrequest">Accession 2010-008: Syllabi
-            Files, 1995-2010</ref>
-        </item>
-      </list>
-      <p>The files are organized alphabetically by subject, then chronologically. Electronic files
-        are arranged chronologically.</p>
-    </arrangement>
+      </arrangement>
     <prefercite encodinganalog="524">
       <p>
         <extref
@@ -234,9 +226,10 @@
     <descgrp type="admininfo">
       <head>Administrative/Restriction Information</head>
       <accessrestrict encodinganalog="506">
-        <p>The Archives may need to delay access to Accessions 2010-004 for a reasonable period of
-          time to survey the records to identify protected information. Consult an archivist for
-          details.</p>
+        <p>Access to Folder 11 of Box 11 is restricted. Folder will be removed
+          by archivist before patron use.</p>
+        <p>Access to Folder 23 of Box 8 is restricted. Folder will be removed
+          by archivist before patron use.</p>
         <p>The records in box 3 are restricted in accordance with UWM Personnel File Policy
           S-42.</p>
         <p>Electronic records must be accessed at computers in the Archives. Contact an archivist
@@ -265,7 +258,8 @@
           additional syllabi to the collection in March 2013 (accessions 2012-027 and 2012-046).
           Hayley Jackson updated the finding aid to include information about accessions 2010-004
           and 2010-008 in August 2013. Ashlie Biddle (supervised by Christel Maass) processed
-          accession 2010-016 in February 2016.</p>
+          accession 2010-016 in February 2016. Phyllis Reske (supervised by Brad Houston) processed
+          accessions 2010-004 and 2010-008 in November 2016.</p>
       </processinfo>
       <phystech audience="internal" encodinganalog="538">
         <p>As of November 2012 all files were accessible on a computer running Windows XP
@@ -283,10 +277,31 @@
           <unittitle>Records, <unitdate type="inclusive" normal="1956/2013"
             >1956-2013</unitdate></unittitle>
           <physdesc>
-            <extent>2.6 cubic ft. (7 boxes)</extent>
+            <extent>6 cubic ft. (11 boxes)</extent>
             <extent>91 digital text files (10 MB)</extent>
           </physdesc>
         </did>
+        <c02>
+          <did>
+            <unittitle>Agreement Between Political Science and Global Studies, 1999-2009</unittitle>
+            <container type="box" label="Box">8</container>
+            <container type="folder" label="Folder">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Audit and Review, 1985-1995</unittitle>
+            <container type="box" label="Box">8</container>
+            <container type="folder" label="Folder">2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Center for International Studies, 1999</unittitle>
+            <container type="box" label="Box">8</container>
+            <container type="folder" label="Folder">3</container>
+          </did>
+        </c02>
         <c02>
           <did>
             <unittitle>Civil Libertarian Project, undated</unittitle>
@@ -338,6 +353,20 @@
         </c02>
         <c02>
           <did>
+            <unittitle>Doctorate Program Assessment, 2004</unittitle>
+            <container type="box" label="Box">8</container>
+            <container type="folder" label="Folder">4</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Enrollment Statistics, 1998</unittitle>
+            <container type="box" label="Box">8</container>
+            <container type="folder" label="Folder">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
             <unittitle>Executive Committee, Minutes and Correspondence, 1956-1981</unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">1-6</container>
@@ -345,6 +374,20 @@
           <accessrestrict>
             <p>Restricted</p>
           </accessrestrict>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Executive Committee, Minutes and Correspondence, 1989-1999</unittitle>
+            <container type="box" label="Box">8</container>
+            <container type="folders" label="Folders">6-9</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Faculty Research Reports, 1989-1994</unittitle>
+            <container type="box" label="Box">8</container>
+            <container type="folder" label="Folder">10</container>
+          </did>
         </c02>
         <c02>
           <did>
@@ -362,9 +405,37 @@
         </c02>
         <c02>
           <did>
+            <unittitle>Graduate Program Policies, Admission Check List and Brochure, undated</unittitle>
+            <container type="box" label="Box">8</container>
+            <container type="folder" label="Folder">11</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Graduate Program Reviews, 1984-2007</unittitle>
+            <container type="box" label="Box">8</container>
+            <container type="folders" label="Folders">12-17</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Graduate Program Review, Consultant's Report, 1994</unittitle>
+            <container type="box" label="Box">8</container>
+            <container type="folder" label="Folder">18</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
             <unittitle>Graduate Programs, 1964-1970</unittitle>
             <container type="box" label="Box">4</container>
             <container type="folder" label="Folder">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Honorary Degrees Program, 1992-2000</unittitle>
+            <container type="box" label="Box">8</container>
+            <container type="folder" label="Folder">19</container>
           </did>
         </c02>
         <c02>
@@ -462,10 +533,41 @@
         </c02>
         <c02>
           <did>
+            <unittitle>Law Studies Option, 1989-1992</unittitle>
+            <container type="box" label="Box">8</container>
+            <container type="folder" label="Folder">20</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Law Studies Transfer to Political Science, 1989-1990</unittitle>
+            <container type="box" label="Box">8</container>
+            <container type="folder" label="Folder">21</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
             <unittitle>Library and Research Aids Committee, 1958-1973</unittitle>
             <container type="box" label="Box">6</container>
             <container type="folder" label="Folder">4</container>
           </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Mock Trial Teams, 1992</unittitle>
+            <container type="box" label="Box">8</container>
+            <container type="folder" label="Folder">22</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Mock Trials, Correspondence, 2008</unittitle>
+            <container type="box" label="Box">11</container>
+            <container type="folder" label="Folder">11</container>
+          </did>
+          <accessrestrict>
+            <p>Restricted</p>
+          </accessrestrict>
         </c02>
         <c02>
           <did>
@@ -474,6 +576,16 @@
             <container type="box" label="Box">6</container>
             <container type="folder" label="Folder">5</container>
           </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Pi Sigma Alpha, Membership Lists and Correspondence, 1970-1995</unittitle>
+            <container type="box" label="Box">8</container>
+            <container type="folder" label="Folder">23</container>
+          </did>
+          <accessrestrict>
+            <p>Restricted</p>
+          </accessrestrict>
         </c02>
         <c02>
           <did>
@@ -491,9 +603,23 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Robert A. Taft Seminar, 1973-1975</unittitle>
-            <container type="box" label="Box">6</container>
-            <container type="folder" label="Folder">8</container>
+            <unittitle>Program Array Review, 1997-1998</unittitle>
+            <container type="box" label="Box">8</container>
+            <container type="folder" label="Folder">24</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Program Reviews and Correspondence, 1990-1998</unittitle>
+            <container type="box" label="Box">8</container>
+            <container type="folder" label="Folder">25</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Proposals, 1985-1986</unittitle>
+            <container type="box" label="Box">8</container>
+            <container type="folder" label="Folder">26</container>
           </did>
         </c02>
         <c02>
@@ -512,8 +638,51 @@
         </c02>
         <c02>
           <did>
+            <unittitle>Self-Study, 1998-1999</unittitle>
+            <container type="box" label="Box">8</container>
+            <container type="folder" label="Folder">27</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
             <unittitle>Syllabi</unittitle>
           </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1988-2010</unitdate>
+              </unittitle>
+              <container type="box" label="Box">9</container>
+              <container type="folders" label="Folders">1-29</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1988-2010</unitdate>
+              </unittitle>
+              <container type="box" label="Box">11</container>
+              <container type="folders" label="Folders">1-10</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1989-2010</unitdate>
+              </unittitle>
+              <container type="box" label="Box">10</container>
+              <container type="folders" label="Folders">1-28</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1997-2007</unitdate>
+              </unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="folders" label="Folders">28-33</container>
+            </did>
+          </c03>
           <c03>
             <did>
               <unittitle>
@@ -538,6 +707,48 @@
               <container type="electronic" label="Electronic Folder"/>
             </did>
           </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Robert A. Taft Seminar, 1973-1975</unittitle>
+            <container type="box" label="Box">6</container>
+            <container type="folder" label="Folder">8</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Teacher Certification in Political Science, 1981</unittitle>
+            <container type="box" label="Box">8</container>
+            <container type="folder" label="Folder">34</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Undergraduate Committee, Minutes and Correspondence, 1986-1998</unittitle>
+            <container type="box" label="Box">8</container>
+            <container type="folder" label="Folder">35</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Undergraduate Curriculum, 1996</unittitle>
+            <container type="box" label="Box">8</container>
+            <container type="folder" label="Folder">36</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Undergraduate Internships, 1998-2006</unittitle>
+            <container type="box" label="Box">8</container>
+            <container type="folder" label="Folder">37</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Undergraduate Program Audit and Review, 1995</unittitle>
+            <container type="box" label="Box">8</container>
+            <container type="folder" label="Folder">38</container>
+          </did>
         </c02>
         <c02>
           <did>
@@ -569,31 +780,6 @@
           </did>
         </c02>
       </c01>
-      <c01 level="otherlevel" otherlevel="unprocessed" id="acc2010-004">
-        <did>
-          <unitid>Accession 2010-004</unitid>
-          <unittitle>Subject Files, <unitdate>1990-2007</unitdate></unittitle>
-          <physdesc>
-            <extent>2 cubic ft. (2 boxes)</extent>
-          </physdesc>
-          <abstract>Additions of subject files dating from 1990 to 2007. Included are project files,
-            accreditation reports, correspondence files, executive committee minutes, and course
-            syllabi from 1997 to 2007 for some of the most frequently offered courses.</abstract>
-        </did>
-      </c01>
-      <c01 level="otherlevel" otherlevel="unprocessed" id="acc2010-008">
-        <did>
-          <unitid>Accession 2010-008</unitid>
-          <unittitle>Syllabi Files, <unitdate>1995-2010</unitdate></unittitle>
-          <physdesc>
-            <extent>3 cubic ft. (3 boxes)</extent>
-          </physdesc>
-          <abstract>Additions of syllabi files dating from 1995 to 2010. Includes reading lists and
-            copies of midterm and final exams for certain courses. Also included are files relating
-            to the UWM Mock Trial team, which was administered by the Dept. of Political
-            Science.</abstract>
-        </did>
-      </c01>
-    </dsc>
+      </dsc>
   </archdesc>
 </ead>
