@@ -495,7 +495,7 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Consultancy Grant, Report and Correspondence, 1977-1980</unittitle>
+              <unittitle>Consultancy Grant, Report and Correspondence, <unitdate>1977-1980</unitdate></unittitle>
               <container type="box" label="Box">4</container>
               <container type="folder" label="Folder">9</container>
             </did>
@@ -544,7 +544,7 @@
           </c03>
           <c03>
             <did>
-              <unittitle>National Endowment for the Humanities Conference, 1982</unittitle>
+              <unittitle>National Endowment for the Humanities Conference, <unitdate>1982</unitdate></unittitle>
               <container type="box" label="Box">6</container>
               <container type="folder" label="Folder">1</container>
             </did>
@@ -630,7 +630,7 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Political Science News, vol. 2 issue 2, <unitdate>1977</unitdate></unittitle>
+            <unittitle><title render="italic">Political Science News</title>, vol. 2 issue 2, <unitdate>1977</unitdate></unittitle>
             <container type="box" label="Box">6</container>
             <container type="box" label="Folder">7</container>
           </did>
@@ -690,21 +690,21 @@
             </did>
             <c04>
               <did>
-                <unittitle>103-193</unittitle>
+                <unittitle>Course Numbers 103-193</unittitle>
                 <container type="box" label="Box">8</container>
                 <container type="folder" label="Folder">29-39</container>
               </did>
             </c04>
             <c04>
               <did>
-                <unittitle>203-390</unittitle>
+                <unittitle>Course Numbers 203-390</unittitle>
                 <container type="box" label="Box">9</container>
                 <container type="folder" label="Folder">1-31</container>
               </did>
             </c04>
             <c04>
               <did>
-                <unittitle>396-974</unittitle>
+                <unittitle>Course Numbers 396-974</unittitle>
                 <container type="box" label="Box">10</container>
                 <container type="folder" label="Folder">1-31</container>
               </did>
