@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="ascii" standalone="no"?>
+<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
+<!-- wiarchives version:2008-05-22 -->
+<ead id="uw-mil-uwmac0108" relatedencoding="MARC21">
+  <eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
+    dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924"
+    relatedencoding="MARC21">
+    <eadid countrycode="US" mainagencycode="wimiugma"
+      url="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0108"
+      encodinganalog="856$u">uw-mil-uwmac0108</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245$a">Finding Aid of the UW-Milwaukee Dept. of Political
+          Science Records, 1956-2013</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="260$b">University of Wisconsin-Milwaukee Libraries, Archives
+          Department</publisher>
+        <address>
+          <addressline>University of Wisconsin-Milwaukee</addressline>
+          <addressline>UWM Libraries</addressline>
+          <addressline>Archives Department</addressline>
+          <addressline>P.O. Box 604</addressline>
+          <addressline>Milwaukee, Wisconsin 53201-0604</addressline>
+          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr
+              href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
+        </address>
+        <date encodinganalog="260$c" type="publication" normal="2007">Copyright &#169; 2007
+          University of Wisconsin Board of Regents</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation encodinganalog="500">Finding aid encoded by Dan Vinson</creation>
+      <langusage encodinganalog="546">Finding aid written in <language encodinganalog="041"
+          langcode="eng" scriptcode="Latn">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date normal="2016-02-17">February 17, 2016</date>
+        <item>Ashlie Biddle updated the finding aid after adding accession 2010-016 to the
+          collection.</item>
+      </change>
+      <change>
+        <date normal="2013-08-19">August 19, 2013</date>
+        <item>Hayley Jackson updated the finding aid, adding information about new, unprocessed
+          accessions.</item>
+      </change>
+      <change>
+        <date normal="2013-03-22">March 22, 2013</date>
+        <item>Brad Houston updated the finding aid to reflect the addition of electronic syllabi to
+          the collection (accessions 2012-027 and 2012-046). Changes were made to titleproper,
+          unittitle, scopecontent, bioghist, and the contents list.</item>
+      </change>
+      <change>
+        <date normal="2013-01-18">January 18, 2013</date>
+        <item>Brad Houston updated the finding aid to reflect the addition of electronic syllabi to
+          the collection. Changes were made to titleproper, unittitle, abstract, scopecontent,
+          bioghist, otherfindingaids, phystech, and the contents list.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="collection" relatedencoding="MARC21">
+    <did>
+      <physloc type="locationcode" audience="internal">wimiugma</physloc>
+      <unittitle encodinganalog="245$a">UW-Milwaukee Dept. of Political Science Records, <unitdate
+          type="inclusive" encodinganalog="245$f" normal="1956/2013"
+        >1956-2013</unitdate></unittitle>
+      <origination label="Creator">
+        <corpname encodinganalog="110">University of Wisconsin-Milwaukee. Dept. of Political
+          Science</corpname>
+      </origination>
+      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
+        >UWM Archival Collection 108</unitid>
+      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
+        >Accession 2010-004</unitid>
+      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
+        >Accession 2010-008</unitid>
+      <physdesc label="Quantity">
+        <extent encodinganalog="300">2.6 cubic ft. (7 boxes)</extent>
+        <extent encodinganalog="300">91 digital text files (10 MB)</extent>
+        <extent encodinganalog="300">plus additions of 5 cubic ft. (5 boxes)</extent>
+      </physdesc>
+      <repository encodinganalog="852">
+        <extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
+          title="University of Wisconsin-Milwaukee Logo." role="logoimage"/>
+        <extref href="http://www.uwm.edu/Libraries/arch/index.html">
+          <corpname>University of Wisconsin-Milwaukee Libraries, Archives Department</corpname>
+        </extref>
+      </repository>
+      <abstract encodinganalog="520">Records of the Department of Political Science, including
+        correspondence, staff meeting minutes, and miscellaneous information on lectures,
+        undergraduate and graduate programs, and department seminars. A large portion of the
+        collection is devoted to the development and organization of a Law Studies Program within
+        the Dept. of Political Science.</abstract>
+      <langmaterial encodinganalog="546" label="Language">
+        <language encodinganalog="041" langcode="eng">English</language>
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="545">
+      <p>The Dept. of Political Science was established in 1956 when the University of
+        Wisconsin-Milwaukee was created. The Dept. of Political Science instituted a master of
+        science program in 1959, and a doctoral program in 1967.</p>
+      <bioghist>
+        <head>Department Chairs</head>
+        <chronlist>
+          <chronitem>
+            <date>1956-1958</date>
+            <event>Charles D. Goff</event>
+          </chronitem>
+          <chronitem>
+            <date>1958-1961</date>
+            <event>Donald R. Shea</event>
+          </chronitem>
+          <chronitem>
+            <date>1961-1965</date>
+            <event>Marvin R. Summers</event>
+          </chronitem>
+          <chronitem>
+            <date>1965-1969</date>
+            <event>Wilder W. Crane, Jr.</event>
+          </chronitem>
+          <chronitem>
+            <date>1969-1972</date>
+            <event>Cornelius P. Cotter</event>
+          </chronitem>
+          <chronitem>
+            <date>1972-1976</date>
+            <event>John F. Bibby</event>
+          </chronitem>
+          <chronitem>
+            <date>1976-1979</date>
+            <event>Mark Tessler</event>
+          </chronitem>
+          <chronitem>
+            <date>1979-1982</date>
+            <event>Brett Hawkins</event>
+          </chronitem>
+          <chronitem>
+            <date>1982-1986</date>
+            <event>Meredith Watts</event>
+          </chronitem>
+          <chronitem>
+            <date>1986-1989</date>
+            <event>Howard Handelman</event>
+          </chronitem>
+          <chronitem>
+            <date>1989-1992</date>
+            <event>Stephan Percy</event>
+          </chronitem>
+          <chronitem>
+            <date>1992-1994</date>
+            <event>Ronald Weber</event>
+          </chronitem>
+          <chronitem>
+            <date>1994-1996</date>
+            <event>Meredith Watts</event>
+          </chronitem>
+          <chronitem>
+            <date>1996-2002</date>
+            <event>Marcus Ethridge</event>
+          </chronitem>
+          <chronitem>
+            <date>2002-2005</date>
+            <event>Howard Handelman</event>
+          </chronitem>
+          <chronitem>
+            <date>2005-2010</date>
+            <event>Marcus Ethridge</event>
+          </chronitem>
+          <chronitem>
+            <date>2010-</date>
+            <event>Tom Holbrook</event>
+          </chronitem>
+        </chronlist>
+      </bioghist>
+    </bioghist>
+    <scopecontent id="ref53">
+      <p>Records of the chair of the Department of Political Science, as well as files from the
+        office as a whole. The correspondence files largely consist of letters between
+        the dean and associate dean of the College of Letters &amp; Science and the chair of the
+        Dept. of Political Science regarding budgets, staffing, program development, events, and
+        curricula.</p>
+      <p>Much of the collection pertains to the development of a Law Studies Program within the
+        Political Science department. Included with the Law Studies materials are NEH Grant reports,
+        consultation reports, budgets, correspondence, curricula, and other records of the Law
+        Studies coordinator. The collection also contains materials on a Washington D.C. internship
+        coordinated by the Dept. of Political Science and information regarding the Political
+        Research Laboratory. Also included are minutes of various committees, documentation of
+        graduate programs, information about the student strike of 1970, and correspondence of the
+        Joint Conference Committee of the Political Science Departments of UW-Madison and
+        UW-Milwaukee (1957-1963).</p>
+      <p>The electronic records consist of syllabi of Political Science courses from the years
+        2010-2013.</p>
+    </scopecontent>
+    <arrangement encodinganalog="351">
+      <p>This collection was received in, and is organized in, multiple parts. Additional materials
+        have not been physically or intellectually arranged and interfiled, and researchers may need
+        to consult more than one part of the collection to locate similar materials.</p>
+      <list type="simple">
+        <item>
+          <ref target="uwmac0108" show="replace" actuate="onrequest">UWM Archival Collection 108:
+            Records, 1956-2013</ref>
+        </item>
+      </list>
+      <p>The collection contains two additional accessions.</p>
+      <list type="simple">
+        <item>
+          <ref target="acc2010-004" show="replace" actuate="onrequest">Accession 2010-004: Subject
+            Files, 1990-2007</ref>
+        </item>
+        <item>
+          <ref target="acc2010-008" show="replace" actuate="onrequest">Accession 2010-008: Syllabi
+            Files, 1995-2010</ref>
+        </item>
+      </list>
+      <p>The files are organized alphabetically by subject, then chronologically. Electronic files
+        are arranged chronologically.</p>
+    </arrangement>
+    <prefercite encodinganalog="524">
+      <p>
+        <extref
+          href="http://uwm.edu/libraries/archives/research/citation-guide-for-primary-sources/"
+          >Citation Guide for Primary Sources</extref>
+      </p>
+    </prefercite>
+    <relatedmaterial encodinganalog="544 1">
+      <head>Related Material in the UWM Libraries</head>
+      <archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0001"
+        actuate="onrequest" show="new">
+        <unittitle>UW-Milwaukee College of Letters &amp; Science Records</unittitle>
+        <unitid>UWM Archival Collection 1</unitid>
+      </archref>
+    </relatedmaterial>
+    <descgrp type="admininfo">
+      <head>Administrative/Restriction Information</head>
+      <accessrestrict encodinganalog="506">
+        <p>The Archives may need to delay access to Accessions 2010-004 for a reasonable period of
+          time to survey the records to identify protected information. Consult an archivist for
+          details.</p>
+        <p>The records in box 3 are restricted in accordance with UWM Personnel File Policy
+          S-42.</p>
+        <p>Electronic records must be accessed at computers in the Archives. Contact an archivist
+          for more information.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>The researcher assumes full responsibility for conforming with the laws of libel,
+          privacy, and copyright which may be involved in the use of this collection (Wisconsin
+          Statutes 19.21-19.39).</p>
+      </userestrict>
+      <otherfindaid id="ref50">
+        <p>An inventory/database of the Electronic Records is available in the Archives. Contact an
+          archivist for more information.</p>
+      </otherfindaid>
+      <acqinfo encodinganalog="541">
+        <p>An unknown donor transferred the collection to the Archives prior to 1989. Electronic
+          Records were transferred to the Archives in Fall of 2010, Spring of 2012, and Winter of
+          2013 from the Dept. of Political Science (Accessions 2010-030, 2011-034, 2012-027, and
+          2012-046). The Department of Political Science donated additional materials in July 2010
+          (accessions 2010-004 and 2010-008) and in September 2010 (accession 2010-016).</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+        <p>Nicholas P. Weber processed the collection at the Archives in June and July of 1995. The
+          electronic records (accessions 2010-030 and 2011-034) were processed by Lisa Christie as
+          part of a fieldwork supervised by Brad Houston in Fall 2012. Brad Houston added some
+          additional syllabi to the collection in March 2013 (accessions 2012-027 and 2012-046).
+          Hayley Jackson updated the finding aid to include information about accessions 2010-004
+          and 2010-008 in August 2013. Ashlie Biddle (supervised by Christel Maass) processed
+          accession 2010-016 in February 2016.</p>
+      </processinfo>
+      <phystech audience="internal" encodinganalog="538">
+        <p>As of November 2012 all files were accessible on a computer running Windows XP
+          Professional Version 2002, with Service Pack 3. Adobe Reader 9 was used to read the
+          files.</p>
+        <p>The collection includes the following file formats:</p>
+        <p>Acrobat PDF versions 1.3 - 1.6 [.pdf]</p>
+      </phystech>
+    </descgrp>
+    <dsc type="combined">
+      <head>Contents List</head>
+      <c01 level="otherlevel" otherlevel="processed" id="uwmac0108">
+        <did>
+          <unitid>UWM Archival Collection 108</unitid>
+          <unittitle>Records, <unitdate type="inclusive" normal="1956/2013"
+            >1956-2013</unitdate></unittitle>
+          <physdesc>
+            <extent>2.6 cubic ft. (7 boxes)</extent>
+            <extent>91 digital text files (10 MB)</extent>
+          </physdesc>
+        </did>
+        <c02>
+          <did>
+            <unittitle>Civil Libertarian Project, undated</unittitle>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Community Relations Committee, 1977</unittitle>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Correspondence, 1956-1972</unittitle>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">3-7</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Correspondence, 1973-1979</unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">1-2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Curriculum Committee, 1961-1978</unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">3-4</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Department Sponsored Lectures, 1977-1979</unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Departmental Staff Meetings, 1956-1981</unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">6-8</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Executive Committee, Minutes and Correspondence, 1956-1981</unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">1-6</container>
+          </did>
+          <accessrestrict>
+            <p>Restricted</p>
+          </accessrestrict>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Full Professors' Meeting, 1966-1978</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Graduate Committee, 1970-1976</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">2-4</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Graduate Programs, 1964-1970</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Joint Conference Committee, 1957-1963</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">6</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Law Studies, Annual Reports, 1982-1983</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">7</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Law Studies, Budget Revisions, 1980-1984</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">8</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Law Studies, Consultancy Grant, Report and Correspondence,
+              1977-1980</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">9</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Law Studies, Consultants' Site Visit, 1983-1984</unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">10</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Law Studies, Correspondence, 1973-1989</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">1-2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Law Studies, Curricula and Syllabi, 1975-1989</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">3</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Law Studies, Grant Extension Request, 1984</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">4</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Law Studies, Guest Lectures, 1980-1985</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Law Studies, Implementation Grant, 1980-1984</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">6</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Law Studies, National Endowment for the Humanities Conference,
+              1982</unittitle>
+            <container type="box" label="Box">6</container>
+            <container type="folder" label="Folder">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Law Studies, Pilot Grant, Report and Correspondence, 1978-1982</unittitle>
+            <container type="box" label="Box">6</container>
+            <container type="folder" label="Folder">2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Law Studies, Program Committee, 1973-1976</unittitle>
+            <container type="box" label="Box">6</container>
+            <container type="folder" label="Folder">3</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Library and Research Aids Committee, 1958-1973</unittitle>
+            <container type="box" label="Box">6</container>
+            <container type="folder" label="Folder">4</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>National Defense Education Act Master's Program Grant Application,
+              1958-1965</unittitle>
+            <container type="box" label="Box">6</container>
+            <container type="folder" label="Folder">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Political Research Laboratory, 1967-1975</unittitle>
+            <container type="box" label="Box">6</container>
+            <container type="folder" label="Folder">6</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Political Science News, vol. 2 issue 2, <unitdate>1977</unitdate></unittitle>
+            <container type="box" label="Box">6</container>
+            <container type="box" label="Folder">7</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Robert A. Taft Seminar, 1973-1975</unittitle>
+            <container type="box" label="Box">6</container>
+            <container type="folder" label="Folder">8</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Student Opinion Polls, 1967-1968</unittitle>
+            <container type="box" label="Box">6</container>
+            <container type="folder" label="Folder">9</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Student Strike, 1970</unittitle>
+            <container type="box" label="Box">6</container>
+            <container type="folder" label="Folder">10</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Syllabi</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>2010-2011</unitdate>
+              </unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>2011-2012</unitdate>
+              </unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>2012-2013</unitdate>
+              </unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>United Nations' Summer Seminar, 1965-1974</unittitle>
+            <container type="box" label="Box">6</container>
+            <container type="folder" label="Folder">11</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Washington Center for Learning Alternatives Newsletters, Brochures, and
+              Announcements, 1982-1987</unittitle>
+            <container type="box" label="Box">6</container>
+            <container type="folder" label="Folder">12</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Washington Internship, 1976-1987</unittitle>
+            <container type="box" label="Box">7</container>
+            <container type="folder" label="Folder">1-2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Washington Seminar, 1963, 1967</unittitle>
+            <container type="box" label="Box">7</container>
+            <container type="folder" label="Folder">3</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="otherlevel" otherlevel="unprocessed" id="acc2010-004">
+        <did>
+          <unitid>Accession 2010-004</unitid>
+          <unittitle>Subject Files, <unitdate>1990-2007</unitdate></unittitle>
+          <physdesc>
+            <extent>2 cubic ft. (2 boxes)</extent>
+          </physdesc>
+          <abstract>Additions of subject files dating from 1990 to 2007. Included are project files,
+            accreditation reports, correspondence files, executive committee minutes, and course
+            syllabi from 1997 to 2007 for some of the most frequently offered courses.</abstract>
+        </did>
+      </c01>
+      <c01 level="otherlevel" otherlevel="unprocessed" id="acc2010-008">
+        <did>
+          <unitid>Accession 2010-008</unitid>
+          <unittitle>Syllabi Files, <unitdate>1995-2010</unitdate></unittitle>
+          <physdesc>
+            <extent>3 cubic ft. (3 boxes)</extent>
+          </physdesc>
+          <abstract>Additions of syllabi files dating from 1995 to 2010. Includes reading lists and
+            copies of midterm and final exams for certain courses. Also included are files relating
+            to the UWM Mock Trial team, which was administered by the Dept. of Political
+            Science.</abstract>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
