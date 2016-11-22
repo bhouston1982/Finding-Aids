@@ -11,7 +11,7 @@
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Finding Aid of the UW-Milwaukee Roberto Hernandez Center
-          Records, 1970-1999</titleproper>
+          Records, 1970-2008</titleproper>
       </titlestmt>
       <publicationstmt>
         <publisher encodinganalog="260$b">University of Wisconsin-Milwaukee Libraries, Archives
@@ -36,13 +36,11 @@
     </profiledesc>
     <revisiondesc>
       <change>
-        <date>November 8, 2016</date>
-        <?oxy_comment_start author="houstobn" timestamp="20161108T121516-0600" comment="Refer back to this for the elements to change!"?>
+        <date normal="2016-11-22">November 22, 2016</date>
         <item>Brad Houston and Jessica Neal updated the finding aid to reflect addition of materials
           from 2011-024. Changes were made to titleproper, unitdate, extent, scopecontent,
           arrangement, otherfindaid, phystech, acqinfo, processinfo, and the contents list (boxes
           6-7 and electronic folders).</item>
-        <?oxy_comment_end?>
       </change>
       <change>
         <date normal="2012-12-12">December 12, 2012</date>
@@ -59,8 +57,8 @@
     <did>
       <physloc type="locationcode" audience="internal">wimiugma</physloc>
       <unittitle encodinganalog="245$a">UW-Milwaukee Roberto Hernandez Center Records, <unitdate
-          type="inclusive" encodinganalog="245$f" normal="1970/1999"
-          >1970-<?oxy_comment_start author="houstobn" timestamp="20161108T121650-0600" comment="Adjust date accordingly"?>1999<?oxy_comment_end?></unitdate></unittitle>
+          type="inclusive" encodinganalog="245$f" normal="1970/2008"
+        >1970-2008</unitdate></unittitle>
       <origination label="Creator">
         <corpname encodinganalog="110">University of Wisconsin-Milwaukee. Roberto Hernandez
           Center</corpname>
@@ -68,7 +66,7 @@
       <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
         >UWM Archival Collection 116</unitid>
       <physdesc label="Quantity">
-        <extent encodinganalog="300">3.4 cubic ft. (7 boxes)</extent>
+        <extent encodinganalog="300">3.0 cubic ft. (6 boxes)</extent>
         <extent>14 digital files (1 MB)</extent>
       </physdesc>
       <repository encodinganalog="852">
@@ -83,8 +81,9 @@
         correspondence from the advisory committee, reports, meeting minutes, and publications
         including newsletters and brochures. These records document staff and budget issues,
         community programs, program evaluations, and statistics and special problems of Hispanic
-        students at the University of
-        Wisconsin-<?oxy_comment_start author="houstobn" timestamp="20161108T121724-0600" comment="Possible change"?>Milwaukee<?oxy_comment_end?>.</abstract>
+        students at the University of Wisconsin-Milwaukee. Also included are records from the UWM
+        Hispanic Council, which worked on issues affecting Latinx students and staff across the
+        university.</abstract>
       <langmaterial encodinganalog="546" label="Language">
         <language encodinganalog="041" langcode="eng">English</language>
         <language encodinganalog="041" langcode="spa">Spanish</language>
@@ -139,20 +138,31 @@
             <date>1999-2002</date>
             <event>William Velez</event>
           </chronitem>
-          <?oxy_comment_start author="houstobn" timestamp="20161108T121819-0600" comment="Update this"?>
           <chronitem>
-            <date>2002- </date>
+            <date>2002-2016 </date>
             <event>Enrique Figueroa</event>
           </chronitem>
-          <?oxy_comment_end?>
+          <chronitem>
+            <date>2016-</date>
+            <event>Alberto Maldonado (interim)</event>
+          </chronitem>
         </chronlist>
       </bioghist>
     </bioghist>
-    <?oxy_comment_start author="houstobn" timestamp="20161108T122331-0600" comment="Create this"?>
     <scopecontent>
-      <p/>
+      <p>Records of the UWM Roberto Hernandez Center and its predecessor, the UWM Spanish-Speaking
+        Outreach Institute. The majority of the collection consists of administrative files of the
+        Center, including meeting minutes, correspondence with university units and community
+        groups, program reviews and reports,  and files on projects run by the Center. A smaller,
+        but significant, portion of the collections consists of publications from or supported by
+        the Center, including a number of research projects headed by faculty affiliated with the
+        center and production notes for a video on Puerto Rican literature. The collection also
+        includes records of the Hispanic Council, an oversight and advisory group that addressed
+        issues for Latinx students across campus. Of particular interest in this portion of the
+        collection is a 1995-1996 survey of Latinx students at UWM, which provides data on the
+        effectiveness of retention initiatives and on self-identity issues in the Latinx community
+        at UWM.</p>
     </scopecontent>
-    <?oxy_comment_end?>
     <arrangement encodinganalog="351">
       <p>The files are organized alphabetically by folder heading, then chronologically.</p>
     </arrangement>
@@ -210,22 +220,36 @@
           the collection to reflect its new name. Jessica Neal added materials from accession
           2011-024 in November 2016 (Brad Houston processed).</p>
       </processinfo>
+      <phystech audience="internal" encodinganalog="538">
+        <p>As of November 22, 2016, all electronic files were accessible on a Intel Core i5-4570 CPU
+          (3.20 GHz, 4 GB RAM) running Windows 7 Enterprise, with Service Pack 1. Windows Picture
+          and Fax Viewer and Adobe Acrobat were used to access the files.</p>
+        <p>The collection includes records in the following file formats:</p>
+        <list type="marked">
+          <item>Microsoft PowerPoint Presentation 97-2003 [.ppt]</item>
+          <item>Microsoft Word Document 6.0 and 97-2003 [.doc]</item>
+          <item>Microsoft Excel 97 Workbook [.xls]</item>
+          <item>Plain Text [.txt]</item>
+          <item>WordPerfect for MS-DOS/Windows Document [.wpd]</item>
+                  </list>
+      </phystech>
     </descgrp>
     <dsc type="in-depth">
       <head>Contents List</head>
       <c01 level="otherlevel" otherlevel="processed" id="uwmac0116">
         <did>
           <unitid>UWM AC 116</unitid>
-          <unittitle>UWM. Roberto Hernandez Center Records,
-              <unitdate>1970-<?oxy_comment_start author="houstobn" timestamp="20161108T122902-0600" comment="Fix this"?>1999<?oxy_comment_end?></unitdate></unittitle>
+          <unittitle>UWM. Roberto Hernandez Center Records, <unitdate normal="1970/2008"
+              >1970-2008</unitdate></unittitle>
           <physdesc>
-            <extent>3.4 cubic ft. (7 boxes)</extent>
+            <extent>3.0 cubic ft. (6 boxes)</extent>
             <extent>14 digital files (1 MB)</extent>
           </physdesc>
         </did>
         <c02>
           <did>
-            <unittitle>15th Anniversary Celebration Committee, <unitdate>1984-1985</unitdate></unittitle>
+            <unittitle>15th Anniversary Celebration Committee,
+              <unitdate>1984-1985</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">1</container>
           </did>
@@ -239,7 +263,14 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Advising, <unitdate>1976</unitdate>, <unitdate>1983-1985</unitdate></unittitle>
+            <unittitle>Administrative Files, <unitdate>1995-2001</unitdate></unittitle>
+            <container type="box" label="Box">6</container>
+            <container type="folder" label="Folder">1-2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Advising, <unitdate>1976-1985</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">3</container>
           </did>
@@ -285,7 +316,7 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Recommendations, <unitdate>1988</unitdate>, <unitdate>1995</unitdate></unittitle>
+              <unittitle>Recommendations, <unitdate>1988-1995</unitdate></unittitle>
               <container type="box" label="Box">3</container>
               <container type="folder" label="Folder">8</container>
             </did>
@@ -314,7 +345,7 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Sub-committee for Awards, Report, undated</unittitle>
+              <unittitle>Sub-committee for Awards, Report, <unitdate>undated</unitdate></unittitle>
               <container type="box" label="Box">3</container>
               <container type="folder" label="Folder">12</container>
             </did>
@@ -337,7 +368,8 @@
         </c02>
         <c02>
           <did>
-            <unittitle>American Minority Leadership Conference, <unitdate>1985</unitdate></unittitle>
+            <unittitle>American Minority Leadership Conference,
+              <unitdate>1985</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">3</container>
           </did>
@@ -359,7 +391,8 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Brochures and Publications, <unitdate>1973-1980</unitdate>, undated</unittitle>
+            <unittitle>Brochures and Publications, <unitdate>1973-1980</unitdate>,
+                <unitdate>undated</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">5</container>
           </did>
@@ -373,7 +406,7 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Chicano Films, List, undated</unittitle>
+            <unittitle>Chicano Films, List, <unitdate>undated</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">16</container>
           </did>
@@ -405,14 +438,15 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Interviews with Chicano Writers, undated</unittitle>
+              <unittitle>Interviews with Chicano Writers, <unitdate>undated</unitdate></unittitle>
               <container type="box" label="Box">3</container>
               <container type="folder" label="Folder">20</container>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Release Forms and Correspondence, <unitdate>1981-1982</unitdate></unittitle>
+              <unittitle>Release Forms and Correspondence,
+                <unitdate>1981-1982</unitdate></unittitle>
               <container type="box" label="Box">3</container>
               <container type="folder" label="Folder">21</container>
             </did>
@@ -459,21 +493,27 @@
           </c03>
           <c03>
             <did>
-              <unittitle><unitdate>1980-1984</unitdate></unittitle>
+              <unittitle>
+                <unitdate>1980-1984</unitdate>
+              </unittitle>
               <container type="box" label="Box">3</container>
               <container type="folder" label="Folder">26</container>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle><unitdate>1984-1985</unitdate></unittitle>
+              <unittitle>
+                <unitdate>1984-1985</unitdate>
+              </unittitle>
               <container type="box" label="Box">1</container>
               <container type="folder" label="Folder">7</container>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle><unitdate>1985-1991</unitdate></unittitle>
+              <unittitle>
+                <unitdate>1985-1991</unitdate>
+              </unittitle>
               <container type="box" label="Box">3</container>
               <container type="folder" label="Folder">27-28</container>
             </did>
@@ -503,14 +543,16 @@
         </c02>
         <c02>
           <did>
-            <unittitle>"Design for Diversity", UWM Annual M/D Report, <unitdate>1989</unitdate></unittitle>
+            <unittitle>"Design for Diversity", UWM Annual M/D Report,
+              <unitdate>1989</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">30</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Director's Report to the Advisory Committee, undated</unittitle>
+            <unittitle>Director's Report to the Advisory Committee,
+              <unitdate>undated</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">10</container>
           </did>
@@ -525,7 +567,8 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Evaluation, Five-Year Review of Minority Program Offices, <unitdate>1989</unitdate></unittitle>
+            <unittitle>Evaluation, Five-Year Review of Minority Program Offices,
+                <unitdate>1989</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">31</container>
           </did>
@@ -567,6 +610,49 @@
         </c02>
         <c02>
           <did>
+            <unittitle>Hispanic Council</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1980-2005</unitdate>
+              </unittitle>
+              <container type="box" label="Box">6</container>
+              <container type="folder" label="Folder">3</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Clippings, <unitdate>1988-1989</unitdate></unittitle>
+              <container type="box" label="Box">6</container>
+              <container type="folder" label="Folder">4</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>General Correspondence, <unitdate>1988-1994</unitdate></unittitle>
+              <container type="box" label="Box">6</container>
+              <container type="folder" label="Folder">5</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Meeting Minutes, <unitdate>1988-1994</unitdate></unittitle>
+              <container type="box" label="Box">6</container>
+              <container type="folder" label="Folder">6</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Race and Ethics Research Instruments,
+                <unitdate>1995-1996</unitdate></unittitle>
+              <container type="box" label="Box">6</container>
+              <container type="folder" label="Folder">3</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
             <unittitle>Hispanic Ethnic Studies, <unitdate>1978-1979</unitdate></unittitle>
             <container type="box" label="Box">2</container>
             <container type="folder" label="Folder">3</container>
@@ -574,21 +660,24 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Hispanic Ethnic Studies TV Series, Closing Credits, <unitdate>1981</unitdate></unittitle>
+            <unittitle>Hispanic Ethnic Studies TV Series, Closing Credits,
+              <unitdate>1981</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">34</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Hispanic Ethnic Studies TV Series, Set Design and Costumes, <unitdate>1981</unitdate></unittitle>
+            <unittitle>Hispanic Ethnic Studies TV Series, Set Design and Costumes,
+                <unitdate>1981</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">35</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Hispanic Freshmen, Studies and Statistics, <unitdate>1981-1989</unitdate></unittitle>
+            <unittitle>Hispanic Freshmen, Studies and Statistics,
+              <unitdate>1981-1989</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">36</container>
           </did>
@@ -611,7 +700,7 @@
         <c02>
           <did>
             <unittitle><title render="italic">Hispanic Migration: Historic Glimpses</title>, Tape
-              Logs, undated</unittitle>
+              Logs, <unitdate>undated</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">39</container>
           </did>
@@ -619,14 +708,15 @@
         <c02>
           <did>
             <unittitle>Hispanic Minority Ethnic Studies, Television Lecture Series: A Videotape
-              Bank, undated</unittitle>
+              Bank, <unitdate>undated</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">40</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Hispanic Policy Development Project, <unitdate>1987-1988</unitdate></unittitle>
+            <unittitle>Hispanic Policy Development Project,
+              <unitdate>1987-1988</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">41</container>
           </did>
@@ -640,21 +730,24 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Hispanic Students Academic Services, Report, <unitdate>1986-1987</unitdate></unittitle>
+            <unittitle>Hispanic Students Academic Services, Report,
+              <unitdate>1986-1987</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">43</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>"How the College Views the SSOI", Report from Dean, undated</unittitle>
+            <unittitle>"How the College Views the SSOI", Report from Dean,
+                <unitdate>undated</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">44</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>International Seminar for Minority Students, Proposal, <unitdate>1984</unitdate></unittitle>
+            <unittitle>International Seminar for Minority Students, Proposal,
+                <unitdate>1984</unitdate></unittitle>
             <container type="box" label="Box">2</container>
             <container type="folder" label="Folder">4</container>
           </did>
@@ -667,7 +760,10 @@
           </did>
         </c02>
         <c02>
-          <did><unittitle><title render="doublequote">Latinos in the Midwest</title> Research Symposium, Research Materials, <unitdate>1999-2001(</unitdate></unittitle></did>
+          <did>
+            <unittitle><title render="doublequote">Latinos in the Midwest</title> Research
+              Symposium, Research Materials, <unitdate>1999-2001(</unitdate></unittitle>
+          </did>
         </c02>
         <c02>
           <did>
@@ -695,6 +791,11 @@
         </c02>
         <c02>
           <did>
+            <unittitle>Mission Statements and History, <unitdate>1999-2008</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
             <unittitle>Newsletters, <unitdate>1975-1989</unitdate></unittitle>
             <container type="box" label="Box">2</container>
             <container type="folder" label="Folder">8</container>
@@ -702,7 +803,8 @@
         </c02>
         <c02>
           <did>
-            <unittitle>"Nosotros...We...", U.S. Department of Commerce, Booklet 4, <unitdate>1985</unitdate></unittitle>
+            <unittitle>"Nosotros...We...", U.S. Department of Commerce, Booklet 4,
+                <unitdate>1985</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">46</container>
           </did>
@@ -723,14 +825,15 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Photo Essay on Wisconsin Hispanic Women, <unitdate>1984-1985</unitdate></unittitle>
+            <unittitle>Photo Essay on Wisconsin Hispanic Women,
+              <unitdate>1984-1985</unitdate></unittitle>
             <container type="box" label="Box">2</container>
             <container type="folder" label="Folder">9</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Photographs, undated</unittitle>
+            <unittitle>Photographs, <unitdate>undated</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">49</container>
           </did>
@@ -831,7 +934,7 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Pamphlet, undated</unittitle>
+              <unittitle>Pamphlet, <unitdate>undated</unitdate></unittitle>
               <container type="box" label="Box">4</container>
               <container type="folder" label="Folder">8</container>
             </did>
@@ -839,7 +942,7 @@
           <c03>
             <did>
               <unittitle>Revista <title render="italic">Chicano-Riquena</title>,
-                <unitdate>1977-1985</unitdate></unittitle>
+                  <unitdate>1977-1985</unitdate></unittitle>
               <container type="box" label="Box">5</container>
               <container type="folder" label="Folder">1</container>
             </did>
@@ -847,7 +950,8 @@
           <c03>
             <did>
               <unittitle>Revista <title render="italic">Chicano-Riquena</title>, "Puerto-Rican
-                Literature: A Landscape of the Seventies, Essay, <unitdate>1980</unitdate></unittitle>
+                Literature: A Landscape of the Seventies, Essay,
+                <unitdate>1980</unitdate></unittitle>
               <container type="box" label="Box">5</container>
               <container type="folder" label="Folder">2</container>
             </did>
@@ -867,14 +971,14 @@
           </did>
           <c03>
             <did>
-              <unittitle>Photograph's and Notes, circa 1979</unittitle>
+              <unittitle>Photographs and Notes, <unitdate>circa 1979</unitdate></unittitle>
               <container type="box" label="Box">5</container>
               <container type="folder" label="Folder">4</container>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Release Forms, undated</unittitle>
+              <unittitle>Release Forms, <unitdate>undated</unitdate></unittitle>
               <container type="box" label="Box">5</container>
               <container type="folder" label="Folder">5</container>
             </did>
@@ -904,21 +1008,24 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Recruitment and Retention Activities, <unitdate>1981-1982</unitdate></unittitle>
+            <unittitle>Recruitment and Retention Activities,
+              <unitdate>1981-1982</unitdate></unittitle>
             <container type="box" label="Box">5</container>
             <container type="folder" label="Folder">9</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Report on First Semester Freshmen Dropouts, <unitdate>1983-1984</unitdate></unittitle>
+            <unittitle>Report on First Semester Freshmen Dropouts,
+              <unitdate>1983-1984</unitdate></unittitle>
             <container type="box" label="Box">5</container>
             <container type="folder" label="Folder">10</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Second Language and Second Dialect Acquisition, <unitdate>1978</unitdate></unittitle>
+            <unittitle>Second Language and Second Dialect Acquisition,
+              <unitdate>1978</unitdate></unittitle>
             <container type="box" label="Box">2</container>
             <container type="folder" label="Folder">11</container>
           </did>
@@ -926,10 +1033,38 @@
         <c02>
           <did>
             <unittitle>Spanish/Portuguese Joint Positions, Correspondence and Related Documents,
-              <unitdate>1970-1982</unitdate></unittitle>
+                <unitdate>1970-1982</unitdate></unittitle>
             <container type="box" label="Box">5</container>
             <container type="folder" label="Folder">11</container>
           </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Spanish Speaking Outreach Institute</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1987-1998</unitdate>
+              </unittitle>
+              <container type="box" label="Box">6</container>
+              <container type="folder" label="Folder">9</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Advisory Committee, <unitdate>1985-2000</unitdate></unittitle>
+              <container type="box" label="Box">6</container>
+              <container type="folder" label="Folder">10</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Bulletins and Reports, <unitdate>1986</unitdate></unittitle>
+              <container type="box" label="Box">6</container>
+              <container type="folder" label="Folder">11</container>
+            </did>
+          </c03>
         </c02>
         <c02>
           <did>
@@ -947,21 +1082,24 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Summer Education Program in Puerto Rico, <unitdate>1981-1984</unitdate></unittitle>
+            <unittitle>Summer Education Program in Puerto Rico,
+              <unitdate>1981-1984</unitdate></unittitle>
             <container type="box" label="Box">2</container>
             <container type="folder" label="Folder">12</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>"The Take-Over of the Chancery", William Quiles, undated</unittitle>
+            <unittitle>"The Take-Over of the Chancery", William Quiles,
+              <unitdate>undated</unitdate></unittitle>
             <container type="box" label="Box">5</container>
             <container type="folder" label="Folder">14</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Transfer to Department of Student Affairs, <unitdate>1988</unitdate></unittitle>
+            <unittitle>Transfer to Department of Student Affairs,
+              <unitdate>1988</unitdate></unittitle>
             <container type="box" label="Box">5</container>
             <container type="folder" label="Folder">15</container>
           </did>
@@ -975,6 +1113,12 @@
         </c02>
         <c02>
           <did>
+            <unittitle>Velez, William Research Files, <unitdate>1999-2000</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"/>
+          </did>
+        </c02>
+        <c02>
+          <did>
             <unittitle><title render="italic">Victor Hernandez and La Salsa de Dios</title> Report,
               1979</unittitle>
             <container type="box" label="Box">2</container>
@@ -983,21 +1127,23 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Visual Arts Video, Notes and Related Documents, undated</unittitle>
+            <unittitle>Visual Arts Video, Notes and Related Documents,
+              <unitdate>undated</unitdate></unittitle>
             <container type="box" label="Box">5</container>
             <container type="folder" label="Folder">17</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Visual Arts Video, Tape Logs, undated</unittitle>
+            <unittitle>Visual Arts Video, Tape Logs, <unitdate>undated</unitdate></unittitle>
             <container type="box" label="Box">5</container>
             <container type="folder" label="Folder">18</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Wisconsin Conference on the Hispanic Family, <unitdate>1984</unitdate></unittitle>
+            <unittitle>Wisconsin Conference on the Hispanic Family,
+              <unitdate>1984</unitdate></unittitle>
             <container type="box" label="Box">2</container>
             <container type="folder" label="Folder">14</container>
           </did>
