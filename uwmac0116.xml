@@ -415,14 +415,14 @@
           </did>
           <c03>
             <did>
-              <unittitle>Articles/Published Materials, circa 1981</unittitle>
+              <unittitle>Articles/Published Materials, <unitdate>circa 1981</unitdate></unittitle>
               <container type="box" label="Box">3</container>
               <container type="folder" label="Folder">17</container>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Bibliography/Author Directory, circa 1981</unittitle>
+              <unittitle>Bibliography/Author Directory, <unitdate>circa 1981</unitdate></unittitle>
               <container type="box" label="Box">3</container>
               <container type="folder" label="Folder">18</container>
             </did>
@@ -484,7 +484,9 @@
           </did>
           <c03>
             <did>
-              <unittitle>1972, <unitdate>1976-1978</unitdate></unittitle>
+              <unittitle>
+                <unitdate>1972-1978</unitdate>
+              </unittitle>
               <container type="box" label="Box">3</container>
               <container type="folder" label="Folder">25</container>
             </did>
