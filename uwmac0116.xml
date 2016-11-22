@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ascii" standalone="no"?>
- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > 
+<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
 <!-- wiarchives version:2008-05-22 -->
 <ead id="uw-mil-uwmac0116" relatedencoding="MARC21">
   <eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
@@ -22,8 +22,7 @@
           <addressline>Archives Department</addressline>
           <addressline>P.O. Box 604</addressline>
           <addressline>Milwaukee, Wisconsin 53201-0604</addressline>
-          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr
-              href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
+          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
         </address>
         <date encodinganalog="260$c" type="publication" normal="2007">Copyright &#169; 2007
           University of Wisconsin Board of Regents</date>
@@ -153,15 +152,14 @@
       <p>Records of the UWM Roberto Hernandez Center and its predecessor, the UWM Spanish-Speaking
         Outreach Institute. The majority of the collection consists of administrative files of the
         Center, including meeting minutes, correspondence with university units and community
-        groups, program reviews and reports,  and files on projects run by the Center. A smaller,
-        but significant, portion of the collections consists of publications from or supported by
-        the Center, including a number of research projects headed by faculty affiliated with the
-        center and production notes for a video on Puerto Rican literature. The collection also
-        includes records of the Hispanic Council, an oversight and advisory group that addressed
-        issues for Latinx students across campus. Of particular interest in this portion of the
-        collection is a 1995-1996 survey of Latinx students at UWM, which provides data on the
-        effectiveness of retention initiatives and on self-identity issues in the Latinx community
-        at UWM.</p>
+        groups, program reviews and reports, and files on projects run by the Center. A smaller, but
+        significant, portion of the collections consists of publications from or supported by the
+        Center, including a number of research projects headed by faculty affiliated with the center
+        and production notes for a video on Puerto Rican literature. The collection also includes
+        records of the Hispanic Council, an oversight and advisory group that addressed issues for
+        Latinx students across campus. Of particular interest in this portion of the collection is a
+        1995-1996 survey of Latinx students at UWM, which provides data on the effectiveness of
+        retention initiatives and on self-identity issues in the Latinx community at UWM.</p>
     </scopecontent>
     <arrangement encodinganalog="351">
       <p>The files are organized alphabetically by folder heading, then chronologically.</p>
@@ -218,7 +216,7 @@
           October 2007. Charles Welborn processed additional material in July 2012. Christel Maass
           added a few miscellaneous items to the collection in December 2012 and updated the name of
           the collection to reflect its new name. Jessica Neal added materials from accession
-          2011-024 in November 2016 (Brad Houston processed).</p>
+          2011-024 in November 2016 (Brad Houston supervised).</p>
       </processinfo>
       <phystech audience="internal" encodinganalog="538">
         <p>As of November 22, 2016, all electronic files were accessible on a Intel Core i5-4570 CPU
@@ -231,7 +229,7 @@
           <item>Microsoft Excel 97 Workbook [.xls]</item>
           <item>Plain Text [.txt]</item>
           <item>WordPerfect for MS-DOS/Windows Document [.wpd]</item>
-                  </list>
+        </list>
       </phystech>
     </descgrp>
     <dsc type="in-depth">
@@ -647,32 +645,37 @@
               <unittitle>Race and Ethics Research Instruments,
                 <unitdate>1995-1996</unitdate></unittitle>
               <container type="box" label="Box">6</container>
-              <container type="folder" label="Folder">3</container>
+              <container type="folder" label="Folder">7</container>
             </did>
           </c03>
         </c02>
         <c02>
           <did>
-            <unittitle>Hispanic Ethnic Studies, <unitdate>1978-1979</unitdate></unittitle>
-            <container type="box" label="Box">2</container>
-            <container type="folder" label="Folder">3</container>
+            <unittitle>Hispanic Ethnic Studies</unittitle>
           </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Hispanic Ethnic Studies TV Series, Closing Credits,
-              <unitdate>1981</unitdate></unittitle>
-            <container type="box" label="Box">3</container>
-            <container type="folder" label="Folder">34</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Hispanic Ethnic Studies TV Series, Set Design and Costumes,
-                <unitdate>1981</unitdate></unittitle>
-            <container type="box" label="Box">3</container>
-            <container type="folder" label="Folder">35</container>
-          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1978-1979</unitdate>
+              </unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">3</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>TV Series, Closing Credits, <unitdate>1981</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">34</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>TV Series, Set Design and Costumes, <unitdate>1981</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">35</container>
+            </did>
+          </c03>
         </c02>
         <c02>
           <did>
@@ -691,19 +694,24 @@
         </c02>
         <c02>
           <did>
-            <unittitle><title render="italic">Hispanic Migration: Historic Glimpses</title>, Notes
-              and Outlines, circa 1981</unittitle>
-            <container type="box" label="Box">3</container>
-            <container type="folder" label="Folder">38</container>
+            <unittitle>
+              <title render="italic">Hispanic Migration: Historic Glimpses</title>
+            </unittitle>
           </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle><title render="italic">Hispanic Migration: Historic Glimpses</title>, Tape
-              Logs, <unitdate>undated</unitdate></unittitle>
-            <container type="box" label="Box">3</container>
-            <container type="folder" label="Folder">39</container>
-          </did>
+          <c03>
+            <did>
+              <unittitle>Notes and Outlines, <unitdate>circa 1981</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">38</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Tape Logs, <unitdate>undated</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">39</container>
+            </did>
+          </c03>
         </c02>
         <c02>
           <did>
@@ -721,24 +729,25 @@
             <container type="folder" label="Folder">41</container>
           </did>
         </c02>
-        <c02>
+       <c02><did><unittitle>Hispanic Students Academic Services</unittitle></did> <c03>
           <did>
-            <unittitle>Hispanic Students Academic Services, <unitdate>1973</unitdate></unittitle>
+            <unittitle><unitdate>1973</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">42</container>
           </did>
-        </c02>
-        <c02>
+        </c03>
+        <c03>
           <did>
             <unittitle>Hispanic Students Academic Services, Report,
               <unitdate>1986-1987</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">43</container>
           </did>
-        </c02>
+        </c03>
+       </c02>
         <c02>
           <did>
-            <unittitle>"How the College Views the SSOI", Report from Dean,
+            <unittitle><title render="doublequote">How the College Views the SSOI</title>, Report from Dean,
                 <unitdate>undated</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">44</container>
@@ -792,6 +801,8 @@
         <c02>
           <did>
             <unittitle>Mission Statements and History, <unitdate>1999-2008</unitdate></unittitle>
+            <container type="box" label="Box">6</container>
+            <container type="folder" label="Folder">8</container>
           </did>
         </c02>
         <c02>
