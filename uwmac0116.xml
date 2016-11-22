@@ -11,7 +11,7 @@
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Finding Aid of the UW-Milwaukee Roberto Hernandez Center
-          Records, 1970-1999</titleproper>
+          Records, 1970-2008</titleproper>
       </titlestmt>
       <publicationstmt>
         <publisher encodinganalog="260$b">University of Wisconsin-Milwaukee Libraries, Archives
@@ -35,6 +35,13 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date normal="2016-11-22">November 22, 2016</date>
+        <item>Brad Houston and Jessica Neal updated the finding aid to reflect addition of materials
+          from 2011-024. Changes were made to titleproper, unitdate, extent, scopecontent,
+          arrangement, otherfindaid, phystech, acqinfo, processinfo, and the contents list (boxes
+          6-7 and electronic folders).</item>
+      </change>
+      <change>
         <date normal="2012-12-12">December 12, 2012</date>
         <item>Christel Maass updated the name of the collection.</item>
       </change>
@@ -49,8 +56,8 @@
     <did>
       <physloc type="locationcode" audience="internal">wimiugma</physloc>
       <unittitle encodinganalog="245$a">UW-Milwaukee Roberto Hernandez Center Records, <unitdate
-          type="inclusive" encodinganalog="245$f" normal="1970/1999"
-        >1970-1999</unitdate></unittitle>
+          type="inclusive" encodinganalog="245$f" normal="1970/2008"
+        >1970-2008</unitdate></unittitle>
       <origination label="Creator">
         <corpname encodinganalog="110">University of Wisconsin-Milwaukee. Roberto Hernandez
           Center</corpname>
@@ -58,7 +65,8 @@
       <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
         >UWM Archival Collection 116</unitid>
       <physdesc label="Quantity">
-        <extent encodinganalog="300">2.6 cubic ft. (5 boxes)</extent>
+        <extent encodinganalog="300">3.0 cubic ft. (6 boxes)</extent>
+        <extent>14 digital files (1 MB)</extent>
       </physdesc>
       <repository encodinganalog="852">
         <extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
@@ -67,12 +75,14 @@
           <corpname>University of Wisconsin-Milwaukee Libraries, Archives Department</corpname>
         </extref>
       </repository>
-      <abstract encodinganalog="520">Records and publications from the Roberto Hernandez Center and its
-        predecessor, the Spanish Speaking Outreach Institute. This collection consists mainly of
+      <abstract encodinganalog="520">Records and publications from the Roberto Hernandez Center and
+        its predecessor, the Spanish Speaking Outreach Institute. This collection consists mainly of
         correspondence from the advisory committee, reports, meeting minutes, and publications
         including newsletters and brochures. These records document staff and budget issues,
         community programs, program evaluations, and statistics and special problems of Hispanic
-        students at the University of Wisconsin-Milwaukee.</abstract>
+        students at the University of Wisconsin-Milwaukee. Also included are records from the UWM
+        Hispanic Council, which worked on issues affecting Latinx students and staff across the
+        university.</abstract>
       <langmaterial encodinganalog="546" label="Language">
         <language encodinganalog="041" langcode="eng">English</language>
         <language encodinganalog="041" langcode="spa">Spanish</language>
@@ -83,9 +93,9 @@
         was founded in 1970 with the purpose of increasing the enrollment of Hispanic students at
         the University of Wisconsin-Milwaukee, and providing services related to education for
         Milwaukee's Hispanic community. Initially established within the Office of the Chancellor,
-        the Institute later became part of the College of Letters &amp; Science. The Center
-        offers English classes, helps students receive financial aid, tutors incoming UWM freshmen,
-        and provides counseling and information services. It also supports Hispanic art exhibits and
+        the Institute later became part of the College of Letters &amp; Science. The Center offers
+        English classes, helps students receive financial aid, tutors incoming UWM freshmen, and
+        provides counseling and information services. It also supports Hispanic art exhibits and
         theater productions, speakers, and community awareness activities.</p>
       <bioghist>
         <head>Directors of the Institute</head>
@@ -128,19 +138,37 @@
             <event>William Velez</event>
           </chronitem>
           <chronitem>
-            <date>2002- </date>
+            <date>2002-2016 </date>
             <event>Enrique Figueroa</event>
+          </chronitem>
+          <chronitem>
+            <date>2016-</date>
+            <event>Alberto Maldonado (interim)</event>
           </chronitem>
         </chronlist>
       </bioghist>
     </bioghist>
+    <scopecontent>
+      <p>Records of the UWM Roberto Hernandez Center and its predecessor, the UWM Spanish-Speaking
+        Outreach Institute. The majority of the collection consists of administrative files of the
+        Center, including meeting minutes, correspondence with university units and community
+        groups, program reviews and reports, and files on projects run by the Center. A smaller, but
+        significant, portion of the collections consists of publications from or supported by the
+        Center, including a number of research projects headed by faculty affiliated with the center
+        and production notes for a video on Puerto Rican literature. The collection also includes
+        records of the Hispanic Council, an oversight and advisory group that addressed issues for
+        Latinx students across campus. Of particular interest in this portion of the collection is a
+        1995-1996 survey of Latinx students at UWM, which provides data on the effectiveness of
+        retention initiatives and on self-identity issues in the Latinx community at UWM.</p>
+    </scopecontent>
     <arrangement encodinganalog="351">
       <p>The files are organized alphabetically by folder heading, then chronologically.</p>
     </arrangement>
     <prefercite encodinganalog="524">
       <p>
-        <extref href="http://uwm.edu/libraries/archives/research/citation-guide-for-primary-sources/">Citation Guide for
-          Primary Sources</extref>
+        <extref
+          href="http://uwm.edu/libraries/archives/research/citation-guide-for-primary-sources/"
+          >Citation Guide for Primary Sources</extref>
       </p>
     </prefercite>
     <relatedmaterial encodinganalog="544 1">
@@ -162,6 +190,9 @@
         <unitid>UWM Archival Collection 58</unitid>
       </archref>
     </relatedmaterial>
+    <otherfindaid>
+      <p>An inventory of the digital files in the collection is available in the archives.</p>
+    </otherfindaid>
     <descgrp type="admininfo">
       <head>Administrative/Restriction Information</head>
       <accessrestrict encodinganalog="506">
@@ -176,799 +207,967 @@
       <acqinfo encodinganalog="541">
         <p>An unknown donor transferred the collection to the Archives prior to 1989. Center
           Director Enrique Figueroa transferred additional materials to the Archives in January 2007
-          (accession 2006-034).</p>
+          (accession 2006-034). The Department of Sociology transferred additional materials to the
+          Archives in 2011 (accession 2011-024)</p>
       </acqinfo>
       <processinfo encodinganalog="583">
         <p>Leslie B. Heinrichs processed part of the collection at the Archives in June 1995. Rhonda
           Huber completed processing in October 1995. Jenny Juno processed accession 2006-034 in
           October 2007. Charles Welborn processed additional material in July 2012. Christel Maass
           added a few miscellaneous items to the collection in December 2012 and updated the name of
-          the collection to reflect its new name.</p>
+          the collection to reflect its new name. Jessica Neal added materials from accession
+          2011-024 in November 2016 (Brad Houston supervised).</p>
       </processinfo>
+      <phystech audience="internal" encodinganalog="538">
+        <p>As of November 22, 2016, all electronic files were accessible on a Intel Core i5-4570 CPU
+          (3.20 GHz, 4 GB RAM) running Windows 7 Enterprise, with Service Pack 1. Adobe Acrobat and
+          Microsoft Office were used to access the files.</p>
+        <p>The collection includes records in the following file formats:</p>
+        <list type="marked">
+          <item>Microsoft PowerPoint Presentation 97-2003 [.ppt]</item>
+          <item>Microsoft Word Document 6.0 and 97-2003 [.doc]</item>
+          <item>Microsoft Excel 97 Workbook [.xls]</item>
+          <item>Plain Text [.txt]</item>
+          <item>WordPerfect for MS-DOS/Windows Document [.wpd]</item>
+        </list>
+      </phystech>
     </descgrp>
     <dsc type="in-depth">
       <head>Contents List</head>
-      <c01>
+      <c01 level="otherlevel" otherlevel="processed" id="uwmac0116">
         <did>
-          <unittitle>15th Anniversary Celebration Committee, 1984-1985</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">1</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Activities, Sponsored and Co-Sponsored, 1991</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">2</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Advising, 1976, 1983-1985</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">3</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Advisory Committee</unittitle>
+          <unitid>UWM AC 116</unitid>
+          <unittitle>UWM. Roberto Hernandez Center Records, <unitdate normal="1970/2008"
+              >1970-2008</unitdate></unittitle>
+          <physdesc>
+            <extent>3.0 cubic ft. (6 boxes)</extent>
+            <extent>14 digital files (1 MB)</extent>
+          </physdesc>
         </did>
         <c02>
           <did>
-            <unittitle>Correspondence and Memos, 1970-1981</unittitle>
-            <container type="box" label="Box">1</container>
-            <container type="folder" label="Folder">1</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Meetings and Minutes, 1985-1995</unittitle>
-            <container type="box" label="Box">3</container>
-            <container type="folder" label="Folder">4</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Members Lists, 1978-1995</unittitle>
-            <container type="box" label="Box">3</container>
-            <container type="folder" label="Folder">5</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Notes, 1985</unittitle>
-            <container type="box" label="Box">3</container>
-            <container type="folder" label="Folder">6</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Proposal, 1985</unittitle>
-            <container type="box" label="Box">3</container>
-            <container type="folder" label="Folder">7</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Recommendations, 1988, 1995</unittitle>
-            <container type="box" label="Box">3</container>
-            <container type="folder" label="Folder">8</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Reports, 1985-1988</unittitle>
-            <container type="box" label="Box">3</container>
-            <container type="folder" label="Folder">9</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Student Affairs Sub-committee, 1985-1988</unittitle>
-            <container type="box" label="Box">3</container>
-            <container type="folder" label="Folder">10</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Sub-committee, Council for the Education of Latin Americans,
-              1986-1987</unittitle>
+            <unittitle>15th Anniversary Celebration Committee,
+              <unitdate>1984-1985</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">1</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Sub-committee for Awards, Report, undated</unittitle>
+            <unittitle>Activities, Sponsored and Co-Sponsored, <unitdate>1991</unitdate></unittitle>
             <container type="box" label="Box">3</container>
-            <container type="folder" label="Folder">12</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Yearly Report, 1983-1984</unittitle>
-            <container type="box" label="Box">3</container>
-            <container type="folder" label="Folder">13</container>
-          </did>
-        </c02>
-      </c01>
-      <c01>
-        <did>
-          <unittitle><title render="italic">Alcoholic Beverage Drinking Practices of Hispanic
-              College Students</title>, 1982</unittitle>
-          <container type="box" label="Box">1</container>
-          <container type="folder" label="Folder">2</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>American Minority Leadership Conference, 1985</unittitle>
-          <container type="box" label="Box">1</container>
-          <container type="folder" label="Folder">3</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Articles/Press Releases, National Endowment for the Humanities Grant,
-            1980</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">14</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Black/Hispanic Forum, 1981</unittitle>
-          <container type="box" label="Box">1</container>
-          <container type="folder" label="Folder">4</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Brochures and Publications, 1973-1980, undated</unittitle>
-          <container type="box" label="Box">1</container>
-          <container type="folder" label="Folder">5</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Budget, 1984-1996</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">15</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Chicano Films, List, undated</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">16</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Chicano Literature</unittitle>
-        </did>
-        <c02>
-          <did>
-            <unittitle>Articles/Published Materials, circa 1981</unittitle>
-            <container type="box" label="Box">3</container>
-            <container type="folder" label="Folder">17</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Bibliography/Author Directory, circa 1981</unittitle>
-            <container type="box" label="Box">3</container>
-            <container type="folder" label="Folder">18</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle> First Film Outlines, 1980</unittitle>
-            <container type="box" label="Box">3</container>
-            <container type="folder" label="Folder">19</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Interviews with Chicano Writers, undated</unittitle>
-            <container type="box" label="Box">3</container>
-            <container type="folder" label="Folder">20</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Release Forms and Correspondence, 1981-1982</unittitle>
-            <container type="box" label="Box">3</container>
-            <container type="folder" label="Folder">21</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Scripts, 1981</unittitle>
-            <container type="box" label="Box">3</container>
-            <container type="folder" label="Folder">22</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Scripts, Villareal Tape, 1980</unittitle>
-            <container type="box" label="Box">3</container>
-            <container type="folder" label="Folder">23</container>
-          </did>
-        </c02>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Colloquium, 1985</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">24</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Colloquium Report, 1986</unittitle>
-          <container type="box" label="Box">1</container>
-          <container type="folder" label="Folder">6</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Correspondence</unittitle>
-        </did>
-        <c02>
-          <did>
-            <unittitle>1972, 1976-1978</unittitle>
-            <container type="box" label="Box">3</container>
-            <container type="folder" label="Folder">25</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>1980-1984</unittitle>
-            <container type="box" label="Box">3</container>
-            <container type="folder" label="Folder">26</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>1984-1985</unittitle>
-            <container type="box" label="Box">1</container>
-            <container type="folder" label="Folder">7</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>1985-1991</unittitle>
-            <container type="box" label="Box">3</container>
-            <container type="folder" label="Folder">27-28</container>
-          </did>
-        </c02>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Counselor Information Workshop, 1978-1981</unittitle>
-          <container type="box" label="Box">1</container>
-          <container type="folder" label="Folder">8</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Curandismo: The Science of Folk Healing in the Mexican-American Culture,
-            1982</unittitle>
-          <container type="box" label="Box">1</container>
-          <container type="folder" label="Folder">9</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Data, Notes, 1986</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">29</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>"Design for Diversity", UWM Annual M/D Report, 1989</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">30</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Director's Report to the Advisory Committee, undated</unittitle>
-          <container type="box" label="Box">1</container>
-          <container type="folder" label="Folder">10</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle><title render="italic">Directory of Agencies and Organizations for the Spanish
-              Speaking in Wisconsin</title>, 1979</unittitle>
-          <container type="box" label="Box">1</container>
-          <container type="folder" label="Folder">11</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Evaluation, Five-Year Review of Minority Program Offices, 1989</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">31</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Evaluation Reports, 1972-1973</unittitle>
-          <container type="box" label="Box">1</container>
-          <container type="folder" label="Folder">12</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Founding Documents, 1970-1972</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">32</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Goals and Objectives, 1970-1995</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">33</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Hispanic Artists in Wisconsin, 1979-1980</unittitle>
-          <container type="box" label="Box">2</container>
-          <container type="folder" label="Folder">1</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Hispanic Arts in the Park, 1979-1982</unittitle>
-          <container type="box" label="Box">2</container>
-          <container type="folder" label="Folder">2</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Hispanic Ethnic Studies, 1978-1979</unittitle>
-          <container type="box" label="Box">2</container>
-          <container type="folder" label="Folder">3</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Hispanic Ethnic Studies TV Series, Closing Credits, 1981</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">34</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Hispanic Ethnic Studies TV Series, Set Design and Costumes, 1981</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">35</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Hispanic Freshmen, Studies and Statistics, 1981-1989</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">36</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Hispanic Issues, General, 1970-1982</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">37</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle><title render="italic">Hispanic Migration: Historic Glimpses</title>, Notes and
-            Outlines, circa 1981</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">38</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle><title render="italic">Hispanic Migration: Historic Glimpses</title>, Tape
-            Logs, undated</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">39</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Hispanic Minority Ethnic Studies, Television Lecture Series: A Videotape Bank,
-            undated</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">40</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Hispanic Policy Development Project, 1987-1988</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">41</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Hispanic Students Academic Services, 1973</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">42</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Hispanic Students Academic Services, Report, 1986-1987</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">43</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>"How the College Views the SSOI", Report from Dean, undated</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">44</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>International Seminar for Minority Students, Proposal, 1984</unittitle>
-          <container type="box" label="Box">2</container>
-          <container type="folder" label="Folder">4</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Latin Awareness Week, 1973</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">45</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Linguistics Symposium, 1981</unittitle>
-          <container type="box" label="Box">2</container>
-          <container type="folder" label="Folder">5</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle><title render="italic">Lost in the Big Campus: Hispanic Students at the
-              University of Wisconsin-Milwaukee</title>, 1986</unittitle>
-          <container type="box" label="Box">2</container>
-          <container type="folder" label="Folder">6</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>
-            <title render="italic">Luis Valdez: Notes on an American Theatre in Process</title>,
-            Undated</unittitle>
-          <container type="box" label="Box">2</container>
-          <container type="folder" label="Folder">7</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Newsletters, 1975-1989</unittitle>
-          <container type="box" label="Box">2</container>
-          <container type="folder" label="Folder">8</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>"Nosotros...We...", U.S. Department of Commerce, Booklet 4, 1985</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">46</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Organizational Charts, 1986</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">47</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Peer Mentor, Reports, 1983-1985</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">48</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Photo Essay on Wisconsin Hispanic Women, 1984-1985</unittitle>
-          <container type="box" label="Box">2</container>
-          <container type="folder" label="Folder">9</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Photographs, undated</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">49</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Planning Document, 1980-1981</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">50</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Program History, 1995</unittitle>
-          <container type="box" label="Box">3</container>
-          <container type="folder" label="Folder">51</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Programs, Miscellaneous, 1975-1985</unittitle>
-          <container type="box" label="Box">2</container>
-          <container type="folder" label="Folder">10</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Publications</unittitle>
-        </did>
-        <c02>
-          <did>
-            <unittitle><title render="italic">Chicano Pinto Research Project: A Model for Chicano
-                Drug Use and Effective Utilization of Employment and Training Resources by Barrio
-                Addicts and Ex-Offenders</title>, 1979</unittitle>
-            <container type="box" label="Box">3</container>
-            <container type="folder" label="Folder">52</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle><title render="italic">Directory of Agencies and Organizations for the
-                Spanish Speaking in Wisconsin</title>, 1990</unittitle>
-            <container type="box" label="Box">4</container>
-            <container type="folder" label="Folder">1</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>
-              <title render="italic">El Mutualista</title>
-            </unittitle>
-          </did>
-          <c03>
-            <did>
-              <unittitle>Index of Names, 1983</unittitle>
-              <container type="box" label="Box">4</container>
-              <container type="folder" label="Folder">2</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Introduction, 1983</unittitle>
-              <container type="box" label="Box">4</container>
-              <container type="folder" label="Folder">3</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Master Copy, 1983</unittitle>
-              <container type="box" label="Box">4</container>
-              <container type="folder" label="Folder">4</container>
-            </did>
-          </c03>
-        </c02>
-        <c02>
-          <did>
-            <unittitle><title render="italic">In the Barrio: Survival and Success</title>, Drafts,
-              1981</unittitle>
-            <container type="box" label="Box">4</container>
-            <container type="folder" label="Folder">5</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Institute Paper Series: <title render="italic">The Puerto Rican Community of
-                Milwaukee</title>, 1980</unittitle>
-            <container type="box" label="Box">4</container>
-            <container type="folder" label="Folder">6</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle><title render="italic">Introduction to the Chicano Novel</title>, Marvin A.
-              Lewis, 1982-1983</unittitle>
-            <container type="box" label="Box">4</container>
-            <container type="folder" label="Folder">7</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Pamphlet, undated</unittitle>
-            <container type="box" label="Box">4</container>
-            <container type="folder" label="Folder">8</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Revista <title render="italic">Chicano-Riquena</title>, 1977-1985</unittitle>
-            <container type="box" label="Box">5</container>
-            <container type="folder" label="Folder">1</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Revista <title render="italic">Chicano-Riquena</title>, "Puerto-Rican
-              Literature: A Landscape of the Seventies, Essay, 1980</unittitle>
-            <container type="box" label="Box">5</container>
             <container type="folder" label="Folder">2</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle><title render="italic">The Hispanic Culture Family, A Puerto Rican
-                Perspective</title>, 1984</unittitle>
-            <container type="box" label="Box">5</container>
+            <unittitle>Administrative Files, <unitdate>1995-2001</unitdate></unittitle>
+            <container type="box" label="Box">6</container>
+            <container type="folder" label="Folder">1-2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Advising, <unitdate>1976-1985</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">3</container>
           </did>
         </c02>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Puerto Rican Literature</unittitle>
-        </did>
         <c02>
           <did>
-            <unittitle>Photograph's and Notes, circa 1979</unittitle>
-            <container type="box" label="Box">5</container>
+            <unittitle>Advisory Committee</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence and Memos, <unitdate>1970-1981</unitdate></unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">1</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Meetings and Minutes, <unitdate>1985-1995</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">4</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Members Lists, <unitdate>1978-1995</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">5</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Notes, <unitdate>1985</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">6</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Proposal, <unitdate>1985</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">7</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Recommendations, <unitdate>1988-1995</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">8</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Reports, <unitdate>1985-1988</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">9</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Student Affairs Sub-committee, <unitdate>1985-1988</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">10</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Sub-committee, Council for the Education of Latin Americans,
+                1986-1987</unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">1</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Sub-committee for Awards, Report, <unitdate>undated</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">12</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Yearly Report, <unitdate>1983-1984</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">13</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title render="italic">Alcoholic Beverage Drinking Practices of Hispanic
+                College Students</title>, <unitdate>1982</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>American Minority Leadership Conference,
+              <unitdate>1985</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">3</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Articles/Press Releases, National Endowment for the Humanities Grant,
+              1980</unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">14</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Black/Hispanic Forum, <unitdate>1981</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">4</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Release Forms, undated</unittitle>
-            <container type="box" label="Box">5</container>
+            <unittitle>Brochures and Publications, <unitdate>1973-1980</unitdate>,
+                <unitdate>undated</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">5</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Scripts, 1981</unittitle>
-            <container type="box" label="Box">5</container>
+            <unittitle>Budget, <unitdate>1984-1996</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">15</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Chicano Films, List, <unitdate>undated</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">16</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Chicano Literature</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Articles/Published Materials, <unitdate>circa 1981</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">17</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Bibliography/Author Directory, <unitdate>circa 1981</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">18</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle> First Film Outlines, <unitdate>1980</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">19</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Interviews with Chicano Writers, <unitdate>undated</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">20</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Release Forms and Correspondence,
+                <unitdate>1981-1982</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">21</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Scripts, <unitdate>1981</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">22</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Scripts, Villareal Tape, <unitdate>1980</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">23</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Colloquium, <unitdate>1985</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">24</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Colloquium Report, <unitdate>1986</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">6</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Video Tape, Production Notes, Includes Music Lyrics and Poetry,
-              1979</unittitle>
-            <container type="box" label="Box">5</container>
+            <unittitle>Correspondence</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1972-1978</unitdate>
+              </unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">25</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1980-1984</unitdate>
+              </unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">26</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1984-1985</unitdate>
+              </unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">7</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1985-1991</unitdate>
+              </unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">27-28</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Counselor Information Workshop, <unitdate>1978-1981</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">8</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Curandismo: The Science of Folk Healing in the Mexican-American Culture,
+              <unitdate>1982</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">9</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Data, Notes, <unitdate>1986</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">29</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>"Design for Diversity", UWM Annual Minority/Diversity Report,
+                <unitdate>1989</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">30</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Director's Report to the Advisory Committee,
+              <unitdate>undated</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">10</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title render="italic">Directory of Agencies and Organizations for the
+                Spanish Speaking in Wisconsin</title>, <unitdate>1979</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">11</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Evaluation, Five-Year Review of Minority Program Offices,
+                <unitdate>1989</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">31</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Evaluation Reports, <unitdate>1972-1973</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">12</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Founding Documents, <unitdate>1970-1972</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">32</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Goals and Objectives, <unitdate>1970-1995</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">33</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Hispanic Artists in Wisconsin, <unitdate>1979-1980</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Hispanic Arts in the Park, <unitdate>1979-1982</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Hispanic Council</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1980-2005</unitdate>
+              </unittitle>
+              <container type="box" label="Box">6</container>
+              <container type="folder" label="Folder">3</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Clippings, <unitdate>1988-1989</unitdate></unittitle>
+              <container type="box" label="Box">6</container>
+              <container type="folder" label="Folder">4</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>General Correspondence, <unitdate>1988-1994</unitdate></unittitle>
+              <container type="box" label="Box">6</container>
+              <container type="folder" label="Folder">5</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Meeting Minutes, <unitdate>1988-1994</unitdate></unittitle>
+              <container type="box" label="Box">6</container>
+              <container type="folder" label="Folder">6</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Race and Ethics Research Instruments,
+                <unitdate>1995-1996</unitdate></unittitle>
+              <container type="box" label="Box">6</container>
+              <container type="folder" label="Folder">7</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Hispanic Ethnic Studies</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1978-1979</unitdate>
+              </unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">3</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>TV Series, Closing Credits, <unitdate>1981</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">34</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>TV Series, Set Design and Costumes, <unitdate>1981</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">35</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Hispanic Freshmen, Studies and Statistics,
+              <unitdate>1981-1989</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">36</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Hispanic Issues, General, <unitdate>1970-1982</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">37</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title render="italic">Hispanic Migration: Historic Glimpses</title>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Notes and Outlines, <unitdate>circa 1981</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">38</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Tape Logs, <unitdate>undated</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">39</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Hispanic Minority Ethnic Studies, Television Lecture Series: A Videotape
+              Bank, <unitdate>undated</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">40</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Hispanic Policy Development Project,
+              <unitdate>1987-1988</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">41</container>
+          </did>
+        </c02>
+       <c02><did><unittitle>Hispanic Students Academic Services</unittitle></did> <c03>
+          <did>
+            <unittitle><unitdate>1973</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">42</container>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>Hispanic Students Academic Services, Report,
+              <unitdate>1986-1987</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">43</container>
+          </did>
+        </c03>
+       </c02>
+        <c02>
+          <did>
+            <unittitle><title render="doublequote">How the College Views the SSOI</title>, Report from Dean,
+                <unitdate>undated</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">44</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>International Seminar for Minority Students, Proposal,
+                <unitdate>1984</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">4</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Latin Awareness Week, <unitdate>1973</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">45</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title render="doublequote">Latinos in the Midwest</title> Research
+              Symposium, Research Materials, <unitdate>1999-2001(</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Linguistics Symposium, <unitdate>1981</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title render="italic">Lost in the Big Campus: Hispanic Students at the
+                University of Wisconsin-Milwaukee</title>, <unitdate>1986</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">6</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title render="italic">Luis Valdez: Notes on an American Theatre in Process</title>,
+              <unitdate>Undated</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
             <container type="folder" label="Folder">7</container>
           </did>
         </c02>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Puerto Rican Parade Committee, 1986</unittitle>
-          <container type="box" label="Box">5</container>
-          <container type="folder" label="Folder">8</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Recruitment and Retention Activities, 1981-1982</unittitle>
-          <container type="box" label="Box">5</container>
-          <container type="folder" label="Folder">9</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Report on First Semester Freshmen Dropouts, 1983-1984</unittitle>
-          <container type="box" label="Box">5</container>
-          <container type="folder" label="Folder">10</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Second Language and Second Dialect Acquisition, 1978</unittitle>
-          <container type="box" label="Box">2</container>
-          <container type="folder" label="Folder">11</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Spanish/Portuguese Joint Positions, Correspondence and Related Documents,
-            1970-1982</unittitle>
-          <container type="box" label="Box">5</container>
-          <container type="folder" label="Folder">11</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Staff Meetings, 1978-1986</unittitle>
-          <container type="box" label="Box">5</container>
-          <container type="folder" label="Folder">12</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Summary Reports, 1984-1999</unittitle>
-          <container type="box" label="Box">5</container>
-          <container type="folder" label="Folder">13</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Summer Education Program in Puerto Rico, 1981-1984</unittitle>
-          <container type="box" label="Box">2</container>
-          <container type="folder" label="Folder">12</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>"The Take-Over of the Chancery", William Quiles, undated</unittitle>
-          <container type="box" label="Box">5</container>
-          <container type="folder" label="Folder">14</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Transfer to Department of Student Affairs, 1988</unittitle>
-          <container type="box" label="Box">5</container>
-          <container type="folder" label="Folder">15</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Tutoring Program, Report, 1983-1985</unittitle>
-          <container type="box" label="Box">5</container>
-          <container type="folder" label="Folder">16</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle><title render="italic">Victor Hernandez and La Salsa de Dios</title> Report,
-            1979</unittitle>
-          <container type="box" label="Box">2</container>
-          <container type="folder" label="Folder">13</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Visual Arts Video, Notes and Related Documents, undated</unittitle>
-          <container type="box" label="Box">5</container>
-          <container type="folder" label="Folder">17</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Visual Arts Video, Tape Logs, undated</unittitle>
-          <container type="box" label="Box">5</container>
-          <container type="folder" label="Folder">18</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Wisconsin Conference on the Hispanic Family, 1984</unittitle>
-          <container type="box" label="Box">2</container>
-          <container type="folder" label="Folder">14</container>
-        </did>
-      </c01>
-      <c01>
-        <did>
-          <unittitle>Working Plan, 1989</unittitle>
-          <container type="box" label="Box">5</container>
-          <container type="folder" label="Folder">19</container>
-        </did>
+        <c02>
+          <did>
+            <unittitle>Mission Statements and History, <unitdate>1999-2008</unitdate></unittitle>
+            <container type="box" label="Box">6</container>
+            <container type="folder" label="Folder">8</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Newsletters, <unitdate>1975-1989</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">8</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>"Nosotros...We...", U.S. Department of Commerce, Booklet 4,
+                <unitdate>1985</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">46</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Organizational Charts, <unitdate>1986</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">47</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Peer Mentor, Reports, <unitdate>1983-1985</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">48</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Photo Essay on Wisconsin Hispanic Women,
+              <unitdate>1984-1985</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">9</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Photographs, <unitdate>undated</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">49</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Planning Document, <unitdate>1980-1981</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">50</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Program History, <unitdate>1995</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">51</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Programs, Miscellaneous, <unitdate>1975-1985</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">10</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Publications</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Chicano Pinto Research Project: A Model for Chicano
+                  Drug Use and Effective Utilization of Employment and Training Resources by Barrio
+                  Addicts and Ex-Offenders</title>, <unitdate>1979</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+              <container type="folder" label="Folder">52</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Directory of Agencies and Organizations for the
+                  Spanish Speaking in Wisconsin</title>, <unitdate>1990</unitdate></unittitle>
+              <container type="box" label="Box">4</container>
+              <container type="folder" label="Folder">1</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title render="italic">El Mutualista</title>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Index of Names, <unitdate>1983</unitdate></unittitle>
+                <container type="box" label="Box">4</container>
+                <container type="folder" label="Folder">2</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Introduction, <unitdate>1983</unitdate></unittitle>
+                <container type="box" label="Box">4</container>
+                <container type="folder" label="Folder">3</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Master Copy, <unitdate>1983</unitdate></unittitle>
+                <container type="box" label="Box">4</container>
+                <container type="folder" label="Folder">4</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">In the Barrio: Survival and Success</title>, Drafts,
+                <unitdate>1981</unitdate></unittitle>
+              <container type="box" label="Box">4</container>
+              <container type="folder" label="Folder">5</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Institute Paper Series: <title render="italic">The Puerto Rican Community
+                  of Milwaukee</title>, <unitdate>1980</unitdate></unittitle>
+              <container type="box" label="Box">4</container>
+              <container type="folder" label="Folder">6</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Introduction to the Chicano Novel</title>, Marvin A.
+                Lewis, <unitdate>1982-1983</unitdate></unittitle>
+              <container type="box" label="Box">4</container>
+              <container type="folder" label="Folder">7</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Pamphlet, <unitdate>undated</unitdate></unittitle>
+              <container type="box" label="Box">4</container>
+              <container type="folder" label="Folder">8</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Revista <title render="italic">Chicano-Riquena</title>,
+                  <unitdate>1977-1985</unitdate></unittitle>
+              <container type="box" label="Box">5</container>
+              <container type="folder" label="Folder">1</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Revista <title render="italic">Chicano-Riquena</title>, "Puerto-Rican
+                Literature: A Landscape of the Seventies, Essay,
+                <unitdate>1980</unitdate></unittitle>
+              <container type="box" label="Box">5</container>
+              <container type="folder" label="Folder">2</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">The Hispanic Culture Family, A Puerto Rican
+                  Perspective</title>, <unitdate>1984</unitdate></unittitle>
+              <container type="box" label="Box">5</container>
+              <container type="folder" label="Folder">3</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Puerto Rican Literature</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Photographs and Notes, <unitdate>circa 1979</unitdate></unittitle>
+              <container type="box" label="Box">5</container>
+              <container type="folder" label="Folder">4</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Release Forms, <unitdate>undated</unitdate></unittitle>
+              <container type="box" label="Box">5</container>
+              <container type="folder" label="Folder">5</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Scripts, <unitdate>1981</unitdate></unittitle>
+              <container type="box" label="Box">5</container>
+              <container type="folder" label="Folder">6</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Video Tape, Production Notes, Includes Music Lyrics and Poetry,
+                <unitdate>1979</unitdate></unittitle>
+              <container type="box" label="Box">5</container>
+              <container type="folder" label="Folder">7</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Puerto Rican Parade Committee, <unitdate>1986</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">8</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Recruitment and Retention Activities,
+              <unitdate>1981-1982</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">9</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Report on First Semester Freshmen Dropouts,
+              <unitdate>1983-1984</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">10</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Second Language and Second Dialect Acquisition,
+              <unitdate>1978</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">11</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Spanish/Portuguese Joint Positions, Correspondence and Related Documents,
+                <unitdate>1970-1982</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">11</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Spanish Speaking Outreach Institute</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1987-1998</unitdate>
+              </unittitle>
+              <container type="box" label="Box">6</container>
+              <container type="folder" label="Folder">9</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Advisory Committee, <unitdate>1985-2000</unitdate></unittitle>
+              <container type="box" label="Box">6</container>
+              <container type="folder" label="Folder">10</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Bulletins and Reports, <unitdate>1986</unitdate></unittitle>
+              <container type="box" label="Box">6</container>
+              <container type="folder" label="Folder">11</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Staff Meetings, <unitdate>1978-1986</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">12</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Summary Reports, <unitdate>1984-1999</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">13</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Summer Education Program in Puerto Rico,
+              <unitdate>1981-1984</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">12</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title render="italic">The Take-Over of the Chancery</title>, William Quiles,
+              <unitdate>undated</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">14</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Transfer to Department of Student Affairs,
+              <unitdate>1988</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">15</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Tutoring Program, Report, <unitdate>1983-1985</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">16</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Velez, William Research Files, <unitdate>1999-2000</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"/>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title render="italic">Victor Hernandez and La Salsa de Dios</title> Report,
+              1979</unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">13</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Visual Arts Video, Notes and Related Documents,
+              <unitdate>undated</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">17</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Visual Arts Video, Tape Logs, <unitdate>undated</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">18</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Wisconsin Conference on the Hispanic Family,
+              <unitdate>1984</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">14</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Working Plan, <unitdate>1989</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">19</container>
+          </did>
+        </c02>
       </c01>
     </dsc>
   </archdesc>
