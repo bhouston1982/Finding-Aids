@@ -529,7 +529,7 @@
         <c02>
           <did>
             <unittitle>Curandismo: The Science of Folk Healing in the Mexican-American Culture,
-              1982</unittitle>
+              <unitdate>1982</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">9</container>
           </did>
@@ -924,7 +924,7 @@
           <c03>
             <did>
               <unittitle><title render="italic">In the Barrio: Survival and Success</title>, Drafts,
-                1981</unittitle>
+                <unitdate>1981</unitdate></unittitle>
               <container type="box" label="Box">4</container>
               <container type="folder" label="Folder">5</container>
             </did>
@@ -1006,7 +1006,7 @@
           <c03>
             <did>
               <unittitle>Video Tape, Production Notes, Includes Music Lyrics and Poetry,
-                1979</unittitle>
+                <unitdate>1979</unitdate></unittitle>
               <container type="box" label="Box">5</container>
               <container type="folder" label="Folder">7</container>
             </did>
@@ -1103,7 +1103,7 @@
         </c02>
         <c02>
           <did>
-            <unittitle>"The Take-Over of the Chancery", William Quiles,
+            <unittitle><title render="italic">The Take-Over of the Chancery</title>, William Quiles,
               <unitdate>undated</unitdate></unittitle>
             <container type="box" label="Box">5</container>
             <container type="folder" label="Folder">14</container>
