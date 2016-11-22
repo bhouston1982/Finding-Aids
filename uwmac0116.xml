@@ -222,8 +222,8 @@
       </processinfo>
       <phystech audience="internal" encodinganalog="538">
         <p>As of November 22, 2016, all electronic files were accessible on a Intel Core i5-4570 CPU
-          (3.20 GHz, 4 GB RAM) running Windows 7 Enterprise, with Service Pack 1. Windows Picture
-          and Fax Viewer and Adobe Acrobat were used to access the files.</p>
+          (3.20 GHz, 4 GB RAM) running Windows 7 Enterprise, with Service Pack 1.Adobe Acrobat and
+          Microsoft Office were used to access the files.</p>
         <p>The collection includes records in the following file formats:</p>
         <list type="marked">
           <item>Microsoft PowerPoint Presentation 97-2003 [.ppt]</item>
@@ -543,8 +543,8 @@
         </c02>
         <c02>
           <did>
-            <unittitle>"Design for Diversity", UWM Annual M/D Report,
-              <unitdate>1989</unitdate></unittitle>
+            <unittitle>"Design for Diversity", UWM Annual Minority/Diversity Report,
+                <unitdate>1989</unitdate></unittitle>
             <container type="box" label="Box">3</container>
             <container type="folder" label="Folder">30</container>
           </did>
