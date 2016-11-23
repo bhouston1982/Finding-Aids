@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ascii" standalone="no"?>
- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > 
+<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
 <!-- wiarchives version:2008-05-27 -->
 <ead id="uw-mil-uwmac0090" relatedencoding="MARC21">
   <eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
@@ -280,8 +280,8 @@
           Jessica Neal processed accession 2011-024 in November 2016 (Brad Houston supervised).</p>
       </processinfo>
       <separatedmaterial>
-        <p>). William Velez, a longtime faculty member in the Sociology department, also served as
-          the director of the Roberto Hernandez Center; files from his tenure in this role were
+        <p>William Velez, a longtime faculty member in the Sociology department, also served as the
+          director of the Roberto Hernandez Center; files from his tenure in this role were
           transferred as part of accession 2011-024 and were added to the Roberto Hernandez Center
           collection (UWM AC 116).</p>
       </separatedmaterial>
@@ -543,7 +543,7 @@
               <did>
                 <unittitle>Course Numbers 101-989</unittitle>
                 <container type="box" label="Box">8</container>
-                <container type="folder" label="Folder">1-63</container>
+                <container type="folder" label="Folder">3-64</container>
               </did>
             </c04>
           </c03>
