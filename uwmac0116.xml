@@ -952,23 +952,23 @@
               <container type="folder" label="Folder">8</container>
             </did>
           </c03>
-          <c03>
+          <c03><did><unittitle>Revista <title render="italic">Chicano-Riquena</title></unittitle></did>
+            <c04>
             <did>
-              <unittitle>Revista <title render="italic">Chicano-Riquena</title>,
+              <unittitle>
                   <unitdate>1977-1985</unitdate></unittitle>
               <container type="box" label="Box">5</container>
               <container type="folder" label="Folder">1</container>
             </did>
-          </c03>
-          <c03>
+          </c04>
+          <c04>
             <did>
-              <unittitle>Revista <title render="italic">Chicano-Riquena</title>, "Puerto-Rican
-                Literature: A Landscape of the Seventies, Essay,
+              <unittitle><title render="doublequote">Puerto-Rican Literature: A Landscape of the Seventies</title>, Essay,
                 <unitdate>1980</unitdate></unittitle>
               <container type="box" label="Box">5</container>
               <container type="folder" label="Folder">2</container>
             </did>
-          </c03>
+          </c04></c03>
           <c03>
             <did>
               <unittitle><title render="italic">The Hispanic Culture Family, A Puerto Rican
@@ -1138,21 +1138,22 @@
             <container type="folder" label="Folder">13</container>
           </did>
         </c02>
-        <c02>
+       <c02><did><unittitle>Visual Arts Video</unittitle></did><c03>
           <did>
-            <unittitle>Visual Arts Video, Notes and Related Documents,
+            <unittitle>Notes and Related Documents,
               <unitdate>undated</unitdate></unittitle>
             <container type="box" label="Box">5</container>
             <container type="folder" label="Folder">17</container>
           </did>
-        </c02>
-        <c02>
+        </c03>
+        <c03>
           <did>
-            <unittitle>Visual Arts Video, Tape Logs, <unitdate>undated</unitdate></unittitle>
+            <unittitle>Tape Logs, <unitdate>undated</unitdate></unittitle>
             <container type="box" label="Box">5</container>
             <container type="folder" label="Folder">18</container>
           </did>
-        </c02>
+        </c03>
+       </c02>
         <c02>
           <did>
             <unittitle>Wisconsin Conference on the Hispanic Family,

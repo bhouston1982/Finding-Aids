@@ -318,20 +318,22 @@
             <container type="folder" label="Folder">2</container>
           </did>
         </c02>
-        <c02>
+      <c02><did><unittitle>Correspondence</unittitle></did>
+        <c03>
           <did>
-            <unittitle>Correspondence, <unitdate>1956-1972</unitdate></unittitle>
+            <unittitle><unitdate>1956-1972</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">3-7</container>
           </did>
-        </c02>
-        <c02>
+        </c03>
+        <c03>
           <did>
-            <unittitle>Correspondence, <unitdate>1973-1979</unitdate></unittitle>
+            <unittitle><unitdate>1973-1979</unitdate></unittitle>
             <container type="box" label="Box">2</container>
             <container type="folder" label="Folder">1-2</container>
           </did>
-        </c02>
+        </c03>
+      </c02>
         <c02>
           <did>
             <unittitle>Curriculum Committee, <unitdate>1961-1978</unitdate></unittitle>

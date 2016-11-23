@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd" [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
+<ead id="uw-mil-uwmmss0347" relatedencoding="MARC21">
+	<eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
+		dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924"
+		relatedencoding="MARC21">
+		<eadid encodinganalog="856$u" countrycode="us" mainagencycode="wimiugma"
+			url="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmmss0347"
+			>uw-mil-uwmmss0347</eadid>
+		<filedesc>
+			<titlestmt>
+				<titleproper encodinganalog="245$a">Finding Aid of the Dave Berkman Papers,
+					1958-2016</titleproper>
+				<author encodinganalog="245$c">Christel Maass</author>
+			</titlestmt>
+			<publicationstmt>
+				<publisher encodinganalog="260$b">University of Wisconsin-Milwaukee Libraries,
+					Archives Department</publisher>
+				<address>
+					<addressline>University of Wisconsin-Milwaukee</addressline>
+					<addressline>UWM Libraries</addressline>
+					<addressline>Archives Department</addressline>
+					<addressline>P.O. Box 604</addressline>
+					<addressline>Milwaukee, Wisconsin 53201-0604</addressline>
+					<addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr
+							href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
+				</address>
+				<date encodinganalog="260$c" type="publication" normal="2014">Copyright &#169; 2016
+					University of Wisconsin Board of Regents</date>
+			</publicationstmt>
+		</filedesc>
+		<profiledesc>
+			<creation encodinganalog="500">Finding aid encoded by Christel Maass.</creation>
+			<langusage encodinganalog="546">Finding aid written in <language encodinganalog="041"
+					langcode="eng" scriptcode="Latn">English.</language></langusage>
+		</profiledesc>
+	</eadheader>
+	<archdesc level="collection" relatedencoding="MARC21">
+		<did>
+			<physloc type="locationcode" audience="internal">wimiugma</physloc>
+			<unittitle encodinganalog="245$a">Dave Berkman Papers, <unitdate type="inclusive"
+					encodinganalog="245$f" normal="1958/2016">1958-2016</unitdate></unittitle>
+			<origination label="Creator">
+				<persname encodinganalog="100">Berkman, Dave.</persname>
+			</origination>
+			<unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma"
+				countrycode="us">UWM Manuscript Collection 347</unitid>
+			<physdesc label="Quantity">
+				<extent encodinganalog="300">[insert size] cubic ft. ([insert #] boxes,   including x audio
+					cassettes and x video cassettes)</extent>
+			</physdesc>
+			<repository encodinganalog="852">
+				<extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
+					title="University of Wisconsin-Milwaukee Logo." role="logoimage"/>
+				<extref href="http://www.uwm.edu/Libraries/arch/index.html">
+					<corpname>University of Wisconsin-Milwaukee Libraries, Archives
+						Department</corpname>
+				</extref>
+			</repository>
+			<abstract encodinganalog="520">Papers of former UWM professor and media critic Dave
+				Beckman consisting of articles, including copies of his Shepherd Express “Media
+				Musings,” news clippings, correspondence, and an extensive set of radio broadcasts,
+				largely Wisconsin Public Radio recordings.</abstract>
+			<langmaterial encodinganalog="546" label="Language">
+				<language encodinganalog="041" langcode="eng">English</language>
+			</langmaterial>
+		</did>
+		<bioghist encodinganalog="545">
+			<p>Dave Berkman (1934-2015) was a college professor and media critic. Berkman taught
+				mass communications at UW-Milwaukee, among other univeristies. For many years he
+				wrote a column called "Media Musing" for the Shepherd Express, a Milwaukee
+				alternative paper. He also hosted Wisconsin Public Radio's "Media Talk" show for 13
+				years.</p>
+			<p>Berkman was a liberal, a civil rights activist, and a free speech absolutist, and
+				served on the state boards of the ACLU in Wisconsin and Connecticut, as well as on
+				the Corporation for Public Broadcasting's Minority Task Force. Berkman was a member
+				of the National Association of Educational Broadcasters, and advocated protecting
+				Public Broadcasting's independence from political threats. He was a man of strong
+				opinions who loved politics and argument.</p>
+		</bioghist>
+		<scopecontent encodinganalog="520">
+			<p>The paper files largely consist of correspondence, copies of Berkman's "Media
+				Musings" in Milwaukee's Shepherd Express alternative newspaper, publications and
+				articles, and clipping files. The collection also includes Berkman's 1963
+				dissertation, as well as various reports, including information about the work of
+				the Corporation for Public Broadcasting's Minority Task Force on which Berkman
+				served.</p>
+			<p>The radio broadcasts, largely Wisconsin Public Radio recordings, ... </p>
+		</scopecontent>
+		<arrangement encodinganalog="351">
+			<p>The files are arranged into the following series:</p>
+			<list type="ordered" numeration="arabic">
+				<item>
+					<ref target="series1" show="replace" actuate="onrequest">Paper Files,
+						1958-2016</ref>
+				</item>
+				<item>
+					<ref target="series2" show="replace" actuate="onrequest">Radio Broadcasts,
+						dates</ref>
+				</item>
+			</list>
+		</arrangement>
+		<otherfindaid encodinganalog="555">
+			<p/>
+		</otherfindaid>
+		<prefercite encodinganalog="524">
+			<p>
+				<extref
+					href="http://uwm.edu/libraries/archives/research/citation-guide-for-primary-sources/"
+					>Citation Guide for Primary Sources</extref>
+			</p>
+		</prefercite>
+		<altformavail encodinganalog="530">
+			<head>Alternate Format</head>
+			<p> </p>
+		</altformavail>
+		<relatedmaterial encodinganalog="544 1">
+			<head>Related Material in the UWM Libraries</head>
+			<archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0179"
+				actuate="onrequest" show="new">
+				<unittitle>UW-Milwaukee Dept. of Mass Communication</unittitle>
+				<unitid>UWM Archival Collection 179</unitid>
+			</archref>
+			<archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0096"
+				actuate="onrequest" show="new">
+				<unittitle>UW-Milwaukee University Relations Records</unittitle>
+				<unitid>UWM Archival Collection 96</unitid>
+			</archref>
+		</relatedmaterial>
+		<descgrp type="admininfo">
+			<head>Administrative/Restriction Information</head>
+			<accessrestrict encodinganalog="506">
+				<p>There are no access restrictions on the materials, and the collection is open to
+					all members of the public in accordance with state law.</p>
+			</accessrestrict>
+			<userestrict encodinganalog="540">
+				<p>The researcher assumes full responsibility for conforming with the laws of libel,
+					privacy, and copyright which may be involved in the use of this collection
+					(Wisconsin Statutes 19.21-19.39).</p>
+			</userestrict>
+			<acqinfo encodinganalog="541">
+				<p>Margarita Dusek donated the collection to the Archives in September and November
+					2016 (accession 2016-015).</p>
+			</acqinfo>
+			<processinfo encodinganalog="583">
+				<p>Christel Maass minimally processed the paper records in September 2016 and
+					November 2016. Phyllis Reske processed the audio cassettes and videocassettes,
+					and Brad Houston and Phyllis Reske processed the electronic records in October
+					and November 2016.</p>
+			</processinfo>
+			<processinfo>
+				<head>Preservation Information</head>
+				<p> </p>
+			</processinfo>
+			<phystech encodinganalog="538"/>
+			<!-- <Note: The ENCODINGANALOG attribute corresponds to either MARC 340 or 538. A decision will need to be made in each case which value is more appropriate, if this element is used.> -->
+		</descgrp>
+		<dsc type="in-depth">
+			<head>Contents List</head>
+			<c01 level="otherlevel" otherlevel="processed" id="uwmmss0347">
+				<did>
+					<unitid>UWM Manuscript Collection 347</unitid>
+					<unittitle>Records, <unitdate type="inclusive" normal="1958/2016"
+							>1958-2016</unitdate></unittitle>
+					<physdesc>
+						<extent encodinganalog="300"> cubic ft. (  boxes,  including x audio
+							cassettes and x video cassettes)</extent>
+						<extent encodinganalog="300"> electronic</extent>
+					</physdesc>
+				</did>
+				<c02 id="series1" level="series">
+					<did>
+						<unittitle>1. Paper Files, <unitdate>1958-2016</unitdate>
+						</unittitle>
+					</did>
+					<c03>
+						<did>
+							<unittitle>Address, Medgar Evers College,
+								<unitdate>1979</unitdate></unittitle>
+							<container type="box" label="Box">3</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Clippings, <unitdate>1958-2016</unitdate></unittitle>
+							<container type="box" label="Box">3</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Corporation for Public Broadcasting's Minority Task Force,
+									<unitdate>1978-1981</unitdate></unittitle>
+							<container type="box" label="Box">4</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Correspondence, <unitdate>1960-2015</unitdate></unittitle>
+							<container type="box" label="Box">1</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Dissertation, <unitdate>1963</unitdate></unittitle>
+							<container type="box" label="Box">3</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>ITV Business Development Project,
+								<unitdate>1969</unitdate></unittitle>
+							<container type="box" label="Box">4</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Manuscript, Report, and Survey,
+									<unitdate>1978-1989</unitdate></unittitle>
+							<container type="box" label="Box">3</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Media Musings, Shepherd Express,
+									<unitdate>1989-2006</unitdate></unittitle>
+							<container type="box" label="Box">2</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Publications/Articles,
+								<unitdate>1962-2006</unitdate></unittitle>
+							<container type="box" label="Box">2</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Vita, <unitdate>2010</unitdate></unittitle>
+							<container type="box" label="Box">3</container>
+						</did>
+					</c03>
+				</c02>
+				<c02 id="series2" level="series">
+					<did>
+						<unittitle>2. Radio Broadcasts, <unitdate> </unitdate>
+						</unittitle>
+					</did>
+					<c03>
+						<did>
+							<unittitle><title render="doublequote">Tim Russert's Ethics</title>,
+									<unitdate>03 February 2006</unitdate></unittitle>
+							<container type="Electronic" label="ID No.">140</container>
+							<physdesc>
+								<extent>1 digital audio file (0:51:27 (approx))</extent>
+							</physdesc>
+						</did>
+						<scopecontent>
+							<p>With Joe Fontaine, Columnist, Ripon College Days.</p>
+						</scopecontent>
+					</c03>
+
+				</c02>
+			</c01>
+		</dsc>
+	</archdesc>
+</ead>
