@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ascii" standalone="no"?>
-<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
+ <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > 
 <!-- wiarchives version:2008-05-27 -->
 <ead id="uw-mil-uwmac0090" relatedencoding="MARC21">
   <eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
@@ -34,11 +34,17 @@
           langcode="eng" scriptcode="Latn">English.</language></langusage>
     </profiledesc>
     <revisiondesc>
-      <change>
+      <change encodinganalog="583">
+        <date normal="2016-11-23">November 23, 2011</date>
+        <item>Brad Houston added accession 2011-024 to the collection. Changes were made to unitid,
+          extent, bioghist, arrangement, scopecontent, separatedmaterial, accessrestrict,  acqinfo,
+          processinfo, and the contents list (box 8).</item>
+      </change>
+      <change encodinganalog="583">
         <date normal="2015-08-14">August 14, 2015</date>
         <item>Christel Maass corrected the accession extent.</item>
       </change>
-      <change>
+      <change encodinganalog="583">
         <date normal="2013-09-26">September 26, 2013</date>
         <item>Kimberly Johnson updated the list of department chairs.</item>
       </change>
@@ -67,11 +73,8 @@
       </origination>
       <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
         >UWM Archival Collection 90</unitid>
-      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
-        >Accession 2011-024</unitid>
       <physdesc label="Quantity">
-        <extent encodinganalog="300">2.0 cubic ft. (7 boxes)</extent>
-        <extent encodinganalog="300">plus additions of 2 cubic ft. (2 boxes)</extent>
+        <extent encodinganalog="300">3.0 cubic ft. (8 boxes)</extent>
       </physdesc>
       <repository encodinganalog="852">
         <extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
@@ -88,7 +91,7 @@
         1980-2000, and reports relating to 5-year reviews of the MA program in Sociology from
         1980-2004. Three final reports of grant papers written by sociology faculty members are also
         found within the collection. The collection also contains syllabi from various sociology
-        classes taught between 1989 and 2000.</abstract>
+        classes taught between 1989 and 2005.</abstract>
       <langmaterial encodinganalog="546" label="Language">
         <language encodinganalog="041" langcode="eng">English</language>
       </langmaterial>
@@ -205,43 +208,28 @@
         minutes, program review files, syllabi, and other files. Much of the collection is comprised
         of correspondence to and from the department chairs and chairs of the various programs
         within the department, mostly documenting curricular and policy decisions. Also of interest
-        are files documenting 5-year reviews of the Masters Program in Sociology, which provide
-        snapshots of the state of the program and advice from the report authors and external
-        advisors as to the future direction of the program. There are final reports of grant papers
-        written by Sociology faculty included in the collection: "Film Making in the Social
-        Sciences," "The Origins of the South Atlantic (Slave Plantation) System in the Portuguese
-        Atlantic in the 15th Century," and "The Study of Religion in Publicly Supported Colleges and
-        Universities."</p>
+        are program planning documents and files documenting 5-year reviews of the Masters Program
+        in Sociology, which provide snapshots of the state of the program and advice from the report
+        authors and external advisors as to the future direction of the program. A folder on
+        sabbatical proposals provides an overview of Sociology faculty research interests between
+        1991-2001. There are final reports of grant papers written by Sociology faculty included in
+        the collection: "Film Making in the Social Sciences," "The Origins of the South Atlantic
+        (Slave Plantation) System in the Portuguese Atlantic in the 15th Century," and "The Study of
+        Religion in Publicly Supported Colleges and Universities."</p>
       <p>The records also include minutes from committees in the department, including the
         Departmental Committee, which deals mostly with curricular and policy issues, and the
         Executive Committee, which deals with questions of hiring, promotion, tenure, discipline,
         and other sensitive matters. The minutes of these two committees span 1956 to 2000, although
         coverage from 1956 to 1980 is spotty. Finally, the collection contains a large number of
-        syllabi files from 1989 to 2000.</p>
+        syllabi files from 1989 to 2005.</p>
     </scopecontent>
     <arrangement encodinganalog="351">
       <p>This collection was received in, and is organized in, multiple parts. Additional materials
         have not been physically or intellectually arranged and interfiled, and researchers may need
         to consult more than one part of the collection to locate similar materials.</p>
-      <list type="simple">
-        <item>
-          <ref target="uwmac0090" show="replace" actuate="onrequest">UWM Archival Collection 90:
-            Records, 1956-2004</ref>
-        </item>
-      </list>
-      <p>The collection contains one additional accession.</p>
-      <list type="simple">
-        <item>
-          <ref target="acc2011-024" show="replace" actuate="onrequest">Accession 2011-024: Subject
-            and Syllabi Files, circa 1987-2005</ref>
-        </item>
-      </list>
       <p>The files are organized alphabetically by folder heading, then chronologically. The syllabi
         files are organized by course number.</p>
     </arrangement>
-    <otherfindaid encodinganalog="555">
-      <p>Finding aid for accession 2011-024 available in the Archives.</p>
-    </otherfindaid>
     <prefercite encodinganalog="524">
       <p>
         <extref href="http://uwm.edu/libraries/archives/research/citation-guide-for-primary-sources/">Citation Guide for
@@ -260,12 +248,18 @@
         <unittitle>UW-Milwaukee Dept. of Anthropology Records</unittitle>
         <unitid>UWM Archival Collection 34</unitid>
       </archref>
+      <archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0116"
+        actuate="onrequest" show="new">
+        <unittitle>UW-Milwaukee Roberto Hernandez Center Records</unittitle>
+        <unitid>UWM Archival Collection 116</unitid>
+      </archref>
     </relatedmaterial>
     <descgrp type="admininfo">
       <head>Administrative/Restriction Information</head>
       <accessrestrict encodinganalog="506">
-        <p>Box 7 is restricted in accordance with UWM Personnel File Policy S-42. Access is
-          regulated by Section III.A.2 and III.A.3</p>
+        <p>Box 7 is restricted in accordance with UWM Personnel File Policy S-42, as well as the
+          Family Educational Rights and Privacy Act of 1974 (FERPA). Access to the personnel-related
+          materials is regulated by Section III.A.2 and III.A.3</p>
         <p>There are no access restrictions on all other materials, and the collection is open to
           all members of the public in accordance with state law.</p>
       </accessrestrict>
@@ -282,19 +276,25 @@
       <processinfo encodinganalog="583">
         <p>Julie Thomas processed the collection at the Archives in October 1994. Jenny Juno
           processed accession 2007-050 in April 2008 (Brad Houston supervised). Hayley Jackson
-          updated the finding aid to include information about accession 2011-024 in August
-          2013.</p>
+          updated the finding aid to include information about accession 2011-024 in August 2013.
+          Jessica Neal processed accession 2011-024 in November 2016 (Brad Houston supervised).</p>
       </processinfo>
+      <separatedmaterial>
+        <p>). William Velez, a longtime faculty member in the Sociology department, also served as
+          the director of the Roberto Hernandez Center; files from his tenure in this role were
+          transferred as part of accession 2011-024 and were added to the Roberto Hernandez Center
+          collection (UWM AC 116).</p>
+      </separatedmaterial>
     </descgrp>
     <dsc type="combined">
       <head>Contents List</head>
       <c01 level="otherlevel" otherlevel="processed" id="uwmac0090">
         <did>
           <unitid>UWM Archival Collection 90</unitid>
-          <unittitle>Records, <unitdate type="inclusive" normal="1956/2004"
-            >1956-2004</unitdate></unittitle>
+          <unittitle>Records, <unitdate type="inclusive" normal="1956/2005"
+            >1956-2005</unitdate></unittitle>
           <physdesc>
-            <extent>2 cubic ft. (7 boxes)</extent>
+            <extent>3 cubic ft. (8 boxes)</extent>
           </physdesc>
         </did>
         <c02>
@@ -367,8 +367,8 @@
         </c02>
         <c02>
           <did>
-            <unittitle>"Film Making in the Social Sciences," Final Report, <unitdate>May
-                1972</unitdate></unittitle>
+            <unittitle><title render="doublequote">Film Making in the Social Sciences</title>, Final
+              Report, <unitdate>May 1972</unitdate></unittitle>
             <container type="box" label="Box">2</container>
             <container type="folder" label="Folder">2</container>
           </did>
@@ -471,466 +471,83 @@
         </c02>
         <c02>
           <did>
+            <unittitle><title render="doublequote">The Origins of the South Atlantic (Slave
+                Plantation) System in the Portuguese Atlantic in the 15th Century</title>, Final
+              Report, <unitdate>undated</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Program Planning Documents, <unitdate>1986-2004</unitdate></unittitle>
+            <container type="box" label="Box">8</container>
+            <container type="folder" label="Folder">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Sabbatical Proposals, <unitdate>1991-2001</unitdate></unittitle>
+            <container type="box" label="Box">8</container>
+            <container type="folder" label="Folder">2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title render="doublequote">The Study of Religion in Publicly Supported
+                Colleges and Universities</title>,<unitdate>1967</unitdate>
+            </unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">6</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
             <unittitle>Syllabi</unittitle>
           </did>
           <c03>
             <did>
-              <unittitle>Sociology 101, Introduction to Sociology,
-                <unitdate>1991-1999</unitdate></unittitle>
-              <container type="box" label="Box">4</container>
-              <container type="folder" label="Folder">1</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 102, Social Problems in American Society,
-                  <unitdate>1991-1999</unitdate></unittitle>
-              <container type="box" label="Box">4</container>
-              <container type="folder" label="Folder">2</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 103, World Society, <unitdate>1989-1999</unitdate></unittitle>
-              <container type="box" label="Box">4</container>
-              <container type="folder" label="Folder">3</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 104, Introduction to Social Psychology,
-                  <unitdate>1991-2000</unitdate></unittitle>
-              <container type="box" label="Box">4</container>
-              <container type="folder" label="Folder">4</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 193, Demography, Development, and Democracy,
-                  <unitdate>1996-1999</unitdate></unittitle>
-              <container type="box" label="Box">4</container>
-              <container type="folder" label="Folder">5</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 200, Contemporary American Society,
-                  <unitdate>1991-1998</unitdate></unittitle>
-              <container type="box" label="Box">4</container>
-              <container type="folder" label="Folder">6</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 207, Work and Society, <unitdate>1998-1999</unitdate></unittitle>
-              <container type="box" label="Box">4</container>
-              <container type="folder" label="Folder">7</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 215, Religion and Society,
-                <unitdate>1996-1997</unitdate></unittitle>
-              <container type="box" label="Box">4</container>
-              <container type="folder" label="Folder">8</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 224, American Minority Groups,
-                <unitdate>1990-1999</unitdate></unittitle>
-              <container type="box" label="Box">4</container>
-              <container type="folder" label="Folder">9</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 233, Social Inequality in the United States,
-                  <unitdate>1991-1997</unitdate></unittitle>
-              <container type="box" label="Box">4</container>
-              <container type="folder" label="Folder">10</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 241, Criminology, <unitdate>1990-1997</unitdate></unittitle>
-              <container type="box" label="Box">4</container>
-              <container type="folder" label="Folder">11</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 246, Juvenile Delinquency,
-                <unitdate>1991-1999</unitdate></unittitle>
-              <container type="box" label="Box">4</container>
-              <container type="folder" label="Folder">12</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 248, Sociology of Education,
-                <unitdate>1991-1999</unitdate></unittitle>
-              <container type="box" label="Box">4</container>
-              <container type="folder" label="Folder">13</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 250, Sex and Gender, <unitdate>1990-1999</unitdate></unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="folder" label="Folder">1</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 260, The Family and Intimate Relationships,
-                  <unitdate>1992-1999</unitdate></unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="folder" label="Folder">2</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 261, Introduction to Statistical Thinking in Sociology,
-                  <unitdate>1991-1999</unitdate></unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="folder" label="Folder">3</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 282, Sociology of Aging,
-                <unitdate>1992-1999</unitdate></unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="folder" label="Folder">4</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 299, Proseminar in Sociology: The Social Construction of Female
-                Affiliation, <unitdate>1995</unitdate></unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="folder" label="Folder">5</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 304, Political Sociology,
-                <unitdate>1994-1999</unitdate></unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="folder" label="Folder">6</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 307, Industrial Sociology,
-                <unitdate>1993-1997</unitdate></unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="folder" label="Folder">7</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 320, Social Change in American Indian Societies,
-                  <unitdate>1991-1999</unitdate></unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="folder" label="Folder">8</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 321, Contemporary Issues of the American Indian,
-                  <unitdate>1993-1999</unitdate></unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="folder" label="Folder">9</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 323, Sociological Perspectives on Latino Communities in the
-                United States, <unitdate>1994-1999</unitdate></unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="folder" label="Folder">10</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 324, Comparative Race Relations,
-                <unitdate>1992-1998</unitdate></unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="folder" label="Folder">11</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 325, Social Change, <unitdate>1992-1998</unitdate></unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="folder" label="Folder">12</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 331, Sociology of Health Care,
-                <unitdate>1991-1999</unitdate></unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="folder" label="Folder">13</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 333, Social Class in Industrial Society,
-                  <unitdate>1995-1999</unitdate></unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="folder" label="Folder">14</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 338, Small Groups, <unitdate>1999</unitdate></unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="folder" label="Folder">15</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 341, The Sociology of Deviant Behavior,
-                  <unitdate>1993-1999</unitdate></unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="folder" label="Folder">16</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 343, Collective Behavior,
-                <unitdate>1993-1998</unitdate></unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="folder" label="Folder">17</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 361, Research Methods in Sociology,
-                  <unitdate>1992-1999</unitdate></unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="folder" label="Folder">18</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 375, History of Sociological Theory,
-                  <unitdate>1991-1999</unitdate></unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="folder" label="Folder">19</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 376, Modern Sociological Theory,
-                <unitdate>1993-1998</unitdate></unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="folder" label="Folder">20</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 377, Urbanism and Urbanization,
-                <unitdate>1995-1999</unitdate></unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="folder" label="Folder">21</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 380, Honors Seminar: Twentieth Century Social Thought,
-                  <unitdate>1991-1998</unitdate></unittitle>
-              <container type="box" label="Box">5</container>
-              <container type="folder" label="Folder">22</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 440, Sociology of the Family,
-                <unitdate>1994-1999</unitdate></unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="folder" label="Folder">1</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 443, Sociology of Occupations and Professions,
-                  <unitdate>1991-1999</unitdate></unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="folder" label="Folder">2</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 450, Environmental Sociology,
-                <unitdate>1992-1999</unitdate></unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="folder" label="Folder">3</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 475, Seminar in Feminist Social History, <unitdate>1991,
-                  1995</unitdate></unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="folder" label="Folder">4</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 495, Proseminar: Research Report Preparation in Social Sciences,
-                Qualitative Methods, and Social Construction of the Female Affiliation,
-                  <unitdate>1993-1995</unitdate></unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="folder" label="Folder">5</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 499, Current Topics, <unitdate>1990-1997</unitdate></unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="folder" label="Folder">6</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 603, Urban Minority Communities: Focus on Latinos,
-                  <unitdate>1997</unitdate></unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="folder" label="Folder">7</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 705, Theory and Method in Social Organization, <unitdate>1993,
-                  1995</unitdate></unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="folder" label="Folder">8</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 715, Contemporary Sociological Theory,
-                <unitdate>1992</unitdate></unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="folder" label="Folder">9</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 732, Complex Organizations , <unitdate>1994,
-                1999</unitdate></unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="folder" label="Folder">10</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 750, Research Methods in Sociology,
-                  <unitdate>1993-1999</unitdate></unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="folder" label="Folder">11</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 760, Advanced Statistical Methods in Sociology,
-                  <unitdate>1991-1999</unitdate></unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="folder" label="Folder">12</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 770, Urban Social Structure,
-                <unitdate>1993-1999</unitdate></unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="folder" label="Folder">13</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 775, Social Change and Evolution, <unitdate>1996,
-                2000</unitdate></unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="folder" label="Folder">14</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 780, Race and Ethnic Relations,
-                <unitdate>1992-1998</unitdate></unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="folder" label="Folder">15</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 790, Social Stratification, <unitdate>1993</unitdate></unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="folder" label="Folder">16</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 927, Special Topics, <unitdate>1991-1999</unitdate></unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="folder" label="Folder">17</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 928, Race and Place: Economic Restructuring and Urban
-                Development, <unitdate>1994, 1996</unitdate></unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="folder" label="Folder">18</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Sociology 928, Sociology of Capitalism,
-                <unitdate>1992-2000</unitdate></unittitle>
-              <container type="box" label="Box">6</container>
-              <container type="folder" label="Folder">19</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>"The Origins of the South Atlantic (Slave Plantation) System in the
-                Portuguese Atlantic in the 15th Century," Final Report,
-                <unitdate>undated</unitdate></unittitle>
-              <container type="box" label="Box">2</container>
-              <container type="folder" label="Folder">5</container>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>"The Study of Religion in Publicly Supported Colleges and Universities,"
-                  <unitdate>1967</unitdate>
+              <unittitle>
+                <unitdate>1989-2000</unitdate>
               </unittitle>
-              <container type="box" label="Box">2</container>
-              <container type="folder" label="Folder">6</container>
             </did>
+            <c04>
+              <did>
+                <unittitle>Course Numbers 101-248</unittitle>
+                <container type="box" label="Box">4</container>
+                <container type="folder" label="Folder">1-13</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Course Numbers 250-380</unittitle>
+                <container type="box" label="Box">5</container>
+                <container type="folder" label="Folder">1-22</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Course Numbers 440-928</unittitle>
+                <container type="box" label="Box">6</container>
+                <container type="folder" label="Folder">1-19</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1998-2005</unitdate>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Course Numbers 101-989</unittitle>
+                <container type="box" label="Box">8</container>
+                <container type="folder" label="Folder">1-63</container>
+              </did>
+            </c04>
           </c03>
         </c02>
-      </c01>
-      <c01 level="otherlevel" otherlevel="unprocessed" id="acc2011-024">
-        <did>
-          <unitid>Accession 2011-024</unitid>
-          <unittitle>Subject and Syllabi Files, <unitdate>1987-2005</unitdate></unittitle>
-          <physdesc>
-            <extent>2 cubic ft. (2 boxes)</extent>
-          </physdesc>
-          <abstract>Additions of syllabi and subject files, dating from circa 1987 to 2005. The
-            syllabi files cover the years 1998 to 2005 and appear to be inclusive. The subject files
-            primarily focus on the department's work with the Spanish Speaking Outreach Institute
-            (later Roberto Hernandez Center) on working with Latino students at UWM and in the
-            greater Milwaukee community, including results from a project on Latino student
-            retention.</abstract>
-        </did>
       </c01>
     </dsc>
   </archdesc>
