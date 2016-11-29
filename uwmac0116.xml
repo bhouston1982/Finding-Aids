@@ -778,6 +778,7 @@
           <did>
             <unittitle><title render="doublequote">Latinos in the Midwest</title> Research
               Symposium, Research Materials, <unitdate>1999-2001</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"></container>
           </did>
         </c02>
         <c02>
@@ -1128,13 +1129,7 @@
             <container type="folder" label="Folder">16</container>
           </did>
         </c02>
-        <c02>
-          <did>
-            <unittitle>Velez, William, Research Files, <unitdate>1999-2000</unitdate></unittitle>
-            <container type="electronic" label="Electronic Folder"/>
-          </did>
-        </c02>
-        <c02>
+             <c02>
           <did>
             <unittitle><title render="italic">Victor Hernandez and La Salsa de Dios</title> Report,
               1979</unittitle>
