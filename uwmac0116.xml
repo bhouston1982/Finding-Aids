@@ -35,6 +35,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date normal="2016-11-25">November 25, 2016</date>
+        <item>Christel Maass made several corrections.</item>
+      </change>
+      <change>
         <date normal="2016-11-22">November 22, 2016</date>
         <item>Brad Houston and Jessica Neal updated the finding aid to reflect addition of materials
           from 2011-024. Changes were made to titleproper, unitdate, extent, scopecontent,
@@ -773,7 +777,7 @@
         <c02>
           <did>
             <unittitle><title render="doublequote">Latinos in the Midwest</title> Research
-              Symposium, Research Materials, <unitdate>1999-2001(</unitdate></unittitle>
+              Symposium, Research Materials, <unitdate>1999-2001</unitdate></unittitle>
           </did>
         </c02>
         <c02>
@@ -795,7 +799,7 @@
           <did>
             <unittitle>
               <title render="italic">Luis Valdez: Notes on an American Theatre in Process</title>,
-              <unitdate>Undated</unitdate></unittitle>
+              <unitdate>undated</unitdate></unittitle>
             <container type="box" label="Box">2</container>
             <container type="folder" label="Folder">7</container>
           </did>
@@ -1126,7 +1130,7 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Velez, William Research Files, <unitdate>1999-2000</unitdate></unittitle>
+            <unittitle>Velez, William, Research Files, <unitdate>1999-2000</unitdate></unittitle>
             <container type="electronic" label="Electronic Folder"/>
           </did>
         </c02>

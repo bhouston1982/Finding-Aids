@@ -35,6 +35,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date normal="2016-11-28">November 28, 2016</date>
+        <item>Brad Houston updated the extent, accessrestrict, and contents list to reflect segregation of restricted folders.</item>
+      </change>
+      <change>
         <date normal="2016-11-25">November 25, 2016</date>
         <item>Christel Maass made several corrections.</item>
       </change>
@@ -82,7 +86,7 @@
       <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
         >UWM Archival Collection 108</unitid>
       <physdesc label="Quantity">
-        <extent encodinganalog="300">5.6 cubic ft. (10 boxes)</extent>
+        <extent encodinganalog="300">6.0 cubic ft. (11 boxes)</extent>
         <extent encodinganalog="300">118 digital text files (14 MB)</extent>
       </physdesc>
       <repository encodinganalog="852">
@@ -234,10 +238,7 @@
     <descgrp type="admininfo">
       <head>Administrative/Restriction Information</head>
       <accessrestrict encodinganalog="506">
-        <p>Folders 22 and 24 in box 8 are restricted in accordance with the Family Educational
-          Rights and Privacy Act of 1974 (FERPA). Folders will be removed before presenting the box
-          to researchers. Contact an archivist for more information.</p>
-        <p>The records in box 3, as well as folders 6-9 in box 8, are restricted in accordance with
+             <p>The records in box 3 and 11 are restricted in accordance with the Family Educational Rights and Privacy Act of 1974 (
           UWM Personnel File Policy S-42. Access is regulated by Section III. A.2 and III. A.3.</p>
         <p>Electronic records must be accessed at computers in the Archives. Contact an archivist
           for more information.</p>
