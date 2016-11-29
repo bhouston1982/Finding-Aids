@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"[ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>]> -->
 <ead id="uw-mil-uwmac0217" relatedencoding="MARC21">
-	<eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" relatedencoding="MARC21">
-		<eadid encodinganalog="856$u" countrycode="us" mainagencycode="wimiugma" url="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0217">uw-mil-uwmac0217</eadid>
+	<eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
+		dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924"
+		relatedencoding="MARC21">
+		<eadid encodinganalog="856$u" countrycode="us" mainagencycode="wimiugma"
+			url="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0217"
+			>uw-mil-uwmac0217</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper encodinganalog="245$a">Finding Aid of the UW-Milwaukee Institute of
-					Visual Art Records, 1962-2015</titleproper>
+					Visual Art Records, 1962-2016</titleproper>
 				<author encodinganalog="245$c">Brad Houston</author>
 			</titlestmt>
 			<publicationstmt>
@@ -27,14 +31,21 @@
 		<profiledesc>
 			<creation encodinganalog="500">Finding aid encoded by Nicholas Roche and Charles
 				Welborn.</creation>
-			<langusage encodinganalog="546">Finding aid written in <language encodinganalog="041" langcode="eng" scriptcode="Latn">English.</language></langusage>
+			<langusage encodinganalog="546">Finding aid written in <language encodinganalog="041"
+					langcode="eng" scriptcode="Latn">English.</language></langusage>
 		</profiledesc>
 		<revisiondesc>
 			<change>
+				<date normal="2016-11-28">November 11, 2016</date>
+				<item>Brad Houston added accession 2016-011 to the finding aid, updating the
+					contents list, call number, extent, arrangement list, other finding aid, and
+					acquisition information.</item>
+			</change>
+			<change>
 				<date normal="2016-05-25">May 25, 2016</date>
 				<item>Ashlie Biddle added accession 2015-042 to the finding aid, updating the
-					contents list, call number, extent, arrangement list, other finding
-					aid, and acquisition information.</item>
+					contents list, call number, extent, arrangement list, other finding aid, and
+					acquisition information.</item>
 			</change>
 			<change>
 				<date normal="2013-07-26">July 26, 2013</date>
@@ -53,20 +64,27 @@
 		<did>
 			<physloc type="locationcode" audience="internal">wimiugma</physloc>
 			<unittitle encodinganalog="245$a">UW-Milwaukee Institute of Visual Arts Records,
-					<unitdate type="inclusive" encodinganalog="245$f" normal="1962/2015">1962-2015</unitdate></unittitle>
+					<unitdate type="inclusive" encodinganalog="245$f" normal="1962/2016"
+					>1962-2016</unitdate></unittitle>
 			<origination label="Creator">
 				<corpname encodinganalog="110">University of Wisconsin-Milwaukee. Institute of
 					Visual Arts</corpname>
 			</origination>
-			<unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="us">UWM Archival Collection 217</unitid>
-			<unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="us">Accession 2015-042</unitid>
+			<unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma"
+				countrycode="us">UWM Archival Collection 217</unitid>
+			<unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma"
+				countrycode="us">Accession 2015-042</unitid>
+			<unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma"
+				countrycode="us">Accession 2016-011</unitid>
 			<physdesc label="Quantity">
 				<extent encodinganalog="300">24.2 cubic ft. (25 boxes)</extent>
 				<extent encodinganalog="300">69 digital image files (490 MB)</extent>
-				<extent encodinganalog="300">plus additions of 2 cubic ft. (2 boxes)</extent>
+				<extent encodinganalog="300">plus additions of 7 cubic ft. (7 boxes) and 231 digital
+					files (5.3 GB)</extent>
 			</physdesc>
 			<repository encodinganalog="852">
-				<extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center" title="University of Wisconsin-Milwaukee Logo." role="logoimage"/>
+				<extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
+					title="University of Wisconsin-Milwaukee Logo." role="logoimage"/>
 				<extref href="http://www.uwm.edu/Libraries/arch/index.html">
 					<corpname>University of Wisconsin-Milwaukee Libraries, Archives
 						Department</corpname>
@@ -96,7 +114,9 @@
 				everything in the same location. The museum opened to the public in 1983.</p>
 			<p>In 1996, the name of the University Art Museum was changed to the Institute for
 				Visual Arts or Inova. The mission of the new institute remained the same. In 2007,
-				the Institute for Visual Arts relocated to UWM's Kenilworth Building.</p>
+				the Institute for Visual Arts relocated to UWM's Kenilworth Building. The institute
+				remained at the Kenilworth building until Fall 2016, when the Peck School of the
+				Arts discontinued support.</p>
 			<bioghist>
 				<head>Directors of Constituent Galleries</head>
 				<bioghist>
@@ -163,8 +183,12 @@
 						<event>Bruce Knackert (Acting)</event>
 					</chronitem>
 					<chronitem>
-						<date>2012-</date>
+						<date>2012-2015</date>
 						<event>Sara Krajewski</event>
+					</chronitem>
+					<chronitem>
+						<date>2016</date>
+						<event>Monica Miller (Gallery Assistant)</event>
 					</chronitem>
 				</chronlist>
 			</bioghist>
@@ -189,9 +213,16 @@
 					<ref target="series2" show="replace" actuate="onrequest">Administrative Files,
 						1962-2003</ref>
 				</item>
+			</list>
+			<p>The collection contains two additional accessions:</p>
+			<list type="simple">
 				<item>
 					<ref target="acc2015-042" show="replace" actuate="onrequest">Accession 2015-042:
 						Exhibition Files, 1979-2015</ref>
+				</item>
+				<item>
+					<ref target="acc2016-011" actuate="onrequest" show="replace">Accession 2016-011:
+						Subject and Exhibition Files, 1991-2016</ref>
 				</item>
 			</list>
 		</arrangement>
@@ -205,21 +236,26 @@
 		</otherfindaid>
 		<prefercite encodinganalog="524">
 			<p>
-				<extref href="http://uwm.edu/libraries/archives/research/citation-guide-for-primary-sources/">Citation Guide for Primary Sources</extref>
+				<extref
+					href="http://uwm.edu/libraries/archives/research/citation-guide-for-primary-sources/"
+					>Citation Guide for Primary Sources</extref>
 			</p>
 		</prefercite>
 
 		<relatedmaterial encodinganalog="544 1">
 			<head>Related Material in the UWM Libraries</head>
-			<archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0144" actuate="onrequest" show="new">
+			<archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0144"
+				actuate="onrequest" show="new">
 				<unittitle>UWM Art Museum Publications</unittitle>
 				<unitid>UWM Archival Collection 144</unitid>
 			</archref>
-			<archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0081" actuate="onrequest" show="new">
+			<archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0081"
+				actuate="onrequest" show="new">
 				<unittitle>UW-Milwaukee School of Fine Arts</unittitle>
 				<unitid>UWM Archival Collection 81</unitid>
 			</archref>
-			<archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0209" actuate="onrequest" show="new">
+			<archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0209"
+				actuate="onrequest" show="new">
 				<unittitle>UW-Milwaukee Institute of Visual Arts Accession Files</unittitle>
 				<unitid>UWM Archival Collection 209</unitid>
 			</archref>
@@ -243,24 +279,29 @@
 				<p>The Institute of Visual Arts transferred the first accession in February 2008
 					(accession 2007-042) and the second accession in April 2008 (accession
 					2007-051).</p>
-				<p>Accession 2015-042 was received from the Peck School of Arts' Dean's
-					Office and separated from Accession 2015-041 in May 2016.</p>
+				<p>Accession 2015-042 was received from the Peck School of Arts' Dean's Office and
+					separated from Accession 2015-041 in May 2016. Accession 2016-011 was
+					transferred to the Archives in August 2016.</p>
 			</acqinfo>
 			<processinfo encodinganalog="583">
 				<p>Ashley Von Ruden, Nicholas Roche, and Charles Welborn processed accessions
 					2007-042 and 2007-051 from June 2011-June 2012 (Brad Houston supervised). Brad
-					Houston added electronic images from accession 2007-042 in June 2013.</p>
+					Houston added electronic images from accession 2007-042 in June 2013. Ashlie
+					Biddle minimally processed accession 2015-042 in May 2016 (Brad Houston
+					supervised). Alison Sielaff minimally processed accession 2016-011 in November
+					2016 (Brad Houston supervised).</p>
 			</processinfo>
 			<phystech audience="internal" encodinganalog="538">
-				<p>As of June 5, 2013, all electronic files were accessible on a Intel Core 2 Duo
-					CPU (2.33 GHz, 1.95 GB RAM) running Windows XP Professional Version 2002, with
-					Service Pack 3. Software used to access the files includes Windows Picture and
-					Fax Viewer and Notepad.</p>
+				<p>As of November 29, 2016, all electronic files were accessible on a Intel Core
+					i5-4570 CPU (3.20 GHz, 4 GB RAM) running Windows 7 Enterprise, with Service Pack
+					1. Software used to access the files includes Windows Picture and Fax Viewer,
+					Windows Media Player, and Notepad.</p>
 				<p>The collection includes records in the following file formats:</p>
 				<list type="marked">
 					<item>Tagged Image File Format [.tif]</item>
 					<item>JPEG File Interchange Format [.jpg]</item>
 					<item>ASCII Text Document [.txt]</item>
+					<item>Video Object File [.vob]</item>
 				</list>
 				<p>Access copies for TIFFs were created by Pixillion Image Converter as JPEG File
 					Interchange Format [.jpg] and were viewable in Windows Picture and Fax Viewer in
@@ -7359,6 +7400,67 @@
 					<did>
 						<unittitle>Exhibition Catalogs, <unitdate>1986-2015</unitdate></unittitle>
 						<container label="Box">2</container>
+					</did>
+				</c02>
+			</c01>
+			<c01 otherlevel="minimal" level="otherlevel" id="acc2016-011">
+				<did>
+					<unitid>Accession 2016-011</unitid>
+					<unittitle>Subject and Exhibition Files,
+						<unitdate>1991-2016</unitdate></unittitle>
+					<physdesc>
+						<extent>5 cubic ft. (5 boxes)</extent>
+						<extent>231 digital files (5.3 GB)</extent>
+					</physdesc>
+					<abstract>The majority of the accession consists of files related to artists and
+						exhibits from INOVA, including curator notes, exhibit planning, art images,
+						exhibit images, and exhibit publications. A small amount of material is also
+						included on the administration of INOVA, including directors’
+						correspondence, advisory board minutes, records from the annual Nohl
+						Fellowship awarded by INOVA, and strategic planning documents. The digital
+						files include video of and played in exhibits at INOVA, as well as photos of
+						artwork and exhibitions.</abstract>
+				</did>
+				<c02>
+					<did>
+						<unittitle>Administrative/Subject Files,
+							<unitdate>1997-2014</unitdate></unittitle>
+						<container type="box" label="Box">1</container>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Artist and Exhibition Files,
+							<unitdate>1991-2015</unitdate></unittitle>
+						<container type="box" label="Box">2</container>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Artist and Exhibition Files,
+							<unitdate>2001-2010</unitdate></unittitle>
+						<container type="box" label="Box">3</container>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Artist and Exhibition Files,
+							<unitdate>2002-2015</unitdate></unittitle>
+						<container type="box" label="Box">4</container>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Exhibition Files and Publications,
+							<unitdate>1996-2009</unitdate></unittitle>
+						<container type="box" label="Box">5</container>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Exhibition Photos and Videos,
+							<unitdate>2003-2010</unitdate></unittitle>
+						<container type="electronic" label="Electronic Folder"/>
 					</did>
 				</c02>
 			</c01>
