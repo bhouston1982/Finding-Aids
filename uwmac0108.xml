@@ -393,8 +393,8 @@
               <unittitle>
                 <unitdate>1989-1999</unitdate>
               </unittitle>
-              <container type="box" label="Box">8</container>
-              <container type="folder" label="Folder">6-9</container>
+              <container type="box" label="Box">11</container>
+              <container type="folder" label="Folder">1-3</container>
             </did>
             <accessrestrict>
               <p>Restricted</p>
@@ -405,7 +405,7 @@
           <did>
             <unittitle>Faculty Research Reports, <unitdate>1989-1994</unitdate></unittitle>
             <container type="box" label="Box">8</container>
-            <container type="folder" label="Folder">10</container>
+            <container type="folder" label="Folder">6</container>
           </did>
         </c02>
         <c02>
@@ -427,7 +427,7 @@
             <unittitle>Graduate Program Policies, Admission Check List and Brochure,
                 <unitdate>undated</unitdate></unittitle>
             <container type="box" label="Box">8</container>
-            <container type="folder" label="Folder">11</container>
+            <container type="folder" label="Folder">7</container>
           </did>
         </c02>
         <c02>
@@ -440,17 +440,14 @@
                 <unitdate>1984-2007</unitdate>
               </unittitle>
               <container type="box" label="Box">8</container>
-              <container type="folder" label="Folder">12-17</container>
+              <container type="folder" label="Folder">8-13</container>
             </did>
           </c03>
           <c03>
             <did>
-              <unittitle>Consultant's Report, </unittitle>
-              <unittitle>
-                <unitdate>1994</unitdate>
-              </unittitle>
+              <unittitle>Consultant's Report, <unitdate>1994</unitdate></unittitle>
               <container type="box" label="Box">8</container>
-              <container type="folder" label="Folder">18</container>
+              <container type="folder" label="Folder">14</container>
             </did>
           </c03>
         </c02>
@@ -465,7 +462,7 @@
           <did>
             <unittitle>Honorary Degrees Program, <unitdate>1992-2000</unitdate></unittitle>
             <container type="box" label="Box">8</container>
-            <container type="folder" label="Folder">19</container>
+            <container type="folder" label="Folder">15</container>
           </did>
         </c02>
         <c02>
@@ -485,7 +482,7 @@
                 <unitdate>1989-1992</unitdate>
               </unittitle>
               <container type="box" label="Box">8</container>
-              <container type="folder" label="Folder">20</container>
+              <container type="folder" label="Folder">16</container>
             </did>
           </c03>
           <c03>
@@ -577,7 +574,7 @@
             <did>
               <unittitle>Transfer to Political Science, <unitdate>1989-1990</unitdate></unittitle>
               <container type="box" label="Box">8</container>
-              <container type="folder" label="Folder">21</container>
+              <container type="folder" label="Folder">17</container>
             </did>
           </c03>
         </c02>
@@ -596,8 +593,8 @@
           <c03>
             <did>
               <unittitle>Correspondence, <unitdate>2008</unitdate></unittitle>
-              <container type="box" label="Box">8</container>
-              <container type="folder" label="Folder">22</container>
+              <container type="box" label="Box">11</container>
+              <container type="folder" label="Folder">4</container>
             </did>
             <accessrestrict>
               <p>Restricted</p>
@@ -607,7 +604,7 @@
             <did>
               <unittitle>Teams, <unitdate>1992</unitdate></unittitle>
               <container type="box" label="Box">8</container>
-              <container type="folder" label="Folder">23</container>
+              <container type="folder" label="Folder">18</container>
             </did>
           </c03>
         </c02>
@@ -623,8 +620,8 @@
           <did>
             <unittitle>Pi Sigma Alpha, Membership Lists and Correspondence,
                 <unitdate>1970-1995</unitdate></unittitle>
-            <container type="box" label="Box">8</container>
-            <container type="folder" label="Folder">24</container>
+            <container type="box" label="Box">11</container>
+            <container type="folder" label="Folder">5</container>
           </did>
           <accessrestrict>
             <p>Restricted</p>
@@ -648,7 +645,7 @@
           <did>
             <unittitle>Program Array Review, <unitdate>1997-1998</unitdate></unittitle>
             <container type="box" label="Box">8</container>
-            <container type="folder" label="Folder">25</container>
+            <container type="folder" label="Folder">19</container>
           </did>
         </c02>
         <c02>
@@ -656,14 +653,14 @@
             <unittitle>Program Reviews and Correspondence,
               <unitdate>1990-1998</unitdate></unittitle>
             <container type="box" label="Box">8</container>
-            <container type="folder" label="Folder">26</container>
+            <container type="folder" label="Folder">20</container>
           </did>
         </c02>
         <c02>
           <did>
             <unittitle>Proposals, <unitdate>1985-1986</unitdate></unittitle>
             <container type="box" label="Box">8</container>
-            <container type="folder" label="Folder">27</container>
+            <container type="folder" label="Folder">21</container>
           </did>
         </c02>
         <c02>
@@ -684,7 +681,7 @@
           <did>
             <unittitle>Self-Study, <unitdate>1998-1999</unitdate></unittitle>
             <container type="box" label="Box">8</container>
-            <container type="folder" label="Folder">28</container>
+            <container type="folder" label="Folder">22</container>
           </did>
         </c02>
         <c02>
@@ -699,23 +696,23 @@
             </did>
             <c04>
               <did>
-                <unittitle>Course Numbers 103-193</unittitle>
+                <unittitle>Course Numbers 103-243</unittitle>
                 <container type="box" label="Box">8</container>
-                <container type="folder" label="Folder">29-39</container>
+                <container type="folder" label="Folder">23-39</container>
               </did>
             </c04>
             <c04>
               <did>
-                <unittitle>Course Numbers 203-390</unittitle>
+                <unittitle>Course Numbers 250-417</unittitle>
                 <container type="box" label="Box">9</container>
                 <container type="folder" label="Folder">1-29</container>
               </did>
             </c04>
             <c04>
               <did>
-                <unittitle>Course Numbers 396-974, 921-001</unittitle>
+                <unittitle>Course Numbers 419-974, 921-001</unittitle>
                 <container type="box" label="Box">10</container>
-                <container type="folder" label="Folder">1-30</container>
+                <container type="folder" label="Folder">1-24</container>
               </did>
             </c04>
           </c03>
@@ -740,7 +737,7 @@
             <unittitle>Teacher Certification in Political Science,
               <unitdate>1981</unitdate></unittitle>
             <container type="box" label="Box">10</container>
-            <container type="folder" label="Folder">31</container>
+            <container type="folder" label="Folder">25</container>
           </did>
         </c02>
         <c02>
@@ -748,28 +745,28 @@
             <unittitle>Undergraduate Committee, Minutes and Correspondence,
                 <unitdate>1986-1998</unitdate></unittitle>
             <container type="box" label="Box">10</container>
-            <container type="folder" label="Folder">32</container>
+            <container type="folder" label="Folder">26</container>
           </did>
         </c02>
         <c02>
           <did>
             <unittitle>Undergraduate Curriculum, <unitdate>1996</unitdate></unittitle>
             <container type="box" label="Box">10</container>
-            <container type="folder" label="Folder">33</container>
+            <container type="folder" label="Folder">27</container>
           </did>
         </c02>
         <c02>
           <did>
             <unittitle>Undergraduate Internships, <unitdate>1998-2006</unitdate></unittitle>
             <container type="box" label="Box">10</container>
-            <container type="folder" label="Folder">34</container>
+            <container type="folder" label="Folder">28</container>
           </did>
         </c02>
         <c02>
           <did>
             <unittitle>Undergraduate Program Audit and Review, <unitdate>1995</unitdate></unittitle>
             <container type="box" label="Box">10</container>
-            <container type="folder" label="Folder">35</container>
+            <container type="folder" label="Folder">29</container>
           </did>
         </c02>
         <c02>
