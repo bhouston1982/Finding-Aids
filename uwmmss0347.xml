@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd" [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
+ <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd" [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > 
 <ead id="uw-mil-uwmmss0347" relatedencoding="MARC21">
 	<eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
 		dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924"
@@ -57,20 +57,19 @@
 						Department</corpname>
 				</extref>
 			</repository>
-			<abstract encodinganalog="520">Papers of former UWM professor and media critic Dave
-				Beckman consisting of articles, including copies of his Shepherd Express “Media
-				Musings,” news clippings, correspondence, and an extensive set of radio broadcasts,
-				largely Wisconsin Public Radio recordings.</abstract>
+			<abstract encodinganalog="520">Papers of former UWM professor and media critic Dave Berkman
+				consisting of articles, including copies of his Shepherd Express “Media Musings,”
+				news clippings, correspondence, and an extensive set of radio broadcasts, largely
+				Wisconsin Public Radio recordings.</abstract>
 			<langmaterial encodinganalog="546" label="Language">
 				<language encodinganalog="041" langcode="eng">English</language>
 			</langmaterial>
 		</did>
 		<bioghist encodinganalog="545">
-			<p>Dave Berkman (1934-2015) was a college professor and media critic. Berkman taught
-				mass communications at UW-Milwaukee, among other univeristies. For many years he
-				wrote a column called "Media Musing" for the Shepherd Express, a Milwaukee
-				alternative paper. He also hosted Wisconsin Public Radio's "Media Talk" show for 13
-				years.</p>
+			<p>Dave Berkman (1934-2015) was a college professor and media critic. Berkman taught mass
+				communications at UW-Milwaukee, among other universities. For many years he wrote a
+				column called "Media Musing" for the Shepherd Express, a Milwaukee alternative
+				paper. He also hosted Wisconsin Public Radio's "Media Talk" show for 13 years.</p>
 			<p>Berkman was a liberal, a civil rights activist, and a free speech absolutist, and
 				served on the state boards of the ACLU in Wisconsin and Connecticut, as well as on
 				the Corporation for Public Broadcasting's Minority Task Force. Berkman was a member
@@ -688,9 +687,9 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">How Manhatten-based Media Control 
-								the National News Agenda</title>,
-									<unitdate>27 April 2001</unitdate></unittitle>
+								<unittitle><title render="doublequote">How Manhattan-based Media Control the National News
+										Agenda</title>, <unitdate>27 April
+									2001</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
 								<physdesc><extent>Audio cassette 18</extent></physdesc>
 							</did>
@@ -1039,14 +1038,13 @@
 										0:31:45)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Vincent Brook, author of " Something Aint Kosher Here".</p>
+								<p>With Vincent Brook, author of " Something Ain't Kosher Here".</p>
 							</scopecontent>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Media Reform Conference
-										Particpants</title>, <unitdate>07 November
-									2003</unitdate></unittitle>
+								<unittitle><title render="doublequote">Media Reform Conference Participants</title>,
+										<unitdate>07 November 2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">22</container>
 								<physdesc><extent>1 digital audio file (0:44:52)</extent></physdesc>
 							</did>
@@ -1118,8 +1116,7 @@
 								<physdesc><extent>1 digital audio file (0:51:56)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Dr. Sydney Wolfe, director, Public Citizen's Health Research
-									Grp..</p>
+								<p>With Dr. Sydney Wolfe, director, Public Citizen's Health Research Group.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1131,7 +1128,7 @@
 								<physdesc><extent>1 digital audio file (0:51:59)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Mary Mitchell, Chicago Sun Times colunmist.</p>
+								<p>With Mary Mitchell, Chicago Sun Times columnist.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1311,7 +1308,7 @@
 								<physdesc><extent>1 digital audio file (0:44:22)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Claire Fuller, Sex Columnist, Lumberjack at No. AZ U..</p>
+								<p>With Claire Fuller, Sex Columnist, Lumberjack at No. AZ U.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1560,8 +1557,7 @@
 								<physdesc><extent>1 digital audio file (0:43:35)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Mark Feldstein, Dir. School of Media &amp; Public Aff. Geo.
-									Wash. U.</p>
+								<p>With Mark Feldstein, Dir. School of Media &amp; Public Affairs. Geo. Wash. U.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1573,7 +1569,7 @@
 								<physdesc><extent>1 digital audio file (0:43:38)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Tim Cuprisin, Columnist, Milwaukee Jounal Sentinel.</p>
+								<p>With Tim Cuprisin, Columnist, Milwaukee Journal Sentinel.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1714,7 +1710,7 @@
 										0:38:03)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With WIll Durst, Political Comedian.</p>
+								<p>With Will Durst, Political Comedian.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1927,9 +1923,8 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Presidential Candiates
-										Coverage</title>, <unitdate>01 April
-									2005</unitdate></unittitle>
+								<unittitle><title render="doublequote">Presidential Candidates Coverage</title>,
+										<unitdate>01 April 2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">100</container>
 								<physdesc><extent>1 digital audio file (0:45:59)</extent></physdesc>
 							</did>
@@ -1994,7 +1989,7 @@
 								<physdesc><extent>1 digital audio file (0:48:37)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Bryon York, White House correspondent, Nat'l Review.</p>
+								<p>With Bryon York, White House correspondent, National Review.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2252,8 +2247,7 @@
 								<physdesc><extent>1 digital audio file (0:45:02)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Alan Nadel, Literature &amp; Film Prof, Rensselaer Polytech
-									Inst..</p>
+								<p>With Alan Nadel, Literature &amp; Film Prof, Rensselaer Polytech Institute.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2265,7 +2259,7 @@
 								<physdesc><extent>1 digital audio file (0:44:23)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Tim Cuprisin, Media Critic, MilwaukeeJournal Sentinel.</p>
+								<p>With Tim Cuprisin, Media Critic, Milwaukee Journal Sentinel.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2476,8 +2470,8 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Blogs Feingolds Presidential
-										Run</title>, <unitdate>24 March 2006</unitdate></unittitle>
+								<unittitle><title render="doublequote">Blogs Feingold's Presidential Run</title>,
+										<unitdate>24 March 2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">147</container>
 								<physdesc><extent>1 digital audio file (0:54:41)</extent></physdesc>
 							</did>
@@ -2611,8 +2605,7 @@
 								<physdesc><extent>1 digital audio file (0:51:58)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Bill Lueders, President, WI's Freedom of Information.
-									Council.</p>
+								<p>With Bill Lueders, President, Wisconsin Freedom of Information. Council.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2715,9 +2708,8 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Dems &amp; health care
-										positions</title>, <unitdate>01 August
-									2003</unitdate></unittitle>
+								<unittitle><title render="doublequote">Democrats &amp; health care positions</title>,
+										<unitdate>01 August 2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">167</container>
 								<physdesc><extent>1 digital audio file (0:53:17)</extent></physdesc>
 							</did>
@@ -2821,7 +2813,7 @@
 								<physdesc><extent>1 digital audio file (0:45:07)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Bob Wolfley, Milw. Journal Sentinel sports columnist.</p>
+								<p>With Bob Wolfley, Milwaukee. Journal Sentinel sports columnist.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2833,7 +2825,7 @@
 								<physdesc><extent>1 digital audio file (0:51:49)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Thomas Mann, Brookings,W. Averell Harriman Chair.</p>
+								<p>With Thomas Mann, Brookings Institute, W. Averell Harriman Chair.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2923,9 +2915,8 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">What will Dems sacrifice to
-										Beat Bush?</title>, <unitdate>31 October
-									2003</unitdate></unittitle>
+								<unittitle><title render="doublequote">What will Democrats sacrifice to Beat Bush?</title>,
+										<unitdate>31 October 2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">184</container>
 								<physdesc><extent>1 digital audio file (0:44:12)</extent></physdesc>
 							</did>
@@ -2942,8 +2933,7 @@
 								<physdesc><extent>1 digital audio file (0:51:04)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Jamie Court, author, â€œCorporateering: How Corporate Power
-									Steals Your Freedom".</p>
+								<p>With Jamie Court, author, â€Corporateering: How Corporate Power Steals Your Freedom".</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2954,7 +2944,7 @@
 								<physdesc><extent>1 digital audio file (0:52:33)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With E.J. Dionne, Washington Post colunmist.</p>
+								<p>With E.J. Dionne, Washington Post columnist.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2966,8 +2956,7 @@
 								<physdesc><extent>1 digital audio file (0:43:24)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Beau Grosscup, CaL State Intern'l Studies &amp;
-									Terrorism.</p>
+								<p>With Beau Grosscup, Cal State International Studies &amp; Terrorism.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3074,8 +3063,8 @@
 								<physdesc><extent>1 digital audio file (0:52:39)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Robert Knight, Director,Culture &amp; Family Institute
-									/Concerned Women for Am..</p>
+								<p>With Robert Knight, Director, Culture &amp; Family Institute /Concerned Women for
+									America.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3223,8 +3212,8 @@
 								<physdesc><extent>1 digital audio file (0:52:34)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Steven Kull, Director, Program on Internt'l Policy
-									Attitudes, University of Maryland.</p>
+								<p>With Steven Kull, Director, Program on International Policy Attitudes, University of
+									Maryland.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3284,8 +3273,8 @@
 								<physdesc><extent>1 digital audio file (0:52:48)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Richard Longworth, Director,Global Chicago Center, Chicago
-									Council on Foreign Relations.</p>
+								<p>With Richard Longworth, Director, Global Chicago Center, Chicago Council on Foreign
+									Relations.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3451,8 +3440,7 @@
 								<physdesc><extent>1 digital audio file (0:44:18)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Dr. Gary Namie, President, Workplace Bullying &amp; Trauma
-									Institute..</p>
+								<p>With Dr. Gary Namie, President, Workplace Bullying &amp; Trauma Institute.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3538,8 +3526,7 @@
 								<physdesc><extent>1 digital audio file (0:51:02)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Karlyn Bowman, Resident Fellow, American Enterprise
-									Institute..</p>
+								<p>With Karlyn Bowman, Resident Fellow, American Enterprise Institute.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3673,15 +3660,13 @@
 								<physdesc><extent>1 digital audio file (0:43:29)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Michael Cole, Communications Director, Human RIghts
-									Campaign.</p>
+								<p>With Michael Cole, Communications Director, Human Rights Campaign.</p>
 							</scopecontent>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Dems Must Be
-										Progresive</title>, <unitdate>24 December
-									2004</unitdate></unittitle>
+								<unittitle><title render="doublequote">Democrats Must Be Progressive</title>, <unitdate>24
+										December 2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">246</container>
 								<physdesc><extent>1 digital audio file (0:50:48)</extent></physdesc>
 							</did>
@@ -3711,8 +3696,7 @@
 								<physdesc><extent>1 digital audio file (0:40:53)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Craig Gilbert, D.C. Bureau Chief, Milw. Journal
-									Sentinel.</p>
+								<p>With Craig Gilbert, D.C. Bureau Chief, Milwaukee. Journal Sentinel.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4610,8 +4594,8 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Weekly Panel Part 1 (1st 18
-										mins)</title>, <unitdate>07 June 2007</unitdate></unittitle>
+								<unittitle><title render="doublequote">Weekly Panel Part 1 (1st 18 minutes)</title>,
+										<unitdate>07 June 2007</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">344</container>
 								<physdesc><extent>1 digital audio file (0:18:28)</extent></physdesc>
 							</did>
@@ -4796,9 +4780,8 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Weekly Panel (first 10
-										mins.)</title>, <unitdate>08 November
-									2007</unitdate></unittitle>
+								<unittitle><title render="doublequote">Weekly Panel (first 10 minutes.)</title>,
+										<unitdate>08 November 2007</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">367</container>
 								<physdesc><extent>1 digital audio file (0:09:02)</extent></physdesc>
 							</did>
@@ -5204,9 +5187,8 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Party Spiltering
-										Coverage</title>, <unitdate>07 October
-									2009</unitdate></unittitle>
+								<unittitle><title render="doublequote">Party Splintering Coverage</title>, <unitdate>07
+										October 2009</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">417</container>
 								<physdesc><extent>1 digital audio file (0:49:17)</extent></physdesc>
 							</did>
