@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="ascii" standalone="no"?>
+<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
+<!-- wiarchives version:2008-05-22 -->
+<ead id="uw-mil-uwmac0160" relatedencoding="MARC21">
+  <eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
+    dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924"
+    relatedencoding="MARC21">
+    <eadid countrycode="US" mainagencycode="wimiugma"
+      url="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0160"
+      encodinganalog="856$u">uw-mil-uwmac0160</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245$a">Finding Aid of the UW-Milwaukee Dept. of Enrollment
+          Services Records, 1967-1993</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="260$b">University of Wisconsin-Milwaukee Libraries, Archives
+          Department</publisher>
+        <address>
+          <addressline>University of Wisconsin-Milwaukee</addressline>
+          <addressline>UWM Libraries</addressline>
+          <addressline>Archives Department</addressline>
+          <addressline>P.O. Box 604</addressline>
+          <addressline>Milwaukee, Wisconsin 53201-0604</addressline>
+          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
+        </address>
+        <date encodinganalog="260$c" type="publication" normal="2007">Copyright &#169; 2007
+          University of Wisconsin Board of Regents</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation encodinganalog="500">Finding aid encoded by Dan Vinson</creation>
+      <langusage encodinganalog="546">Finding aid written in <language encodinganalog="041"
+          langcode="eng" scriptcode="Latn">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date normal="2016-12-02">December 2, 2016</date>
+        <item>Christel Maass a closing date.</item>
+      </change>
+      <change>
+        <date normal="2013-05-23">May 23, 2013</date>
+        <item>Brad Houston added a relatedmaterial note to indicate preservation copies of the
+          Schedule of Classes maintained by the Archives.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="collection" relatedencoding="MARC21">
+    <did>
+      <physloc type="locationcode" audience="internal">wimiugma</physloc>
+      <unittitle encodinganalog="245$a">UW-Milwaukee Dept. of Enrollment Services Records, <unitdate
+          type="inclusive" encodinganalog="245$f" normal="1967/1993"
+        >1967-1993</unitdate></unittitle>
+      <origination label="Creator">
+        <corpname encodinganalog="110">University of Wisconsin-Milwaukee. Dept. of Enrollment
+          Services</corpname>
+      </origination>
+      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
+        >UWM Archival Collection 160</unitid>
+      <physdesc label="Quantity">
+        <extent encodinganalog="300">1.4 cubic ft. (2 boxes)</extent>
+      </physdesc>
+      <repository encodinganalog="852">
+        <extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
+          title="University of Wisconsin-Milwaukee Logo." role="logoimage"/>
+        <extref href="http://www.uwm.edu/Libraries/arch/index.html">
+          <corpname>University of Wisconsin-Milwaukee Libraries, Archives Department</corpname>
+        </extref>
+      </repository>
+      <abstract encodinganalog="520">Records of the Dept. of Enrollment Services and its sub-units,
+        the Office of the Registrar and the Admissions Office. The collection includes annual
+        reports and planning documents, enrollment statistics, and surveys. The records also
+        document the recruitment of minorities and high school students, and student admission and
+        retention. Also included are electronic copies of the Schedule of Classes from 2008 through
+        Spring 2013.</abstract>
+      <langmaterial encodinganalog="546" label="Language">
+        <language encodinganalog="041" langcode="eng">English</language>
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="545">
+      <p>In 1988, the Dept. of Enrollment Services was established to encompass the Office of the
+        Registrar and the Office of Admissions. Frederick Sperry headed this unit.</p>
+    </bioghist>
+    <arrangement encodinganalog="351">
+      <p>The files are organized alphabetically by subject, then chronologically.</p>
+    </arrangement>
+    <prefercite encodinganalog="524">
+      <p>
+        <extref href="http://uwm.edu/libraries/archives/research/citation-guide-for-primary-sources/">Citation Guide for
+          Primary Sources</extref>
+      </p>
+    </prefercite>
+    <relatedmaterial>
+      <p>The Archives also maintains preservation copies of the Schedule of Classes, which is
+        currently published in electronic form only. See an archivist for details. Copies of the
+        Schedule of Classes are accessible at <extref href="http://www4.uwm.edu/schedule/"
+          actuate="onrequest" show="new">http://www4.uwm.edu/schedule/</extref>.</p>
+    </relatedmaterial>
+    <descgrp type="admininfo">
+      <head>Administrative/Restriction Information</head>
+      <accessrestrict encodinganalog="506">
+        <p>Electronic files must be viewed on computers in the Archives. Contact an archivist for
+          more information.</p>
+        <p>There are no access restrictions on the materials, and the collection is open to all
+          members of the public in accordance with state law.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>The researcher assumes full responsibility for conforming with the laws of libel,
+          privacy, and copyright which may be involved in the use of this collection (Wisconsin
+          Statutes 19.21-19.39).</p>
+      </userestrict>
+      <acqinfo encodinganalog="541">
+        <p>Fred Sperry in Enrollment Services transferred the collection to the Archives in
+          September 1995.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+        <p>Christel Maass processed the collection at the Archives in November 1997. Jessica
+          Sawinski processed additional material in December 2006. Brad Houston added electronic
+          schedules of classes to the collection in May 2013.</p>
+      </processinfo>
+    </descgrp>
+    <dsc type="in-depth">
+      <head>Contents List</head>
+      <c01>
+        <did>
+          <unittitle>Advisory Committee, Minutes, 1992-1993</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">40</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Annual Reports, 1980-1990</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">1</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Brochures, 1981-1984, undated</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">2</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>California Reverse Discrimination Case, 1976-1977</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">3</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>College Board Equality Project, 1985-1988</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">4</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Consultants Reports, 1967</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">5</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Enrollment, 1976-1989</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">6-13</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Enrollment Cap, 1987</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">14</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Enrollment Ceiling, 1975-1976</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">15</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Enrollment Projections, 1984-1987</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">41</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Fee Cancellations, 1984-1986</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">16</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Fees, 1982-1984</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">17</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>General Education Requirements, 1983-1987</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">18</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Goals, 1986-1989</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">19</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>History, 1980, 1988</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">20</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>In-Person Registration, 1987</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">21</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>In-Person Registration Task Force, 1986-1987</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">22</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Marshall Plan, 1983-1986</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">23</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Mini-Grants, 1985-1986</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">24</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Minority Affairs Administrative Committee, 1990-1991</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">25</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Minority/Disadvantaged Student Life Committee, 1984-1985</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">26</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Minority Recruitment Review Committee, 1989, undated</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">27</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Minority Student Recruitment, 1983-1988</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">28</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Multiple Applicant Study, 1981-1988</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">29</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>National Association of College Admissions Counselors, Presentation,
+            1983</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">30</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>News Releases, 1971-1985</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">31</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Office of the Registrar, Advisory Committee Meeting Minutes,
+            1985-1987</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">32</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Office of the Registrar, Review, 1983-1984</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">33</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Planning Document, 1982-1991</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">34-36</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Planning for the Future, 1984-1987</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">37</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Recruitment, 1986</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">38</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Refusals, 1986-1987</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">39</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Registration Report, 1987-1989</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">1</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Request for Proposal, 1980</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">2</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Satellite Instruction Center, 1976, undated</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">3</container>
+        </did>
+      </c01>
+
+      <c01>
+        <did>
+          <unittitle>Standards of Academic Progress, 1977-1983</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">4</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Student Recruitment, 1971-1972</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">5</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Student Retention, 1968-1989</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">6</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Student Retention, 1971-1979</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">7</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Student Retention Committee, 1975-1979</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">8</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Studies, 1971-1984</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">9</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Summer Sessions, 1983-1985</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">10</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Surveys, 1976-1989</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">11</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Surveys, 1983-1989</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">12</container>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
