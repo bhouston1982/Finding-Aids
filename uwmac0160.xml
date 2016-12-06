@@ -35,6 +35,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date normal="2016-12-06">December 6, 2016</date>
+        <item>Brad Houston added information about the electronic records.</item>
+      </change>
+      <change>
         <date normal="2016-12-02">December 2, 2016</date>
         <item>Christel Maass a closing date.</item>
       </change>
@@ -59,6 +63,7 @@
         >UWM Archival Collection 160</unitid>
       <physdesc label="Quantity">
         <extent encodinganalog="300">1.4 cubic ft. (2 boxes)</extent>
+        <extent encodinganalog="300">55 digital text files (408 MB)</extent>
       </physdesc>
       <repository encodinganalog="852">
         <extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
@@ -86,8 +91,9 @@
     </arrangement>
     <prefercite encodinganalog="524">
       <p>
-        <extref href="http://uwm.edu/libraries/archives/research/citation-guide-for-primary-sources/">Citation Guide for
-          Primary Sources</extref>
+        <extref
+          href="http://uwm.edu/libraries/archives/research/citation-guide-for-primary-sources/"
+          >Citation Guide for Primary Sources</extref>
       </p>
     </prefercite>
     <relatedmaterial>
@@ -109,6 +115,15 @@
           privacy, and copyright which may be involved in the use of this collection (Wisconsin
           Statutes 19.21-19.39).</p>
       </userestrict>
+      <phystech audience="internal" encodinganalog="538">
+        <p>As of December 6, 2016, all electronic files were accessible on a Intel Core i5-4570 CPU
+          (3.20 GHz, 4 GB RAM) running Windows 7 Enterprise, with Service Pack 1. Adobe Acrobat was
+          used to access the files.</p>
+        <p>The collection includes records in the following file formats:</p>
+        <list type="marked">
+          <item>Portable Document Format [.pdf]</item>
+        </list>
+      </phystech>
       <acqinfo encodinganalog="541">
         <p>Fred Sperry in Enrollment Services transferred the collection to the Archives in
           September 1995.</p>
@@ -116,7 +131,7 @@
       <processinfo encodinganalog="583">
         <p>Christel Maass processed the collection at the Archives in November 1997. Jessica
           Sawinski processed additional material in December 2006. Brad Houston added electronic
-          schedules of classes to the collection in May 2013.</p>
+          schedules of classes to the collection in May 2013 and December 2016.</p>
       </processinfo>
     </descgrp>
     <dsc type="in-depth">
@@ -368,7 +383,12 @@
           <container type="folder" label="Folder">3</container>
         </did>
       </c01>
-
+      <c01>
+        <did>
+          <unittitle>Schedule of Classes, <unitdate>2008-2016</unitdate></unittitle>
+          <container type="electronic" label="Electronic Folder"/>
+        </did>
+      </c01>
       <c01>
         <did>
           <unittitle>Standards of Academic Progress, 1977-1983</unittitle>
