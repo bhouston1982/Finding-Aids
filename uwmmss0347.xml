@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd" [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
+ <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd" [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > 
 <ead id="uw-mil-uwmmss0347" relatedencoding="MARC21">
 	<eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
 		dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924"
@@ -9,7 +9,7 @@
 			>uw-mil-uwmmss0347</eadid>
 		<filedesc>
 			<titlestmt>
-				<titleproper encodinganalog="245$a">Dave Berkman Papers,
+				<titleproper encodinganalog="245$a">Finding Aid of the Dave Berkman Papers,
 					1958-2016</titleproper>
 				<author encodinganalog="245$c">Christel Maass</author>
 			</titlestmt>
@@ -46,31 +46,30 @@
 				countrycode="us">UWM Manuscript Collection 347</unitid>
 			<physdesc label="Quantity">
 				<extent encodinganalog="300">4.2 cubic ft. (5 boxes, including 1
-					audio cassette and 38 video cassettes)</extent>
+					video cassette and 38 audio cassettes)</extent>
 				<extent>448 digital audio files (22 GB)</extent>
 			</physdesc>
 			<repository encodinganalog="852">
 				<extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
 					title="University of Wisconsin-Milwaukee Logo." role="logoimage"/>
-				<extref href="http://www.uwm.edu/Libraries/arch/index.html">
+				<extref href="http://uwm.edu/libraries/archives/">
 					<corpname>University of Wisconsin-Milwaukee Libraries, Archives
 						Department</corpname>
 				</extref>
 			</repository>
-			<abstract encodinganalog="520">Papers of former UWM professor and media critic Dave
-				Beckman consisting of articles, including copies of his Shepherd Express “Media
-				Musings,” news clippings, correspondence, and an extensive set of radio broadcasts,
-				largely Wisconsin Public Radio recordings.</abstract>
+			<abstract encodinganalog="520">Papers of former UWM professor and media critic Dave Berkman
+				consisting of articles, including copies of his Shepherd Express “Media Musings,”
+				news clippings, correspondence, and an extensive set of radio broadcasts, largely
+				Wisconsin Public Radio recordings.</abstract>
 			<langmaterial encodinganalog="546" label="Language">
 				<language encodinganalog="041" langcode="eng">English</language>
 			</langmaterial>
 		</did>
 		<bioghist encodinganalog="545">
-			<p>Dave Berkman (1934-2015) was a college professor and media critic. Berkman taught
-				mass communications at UW-Milwaukee, among other univeristies. For many years he
-				wrote a column called "Media Musing" for the Shepherd Express, a Milwaukee
-				alternative paper. He also hosted Wisconsin Public Radio's "Media Talk" show for 13
-				years.</p>
+			<p>Dave Berkman (1934-2015) was a college professor and media critic. Berkman taught mass
+				communications at UW-Milwaukee, among other universities. For many years he wrote a
+				column called "Media Musings" for the Shepherd Express, a Milwaukee alternative
+				paper. He also hosted Wisconsin Public Radio's "Media Talk" show for 13 years.</p>
 			<p>Berkman was a liberal, a civil rights activist, and a free speech absolutist, and
 				served on the state boards of the ACLU in Wisconsin and Connecticut, as well as on
 				the Corporation for Public Broadcasting's Minority Task Force. Berkman was a member
@@ -108,9 +107,9 @@
 				guest on the Kathleen Dunn Show and the Ben Merens Show. Topics discussed on the shows 
 				include the Jesse Anderson case, Jeffrey Dahmer case, Laurie Bembenek, Second Amendment, 
 				media influence on society, quality of journalism, labor union issues, and politics.</p>
-			<p>The videocassette consists of an episode of the show <title render="italic">Conservative Forum</title>. 
-				As the guest on the show, Berkman discussed his views on the United States's military presence
-				in the world. </p>
+			<p>The videocassette consists of an episode of the show <title render="italic">Conservative
+					Forum</title>. As the guest on the show, Berkman discussed his views on the
+				United States' military presence in the world. </p>
 		</scopecontent>
 		<arrangement encodinganalog="351">
 			<p>The files are arranged into the following series:</p>
@@ -230,7 +229,7 @@
 				</did>
 				<c02 id="series1" level="series">
 					<did>
-						<unittitle>1. Paper Files, <unitdate>1958-2016</unitdate>
+						<unittitle>1. Subject Files, <unitdate>1958-2016</unitdate>
 						</unittitle>
 					</did>
 					<c03>
@@ -244,6 +243,14 @@
 						<did>
 							<unittitle>Clippings, <unitdate>1958-2016</unitdate></unittitle>
 							<container type="box" label="Box">3</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle><title render="doublequote">Conservative Forum</title>,
+								<unitdate>undated</unitdate></unittitle>
+							<container type="video" label="Video">1</container>
+							<physdesc><extent>1 videocassette (VHS)</extent></physdesc>
 						</did>
 					</c03>
 					<c03>
@@ -311,10 +318,14 @@
 						</did>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Bambi, Laurie Bembenek</title>,
-									<unitdate>17 June 1991</unitdate></unittitle>
+								<unittitle><title render="doublequote">Bambi, Laurie
+										Bembenek</title>, <unitdate>17 June
+									1991</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 1</extent></physdesc>
+								<container type="audio" label="Audio">1</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Tom Clark, Political Correspondence</p>
@@ -322,20 +333,26 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Wisconsin News Magazine on 
-								Coverage of Dahmer Case</title>,
-									<unitdate>4 August 1991</unitdate></unittitle>
+								<unittitle><title render="doublequote">Wisconsin News Magazine on
+										Coverage of Dahmer Case</title>, <unitdate>4 August
+										1991</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 1</extent></physdesc>
+								<container type="audio" label="Audio">1</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Late Night Television 
-								Talk Show Wars</title>,
-									<unitdate>September 1993</unitdate></unittitle>
+								<unittitle><title render="doublequote">Late
+										Night Television Talk Show Wars</title>, <unitdate>September
+										1993</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 24</extent></physdesc>
+								<container type="audio" label="Audio">24</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Rick Kogan, Television Critic</p>
@@ -343,31 +360,42 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Media Coverage of Labor</title>,
-									<unitdate>September 1993</unitdate></unittitle>
+								<unittitle><title render="doublequote">Media Coverage of
+										Labor</title>, <unitdate>September
+									1993</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 24</extent></physdesc>
+								<container type="audio" label="Audio">24</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With David Newby, AFL-CIO Wisconsin Chapter</p>
+								<p>With David Newby, AFL-CIO Wisconsin
+									Chapter</p>
 							</scopecontent>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Dennis Getto, Restaurant Critic, 
-								Milwaukee Journal</title>,
-									<unitdate>19 September 1993</unitdate></unittitle>
+								<unittitle><title render="doublequote">Dennis Getto, Restaurant
+										Critic, Milwaukee Journal</title>, <unitdate>19 September
+										1993</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 2</extent></physdesc>
+								<container type="audio" label="Audio">2</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 						</c04>
 						<c04>
 							<did>
 								<unittitle><title render="doublequote">Twentieth Century Fund Report
-									on Future of Public Television</title>,
-									<unitdate>19 September 1993</unitdate></unittitle>
+										on Future of Public Television</title>, <unitdate>19
+										September 1993</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 2</extent></physdesc>
+								<container type="audio" label="Audio">2</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Richard Somerset-Ward, Author</p>
@@ -375,10 +403,14 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Coverage on Breitlow Murder</title>,
-									<unitdate>12 December 1993</unitdate></unittitle>
+								<unittitle><title render="doublequote">Coverage on Breitlow
+										Murder</title>, <unitdate>12 December
+									1993</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 3</extent></physdesc>
+								<container type="audio" label="Audio">3</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Jim Romenesko, Journalist</p>
@@ -386,10 +418,14 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Evolution of Television</title>,
-									<unitdate>12 December 1993</unitdate></unittitle>
+								<unittitle><title render="doublequote">Evolution of
+										Television</title>, <unitdate>12 December
+									1993</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 3</extent></physdesc>
+								<container type="audio" label="Audio">3</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Lardy Laurent, Critic Emeritus, Washington Post</p>
@@ -397,10 +433,14 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">'Electronic Violence' and Kids</title>,
-									<unitdate>13 December 1993</unitdate></unittitle>
+								<unittitle><title render="doublequote">'Electronic Violence' and
+										Kids</title>, <unitdate>13 December
+									1993</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 4</extent></physdesc>
+								<container type="audio" label="Audio">4</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Tom Clark, Wisconsin Public Radio</p>
@@ -408,10 +448,14 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Bobby Inman, Press Criticisms</title>,
-									<unitdate>19 January 1994</unitdate></unittitle>
+								<unittitle><title render="doublequote">Bobby Inman, Press
+										Criticisms</title>, <unitdate>19 January
+									1994</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 4</extent></physdesc>
+								<container type="audio" label="Audio">4</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Kathleen Dunn, Wisconsin Public Radio</p>
@@ -419,10 +463,14 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Christian Broadcasting</title>,
-									<unitdate>10 April 1994</unitdate></unittitle>
+								<unittitle><title render="doublequote">Christian
+										Broadcasting</title>, <unitdate>10 April
+									1994</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 5</extent></physdesc>
+								<container type="audio" label="Audio">5</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Vic Eliason, Founder, VCY America Radio Network</p>
@@ -430,10 +478,14 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Court TV and Legal Reporting</title>,
-									<unitdate>10 April 1994</unitdate></unittitle>
+								<unittitle><title render="doublequote">Court TV and Legal
+										Reporting</title>, <unitdate>10 April
+									1994</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 5</extent></physdesc>
+								<container type="audio" label="Audio">5</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Fred Graham, Court TV</p>
@@ -441,11 +493,14 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">All American Television Incorporated, 
-									Syndicates "Baywatch"</title>,
-									<unitdate>15 May 1994</unitdate></unittitle>
+								<unittitle><title render="doublequote">All American Television
+										Incorporated, Syndicates "Baywatch"</title>, <unitdate>15
+										May 1994</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 6</extent></physdesc>
+								<container type="audio" label="Audio">6</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Paul Siegel, President</p>
@@ -454,9 +509,12 @@
 						<c04>
 							<did>
 								<unittitle><title render="doublequote">Gossip Columning</title>,
-									<unitdate>15 May 1994</unitdate></unittitle>
+										<unitdate>15 May 1994</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 6</extent></physdesc>
+								<container type="audio" label="Audio">6</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Meg Kissinger, Journalist</p>
@@ -465,18 +523,24 @@
 						<c04>
 							<did>
 								<unittitle><title render="doublequote">Open Line</title>,
-									<unitdate>6 August 1994</unitdate></unittitle>
+										<unitdate>6 August 1994</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 7</extent></physdesc>
+								<container type="audio" label="Audio">7</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 						</c04>
 						<c04>
 							<did>
 								<unittitle><title render="doublequote">Psychic Phenomenon Invasion
-								of Media</title>,
-									<unitdate>6 August 1994</unitdate></unittitle>
+										of Media</title>, <unitdate>6 August
+									1994</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 7</extent></physdesc>
+								<container type="audio" label="Audio">7</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With James Randi, Magician and Scientific Skeptic</p>
@@ -484,11 +548,14 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">"By Invitation Only, How the Media Limit
-									the Political Debate"</title>,
-									<unitdate>22 January 1995</unitdate></unittitle>
+								<unittitle><title render="doublequote">"By Invitation Only: How the
+										Media Limit the Political Debate"</title>, <unitdate>22
+										January 1995</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 8</extent></physdesc>
+								<container type="audio" label="Audio">8</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With David Croteau, Author</p>
@@ -496,10 +563,14 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Critic on Journal Sentinel</title>,
-									<unitdate>22 January 1995</unitdate></unittitle>
+								<unittitle><title render="doublequote">Critic on Journal
+										Sentinel</title>, <unitdate>22 January
+									1995</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 8</extent></physdesc>
+								<container type="audio" label="Audio">8</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Jim Romenesko, Journalist</p>
@@ -508,9 +579,12 @@
 						<c04>
 							<did>
 								<unittitle><title render="doublequote">Morning Sportstalk</title>,
-									<unitdate>26 February 1995</unitdate></unittitle>
+										<unitdate>26 February 1995</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 9</extent></physdesc>
+								<container type="audio" label="Audio">9</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Scott Aebly, Co-host</p>
@@ -518,11 +592,14 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Role of Alternative Paper in 
-								One Daily Town</title>,
-									<unitdate>26 February 1995</unitdate></unittitle>
+								<unittitle><title render="doublequote">Role of Alternative Paper in
+										One Daily Town</title>, <unitdate>26 February
+										1995</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 9</extent></physdesc>
+								<container type="audio" label="Audio">9</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Greg Quindel and Doug Hissom, Shephard Express</p>
@@ -530,10 +607,14 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">First Month of New Journal Sentinel</title>,
-									<unitdate>30 April 1995</unitdate></unittitle>
+								<unittitle><title render="doublequote">First Month of New Journal
+										Sentinel</title>, <unitdate>30 April
+									1995</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 10</extent></physdesc>
+								<container type="audio" label="Audio">10</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Jim Romenesko, Journalist</p>
@@ -542,9 +623,12 @@
 						<c04>
 							<did>
 								<unittitle><title render="doublequote">Let Go Buy New Paper</title>,
-									<unitdate>30 April 1995</unitdate></unittitle>
+										<unitdate>30 April 1995</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 10</extent></physdesc>
+								<container type="audio" label="Audio">10</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Joel McNally, Journalist</p>
@@ -552,28 +636,38 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">John Heckenlively, Reporter, 
-									Racine Labor</title>,
-									<unitdate>11 June 1995</unitdate></unittitle>
+								<unittitle><title render="doublequote">John Heckenlively, Reporter,
+										Racine Labor</title>, <unitdate>11 June
+									1995</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 11</extent></physdesc>
+								<container type="audio" label="Audio">11</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">David Niles, Editor, 
-									Small Business Times</title>,
-									<unitdate>11 June 1995</unitdate></unittitle>
+								<unittitle><title render="doublequote">David Niles, Editor, Small
+										Business Times</title>, <unitdate>11 June
+									1995</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 11</extent></physdesc>
+								<container type="audio" label="Audio">11</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Freedom Forum Paper on Fairness</title>,
-									<unitdate>24 September 1995</unitdate></unittitle>
+								<unittitle><title render="doublequote">Freedom Forum Paper on
+										Fairness</title>, <unitdate>24 September
+									1995</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 12</extent></physdesc>
+								<container type="audio" label="Audio">12</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Will Pinkston, Author</p>
@@ -581,39 +675,53 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Journal Sentinel Merger</title>,
-									<unitdate>24 September 1995</unitdate></unittitle>
+								<unittitle><title render="doublequote">Journal Sentinel
+										Merger</title>, <unitdate>24 September
+									1995</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 12</extent></physdesc>
+								<container type="audio" label="Audio">12</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Jim Romenesko, Journalist</p>
 							</scopecontent>
-						</c04>	
+						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">William Elliott, Dean Designate, 
-								Marquette University</title>,
-									<unitdate>22 October 1995</unitdate></unittitle>
+								<unittitle><title render="doublequote">William Elliott, Dean
+										Designate, Marquette University</title>, <unitdate>22
+										October 1995</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 13</extent></physdesc>
-							</did>
-						</c04>	
-						<c04>
-							<did>
-								<unittitle><title render="doublequote">WKLH's Dave Luczak and Carole Caine</title>,
-									<unitdate>22 October 1995</unitdate></unittitle>
-								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 13</extent></physdesc>
+								<container type="audio" label="Audio">13</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Differences in Black and White
-								Television Viewing</title>,
-									<unitdate>9 June 1996</unitdate></unittitle>
+								<unittitle><title render="doublequote">WKLH's Dave Luczak and Carole
+										Caine</title>, <unitdate>22 October
+									1995</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 14</extent></physdesc>
+								<container type="audio" label="Audio">13</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
+							</did>
+						</c04>
+						<c04>
+							<did>
+								<unittitle><title render="doublequote">Differences in Black and
+										White Television Viewing</title>, <unitdate>9 June
+										1996</unitdate></unittitle>
+								<container type="Box" label="Box">5</container>
+								<container type="audio" label="Audio">14</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Eugene Kane, Journalist</p>
@@ -622,9 +730,12 @@
 						<c04>
 							<did>
 								<unittitle><title render="doublequote">Girls and Kid Videos</title>,
-									<unitdate>9 June 1996</unitdate></unittitle>
+										<unitdate>9 June 1996</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 14</extent></physdesc>
+								<container type="audio" label="Audio">14</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Jennifer Magnan, Journalist</p>
@@ -632,20 +743,26 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Nick Carter, Rock Critic and Nightlife
-								Columnist, Milwaukee Journal Sentinel</title>,
-									<unitdate>7 July 1996</unitdate></unittitle>
+								<unittitle><title render="doublequote">Nick Carter, Rock Critic and
+										Nightlife Columnist, Milwaukee Journal Sentinel</title>,
+										<unitdate>7 July 1996</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 15</extent></physdesc>
+								<container type="audio" label="Audio">15</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Briggs and Stratton 630 Million Dollar
-								Libel Suit</title>,
-									<unitdate>7 July 1996</unitdate></unittitle>
+								<unittitle><title render="doublequote">Briggs and Stratton 630
+										Million Dollar Libel Suit</title>, <unitdate>7 July
+										1996</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 15</extent></physdesc>
+								<container type="audio" label="Audio">15</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Tom Fox, Editor</p>
@@ -653,19 +770,26 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Scott Dikkers, Founder, The Onion</title>,
-									<unitdate>16 October 1998</unitdate></unittitle>
+								<unittitle><title render="doublequote">Scott Dikkers, Founder, The
+										Onion</title>, <unitdate>16 October
+									1998</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 16</extent></physdesc>
+								<container type="audio" label="Audio">16</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">How Right Wing Foundations Set 
-								the Media Agendas</title>,
-									<unitdate>16 October 1998</unitdate></unittitle>
+								<unittitle><title render="doublequote">How Right Wing Foundations
+										Set the Media Agendas</title>, <unitdate>16 October
+										1998</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 16</extent></physdesc>
+								<container type="audio" label="Audio">16</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Lawrence Soley, Journalist</p>
@@ -674,9 +798,12 @@
 						<c04>
 							<did>
 								<unittitle><title render="doublequote">Milwaukee Press Club</title>,
-									<unitdate>14 July 2000</unitdate></unittitle>
+										<unitdate>14 July 2000</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 17</extent></physdesc>
+								<container type="audio" label="Audio">17</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Mark Zoromski and Leo Kissel, Journalists</p>
@@ -684,10 +811,14 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">WORT's Twenty-fifth Anniversary</title>,
-									<unitdate>14 July 2000</unitdate></unittitle>
+								<unittitle><title render="doublequote">WORT's Twenty-fifth
+										Anniversary</title>, <unitdate>14 July
+									2000</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 17</extent></physdesc>
+								<container type="audio" label="Audio">17</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Norman Stockwell, Journalist</p>
@@ -695,11 +826,14 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">How Manhatten-based Media Control 
-								the National News Agenda</title>,
-									<unitdate>27 April 2001</unitdate></unittitle>
+								<unittitle><title render="doublequote">How Manhattan-based Media
+										Control the National News Agenda</title>, <unitdate>27 April
+										2001</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 18</extent></physdesc>
+								<container type="audio" label="Audio">18</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Brent Cunningham, Editor</p>
@@ -708,10 +842,13 @@
 						<c04>
 							<did>
 								<unittitle><title render="doublequote">Roll of Wisconsin Public
-								Radio Producers</title>,
-									<unitdate>4 May 2001</unitdate></unittitle>
+										Radio Producers</title>, <unitdate>4 May
+									2001</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 18</extent></physdesc>
+								<container type="audio" label="Audio">18</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Ben Merens, Journalist</p>
@@ -719,10 +856,13 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Future of Wisconsin Public Radio</title>,
-									<unitdate>25 May 2001</unitdate></unittitle>
+								<unittitle><title render="doublequote">Future of Wisconsin Public
+										Radio</title>, <unitdate>25 May 2001</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 19</extent></physdesc>
+								<container type="audio" label="Audio">19</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Gregg Schnirring, Wisconsin Public Radio</p>
@@ -730,23 +870,30 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">How Federal Communications Commission
-									Has Changed</title>,
-									<unitdate>1 June 2001</unitdate></unittitle>
+								<unittitle><title render="doublequote">How Federal Communications
+										Commission Has Changed</title>, <unitdate>1 June
+										2001</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 19</extent></physdesc>
+								<container type="audio" label="Audio">19</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Nick Johnson, Former Commissioner, Federal Communications Commission</p>
+								<p>With Nick Johnson, Former Commissioner, Federal Communications
+									Commission</p>
 							</scopecontent>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Media Coverage on Twin Towers and 
-								the Pentagon Terrorist Attacks</title>,
-									<unitdate>13 September 2001</unitdate></unittitle>
+								<unittitle><title render="doublequote">Media Coverage on Twin Towers
+										and the Pentagon Terrorist Attacks</title>, <unitdate>13
+										September 2001</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 20</extent></physdesc>
+								<container type="audio" label="Audio">20</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Tom Clark, Political Correspondence</p>
@@ -754,11 +901,14 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Television Coverage of Terrorist Attacks
-								on New York City and Pentagon</title>,
-									<unitdate>14 September 2001</unitdate></unittitle>
+								<unittitle><title render="doublequote">Television Coverage of
+										Terrorist Attacks on New York City and Pentagon</title>,
+										<unitdate>14 September 2001</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 20</extent></physdesc>
+								<container type="audio" label="Audio">20</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Tim Cuprisin, Journalist</p>
@@ -767,10 +917,13 @@
 						<c04>
 							<did>
 								<unittitle><title render="doublequote">Calling for Strong Military
-								Response to Twin Towers Terrorism</title>,
-									<unitdate>21 September 2001</unitdate></unittitle>
+										Response to Twin Towers Terrorism</title>, <unitdate>21
+										September 2001</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 21</extent></physdesc>
+								<container type="audio" label="Audio">21</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With James Hirst, Journalist</p>
@@ -778,20 +931,26 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Open-line, Listener Reactions to 
-								Media Coverage of Terrorist Acts</title>,
-									<unitdate>21 September 2001</unitdate></unittitle>
+								<unittitle><title render="doublequote">Listener Reactions to Media
+										Coverage of Terrorist Acts</title>, <unitdate>21 September
+										2001</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 21</extent></physdesc>
+								<container type="audio" label="Audio">21</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 						</c04>
 						<c04>
 							<did>
 								<unittitle><title render="doublequote">Poll Showing Public Distrust
-								of Press Back to Pre-9/11 Level</title>,
-									<unitdate>16 August 2002</unitdate></unittitle>
+										of Press Back to Pre-9/11 Level</title>, <unitdate>16 August
+										2002</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 22</extent></physdesc>
+								<container type="audio" label="Audio">22</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Carroll Doherty, Pew Research Center</p>
@@ -799,11 +958,14 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Television News in Aftermath of 9/11 and
-								First Anniversary</title>,
-									<unitdate>6 September 2002</unitdate></unittitle>
+								<unittitle><title render="doublequote">Television News in Aftermath
+										of 9/11 and First Anniversary</title>, <unitdate>6 September
+										2002</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 22</extent></physdesc>
+								<container type="audio" label="Audio">22</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Tim Cuprisin, Journalist</p>
@@ -811,11 +973,14 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Black and White Divide on Support
-								for Iraqi War</title>,
-									<unitdate>19 April 2003</unitdate></unittitle>
+								<unittitle><title render="doublequote">Black and White Divide on
+										Support for Iraqi War</title>, <unitdate>19 April
+										2003</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 23</extent></physdesc>
+								<container type="audio" label="Audio">23</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Eugene Kane, Journalist</p>
@@ -826,7 +991,9 @@
 								<unittitle><title render="doublequote">Newspaper Ombudsmen</title>,
 										<unitdate>30 May 2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">1</container>
-								<physdesc><extent>1 digital audio file (0:50:51)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:50:51)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Don Wycliff, Chicago Tribune public editor.</p>
@@ -838,7 +1005,9 @@
 										Terror</title>, <unitdate>20 June
 									2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">2</container>
-								<physdesc><extent>1 digital audio file (0:50:30)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:50:30)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Danny Schechter, Author.</p>
@@ -849,7 +1018,9 @@
 								<unittitle><title render="doublequote">Open Line</title>,
 										<unitdate>27 June 2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">3</container>
-								<physdesc><extent>1 digital audio file (1:13:48)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (1:13:48)</extent>
+								</physdesc>
 							</did>
 						</c04>
 						<c04>
@@ -857,7 +1028,9 @@
 								<unittitle><title render="doublequote">Bush Admin. Bullies
 										Press</title>, <unitdate>04 July 2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">4</container>
-								<physdesc><extent>1 digital audio file (0:42:36)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:42:36)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With James Wolcott, Vanity Fair.</p>
@@ -868,7 +1041,9 @@
 								<unittitle><title render="doublequote">Last FCC Ruling</title>,
 										<unitdate>18 July 2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">5</container>
-								<physdesc><extent>1 digital audio file (0:47:04)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:47:04)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With John Dunbar, Center for Public Integrity.</p>
@@ -880,7 +1055,9 @@
 										Amendment</title>, <unitdate>25 July
 									2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">6</container>
-								<physdesc><extent>1 digital audio file (0:52:04)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:52:04)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Peter Rofes, Marquette Law School.</p>
@@ -892,7 +1069,9 @@
 										Newspapers</title>, <unitdate>01 August
 									2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">7</container>
-								<physdesc><extent>1 digital audio file (0:43:58)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:43:58)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Brian Auchterlonie, Collegiate Network executive
@@ -905,7 +1084,9 @@
 										Group</title>, <unitdate>08 August
 									2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">8</container>
-								<physdesc><extent>1 digital audio file (0:44:19)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:19)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With James Steyer, Commonsense Media CEO.</p>
@@ -917,7 +1098,9 @@
 										Scandal</title>, <unitdate>15 August
 									2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">9</container>
-								<physdesc><extent>1 digital audio file (0:50:48)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:50:48)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Tim Cuprisin, Milwaukee Journal Sentinel columnist.</p>
@@ -929,7 +1112,9 @@
 										Change?</title>, <unitdate>22 August
 									2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">10</container>
-								<physdesc><extent>1 digital audio file (0:51:29)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:51:29)</extent>
+								</physdesc>
 							</did>
 						</c04>
 						<c04>
@@ -937,7 +1122,9 @@
 								<unittitle><title render="doublequote">Gays are 'In' on TV</title>,
 										<unitdate>29 August 2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">11</container>
-								<physdesc><extent>1 digital audio file (0:51:24)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:51:24)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Steve Johnson, Chicago Tribune TV critic .</p>
@@ -948,7 +1135,9 @@
 								<unittitle><title render="doublequote">Press Box Red</title>,
 										<unitdate>05 September 2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">12</container>
-								<physdesc><extent>1 digital audio file (0:43:02)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:43:02)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Lester Rodney &amp; Irwin Silber, author, "Press Box Red:
@@ -960,7 +1149,9 @@
 								<unittitle><title render="doublequote">Fall TV Schedule</title>,
 										<unitdate>12 September 2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">13</container>
-								<physdesc><extent>1 digital audio file (0:45:02)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:02)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Joanne Weintraub, Milwaukee Journal Sentinel TV critic .</p>
@@ -971,7 +1162,9 @@
 								<unittitle><title render="doublequote">BBC Bias</title>,
 										<unitdate>19 September 2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">14</container>
-								<physdesc><extent>1 digital audio file (0:45:06)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:06)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Michael Gonzalez, Wall Street Journal /Europe.</p>
@@ -983,7 +1176,9 @@
 									Campaign</title>, <unitdate>26 September
 									2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">15</container>
-								<physdesc><extent>1 digital audio file (0:43:46)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:43:46)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Eli Pariser, campaigns director of MoveOn.org.</p>
@@ -994,7 +1189,9 @@
 								<unittitle><title render="doublequote">Big Lies</title>,
 										<unitdate>03 October 2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">16</container>
-								<physdesc><extent>1 digital audio file (0:43:49)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:43:49)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Joe Conason, Big Lies: The Right Wing Propaganda Machine
@@ -1007,7 +1204,9 @@
 									Stories</title>, <unitdate>10 October
 									2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">17</container>
-								<physdesc><extent>1 digital audio file (0:45:03)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:03)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Peter Phillips, Director of Project Censored; Sonoma State
@@ -1019,7 +1218,9 @@
 								<unittitle><title render="doublequote">Food Writing as Porn</title>,
 										<unitdate>17 October 2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">18</container>
-								<physdesc><extent>1 digital audio file (0:46:12)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:46:12)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Molly O'Neill, freelance writer.</p>
@@ -1031,7 +1232,9 @@
 									Objectivity</title>, <unitdate>24 October
 									2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">19</container>
-								<physdesc><extent>1 digital audio file (0:46:30)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:46:30)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With John Hess, author, "My Times: A Memoir of Dissent".</p>
@@ -1042,20 +1245,23 @@
 								<unittitle><title render="doublequote">Jewish Sitcom</title>,
 										<unitdate>31 October 2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">20-21</container>
-								<physdesc><extent>2 digital audio files (0:12:42 and
-										0:31:45)</extent></physdesc>
+								<physdesc>
+									<extent>2 digital audio files (0:12:42 and 0:31:45)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Vincent Brook, author of " Something Aint Kosher Here".</p>
+								<p>With Vincent Brook, author of " Something Ain't Kosher Here".</p>
 							</scopecontent>
 						</c04>
 						<c04>
 							<did>
 								<unittitle><title render="doublequote">Media Reform Conference
-										Particpants</title>, <unitdate>07 November
+										Participants</title>, <unitdate>07 November
 									2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">22</container>
-								<physdesc><extent>1 digital audio file (0:44:52)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:52)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With J. Nicholas, J. Bouton, columnist: author, "Foul Ball".</p>
@@ -1067,7 +1273,9 @@
 										Face of Network News</title>, <unitdate>14 November
 										2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">23</container>
-								<physdesc><extent>1 digital audio file (0:45:00)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:00)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Jeff Alan, author, "Anchoring America: The Changing Face of
@@ -1079,7 +1287,9 @@
 								<unittitle><title render="doublequote">NPR Leans to the
 									Left</title>, <unitdate>22 November 2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">24</container>
-								<physdesc><extent>1 digital audio file (0:43:23)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:43:23)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Tim Graham, director of Media Analysis, MEDIA RESEARCH
@@ -1091,7 +1301,9 @@
 								<unittitle><title render="doublequote">Open Line</title>,
 										<unitdate>28 November 2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">25</container>
-								<physdesc><extent>1 digital audio file (0:43:40)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:43:40)</extent>
+								</physdesc>
 							</did>
 						</c04>
 						<c04>
@@ -1100,7 +1312,9 @@
 										Gadgets</title>, <unitdate>28 November
 									2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">26</container>
-								<physdesc><extent>1 digital audio file (0:44:32)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:32)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With C. Taylor, W. Rothman, Time magazine writers.</p>
@@ -1111,7 +1325,9 @@
 								<unittitle><title render="doublequote">Pirate Radio Thesis</title>,
 										<unitdate>12 December 2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">27</container>
-								<physdesc><extent>1 digital audio file (0:43:29)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:43:29)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Lisa Nalbandian, WPR - Milwaukee promotion manager.</p>
@@ -1122,11 +1338,13 @@
 								<unittitle><title render="doublequote">Prescription Drug
 									Ads</title>, <unitdate>19 December 2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">28</container>
-								<physdesc><extent>1 digital audio file (0:51:56)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:51:56)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Dr. Sydney Wolfe, director, Public Citizen's Health Research
-									Grp..</p>
+									Group.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1135,10 +1353,12 @@
 										Daughter</title>, <unitdate>22 December
 									2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">29</container>
-								<physdesc><extent>1 digital audio file (0:51:59)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:51:59)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Mary Mitchell, Chicago Sun Times colunmist.</p>
+								<p>With Mary Mitchell, Chicago Sun Times columnist.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1146,8 +1366,9 @@
 								<unittitle><title render="doublequote">Media Bias...Iraq</title>,
 										<unitdate>26 December 2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">30-31</container>
-								<physdesc><extent>2 digital audio files (0:06:33 and
-										0:36:50)</extent></physdesc>
+								<physdesc>
+									<extent>2 digital audio files (0:06:33 and 0:36:50)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Notra Trulock, Associate Editor Accuracy in Media
@@ -1160,7 +1381,9 @@
 										Plan</title>, <unitdate>02 January
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">32</container>
-								<physdesc><extent>1 digital audio file (0:45:08)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:08)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Charles Layton, freelance writer.</p>
@@ -1172,7 +1395,9 @@
 										America</title>, <unitdate>09 January
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">33</container>
-								<physdesc><extent>1 digital audio file (0:43:36)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:43:36)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Laurie Robertson, editor, American Journalism Review.</p>
@@ -1184,7 +1409,9 @@
 										Journalists Don't Get Answers</title>, <unitdate>16 January
 										2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">34</container>
-								<physdesc><extent>1 digital audio file (0:44:30)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:30)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Trudy Lieberman, contributing editor to the CJR.</p>
@@ -1195,11 +1422,13 @@
 								<unittitle><title render="doublequote">Iowa Caucus Feelings</title>,
 										<unitdate>19 January 2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">35</container>
-								<physdesc><extent>1 digital audio file (0:43:39)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:43:39)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Diane Bystrom, Director Catt Center for Women &amp;
-									Politics, IA State U.</p>
+									Politics, Iowa State University.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1208,7 +1437,9 @@
 										Coverage</title>, <unitdate>23 January
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">36</container>
-								<physdesc><extent>1 digital audio file (0:43:04)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:43:04)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Craig Gilbert, Washington Bureau Chief, Milwaukee Journal
@@ -1220,7 +1451,9 @@
 								<unittitle><title render="doublequote">Super Bowl Ads</title>,
 										<unitdate>30 January 2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">37</container>
-								<physdesc><extent>1 digital audio file (0:44:22)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:22)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Bernice Kanner, author, "The Super Bowl of Advertising"
@@ -1232,7 +1465,9 @@
 								<unittitle><title render="doublequote">The Smoking Gun.com</title>,
 										<unitdate>06 February 2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">38</container>
-								<physdesc><extent>1 digital audio file (0:45:09)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:09)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With William Bastone, editor, The Smoking Gun Web Site.</p>
@@ -1244,7 +1479,9 @@
 										O'Reilly</title>, <unitdate>13 February
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">39</container>
-								<physdesc><extent>1 digital audio file (0:46:41)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:46:41)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Peter Hart, author, "The Oh Really? Factor".</p>
@@ -1252,11 +1489,13 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">TV Coverage of WI
+								<unittitle><title render="doublequote">TV Coverage of Wisconsin
 										Primary</title>, <unitdate>20 February
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">40</container>
-								<physdesc><extent>1 digital audio file (0:44:19)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:19)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Tim Cuprisin, Columnist, Milwaukee Journal Sentinel.</p>
@@ -1267,7 +1506,9 @@
 								<unittitle><title render="doublequote">2004 Academy Awards</title>,
 										<unitdate>27 February 2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">41</container>
-								<physdesc><extent>1 digital audio file (0:44:10)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:10)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Dave Luhrssen, Arts &amp; Entertainment Editor, Shepherd
@@ -1279,7 +1520,9 @@
 								<unittitle><title render="doublequote">The Death of TV as We Know
 										It</title>, <unitdate>05 March 2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">42</container>
-								<physdesc><extent>1 digital audio file (0:44:24)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:24)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Mike Drew, freelance writer.</p>
@@ -1290,7 +1533,9 @@
 								<unittitle><title render="doublequote">Is Business Journalism Up to
 										Par?</title>, <unitdate>12 March 2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">43</container>
-								<physdesc><extent>1 digital audio file (0:44:56)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:56)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Kathy Kristof, President, Soc. of Am. Business Editors &amp;
@@ -1302,8 +1547,9 @@
 								<unittitle><title render="doublequote">Did Media Screw
 									Dean?</title>, <unitdate>19 March 2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">44-45</container>
-								<physdesc><extent>2 digital audio files (0:19:02 and
-										0:24:25)</extent></physdesc>
+								<physdesc>
+									<extent>2 digital audio files (0:19:02 and 0:24:25)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With William Grieder, Journalist, The Nation.</p>
@@ -1315,10 +1561,12 @@
 										Controversy</title>, <unitdate>26 March
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">46</container>
-								<physdesc><extent>1 digital audio file (0:44:22)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:22)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Claire Fuller, Sex Columnist, Lumberjack at No. AZ U..</p>
+								<p>With Claire Fuller, Sex Columnist, Lumberjack at No. AZ U.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1327,7 +1575,9 @@
 									Departure</title>, <unitdate>02 April
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">47</container>
-								<physdesc><extent>1 digital audio file (0:43:43)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:43:43)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Jack Mitchell, Former Director, Wisconsin Public Radio.</p>
@@ -1339,7 +1589,9 @@
 										Destruction</title>, <unitdate>09 April
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">48</container>
-								<physdesc><extent>1 digital audio file (0:51:59)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:51:59)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Susan Moeller, Journalism Professor, U of Maryland.</p>
@@ -1351,7 +1603,9 @@
 										Photography</title>, <unitdate>16 April
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">49</container>
-								<physdesc><extent>1 digital audio file (0:44:15)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:15)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Ken Light, Photojournalism Professor, UC-Berkeley.</p>
@@ -1362,7 +1616,9 @@
 								<unittitle><title render="doublequote">Open Line</title>,
 										<unitdate>23 April 2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">50</container>
-								<physdesc><extent>1 digital audio file (0:44:12)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:12)</extent>
+								</physdesc>
 							</did>
 						</c04>
 						<c04>
@@ -1371,7 +1627,9 @@
 										Journalists</title>, <unitdate>30 April
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">51</container>
-								<physdesc><extent>1 digital audio file (0:45:03)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:03)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Christian Parenti, Ford Foundation Postdoctoral Fellow,
@@ -1384,7 +1642,9 @@
 										Opinion Control Since 9/11</title>, <unitdate>07 May
 										2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">52</container>
-								<physdesc><extent>1 digital audio file (0:46:52)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:46:52)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Dr. Nancy Snow, Author of "Information War".</p>
@@ -1396,7 +1656,9 @@
 										Democratic Primary </title>, <unitdate>14 May
 										2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">53</container>
-								<physdesc><extent>1 digital audio file (0:51:58)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:51:58)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Rachel Smolkin, Sr writer, Am. Journalism Review.</p>
@@ -1408,7 +1670,9 @@
 										Journalism</title>, <unitdate>21 May
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">54</container>
-								<physdesc><extent>1 digital audio file (0:44:12)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:12)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Dan Fagin , President, Society of Environmental Journalists
@@ -1421,7 +1685,9 @@
 										Working Classes</title>, <unitdate>28 May
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">55</container>
-								<physdesc><extent>1 digital audio file (0:44:28)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:28)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Brent Cunningham, Editor, Columbia Journalism Review.</p>
@@ -1433,7 +1699,9 @@
 										issues</title>, <unitdate>04 June
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">56</container>
-								<physdesc><extent>1 digital audio file (0:45:08)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:08)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Gal Beckerman, Assistant Editor, Columbia Journalism
@@ -1446,7 +1714,9 @@
 										Bagdikian</title>, <unitdate>11 June
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">57</container>
-								<physdesc><extent>1 digital audio file (0:43:29)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:43:29)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Ben Bagdikian , Author, "The New Media Monopoly" .</p>
@@ -1458,7 +1728,9 @@
 										Students</title>, <unitdate>22 June
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">58</container>
-								<physdesc><extent>1 digital audio file (0:52:47)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:52:47)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Marty Nemko , Author, "The All-in-One College Guide" .</p>
@@ -1470,8 +1742,9 @@
 										Influence You?</title>, <unitdate>02 July
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">59-60</container>
-								<physdesc><extent>2 digital audio files (0:37:24 and
-										0:06:34)</extent></physdesc>
+								<physdesc>
+									<extent>2 digital audio files (0:37:24 and 0:06:34)</extent>
+								</physdesc>
 							</did>
 						</c04>
 						<c04>
@@ -1480,7 +1753,9 @@
 										Regulation</title>, <unitdate>09 July
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">61</container>
-								<physdesc><extent>1 digital audio file (0:43:30)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:43:30)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Nicholas Johnson, Former FCC Commissioner.</p>
@@ -1492,7 +1767,9 @@
 										Commission &amp; Post-war Iraq</title>, <unitdate>16 July
 										2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">62</container>
-								<physdesc><extent>1 digital audio file (0:44:07)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:07)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Tim Graham, Media Research Center, Director Media Analysis
@@ -1505,7 +1782,9 @@
 										Candidate's Accuracy</title>, <unitdate>23 July
 										2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">63</container>
-								<physdesc><extent>1 digital audio file (0:43:26)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:43:26)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Bryan Keefer, Co-author of "All The President's Spin" .</p>
@@ -1517,7 +1796,9 @@
 										Convention</title>, <unitdate>30 July
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">64</container>
-								<physdesc><extent>1 digital audio file (0:43:59)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:43:59)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Tim Cuprisin, Media Columnist, Milwaukee Journal
@@ -1530,7 +1811,9 @@
 										South</title>, <unitdate>06 August
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">65</container>
-								<physdesc><extent>1 digital audio file (0:45:17)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:17)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Jacob Levenson, Author, "Divining Dixie".</p>
@@ -1541,7 +1824,9 @@
 								<unittitle><title render="doublequote">Web Radio</title>,
 										<unitdate>13 August 2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">66</container>
-								<physdesc><extent>1 digital audio file (0:43:30)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:43:30)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Patrick Conley, co-founder, 80's Airwaves.</p>
@@ -1553,7 +1838,9 @@
 										Coast</title>, <unitdate>20 August
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">67</container>
-								<physdesc><extent>1 digital audio file (0:45:03)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:03)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With James Hirsen, NewsMax Columnist.</p>
@@ -1564,11 +1851,13 @@
 								<unittitle><title render="doublequote">Watergate Revisited</title>,
 										<unitdate>27 August 2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">68</container>
-								<physdesc><extent>1 digital audio file (0:43:35)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:43:35)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Mark Feldstein, Dir. School of Media &amp; Public Aff. Geo.
-									Wash. U.</p>
+								<p>With Mark Feldstein, Director School of Media &amp; Public Affairs,
+									George Washington University</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1577,10 +1866,12 @@
 										Coverage</title>, <unitdate>03 September
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">69</container>
-								<physdesc><extent>1 digital audio file (0:43:38)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:43:38)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Tim Cuprisin, Columnist, Milwaukee Jounal Sentinel.</p>
+								<p>With Tim Cuprisin, Columnist, Milwaukee Journal Sentinel.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1588,7 +1879,9 @@
 								<unittitle><title render="doublequote">Upcoming TV Season</title>,
 										<unitdate>10 September 2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">70</container>
-								<physdesc><extent>1 digital audio file (0:44:59)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:59)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Joanne Weintraub , TV critic, Milwaukee Journal
@@ -1601,7 +1894,9 @@
 										Security</title>, <unitdate>17 September
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">71</container>
-								<physdesc><extent>1 digital audio file (0:45:26)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:26)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Trudy Lieberman, Contributing Editor, CJR.</p>
@@ -1613,7 +1908,9 @@
 										Bush's Military Files</title>, <unitdate>24 September
 										2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">72</container>
-								<physdesc><extent>1 digital audio file (0:43:24)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:43:24)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Joe Strupp, Sr editor, Editor &amp; Publisher .</p>
@@ -1625,7 +1922,9 @@
 										Presidential Debate</title>, <unitdate>01 October
 										2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">73</container>
-								<physdesc><extent>1 digital audio file (0:42:54)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:42:54)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Christopher Shaw, Organizing Director, Open Debate .</p>
@@ -1637,7 +1936,9 @@
 										American Media</title>, <unitdate>08 October
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">74</container>
-								<physdesc><extent>1 digital audio file (0:44:56)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:56)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Adam Gamble, Author, "A Public Betrayed".</p>
@@ -1649,7 +1950,9 @@
 										Sirius</title>, <unitdate>15 October
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">75</container>
-								<physdesc><extent>1 digital audio file (0:43:31)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:43:31)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Tim Cuprisin, Media Columnist, Milwaukee
@@ -1662,10 +1965,12 @@
 										Sources</title>, <unitdate>22 October
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">76</container>
-								<physdesc><extent>1 digital audio file (0:45:32)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:32)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Gene Policinski, First Amendment Center, Exec. Dir. .</p>
+								<p>With Gene Policinski, First Amendment Center, Exec. Director .</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1674,7 +1979,9 @@
 										Open Line</title>, <unitdate>29 October
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">77</container>
-								<physdesc><extent>1 digital audio file (0:43:36)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:43:36)</extent>
+								</physdesc>
 							</did>
 						</c04>
 						<c04>
@@ -1683,7 +1990,9 @@
 										WMD</title>, <unitdate>05 November
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">78</container>
-								<physdesc><extent>1 digital audio file (0:46:29)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:46:29)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Todd Gitlin, Columnist, Mother Jones Magazine.</p>
@@ -1695,7 +2004,9 @@
 										2005</title>, <unitdate>12 November
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">79</container>
-								<physdesc><extent>1 digital audio file (0:46:37)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:46:37)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Peter Phillips, Author, "The Top 25 Censored Stories" .</p>
@@ -1706,7 +2017,9 @@
 								<unittitle><title render="doublequote">Lobbying Power of
 									NAB</title>, <unitdate>19 November 2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">80</container>
-								<physdesc><extent>1 digital audio file (0:45:09)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:09)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Charles Layton, Sr. Writer for AJR.</p>
@@ -1717,11 +2030,12 @@
 								<unittitle><title render="doublequote">Will Durst</title>,
 										<unitdate>26 November 2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">81-82</container>
-								<physdesc><extent>2 digital audio files (0:05:45 and
-										0:38:03)</extent></physdesc>
+								<physdesc>
+									<extent>2 digital audio files (0:05:45 and 0:38:03)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With WIll Durst, Political Comedian.</p>
+								<p>With Will Durst, Political Comedian.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1730,7 +2044,9 @@
 										Journalism</title>, <unitdate>03 December
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">83</container>
-								<physdesc><extent>1 digital audio file (0:45:05)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:05)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Henry Farrell, Assistant professor of Political Science
@@ -1743,7 +2059,9 @@
 										News</title>, <unitdate>10 December
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">84</container>
-								<physdesc><extent>1 digital audio file (0:45:05)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:05)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Brian Montopoli, Reporter for CJR Daily.</p>
@@ -1755,7 +2073,9 @@
 										Controversy</title>, <unitdate>17 December
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">85</container>
-								<physdesc><extent>1 digital audio file (0:45:05)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:05)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Gloria Tristani, Managing communications director, UCC .</p>
@@ -1767,7 +2087,9 @@
 									Newspapers</title>, <unitdate>24 December
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">86</container>
-								<physdesc><extent>1 digital audio file (0:44:58)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:58)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Joe Karius, Publisher of Ironwood Daily Globe.</p>
@@ -1779,7 +2101,9 @@
 										2004</title>, <unitdate>31 December
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">87</container>
-								<physdesc><extent>1 digital audio file (0:45:16)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:16)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Joe Strupp, Sr. Editor, Editor and Publisher .</p>
@@ -1791,7 +2115,9 @@
 										Strips</title>, <unitdate>07 January
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">88</container>
-								<physdesc><extent>1 digital audio file (0:44:13)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:13)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With David J. Mehegan , Features Writer, Boston Globe.</p>
@@ -1803,7 +2129,9 @@
 										Media</title>, <unitdate>14 January
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">89</container>
-								<physdesc><extent>1 digital audio file (0:45:15)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:15)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Joanne Gerstner, President, Association for Women in Sports
@@ -1815,7 +2143,9 @@
 								<unittitle><title render="doublequote">Drug Advertising</title>,
 										<unitdate>21 January 2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">90</container>
-								<physdesc><extent>1 digital audio file (0:43:35)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:43:35)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Linda Marsa, Mother Jones Reporter.</p>
@@ -1827,7 +2157,9 @@
 										Chairman, Michael Powell</title>, <unitdate>28 January
 										2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">91</container>
-								<physdesc><extent>1 digital audio file (0:44:54)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:54)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Bill McConnell, Sr Writer, Broadcasting &amp; Cable
@@ -1840,7 +2172,9 @@
 										Crusade</title>, <unitdate>04 February
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">92</container>
-								<physdesc><extent>1 digital audio file (0:52:33)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:52:33)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Steve Behrens, Editor for Current.</p>
@@ -1852,7 +2186,9 @@
 										Amendment</title>, <unitdate>11 February
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">93</container>
-								<physdesc><extent>1 digital audio file (0:52:01)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:52:01)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Gene Policinski, 1st Amendment Center Exec Director.</p>
@@ -1863,7 +2199,9 @@
 								<unittitle><title render="doublequote">Blame the Audience?</title>,
 										<unitdate>18 February 2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">94</container>
-								<physdesc><extent>1 digital audio file (0:44:29)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:29)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Evan Cornog, Publisher, CJR.</p>
@@ -1875,7 +2213,9 @@
 										WMDs</title>, <unitdate>25 February
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">95</container>
-								<physdesc><extent>1 digital audio file (0:45:18)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:18)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Danny Schecter, Filmmaker, "Embedded: Weapons of Mass
@@ -1888,7 +2228,9 @@
 										of Media</title>, <unitdate>04 March
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">96</container>
-								<physdesc><extent>1 digital audio file (0:45:05)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:05)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Lori Robertson, Managing Editor., American Journalism
@@ -1900,7 +2242,9 @@
 								<unittitle><title render="doublequote">Dan Rather's Career</title>,
 										<unitdate>11 March 2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">97</container>
-								<physdesc><extent>1 digital audio file (0:45:12)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:12)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Matthew Felling, Media Director, Center for Media &amp;
@@ -1912,7 +2256,9 @@
 								<unittitle><title render="doublequote">Ethics of Fake News</title>,
 										<unitdate>18 March 2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">98</container>
-								<physdesc><extent>1 digital audio file (0:45:33)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:33)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Bob Priddy, Chairman, Board of Directors, Radio/TV News
@@ -1925,7 +2271,9 @@
 										Media</title>, <unitdate>25 March
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">99</container>
-								<physdesc><extent>1 digital audio file (0:55:36)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:55:36)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Tom Rosenstiel, Director, Project for Excellence in
@@ -1934,11 +2282,13 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Presidential Candiates
+								<unittitle><title render="doublequote">Presidential Candidates
 										Coverage</title>, <unitdate>01 April
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">100</container>
-								<physdesc><extent>1 digital audio file (0:45:59)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:59)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Bryan Keefer, Assistant Managing Editor, CJR Daily.</p>
@@ -1950,10 +2300,12 @@
 										Media</title>, <unitdate>08 April
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">101</container>
-								<physdesc><extent>1 digital audio file (0:44:40)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:40)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With J.J. Blonien, Editor, WI Conservative Digest.</p>
+								<p>With J.J. Blonien, Editor, Wisconsin Conservative Digest.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1961,7 +2313,9 @@
 								<unittitle><title render="doublequote">Rising Cable Rates</title>,
 										<unitdate>15 April 2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">102</container>
-								<physdesc><extent>1 digital audio file (0:45:09)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:09)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Susanna Montezemolo, Policy Analyst, Consumers Union.</p>
@@ -1973,10 +2327,12 @@
 										Media Archives</title>, <unitdate>22 April
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">103</container>
-								<physdesc><extent>1 digital audio file (0:44:05)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:05)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Harry Miller, Reference Archivist, WI Historical
+								<p>With Harry Miller, Reference Archivist, Wisconsin Historical
 									Society.</p>
 							</scopecontent>
 						</c04>
@@ -1986,7 +2342,9 @@
 										Coverage</title>, <unitdate>29 April
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">104</container>
-								<physdesc><extent>1 digital audio file (0:44:58)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:58)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Ross Gelbspan, Reporter, Mother Jones Magazine.</p>
@@ -1998,10 +2356,12 @@
 										Conspiracy</title>, <unitdate>06 May
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">105</container>
-								<physdesc><extent>1 digital audio file (0:48:37)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:48:37)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Bryon York, White House correspondent, Nat'l Review.</p>
+								<p>With Bryon York, White House correspondent, National Review.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2009,7 +2369,9 @@
 								<unittitle><title render="doublequote">Freedom of the Press
 										Survey</title>, <unitdate>13 May 2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">106</container>
-								<physdesc><extent>1 digital audio file (0:45:10)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:10)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Karin Karlekar, Managing Editor, Freedom of Press
@@ -2021,7 +2383,9 @@
 								<unittitle><title render="doublequote">Newsweek Gaffe</title>,
 										<unitdate>20 May 2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">107</container>
-								<physdesc><extent>1 digital audio file (0:58:01)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:58:01)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Joe Strupp, Sr. Editor, Editor &amp; Publisher Magazine.</p>
@@ -2033,7 +2397,9 @@
 										Mainstream</title>, <unitdate>27 May
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">108</container>
-								<physdesc><extent>1 digital audio file (0:45:00)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:00)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Mariah Blake, Assistant Editor, Columbia Journalism Review.
@@ -2045,7 +2411,9 @@
 								<unittitle><title render="doublequote">The Blanding of NPR</title>,
 										<unitdate>10 June 2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">109</container>
-								<physdesc><extent>1 digital audio file (0:44:54)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:54)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Scott Sherman, Contributing Editor, The Nation.</p>
@@ -2056,7 +2424,9 @@
 								<unittitle><title render="doublequote">Influence of Media Research
 										Inst</title>, <unitdate>17 June 2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">110</container>
-								<physdesc><extent>1 digital audio file (0:44:57)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:57)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Brian Montopoli, Reporter, Columbia Journalism Review.</p>
@@ -2067,7 +2437,9 @@
 								<unittitle><title render="doublequote">Open Line</title>,
 										<unitdate>24 June 2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">111</container>
-								<physdesc><extent>1 digital audio file (0:43:45)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:43:45)</extent>
+								</physdesc>
 							</did>
 						</c04>
 						<c04>
@@ -2076,7 +2448,9 @@
 										Interview</title>, <unitdate>01 July
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">112</container>
-								<physdesc><extent>1 digital audio file (0:45:03)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:03)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Bruce Murphy, Sr Editor, Milwaukee Magazine.</p>
@@ -2088,7 +2462,9 @@
 										Miller</title>, <unitdate>08 July
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">113</container>
-								<physdesc><extent>1 digital audio file (0:46:01)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:46:01)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Matthew Felling, Media Director, Center for Media &amp;
@@ -2101,7 +2477,9 @@
 										Journalists</title>, <unitdate>15 July
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">114</container>
-								<physdesc><extent>1 digital audio file (0:45:01)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:01)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Bryan Monroe, VP/Print, NABJ.</p>
@@ -2113,7 +2491,9 @@
 										Standards</title>, <unitdate>22 July
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">115</container>
-								<physdesc><extent>1 digital audio file (0:45:01)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:01)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Ted Hearn, D.C. news editor, Broadcasting &amp; Cable.</p>
@@ -2124,7 +2504,9 @@
 								<unittitle><title render="doublequote">NewsMax Magazine</title>,
 										<unitdate>29 July 2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">116</container>
-								<physdesc><extent>1 digital audio file (0:45:12)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:12)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Christopher Ruddy, Editor of NewsMax .</p>
@@ -2136,7 +2518,9 @@
 										Stolen</title>, <unitdate>05 August
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">117</container>
-								<physdesc><extent>1 digital audio file (0:44:56)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:56)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Mark Crispin Miller, Author of "Fooled Again".</p>
@@ -2148,7 +2532,9 @@
 										Jennings</title>, <unitdate>12 August
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">118</container>
-								<physdesc><extent>1 digital audio file (0:45:16)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:16)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Tim Cuprisin, Media Columnist, Milwaukee Journal
@@ -2160,7 +2546,9 @@
 								<unittitle><title render="doublequote">Open Line</title>,
 										<unitdate>19 August 2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">119</container>
-								<physdesc><extent>1 digital audio file (0:44:58)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:58)</extent>
+								</physdesc>
 							</did>
 						</c04>
 						<c04>
@@ -2169,7 +2557,9 @@
 										Johnson</title>, <unitdate>26 August
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">120</container>
-								<physdesc><extent>1 digital audio file (0:45:01)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:01)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Eugene Kane, Columnist, Milwaukee Journal Sentinel.</p>
@@ -2181,7 +2571,9 @@
 										Tragedy</title>, <unitdate>02 September
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">121</container>
-								<physdesc><extent>1 digital audio file (0:45:13)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:13)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Matthew Felling, Media Director, Center for Media &amp; Pub
@@ -2193,7 +2585,9 @@
 								<unittitle><title render="doublequote">The New TV Season</title>,
 										<unitdate>09 September 2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">122</container>
-								<physdesc><extent>1 digital audio file (0:44:57)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:57)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Joanne Weintraub, Media Critic, Milwaukee
@@ -2206,7 +2600,9 @@
 										the Media</title>, <unitdate>16 September
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">123</container>
-								<physdesc><extent>1 digital audio file (0:44:52)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:52)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Trudy Lieberman, Board President, Association Health Care
@@ -2219,7 +2615,9 @@
 										Evolution</title>, <unitdate>23 September
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">124</container>
-								<physdesc><extent>1 digital audio file (0:44:42)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:42)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Matthew Nisbet, Assistant Prof, Ohio State U.</p>
@@ -2231,7 +2629,9 @@
 										Children</title>, <unitdate>30 September
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">125</container>
-								<physdesc><extent>1 digital audio file (0:44:44)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:44)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Dr. Susan Villani, Med Director School Programs, Johns
@@ -2244,7 +2644,9 @@
 										Nation'</title>, <unitdate>07 October
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">126</container>
-								<physdesc><extent>1 digital audio file (0:41:55)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:41:55)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Victor Navasky, Publisher of The Nation.</p>
@@ -2256,11 +2658,13 @@
 										toward Race</title>, <unitdate>28 October
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">127</container>
-								<physdesc><extent>1 digital audio file (0:45:02)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:02)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Alan Nadel, Literature &amp; Film Prof, Rensselaer Polytech
-									Inst..</p>
+								<p>With Alan Nadel, Literature &amp; Film Prof, Rensselaer
+									Polytechnic Institute.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2269,10 +2673,12 @@
 										Coverage</title>, <unitdate>04 November
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">128</container>
-								<physdesc><extent>1 digital audio file (0:44:23)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:23)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Tim Cuprisin, Media Critic, MilwaukeeJournal Sentinel.</p>
+								<p>With Tim Cuprisin, Media Critic, Milwaukee Journal Sentinel.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2280,7 +2686,9 @@
 								<unittitle><title render="doublequote">What's My Name Fool</title>,
 										<unitdate>11 November 2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">129</container>
-								<physdesc><extent>1 digital audio file (0:45:00)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:00)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Dave Zirin, Sr. Writer at Basketball.com .</p>
@@ -2292,7 +2700,9 @@
 										Bush</title>, <unitdate>18 November
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">130</container>
-								<physdesc><extent>1 digital audio file (0:45:05)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:05)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Carl Limbacher, Reporter for NewsMax.</p>
@@ -2304,7 +2714,9 @@
 										Turmoil</title>, <unitdate>25 November
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">131</container>
-								<physdesc><extent>1 digital audio file (0:56:05)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:56:05)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Matt Felling, Media Director, Center for Media &amp; Public
@@ -2317,7 +2729,9 @@
 										Al-Jazeera</title>, <unitdate>02 December
 									2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">132</container>
-								<physdesc><extent>1 digital audio file (0:45:22)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:22)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Jeremy Scahill, Independent Journalist.</p>
@@ -2328,7 +2742,9 @@
 								<unittitle><title render="doublequote">Evangelical Radio</title>,
 										<unitdate>09 December 2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">133</container>
-								<physdesc><extent>1 digital audio file (0:45:04)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:45:04)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Adam Piore, reporter, Mother Jones Magazine.</p>
@@ -2339,7 +2755,9 @@
 								<unittitle><title render="doublequote">Media Saturation</title>,
 										<unitdate>23 December 2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">134</container>
-								<physdesc><extent>1 digital audio file (0:51:59)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:51:59)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Michael Bloxham, Testing Director, Center for Media Design,
@@ -2351,7 +2769,9 @@
 								<unittitle><title render="doublequote">Media in 2005</title>,
 										<unitdate>30 December 2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">135</container>
-								<physdesc><extent>1 digital audio file (0:51:55)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:51:55)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Joe Strupp, Sr. Editor, Editor &amp; Publisher.</p>
@@ -2363,7 +2783,9 @@
 										Guy</title>, <unitdate>06 January
 									2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">136</container>
-								<physdesc><extent>1 digital audio file (0:52:02)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:52:02)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Steve Callaghan, Writer &amp; Producer of Family Guy.</p>
@@ -2375,7 +2797,9 @@
 										Story?</title>, <unitdate>13 January
 									2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">137</container>
-								<physdesc><extent>1 digital audio file (0:52:04)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:52:04)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Harvey Silverglate, Attorney &amp; Writer.</p>
@@ -2387,7 +2811,9 @@
 										Profit</title>, <unitdate>20 January
 									2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">138</container>
-								<physdesc><extent>1 digital audio file (0:51:54)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:51:54)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Douglas McCollam, Contributing Editor, CJR.</p>
@@ -2399,7 +2825,9 @@
 										Effectiveness</title>, <unitdate>27 January
 									2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">139</container>
-								<physdesc><extent>1 digital audio file (0:52:00)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:52:00)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Vicky Rideout, Director, Study of Entertainment Media &amp;
@@ -2411,7 +2839,9 @@
 								<unittitle><title render="doublequote">Tim Russert's Ethics</title>,
 										<unitdate>03 February 2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">140</container>
-								<physdesc><extent>1 digital audio file (0:51:27)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:51:27)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Joe Fontaine, Columnist, Ripon College Days.</p>
@@ -2423,7 +2853,9 @@
 										Controversy</title>, <unitdate>10 February
 									2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">141</container>
-								<physdesc><extent>1 digital audio file (0:52:05)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:52:05)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Gene Policinski, Exec. Director, 1st Amendment Center.</p>
@@ -2435,7 +2867,9 @@
 										Revolution</title>, <unitdate>17 February
 									2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">142</container>
-								<physdesc><extent>1 digital audio file (0:52:18)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:52:18)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Marc Weingarten, Author, "Gang That Wouldn't Write
@@ -2447,7 +2881,9 @@
 								<unittitle><title render="doublequote">Open Line</title>,
 										<unitdate>27 February 2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">143</container>
-								<physdesc><extent>1 digital audio file (0:51:56)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:51:56)</extent>
+								</physdesc>
 							</did>
 						</c04>
 						<c04>
@@ -2455,7 +2891,9 @@
 								<unittitle><title render="doublequote">2006 Academy Awards</title>,
 										<unitdate>03 March 2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">144</container>
-								<physdesc><extent>1 digital audio file (0:44:56)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:44:56)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Dave Luhrssen, A &amp; E Editor, Shepherd Express.</p>
@@ -2466,7 +2904,9 @@
 								<unittitle><title render="doublequote">Open Line</title>,
 										<unitdate>10 March 2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">145</container>
-								<physdesc><extent>1 digital audio file (0:47:32)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:47:32)</extent>
+								</physdesc>
 							</did>
 						</c04>
 						<c04>
@@ -2475,7 +2915,9 @@
 										Ridder</title>, <unitdate>17 March
 									2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">146</container>
-								<physdesc><extent>1 digital audio file (0:52:08)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:52:08)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Steve Rendall, Sr. analyst, FAIR.</p>
@@ -2486,7 +2928,9 @@
 								<unittitle><title render="doublequote">Blogs Feingolds Presidential
 										Run</title>, <unitdate>24 March 2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">147</container>
-								<physdesc><extent>1 digital audio file (0:54:41)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:54:41)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Chris Bower, Blogger, mydd.com .</p>
@@ -2498,7 +2942,9 @@
 										Report</title>, <unitdate>31 March
 									2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">148</container>
-								<physdesc><extent>1 digital audio file (0:52:08)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:52:08)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Dante Chinni, Columnist, Christian Science Monitor.</p>
@@ -2506,11 +2952,13 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">M Katie Couric's move to
+								<unittitle><title render="doublequote">Katie Couric's Move to
 										Evening News</title>, <unitdate>14 April
 									2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">149</container>
-								<physdesc><extent>1 digital audio file (0:51:52)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:51:52)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Matthew Felling, Media Director, Center for Media &amp;
@@ -2522,7 +2970,9 @@
 								<unittitle><title render="doublequote">What's Happening to
 										TV?</title>, <unitdate>21 April 2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">150</container>
-								<physdesc><extent>1 digital audio file (0:52:00)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:52:00)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Tim Cuprisin, TV Critic, Milwaukee Journal Sentinel.</p>
@@ -2534,10 +2984,12 @@
 										Radio</title>, <unitdate>28 April
 									2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">151</container>
-								<physdesc><extent>1 digital audio file (0:51:58)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:51:58)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Felix Gutierrez, Exec. Dir., Freedom Forum Pacific Coast
+								<p>With Felix Gutierrez, Exec. Director, Freedom Forum Pacific Coast
 									Center.</p>
 							</scopecontent>
 						</c04>
@@ -2546,7 +2998,9 @@
 								<unittitle><title render="doublequote">Admin Tries to Rein In
 										Press</title>, <unitdate>05 May 2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">152</container>
-								<physdesc><extent>1 digital audio file (0:52:36)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:52:36)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Joe Strupp, Columnist, Editor &amp; Publisher.</p>
@@ -2557,7 +3011,9 @@
 								<unittitle><title render="doublequote">White House Correspondents
 										Dinner</title>, <unitdate>12 May 2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">153</container>
-								<physdesc><extent>1 digital audio file (0:52:09)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:52:09)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Al Barger, Libertarian blogger.</p>
@@ -2568,7 +3024,9 @@
 								<unittitle><title render="doublequote">White House Woes</title>,
 										<unitdate>19 May 2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">154</container>
-								<physdesc><extent>1 digital audio file (0:52:02)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:52:02)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Chris Ruddy, Editor, NewsMAX.</p>
@@ -2579,7 +3037,9 @@
 								<unittitle><title render="doublequote">Book about Movie
 										Terms</title>, <unitdate>26 May 2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">155</container>
-								<physdesc><extent>1 digital audio file (0:52:06)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:52:06)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Richard Weiner, Author, "The Skinny About Best Boys",
@@ -2591,7 +3051,9 @@
 								<unittitle><title render="doublequote">Spinning the Iraq War
 										News</title>, <unitdate>02 June 2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">156</container>
-								<physdesc><extent>1 digital audio file (0:51:57)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:51:57)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Daniel Schulman, Asst. Editor, Columbia Journalism
@@ -2603,7 +3065,9 @@
 								<unittitle><title render="doublequote">MySpace Controversy</title>,
 										<unitdate>09 June 2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">157</container>
-								<physdesc><extent>1 digital audio file (0:51:52)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:51:52)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Caz McChrystal, Law Student.</p>
@@ -2611,14 +3075,16 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">WI Compliance w/ Public's
+								<unittitle><title render="doublequote">Wisconsin Compliance w/ Public's
 										Right To Know</title>, <unitdate>16 June
 									2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">158</container>
-								<physdesc><extent>1 digital audio file (0:51:58)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:51:58)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Bill Lueders, President, WI's Freedom of Information.
+								<p>With Bill Lueders, President, Wisconsin's Freedom of Information.
 									Council.</p>
 							</scopecontent>
 						</c04>
@@ -2628,7 +3094,9 @@
 									Journalism</title>, <unitdate>23 June
 									2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">159</container>
-								<physdesc><extent>1 digital audio file (0:51:47)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:51:47)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Stephanie Shapiro, Feature Writer, Baltimore Sun.</p>
@@ -2639,7 +3107,9 @@
 								<unittitle><title render="doublequote">FCC Indecency Fees</title>,
 										<unitdate>30 June 2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">160</container>
-								<physdesc><extent>1 digital audio file (0:43:44)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:43:44)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
 								<p>With Gene Policinski, Executive Director, 1st Amendment
@@ -2651,7 +3121,9 @@
 								<unittitle><title render="doublequote">Last Show</title>,
 										<unitdate>07 July 2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">161</container>
-								<physdesc><extent>1 digital audio file (0:52:00)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:52:00)</extent>
+								</physdesc>
 							</did>
 						</c04>
 					</c03>
@@ -2665,7 +3137,7 @@
 								<unittitle><title render="doublequote">Gun Rights</title>,
 									<unitdate>4 July 1997</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 25</extent></physdesc>
+								<container type="audio" label="Audio">25</container><physdesc><extent>audio cassette</extent></physdesc>
 							</did>
 							<scopecontent>
 								<p>With James Fendry, Director, Wisconsin Pro-Gun Movement</p>
@@ -2676,7 +3148,7 @@
 								<unittitle><title render="doublequote">Mike Tyson</title>,
 									<unitdate>11 July 1997</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 25</extent></physdesc>
+								<container type="audio" label="Audio">25</container><physdesc><extent>audio cassette</extent></physdesc>
 							</did>
 							<scopecontent>
 								<p>With Art Taylor, Northeastern University Center for the Study of
@@ -2688,7 +3160,7 @@
 								<unittitle><title render="doublequote">Lesbian Minister, Presbyterian Church</title>,
 									<unitdate>22 October 1999</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 26</extent></physdesc>
+								<container type="audio" label="Audio">26</container><physdesc><extent>audio cassette</extent></physdesc>
 							</did>
 						</c04>
 						<c04>
@@ -2696,7 +3168,7 @@
 								<unittitle><title render="doublequote">Constitution Party</title>,
 									<unitdate>22 October 1999</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 26</extent></physdesc>
+								<container type="audio" label="Audio">26</container><physdesc><extent>audio cassette</extent></physdesc>
 							</did>
 							<scopecontent>
 								<p>Joseph Sobran, Vice-Presidential Candidate, Constitution Party</p>
@@ -2764,9 +3236,8 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Dems &amp; health care
-										positions</title>, <unitdate>01 August
-									2003</unitdate></unittitle>
+								<unittitle><title render="doublequote">Democrats &amp; Health Care Positions</title>,
+										<unitdate>01 August 2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">167</container>
 								<physdesc><extent>1 digital audio file (0:53:17)</extent></physdesc>
 							</did>
@@ -2789,7 +3260,7 @@
 						<c04>
 							<did>
 								<unittitle><title render="doublequote">Human Trafficking on U.S. -
-										Mexico border</title>, <unitdate>25 August
+										Mexico Border</title>, <unitdate>25 August
 									2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">169</container>
 								<physdesc><extent>1 digital audio file (0:54:50)</extent></physdesc>
@@ -2809,7 +3280,7 @@
 							</did>
 							<scopecontent>
 								<p>With Charles Hill, Yale Professor of International Security &amp;
-									UN Studies .</p>
+									UN Studies.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2870,7 +3341,7 @@
 								<physdesc><extent>1 digital audio file (0:45:07)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Bob Wolfley, Milw. Journal Sentinel sports columnist.</p>
+								<p>With Bob Wolfley, Milwaukee Journal Sentinel sports columnist.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2882,7 +3353,7 @@
 								<physdesc><extent>1 digital audio file (0:51:49)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Thomas Mann, Brookings,W. Averell Harriman Chair.</p>
+								<p>With Thomas Mann, Brookings Institute, W. Averell Harriman Chair.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2972,9 +3443,8 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">What will Dems sacrifice to
-										Beat Bush?</title>, <unitdate>31 October
-									2003</unitdate></unittitle>
+								<unittitle><title render="doublequote">What will Democrats sacrifice to Beat Bush?</title>,
+										<unitdate>31 October 2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">184</container>
 								<physdesc><extent>1 digital audio file (0:44:12)</extent></physdesc>
 							</did>
@@ -2991,8 +3461,7 @@
 								<physdesc><extent>1 digital audio file (0:51:04)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Jamie Court, author, â€œCorporateering: How Corporate Power
-									Steals Your Freedom".</p>
+								<p>With Jamie Court, author,"Corporateering: How Corporate Power Steals Your Freedom".</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3003,7 +3472,7 @@
 								<physdesc><extent>1 digital audio file (0:52:33)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With E.J. Dionne, Washington Post colunmist.</p>
+								<p>With E.J. Dionne, Washington Post columnist.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3015,8 +3484,7 @@
 								<physdesc><extent>1 digital audio file (0:43:24)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Beau Grosscup, CaL State Intern'l Studies &amp;
-									Terrorism.</p>
+								<p>With Beau Grosscup, Cal State International Studies &amp; Terrorism.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3026,9 +3494,7 @@
 								<container type="Electronic" label="ID No.">188</container>
 								<physdesc><extent>1 digital audio file (0:52:51)</extent></physdesc>
 							</did>
-							<scopecontent>
-								<p>With OPEN LINE, -.</p>
-							</scopecontent>
+							
 						</c04>
 						<c04>
 							<did>
@@ -3050,9 +3516,7 @@
 								<container type="Electronic" label="ID No.">190</container>
 								<physdesc><extent>1 digital audio file (0:51:50)</extent></physdesc>
 							</did>
-							<scopecontent>
-								<p>With OPEN LINE, -.</p>
-							</scopecontent>
+							
 						</c04>
 						<c04>
 							<did>
@@ -3086,9 +3550,7 @@
 								<container type="Electronic" label="ID No.">193</container>
 								<physdesc><extent>1 digital audio file (0:44:18)</extent></physdesc>
 							</did>
-							<scopecontent>
-								<p>With OPEN LINE, -.</p>
-							</scopecontent>
+							
 						</c04>
 						<c04>
 							<did>
@@ -3110,9 +3572,7 @@
 								<container type="Electronic" label="ID No.">195</container>
 								<physdesc><extent>1 digital audio file (0:43:53)</extent></physdesc>
 							</did>
-							<scopecontent>
-								<p>With Open Line, -.</p>
-							</scopecontent>
+							
 						</c04>
 						<c04>
 							<did>
@@ -3123,13 +3583,13 @@
 								<physdesc><extent>1 digital audio file (0:52:39)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Robert Knight, Director,Culture &amp; Family Institute
-									/Concerned Women for Am..</p>
+								<p>With Robert Knight, Director, Culture &amp; Family Institute
+									/Concerned Women for America.</p>
 							</scopecontent>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">WI Primary's Effect on Super
+								<unittitle><title render="doublequote">Wisconsin Primary's Effect on Super
 										Tuesday</title>, <unitdate>19 February
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">197</container>
@@ -3166,7 +3626,7 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">WI Losing High Wage
+								<unittitle><title render="doublequote">Wisconsin Losing High Wage
 										Jobs</title>, <unitdate>20 February
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">200</container>
@@ -3272,8 +3732,8 @@
 								<physdesc><extent>1 digital audio file (0:52:34)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Steven Kull, Director, Program on Internt'l Policy
-									Attitudes, University of Maryland.</p>
+								<p>With Steven Kull, Director, Program on International Policy Attitudes, University of
+									Maryland.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3392,9 +3852,7 @@
 								<container type="Electronic" label="ID No.">218</container>
 								<physdesc><extent>1 digital audio file (0:52:09)</extent></physdesc>
 							</did>
-							<scopecontent>
-								<p>With Open Line, -.</p>
-							</scopecontent>
+							
 						</c04>
 						<c04>
 							<did>
@@ -3453,9 +3911,7 @@
 								<container type="Electronic" label="ID No.">223</container>
 								<physdesc><extent>1 digital audio file (0:44:02)</extent></physdesc>
 							</did>
-							<scopecontent>
-								<p>With Open Line, -.</p>
-							</scopecontent>
+							
 						</c04>
 						<c04>
 							<did>
@@ -3501,7 +3957,7 @@
 							</did>
 							<scopecontent>
 								<p>With Dr. Gary Namie, President, Workplace Bullying &amp; Trauma
-									Institute..</p>
+									Institute.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3588,7 +4044,7 @@
 							</did>
 							<scopecontent>
 								<p>With Karlyn Bowman, Resident Fellow, American Enterprise
-									Institute..</p>
+									Institute.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3722,15 +4178,13 @@
 								<physdesc><extent>1 digital audio file (0:43:29)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Michael Cole, Communications Director, Human RIghts
-									Campaign.</p>
+								<p>With Michael Cole, Communications Director, Human Rights Campaign.</p>
 							</scopecontent>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Dems Must Be
-										Progresive</title>, <unitdate>24 December
-									2004</unitdate></unittitle>
+								<unittitle><title render="doublequote">Democrats Must Be Progressive</title>, <unitdate>24
+										December 2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">246</container>
 								<physdesc><extent>1 digital audio file (0:50:48)</extent></physdesc>
 							</did>
@@ -3760,8 +4214,7 @@
 								<physdesc><extent>1 digital audio file (0:40:53)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Craig Gilbert, D.C. Bureau Chief, Milw. Journal
-									Sentinel.</p>
+								<p>With Craig Gilbert, D.C. Bureau Chief, Milwaukee Journal Sentinel.</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3933,7 +4386,7 @@
 								<physdesc><extent>1 digital audio file (0:50:55)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Craig Gilbert, DC Bureau Chief, Milwaukee. Journal
+								<p>With Craig Gilbert, DC Bureau Chief, Milwaukee Journal
 									Sentinel.</p>
 							</scopecontent>
 						</c04>
@@ -4157,16 +4610,15 @@
 									Milwaukee Serial Murder Case</title>,
 									<unitdate>30 July 1991</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 28</extent></physdesc>
+								<container type="audio" label="Audio">28</container><physdesc><extent>audio cassette</extent></physdesc>
 							</did>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Clarence Thomas Sex Harrassment 
-								Hearings</title>,
-									<unitdate>14 October 1991 </unitdate></unittitle>
+								<unittitle><title render="doublequote">Clarence Thomas Sex Harassment Hearings</title>,
+										<unitdate>14 October 1991 </unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 29</extent></physdesc>
+								<container type="audio" label="Audio">29</container><physdesc><extent>audio cassette</extent></physdesc>
 							</did>
 						</c04>
 						<c04>
@@ -4174,7 +4626,7 @@
 								<unittitle><title render="doublequote">With Michael Weinzierl</title>,
 									<unitdate>2 March 1992</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassettes 30-31</extent></physdesc>
+								<container type="audio" label="Audio">30-31</container><physdesc><extent>audio cassette</extent></physdesc>
 							</did>
 						</c04>
 						<c04>
@@ -4182,7 +4634,7 @@
 								<unittitle><title render="doublequote">Rape Coverage Forum</title>,
 									<unitdate>31 March 1992</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassettes 32</extent></physdesc>
+								<container type="audio" label="Audio">32</container><physdesc><extent>audio cassette</extent></physdesc>
 							</did>
 						</c04>
 						<c04>
@@ -4190,7 +4642,7 @@
 								<unittitle><title render="doublequote">Jesse Anderson Case</title>,
 									<unitdate>27 April 1992</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassettes 33</extent></physdesc>
+								<container type="audio" label="Audio">33</container><physdesc><extent>audio cassette</extent></physdesc>
 							</did>
 						</c04>
 						<c04>
@@ -4198,7 +4650,7 @@
 								<unittitle><title render="doublequote">Press Coverage of Jesse Anderson Case</title>,
 									<unitdate>28 April 1992</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassettes 34</extent></physdesc>
+								<container type="audio" label="Audio">34</container><physdesc><extent>audio cassette</extent></physdesc>
 							</did>
 						</c04>
 						<c04>
@@ -4207,7 +4659,7 @@
 								Murder</title>,
 									<unitdate>5 May 1992</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassettes 35</extent></physdesc>
+								<container type="audio" label="Audio">35</container><physdesc><extent>audio cassette</extent></physdesc>
 							</did>
 						</c04>
 						<c04>
@@ -4215,7 +4667,7 @@
 								<unittitle><title render="doublequote">Telecommunications Reform Bill</title>,
 									<unitdate>1 February 1996</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassettes 36</extent></physdesc>
+								<container type="audio" label="Audio">36</container><physdesc><extent>audio cassette</extent></physdesc>
 							</did>
 						</c04>
 						<c04>
@@ -4223,7 +4675,7 @@
 								<unittitle><title render="doublequote">AFL-CIO State Chapter</title>,
 									<unitdate>7 March 1996</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassettes 36</extent></physdesc>
+								<container type="audio" label="Audio">36</container><physdesc><extent>audio cassette</extent></physdesc>
 							</did>
 						</c04>
 						<c04>
@@ -4232,7 +4684,7 @@
 								Terrorist Attack</title>,
 									<unitdate>11 September 2002</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassettes 37</extent></physdesc>
+								<container type="audio" label="Audio">37</container><physdesc><extent>audio cassette</extent></physdesc>
 							</did>
 						</c04>
 						<c04>
@@ -4240,7 +4692,7 @@
 								<unittitle><title render="doublequote">New Television Season</title>,
 									<unitdate>20 September 2002</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassettes 37</extent></physdesc>
+								<container type="audio" label="Audio">37</container><physdesc><extent>audio cassette</extent></physdesc>
 							</did>
 						</c04>
 						<c04>
@@ -4258,7 +4710,7 @@
 								Blackout of 2003</title>,
 									<unitdate>14 August 2003</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassettes 38</extent></physdesc>
+								<container type="audio" label="Audio">38</container><physdesc><extent>audio cassette</extent></physdesc>
 							</did>
 						</c04>
 						<c04>
@@ -4267,7 +4719,7 @@
 								Celebrity Fluff Over Hard News</title>,
 									<unitdate>15 August 2003</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassettes 38</extent></physdesc>
+								<container type="audio" label="Audio">38</container><physdesc><extent>audio cassette</extent></physdesc>
 							</did>
 						</c04>
 						<c04>
@@ -4549,10 +5001,9 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">6 Coming Elections, Part
-										1</title>, <unitdate>12 October 2006</unitdate></unittitle>
+								<unittitle><title render="doublequote">6 Coming Elections</title>, <unitdate>12 October 2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">315-317</container>
-								<physdesc><extent>1 digital audio file (0:14:00, 0:20:49,
+								<physdesc><extent>3 digital audio files (0:14:00, 0:20:49,
 										0:21:53)</extent></physdesc>
 							</did>
 						</c04>
@@ -4769,22 +5220,12 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Weekly Panel Part 1 (1st 18
-										mins)</title>, <unitdate>07 June 2007</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">344</container>
-								<physdesc><extent>1 digital audio file (0:18:28)</extent></physdesc>
+								<unittitle><title render="doublequote">Weekly Panel</title>, <unitdate>07 June 2007</unitdate></unittitle>
+								<container type="Electronic" label="ID No.">344-345</container>
+								<physdesc><extent>2 digital audio files (0:18:28 and 0:49:34)</extent></physdesc>
 							</did>
 						</c04>
-						<c04>
-							<did>
-								<unittitle><title render="doublequote">Weekly Panel Part 2 (Start at
-										1830 minutes)</title>, <unitdate>07 June
-									2007</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">345</container>
-								<physdesc><extent>1 digital audio file (0:49:34)</extent></physdesc>
-							</did>
-						</c04>
-						<c04>
+												<c04>
 							<did>
 								<unittitle><title render="doublequote">Weekly Panel</title>,
 										<unitdate>14 June 2007</unitdate></unittitle>
@@ -5363,9 +5804,8 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Party Spiltering
-										Coverage</title>, <unitdate>07 October
-									2009</unitdate></unittitle>
+								<unittitle><title render="doublequote">Party Splintering Coverage</title>, <unitdate>07
+										October 2009</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">417</container>
 								<physdesc><extent>1 digital audio file (0:49:17)</extent></physdesc>
 							</did>
@@ -5383,17 +5823,10 @@
 								<unittitle><title render="doublequote">Racism in Milwaukee Media</title>,
 									<unitdate>28 September</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
-								<physdesc><extent>Audio cassette 27</extent></physdesc>
+								<container type="audio" label="Audio">27</container><physdesc><extent>audio cassette</extent></physdesc>
 							</did>
 						</c04>
-						<c04>
-							<did>
-								<unittitle><title render="doublequote">Conservative Forum</title>,
-									<unitdate>undated</unitdate></unittitle>
-								<physdesc><extent>Videocassette 1</extent></physdesc>
-							</did>
-						</c04>
-					</c03>
+											</c03>
 				</c02>
 			</c01>
 		</dsc>
