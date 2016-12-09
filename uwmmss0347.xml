@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd" [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > 
+<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd" [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
 <ead id="uw-mil-uwmmss0347" relatedencoding="MARC21">
 	<eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
 		dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924"
@@ -33,6 +33,12 @@
 			<langusage encodinganalog="546">Finding aid written in <language encodinganalog="041"
 					langcode="eng" scriptcode="Latn">English.</language></langusage>
 		</profiledesc>
+		<revisiondesc>
+			<change>
+				<date normal="2016-12-09">December 9, 2016</date>
+				<item>Christel Maass made corrections.</item>
+			</change>
+		</revisiondesc>
 	</eadheader>
 	<archdesc level="collection" relatedencoding="MARC21">
 		<did>
@@ -45,9 +51,9 @@
 			<unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma"
 				countrycode="us">UWM Manuscript Collection 347</unitid>
 			<physdesc label="Quantity">
-				<extent encodinganalog="300">4.2 cubic ft. (5 boxes, including 1
-					video cassette and 38 audio cassettes)</extent>
-				<extent>448 digital audio files (22 GB)</extent>
+				<extent encodinganalog="300">3.4 cubic ft. (5 boxes, including 38 audio cassettes)</extent>
+				<extent encodinganalog="300">448 digital audio files (22 GB)</extent>
+				<extent encodinganalog="300">1 video cassette</extent>
 			</physdesc>
 			<repository encodinganalog="852">
 				<extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
@@ -58,7 +64,7 @@
 				</extref>
 			</repository>
 			<abstract encodinganalog="520">Papers of former UWM professor and media critic Dave Berkman
-				consisting of articles, including copies of his Shepherd Express “Media Musings,”
+				consisting of articles, including copies of his Shepherd Express "Media Musings,"
 				news clippings, correspondence, and an extensive set of radio broadcasts, largely
 				Wisconsin Public Radio recordings.</abstract>
 			<langmaterial encodinganalog="546" label="Language">
@@ -127,7 +133,7 @@
 									render="italic">Media Talk</title>, 1991-2006</ref>
 						</item>
 						<item>
-							<ref target="subseries2a" show="replace" actuate="onrequest">Guest
+							<ref target="subseries2b" show="replace" actuate="onrequest">Guest
 								Hosting Appearances, 1997-2007</ref>
 						</item>
 						<item>
@@ -137,16 +143,13 @@
 					</list>
 				</item>
 			</list>
-			<p>Records in Series 1 are arranged alphabetically by folder heading, and thereunder
-				chronologically. Records in Series 2 are arranged chronologically by date of
-				broadcast.</p>
 		</arrangement>
 		<otherfindaid encodinganalog="555">
 			<p>A spreadsheet with detailed information about the electronic recordings is available
 				in the Archives. The spreadsheet includes information about the show for which the
 				recordings were made, the title/topic of the show, the featured guests, the date of
 				broadcast, and the approximate duration of the recording. Additional technical
-				metadata is available in the archives; consult an archivist for more details.</p>
+				metadata is available in the Archives; consult an archivist for more details.</p>
 		</otherfindaid>
 		<prefercite encodinganalog="524">
 			<p>
@@ -155,11 +158,7 @@
 					>Citation Guide for Primary Sources</extref>
 			</p>
 		</prefercite>
-		<altformavail encodinganalog="530">
-			<head>Alternate Format</head>
-			<p> </p>
-		</altformavail>
-		<relatedmaterial encodinganalog="544 1">
+			<relatedmaterial encodinganalog="544 1">
 			<head>Related Material in the UWM Libraries</head>
 			<archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0179"
 				actuate="onrequest" show="new">
@@ -222,10 +221,10 @@
 					<unittitle>Records, <unitdate type="inclusive" normal="1958/2016"
 							>1958-2016</unitdate></unittitle>
 					<physdesc>
-						<extent encodinganalog="300"> 4.2 cubic ft. (5 boxes, including 38 audio cassettes
-							and 1 video cassette)</extent>
+						<extent encodinganalog="300">4.2 cubic ft. (5 boxes, including 1
+							videocassette and 38 audio cassettes))</extent>
 						<extent encodinganalog="300">448 digital audio files (22 GB)</extent>
-					</physdesc>
+					</physdesc>					
 				</did>
 				<c02 id="series1" level="series">
 					<did>
@@ -312,6 +311,7 @@
 						<unittitle>2. Radio Broadcasts, <unitdate>1991-2009</unitdate>
 						</unittitle>
 					</did>
+					<arrangement><p>The recordings in each subseries are arranged chronologically by date of broadcast. Audio numbers under recordings signify physical audio cassettes; "ID No." under recordings signifies digital files accessible in the Archives. See an archivist for more information. </p></arrangement>
 					<c03 id="subseries2a" level="subseries">
 						<did>
 							<unittitle>A. Media Talk, <unitdate>1991-2006</unitdate></unittitle>
@@ -342,37 +342,6 @@
 									<extent>audio cassette</extent>
 								</physdesc>
 							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle><title render="doublequote">Late
-										Night Television Talk Show Wars</title>, <unitdate>September
-										1993</unitdate></unittitle>
-								<container type="Box" label="Box">5</container>
-								<container type="audio" label="Audio">24</container>
-								<physdesc>
-									<extent>audio cassette</extent>
-								</physdesc>
-							</did>
-							<scopecontent>
-								<p>With Rick Kogan, Television Critic</p>
-							</scopecontent>
-						</c04>
-						<c04>
-							<did>
-								<unittitle><title render="doublequote">Media Coverage of
-										Labor</title>, <unitdate>September
-									1993</unitdate></unittitle>
-								<container type="Box" label="Box">5</container>
-								<container type="audio" label="Audio">24</container>
-								<physdesc>
-									<extent>audio cassette</extent>
-								</physdesc>
-							</did>
-							<scopecontent>
-								<p>With David Newby, AFL-CIO Wisconsin
-									Chapter</p>
-							</scopecontent>
 						</c04>
 						<c04>
 							<did>
@@ -493,8 +462,8 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">All American Television
-										Incorporated, Syndicates "Baywatch"</title>, <unitdate>15
+								<unittitle><title render="doublequote">All American Television,
+										Inc. Syndicates 'Baywatch'</title>, <unitdate>15
 										May 1994</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
 								<container type="audio" label="Audio">6</container>
@@ -548,8 +517,8 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">"By Invitation Only: How the
-										Media Limit the Political Debate"</title>, <unitdate>22
+								<unittitle><title render="doublequote">By Invitation Only: How the
+										Media Limit the Political Debate</title>, <unitdate>22
 										January 1995</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
 								<container type="audio" label="Audio">8</container>
@@ -578,7 +547,7 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Morning Sportstalk</title>,
+								<unittitle><title render="doublequote">Morning Sports Talk</title>,
 										<unitdate>26 February 1995</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
 								<container type="audio" label="Audio">9</container>
@@ -592,8 +561,8 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Role of Alternative Paper in
-										One Daily Town</title>, <unitdate>26 February
+								<unittitle><title render="doublequote">Role of Alternative Paper in a
+										One-Daily Town</title>, <unitdate>26 February
 										1995</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
 								<container type="audio" label="Audio">9</container>
@@ -622,7 +591,7 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Let Go Buy New Paper</title>,
+								<unittitle><title render="doublequote">Let's Go Buy New Paper</title>,
 										<unitdate>30 April 1995</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
 								<container type="audio" label="Audio">10</container>
@@ -755,8 +724,8 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Briggs and Stratton 630
-										Million Dollar Libel Suit</title>, <unitdate>7 July
+								<unittitle><title render="doublequote">Briggs and Stratton $630
+										Million Libel Suit</title>, <unitdate>7 July
 										1996</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
 								<container type="audio" label="Audio">15</container>
@@ -783,7 +752,7 @@
 						<c04>
 							<did>
 								<unittitle><title render="doublequote">How Right Wing Foundations
-										Set the Media Agendas</title>, <unitdate>16 October
+										Set the Media's Agenda</title>, <unitdate>16 October
 										1998</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
 								<container type="audio" label="Audio">16</container>
@@ -826,7 +795,7 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">How Manhattan-based Media
+								<unittitle><title render="doublequote">How Manhattan-Based Media
 										Control the National News Agenda</title>, <unitdate>27 April
 										2001</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
@@ -996,7 +965,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Don Wycliff, Chicago Tribune public editor.</p>
+								<p>With Don Wycliff, Chicago Tribune public editor</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1010,7 +979,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Danny Schechter, Author.</p>
+								<p>With Danny Schechter, Author</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1033,7 +1002,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With James Wolcott, Vanity Fair.</p>
+								<p>With James Wolcott, Vanity Fair</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1046,7 +1015,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With John Dunbar, Center for Public Integrity.</p>
+								<p>With John Dunbar, Center for Public Integrity</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1060,7 +1029,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Peter Rofes, Marquette Law School.</p>
+								<p>With Peter Rofes, Marquette Law School</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1075,7 +1044,7 @@
 							</did>
 							<scopecontent>
 								<p>With Brian Auchterlonie, Collegiate Network executive
-									director.</p>
+									director</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1089,12 +1058,12 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With James Steyer, Commonsense Media CEO.</p>
+								<p>With James Steyer, Commonsense Media CEO</p>
 							</scopecontent>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Television's Obsession w/
+								<unittitle><title render="doublequote">Television's Obsession With
 										Scandal</title>, <unitdate>15 August
 									2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">9</container>
@@ -1103,7 +1072,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Tim Cuprisin, Milwaukee Journal Sentinel columnist.</p>
+								<p>With Tim Cuprisin, Milwaukee Journal Sentinel columnist</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1127,7 +1096,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Steve Johnson, Chicago Tribune TV critic .</p>
+								<p>With Steve Johnson, Chicago Tribune TV critic </p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1141,7 +1110,7 @@
 							</did>
 							<scopecontent>
 								<p>With Lester Rodney &amp; Irwin Silber, author, "Press Box Red:
-									The Story of Lester Rodney".</p>
+									The Story of Lester Rodney"</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1154,7 +1123,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Joanne Weintraub, Milwaukee Journal Sentinel TV critic .</p>
+								<p>With Joanne Weintraub, Milwaukee Journal Sentinel TV critic </p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1167,7 +1136,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Michael Gonzalez, Wall Street Journal /Europe.</p>
+								<p>With Michael Gonzalez, Wall Street Journal Europe</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1181,7 +1150,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Eli Pariser, campaigns director of MoveOn.org.</p>
+								<p>With Eli Pariser, campaigns director of MoveOn.org</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1194,8 +1163,8 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Joe Conason, Big Lies: The Right Wing Propaganda Machine
-									.</p>
+								<p>With Joe Conason, author,  "Big Lies: The Right Wing Propaganda Machine"
+									</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1210,7 +1179,7 @@
 							</did>
 							<scopecontent>
 								<p>With Peter Phillips, Director of Project Censored; Sonoma State
-									University.</p>
+									University</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1223,7 +1192,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Molly O'Neill, freelance writer.</p>
+								<p>With Molly O'Neill, freelance writer</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1237,7 +1206,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With John Hess, author, "My Times: A Memoir of Dissent".</p>
+								<p>With John Hess, author, "My Times: A Memoir of Dissent"</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1250,7 +1219,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Vincent Brook, author of " Something Ain't Kosher Here".</p>
+								<p>With Vincent Brook, author of " Something Ain't Kosher Here"</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1264,7 +1233,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With J. Nicholas, J. Bouton, columnist: author, "Foul Ball".</p>
+								<p>With J. Nicholas, J. Bouton, columnist, author, "Foul Ball"</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1279,7 +1248,7 @@
 							</did>
 							<scopecontent>
 								<p>With Jeff Alan, author, "Anchoring America: The Changing Face of
-									Network News".</p>
+									Network News"</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1292,8 +1261,8 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Tim Graham, director of Media Analysis, MEDIA RESEARCH
-									CENTER.</p>
+								<p>With Tim Graham, director of Media Analysis, Media Research
+									Center</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1308,7 +1277,7 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote"> Hottest Video Games &amp;
+								<unittitle><title render="doublequote">Hottest Video Games &amp;
 										Gadgets</title>, <unitdate>28 November
 									2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">26</container>
@@ -1317,7 +1286,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With C. Taylor, W. Rothman, Time magazine writers.</p>
+								<p>With C. Taylor, W. Rothman, Time magazine writers</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1330,7 +1299,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Lisa Nalbandian, WPR - Milwaukee promotion manager.</p>
+								<p>With Lisa Nalbandian, WPR Milwaukee promotion manager</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1344,7 +1313,7 @@
 							</did>
 							<scopecontent>
 								<p>With Dr. Sydney Wolfe, director, Public Citizen's Health Research
-									Group.</p>
+									Group</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1358,7 +1327,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Mary Mitchell, Chicago Sun Times columnist.</p>
+								<p>With Mary Mitchell, Chicago Sun Times columnist</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1371,8 +1340,8 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Notra Trulock, Associate Editor Accuracy in Media
-									Report.</p>
+								<p>With Notra Trulock, Associate Editor, Accuracy in Media
+									Report</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1386,7 +1355,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Charles Layton, freelance writer.</p>
+								<p>With Charles Layton, freelance writer</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1400,7 +1369,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Laurie Robertson, editor, American Journalism Review.</p>
+								<p>With Laurie Robertson, editor, American Journalism Review</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1414,7 +1383,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Trudy Lieberman, contributing editor to the CJR.</p>
+								<p>With Trudy Lieberman, contributing editor to the CJR</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1427,8 +1396,8 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Diane Bystrom, Director Catt Center for Women &amp;
-									Politics, Iowa State University.</p>
+								<p>With Diane Bystrom, director, Catt Center for Women &amp;
+									Politics, Iowa State University</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1442,8 +1411,8 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Craig Gilbert, Washington Bureau Chief, Milwaukee Journal
-									Sentinel.</p>
+								<p>With Craig Gilbert, Washington bureau chief, Milwaukee Journal
+									Sentinel</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1457,7 +1426,7 @@
 							</did>
 							<scopecontent>
 								<p>With Bernice Kanner, author, "The Super Bowl of Advertising"
-									.</p>
+									</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1470,7 +1439,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With William Bastone, editor, The Smoking Gun Web Site.</p>
+								<p>With William Bastone, editor, "The Smoking Gun" web site</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1484,7 +1453,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Peter Hart, author, "The Oh Really? Factor".</p>
+								<p>With Peter Hart, author, "The Oh Really? Factor"</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1498,7 +1467,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Tim Cuprisin, Columnist, Milwaukee Journal Sentinel.</p>
+								<p>With Tim Cuprisin, columnist, Milwaukee Journal Sentinel</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1511,8 +1480,8 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Dave Luhrssen, Arts &amp; Entertainment Editor, Shepherd
-									Express.</p>
+								<p>With Dave Luhrssen, Arts &amp; Entertainment editor, Shepherd
+									Express</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1525,7 +1494,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Mike Drew, freelance writer.</p>
+								<p>With Mike Drew, freelance writer</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1539,7 +1508,7 @@
 							</did>
 							<scopecontent>
 								<p>With Kathy Kristof, President, Soc. of Am. Business Editors &amp;
-									Writers.</p>
+									Writers</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1552,7 +1521,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With William Grieder, Journalist, The Nation.</p>
+								<p>With William Grieder, Journalist, The Nation</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1566,7 +1535,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Claire Fuller, Sex Columnist, Lumberjack at No. AZ U.</p>
+								<p>With Claire Fuller, Sex Columnist, Lumberjack at No. AZ U</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1580,7 +1549,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Jack Mitchell, Former Director, Wisconsin Public Radio.</p>
+								<p>With Jack Mitchell, Former Director, Wisconsin Public Radio</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1594,7 +1563,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Susan Moeller, Journalism Professor, U of Maryland.</p>
+								<p>With Susan Moeller, Journalism Professor, U of Maryland</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1608,7 +1577,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Ken Light, Photojournalism Professor, UC-Berkeley.</p>
+								<p>With Ken Light, Photojournalism Professor, UC-Berkeley</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1633,7 +1602,7 @@
 							</did>
 							<scopecontent>
 								<p>With Christian Parenti, Ford Foundation Postdoctoral Fellow,
-									CUNY.</p>
+									CUNY</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1647,7 +1616,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Dr. Nancy Snow, Author of "Information War".</p>
+								<p>With Dr. Nancy Snow, author of "Information War"</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1661,7 +1630,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Rachel Smolkin, Sr writer, Am. Journalism Review.</p>
+								<p>With Rachel Smolkin, senior writer, American Journalism Review</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1675,13 +1644,13 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Dan Fagin , President, Society of Environmental Journalists
-									.</p>
+								<p>With Dan Fagin, president, Society of Environmental Journalists
+									</p>
 							</scopecontent>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Under-reporting of Poor &amp;
+								<unittitle><title render="doublequote">Under-Reporting of Poor &amp;
 										Working Classes</title>, <unitdate>28 May
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">55</container>
@@ -1690,13 +1659,13 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Brent Cunningham, Editor, Columbia Journalism Review.</p>
+								<p>With Brent Cunningham, editor, Columbia Journalism Review</p>
 							</scopecontent>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Under-reporting of religious
-										issues</title>, <unitdate>04 June
+								<unittitle><title render="doublequote">Under-Reporting of Religious
+										Issues</title>, <unitdate>04 June
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">56</container>
 								<physdesc>
@@ -1704,13 +1673,13 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Gal Beckerman, Assistant Editor, Columbia Journalism
-									Review.</p>
+								<p>With Gal Beckerman, assistant editor, Columbia Journalism
+									Review</p>
 							</scopecontent>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Interview w/ Ben
+								<unittitle><title render="doublequote">Interview with Ben
 										Bagdikian</title>, <unitdate>11 June
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">57</container>
@@ -1719,7 +1688,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Ben Bagdikian , Author, "The New Media Monopoly" .</p>
+								<p>With Ben Bagdikian, author, "The New Media Monopoly" </p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1733,12 +1702,12 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Marty Nemko , Author, "The All-in-One College Guide" .</p>
+								<p>With Marty Nemko, author, "The All-in-One College Guide" </p>
 							</scopecontent>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">How Did Fahrenheit 9-11
+								<unittitle><title render="doublequote">How Did 'Fahrenheit 9-11'
 										Influence You?</title>, <unitdate>02 July
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">59-60</container>
@@ -1758,13 +1727,13 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Nicholas Johnson, Former FCC Commissioner.</p>
+								<p>With Nicholas Johnson, former FCC Commissioner</p>
 							</scopecontent>
 						</c04>
 						<c04>
 							<did>
 								<unittitle><title render="doublequote">Media Coverage of 9-11
-										Commission &amp; Post-war Iraq</title>, <unitdate>16 July
+										Commission &amp; Post-War Iraq</title>, <unitdate>16 July
 										2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">62</container>
 								<physdesc>
@@ -1772,13 +1741,13 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Tim Graham, Media Research Center, Director Media Analysis
-									.</p>
+								<p>With Tim Graham, Media Research Center, director of Media Analysis
+									</p>
 							</scopecontent>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Media not Reporting
+								<unittitle><title render="doublequote">Media Not Reporting
 										Candidate's Accuracy</title>, <unitdate>23 July
 										2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">63</container>
@@ -1787,7 +1756,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Bryan Keefer, Co-author of "All The President's Spin" .</p>
+								<p>With Bryan Keefer, co-author of "All The President's Spin" </p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1801,8 +1770,8 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Tim Cuprisin, Media Columnist, Milwaukee Journal
-									Sentinel.</p>
+								<p>With Tim Cuprisin, media columnist, Milwaukee Journal
+									Sentinel</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1816,7 +1785,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Jacob Levenson, Author, "Divining Dixie".</p>
+								<p>With Jacob Levenson, author, "Divining Dixie"</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1829,7 +1798,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Patrick Conley, co-founder, 80's Airwaves.</p>
+								<p>With Patrick Conley, co-founder, "80's Airwaves"</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1843,7 +1812,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With James Hirsen, NewsMax Columnist.</p>
+								<p>With James Hirsen, NewsMax columnist</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1856,8 +1825,8 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Mark Feldstein, Director School of Media &amp; Public Affairs,
-									George Washington University</p>
+								<p>With Mark Feldstein, Director, School of Media &amp; Public Affairs, George Washington
+									University</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1871,7 +1840,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Tim Cuprisin, Columnist, Milwaukee Journal Sentinel.</p>
+								<p>With Tim Cuprisin, columnist, Milwaukee Journal Sentinel</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1884,8 +1853,8 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Joanne Weintraub , TV critic, Milwaukee Journal
-									Sentinel.</p>
+								<p>With Joanne Weintraub, TV critic, Milwaukee Journal
+									Sentinel</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1899,7 +1868,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Trudy Lieberman, Contributing Editor, CJR.</p>
+								<p>With Trudy Lieberman, contributing editor, CJR</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1913,7 +1882,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Joe Strupp, Sr editor, Editor &amp; Publisher .</p>
+								<p>With Joe Strupp, senior editor, "Editor &amp; Publisher" </p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1927,7 +1896,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Christopher Shaw, Organizing Director, Open Debate .</p>
+								<p>With Christopher Shaw, Organizing Director, Open Debate </p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1941,7 +1910,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Adam Gamble, Author, "A Public Betrayed".</p>
+								<p>With Adam Gamble, author, "A Public Betrayed"</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1955,8 +1924,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Tim Cuprisin, Media Columnist, Milwaukee
-									Journal-Sentinel.</p>
+								<p>With Tim Cuprisin, media columnist, Milwaukee Journal-Sentinel</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1970,7 +1938,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Gene Policinski, First Amendment Center, Exec. Director .</p>
+								<p>With Gene Policinski, First Amendment Center, executive director </p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1995,7 +1963,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Todd Gitlin, Columnist, Mother Jones Magazine.</p>
+								<p>With Todd Gitlin, columnist, Mother Jones Magazine</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2009,7 +1977,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Peter Phillips, Author, "The Top 25 Censored Stories" .</p>
+								<p>With Peter Phillips, author, "The Top 25 Censored Stories" </p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2022,7 +1990,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Charles Layton, Sr. Writer for AJR.</p>
+								<p>With Charles Layton, senior writer for AJR</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2035,7 +2003,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Will Durst, Political Comedian.</p>
+								<p>With Will Durst, political comedian</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2049,8 +2017,8 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Henry Farrell, Assistant professor of Political Science
-									&amp; International Affairs, George Washington U.</p>
+								<p>With Henry Farrell, assistant professor of Political Science &amp; International Affairs,
+									George Washington University</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2064,7 +2032,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Brian Montopoli, Reporter for CJR Daily.</p>
+								<p>With Brian Montopoli, Reporter for CJR Daily</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2078,7 +2046,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Gloria Tristani, Managing communications director, UCC .</p>
+								<p>With Gloria Tristani, managing communications director, United Church of Christ </p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2092,7 +2060,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Joe Karius, Publisher of Ironwood Daily Globe.</p>
+								<p>With Joe Karius, publisher of Ironwood Daily Globe</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2106,7 +2074,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Joe Strupp, Sr. Editor, Editor and Publisher .</p>
+								<p>With Joe Strupp, senior editor, "Editor and Publisher" </p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2120,7 +2088,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With David J. Mehegan , Features Writer, Boston Globe.</p>
+								<p>With David J. Mehegan, features writer, Boston Globe</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2134,8 +2102,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Joanne Gerstner, President, Association for Women in Sports
-									Media.</p>
+								<p>With Joanne Gerstner, president, Association for Women in Sports Media</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2148,7 +2115,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Linda Marsa, Mother Jones Reporter.</p>
+								<p>With Linda Marsa, Mother Jones Reporter</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2163,7 +2130,7 @@
 							</did>
 							<scopecontent>
 								<p>With Bill McConnell, Sr Writer, Broadcasting &amp; Cable
-									Magazine.</p>
+									Magazine</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2177,7 +2144,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Steve Behrens, Editor for Current.</p>
+								<p>With Steve Behrens, editor for Current</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2191,7 +2158,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Gene Policinski, 1st Amendment Center Exec Director.</p>
+								<p>With Gene Policinski, First Amendment Center Executive Director</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2204,7 +2171,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Evan Cornog, Publisher, CJR.</p>
+								<p>With Evan Cornog, publisher, CJR</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2218,8 +2185,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Danny Schecter, Filmmaker, "Embedded: Weapons of Mass
-									Deception".</p>
+								<p>With Danny Schecter, filmmaker, "Embedded: Weapons of Mass Deception"</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2233,8 +2199,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Lori Robertson, Managing Editor., American Journalism
-									Review.</p>
+								<p>With Lori Robertson, managing editor, American Journalism Review</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2247,8 +2212,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Matthew Felling, Media Director, Center for Media &amp;
-									Public Affairs.</p>
+								<p>With Matthew Felling, media director, Center for Media &amp; Public Affairs</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2261,8 +2225,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Bob Priddy, Chairman, Board of Directors, Radio/TV News
-									Directors Association.</p>
+								<p>With Bob Priddy, chairman, Board of Directors, Radio/TV News Directors Association</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2276,8 +2239,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Tom Rosenstiel, Director, Project for Excellence in
-									Journalism.</p>
+								<p>With Tom Rosenstiel, director, Project for Excellence in Journalism</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2291,7 +2253,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Bryan Keefer, Assistant Managing Editor, CJR Daily.</p>
+								<p>With Bryan Keefer, assistant managing editor, CJR Daily</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2305,7 +2267,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With J.J. Blonien, Editor, Wisconsin Conservative Digest.</p>
+								<p>With J.J. Blonien, editor, Wisconsin Conservative Digest</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2318,7 +2280,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Susanna Montezemolo, Policy Analyst, Consumers Union.</p>
+								<p>With Susanna Montezemolo, policy analyst, Consumers Union</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2332,8 +2294,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Harry Miller, Reference Archivist, Wisconsin Historical
-									Society.</p>
+								<p>With Harry Miller, reference archivist, Wisconsin Historical Society</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2347,7 +2308,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Ross Gelbspan, Reporter, Mother Jones Magazine.</p>
+								<p>With Ross Gelbspan, reporter, Mother Jones Magazine</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2361,7 +2322,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Bryon York, White House correspondent, National Review.</p>
+								<p>With Bryon York, White House correspondent, National Review</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2374,8 +2335,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Karin Karlekar, Managing Editor, Freedom of Press
-									survey.</p>
+								<p>With Karin Karlekar, managing editor, Freedom of Press survey</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2388,7 +2348,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Joe Strupp, Sr. Editor, Editor &amp; Publisher Magazine.</p>
+								<p>With Joe Strupp, senior editor, Editor &amp; Publisher Magazine</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2402,8 +2362,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Mariah Blake, Assistant Editor, Columbia Journalism Review.
-									.</p>
+								<p>With Mariah Blake, assistant editor, Columbia Journalism Review. </p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2416,20 +2375,20 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Scott Sherman, Contributing Editor, The Nation.</p>
+								<p>With Scott Sherman, contributing editor, The Nation</p>
 							</scopecontent>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Influence of Media Research
-										Inst</title>, <unitdate>17 June 2005</unitdate></unittitle>
+								<unittitle><title render="doublequote">Influence of Media Research Institute</title>,
+										<unitdate>17 June 2005</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">110</container>
 								<physdesc>
 									<extent>1 digital audio file (0:44:57)</extent>
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Brian Montopoli, Reporter, Columbia Journalism Review.</p>
+								<p>With Brian Montopoli, reporter, Columbia Journalism Review</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2453,7 +2412,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Bruce Murphy, Sr Editor, Milwaukee Magazine.</p>
+								<p>With Bruce Murphy, senior editor, Milwaukee Magazine</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2468,7 +2427,7 @@
 							</did>
 							<scopecontent>
 								<p>With Matthew Felling, Media Director, Center for Media &amp;
-									Public Affairs .</p>
+									Public Affairs </p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2482,7 +2441,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Bryan Monroe, VP/Print, NABJ.</p>
+								<p>With Bryan Monroe, VP/Print, National Association of Black Journalists</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2496,7 +2455,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Ted Hearn, D.C. news editor, Broadcasting &amp; Cable.</p>
+								<p>With Ted Hearn, D.C. news editor, Broadcasting &amp; Cable</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2509,7 +2468,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Christopher Ruddy, Editor of NewsMax .</p>
+								<p>With Christopher Ruddy, editor of NewsMax </p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2523,7 +2482,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Mark Crispin Miller, Author of "Fooled Again".</p>
+								<p>With Mark Crispin Miller, author of "Fooled Again"</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2537,8 +2496,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Tim Cuprisin, Media Columnist, Milwaukee Journal
-									Sentinel.</p>
+								<p>With Tim Cuprisin, media columnist, Milwaukee Journal Sentinel</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2562,7 +2520,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Eugene Kane, Columnist, Milwaukee Journal Sentinel.</p>
+								<p>With Eugene Kane, columnist, Milwaukee Journal Sentinel</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2576,8 +2534,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Matthew Felling, Media Director, Center for Media &amp; Pub
-									Affairs.</p>
+								<p>With Matthew Felling, media director, Center for Media &amp; Public Affairs</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2590,8 +2547,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Joanne Weintraub, Media Critic, Milwaukee
-									Journal-Sentinel.</p>
+								<p>With Joanne Weintraub, media critic, Milwaukee Journal-Sentinel</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2605,8 +2561,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Trudy Lieberman, Board President, Association Health Care
-									Journalists.</p>
+								<p>With Trudy Lieberman, board president, Association of Health Care Journalists</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2620,7 +2575,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Matthew Nisbet, Assistant Prof, Ohio State U.</p>
+								<p>With Matthew Nisbet, assistant professor, Ohio State University</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2634,8 +2589,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Dr. Susan Villani, Med Director School Programs, Johns
-									Hopkins .</p>
+								<p>With Dr. Susan Villani, medical director of school programs, Johns Hopkins </p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2649,7 +2603,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Victor Navasky, Publisher of The Nation.</p>
+								<p>With Victor Navasky, Publisher of The Nation</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2663,8 +2617,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Alan Nadel, Literature &amp; Film Prof, Rensselaer
-									Polytechnic Institute.</p>
+								<p>With Alan Nadel, literature &amp; film professor, Rensselaer Polytechnic Institute</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2678,7 +2631,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Tim Cuprisin, Media Critic, Milwaukee Journal Sentinel.</p>
+								<p>With Tim Cuprisin, media critic, Milwaukee Journal Sentinel</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2691,7 +2644,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Dave Zirin, Sr. Writer at Basketball.com .</p>
+								<p>With Dave Zirin, senior writer at Basketball.com </p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2705,7 +2658,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Carl Limbacher, Reporter for NewsMax.</p>
+								<p>With Carl Limbacher, reporter for NewsMax</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2719,8 +2672,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Matt Felling, Media Director, Center for Media &amp; Public
-									Affairs.</p>
+								<p>With Matt Felling, media director, Center for Media &amp; Public Affairs</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2734,7 +2686,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Jeremy Scahill, Independent Journalist.</p>
+								<p>With Jeremy Scahill, independent journalist</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2747,7 +2699,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Adam Piore, reporter, Mother Jones Magazine.</p>
+								<p>With Adam Piore, reporter, Mother Jones Magazine</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2760,8 +2712,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Michael Bloxham, Testing Director, Center for Media Design,
-									Ball State.</p>
+								<p>With Michael Bloxham, testing director, Center for Media Design, Ball State</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2774,7 +2725,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Joe Strupp, Sr. Editor, Editor &amp; Publisher.</p>
+								<p>With Joe Strupp, senior editor, Editor &amp; Publisher</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2788,12 +2739,12 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Steve Callaghan, Writer &amp; Producer of Family Guy.</p>
+								<p>With Steve Callaghan, writer &amp; producer of Family Guy</p>
 							</scopecontent>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Indictment of NYT for Spying
+								<unittitle><title render="doublequote">Indictment of New York Times for Spying
 										Story?</title>, <unitdate>13 January
 									2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">137</container>
@@ -2802,7 +2753,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Harvey Silverglate, Attorney &amp; Writer.</p>
+								<p>With Harvey Silverglate, attorney &amp; writer</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2816,7 +2767,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Douglas McCollam, Contributing Editor, CJR.</p>
+								<p>With Douglas McCollam, Contributing Editor, CJR</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2830,8 +2781,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Vicky Rideout, Director, Study of Entertainment Media &amp;
-									Health/Kaiser Health.</p>
+								<p>With Vicky Rideout, director, Study of Entertainment Media &amp; Health/Kaiser Health</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2844,7 +2794,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Joe Fontaine, Columnist, Ripon College Days.</p>
+								<p>With Joe Fontaine, columnist, Ripon College Days</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2858,7 +2808,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Gene Policinski, Exec. Director, 1st Amendment Center.</p>
+								<p>With Gene Policinski, executive director, First Amendment Center</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2872,8 +2822,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Marc Weingarten, Author, "Gang That Wouldn't Write
-									Straight".</p>
+								<p>With Marc Weingarten, author, "Gang That Wouldn't Write Straight"</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2896,7 +2845,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Dave Luhrssen, A &amp; E Editor, Shepherd Express.</p>
+								<p>With Dave Luhrssen, Arts &amp; Entertainment editor, Shepherd Express</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2920,20 +2869,20 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Steve Rendall, Sr. analyst, FAIR.</p>
+								<p>With Steve Rendall, senior analyst, FAIR</p>
 							</scopecontent>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Blogs Feingolds Presidential
-										Run</title>, <unitdate>24 March 2006</unitdate></unittitle>
+								<unittitle><title render="doublequote">Russ Feingold's Presidential Run</title>,
+										<unitdate>24 March 2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">147</container>
 								<physdesc>
 									<extent>1 digital audio file (0:54:41)</extent>
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Chris Bower, Blogger, mydd.com .</p>
+								<p>With Chris Bower, blogger, mydd.com </p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2947,7 +2896,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Dante Chinni, Columnist, Christian Science Monitor.</p>
+								<p>With Dante Chinni, columnist, Christian Science Monitor</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2961,8 +2910,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Matthew Felling, Media Director, Center for Media &amp;
-									Public Affairs.</p>
+								<p>With Matthew Felling, media director, Center for Media &amp; Public Affairs</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2975,7 +2923,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Tim Cuprisin, TV Critic, Milwaukee Journal Sentinel.</p>
+								<p>With Tim Cuprisin, TV critic, Milwaukee Journal Sentinel</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -2989,21 +2937,20 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Felix Gutierrez, Exec. Director, Freedom Forum Pacific Coast
-									Center.</p>
+								<p>With Felix Gutierrez, executive director, Freedom Forum Pacific Coast Center</p>
 							</scopecontent>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Admin Tries to Rein In
-										Press</title>, <unitdate>05 May 2006</unitdate></unittitle>
+								<unittitle><title render="doublequote">Administration Tries to Rein In Press</title>,
+										<unitdate>05 May 2006</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">152</container>
 								<physdesc>
 									<extent>1 digital audio file (0:52:36)</extent>
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Joe Strupp, Columnist, Editor &amp; Publisher.</p>
+								<p>With Joe Strupp, columnist, Editor &amp; Publisher</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3016,7 +2963,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Al Barger, Libertarian blogger.</p>
+								<p>With Al Barger, Libertarian blogger</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3029,7 +2976,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Chris Ruddy, Editor, NewsMAX.</p>
+								<p>With Chris Ruddy, editor, NewsMax</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3042,8 +2989,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Richard Weiner, Author, "The Skinny About Best Boys",
-									etc.</p>
+								<p>With Richard Weiner, author, "The Skinny About Best Boys"</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3056,8 +3002,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Daniel Schulman, Asst. Editor, Columbia Journalism
-									Review.</p>
+								<p>With Daniel Schulman, assistant editor, Columbia Journalism Review</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3070,7 +3015,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Caz McChrystal, Law Student.</p>
+								<p>With Caz McChrystal, Law Student</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3084,8 +3029,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Bill Lueders, President, Wisconsin's Freedom of Information.
-									Council.</p>
+								<p>With Bill Lueders, president, Wisconsin's Freedom of Information. Council</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3099,7 +3043,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Stephanie Shapiro, Feature Writer, Baltimore Sun.</p>
+								<p>With Stephanie Shapiro, feature writer, Baltimore Sun</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3112,8 +3056,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Gene Policinski, Executive Director, 1st Amendment
-									Center.</p>
+								<p>With Gene Policinski, executive director, First Amendment Center</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3134,13 +3077,43 @@
 						</did>
 						<c04>
 							<did>
+								<unittitle><title render="doublequote">Late
+									Night Television Talk Show Wars</title>, <unitdate>September
+										1993</unitdate></unittitle>
+								<container type="Box" label="Box">5</container>
+								<container type="audio" label="Audio">24</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
+							</did>
+							<scopecontent>
+								<p>With Rick Kogan, television critic</p>
+							</scopecontent>
+						</c04>
+						<c04>
+							<did>
+								<unittitle><title render="doublequote">Media Coverage of
+									Labor</title>, <unitdate>September
+										1993</unitdate></unittitle>
+								<container type="Box" label="Box">5</container>
+								<container type="audio" label="Audio">24</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
+							</did>
+							<scopecontent>
+								<p>With David Newby, AFL-CIO Wisconsin chapter</p>
+							</scopecontent>
+						</c04>
+						<c04>
+							<did>
 								<unittitle><title render="doublequote">Gun Rights</title>,
 									<unitdate>4 July 1997</unitdate></unittitle>
 								<container type="Box" label="Box">5</container>
 								<container type="audio" label="Audio">25</container><physdesc><extent>audio cassette</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With James Fendry, Director, Wisconsin Pro-Gun Movement</p>
+								<p>With James Fendry, director, Wisconsin Pro-Gun Movement</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3182,7 +3155,7 @@
 								<physdesc><extent>1 digital audio file (0:46:05)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Tim Condon, Libertarian Free State Project.</p>
+								<p>With Tim Condon, Libertarian Free State Project</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3194,7 +3167,7 @@
 							</did>
 							<scopecontent>
 								<p>With David Bositus, Joint Center for Political &amp; Economic
-									Studies.</p>
+									Studies</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3207,7 +3180,7 @@
 							</did>
 							<scopecontent>
 								<p>With Aviel Rubin, Johns Hopkins Information Technology
-									Institute.</p>
+									Institute</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3219,7 +3192,7 @@
 								<physdesc><extent>1 digital audio file (0:55:38)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Melissa Rogers, Pew Forum on Religion &amp; Public Life.</p>
+								<p>With Melissa Rogers, Pew Forum on Religion &amp; Public Life</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3231,7 +3204,7 @@
 							</did>
 							<scopecontent>
 								<p>With John McAdams, Marquette University professor, political
-									science.</p>
+									science</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3243,7 +3216,7 @@
 							</did>
 							<scopecontent>
 								<p>With John Schmid, Milwaukee Journal Sentinel economics
-									writer.</p>
+									writer</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3254,7 +3227,7 @@
 								<physdesc><extent>1 digital audio file (0:43:57)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Ken Goldstein, Wisconsin Advertising Project.</p>
+								<p>With Ken Goldstein, Wisconsin Advertising Project</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3267,7 +3240,7 @@
 							</did>
 							<scopecontent>
 								<p>With Tim Padgett, Time Magazine Miami &amp; Latin America Bureau
-									Chief.</p>
+									Chief</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3280,7 +3253,7 @@
 							</did>
 							<scopecontent>
 								<p>With Charles Hill, Yale Professor of International Security &amp;
-									UN Studies.</p>
+									UN Studies</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3292,8 +3265,7 @@
 								<physdesc><extent>1 digital audio file (0:52:45)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Melissa Caldwell, Director research &amp; publications,
-									Parents TV Council.</p>
+								<p>With Melissa Caldwell, director of research &amp; publications, Parents TV Council</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3305,20 +3277,18 @@
 								<physdesc><extent>1 digital audio file (0:52:22)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Jenn Danko, Shepherd Express reporter.</p>
+								<p>With Jenn Danko, Shepherd Express reporter</p>
 							</scopecontent>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Americans Want Free Time More
-										Than $</title>, <unitdate>01 September
-									2003</unitdate></unittitle>
+								<unittitle><title render="doublequote">Americans Want Free Time More Than Money</title>,
+										<unitdate>01 September 2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">173</container>
 								<physdesc><extent>1 digital audio file (0:52:33)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Diane Wood, Exec. director, Center for New American Dream
-									.</p>
+								<p>With Diane Wood, executive director, Center for New American Dream </p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3330,7 +3300,7 @@
 								<physdesc><extent>1 digital audio file (0:52:00)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Harry Binswanger, Ayn Rand Institute professor.</p>
+								<p>With Harry Binswanger, Ayn Rand Institute professor</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3341,7 +3311,7 @@
 								<physdesc><extent>1 digital audio file (0:45:07)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Bob Wolfley, Milwaukee Journal Sentinel sports columnist.</p>
+								<p>With Bob Wolfley, Milwaukee Journal Sentinel sports columnist</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3353,7 +3323,7 @@
 								<physdesc><extent>1 digital audio file (0:51:49)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Thomas Mann, Brookings Institute, W. Averell Harriman Chair.</p>
+								<p>With Thomas Mann, Brookings Institute, W. Averell Harriman Chair</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3365,8 +3335,7 @@
 								<physdesc><extent>1 digital audio file (0:42:47)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With David Burnam, Syracuse co-director Transactional Act. Rec.
-									Clearinghouse.</p>
+								<p>With David Burnam, Syracuse, co-director of Transactional Act. Rec. Clearinghouse</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3377,7 +3346,7 @@
 								<physdesc><extent>1 digital audio file (0:51:13)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Kathleen Parker, Orlando Sentinel columnist.</p>
+								<p>With Kathleen Parker, Orlando Sentinel columnist</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3389,7 +3358,7 @@
 								<physdesc><extent>1 digital audio file (0:44:29)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With John Jackson, Chicago Sun Times reporter.</p>
+								<p>With John Jackson, Chicago Sun Times reporter</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3401,7 +3370,7 @@
 							</did>
 							<scopecontent>
 								<p>With George Curry, editor-in-chief, National Newspaper Publishers
-									Association.</p>
+									Association</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3413,7 +3382,7 @@
 								<physdesc><extent>1 digital audio file (0:51:14)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Bill McGowan, author of "Coloring the News".</p>
+								<p>With Bill McGowan, author of "Coloring the News"</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3426,7 +3395,7 @@
 							</did>
 							<scopecontent>
 								<p>With Mordecai Lee, UWM associate professor of governmental
-									affairs.</p>
+									affairs</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3438,7 +3407,7 @@
 								<physdesc><extent>1 digital audio file (0:52:11)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Micheline Maynard, author of "The End of Detroit".</p>
+								<p>With Micheline Maynard, author of "The End of Detroit"</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3449,7 +3418,7 @@
 								<physdesc><extent>1 digital audio file (0:44:12)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Mitch Frank, National Reporter at Time Magazine.</p>
+								<p>With Mitch Frank, national reporter at Time Magazine</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3461,7 +3430,7 @@
 								<physdesc><extent>1 digital audio file (0:51:04)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Jamie Court, author,"Corporateering: How Corporate Power Steals Your Freedom".</p>
+								<p>With Jamie Court, author, "Corporateering: How Corporate Power Steals Your Freedom"</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3472,7 +3441,7 @@
 								<physdesc><extent>1 digital audio file (0:52:33)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With E.J. Dionne, Washington Post columnist.</p>
+								<p>With E.J. Dionne, Washington Post columnist</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3484,7 +3453,7 @@
 								<physdesc><extent>1 digital audio file (0:43:24)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Beau Grosscup, Cal State International Studies &amp; Terrorism.</p>
+								<p>With Beau Grosscup, Cal State International Studies &amp; Terrorism</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3505,14 +3474,13 @@
 								<physdesc><extent>1 digital audio file (0:44:08)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Damien Cave, writer for Salon.com.</p>
+								<p>With Damien Cave, writer for Salon.com</p>
 							</scopecontent>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Listener's Most Important
-										Stories/2003</title>, <unitdate>02 January
-									2004</unitdate></unittitle>
+								<unittitle><title render="doublequote">Listener's Most Important Stories of 2003</title>,
+										<unitdate>02 January 2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">190</container>
 								<physdesc><extent>1 digital audio file (0:51:50)</extent></physdesc>
 							</did>
@@ -3527,7 +3495,7 @@
 								<physdesc><extent>1 digital audio file (0:44:11)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Nat Hentoff, columnist, Village Voice.</p>
+								<p>With Nat Hentoff, columnist, Village Voice</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3540,7 +3508,7 @@
 							</did>
 							<scopecontent>
 								<p>With Melissa Caldwell vs Ron Collins, Parents TV Council vs
-									author.</p>
+									author</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3561,7 +3529,7 @@
 								<physdesc><extent>1 digital audio file (0:51:24)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Robert Bruno, author, "Reforming the Chicago Teamsters".</p>
+								<p>With Robert Bruno, author, "Reforming the Chicago Teamsters"</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3583,8 +3551,8 @@
 								<physdesc><extent>1 digital audio file (0:52:39)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Robert Knight, Director, Culture &amp; Family Institute
-									/Concerned Women for America.</p>
+								<p>With Robert Knight, director, Culture &amp; Family Institute /Concerned Women for
+									America</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3596,7 +3564,7 @@
 								<physdesc><extent>1 digital audio file (0:44:21)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Terry Neal, Washington Post columnist.</p>
+								<p>With Terry Neal, Washington Post columnist</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3608,8 +3576,7 @@
 								<physdesc><extent>1 digital audio file (0:43:06)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Mark Cooper, Director of Research, Consumer Federation of
-									America-.</p>
+								<p>With Mark Cooper, director of research, Consumer Federation of America</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3621,7 +3588,7 @@
 								<physdesc><extent>1 digital audio file (0:52:35)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Aly Colon, Ethics Group Leader, Poynter Institute.</p>
+								<p>With Aly Colon, Ethics Group leader, Poynter Institute</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3633,7 +3600,7 @@
 								<physdesc><extent>1 digital audio file (0:43:28)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Joel Rogers, Director, Center on Wisconsin Strategy.</p>
+								<p>With Joel Rogers, Director, Center on Wisconsin Strategy</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3645,7 +3612,7 @@
 								<physdesc><extent>1 digital audio file (0:51:28)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Joe Davidson, Former Poynter Ethics Fellow.</p>
+								<p>With Joe Davidson, former Poynter Ethics Fellow</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3657,20 +3624,18 @@
 								<physdesc><extent>1 digital audio file (0:52:00)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With James Brosnahan, Defense Attorney.</p>
+								<p>With James Brosnahan, defense attorney</p>
 							</scopecontent>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Outlook for 2004 Brewer's
-										Season</title>, <unitdate>06 April
-									2004</unitdate></unittitle>
+								<unittitle><title render="doublequote">Outlook for 2004 Brewers Season</title>, <unitdate>06
+										April 2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">203</container>
 								<physdesc><extent>1 digital audio file (0:43:28)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Bob Wolfley, Sports Columnist, Milwaukee Journal
-									Sentinel.</p>
+								<p>With Bob Wolfley, sports columnist, Milwaukee Journal Sentinel</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3682,8 +3647,7 @@
 								<physdesc><extent>1 digital audio file (0:51:38)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Tim Graham, Director, Media Analysis at Media Research
-									Center.</p>
+								<p>With Tim Graham, drector, Media Analysis at Media Research Center</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3694,7 +3658,7 @@
 								<physdesc><extent>1 digital audio file (0:43:01)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Eugene Kane, Columnist, Milwaukee Journal Sentinel.</p>
+								<p>With Eugene Kane, columnist, Milwaukee Journal Sentinel</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3706,8 +3670,8 @@
 								<physdesc><extent>1 digital audio file (0:51:23)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Paul Harrington, Assoc Director. Center for Labor &amp;
-									Market Studies, Northeastern University.</p>
+								<p>With Paul Harrington, associate director, Center for Labor &amp; Market Studies,
+									Northeastern University</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3719,8 +3683,7 @@
 								<physdesc><extent>1 digital audio file (0:43:56)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With William Hartung, Director, Arms Trade Project at the World
-									Policy Institute.</p>
+								<p>With William Hartung, director, Arms Trade Project at the World Policy Institute</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3732,8 +3695,8 @@
 								<physdesc><extent>1 digital audio file (0:52:34)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Steven Kull, Director, Program on International Policy Attitudes, University of
-									Maryland.</p>
+								<p>With Steven Kull, director, Program on International Policy Attitudes, University of
+									Maryland</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3744,33 +3707,31 @@
 								<physdesc><extent>1 digital audio file (0:40:54)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Nelson Lichtenstein, Professor of History, UC-Santa
-									Barbara.</p>
+								<p>With Nelson Lichtenstein, professor of history, UC-Santa Barbara</p>
 							</scopecontent>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Arlen Specter's Re-election
-										&amp; Future for Moderate Republicans</title>, <unitdate>30
-										April 2004</unitdate></unittitle>
+								<unittitle><title render="doublequote">Arlen Specter's Re-Election &amp; Future for Moderate
+										Republicans</title>, <unitdate>30 April
+									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">210</container>
 								<physdesc><extent>1 digital audio file (0:52:04)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Jennifer Duffy, Senate Editor, The Cook Political
-									Report.</p>
+								<p>With Jennifer Duffy, Senate editor, The Cook Political Report</p>
 							</scopecontent>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Why Sonia Gandhi Declined
-										P.M. Position</title>, <unitdate>21 May
+								<unittitle><title render="doublequote">Why Sonia Gandhi Declined Prime Minister
+										Position</title>, <unitdate>21 May
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">211</container>
 								<physdesc><extent>1 digital audio file (0:49:22)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Ravi Narasimhan, Editor of The Hindu.</p>
+								<p>With Ravi Narasimhan, editor of The Hindu</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3781,8 +3742,7 @@
 								<physdesc><extent>1 digital audio file (0:43:13)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Stephen Budiansky, Author, "Air Power: The Men, Machines
-									&amp; Ideas".</p>
+								<p>With Stephen Budiansky, author, "Air Power: The Men, Machines &amp; Ideas"</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3793,8 +3753,8 @@
 								<physdesc><extent>1 digital audio file (0:52:48)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Richard Longworth, Director,Global Chicago Center, Chicago
-									Council on Foreign Relations.</p>
+								<p>With Richard Longworth, director, Global Chicago Center, Chicago Council on Foreign
+									Relations</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3805,8 +3765,7 @@
 								<physdesc><extent>1 digital audio file (0:44:16)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Joseph Klein, Author, "The Foolish, The Feckless and The
-									Fanatic".</p>
+								<p>With Joseph Klein, author, "The Foolish, The Feckless and The Fanatic"</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3817,7 +3776,7 @@
 								<physdesc><extent>1 digital audio file (0:50:58)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Joe Strupp, Sr. Editor, Editor &amp; Publisher.</p>
+								<p>With Joe Strupp, senior editor,  Editor &amp; Publisher</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3828,7 +3787,7 @@
 								<physdesc><extent>1 digital audio file (0:44:31)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Michael Scherer, D.C. Correspondent for Mother Jones.</p>
+								<p>With Michael Scherer, D.C. correspondent for Mother Jones</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3840,8 +3799,7 @@
 								<physdesc><extent>1 digital audio file (0:43:09)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With M. Gregg Bloche, Professor of law &amp; health policy,
-									Georgetown U.</p>
+								<p>With M. Gregg Bloche, professor of law &amp; health policy, Georgetown University</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3863,7 +3821,7 @@
 								<physdesc><extent>1 digital audio file (0:44:13)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Mark Kastel, Director, Organic Integrity Project.</p>
+								<p>With Mark Kastel, Director, Organic Integrity Project</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3875,7 +3833,7 @@
 							</did>
 							<scopecontent>
 								<p>With Christina Desser, co-director, Women's Voices, Women
-									Vote.</p>
+									Vote</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3887,8 +3845,7 @@
 								<physdesc><extent>1 digital audio file (0:46:09)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Jim Staudenraus, Field Director, Federation for Immigration
-									Reform.</p>
+								<p>With Jim Staudenraus, field director, Federation for Immigration Reform</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3900,7 +3857,7 @@
 								<physdesc><extent>1 digital audio file (0:45:01)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Linda Chavez, Author of "Betrayal".</p>
+								<p>With Linda Chavez, Author of "Betrayal"</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3921,7 +3878,7 @@
 								<physdesc><extent>1 digital audio file (0:48:06)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Valerie Orth, Organizer for Global Exchange.</p>
+								<p>With Valerie Orth, organizer for Global Exchange</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3933,7 +3890,7 @@
 								<physdesc><extent>1 digital audio file (0:52:38)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Doug Hissom, Sr. Political Writer, Shepherd Express.</p>
+								<p>With Doug Hissom, senior political writer, Shepherd Express</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3944,7 +3901,7 @@
 								<physdesc><extent>1 digital audio file (0:44:54)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Wayne Crews, Adjunct Scholar, CATO Institute.</p>
+								<p>With Wayne Crews, adjunct scholar, CATO Institute</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3956,8 +3913,7 @@
 								<physdesc><extent>1 digital audio file (0:44:18)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Dr. Gary Namie, President, Workplace Bullying &amp; Trauma
-									Institute.</p>
+								<p>With Dr. Gary Namie, president, Workplace Bullying &amp; Trauma Institute</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3969,19 +3925,18 @@
 								<physdesc><extent>1 digital audio file (0:51:25)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Jo Chamberlain, Co-chair, National Green Party.</p>
+								<p>With Jo Chamberlain, co-chair, National Green Party</p>
 							</scopecontent>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Controversy Re Fahrenheit
-										9-11</title>, <unitdate>25 June 2004</unitdate></unittitle>
+								<unittitle><title render="doublequote">Controversy Re: 'Fahrenheit 9/11'</title>,
+										<unitdate>25 June 2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">229</container>
 								<physdesc><extent>1 digital audio file (0:45:00)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Robert Thompson, Syracuse University, Director, Center for
-									Study of Popular TV.</p>
+								<p>With Robert Thompson, Syracuse University, director, Center for Study of Popular TV</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -3993,34 +3948,32 @@
 								<physdesc><extent>1 digital audio file (0:42:45)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Steve Rendell, Senior Analyst, FAIR.</p>
+								<p>With Steve Rendell, senior analyst, FAIR</p>
 							</scopecontent>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Media are having an integrity
-										crisis</title>, <unitdate>08 July
+								<unittitle><title render="doublequote">Media Are Having an Integrity
+										Crisis</title>, <unitdate>08 July
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">231</container>
 								<physdesc><extent>1 digital audio file (0:51:17)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Bonnie M. Anderson, Author, "News Flash: Journalism,
-									Infotainment &amp; the Bottom-Line Business of Broadcast
-									News".</p>
+								<p>With Bonnie M. Anderson, author, "News Flash: Journalism, Infotainment &amp; the
+									Bottom-Line Business of Broadcast News"</p>
 							</scopecontent>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">The movie 'The
+								<unittitle><title render="doublequote">The Movie 'The
 										Corporation'</title>, <unitdate>08 July
 									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">232</container>
 								<physdesc><extent>1 digital audio file (0:44:54)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Mark Achbar, Producer &amp; co-director, "The
-									Corporation".</p>
+								<p>With Mark Achbar, producer &amp; co-director, "The Corporation"</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4031,7 +3984,7 @@
 								<physdesc><extent>1 digital audio file (0:43:57)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Kevin Phillips, Author, "American Dynasty: ".</p>
+								<p>With Kevin Phillips, author, "American Dynasty"</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4043,8 +3996,7 @@
 								<physdesc><extent>1 digital audio file (0:51:02)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Karlyn Bowman, Resident Fellow, American Enterprise
-									Institute.</p>
+								<p>With Karlyn Bowman, resident fellow, American Enterprise Institute</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4056,8 +4008,7 @@
 								<physdesc><extent>1 digital audio file (0:43:40)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Ken Goldstein, Assistant Prof, UW-Madison; Director,
-									Advertising Project.</p>
+								<p>With Ken Goldstein, assistant professor, UW-Madison; director, Advertising Project</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4069,7 +4020,7 @@
 								<physdesc><extent>1 digital audio file (0:52:43)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Bonnie Block, Non-violence Trainer.</p>
+								<p>With Bonnie Block, non-violence trainer</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4080,8 +4031,7 @@
 								<physdesc><extent>1 digital audio file (0:44:58)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Granny D/Joe Trippi, US Senate Candidate for New
-									Hampshire.</p>
+								<p>With Granny D/Joe Trippi, US Senate candidate for New Hampshire</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4092,7 +4042,7 @@
 								<physdesc><extent>1 digital audio file (0:50:50)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Adrian Lomax, Prisoner Activist, Writer.</p>
+								<p>With Adrian Lomax, prisoner activist, writer</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4104,8 +4054,7 @@
 								<physdesc><extent>1 digital audio file (0:45:43)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Stephanie Mencimer, Washington Monthly Contributing
-									Editor.</p>
+								<p>With Stephanie Mencimer, Washington Monthly contributing editor</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4117,7 +4066,7 @@
 								<physdesc><extent>1 digital audio file (0:51:06)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Michael Miles, Banjo Performer.</p>
+								<p>With Michael Miles, banjo performer</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4129,8 +4078,7 @@
 								<physdesc><extent>1 digital audio file (0:43:26)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With William Murphy, Professor, Anthropology &amp; African
-									studies, NYU.</p>
+								<p>With William Murphy, professor, Anthropology &amp; African Studies, NYU</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4142,8 +4090,7 @@
 								<physdesc><extent>1 digital audio file (0:51:03)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Bob Zelnick, Chairman, Journalism Dept, Boston U.</p>
-							</scopecontent>
+								<p>With Bob Zelnick, Chairman, Journalism department, Boston University</p></scopecontent>
 						</c04>
 						<c04>
 							<did>
@@ -4154,8 +4101,7 @@
 								<physdesc><extent>1 digital audio file (0:43:54)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With John "Sly" Sylvester, AM Host, Program Director, of
-									WTDY.</p>
+								<p>With John Sylvester, AM host, program director, of WTDY</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4166,7 +4112,7 @@
 								<physdesc><extent>1 digital audio file (0:51:46)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Ethan Nadelmann, Exec. Director, Drug Policy Alliance.</p>
+								<p>With Ethan Nadelmann, executive director, Drug Policy Alliance</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4178,7 +4124,7 @@
 								<physdesc><extent>1 digital audio file (0:43:29)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Michael Cole, Communications Director, Human Rights Campaign.</p>
+								<p>With Michael Cole, communications director, Human Rights Campaign</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4189,7 +4135,7 @@
 								<physdesc><extent>1 digital audio file (0:50:48)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Donnie Fowler, Wesley Clark's campaign manager.</p>
+								<p>With Donnie Fowler, Wesley Clark's campaign manager</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4201,8 +4147,7 @@
 								<physdesc><extent>1 digital audio file (0:43:27)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Charles Wise, Director, Ukrainian Parliamentary Develop.
-									Project.</p>
+								<p>With Charles Wise, director, Ukrainian Parliamentary Development Project</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4214,7 +4159,7 @@
 								<physdesc><extent>1 digital audio file (0:40:53)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Craig Gilbert, D.C. Bureau Chief, Milwaukee Journal Sentinel.</p>
+								<p>With Craig Gilbert, D.C. bureau bhief, Milwaukee Journal Sentinel</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4226,8 +4171,7 @@
 								<physdesc><extent>1 digital audio file (0:41:13)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Tim Graham, Director of media analysis, Media Research
-									Center.</p>
+								<p>With Tim Graham, director of media analysis, Media Research Center</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4239,7 +4183,7 @@
 								<physdesc><extent>1 digital audio file (0:51:10)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Joshua Green, Sr. Editor, The Atlantic.</p>
+								<p>With Joshua Green,senior editor, The Atlantic</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4251,7 +4195,7 @@
 								<physdesc><extent>1 digital audio file (0:50:55)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Todd Oppenheimer, Author, "The Flickering Mind".</p>
+								<p>With Todd Oppenheimer, author, "The Flickering Mind"</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4262,7 +4206,7 @@
 								<physdesc><extent>1 digital audio file (0:51:04)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With David Moberg, Sr. Editor, In These Times.</p>
+								<p>With David Moberg, senior editor, In These Times</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4273,7 +4217,7 @@
 								<physdesc><extent>1 digital audio file (0:44:29)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With John Ficarra, Editor, Mad Magazine.</p>
+								<p>With John Ficarra, editor, Mad Magazine</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4285,8 +4229,7 @@
 								<physdesc><extent>1 digital audio file (0:42:38)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Bishop Harry Jackson, Author, "High-Impact African-American
-									Churches".</p>
+								<p>With Bishop Harry Jackson, author, "High-Impact African-American Churches"</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4298,7 +4241,7 @@
 								<physdesc><extent>1 digital audio file (0:51:06)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Teddy Katz, Israeli peace activist.</p>
+								<p>With Teddy Katz, Israeli peace activist</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4309,7 +4252,7 @@
 								<physdesc><extent>1 digital audio file (0:43:30)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Paul Gronke, Professor, Reed College.</p>
+								<p>With Paul Gronke, professor, Reed College</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4320,7 +4263,7 @@
 								<physdesc><extent>1 digital audio file (0:45:05)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Peyton Knight, Exec Dir of American Policy Center.</p>
+								<p>With Peyton Knight, executive director of American Policy Center</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4331,7 +4274,7 @@
 								<physdesc><extent>1 digital audio file (0:50:45)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Donald Shoup, Professor of Urban Planning, UCLA.</p>
+								<p>With Donald Shoup, professor of Urban Planning, UCLA</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4342,7 +4285,7 @@
 								<physdesc><extent>1 digital audio file (0:43:31)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Donald Downs, Law Professor, UW-Madison.</p>
+								<p>With Donald Downs, Law professor, UW-Madison</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4353,7 +4296,7 @@
 								<physdesc><extent>1 digital audio file (0:45:03)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With David Bach, Founder of FinishRich, Inc.</p>
+								<p>With David Bach, founder of FinishRich, Inc</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4374,7 +4317,7 @@
 								<physdesc><extent>1 digital audio file (0:44:30)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Stan Stojkovic, Dean of Social Welfare, UWM.</p>
+								<p>With Stan Stojkovic, dean of Social Welfare, UWM</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4386,8 +4329,7 @@
 								<physdesc><extent>1 digital audio file (0:50:55)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Craig Gilbert, DC Bureau Chief, Milwaukee Journal
-									Sentinel.</p>
+								<p>With Craig Gilbert, DC bureau chief, Milwaukee Journal Sentinel</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4399,7 +4341,7 @@
 								<physdesc><extent>1 digital audio file (0:50:44)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Dick Haven, Communications Professor, UW-Whitewater.</p>
+								<p>With Dick Haven, Communications professor, UW-Whitewater</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4410,7 +4352,7 @@
 								<physdesc><extent>1 digital audio file (0:43:43)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Bob Halstead, Nuclear Waste Consultant.</p>
+								<p>With Bob Halstead, nuclear waste consultant</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4422,7 +4364,7 @@
 								<physdesc><extent>1 digital audio file (0:51:27)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Kimberly Blake, editor and co-author.</p>
+								<p>With Kimberly Blake, editor and co-author</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4434,7 +4376,7 @@
 								<physdesc><extent>1 digital audio file (0:44:18)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Gene Policzinski, Exec. Director 1st Amendment Center.</p>
+								<p>With Gene Policzinski, executive director, First Amendment Center</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4445,7 +4387,7 @@
 								<physdesc><extent>1 digital audio file (0:51:14)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With John Fonte, Hudson Institute Senior Fellow.</p>
+								<p>With John Fonte, Hudson Institute senior fellow</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4456,7 +4398,7 @@
 								<physdesc><extent>1 digital audio file (0:53:47)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Father Collins, Roman Catholic Priest.</p>
+								<p>With Father Collins, Roman Catholic Priest</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4468,7 +4410,7 @@
 								<physdesc><extent>1 digital audio file (0:47:55)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Dave Berkman, Columnist, Shepherd Express.</p>
+								<p>With Dave Berkman, columnist, Shepherd Express</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4480,7 +4422,7 @@
 								<physdesc><extent>1 digital audio file (0:52:27)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Tyson Slokum, Director Energy Research Program.</p>
+								<p>With Tyson Slokum, director, Energy Research Program</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4492,8 +4434,7 @@
 								<physdesc><extent>1 digital audio file (0:43:11)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Ed Turzanski, Sr. Fellow at Foreign Policy Research
-									Institute.</p>
+								<p>With Ed Turzanski, senior fellow at Foreign Policy Research Institute</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4513,7 +4454,7 @@
 								<physdesc><extent>1 digital audio file (0:42:19)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Matt Nelson, Freedom Now Organizer.</p>
+								<p>With Matt Nelson, Freedom Now organizer</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4525,8 +4466,7 @@
 								<physdesc><extent>1 digital audio file (0:52:01)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Bob Wolfley, Sports Columnist, Milwaukee
-									Journal-Sentinel.</p>
+								<p>With Bob Wolfley, sports columnist, Milwaukee Journal-Sentinel</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4538,8 +4478,7 @@
 								<physdesc><extent>1 digital audio file (0:51:00)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Tim Graham, Director of Media Analysis, Media Research
-									Center.</p>
+								<p>With Tim Graham, director of Media Analysis, Media Research Center</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4550,8 +4489,7 @@
 								<physdesc><extent>1 digital audio file (0:44:07)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Dale Herspring, Political Science Professor, Kansas State
-									U.</p>
+								<p>With Dale Herspring, Political Science professor, Kansas State University</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4562,7 +4500,7 @@
 								<physdesc><extent>1 digital audio file (0:43:27)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Erin Roth, Exec. Director, Wisconsin Petroleum Council.</p>
+								<p>With Erin Roth, executive director, Wisconsin Petroleum Council</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4582,7 +4520,7 @@
 								<physdesc><extent>1 digital audio file (0:39:43)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Bob Seidensticker, Author, "Future Hype".</p>
+								<p>With Bob Seidensticker, author, "Future Hype"</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4593,8 +4531,7 @@
 								<physdesc><extent>1 digital audio file (0:30:17)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Dave Berkman &amp; Paul Krassner, Media Critic &amp;
-									Political Commentator.</p>
+								<p>With Dave Berkman &amp; Paul Krassner, media critic &amp; political commentator</p>
 							</scopecontent>
 						</c04>
 
@@ -5364,7 +5301,7 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote"> Weekly Panel</title>,
+								<unittitle><title render="doublequote">Weekly Panel</title>,
 										<unitdate>11 October 2007</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">363</container>
 								<physdesc><extent>1 digital audio file (0:38:18)</extent></physdesc>
@@ -5396,9 +5333,8 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Weekly Panel (first 10
-										mins.)</title>, <unitdate>08 November
-									2007</unitdate></unittitle>
+								<unittitle><title render="doublequote">Weekly Panel </title>, <unitdate>08 November
+										2007</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">367</container>
 								<physdesc><extent>1 digital audio file (0:09:02)</extent></physdesc>
 							</did>
@@ -5583,8 +5519,8 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Monday on Eric vonn</title>,
-										<unitdate>31 March 2008</unitdate></unittitle>
+								<unittitle><title render="doublequote">Monday on Eric Vonn</title>, <unitdate>31 March
+										2008</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">390</container>
 								<physdesc><extent>1 digital audio file (0:52:05)</extent></physdesc>
 							</did>
@@ -5631,8 +5567,8 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Dave solo on weekly
-										panel</title>, <unitdate>08 May 2008</unitdate></unittitle>
+								<unittitle><title render="doublequote">Dave Solo On Weekly Panel</title>, <unitdate>08 May
+										2008</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">396</container>
 								<physdesc><extent>1 digital audio file (1:19:28)</extent></physdesc>
 							</did>
