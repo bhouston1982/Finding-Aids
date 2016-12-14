@@ -46,14 +46,14 @@
 			<unittitle encodinganalog="245$a">Dave Berkman Papers, <unitdate type="inclusive"
 					encodinganalog="245$f" normal="1958/2016">1958-2016</unitdate></unittitle>
 			<origination label="Creator">
-				<persname encodinganalog="100">Berkman, Dave.</persname>
+				<persname encodinganalog="100">Berkman, Dave, 1934-2015</persname>
 			</origination>
 			<unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma"
 				countrycode="us">UWM Manuscript Collection 347</unitid>
 			<physdesc label="Quantity">
 				<extent encodinganalog="300">3.4 cubic ft. (5 boxes, including 38 audio cassettes)</extent>
+				<extent encodinganalog="300">1 videocassette</extent>
 				<extent encodinganalog="300">448 digital audio files (22 GB)</extent>
-				<extent encodinganalog="300">1 video cassette</extent>
 			</physdesc>
 			<repository encodinganalog="852">
 				<extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
@@ -221,8 +221,8 @@
 					<unittitle>Records, <unitdate type="inclusive" normal="1958/2016"
 							>1958-2016</unitdate></unittitle>
 					<physdesc>
-						<extent encodinganalog="300">4.2 cubic ft. (5 boxes, including 1
-							videocassette and 38 audio cassettes))</extent>
+						<extent encodinganalog="300">4.2 cubic ft. (5 boxes, including 38 audio cassettes)</extent>
+						<extent encodinganalog="300">1 videocassette</extent>
 						<extent encodinganalog="300">448 digital audio files (22 GB)</extent>
 					</physdesc>					
 				</did>
@@ -328,7 +328,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Tom Clark, Political Correspondence</p>
+								<p>With Tom Clark, political correspondent</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -382,7 +382,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Jim Romenesko, Journalist</p>
+								<p>With Jim Romenesko, journalist</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -486,7 +486,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Meg Kissinger, Journalist</p>
+								<p>With Meg Kissinger, journalist</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -512,7 +512,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With James Randi, Magician and Scientific Skeptic</p>
+								<p>With James Randi, magician and scientific skeptic</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -527,7 +527,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With David Croteau, Author</p>
+								<p>With David Croteau, author</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -556,7 +556,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Scott Aebly, Co-host</p>
+								<p>With Scott Aebly, co-host</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -571,7 +571,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Greg Quindel and Doug Hissom, Shephard Express</p>
+								<p>With Greg Quindel and Doug Hissom, Shepherd Express</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -586,7 +586,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Jim Romenesko, Journalist</p>
+								<p>With Jim Romenesko, journalist</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -600,7 +600,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Joel McNally, Journalist</p>
+								<p>With Joel McNally, journalist</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -654,7 +654,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Jim Romenesko, Journalist</p>
+								<p>With Jim Romenesko, journalist</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -693,7 +693,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Eugene Kane, Journalist</p>
+								<p>With Eugene Kane, journalist</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -707,7 +707,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Jennifer Magnan, Journalist</p>
+								<p>With Jennifer Magnan, journalist</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -734,7 +734,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Tom Fox, Editor</p>
+								<p>With Tom Fox, editor</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -775,7 +775,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Mark Zoromski and Leo Kissel, Journalists</p>
+								<p>With Mark Zoromski and Leo Kissel, journalists</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -790,7 +790,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Norman Stockwell, Journalist</p>
+								<p>With Norman Stockwell, journalist</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -805,7 +805,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Brent Cunningham, Editor</p>
+								<p>With Brent Cunningham, editor</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -820,7 +820,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Ben Merens, Journalist</p>
+								<p>With Ben Merens, journalist</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -849,7 +849,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Nick Johnson, Former Commissioner, Federal Communications
+								<p>With Nick Johnson, former commissioner, Federal Communications
 									Commission</p>
 							</scopecontent>
 						</c04>
@@ -865,7 +865,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Tom Clark, Political Correspondence</p>
+								<p>With Tom Clark, political correspondent</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -880,7 +880,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Tim Cuprisin, Journalist</p>
+								<p>With Tim Cuprisin, journalist</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -895,7 +895,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With James Hirst, Journalist</p>
+								<p>With James Hirst, journalist</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -937,7 +937,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Tim Cuprisin, Journalist</p>
+								<p>With Tim Cuprisin, journalist</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1178,7 +1178,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Peter Phillips, Director of Project Censored; Sonoma State
+								<p>With Peter Phillips, director of Project Censored; Sonoma State
 									University</p>
 							</scopecontent>
 						</c04>
@@ -1219,7 +1219,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Vincent Brook, author of " Something Ain't Kosher Here"</p>
+								<p>With Vincent Brook, author of "Something Ain't Kosher Here"</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -1340,7 +1340,7 @@
 								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Notra Trulock, Associate Editor, Accuracy in Media
+								<p>With Notra Trulock, associate editor, Accuracy in Media
 									Report</p>
 							</scopecontent>
 						</c04>
@@ -3149,6 +3149,18 @@
 						</c04>
 						<c04>
 							<did>
+								<unittitle><title render="doublequote">Racism in Milwaukee
+										Media</title>, <unitdate>28 September
+									2000</unitdate></unittitle>
+								<container type="Box" label="Box">5</container>
+								<container type="audio" label="Audio">27</container>
+								<physdesc>
+									<extent>audio cassette</extent>
+								</physdesc>
+							</did>
+						</c04>
+						<c04>
+							<did>
 								<unittitle><title render="doublequote">Free State Project</title>,
 										<unitdate>18 July 2003</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">162</container>
@@ -3232,10 +3244,65 @@
 						</c04>
 						<c04>
 							<did>
+								<unittitle><title render="doublequote">Fundamentals of
+										Extremism-Christian Right</title>, <unitdate>15 August
+										2003</unitdate></unittitle>
+								<container type="Electronic" label="ID No.">169</container>
+								<physdesc>
+									<extent>1 digital audio file (0:51:27)</extent>
+								</physdesc>
+							</did>
+							<scopecontent>
+								<p>With Kimberly Blake, editor and co-author</p>
+							</scopecontent>
+						</c04>
+						<c04>
+							<did>
+								<unittitle><title render="doublequote">Rising Support for 1st
+										Amendment</title>, <unitdate>15 August
+									2003</unitdate></unittitle>
+								<container type="Electronic" label="ID No.">170</container>
+								<physdesc>
+									<extent>1 digital audio file (0:44:18)</extent>
+								</physdesc>
+							</did>
+							<scopecontent>
+								<p>With Gene Policzinski, executive director, First Amendment
+									Center</p>
+							</scopecontent>
+						</c04>
+						<c04>
+							<did>
+								<unittitle><title render="doublequote">Defense of the Patriot
+										Act</title>, <unitdate>22 August 2003</unitdate></unittitle>
+								<container type="Electronic" label="ID No.">171</container>
+								<physdesc>
+									<extent>1 digital audio file (0:51:14)</extent>
+								</physdesc>
+							</did>
+							<scopecontent>
+								<p>With John Fonte, Hudson Institute senior fellow</p>
+							</scopecontent>
+						</c04>
+						<c04>
+							<did>
+								<unittitle><title render="doublequote">Mandatory Celibacy</title>,
+										<unitdate>22 August 2003</unitdate></unittitle>
+								<container type="Electronic" label="ID No.">172</container>
+								<physdesc>
+									<extent>1 digital audio file (0:53:47)</extent>
+								</physdesc>
+							</did>
+							<scopecontent>
+								<p>With Father Collins, Roman Catholic Priest</p>
+							</scopecontent>
+						</c04>
+						<c04>
+							<did>
 								<unittitle><title render="doublequote">Human Trafficking on U.S. -
 										Mexico Border</title>, <unitdate>25 August
 									2003</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">169</container>
+								<container type="Electronic" label="ID No.">173</container>
 								<physdesc><extent>1 digital audio file (0:54:50)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3248,7 +3315,7 @@
 								<unittitle><title render="doublequote">US Asks UN for Military
 										Assistance Resolution</title>, <unitdate>25 August
 										2003</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">170</container>
+								<container type="Electronic" label="ID No.">174</container>
 								<physdesc><extent>1 digital audio file (0:52:32)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3261,7 +3328,7 @@
 								<unittitle><title render="doublequote">Parents TV Council's Best
 										&amp; Worst Shows</title>, <unitdate>29 August
 										2003</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">171</container>
+								<container type="Electronic" label="ID No.">175</container>
 								<physdesc><extent>1 digital audio file (0:52:45)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3273,7 +3340,7 @@
 								<unittitle><title render="doublequote">Owners of
 										Harley-Davidsons</title>, <unitdate>29 August
 										2003</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">172</container>
+								<container type="Electronic" label="ID No.">176</container>
 								<physdesc><extent>1 digital audio file (0:52:22)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3284,7 +3351,7 @@
 							<did>
 								<unittitle><title render="doublequote">Americans Want Free Time More Than Money</title>,
 										<unitdate>01 September 2003</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">173</container>
+								<container type="Electronic" label="ID No.">177</container>
 								<physdesc><extent>1 digital audio file (0:52:33)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3296,7 +3363,7 @@
 								<unittitle><title render="doublequote">Labor Day: Brains not
 										Brawn</title>, <unitdate>01 September
 									2003</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">174</container>
+								<container type="Electronic" label="ID No.">178</container>
 								<physdesc><extent>1 digital audio file (0:52:00)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3307,7 +3374,7 @@
 							<did>
 								<unittitle><title render="doublequote">Football TV coverage</title>,
 										<unitdate>01 September 2003</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">175</container>
+								<container type="Electronic" label="ID No.">179</container>
 								<physdesc><extent>1 digital audio file (0:45:07)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3319,7 +3386,7 @@
 								<unittitle><title render="doublequote">Wesley Clark
 									Campaign</title>, <unitdate>26 September
 									2003</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">176</container>
+								<container type="Electronic" label="ID No.">180</container>
 								<physdesc><extent>1 digital audio file (0:51:49)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3331,7 +3398,7 @@
 								<unittitle><title render="doublequote">Limiting Use of Plea
 										Bargain</title>, <unitdate>26 September
 									2003</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">177</container>
+								<container type="Electronic" label="ID No.">181</container>
 								<physdesc><extent>1 digital audio file (0:42:47)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3342,7 +3409,7 @@
 							<did>
 								<unittitle><title render="doublequote">Will Hillary Run?</title>,
 										<unitdate>06 October 2003</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">178</container>
+								<container type="Electronic" label="ID No.">182</container>
 								<physdesc><extent>1 digital audio file (0:51:13)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3354,7 +3421,7 @@
 								<unittitle><title render="doublequote">Rush Limbaugh &amp;
 										ESPN</title>, <unitdate>06 October
 									2003</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">179</container>
+								<container type="Electronic" label="ID No.">183</container>
 								<physdesc><extent>1 digital audio file (0:44:29)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3365,7 +3432,7 @@
 							<did>
 								<unittitle><title render="doublequote">Proposition 54 in CA</title>,
 										<unitdate>06 October 2003</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">180</container>
+								<container type="Electronic" label="ID No.">184</container>
 								<physdesc><extent>1 digital audio file (0:45:10)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3378,7 +3445,7 @@
 								<unittitle><title render="doublequote">Rush Limbaugh
 										Defender</title>, <unitdate>10 October
 									2003</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">181</container>
+								<container type="Electronic" label="ID No.">185</container>
 								<physdesc><extent>1 digital audio file (0:51:14)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3390,7 +3457,7 @@
 								<unittitle><title render="doublequote">Wisconsin &amp;
 										Recalls</title>, <unitdate>10 October
 									2003</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">182</container>
+								<container type="Electronic" label="ID No.">186</container>
 								<physdesc><extent>1 digital audio file (0:44:55)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3403,7 +3470,7 @@
 								<unittitle><title render="doublequote">Detroit's Decline in Car
 										Manufacturing</title>, <unitdate>31 October
 									2003</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">183</container>
+								<container type="Electronic" label="ID No.">187</container>
 								<physdesc><extent>1 digital audio file (0:52:11)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3414,7 +3481,7 @@
 							<did>
 								<unittitle><title render="doublequote">What will Democrats sacrifice to Beat Bush?</title>,
 										<unitdate>31 October 2003</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">184</container>
+								<container type="Electronic" label="ID No.">188</container>
 								<physdesc><extent>1 digital audio file (0:44:12)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3426,7 +3493,7 @@
 								<unittitle><title render="doublequote">"Do Not Spam"
 										Legislation</title>, <unitdate>28 November
 									2003</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">185</container>
+								<container type="Electronic" label="ID No.">189</container>
 								<physdesc><extent>1 digital audio file (0:51:04)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3437,7 +3504,7 @@
 							<did>
 								<unittitle><title render="doublequote">Can Dean Be Beaten?</title>,
 										<unitdate>22 December 2003</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">186</container>
+								<container type="Electronic" label="ID No.">190</container>
 								<physdesc><extent>1 digital audio file (0:52:33)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3449,7 +3516,7 @@
 								<unittitle><title render="doublequote">Discussion of Raised
 										Terrorist Threat</title>, <unitdate>22 December
 										2003</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">187</container>
+								<container type="Electronic" label="ID No.">191</container>
 								<physdesc><extent>1 digital audio file (0:43:24)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3460,7 +3527,7 @@
 							<did>
 								<unittitle><title render="doublequote">Unwanted Xmas Gifts</title>,
 										<unitdate>26 December 2003</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">188</container>
+								<container type="Electronic" label="ID No.">192</container>
 								<physdesc><extent>1 digital audio file (0:52:51)</extent></physdesc>
 							</did>
 							
@@ -3470,7 +3537,7 @@
 								<unittitle><title render="doublequote">Negative Youth Reaction to
 										Bush-Bashing Stars</title>, <unitdate>26 December
 										2003</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">189</container>
+								<container type="Electronic" label="ID No.">193</container>
 								<physdesc><extent>1 digital audio file (0:44:08)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3481,7 +3548,7 @@
 							<did>
 								<unittitle><title render="doublequote">Listener's Most Important Stories of 2003</title>,
 										<unitdate>02 January 2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">190</container>
+								<container type="Electronic" label="ID No.">194</container>
 								<physdesc><extent>1 digital audio file (0:51:50)</extent></physdesc>
 							</did>
 							
@@ -3491,7 +3558,7 @@
 								<unittitle><title render="doublequote">Democratic Presidential
 										Primaries</title>, <unitdate>02 January
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">191</container>
+								<container type="Electronic" label="ID No.">195</container>
 								<physdesc><extent>1 digital audio file (0:44:11)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3503,7 +3570,7 @@
 								<unittitle><title render="doublequote">Profanity on
 										Television</title>, <unitdate>19 January
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">192</container>
+								<container type="Electronic" label="ID No.">196</container>
 								<physdesc><extent>1 digital audio file (0:50:49)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3515,7 +3582,7 @@
 							<did>
 								<unittitle><title render="doublequote">MLK Open Line</title>,
 										<unitdate>19 January 2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">193</container>
+								<container type="Electronic" label="ID No.">197</container>
 								<physdesc><extent>1 digital audio file (0:44:18)</extent></physdesc>
 							</did>
 							
@@ -3525,7 +3592,7 @@
 								<unittitle><title render="doublequote">Have Unions Lost Their
 										Political Influence?</title>, <unitdate>06 February
 										2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">194</container>
+								<container type="Electronic" label="ID No.">198</container>
 								<physdesc><extent>1 digital audio file (0:51:24)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3537,7 +3604,7 @@
 								<unittitle><title render="doublequote">Changed Your Presidential
 										Candidate Choice?</title>, <unitdate>06 February
 										2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">195</container>
+								<container type="Electronic" label="ID No.">199</container>
 								<physdesc><extent>1 digital audio file (0:43:53)</extent></physdesc>
 							</did>
 							
@@ -3547,7 +3614,7 @@
 								<unittitle><title render="doublequote">Preserving the 'Sanctity of
 										Marriage'</title>, <unitdate>19 February
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">196</container>
+								<container type="Electronic" label="ID No.">200</container>
 								<physdesc><extent>1 digital audio file (0:52:39)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3560,7 +3627,7 @@
 								<unittitle><title render="doublequote">Wisconsin Primary's Effect on Super
 										Tuesday</title>, <unitdate>19 February
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">197</container>
+								<container type="Electronic" label="ID No.">201</container>
 								<physdesc><extent>1 digital audio file (0:44:21)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3572,7 +3639,7 @@
 								<unittitle><title render="doublequote">The Skyrocketing Cost of
 										Cable TV</title>, <unitdate>19 February
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">198</container>
+								<container type="Electronic" label="ID No.">202</container>
 								<physdesc><extent>1 digital audio file (0:43:06)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3584,7 +3651,7 @@
 								<unittitle><title render="doublequote">Journalism Ethics &amp;
 										Rumors</title>, <unitdate>20 February
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">199</container>
+								<container type="Electronic" label="ID No.">203</container>
 								<physdesc><extent>1 digital audio file (0:52:35)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3596,7 +3663,7 @@
 								<unittitle><title render="doublequote">Wisconsin Losing High Wage
 										Jobs</title>, <unitdate>20 February
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">200</container>
+								<container type="Electronic" label="ID No.">204</container>
 								<physdesc><extent>1 digital audio file (0:43:28)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3608,7 +3675,7 @@
 								<unittitle><title render="doublequote">Media Censorship of Gory
 										Photos</title>, <unitdate>06 April
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">201</container>
+								<container type="Electronic" label="ID No.">205</container>
 								<physdesc><extent>1 digital audio file (0:51:28)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3620,7 +3687,7 @@
 								<unittitle><title render="doublequote">Juries &amp; Jury
 										Nullification</title>, <unitdate>06 April
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">202</container>
+								<container type="Electronic" label="ID No.">206</container>
 								<physdesc><extent>1 digital audio file (0:52:00)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3631,7 +3698,7 @@
 							<did>
 								<unittitle><title render="doublequote">Outlook for 2004 Brewers Season</title>, <unitdate>06
 										April 2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">203</container>
+								<container type="Electronic" label="ID No.">207</container>
 								<physdesc><extent>1 digital audio file (0:43:28)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3643,7 +3710,7 @@
 								<unittitle><title render="doublequote">Media Coverage of 9-11
 										Hearings</title>, <unitdate>09 April
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">204</container>
+								<container type="Electronic" label="ID No.">208</container>
 								<physdesc><extent>1 digital audio file (0:51:38)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3654,7 +3721,7 @@
 							<did>
 								<unittitle><title render="doublequote">Outcome of Milwaukee Mayoral
 										Race</title>, <unitdate>09 April 2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">205</container>
+								<container type="Electronic" label="ID No.">209</container>
 								<physdesc><extent>1 digital audio file (0:43:01)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3666,7 +3733,7 @@
 								<unittitle><title render="doublequote">Corporate Profits &amp; Labor
 										Compensation Mismatch</title>, <unitdate>16 April
 										2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">206</container>
+								<container type="Electronic" label="ID No.">210</container>
 								<physdesc><extent>1 digital audio file (0:51:23)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3679,7 +3746,7 @@
 								<unittitle><title render="doublequote">Private Military
 										Contractors</title>, <unitdate>16 April
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">207</container>
+								<container type="Electronic" label="ID No.">211</container>
 								<physdesc><extent>1 digital audio file (0:43:56)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3691,7 +3758,7 @@
 								<unittitle><title render="doublequote">Interview w/ American
 										Public</title>, <unitdate>22 April
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">208</container>
+								<container type="Electronic" label="ID No.">212</container>
 								<physdesc><extent>1 digital audio file (0:52:34)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3703,7 +3770,7 @@
 							<did>
 								<unittitle><title render="doublequote">Impact of Wal-Mart</title>,
 										<unitdate>30 April 2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">209</container>
+								<container type="Electronic" label="ID No.">213</container>
 								<physdesc><extent>1 digital audio file (0:40:54)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3715,7 +3782,7 @@
 								<unittitle><title render="doublequote">Arlen Specter's Re-Election &amp; Future for Moderate
 										Republicans</title>, <unitdate>30 April
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">210</container>
+								<container type="Electronic" label="ID No.">214</container>
 								<physdesc><extent>1 digital audio file (0:52:04)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3727,7 +3794,7 @@
 								<unittitle><title render="doublequote">Why Sonia Gandhi Declined Prime Minister
 										Position</title>, <unitdate>21 May
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">211</container>
+								<container type="Electronic" label="ID No.">215</container>
 								<physdesc><extent>1 digital audio file (0:49:22)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3738,7 +3805,7 @@
 							<did>
 								<unittitle><title render="doublequote">Reinstate the Draft?</title>,
 										<unitdate>21 May 2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">212</container>
+								<container type="Electronic" label="ID No.">216</container>
 								<physdesc><extent>1 digital audio file (0:43:13)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3749,7 +3816,7 @@
 							<did>
 								<unittitle><title render="doublequote">Kerry's Stand on
 									Iraq</title>, <unitdate>28 May 2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">213</container>
+								<container type="Electronic" label="ID No.">217</container>
 								<physdesc><extent>1 digital audio file (0:52:48)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3761,7 +3828,7 @@
 							<did>
 								<unittitle><title render="doublequote">Why We Must Stay in
 										Iraq</title>, <unitdate>28 May 2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">214</container>
+								<container type="Electronic" label="ID No.">218</container>
 								<physdesc><extent>1 digital audio file (0:44:16)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3772,7 +3839,7 @@
 							<did>
 								<unittitle><title render="doublequote">Media Coverage of Reagan's
 										Death</title>, <unitdate>16 June 2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">215</container>
+								<container type="Electronic" label="ID No.">219</container>
 								<physdesc><extent>1 digital audio file (0:50:58)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3783,7 +3850,7 @@
 							<did>
 								<unittitle><title render="doublequote">Mother Jones Political
 										Poll</title>, <unitdate>16 June 2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">216</container>
+								<container type="Electronic" label="ID No.">220</container>
 								<physdesc><extent>1 digital audio file (0:44:31)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3795,7 +3862,7 @@
 								<unittitle><title render="doublequote">International Medical Ethics
 										and Military Doctors</title>, <unitdate>16 June
 										2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">217</container>
+								<container type="Electronic" label="ID No.">221</container>
 								<physdesc><extent>1 digital audio file (0:43:09)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3807,7 +3874,7 @@
 								<unittitle><title render="doublequote">Could US be Tried for War
 										Crimes?</title>, <unitdate>18 June
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">218</container>
+								<container type="Electronic" label="ID No.">222</container>
 								<physdesc><extent>1 digital audio file (0:52:09)</extent></physdesc>
 							</did>
 							
@@ -3817,7 +3884,7 @@
 								<unittitle><title render="doublequote">How Media Affects
 										Agricultural Policy</title>, <unitdate>18 June
 										2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">219</container>
+								<container type="Electronic" label="ID No.">223</container>
 								<physdesc><extent>1 digital audio file (0:44:13)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3828,7 +3895,7 @@
 							<did>
 								<unittitle><title render="doublequote">Single Women's Votes</title>,
 										<unitdate>21 June 2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">220</container>
+								<container type="Electronic" label="ID No.">224</container>
 								<physdesc><extent>1 digital audio file (0:52:36)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3841,7 +3908,7 @@
 								<unittitle><title render="doublequote">Labor Market Needs
 										Immigration Reform</title>, <unitdate>21 June
 										2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">221</container>
+								<container type="Electronic" label="ID No.">225</container>
 								<physdesc><extent>1 digital audio file (0:46:09)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3853,7 +3920,7 @@
 								<unittitle><title render="doublequote">Labor Unions are Failing
 										Workers</title>, <unitdate>21 June
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">222</container>
+								<container type="Electronic" label="ID No.">226</container>
 								<physdesc><extent>1 digital audio file (0:45:01)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3865,7 +3932,7 @@
 								<unittitle><title render="doublequote">Who Was Best President in
 										20th Century</title>, <unitdate>22 June
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">223</container>
+								<container type="Electronic" label="ID No.">227</container>
 								<physdesc><extent>1 digital audio file (0:44:02)</extent></physdesc>
 							</did>
 							
@@ -3874,7 +3941,7 @@
 							<did>
 								<unittitle><title render="doublequote">Fair Trade Chocolate</title>,
 										<unitdate>22 June 2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">224</container>
+								<container type="Electronic" label="ID No.">228</container>
 								<physdesc><extent>1 digital audio file (0:48:06)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3886,7 +3953,7 @@
 								<unittitle><title render="doublequote">Prison Abuse in
 										Wisconsin</title>, <unitdate>24 June
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">225</container>
+								<container type="Electronic" label="ID No.">229</container>
 								<physdesc><extent>1 digital audio file (0:52:38)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3897,7 +3964,7 @@
 							<did>
 								<unittitle><title render="doublequote">Government is Overregulating
 										US</title>, <unitdate>24 June 2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">226</container>
+								<container type="Electronic" label="ID No.">230</container>
 								<physdesc><extent>1 digital audio file (0:44:54)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3909,7 +3976,7 @@
 								<unittitle><title render="doublequote">Bullying in the
 										Workplace</title>, <unitdate>24 June
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">227</container>
+								<container type="Electronic" label="ID No.">231</container>
 								<physdesc><extent>1 digital audio file (0:44:18)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3921,7 +3988,7 @@
 								<unittitle><title render="doublequote">Green Party
 										Convention</title>, <unitdate>25 June
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">228</container>
+								<container type="Electronic" label="ID No.">232</container>
 								<physdesc><extent>1 digital audio file (0:51:25)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3932,7 +3999,7 @@
 							<did>
 								<unittitle><title render="doublequote">Controversy Re: 'Fahrenheit 9/11'</title>,
 										<unitdate>25 June 2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">229</container>
+								<container type="Electronic" label="ID No.">233</container>
 								<physdesc><extent>1 digital audio file (0:45:00)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3944,7 +4011,7 @@
 								<unittitle><title render="doublequote">Is Public Radio Really
 										Public?</title>, <unitdate>25 June
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">230</container>
+								<container type="Electronic" label="ID No.">234</container>
 								<physdesc><extent>1 digital audio file (0:42:45)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3956,7 +4023,7 @@
 								<unittitle><title render="doublequote">Media Are Having an Integrity
 										Crisis</title>, <unitdate>08 July
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">231</container>
+								<container type="Electronic" label="ID No.">235</container>
 								<physdesc><extent>1 digital audio file (0:51:17)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3969,7 +4036,7 @@
 								<unittitle><title render="doublequote">The Movie 'The
 										Corporation'</title>, <unitdate>08 July
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">232</container>
+								<container type="Electronic" label="ID No.">236</container>
 								<physdesc><extent>1 digital audio file (0:44:54)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3980,7 +4047,7 @@
 							<did>
 								<unittitle><title render="doublequote">Republican Critics of
 										Bush</title>, <unitdate>08 July 2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">233</container>
+								<container type="Electronic" label="ID No.">237</container>
 								<physdesc><extent>1 digital audio file (0:43:57)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -3992,7 +4059,7 @@
 								<unittitle><title render="doublequote">Study of American
 										Patriotism</title>, <unitdate>09 July
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">234</container>
+								<container type="Electronic" label="ID No.">238</container>
 								<physdesc><extent>1 digital audio file (0:51:02)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -4004,7 +4071,7 @@
 								<unittitle><title render="doublequote">Campaign Ads
 										Influence</title>, <unitdate>09 July
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">235</container>
+								<container type="Electronic" label="ID No.">239</container>
 								<physdesc><extent>1 digital audio file (0:43:40)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -4016,7 +4083,7 @@
 								<unittitle><title render="doublequote">Conflict Resolution
 										Strategies</title>, <unitdate>06 August
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">236</container>
+								<container type="Electronic" label="ID No.">240</container>
 								<physdesc><extent>1 digital audio file (0:52:43)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -4027,7 +4094,7 @@
 							<did>
 								<unittitle><title render="doublequote">Granny D &amp;
 									Trippi</title>, <unitdate>06 August 2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">237</container>
+								<container type="Electronic" label="ID No.">241</container>
 								<physdesc><extent>1 digital audio file (0:44:58)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -4038,7 +4105,7 @@
 							<did>
 								<unittitle><title render="doublequote">Wisconsin Prisons</title>,
 										<unitdate>27 August 2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">238</container>
+								<container type="Electronic" label="ID No.">242</container>
 								<physdesc><extent>1 digital audio file (0:50:50)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -4050,7 +4117,7 @@
 								<unittitle><title render="doublequote">Lawsuit Abuse - Fact or
 										Rhetoric?</title>, <unitdate>27 August
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">239</container>
+								<container type="Electronic" label="ID No.">243</container>
 								<physdesc><extent>1 digital audio file (0:45:43)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -4062,7 +4129,7 @@
 								<unittitle><title render="doublequote">Banjo as a Political
 										Instrument</title>, <unitdate>24 September
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">240</container>
+								<container type="Electronic" label="ID No.">244</container>
 								<physdesc><extent>1 digital audio file (0:51:06)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -4074,7 +4141,7 @@
 								<unittitle><title render="doublequote">Macho Culture Disrespects
 										Anything Foreign</title>, <unitdate>24 September
 										2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">241</container>
+								<container type="Electronic" label="ID No.">245</container>
 								<physdesc><extent>1 digital audio file (0:43:26)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -4086,7 +4153,7 @@
 								<unittitle><title render="doublequote">Shooting Prone Iraqi Media
 										Controversy </title>, <unitdate>19 November
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">242</container>
+								<container type="Electronic" label="ID No.">246</container>
 								<physdesc><extent>1 digital audio file (0:51:03)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -4097,7 +4164,7 @@
 								<unittitle><title render="doublequote">Sly's Aunt Jeminah
 										Controversy</title>, <unitdate>19 November
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">243</container>
+								<container type="Electronic" label="ID No.">247</container>
 								<physdesc><extent>1 digital audio file (0:43:54)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -4108,7 +4175,7 @@
 							<did>
 								<unittitle><title render="doublequote">Ending the Drug War</title>,
 										<unitdate>26 November 2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">244</container>
+								<container type="Electronic" label="ID No.">248</container>
 								<physdesc><extent>1 digital audio file (0:51:46)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -4120,7 +4187,7 @@
 								<unittitle><title render="doublequote">Gay Strategies for Anti-Gay
 										Rights Battles</title>, <unitdate>26 November
 										2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">245</container>
+								<container type="Electronic" label="ID No.">249</container>
 								<physdesc><extent>1 digital audio file (0:43:29)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -4131,7 +4198,7 @@
 							<did>
 								<unittitle><title render="doublequote">Democrats Must Be Progressive</title>, <unitdate>24
 										December 2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">246</container>
+								<container type="Electronic" label="ID No.">250</container>
 								<physdesc><extent>1 digital audio file (0:50:48)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -4143,7 +4210,7 @@
 								<unittitle><title render="doublequote">Ukraine Presidential
 										Election</title>, <unitdate>24 December
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">247</container>
+								<container type="Electronic" label="ID No.">251</container>
 								<physdesc><extent>1 digital audio file (0:43:27)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -4152,14 +4219,27 @@
 						</c04>
 						<c04>
 							<did>
+								<unittitle><title render="doublequote">Mad Magazine</title>,
+										<unitdate>31 December 2004</unitdate></unittitle>
+								<container type="Electronic" label="ID No.">252</container>
+								<physdesc>
+									<extent>1 digital audio file (0:44:29)</extent>
+								</physdesc>
+							</did>
+							<scopecontent>
+								<p>With John Ficarra, editor, Mad Magazine</p>
+							</scopecontent>
+						</c04>
+						<c04>
+							<did>
 								<unittitle><title render="doublequote">Republican Control of the
 										House</title>, <unitdate>14 January
 									2005</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">248</container>
-								<physdesc><extent>1 digital audio file (0:40:53)</extent></physdesc>
+								<container type="Electronic" label="ID No.">253-254</container>
+								<physdesc><extent>2 digital audio files (0:40:53 and 0:50:55)</extent></physdesc>
 							</did>
 							<scopecontent>
-								<p>With Craig Gilbert, D.C. bureau bhief, Milwaukee Journal Sentinel</p>
+								<p>With Craig Gilbert, D.C. bureau chief, Milwaukee Journal Sentinel</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4167,7 +4247,7 @@
 								<unittitle><title render="doublequote">The Rather Forged Document
 										Report</title>, <unitdate>14 January
 									2005</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">249</container>
+								<container type="Electronic" label="ID No.">255</container>
 								<physdesc><extent>1 digital audio file (0:41:13)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -4179,7 +4259,7 @@
 								<unittitle><title render="doublequote">School for Raucous
 										Pundits</title>, <unitdate>16 February
 									2005</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">250</container>
+								<container type="Electronic" label="ID No.">256</container>
 								<physdesc><extent>1 digital audio file (0:51:10)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -4191,7 +4271,7 @@
 								<unittitle><title render="doublequote">Computers' Negative Effects
 										in Schools</title>, <unitdate>16 February
 									2005</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">251</container>
+								<container type="Electronic" label="ID No.">257</container>
 								<physdesc><extent>1 digital audio file (0:50:55)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -4202,7 +4282,7 @@
 							<did>
 								<unittitle><title render="doublequote">Workers of the World Unite?
 									</title>, <unitdate>04 March 2005</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">252</container>
+								<container type="Electronic" label="ID No.">258</container>
 								<physdesc><extent>1 digital audio file (0:51:04)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -4211,21 +4291,10 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Mad Magazine</title>,
-										<unitdate>31 December 2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">253</container>
-								<physdesc><extent>1 digital audio file (0:44:29)</extent></physdesc>
-							</did>
-							<scopecontent>
-								<p>With John Ficarra, editor, Mad Magazine</p>
-							</scopecontent>
-						</c04>
-						<c04>
-							<did>
 								<unittitle><title render="doublequote">Black Contract w/ America on
 										Moral Values</title>, <unitdate>04 March
 									2005</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">254</container>
+								<container type="Electronic" label="ID No.">259</container>
 								<physdesc><extent>1 digital audio file (0:42:38)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -4237,7 +4306,7 @@
 								<unittitle><title render="doublequote">Peace Proposals for
 										Palestine</title>, <unitdate>23 March
 									2005</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">255</container>
+								<container type="Electronic" label="ID No.">260</container>
 								<physdesc><extent>1 digital audio file (0:51:06)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -4248,7 +4317,7 @@
 							<did>
 								<unittitle><title render="doublequote">Election Impact of Schiavo
 										Case</title>, <unitdate>23 March 2005</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">256</container>
+								<container type="Electronic" label="ID No.">261</container>
 								<physdesc><extent>1 digital audio file (0:43:30)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -4259,7 +4328,7 @@
 							<did>
 								<unittitle><title render="doublequote">Coalition against Patriot
 										Act</title>, <unitdate>23 March 2005</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">257</container>
+								<container type="Electronic" label="ID No.">262</container>
 								<physdesc><extent>1 digital audio file (0:45:05)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -4270,7 +4339,7 @@
 							<did>
 								<unittitle><title render="doublequote">Free Parking Effects</title>,
 										<unitdate>24 March 2005</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">258</container>
+								<container type="Electronic" label="ID No.">263</container>
 								<physdesc><extent>1 digital audio file (0:50:45)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -4281,7 +4350,7 @@
 							<did>
 								<unittitle><title render="doublequote">Legal Aspects of Schiavo
 										Case</title>, <unitdate>24 March 2005</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">259</container>
+								<container type="Electronic" label="ID No.">264</container>
 								<physdesc><extent>1 digital audio file (0:43:31)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -4292,7 +4361,7 @@
 							<did>
 								<unittitle><title render="doublequote">Retire Rich</title>,
 										<unitdate>24 March 2005</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">260</container>
+								<container type="Electronic" label="ID No.">265</container>
 								<physdesc><extent>1 digital audio file (0:45:03)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -4304,7 +4373,7 @@
 								<unittitle><title render="doublequote">Gas Prices &amp;
 										Driving</title>, <unitdate>25 March
 									2005</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">261</container>
+								<container type="Electronic" label="ID No.">266</container>
 								<physdesc><extent>1 digital audio file (0:51:04)</extent></physdesc>
 							</did>
 						</c04>
@@ -4313,7 +4382,7 @@
 								<unittitle><title render="doublequote">Housing Sex
 									Offenders</title>, <unitdate>25 March
 									2005</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">262</container>
+								<container type="Electronic" label="ID No.">267</container>
 								<physdesc><extent>1 digital audio file (0:44:30)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -4322,22 +4391,10 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Republican Control of
-										House</title>, <unitdate>14 January
-									2005</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">263</container>
-								<physdesc><extent>1 digital audio file (0:50:55)</extent></physdesc>
-							</did>
-							<scopecontent>
-								<p>With Craig Gilbert, DC bureau chief, Milwaukee Journal Sentinel</p>
-							</scopecontent>
-						</c04>
-						<c04>
-							<did>
 								<unittitle><title render="doublequote">Your Words for
 										Graduates</title>, <unitdate>27 May
 									2005</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">264</container>
+								<container type="Electronic" label="ID No.">268</container>
 								<physdesc><extent>1 digital audio file (0:50:44)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -4348,57 +4405,11 @@
 							<did>
 								<unittitle><title render="doublequote">America's Nuclear
 										Waste</title>, <unitdate>27 May 2005</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">265</container>
+								<container type="Electronic" label="ID No.">269</container>
 								<physdesc><extent>1 digital audio file (0:43:43)</extent></physdesc>
 							</did>
 							<scopecontent>
 								<p>With Bob Halstead, nuclear waste consultant</p>
-							</scopecontent>
-						</c04>
-						<c04>
-							<did>
-								<unittitle><title render="doublequote">Fundamentals of
-										Extremism-Christian Right</title>, <unitdate>15 August
-										2003</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">266</container>
-								<physdesc><extent>1 digital audio file (0:51:27)</extent></physdesc>
-							</did>
-							<scopecontent>
-								<p>With Kimberly Blake, editor and co-author</p>
-							</scopecontent>
-						</c04>
-						<c04>
-							<did>
-								<unittitle><title render="doublequote">Rising Support for 1st
-										Amendment</title>, <unitdate>15 August
-									2003</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">267</container>
-								<physdesc><extent>1 digital audio file (0:44:18)</extent></physdesc>
-							</did>
-							<scopecontent>
-								<p>With Gene Policzinski, executive director, First Amendment Center</p>
-							</scopecontent>
-						</c04>
-						<c04>
-							<did>
-								<unittitle><title render="doublequote">Defense of the Patriot
-										Act</title>, <unitdate>22 August 2003</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">268</container>
-								<physdesc><extent>1 digital audio file (0:51:14)</extent></physdesc>
-							</did>
-							<scopecontent>
-								<p>With John Fonte, Hudson Institute senior fellow</p>
-							</scopecontent>
-						</c04>
-						<c04>
-							<did>
-								<unittitle><title render="doublequote">Mandatory Celibacy</title>,
-										<unitdate>22 August 2003</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">269</container>
-								<physdesc><extent>1 digital audio file (0:53:47)</extent></physdesc>
-							</did>
-							<scopecontent>
-								<p>With Father Collins, Roman Catholic Priest</p>
 							</scopecontent>
 						</c04>
 						<c04>
@@ -4471,21 +4482,38 @@
 						</c04>
 						<c04>
 							<did>
+								<unittitle><title render="doublequote">Gas Prices</title>,
+										<unitdate>12 April 2006</unitdate></unittitle>
+								<container type="Electronic" label="ID No.">276</container>
+								<physdesc>
+									<extent>1 digital audio file (0:43:27)</extent>
+								</physdesc>
+							</did>
+							<scopecontent>
+								<p>With Erin Roth, executive director, Wisconsin Petroleum
+									Council</p>
+							</scopecontent>
+						</c04>
+						<c04>
+							<did>
 								<unittitle><title render="doublequote">Media DIS-honors
 										Awards</title>, <unitdate>12 April
 									2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">276</container>
-								<physdesc><extent>1 digital audio file (0:51:00)</extent></physdesc>
+								<container type="Electronic" label="ID No.">277</container>
+								<physdesc>
+									<extent>1 digital audio file (0:51:00)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Tim Graham, director of Media Analysis, Media Research Center</p>
+								<p>With Tim Graham, director of Media Analysis, Media Research
+									Center</p>
 							</scopecontent>
 						</c04>
 						<c04>
 							<did>
 								<unittitle><title render="doublequote">Military Strike Against
 										Iran</title>, <unitdate>12 April 2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">277</container>
+								<container type="Electronic" label="ID No.">278</container>
 								<physdesc><extent>1 digital audio file (0:44:07)</extent></physdesc>
 							</did>
 							<scopecontent>
@@ -4494,34 +4522,25 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Gas Prices</title>,
-										<unitdate>12 April 2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">278</container>
-								<physdesc><extent>1 digital audio file (0:43:27)</extent></physdesc>
+								<unittitle><title render="doublequote">Myths of Technology
+										Change</title>, <unitdate>14 April
+									2006</unitdate></unittitle>
+								<container type="Electronic" label="ID No.">279</container>
+								<physdesc>
+									<extent>1 digital audio file (0:39:43)</extent>
+								</physdesc>
 							</did>
 							<scopecontent>
-								<p>With Erin Roth, executive director, Wisconsin Petroleum Council</p>
+								<p>With Bob Seidensticker, author, "Future Hype"</p>
 							</scopecontent>
 						</c04>
 						<c04>
 							<did>
 								<unittitle><title render="doublequote">Your Views on the
 										News</title>, <unitdate>14 April 2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">279</container>
+								<container type="Electronic" label="ID No.">280</container>
 								<physdesc><extent>1 digital audio file (0:51:02)</extent></physdesc>
 							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle><title render="doublequote">Myths of Technology
-										Change</title>, <unitdate>14 April
-									2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">280</container>
-								<physdesc><extent>1 digital audio file (0:39:43)</extent></physdesc>
-							</did>
-							<scopecontent>
-								<p>With Bob Seidensticker, author, "Future Hype"</p>
-							</scopecontent>
 						</c04>
 						<c04>
 							<did>
@@ -4661,10 +4680,21 @@
 						</c04>
 						<c04>
 							<did>
+								<unittitle><title render="doublequote">New York Blackout
+										Coverage</title>, <unitdate>01 August
+									2004</unitdate></unittitle>
+								<container type="Electronic" label="ID No.">283</container>
+								<physdesc>
+									<extent>1 digital audio file (0:50:39)</extent>
+								</physdesc>
+							</did>
+						</c04>
+						<c04>
+							<did>
 								<unittitle><title render="doublequote">The Sinclair
 										Broadcast</title>, <unitdate>25 October
 									2004</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">283</container>
+								<container type="Electronic" label="ID No.">284</container>
 								<physdesc><extent>1 digital audio file (0:41:42)</extent></physdesc>
 							</did>
 						</c04>
@@ -4673,7 +4703,7 @@
 								<unittitle><title render="doublequote">Media Coverage of Pope's
 										Death</title>, <unitdate>08 April
 									2005</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">284</container>
+								<container type="Electronic" label="ID No.">285</container>
 								<physdesc><extent>1 digital audio file (0:46:48)</extent></physdesc>
 							</did>
 						</c04>
@@ -4681,7 +4711,7 @@
 							<did>
 								<unittitle><title render="doublequote">Newsweek Controversy</title>,
 										<unitdate>19 May 2005</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">285</container>
+								<container type="Electronic" label="ID No.">286</container>
 								<physdesc><extent>1 digital audio file (0:40:31)</extent></physdesc>
 							</did>
 						</c04>
@@ -4690,7 +4720,7 @@
 								<unittitle><title render="doublequote">Media Coverage of Michael
 										Jackson Trial</title>, <unitdate>14 June
 									2005</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">286</container>
+								<container type="Electronic" label="ID No.">287</container>
 								<physdesc><extent>1 digital audio file (0:20:58)</extent></physdesc>
 							</did>
 						</c04>
@@ -4699,17 +4729,8 @@
 								<unittitle><title render="doublequote">Corporation for Public
 										Broadcasting Funding &amp; Independence</title>,
 										<unitdate>23 June 2005</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">287</container>
-								<physdesc><extent>1 digital audio file (0:45:08)</extent></physdesc>
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle><title render="doublequote">New York Blackout
-										Coverage</title>, <unitdate>01 August
-									2004</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">288</container>
-								<physdesc><extent>1 digital audio file (0:50:39)</extent></physdesc>
+								<physdesc><extent>1 digital audio file (0:45:08)</extent></physdesc>
 							</did>
 						</c04>
 						<c04>
@@ -4782,11 +4803,62 @@
 						</c04>
 						<c04>
 							<did>
+								<unittitle><title render="doublequote">Weekly Panel</title>,
+										<unitdate>09 January 2006</unitdate></unittitle>
+								<container type="Electronic" label="ID No.">297</container>
+								<physdesc>
+									<extent>1 digital audio file (1:11:10)</extent>
+								</physdesc>
+							</did>
+						</c04>
+						<c04>
+							<did>
+								<unittitle><title render="doublequote">Media Coverage of 2006
+										Elections</title>, <unitdate>14 January
+									2006</unitdate></unittitle>
+								<container type="Electronic" label="ID No.">298</container>
+								<physdesc>
+									<extent>1 digital audio file (0:42:32)</extent>
+								</physdesc>
+							</did>
+						</c04>
+						<c04>
+							<did>
 								<unittitle><title render="doublequote">Readers Choose Newspaper
 										Story</title>, <unitdate>30 January
 									2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">297</container>
+								<container type="Electronic" label="ID No.">299</container>
 								<physdesc><extent>1 digital audio file (0:19:26)</extent></physdesc>
+							</did>
+						</c04>
+						<c04>
+							<did>
+								<unittitle><title render="doublequote">Weekly Panel</title>,
+										<unitdate>07 February 2006</unitdate></unittitle>
+								<container type="Electronic" label="ID No.">300</container>
+								<physdesc>
+									<extent>1 digital audio file (1:09:11)</extent>
+								</physdesc>
+							</did>
+						</c04>
+						<c04>
+							<did>
+								<unittitle><title render="doublequote">Weekly Discussion</title>,
+										<unitdate>14 February 2006</unitdate></unittitle>
+								<container type="Electronic" label="ID No.">301</container>
+								<physdesc>
+									<extent>1 digital audio file (1:12:55)</extent>
+								</physdesc>
+							</did>
+						</c04>
+						<c04>
+							<did>
+								<unittitle><title render="doublequote">Weekly Panel</title>,
+										<unitdate>15 February 2006</unitdate></unittitle>
+								<container type="Electronic" label="ID No.">302</container>
+								<physdesc>
+									<extent>1 digital audio file (0:53:15)</extent>
+								</physdesc>
 							</did>
 						</c04>
 						<c04>
@@ -4794,7 +4866,7 @@
 								<unittitle><title render="doublequote">Sunday Talk Shows'
 										Conservative Tilt</title>, <unitdate>20 February
 										2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">298</container>
+								<container type="Electronic" label="ID No.">303</container>
 								<physdesc><extent>1 digital audio file (0:34:30)</extent></physdesc>
 							</did>
 						</c04>
@@ -4803,7 +4875,7 @@
 								<unittitle><title render="doublequote">TV Without
 										Commercials</title>, <unitdate>28 March
 									2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">299</container>
+								<container type="Electronic" label="ID No.">304</container>
 								<physdesc><extent>1 digital audio file (0:43:30)</extent></physdesc>
 							</did>
 						</c04>
@@ -4812,7 +4884,7 @@
 								<unittitle><title render="doublequote">Media in the Black
 										Community</title>, <unitdate>26 June
 									2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">300</container>
+								<container type="Electronic" label="ID No.">305</container>
 								<physdesc><extent>1 digital audio file (1:42:15)</extent></physdesc>
 							</did>
 						</c04>
@@ -4820,7 +4892,7 @@
 							<did>
 								<unittitle><title render="doublequote">Media Independence</title>,
 										<unitdate>04 July 2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">301</container>
+								<container type="Electronic" label="ID No.">306</container>
 								<physdesc><extent>1 digital audio file (0:51:11)</extent></physdesc>
 							</did>
 						</c04>
@@ -4828,7 +4900,7 @@
 							<did>
 								<unittitle><title render="doublequote">This Week's Local
 										News</title>, <unitdate>06 July 2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">302</container>
+								<container type="Electronic" label="ID No.">307</container>
 								<physdesc><extent>1 digital audio file (1:05:09)</extent></physdesc>
 							</did>
 						</c04>
@@ -4836,7 +4908,7 @@
 							<did>
 								<unittitle><title render="doublequote">Panel on Local News</title>,
 										<unitdate>13 July 2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">303</container>
+								<container type="Electronic" label="ID No.">308</container>
 								<physdesc><extent>1 digital audio file (0:58:34)</extent></physdesc>
 							</did>
 						</c04>
@@ -4844,8 +4916,18 @@
 							<did>
 								<unittitle><title render="doublequote">Bush says "Shit"/Indecency
 										Fines</title>, <unitdate>19 July 2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">304</container>
+								<container type="Electronic" label="ID No.">309</container>
 								<physdesc><extent>1 digital audio file (0:40:36)</extent></physdesc>
+							</did>
+						</c04>
+						<c04>
+							<did>
+								<unittitle><title render="doublequote">Media Scooter Libby
+										Trial</title>, <unitdate>20 July 2006</unitdate></unittitle>
+								<container type="Electronic" label="ID No.">310</container>
+								<physdesc>
+									<extent>1 digital audio file (0:48:52)</extent>
+								</physdesc>
 							</did>
 						</c04>
 						<c04>
@@ -4853,7 +4935,7 @@
 								<unittitle><title render="doublequote">This Week's Panel
 										Discussion</title>, <unitdate>20 July
 									2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">305</container>
+								<container type="Electronic" label="ID No.">311</container>
 								<physdesc><extent>1 digital audio file (0:48:20)</extent></physdesc>
 							</did>
 						</c04>
@@ -4861,7 +4943,7 @@
 							<did>
 								<unittitle><title render="doublequote">Panel Discussion of Local
 										News</title>, <unitdate>27 July 2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">306</container>
+								<container type="Electronic" label="ID No.">312</container>
 								<physdesc><extent>1 digital audio file (1:08:51)</extent></physdesc>
 							</did>
 						</c04>
@@ -4870,7 +4952,7 @@
 								<unittitle><title render="doublequote">International News
 										Panel</title>, <unitdate>03 August
 									2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">307</container>
+								<container type="Electronic" label="ID No.">313</container>
 								<physdesc><extent>1 digital audio file (0:54:37)</extent></physdesc>
 							</did>
 						</c04>
@@ -4879,7 +4961,7 @@
 								<unittitle><title render="doublequote">Backstory Panel
 										Discussion</title>, <unitdate>10 August
 									2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">308</container>
+								<container type="Electronic" label="ID No.">314</container>
 								<physdesc><extent>1 digital audio file (1:01:20)</extent></physdesc>
 							</did>
 						</c04>
@@ -4888,7 +4970,7 @@
 								<unittitle><title render="doublequote">Thursday's Panel
 										Discussion</title>, <unitdate>24 August
 									2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">309</container>
+								<container type="Electronic" label="ID No.">315</container>
 								<physdesc><extent>1 digital audio file (1:00:02)</extent></physdesc>
 							</did>
 						</c04>
@@ -4897,7 +4979,7 @@
 								<unittitle><title render="doublequote">Media Confessed Benet
 										Killer</title>, <unitdate>28 August
 									2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">310</container>
+								<container type="Electronic" label="ID No.">316</container>
 								<physdesc><extent>1 digital audio file (0:40:45)</extent></physdesc>
 							</did>
 						</c04>
@@ -4906,7 +4988,7 @@
 								<unittitle><title render="doublequote">Local Candidates
 										Election</title>, <unitdate>07 September
 									2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">311</container>
+								<container type="Electronic" label="ID No.">317</container>
 								<physdesc><extent>1 digital audio file (0:41:39)</extent></physdesc>
 							</did>
 						</c04>
@@ -4915,7 +4997,7 @@
 								<unittitle><title render="doublequote">State &amp; Local Election
 										Media Coverage</title>, <unitdate>12 September
 										2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">312</container>
+								<container type="Electronic" label="ID No.">318</container>
 								<physdesc><extent>1 digital audio file (0:45:19)</extent></physdesc>
 							</did>
 						</c04>
@@ -4923,7 +5005,7 @@
 							<did>
 								<unittitle><title render="doublequote">Local Politics</title>,
 										<unitdate>28 September 2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">313</container>
+								<container type="Electronic" label="ID No.">319</container>
 								<physdesc><extent>1 digital audio file (0:58:11)</extent></physdesc>
 							</did>
 						</c04>
@@ -4932,14 +5014,14 @@
 								<unittitle><title render="doublequote">Fox News 10th
 										Anniversary</title>, <unitdate>04 October
 									2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">314</container>
+								<container type="Electronic" label="ID No.">320</container>
 								<physdesc><extent>1 digital audio file (0:41:27)</extent></physdesc>
 							</did>
 						</c04>
 						<c04>
 							<did>
 								<unittitle><title render="doublequote">6 Coming Elections</title>, <unitdate>12 October 2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">315-317</container>
+								<container type="Electronic" label="ID No.">321-323</container>
 								<physdesc><extent>3 digital audio files (0:14:00, 0:20:49,
 										0:21:53)</extent></physdesc>
 							</did>
@@ -4949,7 +5031,7 @@
 								<unittitle><title render="doublequote">Air America's
 									Failure</title>, <unitdate>20 October
 									2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">318</container>
+								<container type="Electronic" label="ID No.">324</container>
 								<physdesc><extent>1 digital audio file (0:52:31)</extent></physdesc>
 							</did>
 						</c04>
@@ -4957,56 +5039,23 @@
 							<did>
 								<unittitle><title render="doublequote">Week in Review Panel</title>,
 										<unitdate>02 November 2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">319</container>
+								<container type="Electronic" label="ID No.">325</container>
 								<physdesc><extent>1 digital audio file (1:03:27)</extent></physdesc>
 							</did>
 						</c04>
 						<c04>
 							<did>
 								<unittitle><title render="doublequote">Weekly Panel</title>,
-										<unitdate>09 January 2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">320</container>
-								<physdesc><extent>1 digital audio file (1:11:10)</extent></physdesc>
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle><title render="doublequote">Media Coverage of 2006
-										Elections</title>, <unitdate>14 January
-									2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">321</container>
-								<physdesc><extent>1 digital audio file (0:42:32)</extent></physdesc>
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle><title render="doublequote">Weekly Panel</title>,
 										<unitdate>16 November 2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">322</container>
+								<container type="Electronic" label="ID No.">326</container>
 								<physdesc><extent>1 digital audio file (1:02:18)</extent></physdesc>
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle><title render="doublequote">Weekly Panel</title>,
-										<unitdate>07 February 2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">323</container>
-								<physdesc><extent>1 digital audio file (1:09:11)</extent></physdesc>
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle><title render="doublequote">Weekly Discussion</title>,
-										<unitdate>14 February 2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">324</container>
-								<physdesc><extent>1 digital audio file (1:12:55)</extent></physdesc>
 							</did>
 						</c04>
 						<c04>
 							<did>
 								<unittitle><title render="doublequote">Weekly Discussion</title>,
 										<unitdate>21 December 2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">325</container>
+								<container type="Electronic" label="ID No.">327</container>
 								<physdesc><extent>1 digital audio file (0:57:51)</extent></physdesc>
 							</did>
 						</c04>
@@ -5014,7 +5063,7 @@
 							<did>
 								<unittitle><title render="doublequote">Weekly Panel</title>,
 										<unitdate>04 January 2007</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">326</container>
+								<container type="Electronic" label="ID No.">328</container>
 								<physdesc><extent>1 digital audio file (0:55:33)</extent></physdesc>
 							</did>
 						</c04>
@@ -5022,7 +5071,7 @@
 							<did>
 								<unittitle><title render="doublequote">Weekly Panel</title>,
 										<unitdate>11 January 2007</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">327</container>
+								<container type="Electronic" label="ID No.">329</container>
 								<physdesc><extent>1 digital audio file (1:03:16)</extent></physdesc>
 							</did>
 						</c04>
@@ -5030,15 +5079,25 @@
 							<did>
 								<unittitle><title render="doublequote">Weekly Panel</title>,
 										<unitdate>18 January 2007</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">328</container>
+								<container type="Electronic" label="ID No.">330</container>
 								<physdesc><extent>1 digital audio file (1:04:40)</extent></physdesc>
 							</did>
 						</c04>
 						<c04>
 							<did>
 								<unittitle><title render="doublequote">Weekly Panel</title>,
+										<unitdate>20 January 2007</unitdate></unittitle>
+								<container type="Electronic" label="ID No.">331</container>
+								<physdesc>
+									<extent>1 digital audio file (1:07:34)</extent>
+								</physdesc>
+							</did>
+						</c04>
+						<c04>
+							<did>
+								<unittitle><title render="doublequote">Weekly Panel</title>,
 										<unitdate>24 January 2007</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">329</container>
+								<container type="Electronic" label="ID No.">332</container>
 								<physdesc><extent>1 digital audio file (0:57:39)</extent></physdesc>
 							</did>
 						</c04>
@@ -5046,40 +5105,16 @@
 							<did>
 								<unittitle><title render="doublequote">Weekly Panel</title>,
 										<unitdate>01 February 2007</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">330</container>
+								<container type="Electronic" label="ID No.">333</container>
 								<physdesc><extent>1 digital audio file (1:06:23)</extent></physdesc>
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle><title render="doublequote">Media Scooter Libby
-										Trial</title>, <unitdate>20 July 2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">331</container>
-								<physdesc><extent>1 digital audio file (0:48:52)</extent></physdesc>
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle><title render="doublequote">Weekly Panel</title>,
-										<unitdate>15 February 2006</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">332</container>
-								<physdesc><extent>1 digital audio file (0:53:15)</extent></physdesc>
 							</did>
 						</c04>
 						<c04>
 							<did>
 								<unittitle><title render="doublequote">Weekly Discussion</title>,
 										<unitdate>22 February 2007</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">333</container>
-								<physdesc><extent>1 digital audio file (1:03:11)</extent></physdesc>
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle><title render="doublequote">Weekly Panel</title>,
-										<unitdate>20 January 2007</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">334</container>
-								<physdesc><extent>1 digital audio file (1:07:34)</extent></physdesc>
+								<physdesc><extent>1 digital audio file (1:03:11)</extent></physdesc>
 							</did>
 						</c04>
 						<c04>
@@ -5101,17 +5136,9 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Weekly Discussion</title>,
-										<unitdate>20 May 2007</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">337</container>
-								<physdesc><extent>1 digital audio file (1:01:58)</extent></physdesc>
-							</did>
-						</c04>
-						<c04>
-							<did>
 								<unittitle><title render="doublequote">Don Imus Firing</title>,
 										<unitdate>16 April 2007</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">338</container>
+								<container type="Electronic" label="ID No.">337</container>
 								<physdesc><extent>1 digital audio file (0:40:57)</extent></physdesc>
 							</did>
 						</c04>
@@ -5119,7 +5146,7 @@
 							<did>
 								<unittitle><title render="doublequote">Weekly Panel</title>,
 										<unitdate>19 April 2007</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">339</container>
+								<container type="Electronic" label="ID No.">338</container>
 								<physdesc><extent>1 digital audio file (0:56:39)</extent></physdesc>
 							</did>
 						</c04>
@@ -5127,7 +5154,7 @@
 							<did>
 								<unittitle><title render="doublequote">Weekly Panel</title>,
 										<unitdate>26 April 2007</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">340</container>
+								<container type="Electronic" label="ID No.">339</container>
 								<physdesc><extent>1 digital audio file (0:50:07)</extent></physdesc>
 							</did>
 						</c04>
@@ -5135,8 +5162,18 @@
 							<did>
 								<unittitle><title render="doublequote">Weekly Panel</title>,
 										<unitdate>10 May 2007</unitdate></unittitle>
-								<container type="Electronic" label="ID No.">341</container>
+								<container type="Electronic" label="ID No.">340</container>
 								<physdesc><extent>1 digital audio file (1:02:49)</extent></physdesc>
+							</did>
+						</c04>
+						<c04>
+							<did>
+								<unittitle><title render="doublequote">Weekly Discussion</title>,
+										<unitdate>20 May 2007</unitdate></unittitle>
+								<container type="Electronic" label="ID No.">341</container>
+								<physdesc>
+									<extent>1 digital audio file (1:01:58)</extent>
+								</physdesc>
 							</did>
 						</c04>
 						<c04>
@@ -5731,19 +5768,22 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">The White House &amp; Fox
-										News</title>, <unitdate>27 October
+								<unittitle><title render="doublequote">Party Splintering
+										Coverage</title>, <unitdate>07 October
 									2009</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">416</container>
-								<physdesc><extent>1 digital audio file (0:38:52)</extent></physdesc>
+								<physdesc>
+									<extent>1 digital audio file (0:49:17)</extent>
+								</physdesc>
 							</did>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><title render="doublequote">Party Splintering Coverage</title>, <unitdate>07
-										October 2009</unitdate></unittitle>
+								<unittitle><title render="doublequote">The White House &amp; Fox
+										News</title>, <unitdate>27 October
+									2009</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">417</container>
-								<physdesc><extent>1 digital audio file (0:49:17)</extent></physdesc>
+								<physdesc><extent>1 digital audio file (0:38:52)</extent></physdesc>
 							</did>
 						</c04>
 						<c04>
@@ -5752,14 +5792,6 @@
 										<unitdate>27 November 2009</unitdate></unittitle>
 								<container type="Electronic" label="ID No.">418</container>
 								<physdesc><extent>1 digital audio file (0:44:28)</extent></physdesc>
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle><title render="doublequote">Racism in Milwaukee Media</title>,
-									<unitdate>28 September</unitdate></unittitle>
-								<container type="Box" label="Box">5</container>
-								<container type="audio" label="Audio">27</container><physdesc><extent>audio cassette</extent></physdesc>
 							</did>
 						</c04>
 											</c03>
