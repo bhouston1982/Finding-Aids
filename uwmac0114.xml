@@ -11,7 +11,7 @@
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Finding Aid of the UW-Milwaukee Dept. of Psychology
-          Records, 1953-1997</titleproper>
+          Records, 1953-2001</titleproper>
       </titlestmt>
       <publicationstmt>
         <publisher encodinganalog="260$b">University of Wisconsin-Milwaukee Libraries, Archives
@@ -22,7 +22,8 @@
           <addressline>Archives Department</addressline>
           <addressline>P.O. Box 604</addressline>
           <addressline>Milwaukee, Wisconsin 53201-0604</addressline>
-          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
+          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr
+              href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
         </address>
         <date encodinganalog="260$c" type="publication" normal="2007">Copyright &#169; 2007
           University of Wisconsin Board of Regents</date>
@@ -34,6 +35,12 @@
           langcode="eng" scriptcode="Latn">English.</language></langusage>
     </profiledesc>
     <revisiondesc>
+      <change>
+        <date normal="2016-12-29">December 29, 2016</date>
+        <item>Phyllis Reske updated the finding aid to reflect the addition of Accession
+          2010-068(1). Changes were made to titleproper, physical description, abstract,
+          arrangement, and content list.</item>
+      </change>
       <change>
         <date normal="2014-12-08">December 8, 2014</date>
         <item>Brad Houston updated the finding aid to reflect the addition of some material. Changes
@@ -54,8 +61,8 @@
     <did>
       <physloc type="locationcode" audience="internal">wimiugma</physloc>
       <unittitle encodinganalog="245$a">UW-Milwaukee Dept. of Psychology Records, <unitdate
-          type="inclusive" encodinganalog="245$f" normal="1953/1997"
-        >1953-1997</unitdate></unittitle>
+          type="inclusive" encodinganalog="245$f" normal="1953/2001"
+        >1953-2001</unitdate></unittitle>
       <origination label="Creator">
         <corpname encodinganalog="110">University of Wisconsin-Milwaukee. Dept. of
           Psychology</corpname>
@@ -65,8 +72,7 @@
       <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
         >Accession 2010-068(1)</unitid>
       <physdesc label="Quantity">
-        <extent encodinganalog="300">1 cubic ft. (3 boxes)</extent>
-        <extent encodinganalog="300">plus additions of 3 cubic ft. (3 boxes)</extent>
+        <extent encodinganalog="300">3.4 cubic ft. (6 boxes)</extent>
       </physdesc>
       <repository encodinganalog="852">
         <extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
@@ -76,15 +82,16 @@
         </extref>
       </repository>
       <abstract encodinganalog="520">Records of the department include correspondence, staff meeting
-        minutes, and miscellaneous information on lectures, undergraduate, and graduate degrees. The
-        correspondence files (1956-1976) largely consist of letters between the dean and associate
-        dean of the College of Letters &amp; Science and the chair of the Department of Psychology,
-        regarding budget concerns, the developments of undergraduate and graduate degrees, staffing,
-        curricula, and department location. The collection also contains materials on the teaching
-        of psychology at County Teacher Colleges of Wisconsin, and a file on a survey course given
-        on the WMVS television station. Also included are the minutes and correspondence of the
-        Joint Department Conference Committee of the Psychology Departments of Madison and Milwaukee
-        (1956-1963).</abstract>
+        minutes, accreditation reports, program reviews, and miscellaneous information on lectures,
+        undergraduate, and graduate degrees. Also included are planning documents for the department
+        heading into the 21st century. The correspondence files (1956-1976) largely consist of
+        letters between the dean and associate dean of the College of Letters &amp; Science and the
+        chair of the Department of Psychology, regarding budget concerns, the developments of
+        undergraduate and graduate degrees, staffing, curricula, and department location. The
+        collection also contains materials on the teaching of psychology at County Teacher Colleges
+        of Wisconsin, and a file on a survey course given on the WMVS television station. Also
+        included are the minutes and correspondence of the Joint Department Conference Committee of
+        the Psychology Departments of Madison and Milwaukee (1956-1963).</abstract>
       <langmaterial encodinganalog="546" label="Language">
         <language encodinganalog="041" langcode="eng">English</language>
       </langmaterial>
@@ -185,26 +192,10 @@
       </bioghist>
     </bioghist>
     <arrangement encodinganalog="351">
-      <p>This collection was received in, and is organized in, multiple parts. Additional materials
-        have not been physically or intellectually arranged and interfiled, and researchers may need
-        to consult more than one part of the collection to locate similar materials.</p>
-      <list type="simple">
-        <item>
-          <ref target="uwmac0114" show="replace" actuate="onrequest">UWM Archival Collection 114:
-            Records, 1953-1989</ref>
-        </item>
-      </list>
-      <p>The collection contains one additional accession.</p>
-      <list type="simple">
-        <item>
-          <ref target="acc2010-068" show="replace" actuate="onrequest">Accession 2010-068(1):
-            Additions, 1960-1997</ref>
-        </item>
-      </list>
+      <p>This collection was received in, and is organized in, multiple parts. Accession 2010-068(1)
+        has been physically arranged and intellectually arranged and interfiled. Researchers may
+        need to consult more than one part of the collection to locate similar materials.</p>
     </arrangement>
-    <otherfindaid encodinganalog="555">
-      <p>Finding aid for accession 2010-068(1) available in the Archives.</p>
-    </otherfindaid>
     <prefercite encodinganalog="524">
       <p>
         <extref
@@ -251,17 +242,202 @@
       <c01 level="otherlevel" otherlevel="processed" id="uwmac0114">
         <did>
           <unitid>UWM Archival Collection 114</unitid>
-          <unittitle>Records, <unitdate type="inclusive" normal="1953/1989"
-            >1953-1989</unitdate></unittitle>
+          <unittitle>Records, <unitdate type="inclusive" normal="1953/2001"
+            >1953-2001</unitdate></unittitle>
           <physdesc>
-            <extent>.8 cubic ft. (2 boxes)</extent>
+            <extent>3.4 cubic ft. (6 boxes)</extent>
           </physdesc>
         </did>
         <c02>
           <did>
-            <unittitle>Clinical Committee, 1972-1973</unittitle>
-            <container type="box" label="Box">1</container>
+            <unittitle>Ad Hoc Committee on Graduate Students, 1985-1986</unittitle>
+            <container type="box" label="Box">4</container>
             <container type="folder" label="Folder">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>American Psychological Association</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Accreditation, 1967-1980</unittitle>
+              <container type="box" label="Box">4</container>
+              <container type="folder" label="Folder">2-3</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Accreditation Application, 1979-1981</unittitle>
+              <container type="box" label="Box">4</container>
+              <container type="folder" label="Folder">4-6</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Accreditation Application Update, 1979-1980</unittitle>
+              <container type="box" label="Box">4</container>
+              <container type="folder" label="Folder">7-8</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Accreditation Correspondence from Chairperson, 1978-1980</unittitle>
+              <container type="box" label="Box">4</container>
+              <container type="folder" label="Folder">9</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Accreditation Correspondence from Clinical Director, 1974-1980</unittitle>
+              <container type="box" label="Box">4</container>
+              <container type="folder" label="Folder">10</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Accreditation Criteria, 1978-1979</unittitle>
+              <container type="box" label="Box">4</container>
+              <container type="folder" label="Folder">11</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Accreditation Site Visit Report, 1992</unittitle>
+              <container type="box" label="Box">4</container>
+              <container type="folder" label="Folder">12</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Annual Reports - Doctoral Program, 1983-2001</unittitle>
+              <container type="box" label="Box">4</container>
+              <container type="folder" label="Folder">13</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Annual Self-Study Report, 1980-1983</unittitle>
+              <container type="box" label="Box">4</container>
+              <container type="folder" label="Folder">14-17</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Chancellor Correspondence, 1970-1982</unittitle>
+              <container type="box" label="Box">4</container>
+              <container type="folder" label="Folder">18</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Site Visit, 1976-1998</unittitle>
+              <container type="box" label="Box">4</container>
+              <container type="folder" label="Folder">19-23</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Site Visit Self-Study, 1989-1997</unittitle>
+              <container type="box" label="Box">4</container>
+              <container type="folder" label="Folder">24-27</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Budget and Program Planning</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1981-1989</unitdate>
+              </unittitle>
+              <container type="box" label="Box">4</container>
+              <container type="folder" label="Folder">28-34</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1991-1996</unitdate>
+              </unittitle>
+              <container type="box" label="Box">5</container>
+              <container type="folder" label="Folder">1-4</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Clinical Committee</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1972-1973</unitdate>
+              </unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">1</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1991</unitdate>
+              </unittitle>
+              <container type="box" label="Box">5</container>
+              <container type="folder" label="Folder">5</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Clinical Committee Minutes, 1978-1982</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">6</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Clinical Correspondence, 1984</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">7</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Clinical Program Review, 1970-1978</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">8-9</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Clinical Training Committee Meeting Minutes, 1981-2001</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">10-11</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Clinical Training Director, Memorandums, 1978-1984</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">12</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Clinical Training Manual, undated</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">13</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Conduct of a Clinical Education or Field Experience Program Agreement,
+              1980</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">14</container>
           </did>
         </c02>
         <c02>
@@ -273,6 +449,14 @@
         </c02>
         <c02>
           <did>
+            <unittitle>Council of University Directors of Clinical Psychology Survey,
+              1990-1996</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">15</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
             <unittitle>County Teacher's Colleges, 1953, 1958</unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">7</container>
@@ -280,23 +464,67 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Departmental Meeting Minutes, 1956-1959</unittitle>
-            <container type="box" label="Box">1</container>
-            <container type="folder" label="Folder">8</container>
+            <unittitle>Decentralized Review Committee, 1987</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">16</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Departmental Meeting Minutes, 1960-1968</unittitle>
-            <container type="box" label="Box">2</container>
-            <container type="folder" label="Folder">1</container>
+            <unittitle>Departmental Meeting Minutes</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1956-1959</unitdate>
+              </unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">8</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1960-1989</unitdate>
+              </unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">1-3</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Developmental Committee, 1991</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">17</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Departmental Meeting Minutes, 1971-1989</unittitle>
-            <container type="box" label="Box">2</container>
-            <container type="folder" label="Folder">2-3</container>
+            <unittitle>Doctoral Program Proposal, 1964</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">18</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Doctoral Training Program in Clinical Psychology Grant, 1976-1977</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">18</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Educational Psychology Proposal, 1993-1995</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">20</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Executive Committee, 1986-1993</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">21</container>
           </did>
         </c02>
         <c02>
@@ -308,9 +536,72 @@
         </c02>
         <c02>
           <did>
+            <unittitle>Experimental Committee, 1986-1999</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">22</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Faculty Post-Tenure Review and Development, 1993-1994</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">23</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Five Year Review, 1972-1973</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">24</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Future Planning Committee, 1987-1997</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">25</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Graduate and Doctoral Program Recommendations, 1989-1990</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">26</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
             <unittitle>Graduate Degree Information, Reports and Brochures, 1959-1981</unittitle>
             <container type="box" label="Box">2</container>
             <container type="folder" label="Folder">6</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Graduate Program Committee, 1978-1992</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">27-28</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Graduate Program Modifications, 1987-1989</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">29</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Graduate Program Review, 1972-1989</unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder">30-36</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Honors in Major Memorandums, 1983-1984</unittitle>
+            <container type="box" label="Box">6</container>
+            <container type="folder" label="Folder">1</container>
           </did>
         </c02>
         <c02>
@@ -325,6 +616,42 @@
             <unittitle>Lectures, 1957-1960</unittitle>
             <container type="box" label="Box">2</container>
             <container type="folder" label="Folder">8</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Master of Science Degree in Psychology, 1998-1999</unittitle>
+            <container type="box" label="Box">6</container>
+            <container type="folder" label="Folder">2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Mental Health Planning Committee of Milwaukee County, 1969</unittitle>
+            <container type="box" label="Box">6</container>
+            <container type="folder" label="Folder">3</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Minority Students Committee, 1983-1990</unittitle>
+            <container type="box" label="Box">6</container>
+            <container type="folder" label="Folder">4</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Mission Statement for Department, 1993</unittitle>
+            <container type="box" label="Box">6</container>
+            <container type="folder" label="Folder">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>North Central Association of Colleges and Schools, Accreditation Review,
+              1969-1975</unittitle>
+            <container type="box" label="Box">6</container>
+            <container type="folder" label="Folder">6</container>
           </did>
         </c02>
         <c02>
@@ -376,19 +703,39 @@
             <container type="folder" label="Folder">14</container>
           </did>
         </c02>
-      </c01>
-      <c01 level="otherlevel" otherlevel="unprocessed" id="acc2010-068">
-        <did>
-          <unitid>Accession 2010-068(1)</unitid>
-          <unittitle>Additions, <unitdate>1960-1997</unitdate></unittitle>
-          <physdesc>
-            <extent>3 cubic ft. (3 boxes)</extent>
-          </physdesc>
-          <abstract>Additions of subject files dating from 1960 to 1997, consisting primarily of
-            accreditation reports and program reviews, as well as planning documents for the
-            department heading into the 21st century. Also included are a few folders of meeting
-            minutes.</abstract>
-        </did>
+        <c02>
+          <did>
+            <unittitle>Undergraduate Program and Appeals Committee, 1981-1994</unittitle>
+            <container type="box" label="Box">6</container>
+            <container type="folder" label="Folder">7</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>UWM Psychology Clinic, 1975-1979</unittitle>
+            <container type="box" label="Box">6</container>
+            <container type="folder" label="Folder">8</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Wisconsin and North American Indians Exhibits</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Staff Opinions, undated</unittitle>
+              <container type="box" label="Box">6</container>
+              <container type="folder" label="Folder">9</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Visitor Behavior, undated</unittitle>
+              <container type="box" label="Box">6</container>
+              <container type="folder" label="Folder">10</container>
+            </did>
+          </c03>
+        </c02>
       </c01>
     </dsc>
   </archdesc>
