@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ascii" standalone="no"?>
-<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
+ <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > 
 <!-- wiarchives version:2008-05-22 -->
 <ead id="uw-mil-uwmac0152" relatedencoding="MARC21">
   <eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
@@ -34,6 +34,12 @@
           langcode="eng" scriptcode="Latn">English.</language></langusage>
     </profiledesc>
     <revisiondesc>
+      <change encodinganalog="583">
+        <date normal="2017-01-05">January 5, 2017</date>
+        <item>Claire Dinkelman updated the finding aid to reflect addition of accessions 2016-009
+          and 2016-019. Changes were made to unitdate, extent, titleproper, acqinfo, processinfo,
+          accessrestrict, and the contents list.</item>
+      </change>
       <change encodinganalog="583">
         <date normal="2014-05-07">July 28, 2014</date>
         <item>Brad Houston updated the finding aid to add links to materials collected via UWM's web
@@ -73,8 +79,21 @@
         >Accession 2011-002</unitid>
       <physdesc label="Quantity">
         <extent encodinganalog="300">1.4 cubic ft. (2 boxes)</extent>
-        <extent encodinganalog="300">plus additions 342 digital files</extent>
+        <extent encodinganalog="300">plus additions of
+          <?oxy_comment_start author="dinkelm4" timestamp="20170105T091240-0600" comment="Update with extent of paper collections, I&apos;ll add the electronic stuff"?>342
+          digital files<?oxy_comment_end?></extent>
       </physdesc>
+      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
+        >Accession 2016-009</unitid>
+      <physdesc label="Quantity">
+        <extent encodinganalog="300">5.6 cubic ft. (7 boxes)</extent>
+        <extent encodinganalog="300">plus additions of XYZ digital files</extent>
+      </physdesc>
+      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
+        >Accession 2016-019</unitid>
+      <physdesc label="Quantity">
+        <extent encodinganalog="300">7 cubic ft. (7 boxes)</extent>
+      </physdesc>      
       <repository encodinganalog="852">
         <extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
           title="University of Wisconsin-Milwaukee Logo." role="logoimage"/>
@@ -88,7 +107,12 @@
         the campus, such as telephone and mail service. The collection contains copies of deeds to
         several UWM properties, including the deeds to Engelmann Hall, Purin Hall, and the sight of
         Mitchell Hall. The records also contain a survey regarding campus space, information on the
-        properties UWM rented, and the allotment of space.</abstract>
+        properties UWM rented, and the allotment of space. More recent accessions contain materials
+        relating to Senate Faculty meetings (minutes, agendas, documents) beginning in 1956 up
+        through 1990.  Newer accessions also include miscellaneous correspondence, rules and
+        regulations for UWM faculty and staff, and background infomration on award recipients
+        (Spaights Plaza awards and honorary degrees). There are also restricted files regarding
+        tenture meetings and decisions of faculty members.  </abstract>
       <langmaterial encodinganalog="546" label="Language">
         <language encodinganalog="041" langcode="eng">English</language>
       </langmaterial>
@@ -168,11 +192,19 @@
             Records, 1956-1997</ref>
         </item>
       </list>
-      <p>The collection contains one additional accession.</p>
+      <p>The collection contains three additional accessions.</p>
       <list type="simple">
         <item>
           <ref target="acc2011-002" show="replace" actuate="onrequest">Accession 2011-002: Search
             and Screen Committee Materials, 2010-2011</ref>
+        </item>
+        <item>
+          <ref actuate="onrequest" show="replace" target="acc2016-009">Accession 2016-009:
+            Governance Files, 1956-2010</ref>
+        </item>
+        <item>
+          <ref actuate="onrequest" show="replace" target="acc2016-019">Accession 2016-019:
+            Governance Files, 1961-2009</ref>
         </item>
       </list>
     </arrangement>
@@ -219,7 +251,8 @@
     <descgrp type="admininfo">
       <head>Administrative/Restriction Information</head>
       <accessrestrict encodinganalog="506">
-        <p>Accession 2011-002 is restricted under UWM's Personnel File Policy. Consult an archivist
+        <p>Accession 2011-002, boxes 1, 2, 3, 4, 5, 6 of Accession 2016-009, and boxes 5, 6, 7 of
+          Accession 2016-019 are restricted under UWM's Personnel File Policy. Consult an archivist
           for details. There are no access restrictions on the rest of the materials, and the
           collection is open to all members of the public in accordance with state law.</p>
       </accessrestrict>
@@ -232,13 +265,21 @@
         <p>An unknown individual transferred the collection to the Archives prior to 1989. The
           office of the Secretary transferred additional records in September 1998 (accession
           1998-018) and October 1998 (accession 1998-029). Mark Schwartz, the Search and Screen
-          Committee Chair, donated additional materials in July 2011 (accession 2011-002).</p>
+          Committee Chair, donated additional materials in July 2011 (accession 2011-002). The
+          office of the Secretary transferred additional records in ??? 2016 (accession 2016-009)
+          and ??? 2016 (accession 2016-019).
+          <?oxy_comment_start author="dinkelm4" timestamp="20170105T092052-0600" comment="couldn&apos;t find accessions in the locator DB - cd"?></p>
+        <?oxy_comment_end?>
       </acqinfo>
       <processinfo encodinganalog="583">
         <p>Michele Christian processed the collection at the Archives in June 1997. Jessica Sawinski
           processed the 1998 accessions and added them to the collection in November and December
           2006. Charles Welborn processed additional material in August 2012. Hayley Jackson updated
-          the finding aid to include information about accession 2011-002 in August 2013.</p>
+          the finding aid to include information about accession 2011-002 in August 2013. Claire
+          Dinkelman minimally processed the 2016-009 and 2016-019 accessions in December 2016. Brad
+          Houston minimally processed the 2016-009 digital files in December 2016.
+          <?oxy_comment_start author="dinkelm4" timestamp="20170105T092114-0600" comment="better way to note digital processing? - cd"?></p>
+        <?oxy_comment_end?>
       </processinfo>
     </descgrp>
     <dsc type="combined">
@@ -311,7 +352,6 @@
         <c02>
           <did>
             <unittitle>Faculty Documents, 1957-2014</unittitle>
-            
           </did>
           <scopecontent>
             <p>Records captured as part of <extref href="https://archive-it.org/organizations/664"
@@ -348,7 +388,6 @@
         <c02>
           <did>
             <unittitle>News and Events, 2013-2014</unittitle>
-            
           </did>
           <scopecontent>
             <p>Records captured as part of <extref href="https://archive-it.org/organizations/664"
@@ -494,6 +533,100 @@
           <abstract>Additions of search and screen committee materials, dating from 2010 to
             2011.</abstract>
         </did>
+      </c01>
+      <c01 level="otherlevel" otherlevel="unprocessed" id="acc2016-009">
+        <did>
+          <unitid>Accession 2016-009</unitid>
+          <unittitle>Governance Files,<unitdate>1956-2010</unitdate></unittitle>
+          <physdesc>
+            <extent><?oxy_comment_start author="dinkelm4" timestamp="20170105T112833-0600" comment="Plus digital files"?>5.6
+              cubic ft. (7 boxes) <?oxy_comment_end?></extent>
+          </physdesc>
+          <abstract>Additions of physical records include faculty Senate meeting materials
+            (documents, calendars/agendas, and minutes); miscellaneous Secretary correpsondence;
+            memorial resolutions; schedule of classes and exams. Digital files include various
+            university committees (Academic Staff, Senate, Divisional, Faculty Senate) materials and
+            other miscellaneous contents.</abstract>
+        </did>
+
+        <c02>
+          <did>
+            <unittitle>Academic Staff Committee, <unitdate>1990-2001</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"/>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Academic Staff Senate, <unitdate>1992-2002</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"/>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Divisional Committees, <unitdate>1993-2001</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"/>
+          </did>
+          <accessrestrict><p>Restricted</p></accessrestrict> 
+        </c02>
+        <c02><did><unittitle>Divisional Committees (Arts and Humanities, Social Sciences, Natural Sciences) Minutes and Agendas 	<unitdate>1974-2008</unitdate></unittitle>	<container type="box" label="Box">1</container>	</did><accessrestrict><p>Restricted</p></accessrestrict> </c02>
+        <c02><did><unittitle>Faculty Senate Calendars, Documents, Minutes; Miscellaneous Secretary correspondence; new faculty lists 	<unitdate>1956-2010</unitdate></unittitle>	<container type="box" label="Box">2</container>	</did><accessrestrict><p>Restricted</p></accessrestrict> </c02>
+        <c02><did><unittitle>Faculty Senate Calendars, Documents, Minutes	<unitdate>1962-1971</unitdate></unittitle>	<container type="box" label="Box">3</container>	</did><accessrestrict><p>Restricted</p></accessrestrict> </c02>
+        <c02><did><unittitle>Faculty Senate Calendars, Documents, Minutes 	<unitdate>1970-1979</unitdate></unittitle>	<container type="box" label="Box">4</container>	</did><accessrestrict><p>Restricted</p></accessrestrict> </c02>
+        <c02><did><unittitle>Faculty Senate Calendars, Documents, Minutes <unitdate>1978-1989</unitdate></unittitle>	<container type="box" label="Box">5</container>	</did><accessrestrict><p>Restricted</p></accessrestrict> </c02>
+        <c02><did><unittitle>Faculty Senate Calendars, Documents, Minutes <unitdate>1989-1990</unitdate></unittitle>	<container type="box" label="Box">6</container>	</did><accessrestrict><p>Restricted</p></accessrestrict> </c02>
+        <c02>
+          <did>
+            <unittitle>Faculty Senate, <unitdate>1990-2003</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"/>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>General Files, <unitdate>1993-2002</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"/>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Grievance Committees-RESTRICTED, <unitdate>1994-2007</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"/>
+          </did>
+          <accessrestrict><p>Restricted</p></accessrestrict> 
+        </c02>
+        <c02><did><unittitle>Memorial Resolutions; Schedules of Classes and Exams	<unitdate>1982-1992</unitdate></unittitle>	<container type="box" label="Box">7</container>	</did></c02>
+        <c02>
+          <did>
+            <unittitle>Standing Committees, <unitdate>1995-2003</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"/>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>University Committee, <unitdate>1994-2001</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"/>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="otherlevel" otherlevel="unprocessed" id="acc2016-019">
+        <did>
+          <unitid>Accession 2016-19</unitid>
+          <unittitle>Governance Files,<unitdate>1961-2009</unitdate></unittitle>
+          <physdesc>
+            <extent>7 cubic ft. (7 boxes) </extent>
+          </physdesc>
+          <abstract>Additions of Honorary Degrees and Spaights Plaza Awards; UWM policies,
+            procedures, rules and regulations; criteria and format for tenure organized by
+            divisional committees (Arts &amp; Humanities, Natural Sciences, Professions, and Social
+            Sciences); and tenure meeting materials and decisions organized by divisional
+            committees.</abstract>
+        </did>
+        <c02><did><unittitle>Honorary Degrees and Spaights Plaza Awards	<unitdate>1983-2008</unitdate></unittitle>	<container type="box" label="Box">1</container>	</did></c02>
+        <c02><did><unittitle>Spaights Plaza Awards and UWM Policies and Procedures	<unitdate>1981-2009</unitdate></unittitle>	<container type="box" label="Box">2</container>	</did></c02>
+        <c02><did><unittitle>UWM Policies, Procedures, Rules and Regulations	<unitdate>1961-2008</unitdate></unittitle>	<container type="box" label="Box">3</container>	</did></c02>
+        <c02><did><unittitle>Divisonal Committee Tenure Criteria and Format Guidelines	<unitdate>1969-2008</unitdate></unittitle>	<container type="box" label="Box">4</container>	</did><accessrestrict><p>Restricted</p></accessrestrict> </c02>
+        <c02><did><unittitle>Divisional Committee Meeting Materials, Arts and Humanities and Professions Tenure Decisions	<unitdate>1993-2009</unitdate></unittitle>	<container type="box" label="Box">5</container>	</did><accessrestrict><p>Restricted</p></accessrestrict> </c02>
+        <c02><did><unittitle>Divisional Committee Professions Tenure Decisions	<unitdate>1995-2001</unitdate></unittitle>	<container type="box" label="Box">6</container>	</did><accessrestrict><p>Restricted</p></accessrestrict> </c02>
+        <c02><did><unittitle>Divisional Committees Natural Sciences and Social Sciences Tenure Decisions	<unitdate>1996-2004</unitdate></unittitle>	<container type="box" label="Box">7</container>	</did><accessrestrict><p>Restricted</p></accessrestrict> </c02>
       </c01>
     </dsc>
   </archdesc>
