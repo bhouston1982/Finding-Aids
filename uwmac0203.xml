@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd" [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
+<ead id="uw-mil-uwmac0203" relatedencoding="MARC21">
+	<eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
+		dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924"
+		relatedencoding="MARC21">
+		<eadid encodinganalog="856$u" countrycode="us" mainagencycode="wimiugma"
+			url="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uw-mil-uwmac0203"
+			>uw-mil-uw-mil-uwmac0203</eadid>
+		<filedesc>
+			<titlestmt>
+				<titleproper encodinganalog="245$a">Finding Aid of the UW-Milwaukee Dept. of Social
+					Work Records, 1982-2012</titleproper>
+				<author encodinganalog="245$c"/>
+			</titlestmt>
+			<publicationstmt>
+				<publisher encodinganalog="260$b">University of Wisconsin-Milwaukee Libraries,
+					Archives Department</publisher>
+				<address>
+					<addressline>University of Wisconsin-Milwaukee</addressline>
+					<addressline>UWM Libraries</addressline>
+					<addressline>Archives Department</addressline>
+					<addressline>P.O. Box 604</addressline>
+					<addressline>Milwaukee, Wisconsin 53201-0604</addressline>
+					<addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr
+							href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
+				</address>
+				<date encodinganalog="260$c" type="publication" normal="2017">Copyright &#169; 2017
+					University of Wisconsin Board of Regents</date>
+			</publicationstmt>
+		</filedesc>
+		<profiledesc>
+			<creation encodinganalog="500">Finding aid encoded by Dan Vinson</creation>
+			<langusage encodinganalog="546">Finding aid written in <language encodinganalog="041"
+					langcode="eng" scriptcode="Latn">English.</language></langusage>
+		</profiledesc>
+	</eadheader>
+	<archdesc level="collection" relatedencoding="MARC21">
+		<did>
+			<physloc type="locationcode" audience="internal">wimiugma</physloc>
+			<unittitle encodinganalog="245$a">UW-Milwaukee Dept. of Social Work Records,<unitdate
+					type="inclusive" encodinganalog="245$f" normal="1982/2012"
+				>1982-2012</unitdate></unittitle>
+			<origination label="Creator">
+				<corpname encodinganalog="110">University of Wisconsin-Milwaukee. Dept. of Social
+					Work</corpname>
+			</origination>
+			<unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma"
+				countrycode="us">UWM Archival Collection 203</unitid>
+			<unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma"
+				countrycode="US">Accession 2015-017</unitid>
+			<physdesc label="Quantity">
+				<extent encodinganalog="300">7 cubic ft. (7 boxes)</extent>
+				<extent encodinganalog="300">plus additions of 1.4 cubic ft. (2 boxes)</extent>
+			</physdesc>
+			<repository encodinganalog="852">
+				<extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
+					title="University of Wisconsin-Milwaukee Logo." role="logoimage"/>
+				<extref href="http://www.uwm.edu/Libraries/arch/index.html">
+					<corpname>University of Wisconsin-Milwaukee Libraries, Archives
+						Department</corpname>
+				</extref>
+			</repository>
+			<physloc/>
+			<abstract encodinganalog="520">The collection contains syllabi files from the Department
+				of Social Work, dating from 1982 to 2012. The Department, which is one of two in the
+				Helen Bader School of Social Welfare, maintained these central files of course
+				syllabi per the UW-Milwaukee Uniform Syllabus Policy. The syllabi include
+				information on departmental policies, course schedules, course readings, and
+				information on teaching faculty. Accession 2015-017 include additions of restricted
+				executive committee meeting minutes, dating from 1995 to 2000. The records include
+				decisions made on tenure and promotion, and other sensitive matters pertaining to
+				the department (1.4 cubic ft., 2 boxes).</abstract>
+			<langmaterial encodinganalog="546" label="Language">
+				<language encodinganalog="041" langcode="eng">English</language>
+			</langmaterial>
+		</did>
+		<bioghist encodinganalog="545">
+			<p>In 1956, when the University of Wisconsin-Milwaukee was established, the Department
+				of Social Work was created, and administered within the College of Letters &amp;
+				Science. In April 1963, the School of Social Work was established, headed by a
+				director, and remained part of the College of Letters &amp; Science. In 1965, the
+				School changed its name to the School of Social Welfare and became an independent,
+				dean-headed school. The School of Social Welfare during this period maintained a
+				curriculum similar to that of the modern Department of Social Work, although in 1968
+				a program in Criminal Justice was added to the school's offerings. In 2002, the
+				faculty of the School of Social Welfare voted to departmentalize the school into a
+				Department of Criminal Justice and a Department of Social Work, citing the need for
+				both programs to focus on their particular specialities. The split was approved by
+				the Faculty Senate and the two departments split in Spring 2003.</p>
+			<bioghist>
+				<head>Department Heads</head>
+				<chronlist>
+					<chronitem>
+						<date>1956-1957</date>
+						<event>Willard E. Downing</event>
+					</chronitem>
+					<chronitem>
+						<date>1957-63</date>
+						<event>John W. Teter</event>
+					</chronitem>
+					<chronitem>
+						<date>1963-1968</date>
+						<event>Quentin F. Schenk</event>
+					</chronitem>
+					<chronitem>
+						<date>1969-1972</date>
+						<event>P. Frederick Delli Quadri</event>
+					</chronitem>
+					<chronitem>
+						<date>1973-1974</date>
+						<event>John W. Teter</event>
+					</chronitem>
+					<chronitem>
+						<date>1974-1979</date>
+						<event>Gregory O'Brien</event>
+					</chronitem>
+					<chronitem>
+						<date>1980-1988</date>
+						<event>Fred Cox</event>
+					</chronitem>
+					<chronitem>
+						<date>1988-1989</date>
+						<event>William Berg</event>
+					</chronitem>
+					<chronitem>
+						<date>1989-1991</date>
+						<event>James Blackburn</event>
+					</chronitem>
+					<chronitem>
+						<date>1991-1994</date>
+						<event>Robert Scheurell</event>
+					</chronitem>
+					<chronitem>
+						<date>1994-1995</date>
+						<event>Sharon Keigher</event>
+					</chronitem>
+					<chronitem>
+						<date>1995-1997</date>
+						<event>William Berg</event>
+					</chronitem>
+					<chronitem>
+						<date>1997-2002</date>
+						<event>Joan Jones</event>
+					</chronitem>
+					<chronitem>
+						<date>2002-2004</date>
+						<event>James A. Blackburn</event>
+					</chronitem>
+					<chronitem>
+						<date>2004-</date>
+						<event>Deborah Padgett</event>
+					</chronitem>
+				</chronlist>
+			</bioghist>
+		</bioghist>
+		<scopecontent encodinganalog="520">
+			<p>The majority of the collection contains course syllabi from courses offered 
+				by the Department from 1982-2012. Accession 2015-017 includes restricted 
+				executive committee meeting minutes from 1995 to 2000.</p>
+		</scopecontent>
+		<arrangement encodinganalog="351">
+			<p>The syllabi files are organized by course number, then chronologically. Accession
+				2015-017 is organized by subject, then chronologically.</p>
+		</arrangement>
+		<prefercite encodinganalog="524">
+			<p>
+				<extref
+					href="http://uwm.edu/libraries/archives/research/citation-guide-for-primary-sources/"
+					>Citation Guide for Primary Sources</extref>
+			</p>
+		</prefercite>
+		<relatedmaterial encodinganalog="544 1">
+			<head>Related Material in the UWM Libraries</head>
+			<archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0024"
+				actuate="onrequest" show="new">
+				<unittitle>UW-Milwaukee School of Social Welfare, Office of the Dean
+					Records</unittitle>
+				<unitid>UWM Archival Collection 24</unitid>
+			</archref>
+			<archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0133"
+				actuate="onrequest" show="new">
+				<unittitle>UW-Milwaukee School of Social Welfare, Office of the Associate Dean
+					Records</unittitle>
+				<unitid>UWM Archival Collection 133</unitid>
+			</archref>
+			<archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmmss0049"
+				actuate="onrequest" show="new">
+				<unittitle>John W. Teter Papers</unittitle>
+				<unitid>UWM Manuscript Collection 49</unitid>
+			</archref>
+		</relatedmaterial>
+		<descgrp type="admininfo">
+			<head>Administrative/Restriction Information</head>
+			<accessrestrict encodinganalog="506">
+				<p>The executive committee records (accession 2015-017) are restricted in accordance
+					with UWM Personnel File Policy S-42. Access is regulated by Section III.A.2 and
+					III.A.3. There are no access restrictions on the rest of the collection, which
+					is open to all members of the public in accordance with state law. </p>
+			</accessrestrict>
+			<userestrict encodinganalog="540">
+				<p>The researcher assumes full responsibility for conforming with the laws of libel,
+					privacy, and copyright which may be involved in the use of this collection
+					(Wisconsin Statutes 19.21-19.39).</p>
+			</userestrict>
+			<acqinfo encodinganalog="541">
+				<p>The Department of Social Work donated the materials in ??? (orig. 4 boxes). The
+					syllabi files were transferred to the Archives in 2012 and 2014 (accessions
+					2012-047 and 2014-018). The executive committee records (accession 2015-2017)
+					were donated in 2015. NOT DONE.</p>
+			</acqinfo>
+			<processinfo encodinganalog="583">
+				<p>??? processed the original collection in ??? (original 4 boxes). Brad Houston
+					minimally processed accession 2015-017. Phyllis Reske minimally processed
+					accessions 2012-047 and 2014-018 in December 2016 and created a finding aid for
+					the collection in January 2017 (Brad Houston supervised).NOT DONE</p>
+			</processinfo>
+		</descgrp>
+		<dsc type="combined">
+			<head>Contents List</head>
+			<c01 level="otherlevel" otherlevel="processed" id="uwmac0203">
+				<did>
+					<unitid>UWM Archival Collection 203</unitid>
+					<unittitle>UW-Milwaukee Department of Social Work Records, <unitdate
+							type="inclusive" normal="1982/2012">1982-2012</unitdate></unittitle>
+					<physdesc>
+						<extent>7 cubic ft. (7 boxes)</extent>
+					</physdesc>
+				</did>
+				<c02>
+					<did>
+						<unittitle>Syllabi</unittitle>
+					</did>
+					<c03>
+						<did>
+							<unittitle>
+								<unitdate>2001-2012</unitdate>
+							</unittitle>
+						</did>
+						<c04>
+							<did>
+								<unittitle>Course Numbers 100-851</unittitle>
+								<container type="box" label="Box">5</container>
+							</did>
+						</c04>
+						<c04>
+							<did>
+								<unittitle>Course Numbers 100-941</unittitle>
+								<container type="box" label="Box">6</container>
+							</did>
+						</c04>
+						<c04>
+							<did>
+								<unittitle>Course Numbers 708-991</unittitle>
+								<container type="box" label="Box">7</container>
+							</did>
+						</c04>
+					</c03>
+				</c02>
+			</c01>
+		</dsc>
+	</archdesc>
+</ead>
