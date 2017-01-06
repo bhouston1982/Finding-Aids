@@ -80,8 +80,10 @@
       <physdesc label="Quantity">
         <extent encodinganalog="300">1.4 cubic ft. (2 boxes)</extent>
         <extent encodinganalog="300">plus additions of
-          <?oxy_comment_start author="dinkelm4" timestamp="20170105T091240-0600" comment="Update with extent of paper collections, I&apos;ll add the electronic stuff"?>342
-          digital files<?oxy_comment_end?></extent>
+          <?oxy_comment_start author="dinkelm4" timestamp="20170105T091240-0600" comment="Update with extent of paper collections, I&apos;ll add the electronic stuff"?>
+          12.6 cubic ft. (14 boxes) and 85.5 MB (6953 digital
+          files<?oxy_comment_end?>)<?oxy_comment_start author="houstobn" timestamp="20170105T142010-0600" comment="You add the extents of all accessions together at this position in the EAD. Break them out later"?></extent>
+        <?oxy_comment_end?>
       </physdesc>
       <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
         >Accession 2016-009</unitid>
@@ -93,7 +95,7 @@
         >Accession 2016-019</unitid>
       <physdesc label="Quantity">
         <extent encodinganalog="300">7 cubic ft. (7 boxes)</extent>
-      </physdesc>      
+      </physdesc>
       <repository encodinganalog="852">
         <extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
           title="University of Wisconsin-Milwaukee Logo." role="logoimage"/>
@@ -109,10 +111,13 @@
         Mitchell Hall. The records also contain a survey regarding campus space, information on the
         properties UWM rented, and the allotment of space. More recent accessions contain materials
         relating to Senate Faculty meetings (minutes, agendas, documents) beginning in 1956 up
-        through 1990.  Newer accessions also include miscellaneous correspondence, rules and
-        regulations for UWM faculty and staff, and background infomration on award recipients
-        (Spaights Plaza awards and honorary degrees). There are also restricted files regarding
-        tenture meetings and decisions of faculty members.  </abstract>
+        through
+        <?oxy_comment_start author="houstobn" timestamp="20170105T143431-0600" comment="Changed to also reflect electronic records."?>2003<?oxy_comment_end?>.
+        Newer accessions also include miscellaneous correspondence, rules and regulations for UWM
+        faculty and staff, and background
+        <?oxy_comment_start author="houstobn" timestamp="20170105T143447-0600" comment="Watch typos!"?>information<?oxy_comment_end?>
+        on award recipients (Spaights Plaza awards and honorary degrees). There are also restricted
+        files regarding tenture meetings and decisions of faculty members. </abstract>
       <langmaterial encodinganalog="546" label="Language">
         <language encodinganalog="041" langcode="eng">English</language>
       </langmaterial>
@@ -210,8 +215,9 @@
     </arrangement>
     <prefercite encodinganalog="524">
       <p>
-        <extref href="http://uwm.edu/libraries/archives/research/citation-guide-for-primary-sources/">Citation Guide for
-          Primary Sources</extref>
+        <extref
+          href="http://uwm.edu/libraries/archives/research/citation-guide-for-primary-sources/"
+          >Citation Guide for Primary Sources</extref>
       </p>
     </prefercite>
     <relatedmaterial encodinganalog="544 1">
@@ -250,11 +256,34 @@
     </relatedmaterial>
     <descgrp type="admininfo">
       <head>Administrative/Restriction Information</head>
+      <phystech audience="internal" encodinganalog="538">
+        <p>&lt;p>As of January 5, 2017, all electronic files were accessible on a Intel Core i5-4570
+          CPU (3.20 GHz, 4 GB RAM) running Windows 7 Enterprise, with Service Pack 1. Software used
+          to access the files includes Microsoft Office 2007, LibreOffice Writer, Firefox v. 21.0,
+          and Adobe Reader XI.&lt;/p> &lt;p>The collection includes records in the following file
+          formats:</p>
+        <list type="marked">
+          <item>Microsoft Word Document 97-2003 [.doc]</item>
+          <item>Microsoft Word for Windows 2007 onwards [.docx]</item>
+          <item>Hypertext Markup Language [.html]</item>
+          <item>Acrobat PDF 1.2-1.6 - Portable Document Format [.pdf]</item>
+          <item>Microsoft Powerpoint Document [.ppt]</item>
+          <item>Rich Text Format [.rtf]</item>
+          <item>Plain Text File [.txt]</item>
+          <item>WordPerfect for MS-DOS/Windows Document 4-7 [.wpd]</item>
+          <item>Microsoft Works Word Processor 5-6 [.wps]</item>
+          <item>Microsoft Excel 97 Workbook [.xls]</item>
+        </list>
+      </phystech>
       <accessrestrict encodinganalog="506">
-        <p>Accession 2011-002, boxes 1, 2, 3, 4, 5, 6 of Accession 2016-009, and boxes 5, 6, 7 of
-          Accession 2016-019 are restricted under UWM's Personnel File Policy. Consult an archivist
-          for details. There are no access restrictions on the rest of the materials, and the
-          collection is open to all members of the public in accordance with state law.</p>
+        <p>Electronic records must be viewed in the archives. See an archivist for more
+          information.</p>
+        <p>Accession 2011-002, boxes<?oxy_comment_start author="houstobn" timestamp="20170105T151716-0600" comment="I changed this because I don&apos;t think the Faculty Senate minutes should be restricted"?>
+          <?oxy_comment_start author="houstobn" timestamp="20170105T144401-0600" comment="Giving ranges is fine/preferred"?>1-<?oxy_comment_end?>2<?oxy_comment_end?>
+          of Accession 2016-009, and boxes 5-7 of Accession 2016-019 are restricted under UWM's
+          Personnel File Policy. Consult an archivist for details. </p>
+        <p>There are no access restrictions on the rest of the materials, and the collection is open
+          to all members of the public in accordance with state law.</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>The researcher assumes full responsibility for conforming with the laws of libel,
@@ -266,8 +295,8 @@
           office of the Secretary transferred additional records in September 1998 (accession
           1998-018) and October 1998 (accession 1998-029). Mark Schwartz, the Search and Screen
           Committee Chair, donated additional materials in July 2011 (accession 2011-002). The
-          office of the Secretary transferred additional records in ??? 2016 (accession 2016-009)
-          and ??? 2016 (accession 2016-019).
+          office of the Secretary transferred additional records in fall 2016 (accessions 2016-009
+          and 2016-019).
           <?oxy_comment_start author="dinkelm4" timestamp="20170105T092052-0600" comment="couldn&apos;t find accessions in the locator DB - cd"?></p>
         <?oxy_comment_end?>
       </acqinfo>
@@ -281,8 +310,18 @@
           <?oxy_comment_start author="dinkelm4" timestamp="20170105T092114-0600" comment="better way to note digital processing? - cd"?></p>
         <?oxy_comment_end?>
       </processinfo>
+      <processinfo>
+        <head>Preservation Information</head>
+        <p>During Winter 2016-2017, the electronic files received as part of the collection were
+          migrated from floppy disks to the Archives' file server and renamed where necessary to
+          provide appropriate file extensions. Files at risk of obsolescence were converted to
+          preservation formats using the National Archives of Australia's XENA digital preservation
+          tool. Original files will be retained as long as is technically practical.</p>
+      </processinfo>
     </descgrp>
+    <?oxy_comment_start author="houstobn" timestamp="20170105T145017-0600" comment="Possibly? But we&apos;ll leave it like this for the moment."?>
     <dsc type="combined">
+      <?oxy_comment_end?>
       <head>Contents List</head>
       <c01 level="otherlevel" otherlevel="processed" id="uwmac0152">
         <did>
@@ -541,6 +580,7 @@
           <physdesc>
             <extent><?oxy_comment_start author="dinkelm4" timestamp="20170105T112833-0600" comment="Plus digital files"?>5.6
               cubic ft. (7 boxes) <?oxy_comment_end?></extent>
+            <extent>85 MB (6611 digital files)</extent>
           </physdesc>
           <abstract>Additions of physical records include faculty Senate meeting materials
             (documents, calendars/agendas, and minutes); miscellaneous Secretary correpsondence;
@@ -548,7 +588,6 @@
             university committees (Academic Staff, Senate, Divisional, Faculty Senate) materials and
             other miscellaneous contents.</abstract>
         </did>
-
         <c02>
           <did>
             <unittitle>Academic Staff Committee, <unitdate>1990-2001</unitdate></unittitle>
@@ -566,19 +605,81 @@
             <unittitle>Divisional Committees, <unitdate>1993-2001</unitdate></unittitle>
             <container type="electronic" label="Electronic Folder"/>
           </did>
-          <accessrestrict><p>Restricted</p></accessrestrict> 
+          <accessrestrict>
+            <p>Restricted</p>
+          </accessrestrict>
         </c02>
-        <c02><did><unittitle>Divisional Committees (Arts and Humanities, Social Sciences, Natural Sciences) Minutes and Agendas 	<unitdate>1974-2008</unitdate></unittitle>	<container type="box" label="Box">1</container>	</did><accessrestrict><p>Restricted</p></accessrestrict> </c02>
-        <c02><did><unittitle>Faculty Senate Calendars, Documents, Minutes; Miscellaneous Secretary correspondence; new faculty lists 	<unitdate>1956-2010</unitdate></unittitle>	<container type="box" label="Box">2</container>	</did><accessrestrict><p>Restricted</p></accessrestrict> </c02>
-        <c02><did><unittitle>Faculty Senate Calendars, Documents, Minutes	<unitdate>1962-1971</unitdate></unittitle>	<container type="box" label="Box">3</container>	</did><accessrestrict><p>Restricted</p></accessrestrict> </c02>
-        <c02><did><unittitle>Faculty Senate Calendars, Documents, Minutes 	<unitdate>1970-1979</unitdate></unittitle>	<container type="box" label="Box">4</container>	</did><accessrestrict><p>Restricted</p></accessrestrict> </c02>
-        <c02><did><unittitle>Faculty Senate Calendars, Documents, Minutes <unitdate>1978-1989</unitdate></unittitle>	<container type="box" label="Box">5</container>	</did><accessrestrict><p>Restricted</p></accessrestrict> </c02>
-        <c02><did><unittitle>Faculty Senate Calendars, Documents, Minutes <unitdate>1989-1990</unitdate></unittitle>	<container type="box" label="Box">6</container>	</did><accessrestrict><p>Restricted</p></accessrestrict> </c02>
         <c02>
           <did>
-            <unittitle>Faculty Senate, <unitdate>1990-2003</unitdate></unittitle>
-            <container type="electronic" label="Electronic Folder"/>
+            <unittitle>Divisional Committees (Arts and Humanities, Social Sciences, Natural
+              Sciences) Minutes and Agendas, <unitdate>1974-2008</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
           </did>
+          <accessrestrict>
+            <p>Restricted</p>
+          </accessrestrict>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Correspondence and New Faculty Lists,
+              <unitdate>1956-2010</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+          </did>
+          <accessrestrict>
+            <p>Restricted</p>
+          </accessrestrict>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Faculty Senate</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1990-2003</unitdate>
+              </unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <?oxy_comment_start author="houstobn" timestamp="20170106T115952-0600" comment="Consolidated these to avoid some repetition"?>
+          <c03>
+            <did>
+              <unittitle>Calendars, Documents, Minutes</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1962-1971</unitdate>
+                </unittitle>
+                <container type="box" label="Box">3</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1970-1979</unitdate>
+                </unittitle>
+                <container type="box" label="Box">4</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1978-1989</unitdate>
+                </unittitle>
+                <container type="box" label="Box">5</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1989-1990</unitdate>
+                </unittitle>
+                <container type="box" label="Box">6</container>
+              </did>
+            </c04>
+          </c03>
+          <?oxy_comment_end?>
         </c02>
         <c02>
           <did>
@@ -588,12 +689,20 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Grievance Committees-RESTRICTED, <unitdate>1994-2007</unitdate></unittitle>
+            <unittitle>Grievance Committees,<unitdate>1994-2007</unitdate></unittitle>
             <container type="electronic" label="Electronic Folder"/>
           </did>
-          <accessrestrict><p>Restricted</p></accessrestrict> 
+          <accessrestrict>
+            <p>Restricted</p>
+          </accessrestrict>
         </c02>
-        <c02><did><unittitle>Memorial Resolutions; Schedules of Classes and Exams	<unitdate>1982-1992</unitdate></unittitle>	<container type="box" label="Box">7</container>	</did></c02>
+        <c02>
+          <did>
+            <unittitle>Memorial Resolutions; Schedules of Classes and Exams
+                <unitdate>1982-1992</unitdate></unittitle>
+            <container type="box" label="Box">7</container>
+          </did>
+        </c02>
         <c02>
           <did>
             <unittitle>Standing Committees, <unitdate>1995-2003</unitdate></unittitle>
@@ -609,7 +718,8 @@
       </c01>
       <c01 level="otherlevel" otherlevel="unprocessed" id="acc2016-019">
         <did>
-          <unitid>Accession 2016-19</unitid>
+          <unitid>Accession
+            2016<?oxy_comment_start author="houstobn" timestamp="20170106T120135-0600" comment="Accession numbers need to be in 20XX-YYY Format"?>-019<?oxy_comment_end?></unitid>
           <unittitle>Governance Files,<unitdate>1961-2009</unitdate></unittitle>
           <physdesc>
             <extent>7 cubic ft. (7 boxes) </extent>
@@ -620,13 +730,73 @@
             Sciences); and tenure meeting materials and decisions organized by divisional
             committees.</abstract>
         </did>
-        <c02><did><unittitle>Honorary Degrees and Spaights Plaza Awards	<unitdate>1983-2008</unitdate></unittitle>	<container type="box" label="Box">1</container>	</did></c02>
-        <c02><did><unittitle>Spaights Plaza Awards and UWM Policies and Procedures	<unitdate>1981-2009</unitdate></unittitle>	<container type="box" label="Box">2</container>	</did></c02>
-        <c02><did><unittitle>UWM Policies, Procedures, Rules and Regulations	<unitdate>1961-2008</unitdate></unittitle>	<container type="box" label="Box">3</container>	</did></c02>
-        <c02><did><unittitle>Divisonal Committee Tenure Criteria and Format Guidelines	<unitdate>1969-2008</unitdate></unittitle>	<container type="box" label="Box">4</container>	</did><accessrestrict><p>Restricted</p></accessrestrict> </c02>
-        <c02><did><unittitle>Divisional Committee Meeting Materials, Arts and Humanities and Professions Tenure Decisions	<unitdate>1993-2009</unitdate></unittitle>	<container type="box" label="Box">5</container>	</did><accessrestrict><p>Restricted</p></accessrestrict> </c02>
-        <c02><did><unittitle>Divisional Committee Professions Tenure Decisions	<unitdate>1995-2001</unitdate></unittitle>	<container type="box" label="Box">6</container>	</did><accessrestrict><p>Restricted</p></accessrestrict> </c02>
-        <c02><did><unittitle>Divisional Committees Natural Sciences and Social Sciences Tenure Decisions	<unitdate>1996-2004</unitdate></unittitle>	<container type="box" label="Box">7</container>	</did><accessrestrict><p>Restricted</p></accessrestrict> </c02>
+        <c02>
+          <did>
+            <unittitle>Honorary Degrees and Spaights Plaza Awards,
+              <unitdate>1983-2008</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Spaights Plaza Awards and UWM Policies and Procedures,
+                <unitdate>1981-2009</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>UWM Policies, Procedures, Rules and Regulations,
+                <unitdate>1961-2008</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Divisional Committees</unittitle>
+          </did>
+          <?oxy_comment_start author="houstobn" timestamp="20170106T120539-0600" comment="These boxes will need to be relabeled"?>
+          <c03>
+            <did>
+              <unittitle>Arts and Humanities and Professions Tenure Decisions
+                  <unitdate>1993-2009</unitdate></unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+            <accessrestrict>
+              <p>Restricted</p>
+            </accessrestrict>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Criteria and Format Guidelines For
+                Tenure,<unitdate>1969-2008</unitdate></unittitle>
+              <container type="box" label="Box">5</container>
+            </did>
+            <accessrestrict>
+              <p>Restricted</p>
+            </accessrestrict>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Natural Sciences and Social Sciences Tenure Decisions
+                  <unitdate>1996-2004</unitdate></unittitle>
+              <container type="box" label="Box">6</container>
+            </did>
+            <accessrestrict>
+              <p>Restricted</p>
+            </accessrestrict>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Professions Tenure Decisions <unitdate>1995-2001</unitdate></unittitle>
+              <container type="box" label="Box">7</container>
+            </did>
+            <accessrestrict>
+              <p>Restricted</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <?oxy_comment_end?>
       </c01>
     </dsc>
   </archdesc>
