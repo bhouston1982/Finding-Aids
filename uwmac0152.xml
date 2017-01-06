@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ascii" standalone="no"?>
-<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
+ <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > 
 <!-- wiarchives version:2008-05-22 -->
 <ead id="uw-mil-uwmac0152" relatedencoding="MARC21">
   <eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
@@ -11,7 +11,7 @@
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="245$a">Finding Aid of the UW-Milwaukee Secretary of the
-          University Records, 1956-2014</titleproper>
+          University Records, 1907-2014</titleproper>
       </titlestmt>
       <publicationstmt>
         <publisher encodinganalog="260$b">University of Wisconsin-Milwaukee Libraries, Archives
@@ -34,6 +34,12 @@
           langcode="eng" scriptcode="Latn">English.</language></langusage>
     </profiledesc>
     <revisiondesc>
+      <change encodinganalog="583">
+        <date normal="2017-01-05">January 5, 2017</date>
+        <item>Claire Dinkelman updated the finding aid to reflect addition of accessions 2016-009
+          and 2016-019. Changes were made to unitdate, extent, titleproper, acqinfo, processinfo,
+          accessrestrict, and the contents list.</item>
+      </change>
       <change encodinganalog="583">
         <date normal="2014-05-07">July 28, 2014</date>
         <item>Brad Houston updated the finding aid to add links to materials collected via UWM's web
@@ -61,8 +67,8 @@
     <did>
       <physloc type="locationcode" audience="internal">wimiugma</physloc>
       <unittitle encodinganalog="245$a">UW-Milwaukee Secretary of the University Records, <unitdate
-          type="inclusive" encodinganalog="245$f" normal="1956/2014"
-        >1956-2014</unitdate></unittitle>
+          type="inclusive" encodinganalog="245$f" normal="1907/2014"
+        >1907-2014</unitdate></unittitle>
       <origination label="Creator">
         <corpname encodinganalog="110">University of Wisconsin-Milwaukee. Secretary of the
           University</corpname>
@@ -71,9 +77,17 @@
         >UWM Archival Collection 152</unitid>
       <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
         >Accession 2011-002</unitid>
+      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
+        >Accession 2016-009</unitid>
+      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
+        >Accession 2016-019</unitid>
       <physdesc label="Quantity">
         <extent encodinganalog="300">1.4 cubic ft. (2 boxes)</extent>
-        <extent encodinganalog="300">plus additions 342 digital files</extent>
+        <extent encodinganalog="300">plus additions of
+          <?oxy_comment_start author="dinkelm4" timestamp="20170105T091240-0600" comment="Update with extent of paper collections, I&apos;ll add the electronic stuff"?>
+          12.6 cubic ft. (14 boxes) and 85.5 MB (6953 digital
+          files<?oxy_comment_end?>)<?oxy_comment_start author="houstobn" timestamp="20170105T142010-0600" comment="You add the extents of all accessions together at this position in the EAD. Break them out later"?></extent>
+        <?oxy_comment_end?>
       </physdesc>
       <repository encodinganalog="852">
         <extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
@@ -88,7 +102,13 @@
         the campus, such as telephone and mail service. The collection contains copies of deeds to
         several UWM properties, including the deeds to Engelmann Hall, Purin Hall, and the sight of
         Mitchell Hall. The records also contain a survey regarding campus space, information on the
-        properties UWM rented, and the allotment of space.</abstract>
+        properties UWM rented, and the allotment of space. More recent accessions contain materials
+        relating to Senate Faculty meetings (minutes, agendas, documents) from
+        1956-<?oxy_comment_start author="houstobn" timestamp="20170105T143431-0600" comment="Changed to also reflect electronic records."?>2003<?oxy_comment_end?>,
+        miscellaneous correspondence, policy development for UWM faculty and staff, and background
+        <?oxy_comment_start author="houstobn" timestamp="20170105T143447-0600" comment="Watch typos!"?>information<?oxy_comment_end?>
+        on award recipients (Spaights Plaza awards and honorary degrees). There are also restricted
+        files regarding tenture meetings and decisions of faculty members. </abstract>
       <langmaterial encodinganalog="546" label="Language">
         <language encodinganalog="041" langcode="eng">English</language>
       </langmaterial>
@@ -165,21 +185,30 @@
       <list type="simple">
         <item>
           <ref target="uwmac0152" show="replace" actuate="onrequest">UWM Archival Collection 152:
-            Records, 1956-1997</ref>
+            Records, 1907-2014</ref>
         </item>
       </list>
-      <p>The collection contains one additional accession.</p>
+      <p>The collection contains three additional accessions.</p>
       <list type="simple">
         <item>
           <ref target="acc2011-002" show="replace" actuate="onrequest">Accession 2011-002: Search
             and Screen Committee Materials, 2010-2011</ref>
         </item>
+        <item>
+          <ref actuate="onrequest" show="replace" target="acc2016-009">Accession 2016-009:
+            Governance Files, 1956-2010</ref>
+        </item>
+        <item>
+          <ref actuate="onrequest" show="replace" target="acc2016-019">Accession 2016-019:
+            Governance Files, 1961-2009</ref>
+        </item>
       </list>
     </arrangement>
     <prefercite encodinganalog="524">
       <p>
-        <extref href="http://uwm.edu/libraries/archives/research/citation-guide-for-primary-sources/">Citation Guide for
-          Primary Sources</extref>
+        <extref
+          href="http://uwm.edu/libraries/archives/research/citation-guide-for-primary-sources/"
+          >Citation Guide for Primary Sources</extref>
       </p>
     </prefercite>
     <relatedmaterial encodinganalog="544 1">
@@ -218,10 +247,35 @@
     </relatedmaterial>
     <descgrp type="admininfo">
       <head>Administrative/Restriction Information</head>
+      <phystech audience="internal" encodinganalog="538">
+        <p>&lt;p>As of January 5, 2017, all electronic files were accessible on a Intel Core i5-4570
+          CPU (3.20 GHz, 4 GB RAM) running Windows 7 Enterprise, with Service Pack 1. Software used
+          to access the files includes Microsoft Office 2007, LibreOffice Writer, Firefox v. 21.0,
+          and Adobe Reader XI.&lt;/p> &lt;p>The collection includes records in the following file
+          formats:</p>
+        <list type="marked">
+          <item>Microsoft Word Document 97-2003 [.doc]</item>
+          <item>Microsoft Word for Windows 2007 onwards [.docx]</item>
+          <item>Hypertext Markup Language [.html]</item>
+          <item>Acrobat PDF 1.2-1.6 - Portable Document Format [.pdf]</item>
+          <item>Microsoft Powerpoint Document [.ppt]</item>
+          <item>Rich Text Format [.rtf]</item>
+          <item>Plain Text File [.txt]</item>
+          <item>WordPerfect for MS-DOS/Windows Document 4-7 [.wpd]</item>
+          <item>Microsoft Works Word Processor 5-6 [.wps]</item>
+          <item>Microsoft Excel 97 Workbook [.xls]</item>
+        </list>
+      </phystech>
       <accessrestrict encodinganalog="506">
-        <p>Accession 2011-002 is restricted under UWM's Personnel File Policy. Consult an archivist
-          for details. There are no access restrictions on the rest of the materials, and the
-          collection is open to all members of the public in accordance with state law.</p>
+        <p>Electronic records must be viewed in the archives. See an archivist for more
+          information.</p>
+        <p>Accession 2011-002, boxes<?oxy_comment_start author="houstobn" timestamp="20170105T151716-0600" comment="I changed this because I don&apos;t think the Faculty Senate minutes should be restricted"?>
+          <?oxy_comment_start author="houstobn" timestamp="20170105T144401-0600" comment="Giving ranges is fine/preferred"?>1-<?oxy_comment_end?>2<?oxy_comment_end?>
+          of Accession 2016-009, the divisional committee and grievance folders in the electronic
+          files, and boxes 5-7 of Accession 2016-019 are restricted under UWM's Personnel File
+          Policy.Consult an archivist for details. </p>
+        <p>There are no access restrictions on the rest of the materials, and the collection is open
+          to all members of the public in accordance with state law.</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>The researcher assumes full responsibility for conforming with the laws of libel,
@@ -232,86 +286,103 @@
         <p>An unknown individual transferred the collection to the Archives prior to 1989. The
           office of the Secretary transferred additional records in September 1998 (accession
           1998-018) and October 1998 (accession 1998-029). Mark Schwartz, the Search and Screen
-          Committee Chair, donated additional materials in July 2011 (accession 2011-002).</p>
+          Committee Chair, donated additional materials in July 2011 (accession 2011-002). The
+          office of the Secretary transferred additional records in fall 2016 (accessions 2016-009
+          and 2016-019).
+          <?oxy_comment_start author="dinkelm4" timestamp="20170105T092052-0600" comment="couldn&apos;t find accessions in the locator DB - cd"?></p>
+        <?oxy_comment_end?>
       </acqinfo>
       <processinfo encodinganalog="583">
         <p>Michele Christian processed the collection at the Archives in June 1997. Jessica Sawinski
           processed the 1998 accessions and added them to the collection in November and December
           2006. Charles Welborn processed additional material in August 2012. Hayley Jackson updated
-          the finding aid to include information about accession 2011-002 in August 2013.</p>
+          the finding aid to include information about accession 2011-002 in August 2013. Claire
+          Dinkelman minimally processed the 2016-009 and 2016-019 accessions in December 2016. Brad
+          Houston minimally processed the 2016-009 digital files in December 2016.
+          <?oxy_comment_start author="dinkelm4" timestamp="20170105T092114-0600" comment="better way to note digital processing? - cd"?></p>
+        <?oxy_comment_end?>
+      </processinfo>
+      <processinfo>
+        <head>Preservation Information</head>
+        <p>During Winter 2016-2017, the electronic files received as part of the collection were
+          migrated from floppy disks to the Archives' file server and renamed where necessary to
+          provide appropriate file extensions. Files at risk of obsolescence were converted to
+          preservation formats using the National Archives of Australia's XENA digital preservation
+          tool. Original files will be retained as long as is technically practical.</p>
       </processinfo>
     </descgrp>
+    <?oxy_comment_start author="houstobn" timestamp="20170105T145017-0600" comment="Possibly? But we&apos;ll leave it like this for the moment."?>
     <dsc type="combined">
+      <?oxy_comment_end?>
       <head>Contents List</head>
       <c01 level="otherlevel" otherlevel="processed" id="uwmac0152">
         <did>
           <unitid>UWM Archival Collection 152</unitid>
-          <unittitle>Records, <unitdate type="inclusive" normal="1956/2014"
-            >1956-2014</unitdate></unittitle>
+          <unittitle>Records, <unitdate type="inclusive" normal="1907/2014"
+            >1907-2014</unitdate></unittitle>
           <physdesc>
             <extent>1.4 cubic ft. (2 boxes)</extent>
           </physdesc>
         </did>
         <c02>
           <did>
-            <unittitle>Annual Reports, 1981-1984</unittitle>
+            <unittitle>Annual Reports, <unitdate>1981-1984</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">1</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Campus Building Chairpersons and Hours, 1980-1996</unittitle>
+            <unittitle>Campus Building Chairpersons and Hours, <unitdate>1980-1996</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">2</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Committee Information, 1958-1972</unittitle>
+            <unittitle>Committee Information, <unitdate>1958-1972</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">3</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Correspondence and Memos, 1956-1991</unittitle>
+            <unittitle>Correspondence and Memos, <unitdate>1956-1991</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">4-7</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Deeds to University of Wisconsin-Milwaukee Property, 1907-1976</unittitle>
+            <unittitle>Deeds to University of Wisconsin-Milwaukee Property, <unitdate>1907-1976</unitdate></unittitle>
             <container type="box" label="Box">2</container>
             <container type="folder" label="Folder">1-2</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Divisional Memberships, 1976-1981</unittitle>
+            <unittitle>Divisional Memberships, <unitdate>1976-1981</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">8</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Faculty and Academic Staff Payroll, 1975-1980</unittitle>
+            <unittitle>Faculty and Academic Staff Payroll, <unitdate>1975-1980</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">9</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Faculty and Staff Statistics, 1962-1995</unittitle>
+            <unittitle>Faculty and Staff Statistics, <unitdate>1962-1995</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">10</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Faculty Documents, 1957-2014</unittitle>
-            
+            <unittitle>Faculty Documents, <unitdate>1957-2014</unitdate></unittitle>
           </did>
           <scopecontent>
             <p>Records captured as part of <extref href="https://archive-it.org/organizations/664"
@@ -326,29 +397,28 @@
         </c02>
         <c02>
           <did>
-            <unittitle>General Services, 1958-1972</unittitle>
+            <unittitle>General Services, <unitdate>1958-1972</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">11</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Institutional Research, 1969-1973</unittitle>
+            <unittitle>Institutional Research, <unitdate>1969-1973</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">12</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Memorial Resolutions, 1968-1971</unittitle>
+            <unittitle>Memorial Resolutions, <unitdate>1968-1971</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">13</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>News and Events, 2013-2014</unittitle>
-            
+            <unittitle>News and Events, <unitdate>2013-2014</unitdate></unittitle>
           </did>
           <scopecontent>
             <p>Records captured as part of <extref href="https://archive-it.org/organizations/664"
@@ -363,28 +433,28 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Nomination and Election Committee, 1991-1992</unittitle>
+            <unittitle>Nomination and Election Committee, <unitdate>1991-1992</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">14</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Nominations Committee, 1990-1997</unittitle>
+            <unittitle>Nominations Committee, <unitdate>1990-1997</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">15</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>North Central Association Steering Committee Minutes, 1983-1984</unittitle>
+            <unittitle>North Central Association Steering Committee Minutes, <unitdate>1983-1984</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">16</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Planning Documents, 1980-1994</unittitle>
+            <unittitle>Planning Documents, <unitdate>1980-1994</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">17</container>
           </did>
@@ -392,78 +462,78 @@
         <c02>
           <did>
             <unittitle>Property Holdings of the University of Wisconsin-Milwaukee,
-              1974-1975</unittitle>
+              <unitdate>1974-1975</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">18</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Registration Procedures and Proposals, 1966-1967</unittitle>
+            <unittitle>Registration Procedures and Proposals, <unitdate>1966-1967</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">19</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Rental Property, 1960-1967</unittitle>
+            <unittitle>Rental Property, <unitdate>1960-1967</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">20</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Secretary of the Faculty, 1957-1968</unittitle>
+            <unittitle>Secretary of the Faculty, <unitdate>1957-1968</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">21</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Secretary of the University, 1973-1974</unittitle>
+            <unittitle>Secretary of the University, <unitdate>1973-1974</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">22</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Space Allocation, 1958-1974</unittitle>
+            <unittitle>Space Allocation, <unitdate>1958-1974</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">23-24</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Space Survey Book A, 1965-1966</unittitle>
+            <unittitle>Space Survey Book A, <unitdate>1965-1966</unitdate></unittitle>
             <container type="box" label="Box">2</container>
             <container type="folder" label="Folder">3-5</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Space Survey Book B, 1965-1966</unittitle>
+            <unittitle>Space Survey Book B, <unitdate>1965-1966</unitdate></unittitle>
             <container type="box" label="Box">2</container>
             <container type="folder" label="Folder">5-8</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Subcommittee on Names and Buildings, 1982-1985</unittitle>
+            <unittitle>Subcommittee on Names and Buildings, <unitdate>1982-1985</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">25</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Summary of Budget, UWM, 1981</unittitle>
+            <unittitle>Summary of Budget, UWM, <unitdate>1981</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">26</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>University of Wisconsin - Wisconsin State Universities Merger,
-              1971</unittitle>
+            <unittitle>University of Wisconsin - Wisconsin State University Merger,
+              <unitdate>1971</unitdate></unittitle>
             <container type="box" label="Box">1</container>
             <container type="folder" label="Folder">27</container>
           </did>
@@ -494,6 +564,236 @@
           <abstract>Additions of search and screen committee materials, dating from 2010 to
             2011.</abstract>
         </did>
+      </c01>
+      <c01 level="otherlevel" otherlevel="unprocessed" id="acc2016-009">
+        <did>
+          <unitid>Accession 2016-009</unitid>
+          <unittitle>Governance Files, <unitdate>1956-2010</unitdate></unittitle>
+          <physdesc>
+            <extent><?oxy_comment_start author="dinkelm4" timestamp="20170105T112833-0600" comment="Plus digital files"?>5.6
+              cubic ft. (7 boxes) <?oxy_comment_end?></extent>
+            <extent>85 MB (6611 digital files)</extent>
+          </physdesc>
+          <abstract>Additions of physical records include faculty Senate meeting materials
+            (documents, calendars/agendas, and minutes); miscellaneous Secretary correpsondence;
+            memorial resolutions; schedule of classes and exams. Digital files include various
+            university committees (Academic Staff, Senate, Divisional, Faculty Senate) materials and
+            other miscellaneous contents.</abstract>
+        </did>
+        <c02>
+          <did>
+            <unittitle>Academic Staff Committee, <unitdate>1990-2001</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"/>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Academic Staff Senate, <unitdate>1992-2002</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"/>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Correspondence and New Faculty Lists,
+              <unitdate>1956-2010</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+          </did>
+          <accessrestrict>
+            <p>Restricted</p>
+          </accessrestrict>
+        </c02>
+        <?oxy_comment_start author="houstobn" timestamp="20170106T134424-0600" comment="These two boxes need to be relabeled"?>
+        <c02>
+          <did>
+            <unittitle>Divisional Committees</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1993-2001</unitdate>
+              </unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+            <accessrestrict>
+              <p>Restricted</p>
+            </accessrestrict>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Minutes and Agendas, <unitdate>1974-2008</unitdate></unittitle>
+              <container type="box" label="Box">2</container>
+            </did>
+            <accessrestrict>
+              <p>Restricted</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <?oxy_comment_end?>
+        <c02>
+          <did>
+            <unittitle>Faculty Senate</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1990-2003</unitdate>
+              </unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <?oxy_comment_start author="houstobn" timestamp="20170106T115952-0600" comment="Consolidated these to avoid some repetition"?>
+          <c03>
+            <did>
+              <unittitle>Calendars, Documents, Minutes</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1962-1971</unitdate>
+                </unittitle>
+                <container type="box" label="Box">3</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1970-1979</unitdate>
+                </unittitle>
+                <container type="box" label="Box">4</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1978-1989</unitdate>
+                </unittitle>
+                <container type="box" label="Box">5</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1989-1990</unitdate>
+                </unittitle>
+                <container type="box" label="Box">6</container>
+              </did>
+            </c04>
+          </c03>
+          <?oxy_comment_end?>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>General Files, <unitdate>1993-2002</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"/>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Grievance Committees, <unitdate>1994-2007</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"/>
+          </did>
+          <accessrestrict>
+            <p>Restricted</p>
+          </accessrestrict>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Memorial Resolutions; Schedules of Classes and Exams
+                <unitdate>1982-1992</unitdate></unittitle>
+            <container type="box" label="Box">7</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Standing Committees, <unitdate>1995-2003</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"/>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>University Committee, <unitdate>1994-2001</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"/>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="otherlevel" otherlevel="unprocessed" id="acc2016-019">
+        <did>
+          <unitid>Accession
+            2016<?oxy_comment_start author="houstobn" timestamp="20170106T120135-0600" comment="Accession numbers need to be in 20XX-YYY Format"?>-019<?oxy_comment_end?></unitid>
+          <unittitle>Governance Files,<unitdate>1961-2009</unitdate></unittitle>
+          <physdesc>
+            <extent>7 cubic ft. (7 boxes) </extent>
+          </physdesc>
+          <abstract>Additions of Honorary Degrees and Spaights Plaza Awards; UWM policies,
+            procedures, rules and regulations; criteria and format for tenure organized by
+            divisional committees (Arts &amp; Humanities, Natural Sciences, Professions, and Social
+            Sciences); and tenure meeting materials and decisions organized by divisional
+            committees.</abstract>
+        </did>
+        <c02>
+          <did>
+            <unittitle>Honorary Degrees and Spaights Plaza Awards,
+              <unitdate>1983-2008</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Spaights Plaza Awards and UWM Policies and Procedures,
+                <unitdate>1981-2009</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Divisional Committees</unittitle>
+          </did>
+          <?oxy_comment_start author="houstobn" timestamp="20170106T120539-0600" comment="These boxes will need to be relabeled"?>
+          <c03>
+            <did>
+              <unittitle>Arts and Humanities and Professions Tenure Decisions,
+                  <unitdate>1993-2009</unitdate></unittitle>
+              <container type="box" label="Box">5</container>
+            </did>
+            <accessrestrict>
+              <p>Restricted</p>
+            </accessrestrict>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Criteria and Format Guidelines For Tenure,
+                <unitdate>1969-2008</unitdate></unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Natural Sciences and Social Sciences Tenure Decisions,
+                  <unitdate>1996-2004</unitdate></unittitle>
+              <container type="box" label="Box">6</container>
+            </did>
+            <accessrestrict>
+              <p>Restricted</p>
+            </accessrestrict>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Professions Tenure Decisions, <unitdate>1995-2001</unitdate></unittitle>
+              <container type="box" label="Box">7</container>
+            </did>
+            <accessrestrict>
+              <p>Restricted</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <?oxy_comment_end?>
+        <c02>
+          <did>
+            <unittitle>UWM Policies, Procedures, Rules and Regulations,
+                <unitdate>1961-2008</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+          </did>
+        </c02>
       </c01>
     </dsc>
   </archdesc>
