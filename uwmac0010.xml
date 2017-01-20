@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
+ <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > 
 <ead id="uw-mil-uwmac0010" relatedencoding="MARC21">
 	<eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
 		dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924"
@@ -36,6 +36,12 @@
 					langcode="eng" scriptcode="Latn">English.</language></langusage>
 		</profiledesc>
 		<revisiondesc>
+			<change encodinganalog="583">
+				<date normal="2017-01-20">January 20, 2016</date>
+				<item>Brad Houston updated the finding aid to reflect correct description of boxes
+					42 and 43, and to add box 49 to the collection. Changes were made to extent,
+					arrangement, processinfo, and the contents list.</item>
+			</change>
 			<change encodinganalog="583">
 				<date normal="2017-01-12">January 12, 2016</date>
 				<item>Christel Maass updated the finding aid after separating AV materials from amid
@@ -172,8 +178,6 @@
 			<unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma"
 				countrycode="US">Accession 2009-024</unitid>
 			<unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma"
-				countrycode="US">Accession 2009-050</unitid>
-			<unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma"
 				countrycode="US">Accession 2010-045</unitid>
 			<unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma"
 				countrycode="US">Accession 2011-008</unitid>
@@ -188,12 +192,11 @@
 			<unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma"
 				countrycode="US">Accession 2015-030</unitid>
 			<physdesc label="Quantity">
-				<extent encodinganalog="300">27.6 cubic ft. (48 boxes, including 15 audio reels, 16
-					audio cassettes, and 23 videocassettes)</extent>
+				<extent encodinganalog="300">28.6 cubic ft. (49 boxes, including 15 audio reels, 16 audio
+					cassettes, and 23 videocassettes)</extent>
 				<extent encodinganalog="300">1 oversize folder</extent>
-				<extent encodinganalog="300">plus additions of 57 cubic ft. (62 boxes), 1 oversize
-					folder, 2693 digital text files, 2 C-type videotapes, and 2 1-inch
-					videotapes</extent>
+				<extent encodinganalog="300">plus additions of 56 cubic ft. (61 boxes), 1 oversize folder, 2693
+					digital text files, 2 C-type videotapes, and 2 1-inch videotapes</extent>
 			</physdesc>
 			<repository encodinganalog="852">
 				<extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
@@ -409,10 +412,6 @@
 						Artwork, 2007</ref>
 				</item>
 				<item>
-					<ref target="acc2009-050" show="replace" actuate="onrequest">Accession 2009-050:
-						Additions, 1963-2006</ref>
-				</item>
-				<item>
 					<ref target="acc2010-045" show="replace" actuate="onrequest">Accession 2010-045:
 						Administrative Files, 1991-2008</ref>
 				</item>
@@ -514,25 +513,26 @@
 					transferred accession 2015-030 to the Archives in late 2015.</p>
 			</acqinfo>
 			<processinfo encodinganalog="583">
-				<p>Kevin Corbitt processed parts of the collection in 1991. Mark A. Vargas processed
-					twenty-four processed and unprocessed series in March through April 1993. Larry
-					Kellneor processed boxes 26-27 in March 1997. Christel Maass added accessions
-					1996-040 and 1996-047 in October 1997 (boxes 28-29). Leslie Heinrichs and
-					Charles Kempker processed box 34 in May 2002. Jeremy Brett added 1999-059 and
-					2003-092 (personnel files) to the collection in November 2006. Brad Houston
-					added some material from the Archives 'dribble file' in August 2008. Allen
-					Ramsey added accession 2008-022 to the collection in June 2009 (Brad Houston
-					supervised). Brad Houston added some additional material from the 'dribble file'
-					in September 2009 and in January 2010. Charles Welborn processed additional
-					material from the 'dribble file' in August 2012. Hayley Jackson updated the
-					finding aid to include information about accessions 1998-055, 1999-059,
-					2005-007, 2006-016, 2006-070, 2007-007, 2009-014, 2009-023, 2009-024, 2009-050,
-					2010-045, 2011-008, 2011-033, 2012-022, 2012-044, and 2013-010 in November 2014.
-					Brad Houston supervised processing of accessions 2008-042 and part of 2009-050
-					between 2012-2013. Brad Houston processed additional material in December 2014.
-					Christel Maass processed accession 2000-037 in May 2015 (boxes 47-48). Christel
-					Maass minimally processed acession 2015-030 in February 2016. Christel Maass
-					separated AV materials from amid the paper records in January 2017.</p>
+				<p>Kevin Corbitt processed parts of the collection in 1991. Mark A. Vargas processed twenty-four
+					processed and unprocessed series in March through April 1993. Larry Kellneor
+					processed boxes 26-27 in March 1997. Christel Maass added accessions 1996-040
+					and 1996-047 in October 1997 (boxes 28-29). Leslie Heinrichs and Charles Kempker
+					processed box 34 in May 2002. Jeremy Brett added 1999-059 and 2003-092
+					(personnel files) to the collection in November 2006. Brad Houston added some
+					material from the Archives 'dribble file' in August 2008. Allen Ramsey added
+					accession 2008-022 to the collection in June 2009 (Brad Houston supervised).
+					Brad Houston added some additional material from the 'dribble file' in September
+					2009 and in January 2010. Charles Welborn processed additional material from the
+					'dribble file' in August 2012. Hayley Jackson updated the finding aid to include
+					information about accessions 1998-055, 1999-059, 2005-007, 2006-016, 2006-070,
+					2007-007, 2009-014, 2009-023, 2009-024, 2009-050, 2010-045, 2011-008, 2011-033,
+					2012-022, 2012-044, and 2013-010 in November 2014. Brad Houston supervised
+					processing of accessions 2008-042 and part of 2009-050 between 2012-2013. Brad
+					Houston processed additional material in December 2014. Christel Maass processed
+					accession 2000-037 in May 2015 (boxes 47-48). Christel Maass minimally processed
+					accession 2015-030 in February 2016. Christel Maass separated AV materials from
+					amid the paper records in January 2017. Brad Houston completed processing
+					accession 2009-050 in January 2017.</p>
 				<p>In November 2009, the name of the collection was changed from Golda Meir Library,
 					Office of the Director to University of Wisconsin-Milwaukee Libraries, Office of
 					the Director to reflect the office's most recent official name.</p>
@@ -546,8 +546,8 @@
 					<unittitle>Records, <unitdate type="inclusive" normal="1885/2014"
 							>1885-2014</unitdate></unittitle>
 					<physdesc>
-						<extent>27.6 cubic ft. (48 boxes, including 15 audio reels, 16 audio
-							cassettes, and 23 videocassettes)</extent>
+						<extent>28.6 cubic ft. (49 boxes, including 15 audio reels, 16 audio cassettes, and 23
+							videocassettes)</extent>
 						<extent>1 oversize folder</extent>
 					</physdesc>
 				</did>
@@ -727,7 +727,7 @@
 					<did>
 						<unittitle>Advisory Committee on Educational Technology,
 								<unitdate>1996-1998</unitdate></unittitle>
-						<container type="box" label="Box">43</container>
+						<container type="box" label="box">49</container>
 						<container type="folder" label="Folder">1-4</container>
 					</did>
 				</c02>
@@ -748,7 +748,7 @@
 				<c02>
 					<did>
 						<unittitle>Affirmative Action Report, <unitdate>1993</unitdate></unittitle>
-						<container type="box" label="Box">43</container>
+						<container type="box" label="box">49</container>
 						<container type="folder" label="Folder">5</container>
 					</did>
 				</c02>
@@ -963,7 +963,7 @@
 					<did>
 						<unittitle>Annual Financial Report,
 							<unitdate>2000-2002</unitdate></unittitle>
-						<container type="box" label="Box">43</container>
+						<container type="box" label="box">49</container>
 						<container type="folder" label="Folder">6-7</container>
 					</did>
 				</c02>
@@ -1911,7 +1911,7 @@
 				<c02>
 					<did>
 						<unittitle>Chronological Files, <unitdate>1989-1990</unitdate></unittitle>
-						<container type="box" label="Box">43</container>
+						<container type="box" label="box">49</container>
 						<container type="folder" label="Folder">8</container>
 					</did>
 				</c02>
@@ -2399,7 +2399,7 @@
 				<c02>
 					<did>
 						<unittitle>E159, <unitdate>1996-1997</unitdate></unittitle>
-						<container type="box" label="Box">43</container>
+						<container type="box" label="box">49</container>
 						<container type="folder" label="Folder">9</container>
 					</did>
 				</c02>
@@ -2420,14 +2420,14 @@
 							<unittitle>
 								<unitdate>1997-2002</unitdate>
 							</unittitle>
-							<container type="box" label="Box">43</container>
+							<container type="box" label="box">49</container>
 							<container type="folder" label="Folder">10-14</container>
 						</did>
 					</c03>
 					<c03>
 						<did>
 							<unittitle>Final Report, <unitdate>1996-1999</unitdate></unittitle>
-							<container type="box" label="Box">43</container>
+							<container type="box" label="box">49</container>
 							<container type="folder" label="Folder">15-17</container>
 						</did>
 					</c03>
@@ -2470,7 +2470,7 @@
 				<c02>
 					<did>
 						<unittitle>Endowment Campaign, <unitdate>1986</unitdate></unittitle>
-						<container type="box" label="Box">43</container>
+						<container type="box" label="box">49</container>
 						<container type="folder" label="Folder">18</container>
 					</did>
 				</c02>
@@ -2518,7 +2518,7 @@
 					<did>
 						<unittitle>Expanded Database, Educational Technology,
 								<unitdate>1997-1998</unitdate></unittitle>
-						<container type="box" label="Box">43</container>
+						<container type="box" label="box">49</container>
 						<container type="folder" label="Folder">19</container>
 					</did>
 				</c02>
@@ -3020,7 +3020,7 @@
 				<c02>
 					<did>
 						<unittitle>Gatteno, Holzhuetes, <unitdate>1984-1994</unitdate></unittitle>
-						<container type="box" label="Box">43</container>
+						<container type="box" label="box">49</container>
 						<container type="folder" label="Folder">22</container>
 					</did>
 				</c02>
@@ -3268,8 +3268,8 @@
 					<did>
 						<unittitle>Herta Nottleman's Retirement Party,
 							<unitdate>1998</unitdate></unittitle>
-						<container type="box" label="Box">43</container>
-						<container type="folder" label="Folder">22</container>
+						<container type="box" label="box">49</container>
+						<container type="folder" label="Folder">24</container>
 					</did>
 				</c02>
 				<c02>
@@ -3979,7 +3979,7 @@
 					<did>
 						<unittitle>Library Fundraising and Endowments,
 							<unitdate>1985</unitdate></unittitle>
-						<container type="box" label="Box">43</container>
+						<container type="box" label="box">49</container>
 						<container type="folder" label="Folder">24</container>
 					</did>
 				</c02>
@@ -4052,8 +4052,8 @@
 				<c02>
 					<did>
 						<unittitle>Library Publicity, <unitdate>1977-2003</unitdate></unittitle>
-						<container type="box" label="Box">43</container>
-						<container type="folder" label="Folder">23</container>
+						<container type="box" label="box">49</container>
+						<container type="folder" label="Folder">25</container>
 					</did>
 				</c02>
 				<c02>
@@ -4200,16 +4200,16 @@
 					<did>
 						<unittitle>Maps of the Columbian Encounter Videotape,
 								<unitdate>1992</unitdate></unittitle>
-						<container type="box" label="Box">43</container>
-						<container type="folder" label="Folder">25</container>
+						<container type="box" label="box">49</container>
+						<container type="folder" label="Folder">26</container>
 					</did>
 				</c02>
 				<c02>
 					<did>
 						<unittitle>Maps of the Middle East Videotape,
 							<unitdate>1992</unitdate></unittitle>
-						<container type="box" label="Box">43</container>
-						<container type="folder" label="Folder">26</container>
+						<container type="box" label="box">49</container>
+						<container type="folder" label="Folder">27</container>
 					</did>
 				</c02>
 				<c02>
@@ -4649,7 +4649,7 @@
 					<c03>
 						<did>
 							<unittitle>Publicity, <unitdate>2002-2006</unitdate></unittitle>
-							<container type="box" label="Box">43</container>
+							<container type="box" label="box">49</container>
 							<container type="folder" label="Folder">20-21</container>
 						</did>
 					</c03>
@@ -5402,7 +5402,7 @@
 				<c02>
 					<did>
 						<unittitle>Report Re: Bookcases, <unitdate>1966</unitdate></unittitle>
-						<container type="box" label="Box">43</container>
+						<container type="box" label="box">49</container>
 						<container type="folder" label="Folder">28</container>
 					</did>
 				</c02>
@@ -5725,7 +5725,7 @@
 					<did>
 						<unittitle>Seventeenth Century Research Lectures,
 							<unitdate>1980</unitdate></unittitle>
-						<container type="box" label="Box">43</container>
+						<container type="box" label="box">49</container>
 						<container type="folder" label="Folder">29</container>
 					</did>
 				</c02>
@@ -5867,10 +5867,39 @@
 				</c02>
 				<c02>
 					<did>
+						<unittitle>Slovenian Music Collection, <unitdate>1982</unitdate></unittitle>
+						<container type="box" label="Box">42</container>
+						<container type="folder" label="Folder">76</container>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Smithsonian Event, <unitdate>1983</unitdate></unittitle>
+						<container type="box" label="Box">42</container>
+						<container type="folder" label="Folder">77</container>
+					</did>
+				</c02>
+				<c02>
+					<did>
 						<unittitle><title render="italic">Snoopervisors' Weekly Review</title>,
 							1968-1969</unittitle>
 						<container type="box" label="Box">10</container>
 						<container type="folder" label="Folder">21</container>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Snyder, Milwaukee Art Museum,
+							<unitdate>1988</unitdate></unittitle>
+						<container type="box" label="Box">42</container>
+						<container type="folder" label="Folder">78</container>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Solochek Gift, <unitdate>1988</unitdate></unittitle>
+						<container type="box" label="Box">42</container>
+						<container type="folder" label="Folder">79</container>
 					</did>
 				</c02>
 				<c02>
@@ -5889,9 +5918,24 @@
 				</c02>
 				<c02>
 					<did>
+						<unittitle>Sorrin, Saul, Projects,
+							<unitdate>1988-1989</unitdate></unittitle>
+						<container type="box" label="Box">42</container>
+						<container type="folder" label="Folder">80</container>
+					</did>
+				</c02>
+				<c02>
+					<did>
 						<unittitle>Special Collections, 1965</unittitle>
 						<container type="box" label="Box">10</container>
 						<container type="folder" label="Folder">24</container>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Speedskating Program, <unitdate>1988</unitdate></unittitle>
+						<container type="box" label="Box">42</container>
+						<container type="folder" label="Folder">81</container>
 					</did>
 				</c02>
 				<c02>
@@ -6070,14 +6114,14 @@
 					<c03>
 						<did>
 							<unittitle>Browsing Room, <unitdate>1973-1974</unitdate></unittitle>
-							<container type="box" label="Box">43</container>
+							<container type="box" label="box">49</container>
 							<container type="folder" label="Folder">30</container>
 						</did>
 					</c03>
 					<c03>
 						<did>
 							<unittitle>Completion Date, <unitdate>1974-1975</unitdate></unittitle>
-							<container type="box" label="Box">43</container>
+							<container type="box" label="box">49</container>
 							<container type="folder" label="Folder">31</container>
 						</did>
 					</c03>
@@ -6293,6 +6337,14 @@
 				</c02>
 				<c02>
 					<did>
+						<unittitle>20th Century Photograph Program,
+							<unitdate>1979</unitdate></unittitle>
+						<container type="box" label="Box">42</container>
+						<container type="folder" label="Folder">82</container>
+					</did>
+				</c02>
+				<c02>
+					<did>
 						<unittitle>Twenty-Four Hour Library, 1968</unittitle>
 						<container type="box" label="Box">11</container>
 						<container type="folder" label="Folder">33</container>
@@ -6354,9 +6406,23 @@
 					</c03>
 					<c03>
 						<did>
+							<unittitle>1984-1993</unittitle>
+							<container type="box" label="Box">42</container>
+							<container type="folder" label="Folder">83-92</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
 							<unittitle>1988</unittitle>
 							<container type="box" label="Box">26</container>
 							<container type="folder" label="Folder">38</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>1993-1996</unittitle>
+							<container type="box" label="Box">43</container>
+							<container type="folder" label="Folder">1-10</container>
 						</did>
 					</c03>
 					<c03>
@@ -6500,9 +6566,53 @@
 				</c02>
 				<c02>
 					<did>
+						<unittitle>Vizenor Program, <unitdate>1988</unitdate></unittitle>
+						<container type="box" label="Box">43</container>
+						<container type="folder" label="Folder">11</container>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Vogel Talk, Native American Week,
+							<unitdate>1989</unitdate></unittitle>
+						<container type="box" label="Box">43</container>
+						<container type="folder" label="Folder">12</container>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Voice of Turtle Hannukah/Christmas Concert,
+								<unitdate>1989</unitdate></unittitle>
+						<container type="box" label="Box">43</container>
+						<container type="folder" label="Folder">13</container>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Wallis Lecture, <unitdate>1990</unitdate></unittitle>
+						<container type="box" label="Box">43</container>
+						<container type="folder" label="Folder">14</container>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Wallis Talks,  <unitdate>1980</unitdate></unittitle>
+						<container type="box" label="Box">43</container>
+						<container type="folder" label="Folder">15</container>
+					</did>
+				</c02>
+				<c02>
+					<did>
 						<unittitle>Walters, William L., 1968-1970</unittitle>
 						<container type="box" label="Box">12</container>
 						<container type="folder" label="Folder">20</container>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Waste Receptacles, <unitdate>1973</unitdate></unittitle>
+						<container type="box" label="Box">43</container>
+						<container type="folder" label="Folder">16</container>
 					</did>
 				</c02>
 				<c02>
@@ -6525,6 +6635,13 @@
 				</c02>
 				<c02>
 					<did>
+						<unittitle>Weinberg Collection, <unitdate>1980</unitdate></unittitle>
+						<container type="box" label="Box">43</container>
+						<container type="folder" label="Folder">17</container>
+					</did>
+				</c02>
+				<c02>
+					<did>
 						<unittitle>Weinberg, Dudley, 1978-1980</unittitle>
 						<container type="box" label="Box">12</container>
 						<container type="folder" label="Folder">2-23</container>
@@ -6534,7 +6651,7 @@
 					<did>
 						<unittitle>Weinshel, Howard, Donations,
 							<unitdate>1988</unitdate></unittitle>
-						<container type="box" label="Box">43</container>
+						<container type="box" label="box">49</container>
 						<container type="folder" label="Folder">32</container>
 					</did>
 				</c02>
@@ -6564,6 +6681,14 @@
 				</c02>
 				<c02>
 					<did>
+						<unittitle>Wisconsin Council for Geographic Education Meeting Program,
+								<unitdate>1985</unitdate></unittitle>
+						<container type="box" label="Box">43</container>
+						<container type="folder" label="Folder">18</container>
+					</did>
+				</c02>
+				<c02>
+					<did>
 						<unittitle>Wisconsin Department of Public Instruction, 1954-1959</unittitle>
 						<container type="box" label="Box">12</container>
 						<container type="folder" label="Folder">25</container>
@@ -6585,6 +6710,14 @@
 				</c02>
 				<c02>
 					<did>
+						<unittitle>Wisconsin Society of the Children of the American Revolution,
+								<unitdate>1983</unitdate></unittitle>
+						<container type="box" label="Box">43</container>
+						<container type="folder" label="Folder">19</container>
+					</did>
+				</c02>
+				<c02>
+					<did>
 						<unittitle>Witte Collection, 1962</unittitle>
 						<container type="box" label="Box">12</container>
 						<container type="folder" label="Folder">28</container>
@@ -6595,6 +6728,21 @@
 						<unittitle>Woodmansee, Mrs. Webster, 1975-1986</unittitle>
 						<container type="box" label="Box">12</container>
 						<container type="folder" label="Folder">29</container>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle><title>World Anthropology</title> Lecture,
+								<unitdate>1980</unitdate></unittitle>
+						<container type="box" label="Box">43</container>
+						<container type="folder" label="Folder">20</container>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>World's Fairs Lecture, <unitdate>1994</unitdate></unittitle>
+						<container type="box" label="Box">43</container>
+						<container type="folder" label="Folder">21</container>
 					</did>
 				</c02>
 				<c02>
@@ -6718,16 +6866,6 @@
 					<abstract>Additions of Daniel Soref Learning Commons artwork and an oversize
 						exterior photo of the library. Materials are from 2007 and
 						undated.</abstract>
-				</did>
-			</c01>
-			<c01 level="otherlevel" otherlevel="unprocessed" id="acc2009-050">
-				<did>
-					<unitid>Accession 2009-050</unitid>
-					<unittitle>Additions, <unitdate>1963-2006</unitdate></unittitle>
-					<physdesc>
-						<extent>1 cubic ft. (1 box)</extent>
-					</physdesc>
-					<abstract>Additions of partially processed files, dating from 1963 to 2006.</abstract>
 				</did>
 			</c01>
 			<c01 level="otherlevel" otherlevel="unprocessed" id="acc2010-045">
