@@ -37,8 +37,14 @@
 		</profiledesc>
 		<revisiondesc>
 			<change encodinganalog="583">
+				<date normal="2017-01-12">January 12, 2016</date>
+				<item>Christel Maass updated the finding aid after separating AV materials from amid
+					the paper records. Folders in boxes 1, 5, 6, 9, and 12 were renumbered.</item>
+			</change>
+			<change encodinganalog="583">
 				<date normal="2016-05-19">May 19, 2016</date>
-				<item>Christel Maass deleted a line in the abstract referencing other accessions and listed the accessions in the restriction note in chronological order.</item>
+				<item>Christel Maass deleted a line in the abstract referencing other accessions and
+					listed the accessions in the restriction note in chronological order.</item>
 			</change>
 			<change encodinganalog="583">
 				<date normal="2016-04-29">April 29, 2016</date>
@@ -182,7 +188,8 @@
 			<unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma"
 				countrycode="US">Accession 2015-030</unitid>
 			<physdesc label="Quantity">
-				<extent encodinganalog="300">27.8 cubic ft. (48 boxes)</extent>
+				<extent encodinganalog="300">27.6 cubic ft. (48 boxes, including 15 audio reels, 16
+					audio cassettes, and 23 videocassettes)</extent>
 				<extent encodinganalog="300">1 oversize folder</extent>
 				<extent encodinganalog="300">plus additions of 57 cubic ft. (62 boxes), 1 oversize
 					folder, 2693 digital text files, 2 C-type videotapes, and 2 1-inch
@@ -258,8 +265,12 @@
 						<event>Ewa Barczyk, Interim</event>
 					</chronitem>
 					<chronitem>
-						<date>2007- </date>
+						<date>2007-2016</date>
 						<event>Ewa Barczyk</event>
+					</chronitem>
+					<chronitem>
+						<date>2016- </date>
+						<event>Michael Doylen, Interim</event>
 					</chronitem>
 				</chronlist>
 			</bioghist>
@@ -399,7 +410,7 @@
 				</item>
 				<item>
 					<ref target="acc2009-050" show="replace" actuate="onrequest">Accession 2009-050:
-						Additions, 1963-2007</ref>
+						Additions, 1963-2006</ref>
 				</item>
 				<item>
 					<ref target="acc2010-045" show="replace" actuate="onrequest">Accession 2010-045:
@@ -463,7 +474,8 @@
 		<descgrp type="admininfo">
 			<head>Administrative/Restriction Information</head>
 			<accessrestrict encodinganalog="506">
-				<p>The unclassified personnel files in boxes 23-25, accession 1999-059, and box 18 of accession 2006-070 are restricted in accordance with UWM Personnel File
+				<p>The unclassified personnel files in boxes 23-25, accession 1999-059, and box 18
+					of accession 2006-070 are restricted in accordance with UWM Personnel File
 					Policy S-42. Access is regulated by Section III.A.2 and III.A.3.</p>
 				<p>There are no access restrictions on the rest of the collection, which is open to
 					all members of the public in accordance with state law.</p>
@@ -519,7 +531,8 @@
 					Brad Houston supervised processing of accessions 2008-042 and part of 2009-050
 					between 2012-2013. Brad Houston processed additional material in December 2014.
 					Christel Maass processed accession 2000-037 in May 2015 (boxes 47-48). Christel
-					Maass minimally processed acession 2015-030 in February 2016.</p>
+					Maass minimally processed acession 2015-030 in February 2016. Christel Maass
+					separated AV materials from amid the paper records in January 2017.</p>
 				<p>In November 2009, the name of the collection was changed from Golda Meir Library,
 					Office of the Director to University of Wisconsin-Milwaukee Libraries, Office of
 					the Director to reflect the office's most recent official name.</p>
@@ -533,7 +546,8 @@
 					<unittitle>Records, <unitdate type="inclusive" normal="1885/2014"
 							>1885-2014</unitdate></unittitle>
 					<physdesc>
-						<extent>27.8 cubic ft. (48 boxes)</extent>
+						<extent>27.6 cubic ft. (48 boxes, including 15 audio reels, 16 audio
+							cassettes, and 23 videocassettes)</extent>
 						<extent>1 oversize folder</extent>
 					</physdesc>
 				</did>
@@ -818,20 +832,20 @@
 					<c03>
 						<did>
 							<unittitle>1979 February 1</unittitle>
-							<container type="box" label="Box">1</container>
-							<container type="folder" label="Folder">21</container>
+							<container type="box" label="Box">13</container>
+							<container type="audio" label="Audio">1</container>
 							<physdesc>
-								<extent>Audio cassette</extent>
+								<extent>Audio reel (¼ in., 7 ½ ips)</extent>
 							</physdesc>
 						</did>
 					</c03>
 					<c03>
 						<did>
-							<unittitle>Awards, <unitdate>1999</unitdate></unittitle>
+							<unittitle>Awards, <unitdate>1998</unitdate></unittitle>
 							<container type="box" label="Box">44</container>
-							<container type="video" label="Video">13</container>
+							<container type="video" label="Video">1</container>
 							<physdesc>
-								<extent> 1 Videocassette (VHS)</extent>
+								<extent>1 Videocassette (VHS)</extent>
 							</physdesc>
 						</did>
 					</c03>
@@ -839,9 +853,9 @@
 						<did>
 							<unittitle>Bill Roselle, Interview, 1982</unittitle>
 							<container type="box" label="Box">27</container>
-							<container type="audio" label="Audio">1-2</container>
+							<container type="audio" label="Audio">12-13</container>
 							<physdesc>
-								<extent>Audio cassettes</extent>
+								<extent>2 Audio cassettes</extent>
 							</physdesc>
 						</did>
 					</c03>
@@ -856,10 +870,10 @@
 					<c03>
 						<did>
 							<unittitle>Briefing, undated</unittitle>
-							<container type="box" label="Box">1</container>
-							<container type="folder" label="Folder">22</container>
+							<container type="box" label="Box">13</container>
+							<container type="audio" label="Audio">2</container>
 							<physdesc>
-								<extent>Audio cassette</extent>
+								<extent>Audio reel (¼ in., 7 ½ ips)</extent>
 							</physdesc>
 						</did>
 					</c03>
@@ -874,25 +888,14 @@
 						<did>
 							<unittitle>Dedication, 1981</unittitle>
 							<container type="box" label="Box">1</container>
-							<container type="folder" label="Folder">23</container>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>Interview, William Roselle,
-								<unitdate>1982</unitdate></unittitle>
-							<container type="box" label="Box">1</container>
-							<container type="audio" label="Audio">1-2</container>
-							<physdesc>
-								<extent>2 Audio cassettes</extent>
-							</physdesc>
+							<container type="folder" label="Folder">21</container>
 						</did>
 					</c03>
 					<c03>
 						<did>
 							<unittitle>"Megalopolis," 1986 April 30</unittitle>
-							<container type="box" label="Box">1</container>
-							<container type="folder" label="Folder">24</container>
+							<container type="box" label="Box">27</container>
+							<container type="audio" label="Audio">8</container>
 							<physdesc>
 								<extent>Audio cassette</extent>
 							</physdesc>
@@ -900,12 +903,11 @@
 					</c03>
 					<c03>
 						<did>
-							<unittitle>Program, 1978 August 13; William Roselle Interview, 6 June
-								1982</unittitle>
-							<container type="box" label="Box">1</container>
-							<container type="folder" label="Folder">25</container>
+							<unittitle>Program, 1978 August 13</unittitle>
+							<container type="box" label="Box">13</container>
+							<container type="audio" label="Audio">3</container>
 							<physdesc>
-								<extent>Audio cassette</extent>
+								<extent>Audio reel (¼ in., 7 ½ ips)</extent>
 							</physdesc>
 						</did>
 					</c03>
@@ -932,14 +934,14 @@
 						<did>
 							<unittitle>1973-1980</unittitle>
 							<container type="box" label="Box">1</container>
-							<container type="folder" label="Folder">26</container>
+							<container type="folder" label="Folder">22</container>
 						</did>
 					</c03>
 					<c03>
 						<did>
 							<unittitle>Building Committee, 1949-1962</unittitle>
 							<container type="box" label="Box">1</container>
-							<container type="folder" label="Folder">27</container>
+							<container type="folder" label="Folder">23</container>
 						</did>
 					</c03>
 				</c02>
@@ -947,14 +949,14 @@
 					<did>
 						<unittitle>American Periodical Series, 1968-1969</unittitle>
 						<container type="box" label="Box">1</container>
-						<container type="folder" label="Folder">28</container>
+						<container type="folder" label="Folder">24</container>
 					</did>
 				</c02>
 				<c02>
 					<did>
 						<unittitle>American Revolution Bicentennial Committee, 1976</unittitle>
 						<container type="box" label="Box">1</container>
-						<container type="folder" label="Folder">29</container>
+						<container type="folder" label="Folder">25</container>
 					</did>
 				</c02>
 				<c02>
@@ -980,14 +982,14 @@
 						<did>
 							<unittitle>1949-1968</unittitle>
 							<container type="box" label="Box">1</container>
-							<container type="folder" label="Folder">30-33</container>
+							<container type="folder" label="Folder">26-29</container>
 						</did>
 					</c03>
 					<c03>
 						<did>
 							<unittitle>1969-1971, 1983-1989</unittitle>
 							<container type="box" label="Box">1</container>
-							<container type="folder" label="Folder">34</container>
+							<container type="folder" label="Folder">30</container>
 						</did>
 					</c03>
 					<c03>
@@ -1273,9 +1275,6 @@
 						<unittitle>Baier, Joseph G., Memorial Service, 1990</unittitle>
 						<container type="box" label="Box">3</container>
 						<container type="folder" label="Folder">1</container>
-						<physdesc>
-							<extent>Audio cassette</extent>
-						</physdesc>
 					</did>
 				</c02>
 				<c02>
@@ -2263,8 +2262,16 @@
 							1976</unittitle>
 						<container type="box" label="Box">4</container>
 						<container type="folder" label="Folder">23</container>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Davies, Robertson, Friends of the Library Speech, 4 June
+							1976</unittitle>
+						<container type="box" label="Box">13</container>
+						<container type="audio" label="Audio">4</container>
 						<physdesc>
-							<extent>Audio cassette</extent>
+							<extent>Audio reel (¼ in., 7 ½ ips)</extent>
 						</physdesc>
 					</did>
 				</c02>
@@ -2547,7 +2554,8 @@
 					<did>
 						<unittitle>5th Anniversary of the Library Building and the Acquisition of
 							the 1 Millionth Item</unittitle>
-						<container type="box" label="Box">33</container>
+						<container type="box" label="Box">27</container>
+						<container type="audio" label="Audio">10</container>
 						<physdesc>
 							<extent>Audio cassette</extent>
 						</physdesc>
@@ -2753,13 +2761,14 @@
 					<c03>
 						<did>
 							<unittitle>Dinner Speech, 10 June 1977</unittitle>
-							<container type="box" label="Box">5 </container>
-							<container type="folder" label="Folder">10-11</container>
+							<container type="box" label="Box">13</container>
+							<container type="audio" label="Audio">5</container>
 							<physdesc>
-								<extent>Audio cassette</extent>
+								<extent>Audio reel (¼ in., 7 ½ ips)</extent>
 							</physdesc>
 						</did>
 					</c03>
+
 					<c03>
 						<did>
 							<unittitle>European Tour, <unitdate>1985</unitdate></unittitle>
@@ -2780,12 +2789,12 @@
 							<unittitle><title render="italic">Friends News</title>,
 								1961-1962</unittitle>
 							<container type="box" label="Box">5</container>
-							<container type="folder" label="Folder">12</container>
+							<container type="folder" label="Folder">10</container>
 						</did>
 					</c03>
 					<c03>
 						<did>
-							<unittitle> Holiday Program, "When Toys Were Tin",
+							<unittitle>Holiday Program, "When Toys Were Tin",
 									<unitdate>1989</unitdate></unittitle>
 							<container type="box" label="Box">41</container>
 							<container type="folder" label="Folder">28</container>
@@ -2809,7 +2818,7 @@
 						<did>
 							<unittitle>Meetings, 1961-1965</unittitle>
 							<container type="box" label="Box">5</container>
-							<container type="folder" label="Folder">13</container>
+							<container type="folder" label="Folder">11</container>
 						</did>
 					</c03>
 					<c03>
@@ -2823,7 +2832,7 @@
 						<did>
 							<unittitle>Membership Lists, 1963-1965</unittitle>
 							<container type="box" label="Box">5</container>
-							<container type="folder" label="Folder">14</container>
+							<container type="folder" label="Folder">12</container>
 						</did>
 					</c03>
 					<c03>
@@ -2838,7 +2847,7 @@
 						<did>
 							<unittitle>News Releases, 1961-1968</unittitle>
 							<container type="box" label="Box">5</container>
-							<container type="folder" label="Folder">15</container>
+							<container type="folder" label="Folder">13</container>
 						</did>
 					</c03>
 					<c03>
@@ -2892,7 +2901,7 @@
 									<unitdate>1961-1962</unitdate>
 								</unittitle>
 								<container type="box" label="Box">5</container>
-								<container type="folder" label="Folder">16</container>
+								<container type="folder" label="Folder">14</container>
 							</did>
 						</c04>
 						<c04>
@@ -2940,7 +2949,7 @@
 						<did>
 							<unittitle>Treasurer, 1961-1965</unittitle>
 							<container type="box" label="Box">5</container>
-							<container type="folder" label="Folder">17</container>
+							<container type="folder" label="Folder">15</container>
 						</did>
 					</c03>
 					<c03>
@@ -2962,7 +2971,7 @@
 					<did>
 						<unittitle>Frink, Miriam, 1977-1978</unittitle>
 						<container type="box" label="Box">5</container>
-						<container type="folder" label="Folder">18</container>
+						<container type="folder" label="Folder">16</container>
 					</did>
 				</c02>
 				<c02>
@@ -3026,7 +3035,7 @@
 					<did>
 						<unittitle>Gifts, 1975-1982</unittitle>
 						<container type="box" label="Box">5</container>
-						<container type="folder" label="Folder">19</container>
+						<container type="folder" label="Folder">17</container>
 					</did>
 				</c02>
 				<c02>
@@ -3050,17 +3059,6 @@
 								<unitdate>1979</unitdate></unittitle>
 						<container type="box" label="Box">38</container>
 						<container type="folder" label="Folder">8</container>
-					</did>
-				</c02>
-				<c02>
-					<did>
-						<unittitle>Golda Meir Library Negatives,
-							<unitdate>undated</unitdate></unittitle>
-						<container type="box" label="Box">43</container>
-						<container type="folder" label="Folder">23</container>
-						<physdesc>
-							<extent>Negatives</extent>
-						</physdesc>
 					</did>
 				</c02>
 				<c02>
@@ -3092,7 +3090,7 @@
 					<did>
 						<unittitle>Gormley, Mark M., 1962</unittitle>
 						<container type="box" label="Box">5</container>
-						<container type="folder" label="Folder">20</container>
+						<container type="folder" label="Folder">18</container>
 					</did>
 				</c02>
 				<c02>
@@ -3133,7 +3131,7 @@
 						<did>
 							<unittitle>1962-1972</unittitle>
 							<container type="box" label="Box">5</container>
-							<container type="folder" label="Folder">21</container>
+							<container type="folder" label="Folder">19</container>
 						</did>
 					</c03>
 					<c03>
@@ -3148,14 +3146,14 @@
 					<did>
 						<unittitle>Handbook Committee, 1974</unittitle>
 						<container type="box" label="Box">5</container>
-						<container type="folder" label="Folder">22</container>
+						<container type="folder" label="Folder">20</container>
 					</did>
 				</c02>
 				<c02>
 					<did>
 						<unittitle>Handicapped Access, 1984</unittitle>
 						<container type="box" label="Box">5</container>
-						<container type="folder" label="Folder">23</container>
+						<container type="folder" label="Folder">21</container>
 					</did>
 				</c02>
 				<c02>
@@ -3228,7 +3226,7 @@
 					<did>
 						<unittitle>Harrasowitz, Otto, 1967-1968</unittitle>
 						<container type="box" label="Box">5</container>
-						<container type="folder" label="Folder">24</container>
+						<container type="folder" label="Folder">22</container>
 					</did>
 				</c02>
 				<c02>
@@ -3263,7 +3261,7 @@
 					<did>
 						<unittitle>Herriott, Homer, 1965-1969</unittitle>
 						<container type="box" label="Box">5</container>
-						<container type="folder" label="Folder">25</container>
+						<container type="folder" label="Folder">23</container>
 					</did>
 				</c02>
 				<c02>
@@ -3271,7 +3269,7 @@
 						<unittitle>Herta Nottleman's Retirement Party,
 							<unitdate>1998</unitdate></unittitle>
 						<container type="box" label="Box">43</container>
-						<container type="folder" label="Folder"/>
+						<container type="folder" label="Folder">22</container>
 					</did>
 				</c02>
 				<c02>
@@ -3279,7 +3277,7 @@
 						<unittitle><title render="italic">Hiberia-Irelande-Eire: Images of
 								Ireland</title>, 1983</unittitle>
 						<container type="box" label="Box">5</container>
-						<container type="folder" label="Folder">26</container>
+						<container type="folder" label="Folder">24</container>
 					</did>
 				</c02>
 				<c02>
@@ -3301,14 +3299,14 @@
 					<did>
 						<unittitle>History of the Library, 1885-1979</unittitle>
 						<container type="box" label="Box">5</container>
-						<container type="folder" label="Folder">27</container>
+						<container type="folder" label="Folder">25</container>
 					</did>
 				</c02>
 				<c02>
 					<did>
 						<unittitle>Hoffman, Frederick J., 1968</unittitle>
 						<container type="box" label="Box">5</container>
-						<container type="folder" label="Folder">28</container>
+						<container type="folder" label="Folder">26</container>
 					</did>
 				</c02>
 				<c02>
@@ -3368,9 +3366,20 @@
 						<unittitle>Holzheimer Lecture, "Maps and America",
 							<unitdate>2001</unitdate></unittitle>
 						<container type="box" label="Box">44</container>
-						<container type="video" label="Video">10-12</container>
+						<container type="video" label="Video">5-7</container>
 						<physdesc>
 							<extent>3 Videocassettes (VHS)</extent>
+						</physdesc>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Holzheimer Lecture, "The U.S. Geological Survey",
+								<unitdate>1999</unitdate></unittitle>
+						<container type="box" label="Box">44</container>
+						<container type="video" label="Video">4</container>
+						<physdesc>
+							<extent>Videocassette (VHS)</extent>
 						</physdesc>
 					</did>
 				</c02>
@@ -3385,28 +3394,28 @@
 					<did>
 						<unittitle>Howard Stern Memorial Fund, 1968</unittitle>
 						<container type="box" label="Box">5</container>
-						<container type="folder" label="Folder">29</container>
+						<container type="folder" label="Folder">27</container>
 					</did>
 				</c02>
 				<c02>
 					<did>
 						<unittitle>Identification Cards, 1965-1966</unittitle>
 						<container type="box" label="Box">5</container>
-						<container type="folder" label="Folder">30</container>
+						<container type="folder" label="Folder">28</container>
 					</did>
 				</c02>
 				<c02>
 					<did>
 						<unittitle><title render="italic">IMC News Notes</title>, 1965</unittitle>
 						<container type="box" label="Box">5</container>
-						<container type="folder" label="Folder">31</container>
+						<container type="folder" label="Folder">29</container>
 					</did>
 				</c02>
 				<c02>
 					<did>
 						<unittitle><title render="italic">Incipit</title>, 1963-1965</unittitle>
 						<container type="box" label="Box">5</container>
-						<container type="folder" label="Folder">32</container>
+						<container type="folder" label="Folder">30</container>
 					</did>
 				</c02>
 				<c02>
@@ -3420,14 +3429,14 @@
 					<did>
 						<unittitle>Institute of Undergraduate Library Education, 1962</unittitle>
 						<container type="box" label="Box">5</container>
-						<container type="folder" label="Folder">33</container>
+						<container type="folder" label="Folder">31</container>
 					</did>
 				</c02>
 				<c02>
 					<did>
 						<unittitle>Instructional Technology, 1975</unittitle>
 						<container type="box" label="Box">5 </container>
-						<container type="folder" label="Folder">34</container>
+						<container type="folder" label="Folder">32</container>
 					</did>
 				</c02>
 				<c02>
@@ -3438,14 +3447,14 @@
 						<did>
 							<unittitle>1956-1970</unittitle>
 							<container type="box" label="Box">5</container>
-							<container type="folder" label="Folder">35</container>
+							<container type="folder" label="Folder">33</container>
 						</did>
 					</c03>
 					<c03>
 						<did>
 							<unittitle>1975-1982</unittitle>
 							<container type="box" label="Box">5</container>
-							<container type="folder" label="Folder">36</container>
+							<container type="folder" label="Folder">34</container>
 						</did>
 					</c03>
 					<c03>
@@ -3516,9 +3525,10 @@
 				</c02>
 				<c02>
 					<did>
-						<unittitle>Israel: War and Peace, <unitdate>1999</unitdate></unittitle>
+						<unittitle>Israel: War and Peace, with Amos Oz,
+							<unitdate>1997</unitdate></unittitle>
 						<container type="box" label="Box">44</container>
-						<container type="video" label="Video">13</container>
+						<container type="video" label="Video">3</container>
 						<physdesc>
 							<extent>1 Videocassette (VHS)</extent>
 						</physdesc>
@@ -3848,7 +3858,8 @@
 				<c02>
 					<did>
 						<unittitle>Library Automation Speech, Epstein</unittitle>
-						<container type="box" label="Box">33</container>
+						<container type="box" label="Box">27</container>
+						<container type="audio" label="Audio">11</container>
 						<physdesc>
 							<extent>Audio cassette</extent>
 						</physdesc>
@@ -4031,54 +4042,46 @@
 				</c02>
 				<c02>
 					<did>
-						<unittitle>Library Orientation, 1971</unittitle>
+						<unittitle>Library Planning Study Committee,
+							<unitdate>1979-1980</unitdate></unittitle>
 						<container type="box" label="Box">6</container>
 						<container type="folder" label="Folder">35</container>
-						<physdesc>
-							<extent>Audio cassette</extent>
-						</physdesc>
 					</did>
 				</c02>
+
 				<c02>
 					<did>
 						<unittitle>Library Publicity, <unitdate>1977-2003</unitdate></unittitle>
 						<container type="box" label="Box">43</container>
-						<container type="folder" label="Folder"/>
+						<container type="folder" label="Folder">23</container>
 					</did>
 				</c02>
 				<c02>
 					<did>
 						<unittitle>Library Review Audit, 1975</unittitle>
 						<container type="box" label="Box">6</container>
-						<container type="folder" label="Folder">37</container>
-					</did>
-				</c02>
-				<c02>
-					<did>
-						<unittitle>Library Study Planning Committee, 1979-1980</unittitle>
-						<container type="box" label="Box">6</container>
 						<container type="folder" label="Folder">36</container>
 					</did>
 				</c02>
 				<c02>
 					<did>
-						<unittitle>Library Systems Planning Committee, 1979-1980</unittitle>
+						<unittitle>Library Systems Planning Committee, 1977-1978</unittitle>
 						<container type="box" label="Box">6</container>
-						<container type="folder" label="Folder">38</container>
+						<container type="folder" label="Folder">37</container>
 					</did>
 				</c02>
 				<c02>
 					<did>
 						<unittitle>Library Tours, 1973</unittitle>
 						<container type="box" label="Box">6</container>
-						<container type="folder" label="Folder">39</container>
+						<container type="folder" label="Folder">38</container>
 					</did>
 				</c02>
 				<c02>
 					<did>
 						<unittitle>Library Use Survey, 1968-1969</unittitle>
 						<container type="box" label="Box">6</container>
-						<container type="folder" label="Folder">40</container>
+						<container type="folder" label="Folder">39</container>
 					</did>
 				</c02>
 				<c02>
@@ -4231,14 +4234,14 @@
 						<did>
 							<unittitle>1974-1978</unittitle>
 							<container type="box" label="Box">6</container>
-							<container type="folder" label="Folder">41</container>
+							<container type="folder" label="Folder">40-42</container>
 						</did>
 					</c03>
 					<c03>
 						<did>
 							<unittitle>Consultants Visit, 1974</unittitle>
 							<container type="box" label="Box">6</container>
-							<container type="folder" label="Folder">44</container>
+							<container type="folder" label="Folder">43</container>
 						</did>
 					</c03>
 				</c02>
@@ -4246,7 +4249,7 @@
 					<did>
 						<unittitle>Media Distribution, 1973-1982</unittitle>
 						<container type="box" label="Box">6</container>
-						<container type="folder" label="Folder">45-46</container>
+						<container type="folder" label="Folder">44-45</container>
 					</did>
 				</c02>
 				<c02>
@@ -4472,52 +4475,101 @@
 					</c03>
 					<c03>
 						<did>
-							<unittitle>1972-1988</unittitle>
+							<unittitle>1972</unittitle>
 							<container type="box" label="Box">13</container>
-							<container type="video" label="Video">1-14</container>
+							<container type="audio" label="Audio">15</container>
 							<physdesc>
-								<extent>14 Videocassettes (VHS)</extent>
+								<extent>Audio reel (¼ in., 5 ips)</extent>
+							</physdesc>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>1974</unittitle>
+							<container type="box" label="Box">27</container>
+							<container type="audio" label="Audio">23</container>
+							<physdesc>
+								<extent>Audio cassette</extent>
+							</physdesc>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>1975-1977</unittitle>
+							<container type="box" label="Box">13</container>
+							<container type="audio" label="Audio">16-18</container>
+							<physdesc>
+								<extent>3 Audio reels (¼ in., 7 ½ ips)</extent>
+							</physdesc>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>1978-1980</unittitle>
+							<container type="box" label="Box">33</container>
+							<container type="audio" label="Audio">19-21</container>
+							<physdesc>
+								<extent>3 Audio reels (¼ in., 7 ½ ips)</extent>
+							</physdesc>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>1980</unittitle>
+							<container type="box" label="Box">27</container>
+							<container type="audio" label="Audio">24-25</container>
+							<physdesc>
+								<extent>2 Audio cassettes</extent>
+							</physdesc>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>1982</unittitle>
+							<container type="box" label="Box">33</container>
+							<container type="audio" label="Audio">22</container>
+							<physdesc>
+								<extent>Audio reels (¼ in., 7 ½ ips)</extent>
+							</physdesc>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>1983-1986</unittitle>
+							<container type="box" label="Box">27</container>
+							<container type="audio" label="Audio">26-29</container>
+							<physdesc>
+								<extent>4 Audio cassettes </extent>
+							</physdesc>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>1988</unittitle>
+							<container type="box" label="Box">27</container>
+							<container type="audio" label="Audio">30-31</container>
+							<physdesc>
+								<extent>2 Audio cassettes</extent>
 							</physdesc>
 						</did>
 					</c03>
 					<c03>
 						<did>
 							<unittitle>
-								<unitdate>1990-1991, 1997</unitdate>
+								<unitdate>1990-1991</unitdate>, <unitdate>1997</unitdate>
 							</unittitle>
 							<container type="box" label="Box">41</container>
 							<container type="folder" label="Folder">42-45</container>
 						</did>
 					</c03>
+
 					<c03>
 						<did>
-							<unittitle>1993</unittitle>
-							<container type="box" label="Box">13</container>
-							<container type="video" label="Video">15</container>
-							<physdesc>
-								<extent>1 Videocassette (VHS)</extent>
-							</physdesc>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>1994-1999</unittitle>
-							<container type="box" label="Box">33</container>
-							<container type="video" label="Video">1-6</container>
-							<physdesc>
-								<extent>6 Videocassettes (VHS)</extent>
-							</physdesc>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>
-								<unitdate>1999-2007</unitdate>
-							</unittitle>
+							<unittitle>1993-2007</unittitle>
 							<container type="box" label="Box">44</container>
-							<container type="video" label="Video">1-9</container>
+							<container type="video" label="Video">8-23</container>
 							<physdesc>
-								<extent>9 Videocassettes (VHS)</extent>
+								<extent>16 Videocassettes (VHS)</extent>
 							</physdesc>
 						</did>
 					</c03>
@@ -4621,15 +4673,6 @@
 							<unittitle>Symposium, 1970</unittitle>
 							<container type="box" label="Box">8</container>
 							<container type="folder" label="Folder">1</container>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>Videotapes, 1994-1995</unittitle>
-							<container type="box" label="Box">27</container>
-							<physdesc>
-								<extent>2 Videocassettes (VHS)</extent>
-							</physdesc>
 						</did>
 					</c03>
 				</c02>
@@ -4920,17 +4963,6 @@
 						<unittitle>Perline, 1984</unittitle>
 						<container type="box" label="Box">8</container>
 						<container type="folder" label="Folder">47</container>
-					</did>
-				</c02>
-				<c02>
-					<did>
-						<unittitle>Peter Watson-Boone, Interview on WUWM,
-							<unitdate>1993</unitdate></unittitle>
-						<container type="box" label="Box">1</container>
-						<container type="folder" label="Folder">24</container>
-						<physdesc>
-							<extent>1 Audio cassette</extent>
-						</physdesc>
 					</did>
 				</c02>
 				<c02>
@@ -5477,20 +5509,20 @@
 					<c03>
 						<did>
 							<unittitle>1978 March 10</unittitle>
-							<container type="box" label="Box">9 </container>
-							<container type="folder" label="Folder">30</container>
+							<container type="box" label="Box">13</container>
+							<container type="audio" label="Audio">6</container>
 							<physdesc>
-								<extent>Audio cassette</extent>
+								<extent>Audio reel (¼ in., 7 ½ ips)</extent>
 							</physdesc>
 						</did>
 					</c03>
 				</c02>
 				<c02>
 					<did>
-						<unittitle>Schatzman, Erna, Interview with Linda Scott, 29, November
+						<unittitle>Schatzman, Erna, Interview with Linda Scott, 29 November
 							1984</unittitle>
-						<container type="box" label="Box">9</container>
-						<container type="folder" label="Folder">31</container>
+						<container type="box" label="Box">27</container>
+						<container type="audio" label="Audio">9</container>
 						<physdesc>
 							<extent>Audio cassette</extent>
 						</physdesc>
@@ -5500,14 +5532,14 @@
 					<did>
 						<unittitle>Schenck, Quentin F., 1965-1966</unittitle>
 						<container type="box" label="Box">9</container>
-						<container type="folder" label="Folder">32</container>
+						<container type="folder" label="Folder">30</container>
 					</did>
 				</c02>
 				<c02>
 					<did>
 						<unittitle>Schick, Frank G., 1965-1969</unittitle>
 						<container type="box" label="Box">9</container>
-						<container type="folder" label="Folder">33</container>
+						<container type="folder" label="Folder">31</container>
 					</did>
 				</c02>
 				<c02>
@@ -6251,9 +6283,9 @@
 				<c02>
 					<did>
 						<unittitle>20th Anniversary of the Transfer of the AGSL to UWM,
-								<unitdate>1996</unitdate></unittitle>
+								<unitdate>1998</unitdate></unittitle>
 						<container type="box" label="Box">44</container>
-						<container type="video" label="Video">14</container>
+						<container type="video" label="Video">2</container>
 						<physdesc>
 							<extent>1 Videocassette (VHS)</extent>
 						</physdesc>
@@ -6396,17 +6428,6 @@
 				</c02>
 				<c02>
 					<did>
-						<unittitle>The U.S. Geological Survey,
-							<unitdate>undated</unitdate></unittitle>
-						<container type="box" label="Box">44</container>
-						<container type="video" label="Video">15</container>
-						<physdesc>
-							<extent>Videocassette (VHS)</extent>
-						</physdesc>
-					</did>
-				</c02>
-				<c02>
-					<did>
 						<unittitle>UW System University/Industry Cooperation, 1982</unittitle>
 						<container type="box" label="Box">29</container>
 						<container type="folder" label="Folder">8</container>
@@ -6486,8 +6507,10 @@
 				</c02>
 				<c02>
 					<did>
-						<unittitle>Watson-Boone, Peter, WUWM Interview, 1993</unittitle>
+						<unittitle>Watson-Boone, Peter, Interview on WUWM,
+							<unitdate>1993</unitdate></unittitle>
 						<container type="box" label="Box">27</container>
+						<container type="audio" label="Audio">14</container>
 						<physdesc>
 							<extent>Audio cassette</extent>
 						</physdesc>
@@ -6525,10 +6548,10 @@
 				<c02>
 					<did>
 						<unittitle>William Morris Lecture, <date>1976</date></unittitle>
-						<container type="box" label="Box">12</container>
-						<container type="folder" label="Folder">24</container>
+						<container type="box" label="Box">13</container>
+						<container type="audio" label="Audio">7</container>
 						<physdesc>
-							<extent>Audio cassette</extent>
+							<extent>Audio reel (¼ in., 7 ½ ips)</extent>
 						</physdesc>
 					</did>
 				</c02>
@@ -6536,56 +6559,56 @@
 					<did>
 						<unittitle>Wisconsin Architectural Archives, 1985-1988</unittitle>
 						<container type="box" label="Box">12</container>
-						<container type="folder" label="Folder">25</container>
+						<container type="folder" label="Folder">24</container>
 					</did>
 				</c02>
 				<c02>
 					<did>
 						<unittitle>Wisconsin Department of Public Instruction, 1954-1959</unittitle>
 						<container type="box" label="Box">12</container>
-						<container type="folder" label="Folder">26</container>
+						<container type="folder" label="Folder">25</container>
 					</did>
 				</c02>
 				<c02>
 					<did>
 						<unittitle>Wisconsin Free Library Commission, 1955-1961</unittitle>
 						<container type="box" label="Box">12</container>
-						<container type="folder" label="Folder">27</container>
+						<container type="folder" label="Folder">26</container>
 					</did>
 				</c02>
 				<c02>
 					<did>
 						<unittitle>Wisconsin Society for Jewish Learning, 1962-1970</unittitle>
 						<container type="box" label="Box">12</container>
-						<container type="folder" label="Folder">28</container>
+						<container type="folder" label="Folder">27</container>
 					</did>
 				</c02>
 				<c02>
 					<did>
 						<unittitle>Witte Collection, 1962</unittitle>
 						<container type="box" label="Box">12</container>
-						<container type="folder" label="Folder">29</container>
+						<container type="folder" label="Folder">28</container>
 					</did>
 				</c02>
 				<c02>
 					<did>
 						<unittitle>Woodmansee, Mrs. Webster, 1975-1986</unittitle>
 						<container type="box" label="Box">12</container>
-						<container type="folder" label="Folder">30</container>
+						<container type="folder" label="Folder">29</container>
 					</did>
 				</c02>
 				<c02>
 					<did>
 						<unittitle>Xeroxing, 1963-1965</unittitle>
 						<container type="box" label="Box">12</container>
-						<container type="folder" label="Folder">31</container>
+						<container type="folder" label="Folder">30</container>
 					</did>
 				</c02>
 				<c02>
 					<did>
 						<unittitle>Year 2000 Master Plan Committee, 1982</unittitle>
 						<container type="box" label="Box">12</container>
-						<container type="folder" label="Folder">32</container>
+						<container type="folder" label="Folder">31</container>
 					</did>
 				</c02>
 			</c01>
@@ -6700,13 +6723,11 @@
 			<c01 level="otherlevel" otherlevel="unprocessed" id="acc2009-050">
 				<did>
 					<unitid>Accession 2009-050</unitid>
-					<unittitle>Additions, <unitdate>1963-2007</unitdate></unittitle>
+					<unittitle>Additions, <unitdate>1963-2006</unitdate></unittitle>
 					<physdesc>
 						<extent>1 cubic ft. (1 box)</extent>
 					</physdesc>
-					<abstract>Additions of partially processed files, dating from 1963 to 2006, and
-						videos of library programs including the Fromkin and Holzheimer lectures,
-						dating from 1997 to 2007.</abstract>
+					<abstract>Additions of partially processed files, dating from 1963 to 2006.</abstract>
 				</did>
 			</c01>
 			<c01 level="otherlevel" otherlevel="unprocessed" id="acc2010-045">
