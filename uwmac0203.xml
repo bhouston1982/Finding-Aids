@@ -5,13 +5,12 @@
 		dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924"
 		relatedencoding="MARC21">
 		<eadid encodinganalog="856$u" countrycode="us" mainagencycode="wimiugma"
-			url="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uw-mil-uwmac0203"
-			>uw-mil-uw-mil-uwmac0203</eadid>
+			url="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0203"
+			>uw-mil-uwmac0203</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper encodinganalog="245$a">Finding Aid of the UW-Milwaukee Dept. of Social
 					Work Records, 1982-2012</titleproper>
-				<author encodinganalog="245$c"/>
 			</titlestmt>
 			<publicationstmt>
 				<publisher encodinganalog="260$b">University of Wisconsin-Milwaukee Libraries,
@@ -30,7 +29,7 @@
 			</publicationstmt>
 		</filedesc>
 		<profiledesc>
-			<creation encodinganalog="500">Finding aid encoded by Dan Vinson</creation>
+			<creation encodinganalog="500">Finding aid encoded by Phyllis Reske</creation>
 			<langusage encodinganalog="546">Finding aid written in <language encodinganalog="041"
 					langcode="eng" scriptcode="Latn">English.</language></langusage>
 		</profiledesc>
@@ -38,7 +37,7 @@
 	<archdesc level="collection" relatedencoding="MARC21">
 		<did>
 			<physloc type="locationcode" audience="internal">wimiugma</physloc>
-			<unittitle encodinganalog="245$a">UW-Milwaukee Dept. of Social Work Records,<unitdate
+			<unittitle encodinganalog="245$a">UW-Milwaukee Dept. of Social Work Records, <unitdate
 					type="inclusive" encodinganalog="245$f" normal="1982/2012"
 				>1982-2012</unitdate></unittitle>
 			<origination label="Creator">
@@ -56,21 +55,18 @@
 			<repository encodinganalog="852">
 				<extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
 					title="University of Wisconsin-Milwaukee Logo." role="logoimage"/>
-				<extref href="http://www.uwm.edu/Libraries/arch/index.html">
+				<extref href="http://uwm.edu/libraries/archives">
 					<corpname>University of Wisconsin-Milwaukee Libraries, Archives
 						Department</corpname>
 				</extref>
 			</repository>
-			<physloc/>
-			<abstract encodinganalog="520">The collection contains syllabi files from the Department
-				of Social Work, dating from 1982 to 2012. The Department, which is one of two in the
-				Helen Bader School of Social Welfare, maintained these central files of course
-				syllabi per the UW-Milwaukee Uniform Syllabus Policy. The syllabi include
-				information on departmental policies, course schedules, course readings, and
-				information on teaching faculty. Accession 2015-017 include additions of restricted
-				executive committee meeting minutes, dating from 1995 to 2000. The records include
-				decisions made on tenure and promotion, and other sensitive matters pertaining to
-				the department (1.4 cubic ft., 2 boxes).</abstract>
+			<abstract encodinganalog="520">Syllabi files from the Department of Social Work, dating from 1982
+				to 2012. The Department, which is one of two in the Helen Bader School of Social
+				Welfare, maintained these central files of course syllabi per the UW-Milwaukee
+				Uniform Syllabus Policy. The syllabi include information on departmental policies,
+				course schedules, course readings, and information on teaching faculty. Accession
+				2015-017 includes additions of restricted executive committee meeting minutes,
+				dating from 1995 to 2000. </abstract>
 			<langmaterial encodinganalog="546" label="Language">
 				<language encodinganalog="041" langcode="eng">English</language>
 			</langmaterial>
@@ -155,9 +151,10 @@
 			</bioghist>
 		</bioghist>
 		<scopecontent encodinganalog="520">
-			<p>The majority of the collection contains course syllabi from courses offered 
-				by the Department from 1982-2012. Accession 2015-017 includes restricted 
-				executive committee meeting minutes from 1995 to 2000.</p>
+			<p>The majority of the collection contains course syllabi from courses offered by the Department
+				between 1982 and 2012. Accession 2015-017 includes restricted executive committee
+				meeting minutes from 1995 to 2000. These minutes include decisions made on tenure and
+				promotion, and other sensitive matters pertaining to the department.</p>
 		</scopecontent>
 		<arrangement encodinganalog="351">
 			<p>The syllabi files are organized by course number, then chronologically. Accession
@@ -193,10 +190,11 @@
 		<descgrp type="admininfo">
 			<head>Administrative/Restriction Information</head>
 			<accessrestrict encodinganalog="506">
-				<p>The executive committee records (accession 2015-017) are restricted in accordance
-					with UWM Personnel File Policy S-42. Access is regulated by Section III.A.2 and
-					III.A.3. There are no access restrictions on the rest of the collection, which
-					is open to all members of the public in accordance with state law. </p>
+				<p>The executive committee records in  accession 2015-017 are restricted in accordance with UWM
+					Personnel File Policy S-42. Access is regulated by Section III.A.2 and
+					III.A.3.</p>
+				<p> There are no access restrictions on the rest of the collection, which is open to
+					all members of the public in accordance with state law. </p>
 			</accessrestrict>
 			<userestrict encodinganalog="540">
 				<p>The researcher assumes full responsibility for conforming with the laws of libel,
@@ -204,16 +202,16 @@
 					(Wisconsin Statutes 19.21-19.39).</p>
 			</userestrict>
 			<acqinfo encodinganalog="541">
-				<p>The Department of Social Work donated the materials in ??? (orig. 4 boxes). The
-					syllabi files were transferred to the Archives in 2012 and 2014 (accessions
-					2012-047 and 2014-018). The executive committee records (accession 2015-2017)
-					were donated in 2015. NOT DONE.</p>
+				<p>The Department of Social Work donated accession 2007-042 in April 2008. Additional accessions
+					of syllabi files were transferred in March 2013 (accession 2012-047) and August
+					2014 (accession 2014-018). The executive committee records (accession 2015-017)
+					were transferred to the archives in October 2015.</p>
 			</acqinfo>
 			<processinfo encodinganalog="583">
-				<p>??? processed the original collection in ??? (original 4 boxes). Brad Houston
-					minimally processed accession 2015-017. Phyllis Reske minimally processed
+				<p>Jenny Juno processed accession 2007-042 in May 2008 (Brad Houston supervised). Brad Houston
+					minimally processed accession 2015-017 in October 2015. Phyllis Reske processed
 					accessions 2012-047 and 2014-018 in December 2016 and created a finding aid for
-					the collection in January 2017 (Brad Houston supervised).NOT DONE</p>
+					the collection in January 2017 (Brad Houston supervised).</p>
 			</processinfo>
 		</descgrp>
 		<dsc type="combined">
@@ -234,24 +232,48 @@
 					<c03>
 						<did>
 							<unittitle>
-								<unitdate>2001-2012</unitdate>
+								<unitdate>1982-2012</unitdate>
 							</unittitle>
 						</did>
 						<c04>
 							<did>
-								<unittitle>Course Numbers 100-851</unittitle>
+								<unittitle>Course Numbers 100-851, <unitdate>2001-2011</unitdate></unittitle>
 								<container type="box" label="Box">5</container>
 							</did>
 						</c04>
 						<c04>
 							<did>
-								<unittitle>Course Numbers 100-941</unittitle>
+								<unittitle>Course Numbers 100-915, <unitdate>1987-1991</unitdate></unittitle>
+								<container type="box" label="Box">2</container>
+							</did>
+						</c04>
+						<c04>
+							<did>
+								<unittitle>Course Numbers 100-915, <unitdate>1992-1996</unitdate></unittitle>
+								<container type="box" label="Box">3</container>
+							</did>
+						</c04>
+						<c04>
+							<did>
+								<unittitle>Course Numbers 100-915, <unitdate>1996-2000</unitdate></unittitle>
+								<container type="box" label="Box">4</container>
+							</did>
+						</c04>
+						<c04>
+							<did>
+								<unittitle>Course Numbers 100-941, <unitdate>2001-2012</unitdate></unittitle>
 								<container type="box" label="Box">6</container>
 							</did>
 						</c04>
 						<c04>
 							<did>
-								<unittitle>Course Numbers 708-991</unittitle>
+								<unittitle>Course Numbers 100-990, <unitdate>1982-1986</unitdate></unittitle>
+								<container type="box" label="Box">1</container>
+							</did>
+						</c04>
+						<c04>
+							<did>
+								<unittitle>Course Numbers 708-991, <unitdate>2001-2012</unitdate></unittitle>
 								<container type="box" label="Box">7</container>
 							</did>
 						</c04>
