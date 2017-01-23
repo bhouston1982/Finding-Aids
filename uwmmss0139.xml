@@ -22,8 +22,7 @@
           <addressline>Archives Department</addressline>
           <addressline>P.O. Box 604</addressline>
           <addressline>Milwaukee, Wisconsin 53201-0604</addressline>
-          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr
-              href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
+          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
         </address>
         <date encodinganalog="260$c" type="publication" normal="2008">Copyright &#169; 2008
           University of Wisconsin Board of Regents</date>
@@ -35,7 +34,12 @@
           langcode="eng" scriptcode="Latn">English.</language></langusage>
     </profiledesc>
     <revisiondesc>
-      <change encodinganalog="583"><date normal="2017-01-04">January 4, 2017</date><item>Brad Houston updated the finding aid to </item></change>
+      <change encodinganalog="583">
+        <date normal="2017-01-23">January 23, 2017</date>
+        <item>Brad Houston updated the finding aid to reflect addition of electronic records to the
+          collection. Changes were made to titleproper, extent, processinfo, arrangement, phystech,
+          and the contents list (Series 1, 2, 2A, 7,and 8). </item>
+      </change>
       <change encodinganalog="583">
         <date normal="2016-05-06">May 6, 2016</date>
         <item>Charles Hosale updated the finding aid restricting use of the oral history physical
@@ -141,28 +145,17 @@
       <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
         >UWM Manuscript Collection 139</unitid>
       <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
-        >Accession 2010-043</unitid>
-      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
-        >Accession 2010-046</unitid>
-      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
         >Accession 2011-011</unitid>
-      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
-        >Accession 2013-038</unitid>
-      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
-        >Accession 2013-055</unitid>
-      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
-        >Accession 2014-015</unitid>
       <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
         >Accession 2015-035</unitid>
       <physdesc label="Quantity">
         <extent encodinganalog="300">259.7 cubic ft. (510 boxes)</extent>
         <extent encodinganalog="300">40 binders</extent>
         <extent encodinganalog="300">1 oversize folder</extent>
-        <extent encodinganalog="300">14,386 digital files (60.3 GB)</extent>
- <extent encodinganalog="300">1 film reel</extent>
+        <extent encodinganalog="300">30,895 digital files (79.5 GB)</extent>
+        <extent encodinganalog="300">1 film reel</extent>
         <extent encodinganalog="300">4 safety film negatives</extent>
-        <extent encodinganalog="300">plus additions 12 cubic ft. (21 boxes), 13 pdfs, and 2,236
-          digital files</extent>
+        <extent encodinganalog="300">plus additions of 6 cubic ft. (6 boxes)</extent>
       </physdesc>
       <repository encodinganalog="852">
         <extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
@@ -282,28 +275,8 @@
       <p>The collection contains additional accessions.</p>
       <list type="simple">
         <item>
-          <ref target="acc2010-043" show="replace" actuate="onrequest">Accession 2010-043: Board of
-            Directors Meeting Documents, 2009</ref>
-        </item>
-        <item>
-          <ref target="acc2010-046" show="replace" actuate="onrequest">Accession 2010-046: Board of
-            Directors Documents and Committee Workbook, 2010-2011</ref>
-        </item>
-        <item>
           <ref target="acc2011-011" show="replace" actuate="onrequest">Accession 2011-011:
             Additions, 1988-2010</ref>
-        </item>
-        <item>
-          <ref target="acc2013-038" show="replace" actuate="onrequest">Accession 2013-038:
-            Publications and Annual Meeting Minutes, 1997-2013</ref>
-        </item>
-        <item>
-          <ref target="acc2013-055" show="replace" actuate="onrequest">Accession 2013-055: Board of
-            Directors Agenda Materials, 2009-2014</ref>
-        </item>
-        <item>
-          <ref target="acc2014-015" show="replace" actuate="onrequest">Accession 2014-015: Annual
-            Meetings and Conferences, and Digital Images, 1996-2013</ref>
         </item>
         <item>
           <ref target="acc2015-035" show="replace" actuate="onrequest">Accession 2015-035:
@@ -312,7 +285,7 @@
       </list>
     </arrangement>
     <otherfindaid encodinganalog="555">
-      <p>Finding aid for accession 2013-038, 2014-015, and 2015-035 available in the Archives.</p>
+      <p>Finding aid for accession 2015-035 available in the Archives.</p>
     </otherfindaid>
     <prefercite encodinganalog="524">
       <p>
@@ -358,10 +331,16 @@
           channel .mp3 files.</p>
       </processinfo>
       <phystech audience="internal" encodinganalog="538">
-        <p>As of June 12, 2013, all electronic files were accessible on a Intel Core 2 Duo CPU (2.33
-          GHz, 1.95 GB RAM) running Windows XP Professional Version 2002, with Service Pack 3.
-          Software used to access the files includes Windows Picture and Fax Viewer, Adobe Reader
-          XI, and Microsoft Office Suite 2007.</p>
+        <p>As of January 2017 electronic files were accessible on a Intel Core i5-4570 CPU (3.20
+          GHz, 4 GB RAM) running Windows 7, with Service Pack 1. Major exceptions for accessible
+          files are some of the programs used to provide embedded access to poster abstracts and
+          educational programs, many of which were designed for Windows 3.1 or earlier and do not
+          function properly on modern systems. The Archives has made the PDFs of the abstracts and
+          articles themselves available where possible in these cases. The software is being
+          preserved in binary format in the event that the Archives acquires the technology to make
+          this software usable. Software used to access the files includes Windows Picture and Fax
+          Viewer, Google Chrome, Windows Media Player, Adobe Reader XI, and Microsoft Office Suite
+          2007.</p>
         <p>The collection includes records in the following file formats:</p>
         <list type="marked">
           <item>Windows Media Audio [.wma]</item>
@@ -392,15 +371,14 @@
             <extent encodinganalog="300">257.9 cubic ft. (741 boxes)</extent>
             <extent encodinganalog="300">40 binders</extent>
             <extent encodinganalog="300">1 oversize folder</extent>
-            <extent encodinganalog="300">115 digital audio files (13.4 GB)</extent>
-            <extent encodinganalog="300">982 digital text files (700 MB)</extent>
+            <extent encodinganalog="300">30,895 digital files (79.5 GB)</extent>
             <extent encodinganalog="300">1 film reel</extent>
             <extent encodinganalog="300">4 safety film negatives</extent>
           </physdesc>
         </did>
         <c02 id="series1" level="series">
           <did>
-            <unittitle>1. Executive Committee and Board of Directors, 1944-2009</unittitle>
+            <unittitle>1. Executive Committee and Board of Directors, 1944-2015</unittitle>
           </did>
           <accessrestrict>
             <p>This series is restricted.</p>
@@ -1940,6 +1918,12 @@
           </c03>
           <c03>
             <did>
+              <unittitle>Meeting Agendas, <unitdate>2005-2015</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
               <unittitle>Meeting Minutes</unittitle>
             </did>
             <c04>
@@ -2084,6 +2068,12 @@
                   <unittitle>1998 June, November</unittitle>
                   <container type="box" label="Box">597</container>
                   <container type="folder" label="Folder">19-20</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle><unitdate>2001-2015</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
                 </did>
               </c05>
             </c04>
@@ -2551,17 +2541,28 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Abstracts, <unitdate>2009</unitdate></unittitle>
-              <container type="box" label="Box">720</container>
-              <container type="folder" label="Folder">5</container>
+              <unittitle>Abstracts</unittitle>
             </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Abstracts, Late Breaking, 2005</unittitle>
-              <container type="box" label="Box">540</container>
-              <container type="folder" label="Folder">1</container>
-            </did>
+            <c04>
+              <did>
+                <unittitle><unitdate>1997-2011</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><unitdate>2009</unitdate></unittitle>
+                <container type="box" label="Box">720</container>
+                <container type="folder" label="Folder">5</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Late Breaking, 2005</unittitle>
+                <container type="box" label="Box">540</container>
+                <container type="folder" label="Folder">1</container>
+              </did>
+            </c04>
           </c03>
           <c03>
             <did>
@@ -3623,13 +3624,7 @@
             <c04>
               <did>
                 <unittitle>2009</unittitle>
-                <physdesc>
-                  <extent>Digital text files</extent>
-                </physdesc>
-              </did>
-              <accessrestrict>
-                <p>Use network access copies.</p>
-              </accessrestrict>
+                <container type="electronic" label="Electronic Folder"></container></did>
             </c04>
           </c03>
           <c03>
@@ -4453,6 +4448,9 @@
                 <container type="folder" label="Folder">9</container>
               </did>
             </c04>
+          </c03>
+          <c03>
+            <did><unittitle><unitdate>2000-2004</unitdate></unittitle><container type="electronic" label="Electronic Folder"></container></did>
           </c03>
           <c03>
             <did>
@@ -17314,6 +17312,7 @@
                   </did>
                 </c06>
               </c05>
+              
               <c05>
                 <did>
                   <unittitle>2004</unittitle>
@@ -17327,6 +17326,9 @@
                     </physdesc>
                   </did>
                 </c06>
+              </c05>
+              <c05>
+                <did><unittitle><unitdate>2015</unitdate></unittitle><container type="electronic" label="Ekectronic Folder"></container></did>
               </c05>
             </c04>
             <c04>
@@ -17845,6 +17847,8 @@
                     <extent>208 audio cassettes</extent>
                   </physdesc>
                 </did>
+              </c05><c05>
+                <did><unittitle><unitdate>2003-2007</unitdate>, <unitdate>2015</unitdate></unittitle><container type="electronic" label="Ekectronic Folder"></container></did>
               </c05>
               <c05>
                 <did>
@@ -18413,6 +18417,9 @@
                   <unittitle>1999</unittitle>
                   <container type="binder" label="Binder">31</container>
                 </did>
+              </c05>
+              <c05>
+                <did><unittitle><unitdate>1999-2013</unitdate></unittitle><container type="electronic" label="Ekectronic Folder"></container></did>
               </c05>
               <c05>
                 <did>
@@ -19544,6 +19551,7 @@
               <p>Use CD 51 access copy</p>
             </accessrestrict>
           </c03>
+          <c03><did><unittitle>ACAAI Exam Review, <unitdate>2007-2008</unitdate></unittitle><container type="electronic" label="Electronic Folder"></container></did></c03>
           <c03>
             <did>
               <unittitle>Activities Calendar, 1986-1993</unittitle>
@@ -19585,6 +19593,12 @@
               <container type="box" label="Box">380</container>
               <container type="folder" label="Folder">6</container>
             </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Allergies, <unitdate>circa 2010</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"></container>
+                          </did>
           </c03>
           <c03>
             <did>
@@ -19949,6 +19963,12 @@
               <unittitle>Asthma &#8217;95, 1995</unittitle>
               <container type="box" label="Box">380</container>
               <container type="folder" label="Folder">13</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Asthma, <unitdate>circa 2010</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"></container>
             </did>
           </c03>
           <c03>
@@ -21312,6 +21332,12 @@
           </c03>
           <c03>
             <did>
+              <unittitle>Novel Therapies in Allergic Disease, <unitdate>2000</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"></container>
+            </did>
+          </c03>
+          <c03>
+            <did>
               <unittitle>Occupational Asthma: In and Out of the Workplace, Program, 1998</unittitle>
               <container type="box" label="Box">474</container>
               <container type="folder" label="Folder">1</container>
@@ -21869,6 +21895,12 @@
               <unittitle>Vaccines: New Approaches and Concepts, 1994</unittitle>
               <container type="box" label="Box">386</container>
               <container type="folder" label="Folder">10</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Webinars, <unitdate>2003</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"></container>
             </did>
           </c03>
           <c03>
@@ -26823,38 +26855,15 @@
           </c03>
         </c02>
       </c01>
-      <c01 level="otherlevel" otherlevel="unprocessed" id="acc2010-043">
-        <did>
-          <unitid>Accession 2010-043</unitid>
-          <unittitle>Board of Directors Meeting Documents, <unitdate>2009</unitdate></unittitle>
-          <physdesc>
-            <extent>9 pdfs</extent>
-          </physdesc>
-          <abstract>Additions of Board of Directors meeting documents from 2009.</abstract>
-        </did>
-      </c01>
-      <c01 level="otherlevel" otherlevel="unprocessed" id="acc2010-046">
-        <did>
-          <unitid>Accession 2010-046</unitid>
-          <unittitle>Board of Directors Documents and Committee Workbook,
-              <unitdate>2010-2011</unitdate></unittitle>
-          <physdesc>
-            <extent>4 pdfs</extent>
-          </physdesc>
-          <abstract>Additions of Board of Directors documents from 2010 and a proposed AAAAI
-            Committee Workbook, 2010/2011.</abstract>
-        </did>
-      </c01>
-      <c01 level="otherlevel" otherlevel="unprocessed" id="acc2011-011">
+     
+            <c01 level="otherlevel" otherlevel="unprocessed" id="acc2011-011">
         <did>
           <unitid>Accession 2011-011</unitid>
           <unittitle>Additions, <unitdate>1988-2010</unitdate></unittitle>
           <physdesc>
             <extent>2 cubic ft. (2 boxes)</extent>
-            <extent>1,186 digital files</extent>
-          </physdesc>
-          <abstract>Additions of files pertaining to drug studies, dating 1988 to 1991; and JACI
-            Poster Abstracts, dating 2010.</abstract>
+                      </physdesc>
+          <abstract>Additions of files pertaining to drug studies, dating 1988 to 1991.</abstract>
         </did>
       </c01>
       <c01 level="otherlevel" otherlevel="unprocessed" id="acc2013-038">
@@ -26869,29 +26878,7 @@
             2013.</abstract>
         </did>
       </c01>
-      <c01 level="otherlevel" otherlevel="unprocessed" id="acc2013-055">
-        <did>
-          <unitid>Accession 2013-055</unitid>
-          <unittitle>Board of Directors Agenda Materials, <unitdate>2009-2014</unitdate></unittitle>
-          <physdesc>
-            <extent>72 digital files</extent>
-          </physdesc>
-          <abstract>Additions of Board of Directors agenda materials, 2009-2014.</abstract>
-        </did>
-      </c01>
-      <c01 level="otherlevel" otherlevel="unprocessed" id="acc2014-015">
-        <did>
-          <unitid>Accession 2014-015</unitid>
-          <unittitle> Digital Images, <unitdate>1996-2013</unitdate></unittitle>
-          <physdesc>
-            <extent>978 digital files</extent>
-          </physdesc>
-          <abstract>There are 978 digital files to this accession. The other part of the accession,
-            15 boxes (6 cubic ft.) of annual meeting materials, has been incorporated into the
-            collection.</abstract>
-        </did>
-      </c01>
-      <c01 level="otherlevel" otherlevel="minimal" id="acc2015-035">
+                 <c01 level="otherlevel" otherlevel="minimal" id="acc2015-035">
         <did>
           <unitid>Accession 2015-035</unitid>
           <unittitle>Publications and Other Additions, <unitdate>1995-2015</unitdate></unittitle>
