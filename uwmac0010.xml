@@ -903,7 +903,7 @@
 					</c03>
 					<c03>
 						<did>
-							<unittitle>Program, <unitdate>1978</unitdate> August 13</unittitle>
+							<unittitle>Program, <unitdate>1978 August 13</unitdate></unittitle>
 							<container type="box" label="Box">13</container>
 							<container type="audio" label="Audio">3</container>
 							<physdesc>
@@ -987,14 +987,14 @@
 					</c03>
 					<c03>
 						<did>
-							<unittitle><unitdate>1969-1971</unitdate>, <unitdate>1983-1989</unitdate></unittitle>
+							<unittitle><unitdate>1969-1989</unitdate></unittitle>
 							<container type="box" label="Box">1</container>
 							<container type="folder" label="Folder">30</container>
 						</did>
 					</c03>
 					<c03>
 						<did>
-							<unittitle><unitdate>1974-1975</unitdate>, <unitdate>1990-1991</unitdate></unittitle>
+							<unittitle><unitdate>1974-1991</unitdate></unittitle>
 							<container type="box" label="Box">26</container>
 							<container type="folder" label="Folder">4</container>
 						</did>
@@ -1692,7 +1692,7 @@
 				<c02>
 					<did>
 						<unittitle><title render="italic">Catalog of Films and Video Tapes</title>,
-							<unitdate>1971</unitdate>, <unitdate>1976-1986</unitdate>, <unitdate>undated</unitdate></unittitle>
+							<unitdate>1971-1986</unitdate>, <unitdate>undated</unitdate></unittitle>
 						<container type="box" label="Box">3</container>
 						<container type="folder" label="Folder">32</container>
 					</did>
@@ -1738,7 +1738,7 @@
 					</c03>
 					<c03>
 						<did>
-							<unittitle>Cost Studies, <unitdate>1966</unitdate>, <unitdate>1983</unitdate></unittitle>
+							<unittitle>Cost Studies, <unitdate>1966-1983</unitdate></unittitle>
 							<container type="box" label="Box">3</container>
 							<container type="folder" label="Folder">39</container>
 						</did>
