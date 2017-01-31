@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ascii"?>
-<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
+ <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > 
 <!-- wiarchives version:2009-09-24 -->
 <ead id="uw-mil-uwmmss0172" relatedencoding="MARC21">
   <eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
@@ -35,6 +35,13 @@
           langcode="eng" scriptcode="Latn">English.</language></langusage>
     </profiledesc>
     <revisiondesc>
+      <change encodinganalog="583">
+        <date normal="2016-01-25">January 31, 2016</date>
+        <item>Brad Houston updated the finding aid to reflect addition of the electronic records
+          accessions in the backlog. Changes were made to extent, unitdate, arrangement, processinfo,
+          otherfindaid, phystech, and the contents list (Series 1.27, 7.15, 8.1, 8.4, 9.1, 9.2, and
+          9.3).</item>
+      </change>
       <change encodinganalog="583">
         <date normal="2016-10-13">October 13, 2016</date>
         <item>Brad Houston updated the finding aid to reflect addition of the SAA Oral History
@@ -176,15 +183,12 @@
         <extent encodinganalog="300">271.9 cubic ft. (385 boxes, including 16 audio cassettes and 33
           videocassettes)</extent>
         <extent encodinganalog="300">1 oversize folder</extent>
-        <extent encodinganalog="300">463 digital audio files (11.6 GB)</extent>
-        <extent encodinganalog="300">326 digital video files (791 MB)</extent>
-        <extent encodinganalog="300">149 digital text files (181 MB)</extent>
+        <extent encodinganalog="300">8,182 digital files (26.3 GB)</extent>
         <extent encodinganalog="300">1 film reel</extent>
         <extent encodinganalog="300">5 microfilm reels</extent>
         <extent encodinganalog="300">approximately 170 books and serial titles</extent>
         <extent encodinganalog="300">plus additions of 2.1 cubic feet (5 boxes and 1
           folder)</extent>
-        <extent encodinganalog="300">plus additions of electronic records</extent>
       </physdesc>
       <repository encodinganalog="852">
         <extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
@@ -198,9 +202,7 @@
         contains materials from the organization of the SAA in 1936 to present day. The main record
         groups document the activities of the SAA officers; councilors; executive directors; the
         editorship of <title render="italic">The American Archivist</title>; and SAA committees,
-        roundtables, sections, and task forces.<lb/><lb/>Collection includes additional accessions
-        of electronic records. Contact the UWM Libraries' Archives Department for more
-        information.</abstract>
+        roundtables, sections, and task forces.<lb/><lb/></abstract>
       <langmaterial encodinganalog="546" label="Language">
         <language encodinganalog="041" langcode="eng">English</language>
       </langmaterial>
@@ -457,7 +459,7 @@
         materials.</p>
       <list type="ordered" numeration="arabic">
         <item>
-          <ref target="subgrp1" show="replace" actuate="onrequest">President, 1935-1997<list
+          <ref target="subgrp1" show="replace" actuate="onrequest">President, 1935-2012<list
               type="ordered" numeration="arabic">
               <item>
                 <ref target="presrenze" show="replace" actuate="onrequest">Dolores C. Renze,
@@ -564,6 +566,10 @@
               <item>
                 <ref target="preericson" show="replace" actuate="onrequest">Timothy Ericson,
                   2003-2004</ref>
+              </item>
+              <item>
+                <ref target="pretrinkausrandall" show="replace" actuate="onrequest">Gregor
+                  Trinkaus-Randall, 2011-2012</ref>
               </item>
             </list></ref>
         </item>
@@ -904,7 +910,7 @@
         </item>
         <item>
           <ref target="subgrp7" show="replace" actuate="onrequest">American Archivist,
-              1936-2001<list type="simple">
+              1936-2012<list type="simple">
               <item>
                 <ref target="aapease" show="replace" actuate="onrequest">1. Theodore C. Pease,
                   1936-1946</ref>
@@ -976,7 +982,7 @@
               </item>
               <item>
                 <ref target="aaadministrative" show="replace" actuate="onrequest">15. Administrative
-                  Files, 1984-2001</ref>
+                  Files, 1984-2012</ref>
               </item>
               <item>
                 <ref target="aacorrespondence" show="replace" actuate="onrequest">18.
@@ -985,11 +991,11 @@
             </list></ref>
         </item>
         <item>
-          <ref target="subgrp8" show="replace" actuate="onrequest">Units, 1944-2012<list
+          <ref target="subgrp8" show="replace" actuate="onrequest">Units, 1944-2013<list
               type="ordered" numeration="arabic">
               <item>
                 <ref target="unitcommittees" show="replace" actuate="onrequest">Committees,
-                  1944-2006</ref>
+                  1944-2013</ref>
               </item>
               <item>
                 <ref target="unittfs" show="replace" actuate="onrequest">Task Forces,
@@ -1011,22 +1017,22 @@
         </item>
         <item>
           <ref target="subgrp9" show="replace" actuate="onrequest">Annual Meeting Files,
-            Audio-Visual Formats, and Publications, 1937-2006<list type="ordered"
+            Audio-Visual Formats, and Publications, 1937-2014<list type="ordered"
               numeration="arabic">
               <item>
                 <ref target="annualmeetings1" show="replace" actuate="onrequest">Annual Meetings,
-                  1937-2003</ref>
+                  1937-2004</ref>
               </item>
               <item>
                 <ref target="photographs1" show="replace" actuate="onrequest">Photographs,
-                  1937-2002</ref>
+                  1937-2014</ref>
               </item>
               <item>
                 <ref target="soundrecordings1" show="replace" actuate="onrequest">Sound Recordings,
-                    1988-2008<list type="marked">
+                    1988-2012<list type="marked">
                     <item>
                       <ref target="annualmeetings2" show="replace" actuate="onrequest">Annual
-                        Meetings, 1988-2008</ref>
+                        Meetings, 1988-2012</ref>
                     </item>
                   </list></ref>
               </item>
@@ -1128,12 +1134,10 @@
       </list>
     </arrangement>
     <otherfindaid encodinganalog="555">
-      <p>A spreadsheet with file-level information on the electronic records in series 8.3 and 9.3
-        is available in the Archives department. For Series 9.3, the spreadsheet contains
-        information on approximate date of recording, duration of recording, image size, file
-        format, file size, and software used to create the files. For Series 8.3, the spreadsheet
-        contains information on document titles, authors, file format, file size, and approximate
-        date of creation. Additional technical metadata is available; see an archivist for
+      <p>A spreadsheet with file-level information on the electronic records in series 1.27, 8.1,
+        8.3, 8.4, 9.1, 9.2, and 9.3 is available in the Archives department. These spreadsheets are
+        organized by accession, and some crosswalking may be necessary to find metadata for
+        particular files. Additional technical metadata is available; see an archivist for
         details.</p>
     </otherfindaid>
     <prefercite encodinganalog="524">
@@ -1144,9 +1148,10 @@
       </p>
     </prefercite>
     <phystech audience="internal" encodinganalog="532">
-      <p>As of October 10, 2016, all electronic files were accessible on an Intel Core i5-4570 CPU (3.20 GHz, 4 GB RAM) running Windows 7 Enterprise
-        with service pack 1. Software used to access the files includes Windows Picture and Fax
-        Viewer, Adobe Reader, Windows Notepad, LibreOffice, and Windows Media Player.</p>
+      <p>As of January 25, 2017, all electronic files were accessible on an Intel Core i5-4570 CPU
+        (3.20 GHz, 4 GB RAM) running Windows 7 Enterprise with service pack 1. Software used to
+        access the files includes Windows Picture and Fax Viewer, Adobe Reader, Windows Notepad,
+        LibreOffice, and Windows Media Player.</p>
       <p>The collection includes records in the following file formats:</p>
       <list type="marked">
         <item>MPEG 1/2 Audio Layer 3 [.mp3]</item>
@@ -1159,6 +1164,9 @@
         <item>QuickTime for Windows [.mov]</item>
         <item>Microsoft Excel 97-2003 [.xls]</item>
         <item>Windows Media Video [.wmv]</item>
+        <item>Acrobat Portable Document Format 1.4 [.pdf]</item>
+        <item>Tagged Image File Format [.tif]</item>
+        <item>JPEG File Interchange Format [.jpg]</item>
       </list>
     </phystech>
     <relatedmaterial encodinganalog="544 1">
@@ -1285,9 +1293,7 @@
             <extent encodinganalog="300">271.9 cubic ft. (385 boxes, including 16 audio cassettes
               and 33 videocassettes)</extent>
             <extent encodinganalog="300">1 oversize folder</extent>
-            <extent encodinganalog="300">463 digital audio files (11.6 GB)</extent>
-            <extent encodinganalog="300">321 digital video files (428 MB)</extent>
-            <extent encodinganalog="300">154 other digital files (544 MB)</extent>
+            <extent encodinganalog="300">7,545 digital files (26.2 GB)</extent>
             <extent encodinganalog="300">1 film reel</extent>
             <extent encodinganalog="300">5 microfilm reels</extent>
             <extent encodinganalog="300">approximately 170 books and serial titles</extent>
@@ -1296,7 +1302,7 @@
         <c02 id="subgrp1" level="subgrp">
           <did>
             <unitid label="Call Number">200/01</unitid>
-            <unittitle>1. President, <unitdate>1935-1997</unitdate></unittitle>
+            <unittitle>1. President, <unitdate>1935-2012</unitdate></unittitle>
           </did>
           <scopecontent>
             <p>This subgroup contains presidents' correspondence with other SAA officers and <title
@@ -4742,7 +4748,7 @@
               </c05>
               <c05>
                 <did>
-                  <unittitle>Editorial Board, Publications,1987-1988</unittitle>
+                  <unittitle>Editorial Board, Publications, 1987-1988</unittitle>
                   <container type="box" label="Box">1</container>
                   <container type="folder" label="Folder">13</container>
                 </did>
@@ -5825,7 +5831,7 @@
           <c03 id="preericson" level="otherlevel" otherlevel="sub-subgrp">
             <did>
               <unitid label="Call Number">200/01/27</unitid>
-              <unittitle>26. Timothy Ericson, <unitdate>2003-2004</unitdate></unittitle>
+              <unittitle>27. Timothy Ericson, <unitdate>2003-2004</unitdate></unittitle>
               <physdesc label="Quantity">
                 <extent encodinganalog="300">.2 cubic ft. (1 Box)</extent>
               </physdesc>
@@ -5835,6 +5841,45 @@
                 <unittitle>Archivist of the United States, <unitdate>2004</unitdate></unittitle>
                 <container type="box" label="Box">1</container>
                 <container type="folder" label="Folder">1</container>
+              </did>
+            </c04>
+          </c03>
+          <c03 id="pretrinkausrandall" level="otherlevel" otherlevel="sub-subgrp">
+            <did>
+              <unitid>200/01/27</unitid>
+              <unittitle>28. Gregor Trinkaus-Randall, <unitdate>2011-2012</unitdate></unittitle>
+              <physdesc label="Quantity">
+                <extent encodinganalog="300">201 digital files (22 MB)</extent>
+              </physdesc>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Articles &amp; Presentations, <unitdate>2003-2011</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Council Reports, <unitdate>2010-2011</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Discussion Items, <unitdate>2010-2012</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Fellow Nomination Information, <unitdate>2006-2013</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>General Presidential Files, <unitdate>2011-2012</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
               </did>
             </c04>
           </c03>
@@ -35997,7 +36042,7 @@
           <did>
             <unitid label="Call Number">200/07</unitid>
             <unittitle>7. <title render="italic">American Archivist</title>,
-                <unitdate>1936-2001</unitdate></unittitle>
+                <unitdate>1936-2012</unitdate></unittitle>
           </did>
           <scopecontent>
             <p>This record subgroup consists of records relating to the production of the <title
@@ -38296,12 +38341,17 @@
           <c03 id="aaadministrative" level="series">
             <did>
               <unitid label="Call Number">200/07/15</unitid>
-              <unittitle>15. Administrative Files, <unitdate>1984-2002</unitdate></unittitle>
+              <unittitle>15. Administrative Files, <unitdate>1984-2012</unitdate></unittitle>
               <physdesc label="Quantity">
                 <extent encodinganalog="300">.8 cubic ft. (2 boxes)</extent>
               </physdesc>
             </did>
             <c04>
+              <did>
+                <unittitle>A*CENSUS, <unitdate>2006-2008</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+              </did>
+            </c04><c04>
               <did>
                 <unittitle>Articles Pending</unittitle>
               </did>
@@ -38320,8 +38370,7 @@
                 </did>
               </c05>
             </c04>
-
-            <c04>
+                        <c04>
               <did>
                 <unittitle>Authors Assignment of Rights to SAA, 1983-1989</unittitle>
                 <container type="box" label="Box">3</container>
@@ -38356,7 +38405,13 @@
                 <container type="folder" label="Folder">4</container>
               </did>
             </c04>
-
+            <c04>
+              <did>
+                <unittitle>Authors Assignment of Rights to SAA,
+                  <unitdate>2008-2009</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+              </did>
+            </c04>
 
             <c04>
               <did>
@@ -38427,6 +38482,12 @@
               </c05>
               <c05>
                 <did>
+                  <unittitle>Minutes and Agendas, <unitdate>2006-2011</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                </did>
+              </c05>
+              <c05>
+                <did>
                   <unittitle>Proposals/CVs, 1994</unittitle>
                   <container type="box" label="Box">1</container>
                   <container type="folder" label="Folder">12</container>
@@ -38468,6 +38529,12 @@
             </c04>
             <c04>
               <did>
+                <unittitle>Indexing Project, <unitdate>2006-2007</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+              </did>
+            </c04>
+            <c04>
+              <did>
                 <unittitle>Letters to the Editor, 1992-1993</unittitle>
                 <container type="box" label="Box">1</container>
                 <container type="folder" label="Folder">15</container>
@@ -38485,6 +38552,12 @@
                 <unittitle>Policies and Procedures Manual, undated</unittitle>
                 <container type="box" label="Box">1</container>
                 <container type="folder" label="Folder">16</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Presidential Addresses, <unitdate>2006-2012</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
               </did>
             </c04>
             <c04>
@@ -38723,7 +38796,7 @@
           <c03 id="unitcommittees" level="otherlevel" otherlevel="sub-subgrp">
             <did>
               <unitid label="Call Number">200/08/01</unitid>
-              <unittitle>1. Committees, <unitdate>1944-2006</unitdate></unittitle>
+              <unittitle>1. Committees, <unitdate>1944-2013</unitdate></unittitle>
               <physdesc label="Quantity">
                 <extent encodinganalog="300">27.4 cubic ft. (37 boxes)</extent>
               </physdesc>
@@ -39217,6 +39290,7 @@
                 </did>
               </c05>
             </c04>
+            
             <c04>
               <did>
                 <unittitle>Archival History Committee, 1976-1977</unittitle>
@@ -40007,6 +40081,12 @@
               </c05>
               <c05>
                 <did>
+                  <unittitle>General Files, <unitdate>2011-2013</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                </did>
+              </c05>
+              <c05>
+                <did>
                   <unittitle>Gondos Memorial Award, 1972-1977</unittitle>
                   <container type="box" label="Box">9</container>
                   <container type="folder" label="Folder">4</container>
@@ -40157,6 +40237,12 @@
                   <unittitle>Pease Award, Background, 1986-1992</unittitle>
                   <container type="box" label="Box">22</container>
                   <container type="folder" label="Folder">15</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Pease Award Subcommittee Minutes,
+                    <unitdate>2010-2011</unitdate></unittitle>
                 </did>
               </c05>
               <c05>
@@ -42507,6 +42593,13 @@
                   <container type="folder" label="Folder">4</container>
                 </did>
               </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Preservation Publication Award Committee,
+                  <unitdate>2001-2003</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+              </did>
             </c04>
             <c04>
               <did>
@@ -45794,7 +45887,7 @@
           <c03 id="unitsections" level="otherlevel" otherlevel="sub-subgrp">
             <did>
               <unitid label="Call Number">200/08/03</unitid>
-              <unittitle>3. Sections, <unitdate>1971-2014</unitdate></unittitle>
+              <unittitle>3. Sections, <unitdate>1971-2016</unitdate></unittitle>
               <physdesc label="Quantity">
                 <extent encodinganalog="300">7.5 cubic ft. (15 boxes)</extent>
               </physdesc>
@@ -46917,13 +47010,19 @@
             </c04>
             <c04>
               <did>
-                <unittitle>Manuscript Repositories Section, 1979-2003</unittitle>
+                <unittitle>Manuscript Repositories Section, 1979-2011</unittitle>
               </did>
               <c05>
                 <did>
                   <unittitle>Agendas and Goals, 1985-1986</unittitle>
                   <container type="box" label="Box">12</container>
                   <container type="folder" label="Folder">19</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Annual Meetings, <unitdate>2008-2010</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
                 </did>
               </c05>
               <c05>
@@ -46984,6 +47083,12 @@
               </c05>
               <c05>
                 <did>
+                  <unittitle>General Files, <unitdate>2009</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                </did>
+              </c05>
+              <c05>
+                <did>
                   <unittitle>Meetings, 1979-1988</unittitle>
                   <container type="box" label="Box">6</container>
                   <container type="folder" label="Folder">45</container>
@@ -47020,9 +47125,27 @@
               </c05>
               <c05>
                 <did>
+                  <unittitle>Newsletters, <unitdate>2007-2009</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                </did>
+              </c05>
+              <c05>
+                <did>
                   <unittitle>Nominations and Elections Committee, 1985-1986</unittitle>
                   <container type="box" label="Box">6</container>
                   <container type="folder" label="Folder">48</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Reports, <unitdate>2009-2010</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Session Proposals, <unitdate>2009</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
                 </did>
               </c05>
               <c05>
@@ -47038,6 +47161,13 @@
                     1979-1982</unittitle>
                   <container type="box" label="Box">2</container>
                   <container type="folder" label="Folder">9</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Steering Committee Meeting Minutes,
+                    <unitdate>2007-2010</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
                 </did>
               </c05>
               <c05>
@@ -47185,9 +47315,27 @@
               </c05>
               <c05>
                 <did>
+                  <unittitle>Annual Reports, <unitdate>2007</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Bylaws, <unitdate>2008</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                </did>
+              </c05>
+              <c05>
+                <did>
                   <unittitle>Newsletters, 1995-2003</unittitle>
                   <container type="box" label="Box">7</container>
                   <container type="folder" label="Folder">10</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Newsletters, <unitdate>2004-2008</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
                 </did>
               </c05>
               <c05>
@@ -48049,6 +48197,12 @@
               </did>
               <c05>
                 <did>
+                  <unittitle>Administrative Files, <unitdate>2006-2007</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                </did>
+              </c05>
+              <c05>
+                <did>
                   <unittitle>Annual Reports, 1983-1997</unittitle>
                   <container type="box" label="Box">7</container>
                   <container type="folder" label="Folder">11</container>
@@ -48393,7 +48547,7 @@
           <c03 id="unitroundtables" level="otherlevel" otherlevel="sub-subgrp">
             <did>
               <unitid label="Call Number">200/08/04</unitid>
-              <unittitle>4. Roundtables, <unitdate>1984-2008</unitdate></unittitle>
+              <unittitle>4. Roundtables, <unitdate>1984-2012</unitdate></unittitle>
               <physdesc label="Quantity">
                 <extent encodinganalog="300">2.6 cubic ft. (7 boxes)</extent>
               </physdesc>
@@ -48676,6 +48830,13 @@
             </c04>
             <c04>
               <did>
+                <unittitle>Electronic Archival Description (EAD) Roundtable Help Pages,
+                    <unitdate>2008-2010</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+              </did>
+            </c04>
+            <c04>
+              <did>
                 <unittitle>Electronic Records Roundtable, 1993</unittitle>
               </did>
               <c05>
@@ -48728,13 +48889,7 @@
                   <container type="folder" label="Folder">1</container>
                 </did>
               </c05>
-              <c05>
-                <did>
-                  <unittitle>Annual Reports, 2003-2007</unittitle>
-                  <container type="box" label="Box">6</container>
-                  <container type="folder" label="Folder">2</container>
-                </did>
-              </c05>
+
               <c05>
                 <did>
                   <unittitle>Annual Meeting, 1990-1991</unittitle>
@@ -48744,9 +48899,28 @@
               </c05>
               <c05>
                 <did>
+                  <unittitle>Annual Meetings, <unitdate>2001-2006</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                </did>
+              </c05>
+              <c05>
+                <did>
                   <unittitle>Annual Report, 1987-1989</unittitle>
                   <container type="box" label="Box">1</container>
                   <container type="folder" label="Folder">23</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Annual Reports, <unitdate>2001-2006</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Annual Reports, 2003-2007</unittitle>
+                  <container type="box" label="Box">6</container>
+                  <container type="folder" label="Folder">2</container>
                 </did>
               </c05>
               <c05>
@@ -48765,6 +48939,12 @@
               </c05>
               <c05>
                 <did>
+                  <unittitle>Labor History Month, <unitdate>2008</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                </did>
+              </c05>
+              <c05>
+                <did>
                   <unittitle>Newsletter, 1986-1989</unittitle>
                   <container type="box" label="Box">1</container>
                   <container type="folder" label="Folder">25</container>
@@ -48775,6 +48955,12 @@
                   <unittitle>Retreat, 2006</unittitle>
                   <container type="box" label="Box">6</container>
                   <container type="folder" label="Folder">4</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Retreat Materials and Notes, <unitdate>2006</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
                 </did>
               </c05>
             </c04>
@@ -49246,8 +49432,14 @@
             </c04>
             <c04>
               <did>
-                <unittitle>Records Management Roundtable, 1996-2008</unittitle>
+                <unittitle>Records Management Roundtable, 1996-2012</unittitle>
               </did>
+              <c05>
+                <did>
+                  <unittitle>Accessibility Working Group, <unitdate>2008-2009</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                </did>
+              </c05>
               <c05>
                 <did>
                   <unittitle>Correspondence, Proposals, 1996-2007</unittitle>
@@ -49264,6 +49456,12 @@
               </c05>
               <c05>
                 <did>
+                  <unittitle>Minutes and Annual Reports, <unitdate>2002-2009</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                </did>
+              </c05>
+              <c05>
+                <did>
                   <unittitle>Newsletters, 1997-2001</unittitle>
                   <container type="box" label="Box">3</container>
                   <container type="folder" label="Folder">3</container>
@@ -49271,9 +49469,27 @@
               </c05>
               <c05>
                 <did>
+                  <unittitle>Newsletters, <unitdate>1998-2010</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                </did>
+              </c05>
+              <c05>
+                <did>
                   <unittitle>Newsletters, 2006-2008</unittitle>
                   <container type="box" label="Box">6</container>
                   <container type="folder" label="Folder">21</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Resources and Publications, <unitdate>2008-2012</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Website, <unitdate>2007-2010</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
                 </did>
               </c05>
             </c04>
@@ -49652,7 +49868,7 @@
           <c03 id="annualmeetings1" level="series">
             <did>
               <unitid label="Call Number">200/09/01</unitid>
-              <unittitle>1. Annual Meetings, <unitdate>1937-2011</unitdate></unittitle>
+              <unittitle>1. Annual Meetings, <unitdate>1937-2014</unitdate></unittitle>
               <physdesc label="Quantity">
                 <extent encodinganalog="300">4 cubic ft. (4 boxes)</extent>
               </physdesc>
@@ -52049,6 +52265,12 @@
                   <container type="folder" label="Folder">21</container>
                 </did>
               </c05>
+              <c05>
+                <did>
+                  <unittitle>Program Committee, <unitdate>2000-2001</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                </did>
+              </c05>
             </c04>
             <c04>
               <did>
@@ -52195,6 +52417,13 @@
               </did>
               <c05>
                 <did>
+                  <unittitle>Host Committee, <unitdate>2003-2004</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+
+                </did>
+              </c05>
+              <c05>
+                <did>
                   <unittitle>Program, 2004</unittitle>
                   <container type="box" label="Box">4</container>
                   <container type="folder" label="Folder">38</container>
@@ -52296,7 +52525,7 @@
           <c03 id="photographs1" level="series">
             <did>
               <unitid label="Call Number">200/09/02</unitid>
-              <unittitle>2. Photographs, <unitdate>1937-2002</unitdate></unittitle>
+              <unittitle>2. Photographs, <unitdate>1937-2014</unitdate></unittitle>
               <physdesc label="Quantity">
                 <extent encodinganalog="300">1.9 cubic ft. (3 box and 1 oversize folder)</extent>
               </physdesc>
@@ -54109,6 +54338,12 @@
             </c04>
             <c04>
               <did>
+                <unittitle>Annual Meetings, <unitdate>2004-2014</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+              </did>
+            </c04>
+            <c04>
+              <did>
                 <unittitle>Archival Repository (Unidentified), Interior View, undated</unittitle>
                 <container type="box" label="Box">1</container>
                 <container type="photograph" label="Photograph">400</container>
@@ -55452,6 +55687,12 @@
             </c04>
             <c04>
               <did>
+                <unittitle>Publicity Images, <unitdate>2007</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+              </did>
+            </c04>
+            <c04>
+              <did>
                 <unittitle>Purdy, Virginia, 1979</unittitle>
                 <container type="box" label="Box">1</container>
                 <container type="photograph" label="Photograph">461</container>
@@ -55923,7 +56164,7 @@
           <c03 id="soundrecordings1" level="series">
             <did>
               <unitid label="Call Number"/>
-              <unittitle>3. Sound Recordings, <unitdate>1988-2008</unitdate></unittitle>
+              <unittitle>3. Sound Recordings, <unitdate>1988-2012</unitdate></unittitle>
               <physdesc label="Quantity">
                 <extent encodinganalog="300">6 cubic ft. (6 boxes)</extent>
                 <extent encodinganalog="300">373 digital audio files</extent>
@@ -55931,12 +56172,12 @@
             </did>
             <scopecontent>
               <p>The series consists of recorded sessions from the SAA annual meetings, 1988-1995
-                and 1997-2007. Researchers should consult the annual meeting programs to determine
+                and 1997-2012. Researchers should consult the annual meeting programs to determine
                 if a session was recorded.</p>
             </scopecontent>
             <c04 id="annualmeetings2" level="subseries">
               <did>
-                <unittitle>Annual Meetings, 1988-2008</unittitle>
+                <unittitle>Annual Meetings, 1988-2012</unittitle>
               </did>
               <c05>
                 <did>
@@ -56055,9 +56296,6 @@
                   </physdesc>
                 </did>
               </c05>
-
-
-
               <c05>
                 <did>
                   <unittitle>Annual Meeting, <unitdate>2003</unitdate></unittitle>
@@ -56129,6 +56367,27 @@
                   <physdesc>
                     <extent>54 digital audio files</extent>
                   </physdesc>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Annual Meeting, <unitdate>2010</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Annual Meeting, <unitdate>2011</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Annual Meeting, <unitdate>2012</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+
                 </did>
               </c05>
             </c04>
