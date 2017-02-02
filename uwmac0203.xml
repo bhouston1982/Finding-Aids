@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd" [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
+ <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd" [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > 
 <ead id="uw-mil-uwmac0203" relatedencoding="MARC21">
 	<eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
 		dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924"
@@ -64,7 +64,7 @@
 				Social Welfare, maintained these central files of course syllabi per the
 				UW-Milwaukee Uniform Syllabus Policy. The syllabi include information on
 				departmental policies, course schedules, course readings, and information on
-				teaching faculty. Accession 2015-017 includes additions of restricted executive
+				teaching faculty. The collection also includes additions of restricted executive
 				committee meeting minutes, dating from 1995 to 2000. </abstract>
 			<langmaterial encodinganalog="546" label="Language">
 				<language encodinganalog="041" langcode="eng">English</language>
@@ -156,8 +156,13 @@
 				tenure and promotion, and other sensitive matters pertaining to the department.</p>
 		</scopecontent>
 		<arrangement encodinganalog="351">
-			<p>The syllabi files are organized chronologically, then by course number. Accession
-				2015-017 is organized by subject, then chronologically.</p>
+			<list type="simple"><item>
+				<ref target="uwmac0203" show="replace" actuate="onrequest">UWM Archival Collection 203: UW-Milwaukee Dept. of Social Work Records, 
+					Records, 1982-2012</ref>
+			</item></list>
+			<p>The syllabi files are organized chronologically, then by course number.</p>
+			<p>The collection contains one additional accession:</p>
+			<list type="simple"><item><ref target="acc2015-017" show="replace" actuate="onrequest">Accession 2015-017: Executive Committee Meeting Minutes, 1995-2000</ref></item></list>
 		</arrangement>
 		<prefercite encodinganalog="524">
 			<p>
@@ -273,6 +278,16 @@
 					</c03>
 				</c02>
 			</c01>
+			<c01 level="otherlevel" otherlevel="minimal" id="acc2015-017">
+				<did><unitid>Accession 2015-017</unitid>
+				<unittitle>Executive Committee Meeting Minutes, <unitdate type="inclusive" normal="1995/2000">1995-2000</unitdate></unittitle>
+					<physdesc>
+						<extent>1.4 cubic ft. (2 boxes)</extent>
+					</physdesc>
+					<abstract>Executive Committee Meeting Minutes, 1995-2000. Includes decisions made on tenure and promotion and other sensitive matters pertaining to the operation of the department. Minutes of meetings discussing consideration of faculty tenure include closed-session discussion of personnel actions and decisions, merit review scores, and course evaluation summaries.</abstract></did>
+				<accessrestrict><p>The accession is restricted under UWM Select Policy S-42 (Personnel File Policy), as well as the closed meeting session provisions in Wis. Stat. 19.85 (c). Consult an archivist for additional information.</p></accessrestrict>
+			</c01>
+		
 		</dsc>
 	</archdesc>
 </ead>
