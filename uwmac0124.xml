@@ -787,6 +787,13 @@
           </c03>
           <c03>
             <did>
+              <unittitle><title render="italic">The Hobbit</title>, Theatre Sans Fil <unitdate>1985</unitdate></unittitle>
+              <container type="box" label="Box">9</container>
+              <container type="folder" label="Folder">13</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
               <unittitle>Homecoming, <unitdate>1982-1986</unitdate></unittitle>
               <container type="box" label="Box">10</container>
               <container type="folder" label="Folder">1-3</container>
