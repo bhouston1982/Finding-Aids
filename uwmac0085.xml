@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ascii" standalone="no"?>
-<!--<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
+<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
 <!-- wiarchives version:2008-07-08 -->
 <ead id="uw-mil-uwmac0085" relatedencoding="MARC21">
   <eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
@@ -35,6 +35,17 @@
           langcode="eng" scriptcode="Latn">English.</language></langusage>
     </profiledesc>
     <revisiondesc>
+      <change encodinganalog="583">
+        <date normal="2017-02-09">February 9, 2017</date>
+        <item>Ashlie Biddle removed records from the Dept of Theatre in February 2017 and placed them
+          in other locations due to the unrelated nature of the contents to the Dept of Theatre
+          records. A box of materials, mostly covering Fine Arts programs, sponsorships, and events,
+          was transferred to the Peck School of Fine Arts, Office of the Dean Records (UWM AC 81). A
+          folder was integrated into the Student Union Collection (UWM AC 124) because the show was
+          performed in the Student Union by an outside theater troupe. Several folders containing
+          records of the Dept of Dance as well as a box of dance posters was moved to the Dept of
+          Dance Records (UWM AC 30).</item>
+      </change>
       <change encodinganalog="583">
         <date normal="2016-10-13">October 13, 2016</date>
         <item>Christel Maass made several corrections.</item>
@@ -272,6 +283,14 @@
       <head>Deaccession Information</head>
       <p>A Pabst Brewing Company poster was separated from accession 2015-009 and placed in the
         Pabst Brewing Company Records collection (UWM Mss 161) in an oversize folder.</p>
+    </separatedmaterial>
+    <separatedmaterial encodinganalog="544 0">
+      <head>Deaccession Information</head>
+      <p>Materials were separated from accessions 2015-009 and 2015-033 and placed in the UWM Peck
+        School of Arts, Office of the Dean Records(UWM AC 81) as Box 28. A folder of records
+        containing information on a performance by Theatre Sans Fil was transferred to Box 9 in the
+        Student Union Collection (UWM AC 124). Several folders and a box of dance posters were
+        transferred to the Dept of Dance Records (UWM AC 30).</p>
     </separatedmaterial>
     <descgrp type="admininfo">
       <head>Administrative/Restriction Information</head>
