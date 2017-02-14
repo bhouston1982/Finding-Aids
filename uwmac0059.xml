@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="ascii" standalone="no"?>
+<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
+<!-- wiarchives version:2008-05-22 -->
+<ead id="uw-mil-uwmac0059" relatedencoding="MARC21">
+  <eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
+    dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924"
+    relatedencoding="MARC21">
+    <eadid countrycode="US" mainagencycode="wimiugma"
+      url="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0059"
+      encodinganalog="856$u">uw-mil-uwmac0059</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245$a">Finding Aid of the UW-Milwaukee Center for Great Lakes
+          Studies, Office of the Director Records, 1963-1994</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="260$b">University of Wisconsin-Milwaukee Libraries, Archives
+          Department</publisher>
+        <address>
+          <addressline>University of Wisconsin-Milwaukee</addressline>
+          <addressline>UWM Libraries</addressline>
+          <addressline>Archives Department</addressline>
+          <addressline>P.O. Box 604</addressline>
+          <addressline>Milwaukee, Wisconsin 53201-0604</addressline>
+          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr
+              href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
+        </address>
+        <date encodinganalog="260$c" type="publication" normal="2007">Copyright &#169; 2007
+          University of Wisconsin Board of Regents</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation encodinganalog="500">Finding aid encoded by Christel Maass</creation>
+      <langusage encodinganalog="546">Finding aid written in <language encodinganalog="041"
+          langcode="eng" scriptcode="Latn">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change encodinganalog="583">
+        <date normal="2017-02-02">February 2, 2017</date>
+        <item>Christel Maass added an item, formerly cataloged, to box 4 of the collection and
+          updated the contents list.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2012-09-17">September 17, 2015</date>
+        <item>Christel Maass made some additional udpates to the finding aid.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2012-09-09">September 9, 2015</date>
+        <item>Molly Whiteside updated the contents list to reflect the addition of dribble.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2012-05-08">May 8, 2012</date>
+        <item>Brad Houston updated the related materials note to reflect a name change to UWM AC
+          12.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2012-01-18">January 18, 2012</date>
+        <item>Brad Houston added links to publications currently digitized in MINDS@UW. Changes were
+          made to altformatavail and the contents list.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="collection" relatedencoding="MARC21">
+    <did>
+      <physloc type="locationcode" audience="internal">wimiugma</physloc>
+      <unittitle encodinganalog="245$a">UW-Milwaukee Center for Great Lakes Studies, Office of the
+        Director Records, <unitdate type="inclusive" encodinganalog="245$f" normal="1963/1994"
+          >1963-1994</unitdate></unittitle>
+      <origination label="Creator">
+        <corpname encodinganalog="110">University of Wisconsin-Milwaukee. Center for Great Lakes
+          Studies. Office of the Director</corpname>
+      </origination>
+      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
+        >UWM Archival Collection 59</unitid>
+      <physdesc label="Quantity">
+        <extent encodinganalog="300">2.4 cubic ft. (5 boxes)</extent>
+      </physdesc>
+      <repository encodinganalog="852">
+        <extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
+          title="University of Wisconsin-Milwaukee Logo." role="logoimage"/>
+        <extref href="http://www.uwm.edu/Libraries/arch/index.html">
+          <corpname>University of Wisconsin-Milwaukee Libraries, Archives Department</corpname>
+        </extref>
+      </repository>
+      <abstract encodinganalog="520">Collection consists of miscellaneous records of the center,
+        mostly dating from the 1970s. The correspondence files include letters to and from UWM
+        administrators concerning the center, including the Dean of the College of Letters &amp;
+        Science Joseph G. Baier and Director Clifford H. Mortimer. The correspondence files document
+        concerns over funding; the purchase of a research facility for the center; staffing,
+        including the efforts to attract Mortimer to head the center; and research projects. Also
+        contains some files on the Council for Marine Studies, which directed marine research at the
+        UW campuses; the acquisition and conversion of the Research Vessel (R/V) Neeskay, including
+        photographs of its launching; proposals and requests for additional support for the Sea
+        Grant Program from the National Science Foundation; and the proceedings of the 1973
+        Conference on Port Planning and Development as Related to Problems of U.S. Ports and the
+        U.S. Coastal Environment. About half of the collection consists of publications issued by
+        the Center, most dating from the 1970s.</abstract>
+      <langmaterial encodinganalog="546" label="Language">
+        <language encodinganalog="041" langcode="eng">English</language>
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="545">
+      <p>On 1 April 1963, Dean Joseph G. Baier appointed an <emph render="italic">ad hoc</emph>
+        committee to begin planning for the establishment of a Center for Great Lakes Studies, which
+        was to be a interdisciplinary unit consolidating research in the physical, chemical, and
+        biological aspects of the Great Lakes. The center's first acting coordinator was appointed
+        on 15 October 1964. The center was officially established in February 1966. Between
+        1964-1973, the center was administered by the College of Letters &amp; Science; beginning in
+        the Fall of 1973, it was administered by the Graduate School. The Great Lakes Research
+        Facility was purchased in 1973, and is administered by UWM for the UW System.</p>
+    </bioghist>
+    <arrangement encodinganalog="351">
+      <p>The files are organized alphabetically by subject, then chronologically.</p>
+      <p>Publications are organized alphabetically by author in boxes 3-5.</p>
+    </arrangement>
+    <prefercite encodinganalog="524">
+      <p>
+        <extref
+          href="http://uwm.edu/libraries/archives/research/citation-guide-for-primary-sources/"
+          >Citation Guide for Primary Sources</extref>
+      </p>
+    </prefercite>
+    <altformavail encodinganalog="530">
+      <head>Alternate Format</head>
+      <p>Selections from this collection are included in the UWM MINDS@UW collection for the <extref
+          href="http://minds.wisconsin.edu/handle/1793/48047" actuate="onrequest" show="new">
+          <title render="italic">Publications of the Great Lakes Center for Research</title>
+        </extref>.</p>
+    </altformavail>
+    <relatedmaterial encodinganalog="544 1">
+      <head>Related Material in the UWM Libraries</head>
+      <archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0001"
+        actuate="onrequest" show="new">
+        <unittitle>UW-Milwaukee College of Letters &amp; Science Records</unittitle>
+        <unitid>UWM Archival Collection 1</unitid>
+      </archref>
+      <archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0012"
+        actuate="onrequest" show="new">
+        <unittitle>UW-Milwaukee Office of the Provost and Vice Chancellor for Academic Affairs
+          Records</unittitle>
+        <unitid>UWM Archival Collection 12</unitid>
+      </archref>
+    </relatedmaterial>
+    <descgrp type="admininfo">
+      <head>Administrative/Restriction Information</head>
+      <accessrestrict encodinganalog="506">
+        <p>There are no access restrictions on the materials, and the collection is open to all
+          members of the public in accordance with state law.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>The researcher assumes full responsibility for conforming with the laws of libel,
+          privacy, and copyright which may be involved in the use of this collection (Wisconsin
+          Statutes 19.21-19.39).</p>
+      </userestrict>
+      <acqinfo encodinganalog="541">
+        <p>An unknown individual transferred the collection to the Archives prior to 1989. The
+          provenance of the records is unclear. Many of the records in the collection were created
+          or compiled by the dean or an associate dean of the College of Letters &amp; Science. It
+          is not known if these records were later brought together by the deans or the director of
+          the center, or if they were separated from other files by University or Archives staff.
+          The records, whatever their provenance, were placed together under the Center for Great
+          Lakes Studies by the Archives staff sometime before 1989. When processing began in 1993,
+          it was decided to leave the existing organization intact rather than to possibly confuse
+          the provenance even more.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+        <p>Mark A. Vargas processed the collection at the Archives in December 1993. The collection
+          originally consisted of six series. A few files were added by Jeremy Brett in November
+          2006. Molly Whiteside (supervised by Christel Maass) added a few miscellaneous items to
+          the collection in September 2015. Christel Maass added an item, previously cataloged, to
+          box 4 of the collection in February 2017.</p>
+      </processinfo>
+    </descgrp>
+    <dsc type="in-depth">
+      <head>Contents List</head>
+      <c01>
+        <did>
+          <unittitle>Advisory Committee, 1972-1973</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">1</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Affiliated Faculty Meetings, 1974</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">2</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>All University Marine Task Force, 1970</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">3</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Brochures, 1977-1989</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">32</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Collected Reprints, 1976</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">4</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Conference on Great Lakes Research, 1968</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">5</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Conference on Port Planning and Development, 1973-1974</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">6-8</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Correspondence, 1963-1975</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">9-16</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Council for Marine Studies, 1967-1969</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">17</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Great Lakes Research Facility, 1975-1976, 1994</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">18</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>History of the Center for Great Lakes Studies, 1963-1969</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">19</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Oceanography Committee, 1966-1971</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">20</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Opportunities for Research, 1976?</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">21</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Pamphlets, 1987, undated</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">22</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Photographs, <unitdate>1988</unitdate>,
+            <unitdate>undated</unitdate></unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">33</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Presentation to the Port Industry Conference, 1974</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">23</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Program, American Society of Limnology and Oceanography, 1981</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">24</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Progress Reports, 1968-1975</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">25</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Publications</unittitle>
+        </did>
+        <c02>
+          <did>
+            <unittitle>Balfe, Margaret, <title render="italic">Analysis of International Great Lakes
+                Shipping and Hinterland</title>, 1975</unittitle>
+            <container type="box" label="Box">3</container>
+          </did>
+          <dao href="http://digital.library.wisc.edu/1793/54959" actuate="onrequest" show="new">
+            <daodesc>
+              <p>View this publication</p>
+            </daodesc>
+          </dao>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Beeton, A. M.</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Investigation of the Influence of Thermal Discharge
+                  from a Large Electric Power Station on the Biology and Near-Shore Circulation of
+                  Lake Michigan</title>, 1974</unittitle>
+              <container type="box" label="Box">3</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54885" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Statement on Pollution and Eutrophication of the
+                  Great Lakes</title>, 1970</unittitle>
+              <container type="box" label="Box">3</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54887" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Brooks, Arthur S.</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Effects of Intermittent Chlorination on the Biota of
+                  Lake Michigan</title>, 1977</unittitle>
+              <container type="box" label="Box">3</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54889" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Investigations of the Effects of Chlorinating Power
+                  Plant Cooling Water on the Biota of Lake Michigan</title>, 1974-1975</unittitle>
+              <container type="box" label="Box">3</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54897" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Investigations of the Effects of Chlorinating Power
+                  Plant Cooling Water on the Biota of Lake Michigan</title>, 1975-1976</unittitle>
+              <container type="box" label="Box">3</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54899" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Fee, Everett J.</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Digital Computer Programs for Estimating Primary
+                  Production, Integrated Over Depth and Time, in Water Bodies</title>,
+                1971</unittitle>
+              <container type="box" label="Box">3</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54903" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Digital Computer Programs for Spectral Analysis of
+                  Time Series</title>, 1969</unittitle>
+              <container type="box" label="Box">3</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54907" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Digital Computer Programs for the Defant Method of
+                  Seiche Analysis</title>, 1968</unittitle>
+              <container type="box" label="Box">3</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54905" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Gannon, John E.</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Great Lakes Plankton Investigations: A
+                  Bibliography</title>, 1969</unittitle>
+              <container type="box" label="Box">3</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54911" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Studies of the Effects of Dredged Materials from
+                  Selected Great Lakes Harbors on Plankton and Benthos</title>, 1969</unittitle>
+              <container type="box" label="Box">3</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54909" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Hogman, Walter J.</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Construction and Evaluation of Free-Falling Net for
+                  Sampling Mesopelagic Fishes</title>, 1969</unittitle>
+              <container type="box" label="Box">3</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Documentation of a Computer Program for Multispecies
+                  Fish Populations</title>, 1969</unittitle>
+              <container type="box" label="Box">3</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54915" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Howmiller, R., P., <title render="italic">Report on a Cruise of the R/V
+                Neeskay in Central Lake Michigan and Green Bay</title>, 1971</unittitle>
+            <container type="box" label="Box">3</container>
+          </did>
+          <dao href="http://digital.library.wisc.edu/1793/54917" actuate="onrequest" show="new">
+            <daodesc>
+              <p>View this publication</p>
+            </daodesc>
+          </dao>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Marmorino, G. O., <title render="italic">Internal Waves Observed in Lake
+                Ontario During the International Field Year for the Great Lakes (IFYGL) 1972: II.
+                Spectral Analysis and Modal Decomposition</title>, 1978</unittitle>
+            <container type="box" label="Box">3</container>
+          </did>
+          <dao href="http://digital.library.wisc.edu/1793/54919" actuate="onrequest" show="new">
+            <daodesc>
+              <p>View this publication</p>
+            </daodesc>
+          </dao>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Mayer, Harold M., <title render="italic">Wisconsin's Great Lakes Ports:
+                Background and Future Alternatives</title>, 1975</unittitle>
+            <container type="box" label="Box">4</container>
+          </did>
+          <dao href="http://digital.library.wisc.edu/1793/54925" actuate="onrequest" show="new">
+            <daodesc>
+              <p>View this publication</p>
+            </daodesc>
+          </dao>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Mortimer, C. H.</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Case for a Great Lakes Studies Facility at the
+                  University of Wisconsin-Milwaukee</title>, 1969</unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54943" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Center for Great Lakes Studies at UWM: Present
+                  Status and Progress During the Quinquennium 1967-1972</title>, 1972</unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54937" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Development of an Automatic Vessel-Operated
+                  Temperature Depth Profiling System</title>, 1971</unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54935" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">General Account of the Aims, Activities and
+                  Organization of the Center for Great Lakes Studies at the University of
+                  Wisconsin-Milwaukee</title>, 1974</unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54947" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Great Lakes: General Characteristics; Multiple Uses;
+                  University Involvement</title>, 1968</unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54949" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Internal Waves and Associated Currents Observed in
+                  Lake Michigan During the Summer of 1963</title>, 1968</unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54939" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Internal Waves Observed in Lake Ontario During the
+                  International Field Year for the Great Lakes (IFYGL) 1972: I. Descriptive Survey
+                  and Preliminary Interpretation of Near-Inertial Oscillations in Terms of Linear
+                  Channel-Wave Models</title>, 1977</unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54941" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Large-Scale Oscillatory Motions and Seasonal
+                  Temperature Changes in Lake Michigan and Lake Ontario Part I. Text</title>,
+                1971</unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54929" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Large-Scale Oscillatory Motions and Seasonal
+                  Temperature Changes in Lake Michigan and Lake Ontario Part II.
+                  Illustrations</title>, 1971</unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54931" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Long Internal Waves in Lakes:  Review of a Century of Research, </title><unitdate>1993</unitdate></unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Plan for a Fast Work Boat</title>, 1968</unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54951" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Whither Great Lakes Studies in Wisconsin</title>,
+                1971</unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54927" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Rao, Desiraju B., <title render="italic">Two-Dimensional Normal Modes in
+                Arbitrary Enclosed Basins on a Rotating Earth: Application to Lakes Ontario and
+                Superior</title>, 1974</unittitle>
+            <container type="box" label="Box">4</container>
+          </did>
+          <dao href="http://digital.library.wisc.edu/1793/54953" actuate="onrequest" show="new">
+            <daodesc>
+              <p>View this publication</p>
+            </daodesc>
+          </dao>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Sato, G. K., <title render="italic">Investigation of the Influence of Thermal
+                Discharge from a Large Electric Power Station on the Temperature and Near-Shore
+                Circulation on Lake Michigan</title>, 1974</unittitle>
+            <container type="box" label="Box">4</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Schenker, Eric</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Effects of Containerization on Great Lakes
+                  Ports</title>, 1968</unittitle>
+              <container type="box" label="Box">5</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54969" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Effects of Containerization on Great Lakes Ports
+                  1973 Edition</title>, 1973</unittitle>
+              <container type="box" label="Box">5</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Extending the St. Lawrence Seaway Navigation Season:
+                  A Cost-Benefit Approach</title>, 1972</unittitle>
+              <container type="box" label="Box">5</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54975" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Future General Cargo Traffic and Terminal
+                  Requirements at the Port of Milwaukee</title>, 1968</unittitle>
+              <container type="box" label="Box">5</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54977" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Overseas Shipping at Great Lakes Ports: Projections
+                  for the Future</title>, 1970</unittitle>
+              <container type="box" label="Box">5</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54973" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+        </c02>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>R. V. Neeskay, 1970-1971</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">26</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Request for Support of Facilities, 1975?</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">27</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Sea Grant Program, 1966-1972</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">28</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Sea Grant Program</unittitle>
+        </did>
+        <c02>
+          <did>
+            <unittitle>Advisory Committee, 1969-1971</unittitle>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">29</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>First Proposal to the National Science Foundation, 1968</unittitle>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">30</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Proposal to the National Science Foundation for Continuing Support,
+              1980-1982</unittitle>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">31</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Proposal to the National Science Foundation for Continuing Support,
+              1980-1982</unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">1</container>
+          </did>
+        </c02>
+      </c01>
+      <c01>
+        <did>
+          <unittitle><title render="italic">Scuttlebutt</title>, 1984 </unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">2</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Steering Committee, 1973-1975</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">3</container>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

@@ -1,0 +1,3999 @@
+<?xml version="1.0" encoding="ascii"?>
+<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
+<!-- wiarchives version:2009-04-20 -->
+<ead id="uw-mil-uwmac0124" relatedencoding="MARC21">
+  <eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
+    dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924"
+    relatedencoding="MARC21">
+    <eadid countrycode="US" mainagencycode="wimiugma"
+      url="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0124"
+      encodinganalog="856$u">uw-mil-uwmac0124</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245$a">Finding Aid of the UW-Milwaukee Student Union
+          Collection, 1948-2015</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="260$b">University of Wisconsin-Milwaukee Libraries, Archives
+          Department</publisher>
+        <address>
+          <addressline>University of Wisconsin-Milwaukee</addressline>
+          <addressline>UWM Libraries</addressline>
+          <addressline>Archives Department</addressline>
+          <addressline>P.O. Box 604</addressline>
+          <addressline>Milwaukee, Wisconsin 53201-0604</addressline>
+          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr
+              href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
+        </address>
+        <date encodinganalog="260$c" type="publication" normal="2007">Copyright &#169; 2007
+          University of Wisconsin Board of Regents</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation encodinganalog="500">Finding aid encoded by Dan Vinson</creation>
+      <langusage encodinganalog="546">Finding aid written in <language encodinganalog="041"
+          langcode="eng" scriptcode="Latn">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change encodinganalog="583">
+        <date normal="2016-11-02">November 2, 2016</date>
+        <item>Christel Maass updated the finding aid after adding remaining materials from accession
+          2011-046 to the collection.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2016-07-21">July 21, 2016</date>
+        <item>Phyllis Reske updated the finding aid to reflect the addition of materials to box 9.
+          Changes were made to the contents list.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2015-10-23">October 23, 2015</date>
+        <item>Christel Maass made some corrections and updates to the finding aid.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2015-10-20">October 20, 2015</date>
+        <item>Doylen added information about 2015 LGBT Film/Video Festival additions.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2015-10-19">October 19, 2015</date>
+        <item>Brad Houston added information on accession 2015-008 to the collection. Changes were
+          made to extent, unitdate, arrangement, and the contents list.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2015-01-07">January 7, 2015</date>
+        <item>Michael Doylen added items from the 2014 LGBT film festival.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2014-03-31">March 31, 2014</date>
+        <item>Brad Houston reprocessed the entire collection and added accessions 2011-006,
+          2011-019, 2011-025, 2011-046, and 2011-047.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2013-08-01">August 1, 2013</date>
+        <item>Christel Maass updated the finding aid, adding information about new, unprocessed
+          accessions.</item>
+      </change>
+      <change>
+        <date normal="2012-08-06">August 6, 2012</date>
+        <item>Charles Welborn added dribble files to the collection. Updated: filedesc, archdesc,
+          processinfo, and the contents list.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2012-05-21">May 21, 2012</date>
+        <item>Michael Doylen updated the finding aid following addition of Milwaukee LGBT Film/Video
+          Festival materials.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2011-06-01">June 1, 2011</date>
+        <item>Christel Maass further updated the contents list.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2011-05-02">May 2, 2011</date>
+        <item>Brad Houston updated the finding aid to reflect the apparently uncorrected description
+          error in boxes 3-5 of the collection and to do some general cleanup of the contents.
+          Materials previously listed as in box 4 are now in box 3. Boxes 4-5 were added to the
+          contents list. Additional changes were made to physdesc.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2011-02-17">February 17, 2011</date>
+        <item>Brad Houston and Shukrani Gray updated the finding aid to reflect the addition of an
+          accession. Changes were made to physdesc, acqinfo, processinfo, and the contents
+          list.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2009-04-09">April 9, 2009</date>
+        <item>Brad Houston updated the finding aid to reflect the addition of an accession and to
+          reflect the deaccession of the former box 3. The former box 4, which was not described in
+          the previous version of the finding aid, is now described as box 3. Other changes were
+          made to physdesc, abstract, acqinfo, processinfo, and the contents list.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="collection" relatedencoding="MARC21">
+    <did>
+      <physloc type="locationcode" audience="internal">wimiugma</physloc>
+      <unittitle encodinganalog="245$a">UW-Milwaukee Student Union Collection, <unitdate
+          type="inclusive" encodinganalog="245$f" normal="1948/2015"
+        >1948-2015</unitdate></unittitle>
+      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
+        >UWM Archival Collection 124</unitid>
+      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
+        >Accession 2015-008</unitid>
+      <physdesc label="Quantity">
+        <extent encodinganalog="300">21.5 cubic ft. (57 boxes)</extent>
+        <extent encodinganalog="300">1 oversize folder</extent>
+        <extent encodinganalog="300">118 digital image files (57 MB)</extent>
+        <extent encodinganalog="300">32 digital video files (18.5 GB)</extent>
+        <extent encodinganalog="300">plus additions of 5.2 cubic feet (6 boxes) and 455 digital
+          files (2 GB)</extent>
+      </physdesc>
+      <repository encodinganalog="852">
+        <extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
+          title="University of Wisconsin-Milwaukee Logo." role="logoimage"/>
+        <extref href="http://www.uwm.edu/Libraries/arch/index.html">
+          <corpname>University of Wisconsin-Milwaukee Libraries, Archives Department</corpname>
+        </extref>
+      </repository>
+      <abstract encodinganalog="520">Records of the UW-Milwaukee Student Union, including annual
+        reports, event files, news clippings, and publications of its various departments. The
+        collection largely consists of programming folders, flyers, and videos documenting the
+        activities sponsored by the Union and its programming departments (Sociocultural
+        Programming, Art Gallery, Union Cinema, Gasthaus, and Distinguished Lecture Series). Also
+        included are handbooks, guides, and other brochures introducing the union and its services,
+        programming brochures and reports, and issues of the <title render="italic">Union
+          News</title> (1964-1978) and the <title render="italic">Preview</title> (1979-2009).
+        Materials describing the activities of the Union Theatre and Union Cinema, including
+        festivals, are particularly well represented. </abstract>
+      <langmaterial encodinganalog="546" label="Language">
+        <language encodinganalog="041" langcode="eng">English</language>
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="545">
+      <p>The UW-Milwaukee Student Union opened in 1956 and was expanded and remodeled numerous times
+        to accommodate a growing student population. The UW-Milwaukee Student Union is a cultural,
+        social, and recreational center for the UWM community, housing an art gallery, bookstore,
+        cinema, recreation center, craft centre, food service and dining areas, as well as meeting
+        rooms and offices, including those of student organizations. The Union Policy Board is
+        responsible for formulating and setting policy for the overall operation of the Union.</p>
+    </bioghist>
+    <scopecontent>
+      <p>The collection contains a large amount of material relating to the administration of the
+        Student Union, including materials related to building construction and governance, and
+        annual reports from each of the main functional sub-departments of the Union. The bulk of
+        the collection is comprised of materials from the programming departments, including annual
+        programming notes, flyers and posters, correspondence with speakers, and in some cases audio
+        or video recordings of events. Also included are press clippings relating to the Student
+        Union gathered from a diverse selection of publications between 1948 and 2009.</p>
+      <p>The collection is arranged as eight series: </p>
+      <p>The <emph render="bold">General Files</emph> document those aspects of Union history not
+        directly related to a particular programming unit, including files on units with no
+        programming responsibility (such as the Bookstore). The Programming Yearbooks, which
+        comprise core documentation for events held at the Union, contain publicity materials, event
+        summaries, and budgets for events held by various Union departments. A large number of
+        Annual Reports, covering the period 1981-1999, provide summaries of the year-long operations
+        of the various Student Union departments, including summaries of events, budgets, and
+        program evaluations and recommendations. The Union Surveys, ranging from 1988 to 2000,
+        include raw data and prepared reports detailing the reaction of the student body to the
+        various Union programming events. The clippings files, containing information on local media
+        coverage of Union events, can be found in this subseries.</p>
+      <p>The <emph render="bold">Governance Files</emph> include records of committees and governing
+        bodies responsible for setting policy for various units of the Union. The bulk of these
+        records are from the Union Policy Board, a group comprised of students, faculty, and staff
+        that helps set policies on issues of interest to Union users. Also included are records of
+        smaller committees that set policy on specialized issues, such as the Arts Board and the
+        Activities Board.</p>
+      <p>The <emph render="bold">Sociocultural Programming Files</emph> primarily consist of
+        publicity documents, planning notes, budgets, and correspondence. The files include
+        information on a number of regular events held by the department, including Interfest and
+        the Multicultural Breakfast. Other files deal with speakers, panel discussions, special
+        events, and forums held by the Sociocultural Programming Department during this time,
+        including speakers Albin Seaborg and Toni Morrison, as well as special programs such as
+        African Market Days and the Ebony Ball. Most of the videos in the Student Union collection
+        were produced by Sociocultural Programming, and include recordings of lectures from figures
+        such as Angela Davis and Wilma Mankiller, as well as more general programs such as The
+        Midwest Affirmative Action Debate and Bags, Brooms, Bottles, and Bedcovers: HooDoo Folk
+        Beliefs in Fine Arts.</p>
+      <p>The <emph render="bold">Distinguished Lecture Series Files</emph> includes materials
+        related to speakers on issues of national significance, such as Cornel West, Harry Wu, Nikki
+        Giovanni, Naomi Wolf, and Juan Williams. Materials in this series are primarily comprised of
+        correspondence with speakers, promotional material for events, and occasionally feedback on
+        events from participants. The series includes videos for some programs.</p>
+      <p>The <emph render="bold">Union Art Gallery Files</emph> and <emph render="bold">Gasthaus
+          Entertainment Series Files</emph> are comprised almost exclusively of promotional material
+        for events and exhibits. The <emph render="bold">Union Cinema Files</emph> include
+        promotional materials of film screenings and some named film series, such as the Asian Film
+        Festival, the Festival of Films in French, the Latin American Film Series, and the Milwaukee
+        LGBT Film/Video Festival.</p>
+      <p>The <emph render="bold">Publications</emph> series consists of publications by Union
+        departments. The most comprehensive of these is <title render="italic">Preview</title>, the
+        monthly event calendar for the Union, which describes all scheduled programming events in
+        the Union beginning in 1979. There are other, smaller publications that may also be of
+        interest, including student handbooks, Craft Centre brochures, and the annual art calendar
+        released by the UWM Bookstore.</p>
+    </scopecontent>
+    <arrangement encodinganalog="351">
+      <p>The collection is arranged into the following series and subseries:</p>
+      <list type="ordered" numeration="arabic">
+        <item>
+          <ref target="series1" show="replace" actuate="onrequest">General Files, 1948-2011</ref>
+        </item>
+        <item>
+          <ref target="series2" show="replace" actuate="onrequest">Governance Files, 1956-1994</ref>
+        </item>
+        <item>
+          <ref target="series3" show="replace" actuate="onrequest">Sociocultural Programming Files,
+            1988-2012</ref>
+        </item>
+        <item>
+          <ref target="series4" show="replace" actuate="onrequest">Union Art Gallery Files,
+            1982-2010</ref>
+        </item>
+        <item>
+          <ref target="series5" show="replace" actuate="onrequest">Distinguished Lecture Series
+            Files, 1982-2007</ref>
+        </item>
+        <item>
+          <ref target="series6" show="replace" actuate="onrequest">Union Cinema Files,
+            1978-2015</ref>
+        </item>
+        <item>
+          <ref target="series7" show="replace" actuate="onrequest">Gasthaus Entertainment Series
+            Files, 2001-2005</ref>
+        </item>
+        <item>
+          <ref target="series8" show="replace" actuate="onrequest">Publications, 1963-2009</ref>
+        </item>
+      </list>
+      <p>Files in series 1-4 and Series 8 are arranged alphabetically by folder heading. Files in
+        series 5-7 are arranged chronologically, and thereunder alphabetically. Videos are housed
+        separately from paper files.</p>
+      <p>Files in boxes 48-50 were segregated for reasons of size or format, but are otherwise
+        arranged according to the series to which they belong.</p>
+      <p>The collection contains one additional accession.</p>
+      <list type="simple">
+        <item>
+          <ref target="acc2015-008" show="replace" actuate="onrequest">Accession 2015-008: Event
+            Files and Photographs, 1981-2015</ref>
+        </item>
+      </list>
+    </arrangement>
+    <otherfindaid>
+      <p>A spreadsheet with file-level information on the electronic records is available in the
+        Archives department. The spreadsheet contains information on original file name, file size,
+        date and time of creation of original file, duration (where applicable) and software used to
+        create the file. Additional technical metadata is available in the Archives; see an
+        archivist for more information.</p>
+    </otherfindaid>
+    <prefercite encodinganalog="524">
+      <p>
+        <extref
+          href="http://uwm.edu/libraries/archives/research/citation-guide-for-primary-sources/"
+          >Citation Guide for Primary Sources</extref>
+      </p>
+    </prefercite>
+    <descgrp type="admininfo">
+      <head>Administrative/Restriction Information</head>
+      <accessrestrict encodinganalog="506">
+        <p>Electronic records must be viewed in the Archives. See an archivist for more
+          information.</p>
+        <p>There are no access restrictions on the materials, and the collection is open to all
+          members of the public in accordance with state law.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>The researcher assumes full responsibility for conforming with the laws of libel,
+          privacy, and copyright which may be involved in the use of this collection (Wisconsin
+          Statutes 19.21-19.39).</p>
+      </userestrict>
+      <acqinfo encodinganalog="541">
+        <p>Most of the publications in the original collection appear to have been collected by
+          Archives staff. Other materials were transferred to the Archives prior to 1989. Fran
+          Ginter periodically transferred Sociocultural Programming materials to the Archives
+          between 1991 and 1995. Union staff transferred accession 2008-019 in September 2008,
+          accession 2010-032 in November 2010, accession 2011-006 in August 2011, accession 2011-019
+          in November 2011, accession 2011-025 in December 2011, accession 2011-046 in May 2012, and
+          accession 2011-047 in June 2012. Accession 2015-008 was transferred to the Archives in
+          September 2015.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+        <p>Christel T. Maass processed the original collection in August 1995. Jeremy Brett added
+          several files in February 2007. Allen Ramsey added accession 2008-019 to the collection in
+          April 2009 (Brad Houston supervised). Shukrani Gray processed accession 2010-032 in
+          February 2011 (Brad Houston supervised). Michael Doylen added Milwaukee LGBT Film/Video
+          Festival materials in May 2012. Charles Welborn processed additional material in August
+          2012. In fall 2013 and winter 2014 staff reprocessed the entire collection and added
+          accessions 2011-006, 2011-019, 2011-025, 2011-046, and 2011-047. Brad Houston added
+          information about accession 2015-008 in October 2015. Phyllis Reske processed some
+          additional records in July 2016 (Brad Houston supervised). Christel Maass added remaining
+          materials from accession 2011-046 to the collection in November 2016.</p>
+      </processinfo>
+      <phystech encodinganalog="538" audience="internal">
+        <p>As of December 13, 2013, all electronic files were accessible on a Intel Core 2 Duo CPU
+          (2.33 GHz, 1.95 GB RAM) running Windows XP Professional Version 2002, with Service Pack 3.
+          Windows Media Player was used to access the files.</p>
+        <p>The collection contains records in the following formats:</p>
+        <list type="simple">
+          <item>Audio/Video Interleaved Format [.avi]</item>
+          <item>JPEG File Interchange Format [.jpg]</item>
+          <item>MPEG-4 Media File [.mp4]</item>
+        </list>
+      </phystech>
+      <processinfo audience="internal">
+        <head>Preservation Information</head>
+        <p>AVI files were ripped from their original DVD formats by Brad Houston in November 2013
+          and saved using the H.264 codec. Freemake Video Converter 4.0.4 was used to rip and
+          convert the files.</p>
+      </processinfo>
+    </descgrp>
+    <dsc type="combined">
+      <head>Contents List</head>
+      <c01 level="otherlevel" otherlevel="processed" id="uwmac0124">
+        <did>
+          <unitid>UWM Archival Collection 124</unitid>
+          <unittitle>Records, <unitdate type="inclusive" normal="1948/2015">1948-2015</unitdate>
+          </unittitle>
+          <physdesc>
+            <extent encodinganalog="300">21.5 cubic ft. (57 boxes)</extent>
+            <extent encodinganalog="300">1 oversize folder</extent>
+            <extent encodinganalog="300">118 digital image files (57 MB)</extent>
+            <extent encodinganalog="300">32 digital video files (18.5 GB)</extent>
+          </physdesc>
+        </did>
+        <c02 id="series1" level="series">
+          <did>
+            <unittitle>1. General Files, <unitdate>1948-2011</unitdate></unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>55 and Over Program</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Activities, <unitdate>1976-1980</unitdate></unittitle>
+                <container type="box" label="Box">1</container>
+                <container type="folder" label="Folder">1</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Budgets, <unitdate>1975-1976</unitdate></unittitle>
+                <container type="box" label="Box">1</container>
+                <container type="folder" label="Folder">2</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Bylaws, <unitdate>1976</unitdate></unittitle>
+                <container type="box" label="Box">1</container>
+                <container type="folder" label="Folder">3</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Correspondence, <unitdate>1974-1981</unitdate></unittitle>
+                <container type="box" label="Box">1</container>
+                <container type="folder" label="Folder">4</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Newsclippings, <unitdate>1974-1976</unitdate></unittitle>
+                <container type="box" label="Box">1</container>
+                <container type="folder" label="Folder">5</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Newsletter, <unitdate>1974-1981</unitdate></unittitle>
+                <container type="box" label="Box">1</container>
+                <container type="folder" label="Folder">6</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Senior Fair, <unitdate>1974-1975</unitdate></unittitle>
+                <container type="box" label="Box">1</container>
+                <container type="folder" label="Folder">7</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Steering Committee, <unitdate>1975-1979</unitdate></unittitle>
+                <container type="box" label="Box">1</container>
+                <container type="folder" label="Folder">8</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Addition Documents, <unitdate>1972-1982</unitdate></unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">9</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Adventure Center, <unitdate>2008</unitdate></unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">10</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Alcohol Awareness Week, <unitdate>1991</unitdate></unittitle>
+              <container type="box" label="Box">1</container>
+              <container type="folder" label="Folder">11</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Anniversary Parties</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>10th Anniversary, <unitdate>1965</unitdate></unittitle>
+                <container type="box" label="Box">1</container>
+                <container type="folder" label="Folder">13-14</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>25th Anniversary, <unitdate>1981</unitdate></unittitle>
+                <container type="box" label="Box">2</container>
+                <container type="folder" label="Folder">1-3</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Union and UWM Materials, <unitdate>1981</unitdate></unittitle>
+                <container type="box" label="Box">1</container>
+                <container type="folder" label="Folder">12</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Annual Reports</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1981-1990</unitdate>
+                </unittitle>
+                <container type="box" label="Box">2</container>
+                <container type="folder" label="Folder">4-12</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1990-1994</unitdate>
+                </unittitle>
+                <container type="box" label="Box">3</container>
+                <container type="folder" label="Folder">1-19</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1994-1998</unitdate>
+                </unittitle>
+                <container type="box" label="Box">4</container>
+                <container type="folder" label="Folder">1-22</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1998-1999</unitdate>
+                </unittitle>
+                <container type="box" label="Box">5</container>
+                <container type="folder" label="Folder">1-8</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Back to School Celebration</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1985</unitdate>
+                </unittitle>
+                <container type="box" label="Box">48</container>
+                <container type="folder" label="Folder">1</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1992-1994</unitdate>
+                </unittitle>
+                <container type="box" label="Box">5</container>
+                <container type="folder" label="Folder">9-15</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1996-1997</unitdate>
+                </unittitle>
+                <container type="box" label="Box">7</container>
+                <container type="folder" label="Folder">1-3</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>The Bacon Brothers, <unitdate>1999-2000</unitdate></unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="folder" label="Folder">4</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Ballet Folklorico, "Quetzalli" de Veracruz,
+                <unitdate>1998</unitdate></unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="folder" label="Folder">5</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Bembenek, Lawrencia, <unitdate>1993</unitdate></unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="folder" label="Folder">6</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Brochures, <unitdate>1961-1973</unitdate></unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="folder" label="Folder">7</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Budget, <unitdate>1982-1986</unitdate></unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="folder" label="Folder">8</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Calendar of Events, <unitdate>1960-1969</unitdate></unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="folder" label="Folder">9</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Carter, Suzanne, <title render="italic">Before We Die</title>,
+                  <unitdate>2001</unitdate></unittitle>
+              <container type="box" label="Box">53</container>
+              <container type="video" label="Video">10</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+
+          <c03>
+            <did>
+              <unittitle>Centennial</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1985-1986</unitdate>
+                </unittitle>
+                <container type="box" label="Box">7</container>
+                <container type="folder" label="Folder">1-2</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Legal-Sized Materials, <unitdate>1985</unitdate></unittitle>
+                <container type="box" label="Box">48</container>
+                <container type="folder" label="Folder">2</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Children's Holiday Festival, <unitdate>2000-2001,
+                2003</unitdate></unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="folder" label="Folder">3-5</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Christmas Party Photographs, <unitdate>undated</unitdate></unittitle>
+              <container type="box" label="Box">50</container>
+              <container type="folder" label="Folder">1</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Chronology Documents, <unitdate>1948-1996</unitdate></unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="folder" label="Folder">6</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Concert Series, <unitdate>1990-2000</unitdate></unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="folder" label="Folder">7-11</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Conference '73 Guide, <unitdate>1973</unitdate></unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="folder" label="Folder">12</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Construction Information Reports, <unitdate>1985</unitdate></unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="folder" label="Folder">13</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Construction Photos, <unitdate>undated</unitdate></unittitle>
+              <container type="box" label="Box">49</container>
+              <container type="folder" label="Folder">1-2</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">A Conversation with Miriam Tlali</title>,
+                  <unitdate>1989</unitdate></unittitle>
+              <container type="box" label="Box">51</container>
+              <container type="video" label="Video">6</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Cosmic Tales of Orishas</title>,
+                  <unitdate>2003</unitdate></unittitle>
+              <container type="box" label="Box">54</container>
+              <container type="video" label="Video">5</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Craft Centre Brochures, <unitdate>1974-1989</unitdate></unittitle>
+              <container type="box" label="Box">8</container>
+              <container type="folder" label="Folder">14</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title render="italic">An Evening With...</title>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Chris Eyre, <unitdate>2003</unitdate></unittitle>
+                <container type="box" label="Box">54</container>
+                <container type="video" label="Video">8</container>
+                <physdesc>
+                  <extent>Videocassette (VHS)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><title render="italic">Madame F</title>,
+                  <unitdate>1996</unitdate></unittitle>
+                <container type="box" label="Box">8</container>
+                <container type="folder" label="Folder">15</container>
+              </did>
+            </c04>
+
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Event Files, <unitdate>1987-1988, 2003-2005</unitdate></unittitle>
+              <container type="box" label="Box">9</container>
+              <container type="folder" label="Folder">1-2</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Event Flyers, <unitdate>1974-2011</unitdate></unittitle>
+              <container type="box" label="Box">9</container>
+              <container type="folder" label="Folder">3-5</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Family Programs, <unitdate>1970-1971</unitdate></unittitle>
+              <container type="box" label="Box">9</container>
+              <container type="folder" label="Folder">6</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Fashion Show, <unitdate>1987</unitdate></unittitle>
+              <container type="box" label="Box">50</container>
+              <container type="folder" label="Folder">2</container>
+            </did>
+          </c03>
+
+          <c03>
+            <did>
+              <unittitle>Fiscal Year Overview, <unitdate>1993-1996</unitdate></unittitle>
+              <container type="box" label="Box">9</container>
+              <container type="folder" label="Folder">7-8</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Fisher, Helen E., <unitdate>1994-1995</unitdate></unittitle>
+              <container type="box" label="Box">9</container>
+              <container type="folder" label="Folder">9</container>
+            </did>
+          </c03>
+
+          <c03>
+            <did>
+              <unittitle>Gay and Lesbian Awareness Week, <unitdate>1991</unitdate></unittitle>
+              <container type="box" label="Box">9</container>
+              <container type="folder" label="Folder">10</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Glave, Thomas, <unitdate>2003</unitdate></unittitle>
+              <container type="box" label="Box">54</container>
+              <container type="video" label="Video">11</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Handbooks, <unitdate>1958-1968</unitdate></unittitle>
+              <container type="box" label="Box">9</container>
+              <container type="folder" label="Folder">11</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Health Fair, <unitdate>1999</unitdate></unittitle>
+              <container type="box" label="Box">9</container>
+              <container type="folder" label="Folder">12</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>History Documents, <unitdate>undated</unitdate></unittitle>
+              <container type="box" label="Box">48</container>
+              <container type="folder" label="Folder">3</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Homecoming, <unitdate>1982-1986</unitdate></unittitle>
+              <container type="box" label="Box">10</container>
+              <container type="folder" label="Folder">1-3</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Interarts Program for Grant Writing, <unitdate>1982</unitdate></unittitle>
+              <container type="box" label="Box">10</container>
+              <container type="folder" label="Folder">4</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>International Club, <unitdate>1963-1989</unitdate></unittitle>
+              <container type="box" label="Box">10</container>
+              <container type="folder" label="Folder">5</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Irish Week, <unitdate>1986</unitdate></unittitle>
+              <container type="box" label="Box">10</container>
+              <container type="folder" label="Folder">6</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>IRS Tax Seminar, <unitdate>1984</unitdate></unittitle>
+              <container type="box" label="Box">10</container>
+              <container type="folder" label="Folder">7</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Kamenetz, Anya, <unitdate>2007</unitdate></unittitle>
+              <container type="box" label="Box">57</container>
+              <container type="video" label="Video">1</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Ladysmith Black Mambazo, <unitdate>2001</unitdate></unittitle>
+              <container type="box" label="Box">10</container>
+              <container type="folder" label="Folder">8</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Lectures, <unitdate>1990-1991</unitdate></unittitle>
+              <container type="box" label="Box">10</container>
+              <container type="folder" label="Folder">9</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Lesbian, Gay, and Bisexual Series, <unitdate>1995</unitdate></unittitle>
+              <container type="box" label="Box">10</container>
+              <container type="folder" label="Folder">10</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Leukemia Society of America, <unitdate>1982</unitdate></unittitle>
+              <container type="box" label="Box">10</container>
+              <container type="folder" label="Folder">11</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Logo Contest, <unitdate>undated</unitdate></unittitle>
+              <container type="box" label="Box">10</container>
+              <container type="folder" label="Folder">12</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Lunch With Santa</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Program, <unitdate>1990-1993</unitdate></unittitle>
+                <container type="box" label="Box">10</container>
+                <container type="folder" label="Folder">13</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Video, <unitdate>undated</unitdate></unittitle>
+                <container type="box" label="Box">57</container>
+                <container type="video" label="Video">8</container>
+                <physdesc>
+                  <extent>Videocassette (VHS)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Lyrical Sanctuary, <unitdate>undated</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Madisalsa, <unitdate>1997</unitdate></unittitle>
+              <container type="box" label="Box">55</container>
+              <container type="video" label="Video">4</container>
+              <physdesc>
+                <extent>Videocassette(VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Mandela, Maki, <unitdate>1988</unitdate></unittitle>
+              <container type="box" label="Box">10</container>
+              <container type="folder" label="Folder">14</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Marketing, <unitdate>2006-2008</unitdate></unittitle>
+              <container type="box" label="Box">10</container>
+              <container type="folder" label="Folder">15</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>McBride-Phillips Panel Discussion, <unitdate>2006</unitdate></unittitle>
+              <container type="box" label="Box">55</container>
+              <container type="video" label="Video">4</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>McCormick, Maureen, <unitdate>1994</unitdate></unittitle>
+              <container type="box" label="Box">10</container>
+              <container type="folder" label="Folder">16</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>McGivern, John, <unitdate>2005</unitdate></unittitle>
+              <container type="box" label="Box">55</container>
+              <container type="video" label="Video">11</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Meeting Facilities, <unitdate>1972</unitdate></unittitle>
+              <container type="box" label="Box">10</container>
+              <container type="folder" label="Folder">17</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Meltdown to Midterms</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>2001</unitdate>
+                </unittitle>
+                <container type="box" label="Box">10</container>
+                <container type="folder" label="Folder">18</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>2002</unitdate>
+                </unittitle>
+                <container type="box" label="Box">11</container>
+                <container type="folder" label="Folder">1</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Membership Policy, <unitdate>1974</unitdate></unittitle>
+              <container type="box" label="Box">11</container>
+              <container type="folder" label="Folder">2</container>
+            </did>
+          </c03>
+
+          <c03>
+            <did>
+              <unittitle>Milwaukee Initiative II, <unitdate>1993-1998</unitdate></unittitle>
+              <container type="box" label="Box">11</container>
+              <container type="folder" label="Folder">3</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Minsky, Leonard, <unitdate>1993-1994</unitdate></unittitle>
+              <container type="box" label="Box">11</container>
+              <container type="folder" label="Folder">4</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Miscellaneous Events, <unitdate>2006-2008</unitdate></unittitle>
+              <container type="box" label="Box">11</container>
+              <container type="folder" label="Folder">5-6</container>
+            </did>
+          </c03>
+
+          <c03>
+            <did>
+              <unittitle>NACA Regional Conference Documents,
+                <unitdate>1984-1985</unitdate></unittitle>
+              <container type="box" label="Box">11</container>
+              <container type="folder" label="Folder">7-8</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Natyarpana, <unitdate>2004</unitdate></unittitle>
+              <container type="box" label="Box">53</container>
+              <container type="video" label="Video">2</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>New Student Orientation Production Book,
+                <unitdate>1996</unitdate></unittitle>
+              <container type="box" label="Box">11</container>
+              <container type="folder" label="Folder">9</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Newsclippings</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1948-1966</unitdate>
+                </unittitle>
+                <container type="box" label="Box">11</container>
+                <container type="folder" label="Folder">10</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1973-1982</unitdate>
+                </unittitle>
+                <container type="box" label="Box">11</container>
+                <container type="folder" label="Folder">11-13</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1983-1990</unitdate>
+                </unittitle>
+                <container type="box" label="Box">12</container>
+                <container type="folder" label="Folder">1-5</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1987-1995, 2003</unitdate>
+                </unittitle>
+                <container type="box" label="Box">13</container>
+                <container type="folder" label="Folder">1-8</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Operations Year-End Reports, <unitdate>1981-1986</unitdate></unittitle>
+              <container type="box" label="Box">14</container>
+              <container type="folder" label="Folder">1-4</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Organization Charts, <unitdate>1966-1970</unitdate></unittitle>
+              <container type="box" label="Box">14</container>
+              <container type="folder" label="Folder">5</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Outing Club, <unitdate>2003-2008, undated</unitdate></unittitle>
+              <container type="box" label="Box">14</container>
+              <container type="folder" label="Folder">6-10</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Panther Orientation, <unitdate>1993</unitdate></unittitle>
+              <container type="box" label="Box">14</container>
+              <container type="folder" label="Folder">11</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Panther Safari, <unitdate>1994</unitdate></unittitle>
+              <container type="box" label="Box">14</container>
+              <container type="folder" label="Folder">12</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Phase II Documents, <unitdate>1971-1972</unitdate></unittitle>
+              <container type="box" label="Box">48</container>
+              <container type="folder" label="Folder">4</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Photography, <unitdate>undated</unitdate></unittitle>
+              <container type="box" label="Box">49</container>
+              <container type="folder" label="Folder">3</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Popcorn Forum</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1991-1994</unitdate>
+                </unittitle>
+                <container type="box" label="Box">14</container>
+                <container type="folder" label="Folder">13</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1994-1997</unitdate>
+                </unittitle>
+                <container type="box" label="Box">15</container>
+                <container type="folder" label="Folder">1-7</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><title render="italic">Infobahn</title>,
+                  <unitdate>1994</unitdate></unittitle>
+                <container type="box" label="Box">52</container>
+                <container type="video" label="Video">7</container>
+                <physdesc>
+                  <extent>Videocassette (VHS)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Posters, Miscellaneous Events, <unitdate>1976</unitdate>, <unitdate>undated</unitdate></unittitle>
+              <container type="oversize" label="Oversize Folder">1</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Poussaint, Alvin, <unitdate>1988-1989</unitdate></unittitle>
+              <container type="box" label="Box">15</container>
+              <container type="folder" label="Folder">8</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Powell, Second Keynote Address, <unitdate>2006</unitdate></unittitle>
+              <container type="box" label="Box">56</container>
+              <container type="video" label="Video">8</container>
+              <physdesc>
+                <extent>Videocassette(VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Power Sessions, New Student Orientation/Panther Orientation,
+                  <unitdate>1993-1994</unitdate></unittitle>
+              <container type="box" label="Box">15</container>
+              <container type="folder" label="Folder">9</container>
+            </did>
+          </c03>
+
+          <c03>
+            <did>
+              <unittitle>Programming</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>1980s Compilations</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate>1981-1984</unitdate>
+                  </unittitle>
+                  <container type="box" label="Box">16</container>
+                  <container type="folder" label="Folder">1-3</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Oversized Materials, <unitdate>1981-1984</unitdate></unittitle>
+                  <container type="box" label="Box">48</container>
+                  <container type="folder" label="Folder">5-9</container>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Yearbook</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate>1985-1991</unitdate>
+                  </unittitle>
+                  <container type="box" label="Box">16</container>
+                  <container type="folder" label="Folder">4-7</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate>1991-1995</unitdate>
+                  </unittitle>
+                  <container type="box" label="Box">17</container>
+                  <container type="folder" label="Folder">1-8</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate>1995-1999</unitdate>
+                  </unittitle>
+                  <container type="box" label="Box">18</container>
+                  <container type="folder" label="Folder">1-8</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate>1999-2003</unitdate>
+                  </unittitle>
+                  <container type="box" label="Box">19</container>
+                  <container type="folder" label="Folder">1-8</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate>2003-2004</unitdate>
+                  </unittitle>
+                  <container type="box" label="Box">20</container>
+                  <container type="folder" label="Folder">1-7</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate>2004-2009</unitdate>
+                  </unittitle>
+                  <container type="box" label="Box">21</container>
+                  <container type="folder" label="Folder">1-4</container>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Programming Budget, <unitdate>1986-1987</unitdate></unittitle>
+              <container type="box" label="Box">21</container>
+              <container type="folder" label="Folder">5-6</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Programming/Norris Health Center Cosponsorships,
+                <unitdate>1998</unitdate></unittitle>
+              <container type="box" label="Box">21</container>
+              <container type="folder" label="Folder">7-8</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Programming/Sandburg, <unitdate>1984-1985</unitdate></unittitle>
+              <container type="box" label="Box">21</container>
+              <container type="folder" label="Folder">9</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Programming Staff, <unitdate>1982</unitdate></unittitle>
+              <container type="box" label="Box">21</container>
+              <container type="folder" label="Folder">10</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Recreation Center, <unitdate>2003-2008</unitdate></unittitle>
+              <container type="box" label="Box">22</container>
+              <container type="folder" label="Folder">1-3</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Recreation Handbooks, <unitdate>undated</unitdate></unittitle>
+              <container type="box" label="Box">22</container>
+              <container type="folder" label="Folder">4</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Renovation Reports, <unitdate>1984-1985, 2001</unitdate></unittitle>
+              <container type="box" label="Box">22</container>
+              <container type="folder" label="Folder">5</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Residents Night in the Union, <unitdate>1990-1993</unitdate></unittitle>
+              <container type="box" label="Box">22</container>
+              <container type="folder" label="Folder">6</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Ribbon-Cutting Ceremony, <unitdate>1996</unitdate></unittitle>
+              <container type="box" label="Box">22</container>
+              <container type="folder" label="Folder">7</container>
+            </did>
+          </c03>
+
+          <c03>
+            <did>
+              <unittitle><title render="italic">A Rose is Still A Rose</title>,
+                  <unitdate>2002</unitdate></unittitle>
+              <container type="box" label="Box">53</container>
+              <container type="video" label="Video">14</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+
+          <c03>
+            <did>
+              <unittitle>September 11th Retrospective, <unitdate>2002</unitdate></unittitle>
+              <container type="box" label="Box">54</container>
+              <container type="video" label="Video">1</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Silk Road Theater, <title render="italic">Precious Stones</title>,
+                  <unitdate>undated</unitdate></unittitle>
+              <container type="box" label="Box">57</container>
+              <container type="video" label="Video">9</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Sound Unbound/Rhythm Science</title>,
+                  <unitdate>2004</unitdate></unittitle>
+              <container type="box" label="Box">55</container>
+              <container type="video" label="Video">8</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Speaker Videos, <unitdate>2008-2010</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Special Events, <unitdate>1987-1988</unitdate></unittitle>
+              <container type="box" label="Box">22</container>
+              <container type="folder" label="Folder">8-9</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Spence, Gerry</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1996</unitdate>
+                </unittitle>
+                <container type="box" label="Box">22</container>
+                <container type="folder" label="Folder">10</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Legal-Sized Materials, <unitdate>1996</unitdate>
+                </unittitle>
+                <container type="box" label="Box">49</container>
+                <container type="folder" label="Folder">18</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Video, <unitdate>1996</unitdate></unittitle>
+                <container type="box" label="Box">52</container>
+                <container type="video" label="Video">12</container>
+                <physdesc>
+                  <extent>Videocassette (VHS)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Stories and Songs with Santa</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1982, 1986-1989</unitdate>
+                </unittitle>
+                <container type="box" label="Box">22</container>
+                <container type="folder" label="Folder">11</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1994-1996</unitdate>
+                </unittitle>
+                <container type="box" label="Box">22</container>
+                <container type="folder" label="Folder">12-14</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1997-1999</unitdate>
+                </unittitle>
+                <container type="box" label="Box">23</container>
+                <container type="folder" label="Folder">1-3</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Photographs, <unitdate>1994-1998</unitdate></unittitle>
+                <container type="box" label="Box">50</container>
+                <container type="folder" label="Folder">3-4</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Study Day Picnic, <unitdate>2000-2002</unitdate></unittitle>
+              <container type="box" label="Box">23</container>
+              <container type="folder" label="Folder">4-6</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Summer Orientation, <unitdate>1997-1998</unitdate></unittitle>
+              <container type="box" label="Box">23</container>
+              <container type="folder" label="Folder">7</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Survey</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1988-1995</unitdate>
+                </unittitle>
+                <container type="box" label="Box">23</container>
+                <container type="folder" label="Folder">8-15</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1996-2003</unitdate>
+                </unittitle>
+                <container type="box" label="Box">24</container>
+                <container type="folder" label="Folder">1-7</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Swing Bands and <title render="italic">In Black-and-White</title> Events,
+                  <unitdate>1998</unitdate></unittitle>
+              <container type="box" label="Box">24</container>
+              <container type="folder" label="Folder">8</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Tunnel of Oppression, <unitdate>1997</unitdate></unittitle>
+              <container type="box" label="Box">24</container>
+              <container type="folder" label="Folder">9</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Union</title>,
+                <unitdate>undated</unitdate></unittitle>
+              <container type="box" label="Box">57</container>
+              <container type="video" label="Video">10</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Union 10th Anniversary, <unitdate>1982</unitdate></unittitle>
+              <container type="box" label="Box">25</container>
+              <container type="folder" label="Folder">1</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Union Slide Show, <unitdate>1982</unitdate></unittitle>
+              <container type="box" label="Box">49</container>
+              <container type="folder" label="Folder">4</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Union Story</title> Documents,
+                  <unitdate>1985</unitdate></unittitle>
+              <container type="box" label="Box">25</container>
+              <container type="folder" label="Folder">2</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>UWM Birthday Party, <unitdate>1982</unitdate></unittitle>
+              <container type="box" label="Box">25</container>
+              <container type="folder" label="Folder">3</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>UWM Idol</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>2003</unitdate>
+                </unittitle>
+                <container type="box" label="Box">25</container>
+                <container type="folder" label="Folder">4</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Photos, <unitdate>2003</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>UWM Photos, Miscellaneous, <unitdate>undated</unitdate></unittitle>
+              <container type="box" label="Box">49</container>
+              <container type="folder" label="Folder">5</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>UWM Slides, Miscellaneous, <unitdate>undated</unitdate></unittitle>
+              <container type="box" label="Box">49</container>
+              <container type="folder" label="Folder">6</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Virginia Woolf and James Joyce Birthday Party,
+                <unitdate>1982</unitdate></unittitle>
+              <container type="box" label="Box">25</container>
+              <container type="folder" label="Folder">5</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">We Matter NOW!</title>,
+                <unitdate>2002</unitdate></unittitle>
+              <container type="box" label="Box">54</container>
+              <container type="video" label="Video">2-3</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Welcome Back Wednesdays</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1995</unitdate>
+                </unittitle>
+                <container type="box" label="Box">25</container>
+                <container type="folder" label="Folder">6-7</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>2000</unitdate>
+                </unittitle>
+                <container type="box" label="Box">25</container>
+                <container type="folder" label="Folder">8-9</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Welcome Week, <unitdate>2007</unitdate></unittitle>
+              <container type="box" label="Box">26</container>
+              <container type="folder" label="Folder">1</container>
+            </did>
+          </c03>
+
+          <c03>
+            <did>
+              <unittitle>Winter Chillout</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1992-2000</unitdate>
+                </unittitle>
+                <container type="box" label="Box">26</container>
+                <container type="folder" label="Folder">2-11</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Photographs, <unitdate>1997</unitdate></unittitle>
+                <container type="box" label="Box">50</container>
+                <container type="folder" label="Folder">5</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>YAWO, <unitdate>2004</unitdate></unittitle>
+              <container type="box" label="Box">53</container>
+              <container type="video" label="Video">2</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 id="series2" level="series">
+          <did>
+            <unittitle>2. Governance Files, <unitdate>1956-1994</unitdate></unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Activities Board, <unitdate>1956-1971</unitdate></unittitle>
+              <container type="box" label="Box">26</container>
+              <container type="folder" label="Folder">12-13</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Art Committee, <unitdate>1956-1973</unitdate></unittitle>
+              <container type="box" label="Box">27</container>
+              <container type="folder" label="Folder">1</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Constitution and Bylaws, <unitdate>1956-1972</unitdate></unittitle>
+              <container type="box" label="Box">27</container>
+              <container type="folder" label="Folder">2</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Film Committee, <unitdate>1963-1967</unitdate></unittitle>
+              <container type="box" label="Box">27</container>
+              <container type="folder" label="Folder">3</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Forum Committee, <unitdate>1960-1967</unitdate></unittitle>
+              <container type="box" label="Box">27</container>
+              <container type="folder" label="Folder">4</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Music Committee, <unitdate>1956-1971</unitdate></unittitle>
+              <container type="box" label="Box">27</container>
+              <container type="folder" label="Folder">5</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Social Committee, <unitdate>1968</unitdate></unittitle>
+              <container type="box" label="Box">27</container>
+              <container type="folder" label="Folder">6</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Theatre-Literary Committee, <unitdate>1965-1974</unitdate></unittitle>
+              <container type="box" label="Box">27</container>
+              <container type="folder" label="Folder">7</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Travel-Adventure Committee, <unitdate>1965-1974</unitdate></unittitle>
+              <container type="box" label="Box">27</container>
+              <container type="folder" label="Folder">8</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Union Policy Board</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Constitution, <unitdate>1983-1985</unitdate></unittitle>
+                <container type="box" label="Box">27</container>
+                <container type="folder" label="Folder">9</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Documents, <unitdate>1985-1986</unitdate></unittitle>
+                <container type="box" label="Box">27</container>
+                <container type="folder" label="Folder">10-13</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Executive Committee, <unitdate>1968-1987</unitdate></unittitle>
+                <container type="box" label="Box">27</container>
+                <container type="folder" label="Folder">14</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Minutes</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate>1963-1986</unitdate>
+                  </unittitle>
+                  <container type="box" label="Box">28</container>
+                  <container type="folder" label="Folder">1-6</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate>1987-1994</unitdate>
+                  </unittitle>
+                  <container type="box" label="Box">29</container>
+                  <container type="folder" label="Folder">1-7</container>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+        </c02>
+        <c02 id="series3" level="series">
+          <did>
+            <unittitle>3. Sociocultural Programming Files,
+              <unitdate>1989-2013</unitdate></unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Achieving Social Justice</title>,
+                  <unitdate>1992</unitdate></unittitle>
+              <container type="box" label="Box">51</container>
+              <container type="video" label="Video">11</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Affirmative Action Debate, <unitdate>1997</unitdate></unittitle>
+              <container type="box" label="Box">30</container>
+              <container type="folder" label="Folder">1</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>African Market Days, <unitdate>1991</unitdate></unittitle>
+              <container type="box" label="Box">30</container>
+              <container type="folder" label="Folder">2</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">African Origins of Judaism</title>,
+                  <unitdate>1998</unitdate></unittitle>
+              <container type="box" label="Box">53</container>
+              <container type="video" label="Video">5</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Afro-Cuban All Stars</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>2001</unitdate>
+                </unittitle>
+                <container type="box" label="Box">30</container>
+                <container type="folder" label="Folder">3</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Photos, <unitdate>2001</unitdate></unittitle>
+                <container type="box" label="Box">49</container>
+                <container type="folder" label="Folder">7</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Ayo, Damali, <unitdate>2004</unitdate></unittitle>
+              <container type="box" label="Box">55</container>
+              <container type="video" label="Video">10</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Bernstine, Daniel, <unitdate>1991-1992</unitdate></unittitle>
+              <container type="box" label="Box">30</container>
+              <container type="folder" label="Folder">4</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Beyond the Dream</title>,
+                <unitdate>2007</unitdate></unittitle>
+              <container type="box" label="Box">57</container>
+              <container type="video" label="Video">3</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Black Issues in Higher Education</title>,
+                  <unitdate>2007</unitdate></unittitle>
+              <container type="box" label="Box">57</container>
+              <container type="video" label="Video">4</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Campus Response to Racial Harassment,
+                <unitdate>undated</unitdate></unittitle>
+              <container type="box" label="Box">57</container>
+              <container type="video" label="Video">5-6</container>
+              <physdesc>
+                <extent>Videocassettes (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Caribbeanfest, <unitdate>2009</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Castillo, Ana, <unitdate>1999</unitdate></unittitle>
+              <container type="box" label="Box">53</container>
+              <container type="video" label="Video">6</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Cyrille, Andrew</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Concert, <unitdate>1988</unitdate></unittitle>
+                <container type="box" label="Box">51</container>
+                <container type="video" label="Video">1-2</container>
+                <physdesc>
+                  <extent>Videocassettes (VHS)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Workshop, <unitdate>1988</unitdate></unittitle>
+                <container type="box" label="Box">51</container>
+                <container type="video" label="Video">3-5</container>
+                <physdesc>
+                  <extent>Videocassettes (VHS)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Demerson, Bamidele, <title render="italic">Bags, Brooms, Bottles, and
+                  Bedcovers: HooDoo Folk Beliefs in Fine Arts</title>,
+                <unitdate>2003</unitdate></unittitle>
+              <container type="box" label="Box">54</container>
+              <container type="video" label="Video">6</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Demott, Benjamin, <unitdate>1998</unitdate></unittitle>
+              <container type="box" label="Box">30</container>
+              <container type="folder" label="Folder">5</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Diversity: Division or Unity?</title>,
+                  <unitdate>1991</unitdate></unittitle>
+              <container type="box" label="Box">51</container>
+              <container type="video" label="Video">14</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Diversity Night, <unitdate>undated</unitdate></unittitle>
+              <container type="box" label="Box">53</container>
+              <container type="video" label="Video">14</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Face to Face: An International Celebration,
+                <unitdate>2001-2002</unitdate></unittitle>
+              <container type="box" label="Box">30</container>
+              <container type="folder" label="Folder">6-7</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Faludi, Susan</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1992-1993</unitdate>
+                </unittitle>
+                <container type="box" label="Box">30</container>
+                <container type="folder" label="Folder">8</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Photographs, <unitdate>1993</unitdate></unittitle>
+                <container type="box" label="Box">49</container>
+                <container type="folder" label="Folder">8</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Video, <unitdate>1993</unitdate></unittitle>
+                <container type="box" label="Box">51</container>
+                <container type="video" label="Video">13</container>
+                <physdesc>
+                  <extent>Videocassette (VHS)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Fernandez, Wade, <unitdate>2004</unitdate></unittitle>
+              <container type="box" label="Box">55</container>
+              <container type="video" label="Video">2</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Forums, <unitdate>1990-1998</unitdate></unittitle>
+              <container type="box" label="Box">30</container>
+              <container type="folder" label="Folder">9-11</container>
+            </did>
+          </c03>
+
+          <c03>
+            <did>
+              <unittitle>Heritage Day, <unitdate>1996</unitdate></unittitle>
+              <container type="box" label="Box">52</container>
+              <container type="video" label="Video">11</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Hicks, Joe, <unitdate>1994</unitdate></unittitle>
+              <container type="box" label="Box">31</container>
+              <container type="folder" label="Folder">1</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Interfest</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1991-1996</unitdate>
+                </unittitle>
+                <container type="box" label="Box">31</container>
+                <container type="folder" label="Folder">2-5</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Gala Night Photos, <unitdate>1993</unitdate></unittitle>
+                <container type="box" label="Box">49</container>
+                <container type="folder" label="Folder">9</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Market Days Photos, <unitdate>1993</unitdate></unittitle>
+                <container type="box" label="Box">49</container>
+                <container type="folder" label="Folder">10</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Photos, <unitdate>1993-1997</unitdate></unittitle>
+                <container type="box" label="Box">49</container>
+                <container type="folder" label="Folder">11</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>International Celebration, <unitdate>1994</unitdate></unittitle>
+              <container type="box" label="Box">31</container>
+              <container type="folder" label="Folder">6</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>International Festival, <unitdate>1993</unitdate></unittitle>
+              <container type="box" label="Box">31</container>
+              <container type="folder" label="Folder">7</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Islamic Issues in the 21st Century, Photos,
+                <unitdate>1993</unitdate></unittitle>
+              <container type="box" label="Box">49</container>
+              <container type="folder" label="Folder">12</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Ko-Thi, <unitdate>2002</unitdate></unittitle>
+              <container type="box" label="Box">53</container>
+              <container type="video" label="Video">11</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Lemelle, Anthony, <title render="italic">Black Men: Endangered/Engendered
+                  "Species"</title>, <unitdate>2003</unitdate></unittitle>
+              <container type="box" label="Box">54</container>
+              <container type="video" label="Video">7</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Marable, Manning</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>2003</unitdate>
+                </unittitle>
+                <container type="box" label="Box">50</container>
+                <container type="folder" label="Folder">6</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title render="italic">The Struggle Continues, </title>
+                  <unitdate>1993</unitdate>
+                </unittitle>
+                <container type="box" label="Box">52</container>
+                <container type="video" label="Video">3</container>
+                <physdesc>
+                  <extent>Videocassette (VHS)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Mankiller, Wilma, <title render="italic">Contemporary Tribal
+                Issues</title>, <unitdate>1993</unitdate></unittitle>
+              <container type="box" label="Box">52</container>
+              <container type="video" label="Video">10</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Menchu Tum, Rigoberta, <unitdate>2005</unitdate></unittitle>
+              <container type="box" label="Box">55</container>
+              <container type="video" label="Video">13</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">The Midwest Affirmative Action Debate</title>,
+                  <unitdate>1997</unitdate></unittitle>
+              <container type="box" label="Box">53</container>
+              <container type="video" label="Video">3-4</container>
+              <physdesc>
+                <extent>Videocassettes (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Morrison, Toni, <unitdate>2000</unitdate></unittitle>
+              <container type="box" label="Box">32</container>
+              <container type="folder" label="Folder">1-2</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Music of Black Milwaukee</title>,
+                  <unitdate>2005</unitdate></unittitle>
+              <container type="box" label="Box">55</container>
+              <container type="video" label="Video">14</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">A Night in Bronzeville</title>,
+                  <unitdate>2005</unitdate></unittitle>
+              <container type="box" label="Box">56</container>
+              <container type="video" label="Video">3</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Peltier, Leonard, Panel Discussion, <unitdate>1996</unitdate></unittitle>
+              <container type="box" label="Box">32</container>
+              <container type="folder" label="Folder">3</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Pozner, Jennifer, <title render="italic">Heroines and Hellions</title>,
+                  <unitdate>2004</unitdate></unittitle>
+              <container type="box" label="Box">55</container>
+              <container type="video" label="Video">3</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Programming</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1989-1991</unitdate>
+                </unittitle>
+                <container type="box" label="Box">32</container>
+                <container type="folder" label="Folder">4-8</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1991-1993</unitdate>
+                </unittitle>
+                <container type="box" label="Box">33</container>
+                <container type="folder" label="Folder">1-6</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1993-1996</unitdate>
+                </unittitle>
+                <container type="box" label="Box">34</container>
+                <container type="folder" label="Folder">1-8</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1996-2005</unitdate>
+                </unittitle>
+                <container type="box" label="Box">35</container>
+                <container type="folder" label="Folder">1-9</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>2005-2008</unitdate>
+                </unittitle>
+                <container type="box" label="Box">36</container>
+                <container type="folder" label="Folder">1-3</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Co-Sponsored Programs, <unitdate>1992-1993</unitdate></unittitle>
+                <container type="box" label="Box">36</container>
+                <container type="folder" label="Folder">4</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">The Road to Brown</title>,
+                <unitdate>1991</unitdate></unittitle>
+              <container type="box" label="Box">51</container>
+              <container type="video" label="Video">7</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Roumain, Daniel, <unitdate>2002</unitdate></unittitle>
+              <container type="box" label="Box">56</container>
+              <container type="video" label="Video">13</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>S.C.O.P.E., <unitdate>1999-2000</unitdate></unittitle>
+              <container type="box" label="Box">36</container>
+              <container type="folder" label="Folder">5</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Seaborg, Albin, <unitdate>1996</unitdate></unittitle>
+              <container type="box" label="Box">36</container>
+              <container type="folder" label="Folder">6</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Southeast Asian Cultural Program, <unitdate>1993</unitdate></unittitle>
+              <container type="box" label="Box">49</container>
+              <container type="folder" label="Folder">13</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Steele, Shelby, <title render="italic">The Content of Our
+                Character</title>, <unitdate>1993</unitdate></unittitle>
+              <container type="box" label="Box">52</container>
+              <container type="video" label="Video">2</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Tibetan Monks, <unitdate>1993</unitdate></unittitle>
+              <container type="box" label="Box">49</container>
+              <container type="folder" label="Folder">14</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">The True Face of Islam</title>,
+                  <unitdate>1997</unitdate></unittitle>
+              <container type="box" label="Box">53</container>
+              <container type="video" label="Video">2</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Unravelling the Knot of Race</title>,
+                  <unitdate>2005</unitdate></unittitle>
+              <container type="box" label="Box">56</container>
+              <container type="video" label="Video">2</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Wattleton, Faye</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1993</unitdate>
+                </unittitle>
+                <container type="box" label="Box">50</container>
+                <container type="folder" label="Folder">7</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Video, <unitdate>1993</unitdate></unittitle>
+                <container type="box" label="Box">52</container>
+                <container type="video" label="Video">1</container>
+                <physdesc>
+                  <extent>Videocassette (VHS)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Willie, Charles, <unitdate>1990</unitdate></unittitle>
+              <container type="box" label="Box">51</container>
+              <container type="video" label="Video">7</container>
+              <physdesc>
+                <extent>Videocassette (VHS)</extent>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 id="series4" level="series">
+          <did>
+            <unittitle>4. Union Art Gallery Files, <unitdate>1982-2010</unitdate></unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Programming</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1982-1983</unitdate>
+                </unittitle>
+                <container type="box" label="Box">36</container>
+                <container type="folder" label="Folder">7-8</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1984-1991</unitdate>
+                </unittitle>
+                <container type="box" label="Box">37</container>
+                <container type="folder" label="Folder">1-7</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>2003-2010</unitdate>
+                </unittitle>
+                <container type="box" label="Box">38</container>
+                <container type="folder" label="Folder">1-7</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Spring Evening Performances, <unitdate>1999</unitdate></unittitle>
+              <container type="box" label="Box">38</container>
+              <container type="folder" label="Folder">8</container>
+            </did>
+          </c03>
+        </c02>
+        <c02 id="series5" level="series">
+          <did>
+            <unittitle>5. Distinguished Lecture Series Files,
+              <unitdate>1982-2007</unitdate></unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1982</unitdate>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Lundkvist, Artur</unittitle>
+                <container type="box" label="Box">38</container>
+                <container type="folder" label="Folder">9</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Moody-Johnston Debate</unittitle>
+                <container type="box" label="Box">38</container>
+                <container type="folder" label="Folder">10</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>O'Casey, Eileen</unittitle>
+                <container type="box" label="Box">38</container>
+                <container type="folder" label="Folder">11</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Teatro Vivo de Guatemala</unittitle>
+                <container type="box" label="Box">38</container>
+                <container type="folder" label="Folder">12</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1988</unitdate>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Cisneros, Henry</unittitle>
+                <container type="box" label="Box">38</container>
+                <container type="folder" label="Folder">13</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Jemison, Mae</unittitle>
+                <container type="box" label="Box">38</container>
+                <container type="folder" label="Folder">14</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1990</unitdate>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <title render="italic">Bilingual Education: Help or Hindrance?</title>
+                </unittitle>
+                <container type="box" label="Box">38</container>
+                <container type="folder" label="Folder">15</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Sontag, Susan</unittitle>
+                <container type="box" label="Box">38</container>
+                <container type="folder" label="Folder">16</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1991</unitdate>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Gates, Henry Louis Jr.</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle> Program </unittitle>
+                  <container type="box" label="Box">39</container>
+                  <container type="folder" label="Folder">1</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <title render="italic">Decentering the Humanities</title>
+                  </unittitle>
+                  <container type="box" label="Box">51</container>
+                  <container type="video" label="Video">9</container>
+                  <physdesc>
+                    <extent>Videocassette (VHS)</extent>
+                  </physdesc>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Video, <unitdate>2007</unitdate></unittitle>
+                  <container type="box" label="Box">57</container>
+                  <container type="video" label="Video">2</container>
+                  <physdesc>
+                    <extent>Videocassette (VHS)</extent>
+                  </physdesc>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Yevtushenko/Ragan</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>Lecture</unittitle>
+                  <container type="box" label="Box">39</container>
+                  <container type="folder" label="Folder">2-3</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <title render="italic">Poetry and Politics</title>
+                  </unittitle>
+                  <container type="box" label="Box">51</container>
+                  <container type="video" label="Video">10</container>
+                  <physdesc>
+                    <extent>Videocassette (VHS)</extent>
+                  </physdesc>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1992</unitdate>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Updike, John</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle> Program </unittitle>
+                  <container type="box" label="Box">39</container>
+                  <container type="folder" label="Folder">4</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Video</unittitle>
+                  <container type="box" label="Box">51</container>
+                  <container type="video" label="Video">11</container>
+                  <physdesc>
+                    <extent>Videocassette (VHS)</extent>
+                  </physdesc>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1993</unitdate>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>McPhee, John, <unitdate>1993</unitdate></unittitle>
+                <container type="box" label="Box">39</container>
+                <container type="folder" label="Folder">5</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1994</unitdate>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Eban, Abba</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate>Program</unitdate>
+                  </unittitle>
+                  <container type="box" label="Box">39</container>
+                  <container type="folder" label="Folder">6</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <title render="italic">The Political Legacy of Golda Meir</title>
+                  </unittitle>
+                  <container type="box" label="Box">52</container>
+                  <container type="video" label="Video">4</container>
+                  <physdesc>
+                    <extent>Videocassette (VHS)</extent>
+                  </physdesc>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Giovanni, Nikki</unittitle>
+                <container type="box" label="Box">39</container>
+                <container type="folder" label="Folder">7</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Kozol, Jonathan</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle> Program </unittitle>
+                  <container type="box" label="Box">39</container>
+                  <container type="folder" label="Folder">8</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Photographs</unittitle>
+                  <container type="box" label="Box">49</container>
+                  <container type="folder" label="Folder">15</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Video</unittitle>
+                  <container type="box" label="Box">52</container>
+                  <container type="video" label="Video">5</container>
+                  <physdesc>
+                    <extent>Videocassette (VHS)</extent>
+                  </physdesc>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Nader, Ralph, <unitdate>1994</unitdate></unittitle>
+                <container type="box" label="Box">39</container>
+                <container type="folder" label="Folder">9</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Tan, Amy, <unitdate>1994</unitdate></unittitle>
+                <container type="box" label="Box">52</container>
+                <container type="video" label="Video">6</container>
+                <physdesc>
+                  <extent>Videocassette (VHS)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1995</unitdate>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Anzaldua, Gloria</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>Program</unittitle>
+                  <container type="box" label="Box">39</container>
+                  <container type="folder" label="Folder">10</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Video</unittitle>
+                  <container type="box" label="Box">52</container>
+                  <container type="video" label="Video">8</container>
+                  <physdesc>
+                    <extent>Videocassette (VHS)</extent>
+                  </physdesc>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>West, Cornel</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>
+                    <title render="italic">Race Matters</title>
+                  </unittitle>
+                  <container type="box" label="Box">39</container>
+                  <container type="folder" label="Folder">11</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Video</unittitle>
+                  <container type="box" label="Box">52</container>
+                  <container type="video" label="Video">9</container>
+                  <physdesc>
+                    <extent>Videocassette (VHS)</extent>
+                  </physdesc>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1996</unitdate>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Adams and Rieder</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>
+                    <title render="italic">A Quest for Common Ground</title>
+                  </unittitle>
+                  <container type="box" label="Box">40</container>
+                  <container type="folder" label="Folder">1</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Video</unittitle>
+                  <container type="box" label="Box">52</container>
+                  <container type="video" label="Video">13</container>
+                  <physdesc>
+                    <extent>Videocassette (VHS)</extent>
+                  </physdesc>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Alberts, Bruce Michael</unittitle>
+                <container type="box" label="Box">40</container>
+                <container type="folder" label="Folder">2</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Wu, Harry</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle> Program </unittitle>
+                  <container type="box" label="Box">40</container>
+                  <container type="folder" label="Folder">3</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Video</unittitle>
+                  <container type="box" label="Box">52</container>
+                  <container type="video" label="Video">14</container>
+                  <physdesc>
+                    <extent>Videocassette (VHS)</extent>
+                  </physdesc>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1997</unitdate>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Fallows, James</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>Program</unittitle>
+                  <container type="box" label="Box">40</container>
+                  <container type="folder" label="Folder">4</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Video</unittitle>
+                  <container type="box" label="Box">53</container>
+                  <container type="video" label="Video">1</container>
+                  <physdesc>
+                    <extent>Videocassette (VHS)</extent>
+                  </physdesc>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Butler, Robert</unittitle>
+                <container type="box" label="Box">40</container>
+                <container type="folder" label="Folder">5</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1998</unitdate>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Guerrilla Girls</unittitle>
+                <container type="box" label="Box">40</container>
+                <container type="folder" label="Folder">6</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Waring, Marilyn</unittitle>
+                <container type="box" label="Box">40</container>
+                <container type="folder" label="Folder">7</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1999</unitdate>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Davis, Angela</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>Program</unittitle>
+                  <container type="box" label="Box">40</container>
+                  <container type="folder" label="Folder">8</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Video</unittitle>
+                  <container type="box" label="Box">53</container>
+                  <container type="video" label="Video">7</container>
+                  <physdesc>
+                    <extent>Videocassette (VHS)</extent>
+                  </physdesc>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Davis/Koethe Photographs</unittitle>
+                <container type="box" label="Box">49</container>
+                <container type="folder" label="Folder">16</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Koethe, John</unittitle>
+                <container type="box" label="Box">40</container>
+                <container type="folder" label="Folder">9</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>2001</unitdate>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Smith, Anna Deavere</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>Program</unittitle>
+                  <container type="box" label="Box">40</container>
+                  <container type="folder" label="Folder">10</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Video</unittitle>
+                  <container type="box" label="Box">53</container>
+                  <container type="video" label="Video">8</container>
+                  <physdesc>
+                    <extent>Videocassette (VHS)</extent>
+                  </physdesc>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Walker, Alice</unittitle>
+                <container type="box" label="Box">53</container>
+                <container type="video" label="Video">9</container>
+                <physdesc>
+                  <extent>Videocassette (VHS)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>2002</unitdate>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Leakey, Richard</unittitle>
+                <container type="box" label="Box">53</container>
+                <container type="video" label="Video">12</container>
+                <physdesc>
+                  <extent>Videocassette (VHS)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Malouf, David</unittitle>
+                <container type="box" label="Box">53</container>
+                <container type="video" label="Video">2</container>
+                <physdesc>
+                  <extent>Videocassette (VHS)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>West, Cornel</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle> Program </unittitle>
+                  <container type="box" label="Box">40</container>
+                  <container type="folder" label="Folder">11</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Photographs</unittitle>
+                  <container type="box" label="Box">49</container>
+                  <container type="folder" label="Folder">17</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Video</unittitle>
+                  <container type="box" label="Box">54</container>
+                  <container type="video" label="Video">4</container>
+                  <physdesc>
+                    <extent>Videocassette (VHS)</extent>
+                  </physdesc>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>2003</unittitle>
+            </did>
+
+            <c04>
+              <did>
+                <unittitle>Guillermoprieto, Alma, <title render="italic">Columbia: The Unbroken
+                    War</title></unittitle>
+                <container type="box" label="Box">54</container>
+                <container type="video" label="Video">12</container>
+                <physdesc>
+                  <extent>Videocassette (VHS)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Mosley, Walter</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>
+                    <title render="italic">Legacy of Amadou Diallo</title>
+                  </unittitle>
+                  <container type="box" label="Box">55</container>
+                  <container type="video" label="Video">5</container>
+                  <physdesc>
+                    <extent>Videocassette (VHS)</extent>
+                  </physdesc>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <title render="italic">What Next</title>
+                  </unittitle>
+                  <container type="box" label="Box">54</container>
+                  <container type="video" label="Video">13</container>
+                  <physdesc>
+                    <extent>Videocassette (VHS)</extent>
+                  </physdesc>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Schlosser, Eric</unittitle>
+                <container type="box" label="Box">54</container>
+                <container type="video" label="Video">9</container>
+                <physdesc>
+                  <extent>Videocassette (VHS)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Totenberg, Nina</unittitle>
+                <container type="box" label="Box">54</container>
+                <container type="video" label="Video">10</container>
+                <physdesc>
+                  <extent>Videocassette (VHS)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>2004</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Olmos, Edward James, <unitdate>2004</unitdate></unittitle>
+                <container type="box" label="Box">55</container>
+                <container type="video" label="Video">7</container>
+                <physdesc>
+                  <extent>Videocassette (VHS)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>West, Cornel, <unitdate>2004</unitdate></unittitle>
+                <container type="box" label="Box">54</container>
+                <container type="video" label="Video">14 </container>
+                <physdesc>
+                  <extent>Videocassette (VHS)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>2005</unitdate>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Kushner, Tony</unittitle>
+                <container type="box" label="Box">55</container>
+                <container type="video" label="Video">11</container>
+                <physdesc>
+                  <extent>Videocassette (VHS)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Spiegelman, Art</unittitle>
+                <container type="box" label="Box">56</container>
+                <container type="video" label="Video">1</container>
+                <physdesc>
+                  <extent>Videocassette (VHS)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Wolf, Naomi</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>Program </unittitle>
+                  <container type="box" label="Box">40</container>
+                  <container type="folder" label="Folder">12</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Video</unittitle>
+                  <container type="box" label="Box">56</container>
+                  <container type="video" label="Video">9</container>
+                  <physdesc>
+                    <extent>Videocassette (VHS)</extent>
+                  </physdesc>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>2006</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Giovanni, Nikki</unittitle>
+                <container type="box" label="Box">56</container>
+                <container type="video" label="Video">5</container>
+                <physdesc>
+                  <extent>Videocassette (VHS)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Wild, David</unittitle>
+                <container type="box" label="Box">56</container>
+                <container type="video" label="Video">11</container>
+                <physdesc>
+                  <extent>Videocassette (VHS)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>2007</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Goodman, Amy</unittitle>
+                <container type="box" label="Box">56</container>
+                <container type="video" label="Video">12</container>
+                <physdesc>
+                  <extent>Videocassette (VHS)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Kennedy, Robert F. Jr.</unittitle>
+                <container type="box" label="Box">56</container>
+                <container type="video" label="Video">6</container>
+                <physdesc>
+                  <extent>Videocassette (VHS)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Rodriguez, Julie Chavez</unittitle>
+                <container type="box" label="Box">56</container>
+                <container type="video" label="Video">14</container>
+                <physdesc>
+                  <extent>Videocassette (VHS)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Scheck, Barry</unittitle>
+                <container type="box" label="Box">56</container>
+                <container type="video" label="Video">10</container>
+                <physdesc>
+                  <extent>Videocassette (VHS)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>2011</unitdate>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>McMillan, Terry</unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>Undated</unitdate>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Malcolm X Rendition</unittitle>
+                <container type="box" label="Box">49</container>
+                <container type="folder" label="Folder">19</container>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 id="series6" level="series">
+          <did>
+            <unittitle>6. Union Cinema Files, <unitdate>1978-2015</unitdate></unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Programming</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Cinema</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate>1978-1985</unitdate>
+                  </unittitle>
+                  <container type="box" label="Box">41</container>
+                  <container type="folder" label="Folder">1-7</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate>1985-1991</unitdate>
+                  </unittitle>
+                  <container type="box" label="Box">42</container>
+                  <container type="folder" label="Folder">1-3</container>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Theater</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate>1992-2008</unitdate>
+                  </unittitle>
+                  <container type="box" label="Box">42</container>
+                  <container type="folder" label="Folder">4-11</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate>2008-2009</unitdate>
+                  </unittitle>
+                  <container type="box" label="Box">43</container>
+                  <container type="folder" label="Folder">1-2</container>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Specific Programs</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Asian Film Festival, <unitdate>2001-2009</unitdate></unittitle>
+                <container type="box" label="Box">43</container>
+                <container type="folder" label="Folder">3</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Festival of Films in French, <unitdate>2002-2008</unitdate></unittitle>
+                <container type="box" label="Box">43</container>
+                <container type="folder" label="Folder">4</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Latin American Film Series, <unitdate>1993-2008</unitdate></unittitle>
+                <container type="box" label="Box">43</container>
+                <container type="folder" label="Folder">5</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Latin American Film Series, Poster, <unitdate>1986</unitdate></unittitle>
+                <container type="oversize" label="Oversize Folder">1</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Milwaukee LGBT Film/Video Festival,
+                  <unitdate>1983-2015</unitdate></unittitle>
+              </did>
+              <bioghist>
+                <p>The first annual gay and lesbian film festival in Milwaukee was organized by the
+                  Lavender Commitment student organization at the University of Wisconsin-Milwaukee
+                  in January 1983. It wasn't the first time that gay and lesbian films were shown at
+                  UWM--the Gay Peoples Union student organization had screened films in the Union in
+                  1971, and the Gay &amp; Lesbian Community organization had shown films in 1982 as
+                  part of UWM's Gay Day--but 1983 was the first time that screenings were billed as
+                  an annual event. The Lavender Commitment held six annual festivals from 1983 to
+                  1988. In 1992 Great Lakes Film &amp; Video (GLFV), with significant financial
+                  support from the Cream City Foundation, began its own LGBT film and video series.
+                  This series ran until 1996, in which year there was both a spring and fall
+                  festival. In 1996, GLFV became a programming arm of UWM's School of Fine Arts,
+                  where the festival currently resides.</p>
+              </bioghist>
+              <scopecontent>
+                <p>This series includes promotional materials of the Milwaukee LGBT Film/Video
+                  Festival, as well as its precedecessors, the Lavender Commitment student
+                  organization from 1983 through 1988 and Great Lakes Film &amp; Video Festival from
+                  1992 through 1996.</p>
+              </scopecontent>
+              <relatedmaterial>
+                <p>Further information about the Lavender Commitment student organization may be
+                  found in the UW-Milwaukee Office of the Dean of Student Records (<archref
+                    href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0048"
+                    actuate="onrequest" show="new">UWM Archival Collection 48</archref>), and
+                  information about the Great Lakes Film &amp; Video Festival in the Cream City
+                  Foundation Records (<archref
+                    href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmmss0205"
+                    actuate="onrequest" show="new">UWM Manuscript Collection 205</archref>).
+                  Researchers should also consult Union Theatre programming materials elsewhere in
+                  this collection.</p>
+              </relatedmaterial>
+              <c05>
+                <did>
+                  <unittitle>General Promotional Materials,
+                    <unitdate>1983-2015</unitdate></unittitle>
+                  <container type="box" label="Box">43</container>
+                  <container type="folder" label="Folder">6-15</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Posters/Programs (Oversized), <unitdate>1983-1996</unitdate>,
+                      <unitdate>2006-2008</unitdate>, <unitdate>2014-2015</unitdate></unittitle>
+                  <container type="box" label="Box">6</container>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Soviet Women in Film, Poster, <unitdate>1988</unitdate></unittitle>
+                <container type="oversize" label="Oversize Folder">1</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Women Without Borders Film Series,
+                  <unitdate>2005-2008</unitdate></unittitle>
+                <container type="box" label="Box">43</container>
+                <container type="folder" label="Folder">16</container>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 id="series7" level="series">
+          <did>
+            <unittitle>7. Gasthaus Entertainment Series Files,
+              <unitdate>2001-2005</unitdate></unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Gasthaus Entertainment Series, <unitdate>2001-2005</unitdate></unittitle>
+              <container type="box" label="Box">44</container>
+              <container type="folder" label="Folder">1-9</container>
+            </did>
+          </c03>
+        </c02>
+        <c02 id="series8" level="series">
+          <did>
+            <unittitle>8. Publications, <unitdate>1963-2009</unitdate></unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Bookstore</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Calendars</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate>1963-1992</unitdate>
+                  </unittitle>
+                  <container type="box" label="Box">44</container>
+                  <container type="folder" label="Folder">10-12</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate>1993-2009</unitdate>
+                  </unittitle>
+                  <container type="box" label="Box">45</container>
+                  <container type="folder" label="Folder">1-3</container>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Newsletter, <unitdate>1979-2006</unitdate></unittitle>
+                <container type="box" label="Box">45</container>
+                <container type="folder" label="Folder">4-6</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Campus Building Magazine, <unitdate>1977</unitdate></unittitle>
+              <container type="box" label="Box">45</container>
+              <container type="folder" label="Folder">7</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Craft Centre Brochures, <unitdate>2003-2008</unitdate></unittitle>
+              <container type="box" label="Box">45</container>
+              <container type="folder" label="Folder">8-12</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Preview: A Complete Guide to the UWM Union</title>,
+                  <unitdate>1979-1984</unitdate></unittitle>
+              <container type="box" label="Box">45</container>
+              <container type="folder" label="Folder">13</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title render="italic">Preview: A Calendar of Events</title>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1982-1983</unitdate>
+                </unittitle>
+                <container type="box" label="Box">45</container>
+                <container type="folder" label="Folder">15</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate>1984-2009</unitdate>
+                </unittitle>
+                <container type="box" label="Box">46</container>
+                <container type="folder" label="Folder">1-8</container>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Preview: This Month in the UWM Union</title>,
+                  <unitdate>1979-1981</unitdate></unittitle>
+              <container type="box" label="Box">45</container>
+              <container type="folder" label="Folder">14</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Satelite: A Bilingual Variety Newspaper</title>,
+                  <unitdate>1984</unitdate></unittitle>
+              <container type="box" label="Box">47</container>
+              <container type="folder" label="Folder">1</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Union Information/History Booklets, <unitdate>1991</unitdate></unittitle>
+              <container type="box" label="Box">47</container>
+              <container type="folder" label="Folder">2</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Union News</title>,
+                <unitdate>1964-1978</unitdate></unittitle>
+              <container type="box" label="Box">47</container>
+              <container type="folder" label="Folder">3-5</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Union Newsletters, <unitdate>2003-2004</unitdate></unittitle>
+              <container type="box" label="Box">47</container>
+              <container type="folder" label="Folder">6</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>UWM Campus Guide, <unitdate>2000</unitdate></unittitle>
+              <container type="box" label="Box">47</container>
+              <container type="folder" label="Folder">7</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Women's Resource Center Newsletter,
+                <unitdate>1994-1996</unitdate></unittitle>
+              <container type="box" label="Box">47</container>
+              <container type="folder" label="Folder">8</container>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="otherlevel" otherlevel="unprocessed" id="acc2015-008">
+        <did>
+          <unitid>Accession 2015-008</unitid>
+          <unittitle>Event Files and Photographs, <unitdate>1981-2015</unitdate></unittitle>
+          <physdesc>
+            <extent>5.2 cubic feet (6 boxes)</extent>
+            <extent>455 digital files (2 GB)</extent>
+          </physdesc>
+          <abstract>Photographs and publicity materials for events held in the Student Union. Most
+            of the content is from the programming departments in the union, in particular
+            Sociocultural Programming, the Union Theater, and the Union Art Gallery. In many cases
+            the photographs correspond to events in the existing collection; the photos are internal
+            to the Union and not duplicative of material in Photo Services. The electronic files
+            also include annual reports for the Union and its constituent departments from
+            2008-2015, as well as digital images of events in the Student Arts and Crafts Center and
+            Union Art Gallery.</abstract>
+        </did>
+        <c02>
+          <did>
+            <unittitle>African Americans in Education Conference,
+              <unitdate>1997</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Annual Reports, <unitdate>2007-2014</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"/>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Art Gallery Images</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Bound and Beyond, <unitdate>2014</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Crossing Over, <unitdate>2014</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Dia de los Muertos, <unitdate>2015</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Dwelling, <unitdate>2014</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Identity Check, <unitdate>2015</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Interface, <unitdate>2015</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Visualizing Sovereignty, <unitdate>2015</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Artist Fair, <unitdate>2015</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"/>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Board of Regents Reception Videos, <unitdate>2001</unitdate></unittitle>
+            <container type="box" label="Box">6</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Campus Activities, <unitdate>2008</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>CaribbeanFest, <unitdate>2010</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Cinco de Mayo, <unitdate>2010-2011</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>The Dangerous Game, <unitdate>2014</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"/>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Director Awards Presentation, <unitdate>1999</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Earth Week, <unitdate>2015</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"/>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Events, <unitdate>2001-2002</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Film</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>African American Film Festival, <unitdate>2009-2011</unitdate></unittitle>
+              <container type="box" label="Box">1</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Cinema, <unitdate>1983-1988</unitdate></unittitle>
+              <container type="box" label="Box">1</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Gay and Lesbian Film Festival, <unitdate>1994-1998</unitdate></unittitle>
+              <container type="box" label="Box">1</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Programming, <unitdate>1994-1998</unitdate></unittitle>
+              <container type="box" label="Box">1</container>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Food Services Events, <unitdate>1982-1984</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Food Services Events, <unitdate>1983-1985</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Geek Week, <unitdate>2015</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"/>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Get Ready for Mardi Gras, <unitdate>2015</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"/>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Henna, <unitdate>2014</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"/>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Jane Goodall, <unitdate>2000</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Junot Diaz, <unitdate>2011</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Marketing, <unitdate>2010-2011</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Maya Angelou, <unitdate>2000</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>The Meeting, <unitdate>2000</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>New Muslim Cool, <unitdate>2010</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Open Clay, <unitdate>2014</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"/>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Photographs</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Activities, <unitdate>1987-1988</unitdate></unittitle>
+              <container type="box" label="Box">5</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Art Gallery Shows, <unitdate>1983-1986</unitdate></unittitle>
+              <container type="box" label="Box">5</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Artwork, <unitdate>1980-1995</unitdate></unittitle>
+              <container type="box" label="Box">5</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Campus Photos, <unitdate>1980-1989</unitdate></unittitle>
+              <container type="box" label="Box">6</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Event Photos, <unitdate>1981-1989</unitdate></unittitle>
+              <container type="box" label="Box">6</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Irish Fest and Other Events, <unitdate>1984-1986</unitdate></unittitle>
+              <container type="box" label="Box">6</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Polaroids, <unitdate>1981-1984</unitdate></unittitle>
+              <container type="box" label="Box">6</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Slides, <unitdate>1981-1988</unitdate></unittitle>
+              <container type="box" label="Box">6</container>
+            </did>
+          </c03>
+
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Popcorn Forum, <unitdate>2010</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Programming, <unitdate>2002, 2009</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Programming and Associated Departments Annual Reports,
+                <unitdate>1995</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Recreation Center, <unitdate>1987-1988</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Self-Studies, <unitdate>1982-1984</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Sociocultural Programming, <unitdate>1988-1990</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Sociocultural Programming, <unitdate>1990-2009</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Stacyann Chin, <unitdate>2009</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Student Affairs, <unitdate>1986-1990</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Student Arts and Crafts Center Reports,
+              <unitdate>2014-2015</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"/>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Student Organizations, <unitdate>2010</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"/>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Taste of Africa, <unitdate>2011</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Terrarium Event, <unitdate>2015</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"/>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Theater Calendar, <unitdate>2014-2015</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"/>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Tie Dye Event, <unitdate>2014</unitdate></unittitle>
+            <container type="electronic" label="Electronic Folder"/>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Unclothed, <unitdate>2008</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Union Theater, <unitdate>1994-2001</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Upeople Project, <unitdate>2011</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Yearbooks and Reports, <unitdate>1980-2004</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
