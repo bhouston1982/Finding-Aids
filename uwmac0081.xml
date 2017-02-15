@@ -22,8 +22,7 @@
                     <addressline>Archives Department</addressline>
                     <addressline>P.O. Box 604</addressline>
                     <addressline>Milwaukee, Wisconsin 53201-0604</addressline>
-                    <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr
-                            href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
+                    <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
                 </address>
                 <date encodinganalog="260$c" type="publication" normal="2007">Copyright &#169; 2007
                     University of Wisconsin Board of Regents</date>
@@ -35,6 +34,18 @@
                     langcode="eng" scriptcode="Latn">English.</language></langusage>
         </profiledesc>
         <revisiondesc>
+            <change encodinganalog="583">
+                <date normal="2017-02-14">February 15, 2017</date>
+                <item>Brad Houston updated the arrangement note and made some order changes in the
+                    contents list (box 28). He also added a link to the PSOA website in the UWM Web
+                    Collection.</item>
+            </change>
+            <change encodinganalog="583">
+                <date normal="2017-02-09">February 9, 2017</date>
+                <item>Ashlie Biddle updated the finding aid to reflect the addition of materials
+                    transferred from the Dept of Theatre collection (Box 28). Changes were made to
+                    the extent, content list, and processinfo.</item>
+            </change>
             <change encodinganalog="583">
                 <date normal="2016-10-13">October 13, 2016</date>
                 <item>Christel Maass updated the arrangement note.</item>
@@ -102,7 +113,7 @@
             <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma">Accession
                 2016-008</unitid>
             <physdesc label="Quantity">
-                <extent encodinganalog="300">22.2 cubic ft. (27 boxes including 5 audio
+                <extent encodinganalog="300">22.6 cubic ft. (28 boxes including 5 audio
                     reels)</extent>
                 <extent encodinganalog="300">1 oversize folder</extent>
                 <extent encodinganalog="300">2 digital text files (3 MB)</extent>
@@ -274,6 +285,12 @@
         </scopecontent>
         <arrangement encodinganalog="351">
             <p>The files are organized alphabetically by subject, then chronologically.</p>
+            <list type="simple">
+                <item>
+                    <ref target="uwmac0081" show="replace" actuate="onrequest">UWM Archival
+                        Collection 81: Records, 1936-2016</ref>
+                </item>
+            </list>
             <p>The collection consists of one additional accession:</p>
             <list type="simple">
                 <item>
@@ -371,7 +388,9 @@
                     in an oversize folder. Brad Houston processed some additional material in
                     December 2014. Phyllis Reske and Brad Houston processed accession 2015-041
                     (boxes 18-27) in May 2016. Brad Houston added information about accession
-                    2016-008 to the collection in October 2016.</p>
+                    2016-008 to the collection in October 2016. A box of fine arts materials from
+                    the Dept of Theatre was integrated into the collection as Box 28 by Ashlie
+                    Biddle in February 2017.</p>
             </processinfo>
             <processinfo audience="internal">
                 <head>Preservation Information</head>
@@ -400,7 +419,7 @@
                     <unittitle>UW-Milwaukee Peck School of the Arts, Office of the Dean Records,
                             <unitdate>1936-2013</unitdate></unittitle>
                     <physdesc>
-                        <extent encodinganalog="300">22.2 cubic ft. (27 boxes including 5 audio
+                        <extent encodinganalog="300">22.6 cubic ft. (28 boxes including 5 audio
                             reels)</extent>
                         <extent encodinganalog="300">1 oversize folder</extent>
                         <extent encodinganalog="300">2 digital text files (3 MB)</extent>
@@ -477,6 +496,14 @@
                 </c02>
                 <c02>
                     <did>
+                        <unittitle>Alumni News Articles, <unitdate>1996</unitdate>,
+                                <unitdate>undated</unitdate></unittitle>
+                        <container type="box" label="Box">28</container>
+                        <container type="folder" label="Folder">2</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
                         <unittitle>American National Theatre and Academy,
                                 <unitdate>1963-1970</unitdate></unittitle>
                         <container type="box" label="Box">1</container>
@@ -503,6 +530,13 @@
                         <unittitle>Art Exhibitions Committee, <unitdate>1967</unitdate></unittitle>
                         <container type="box" label="Box">1</container>
                         <container type="folder" label="Folder">10</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Art Festivals, <unitdate>1990-2000</unitdate></unittitle>
+                        <container type="box" label="Box">28</container>
+                        <container type="folder" label="Folder">1</container>
                     </did>
                 </c02>
                 <c02>
@@ -1149,7 +1183,7 @@
                 </c02>
                 <c02>
                     <did>
-                        <unittitle>Engelman Hall Remodeling Committee,
+                        <unittitle>Engelmann Hall Remodeling Committee,
                                 <unitdate>1969-1973</unitdate></unittitle>
                         <container type="box" label="Box">3</container>
                         <container type="folder" label="Folder">11</container>
@@ -1263,6 +1297,14 @@
                         <container type="folder" label="Folder">20</container>
                     </did>
                 </c02>
+
+                <c02>
+                    <did>
+                        <unittitle>Fine Arts Budget, <unitdate>1997-1998</unitdate></unittitle>
+                        <container type="box" label="Box">28</container>
+                        <container type="folder" label="Folder">3</container>
+                    </did>
+                </c02>
                 <c02>
                     <did>
                         <unittitle>Fine Arts Core Curriculum,
@@ -1304,10 +1346,26 @@
                 </c02>
                 <c02>
                     <did>
-                        <unittitle>Fine Arts Events, <unitdate>1962-1970</unitdate></unittitle>
-                        <container type="box" label="Box">3</container>
-                        <container type="folder" label="Folder">25</container>
+                        <unittitle>Fine Arts Events</unittitle>
                     </did>
+                    <c03>
+                        <did>
+                            <unittitle>
+                                <unitdate>1962-1970</unitdate>
+                            </unittitle>
+                            <container type="box" label="Box">3</container>
+                            <container type="folder" label="Folder">25</container>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle>
+                                <unitdate>2009-2011</unitdate>
+                            </unittitle>
+                            <container type="box" label="Box">28</container>
+                            <container type="folder" label="Folder">4</container>
+                        </did>
+                    </c03>
                 </c02>
                 <c02>
                     <did>
@@ -2197,10 +2255,26 @@
                 </c02>
                 <c02>
                     <did>
+                        <unittitle>Milwaukee Repertory Theater, <unitdate>1989-1991</unitdate>,
+                                <unitdate>1999</unitdate></unittitle>
+                        <container type="box" label="Box">28</container>
+                        <container type="folder" label="Folder">5</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
                         <unittitle>Milwaukee's Sesquicentennial,
                             <unitdate>1995-1996</unitdate></unittitle>
                         <container type="box" label="Box">21</container>
                         <container type="folder" label="Folder">16</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Milwaukee Theatres, <unitdate>1966-2010</unitdate>
+                        </unittitle>
+                        <container type="box" label="Box">28</container>
+                        <container type="folder" label="Folder">6</container>
                     </did>
                 </c02>
                 <c02>
@@ -2219,7 +2293,7 @@
                 </c02>
                 <c02>
                     <did>
-                        <unittitle>Mitchell Hall Remodling, <unitdate>1974</unitdate></unittitle>
+                        <unittitle>Mitchell Hall Remodelling, <unitdate>1974</unitdate></unittitle>
                         <container type="box" label="Box">4</container>
                         <container type="folder" label="Folder">45</container>
                     </did>
@@ -2285,6 +2359,14 @@
                 </c02>
                 <c02>
                     <did>
+                        <unittitle><title render="italic">Native Son</title> Film Screening Benefit,
+                                <unitdate>1987</unitdate></unittitle>
+                        <container type="box" label="Box">28</container>
+                        <container type="folder" label="Folder">7</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
                         <unittitle>New American Cinema Proposal,
                             <unitdate>1973</unitdate></unittitle>
                         <container type="box" label="Box">5</container>
@@ -2325,6 +2407,14 @@
                     <did>
                         <unittitle>Opera Theatre, <unitdate>1970-1971</unitdate></unittitle>
                         <container type="box" label="Box">5</container>
+                        <container type="folder" label="Folder">8</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Pabst Theater, <unitdate>1966,</unitdate>
+                            <unitdate>1989-1991</unitdate></unittitle>
+                        <container type="box" label="Box">28</container>
                         <container type="folder" label="Folder">8</container>
                     </did>
                 </c02>
@@ -2471,11 +2561,23 @@
                     </c03>
                     <c03>
                         <did>
-                            <unittitle>Great Artist Series Brochures,
-                                <unitdate>1988-1996</unitdate></unittitle>
-                            <container type="box" label="Box">22</container>
-                            <container type="folder" label="Folder">4-5</container>
+                            <unittitle>Great Artists Series</unittitle>
                         </did>
+                        <c04>
+                            <did>
+                                <unittitle>Brochures, <unitdate>1988-1996</unitdate></unittitle>
+                                <container type="box" label="Box">22</container>
+                                <container type="folder" label="Folder">4-5</container>
+                            </did>
+                        </c04>
+                        <c04>
+                            <did>
+                                <unittitle>Musical Performances,
+                                    <unitdate>1988-1990</unitdate></unittitle>
+                                <container type="box" label="Box">28</container>
+                                <container type="folder" label="Folder">11</container>
+                            </did>
+                        </c04>
                     </c03>
                 </c02>
                 <c02>
@@ -2748,6 +2850,14 @@
                 </c02>
                 <c02>
                     <did>
+                        <unittitle>Stock Company's <title render="italic">The Glass
+                                Menagerie</title> Photos, <unitdate>undated</unitdate></unittitle>
+                        <container type="box" label="Box">28</container>
+                        <container type="folder" label="Folder">9</container>
+                    </did>
+                </c02>
+                <c02>
+                    <did>
                         <unittitle>Stowell House, <unitdate>1972-1973</unitdate></unittitle>
                         <container type="box" label="Box">6</container>
                         <container type="folder" label="Folder">31</container>
@@ -3007,6 +3117,15 @@
                 </c02>
                 <c02>
                     <did>
+                        <unittitle>University Sponsored Concerts,
+                            <unitdate>1979-1998</unitdate></unittitle>
+                        <container type="box" label="Box">28</container>
+                        <container type="folder" label="Folder">10</container>
+                    </did>
+                </c02>
+
+                <c02>
+                    <did>
                         <unittitle>University of Wisconsin System Correspondence,
                                 <unitdate>1972-1975</unitdate></unittitle>
                         <container type="box" label="Box">7</container>
@@ -3065,6 +3184,22 @@
                         <container type="box" label="Box">7</container>
                         <container type="folder" label="Folder">23</container>
                     </did>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>Website, <unitdate>2012-2016</unitdate></unittitle>
+                    </did>
+                    <dao href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/psoa/"
+                        actuate="onrequest" show="new">
+                        <daodesc>
+                            <p>View these materials online</p>
+                        </daodesc>
+                    </dao>
+                    <scopecontent>
+                        <p>Materials collected as part of <extref
+                                href="https://archive-it.org/organizations/664" actuate="onrequest"
+                                show="new">UWM Web Collection.</extref></p>
+                    </scopecontent>
                 </c02>
                 <c02>
                     <did>

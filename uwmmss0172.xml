@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ascii"?>
- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > 
+<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
 <!-- wiarchives version:2009-09-24 -->
 <ead id="uw-mil-uwmmss0172" relatedencoding="MARC21">
   <eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
@@ -5856,41 +5856,44 @@
             <c04>
               <did>
                 <unittitle>Articles &amp; Presentations, <unitdate>2003-2011</unitdate></unittitle>
-                <container type="electronic" label="Electronic Folder">Articles &amp;
-                  Presentations</container>
+                <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\Articles &amp; Presentations\</container>
               </did>
             </c04>
             <c04>
               <did>
                 <unittitle>Council Reports, <unitdate>2010-2011</unitdate></unittitle>
-                <container type="electronic" label="Electronic Folder">Council Reports</container>
+                <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\Council Reports\</container>
               </did>
             </c04>
             <c04>
               <did>
                 <unittitle>Discussion Items, <unitdate>2010-2012</unitdate></unittitle>
-                <container type="electronic" label="Electronic Folder">Discussion Items</container>
+                <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\Discussion Items\</container>
               </did>
             </c04>
             <c04>
               <did>
                 <unittitle>Fellow Nomination Information, <unitdate>2006-2013</unitdate></unittitle>
-                <container type="electronic" label="Electronic Folder">Fellow Nomination
-                  Information</container>
+                <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\Fellow Nomination Information\</container>
               </did>
             </c04>
             <c04>
               <did>
                 <unittitle>General Presidential Files, <unitdate>2011-2012</unitdate></unittitle>
-                <container type="electronic" label="Electronic Folder">Trinkaus-Randall General
-                  Files</container>
+                <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\Trinkaus-Randall General Files\</container>
               </did>
             </c04>
             <c04>
               <did>
                 <unittitle>ICA Section on Professional Associations,
                   <unitdate>2012-2013</unitdate></unittitle>
-                <container type="electronic" label="Electronic Folder">ICA SPA</container>
+                <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\ICA SPA\</container>
               </did>
             </c04>
           </c03>
@@ -38360,9 +38363,8 @@
             <c04>
               <did>
                 <unittitle>A*CENSUS, <unitdate>2006-2008</unitdate></unittitle>
-                <container type="electronic" label="Electronic Folder"></container>
-                <container type="electronic" label="">\A_CENSUS
-                  2006-2008\</container>
+                <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\A_CENSUS 2006-2008\</container>
               </did>
             </c04>
             <c04>
@@ -38423,7 +38425,7 @@
               <did>
                 <unittitle>Authors Assignment of Rights to SAA,
                   <unitdate>2008-2009</unitdate></unittitle>
-                <container type="electronic" label="Electronic Folder"></container>
+                <container type="electronic" label="Electronic Folder"/>
                 <container type="electronic" label="">\Publishing_Agreements\</container>
               </did>
             </c04>
@@ -38498,9 +38500,9 @@
               <c05>
                 <did>
                   <unittitle>Minutes and Agendas, <unitdate>2006-2011</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder"></container>
-                  <container type="electronic" label="">\Editorial
-                    Board Meetings 2006-2011\</container>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\Editorial Board Meetings
+                    2006-2011\</container>
                 </did>
               </c05>
               <c05>
@@ -38547,7 +38549,7 @@
             <c04>
               <did>
                 <unittitle>Indexing Project Files, <unitdate>2006-2007</unitdate></unittitle>
-                <container type="electronic" label="Electronic Folder"></container>
+                <container type="electronic" label="Electronic Folder"/>
                 <container type="electronic" label="">\Indexing_American_Archivist\</container>
               </did>
             </c04>
@@ -38575,9 +38577,8 @@
             <c04>
               <did>
                 <unittitle>Presidential Addresses, <unitdate>2006-2012</unitdate></unittitle>
-                <container type="electronic" label="Electronic Folder"></container>
-                <container type="electronic" label="">\Presidential
-                  Addresses 2006-2012\</container>
+                <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\Presidential Addresses 2006-2012\</container>
               </did>
             </c04>
             <c04>
@@ -40102,8 +40103,8 @@
               <c05>
                 <did>
                   <unittitle>General Files, <unitdate>2011-2013</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\Awards
-                    2011-2013\ </container>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\Awards 2011-2013\</container>
                 </did>
               </c05>
               <c05>
@@ -42619,8 +42620,9 @@
               <did>
                 <unittitle>Preservation Publication Award Committee,
                   <unitdate>2001-2003</unitdate></unittitle>
-                <container type="electronic" label="Electronic Folder">\Preservation
-                  Publications Award Committee 2001-2003\</container>
+                <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\Preservation Publications Award Committee
+                  2001-2003\</container>
               </did>
             </c04>
 
@@ -47045,8 +47047,10 @@
               <c05>
                 <did>
                   <unittitle>Annual Meetings, <unitdate>2008-2010</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\Manuscripts
-                    Repositories 2008-2011\Annual Meetings\</container>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\Manuscripts Repositories
+                    2008-2011\</container>
+                  <container type="electronic" label="">\\Annual Meetings\</container>
                 </did>
               </c05>
 
@@ -47109,8 +47113,13 @@
               <c05>
                 <did>
                   <unittitle>General Files, <unitdate>2009</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\Manuscripts Repositories 2008-2011\General Files\</container></did></c05>
-        
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\Manuscripts Repositories
+                    2008-2011\</container>
+                  <container type="electronic" label="">\\General Files</container>
+                </did>
+              </c05>
+
               <c05>
                 <did>
                   <unittitle>Meetings, 1979-1988</unittitle>
@@ -47150,8 +47159,13 @@
               <c05>
                 <did>
                   <unittitle>Newsletters, <unitdate>2007-2009</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\Manuscripts Repositories 2008-2011\Newsletters\</container></did></c05>
-        
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\Manuscripts Repositories
+                    2008-2011\</container>
+                  <container type="electronic" label="">\\Newsletters</container>
+                </did>
+              </c05>
+
               <c05>
                 <did>
                   <unittitle>Nominations and Elections Committee, 1985-1986</unittitle>
@@ -47162,13 +47176,23 @@
               <c05>
                 <did>
                   <unittitle>Reports, <unitdate>2009-2010</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\Manuscripts Repositories 2008-2011\Reports\</container></did></c05>
-        
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\Manuscripts Repositories
+                    2008-2011\</container>
+                  <container type="electronic" label="">\\Reports</container>
+                </did>
+              </c05>
+
               <c05>
                 <did>
                   <unittitle>Session Proposals, <unitdate>2009</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\Manuscripts Repositories 2008-2011\Session Proposals\</container></did></c05>
-        
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\Manuscripts Repositories
+                    2008-2011\</container>
+                  <container type="electronic" label="">\\Session Proposals</container>
+                </did>
+              </c05>
+
               <c05>
                 <did>
                   <unittitle>Steering Committee, 1984-1987</unittitle>
@@ -47188,8 +47212,13 @@
                 <did>
                   <unittitle>Steering Committee Meeting Minutes,
                     <unitdate>2007-2010</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\Manuscripts Repositories 2008-2011\Steering Committee Minutes\</container></did></c05>
-        
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\Manuscripts Repositories
+                    2008-2011\</container>
+                  <container type="electronic" label="">\\Steering Committee Minutes</container>
+                </did>
+              </c05>
+
               <c05>
                 <did>
                   <unittitle>Tax Laws, 1983</unittitle>
@@ -47336,14 +47365,20 @@
               <c05>
                 <did>
                   <unittitle>Annual Reports, <unitdate>2007</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\Oral History Section\Annual Reports\</container></did>
-                
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\Oral History Section\</container>
+                  <container type="electronic" label="">\\Annual Reports</container>
+                </did>
+
               </c05>
               <c05>
                 <did>
                   <unittitle>Bylaws, <unitdate>2008</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\Oral History Section\Bylaws\</container></did>
-                
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\Oral History Section\</container>
+                  <container type="electronic" label="">\\Bylaws</container>
+                </did>
+
               </c05>
               <c05>
                 <did>
@@ -47355,8 +47390,11 @@
               <c05>
                 <did>
                   <unittitle>Newsletters, <unitdate>2004-2008</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\Oral History Section\Newsletters\</container></did>
-                
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\Oral History Section\</container>
+                  <container type="electronic" label="">\\Newsletters</container>
+                </did>
+
               </c05>
               <c05>
                 <did>
@@ -47565,7 +47603,7 @@
                 <did>
                   <unittitle>Oral History Interviews of the SAA Oral History Project,
                       <unitdate>2009-2012</unitdate></unittitle>
-                                  </did>
+                </did>
                 <c06>
                   <did>
                     <unittitle>Frank Boles</unittitle>
@@ -47590,8 +47628,12 @@
                   <c07>
                     <did>
                       <unittitle>Transcript, <unitdate>2010</unitdate></unittitle>
-                      <container type="electronic" label="Electronic Folder">\Oral History Section\SAA Oral History Project\Final Draft Transcripts\Boles\</container>
-                    
+                      <container type="electronic" label="Electronic Folder">\Oral History
+                        Section\</container>
+                      <container type="electronic" label="">\\SAA Oral History Project\</container>
+                      <container type="electronic" label="">\\\Final Draft
+                        Transcripts\Boles</container>
+
                       <physdesc>
                         <extent>1 digital text file</extent>
                       </physdesc>
@@ -47622,8 +47664,12 @@
                   <c07>
                     <did>
                       <unittitle>Transcript, <unitdate>2011</unitdate></unittitle>
-                      <container type="electronic" label="Electronic Folder">\Oral History Section\SAA Oral History Project\Final Draft Transcripts\CooperCary\</container>
-                                            <physdesc>
+                      <container type="electronic" label="Electronic Folder">\Oral History
+                        Section\</container>
+                      <container type="electronic" label="">\\SAA Oral History Project\</container>
+                      <container type="electronic" label="">\\\Final Draft
+                        Transcripts\CooperCary</container>
+                      <physdesc>
                         <extent>1 digital text file</extent>
                       </physdesc>
                     </did>
@@ -47653,8 +47699,12 @@
                   <c07>
                     <did>
                       <unittitle>Transcript, <unitdate>2011</unitdate></unittitle>
-                      <container type="electronic" label="Electronic Folder">\Oral History Section\SAA Oral History Project\Final Draft Transcripts\DArienzo\</container>
-                      
+                      <container type="electronic" label="Electronic Folder">\Oral History
+                        Section\</container>
+                      <container type="electronic" label="">\\SAA Oral History Project\</container>
+                      <container type="electronic" label="">\\\Final Draft
+                        Transcripts\DArienzo</container>
+
                       <physdesc>
                         <extent>1 digital text file</extent>
                       </physdesc>
@@ -47685,8 +47735,12 @@
                   <c07>
                     <did>
                       <unittitle>Transcript, <unitdate>2010</unitdate></unittitle>
-                      <container type="electronic" label="Electronic Folder">\Oral History Section\SAA Oral History Project\Final Draft Transcripts\Dollar\</container>
-                      
+                      <container type="electronic" label="Electronic Folder">\Oral History
+                        Section\</container>
+                      <container type="electronic" label="">\\SAA Oral History Project\</container>
+                      <container type="electronic" label="">\\\Final Draft
+                        Transcripts\Dollar</container>
+
                       <physdesc>
                         <extent>1 digital text file</extent>
                       </physdesc>
@@ -47717,8 +47771,12 @@
                   <c07>
                     <did>
                       <unittitle>Transcript, <unitdate>2010</unitdate></unittitle>
-                      <container type="electronic" label="Electronic Folder">\Oral History Section\SAA Oral History Project\Final Draft Transcripts\Freeman\</container>
-                                            <physdesc>
+                      <container type="electronic" label="Electronic Folder">\Oral History
+                        Section\</container>
+                      <container type="electronic" label="">\\SAA Oral History Project\</container>
+                      <container type="electronic" label="">\\\Final Draft
+                        Transcripts\Freeman</container>
+                      <physdesc>
                         <extent>1 digital text file</extent>
                       </physdesc>
                     </did>
@@ -47757,8 +47815,12 @@
                   <c07>
                     <did>
                       <unittitle>Transcript, <unitdate>2011</unitdate></unittitle>
-                      <container type="electronic" label="Electronic Folder">\Oral History Section\SAA Oral History Project\Final Draft Transcripts\FreemanFinch\</container>
-                                            <physdesc>
+                      <container type="electronic" label="Electronic Folder">\Oral History
+                        Section\</container>
+                      <container type="electronic" label="">\\SAA Oral History Project\</container>
+                      <container type="electronic" label="">\\\Final Draft
+                        Transcripts\FreemanFinch</container>
+                      <physdesc>
                         <extent>1 digital text file</extent>
                       </physdesc>
                     </did>
@@ -47788,8 +47850,12 @@
                   <c07>
                     <did>
                       <unittitle>Transcript, <unitdate>2010</unitdate></unittitle>
-                      <container type="electronic" label="Electronic Folder">\Oral History Section\SAA Oral History Project\Final Draft Transcripts\Galvin\</container>
-                                            <physdesc>
+                      <container type="electronic" label="Electronic Folder">\Oral History
+                        Section\</container>
+                      <container type="electronic" label="">\\SAA Oral History Project\</container>
+                      <container type="electronic" label="">\\\Final Draft
+                        Transcripts\Galvin</container>
+                      <physdesc>
                         <extent>1 digital text file</extent>
                       </physdesc>
                     </did>
@@ -47819,8 +47885,12 @@
                   <c07>
                     <did>
                       <unittitle>Transcript, <unitdate>2012</unitdate></unittitle>
-                      <container type="electronic" label="Electronic Folder">\Oral History Section\SAA Oral History Project\Final Draft Transcripts\Gottlieb\</container>
-                      
+                      <container type="electronic" label="Electronic Folder">\Oral History
+                        Section\</container>
+                      <container type="electronic" label="">\\SAA Oral History Project\</container>
+                      <container type="electronic" label="">\\\Final Draft
+                        Transcripts\Gottlieb</container>
+
                       <physdesc>
                         <extent>1 digital text file</extent>
                       </physdesc>
@@ -47851,8 +47921,12 @@
                   <c07>
                     <did>
                       <unittitle>Transcript, <unitdate>2009</unitdate></unittitle>
-                      <container type="electronic" label="Electronic Folder">\Oral History Section\SAA Oral History Project\Final Draft Transcripts\Gracy\</container>
-                      
+                      <container type="electronic" label="Electronic Folder">\Oral History
+                        Section\</container>
+                      <container type="electronic" label="">\\SAA Oral History Project\</container>
+                      <container type="electronic" label="">\\\Final Draft
+                        Transcripts\Gracy</container>
+
                       <physdesc>
                         <extent>1 digital text file</extent>
                       </physdesc>
@@ -47882,8 +47956,12 @@
                   <c07>
                     <did>
                       <unittitle>Transcript, <unitdate>2010</unitdate></unittitle>
-                      <container type="electronic" label="Electronic Folder">\Oral History Section\SAA Oral History Project\Final Draft Transcripts\Greene\</container>
-                      
+                      <container type="electronic" label="Electronic Folder">\Oral History
+                        Section\</container>
+                      <container type="electronic" label="">\\SAA Oral History Project\</container>
+                      <container type="electronic" label="">\\\Final Draft
+                        Transcripts\Greene</container>
+
                       <physdesc>
                         <extent>1 digital text file</extent>
                       </physdesc>
@@ -47904,8 +47982,12 @@
                   <c07>
                     <did>
                       <unittitle>Transcript, <unitdate>2012</unitdate></unittitle>
-                      <container type="electronic" label="Electronic Folder">\Oral History Section\SAA Oral History Project\Final Draft Transcripts\Ham\</container>
-                                            <physdesc>
+                      <container type="electronic" label="Electronic Folder">\Oral History
+                        Section\</container>
+                      <container type="electronic" label="">\\SAA Oral History Project\</container>
+                      <container type="electronic" label="">\\\Final Draft
+                        Transcripts\Ham</container>
+                      <physdesc>
                         <extent>1 digital text file</extent>
                       </physdesc>
                     </did>
@@ -47935,8 +48017,12 @@
                   <c07>
                     <did>
                       <unittitle>Transcript, <unitdate>2011</unitdate></unittitle>
-                      <container type="electronic" label="Electronic Folder">\Oral History Section\SAA Oral History Project\Final Draft Transcripts\Honhart\</container>
-                                            <physdesc>
+                      <container type="electronic" label="Electronic Folder">\Oral History
+                        Section\</container>
+                      <container type="electronic" label="">\\SAA Oral History Project\</container>
+                      <container type="electronic" label="">\\\Final Draft
+                        Transcripts\Honhart</container>
+                      <physdesc>
                         <extent>1 digital text file</extent>
                       </physdesc>
                     </did>
@@ -47966,8 +48052,12 @@
                   <c07>
                     <did>
                       <unittitle>Transcript, <unitdate>2011</unitdate></unittitle>
-                      <container type="electronic" label="Electronic Folder">\Oral History Section\SAA Oral History Project\Final Draft Transcripts\Jimerson\</container>
-                                            <physdesc>
+                      <container type="electronic" label="Electronic Folder">\Oral History
+                        Section\</container>
+                      <container type="electronic" label="">\\SAA Oral History Project\</container>
+                      <container type="electronic" label="">\\\Final Draft
+                        Transcripts\Jimerson</container>
+                      <physdesc>
                         <extent>1 digital text file</extent>
                       </physdesc>
                     </did>
@@ -47997,8 +48087,12 @@
                   <c07>
                     <did>
                       <unittitle>Transcript, <unitdate>2010</unitdate></unittitle>
-                      <container type="electronic" label="Electronic Folder">\Oral History Section\SAA Oral History Project\Final Draft Transcripts\Kiesling\</container>
-                                            <physdesc>
+                      <container type="electronic" label="Electronic Folder">\Oral History
+                        Section\</container>
+                      <container type="electronic" label="">\\SAA Oral History Project\</container>
+                      <container type="electronic" label="">\\\Final Draft
+                        Transcripts\Kiesling</container>
+                      <physdesc>
                         <extent>1 digital text file</extent>
                       </physdesc>
                     </did>
@@ -48043,8 +48137,12 @@
                   <c07>
                     <did>
                       <unittitle>Transcript, <unitdate>2011</unitdate></unittitle>
-                      <container type="electronic" label="Electronic Folder">\Oral History Section\SAA Oral History Project\Final Draft Transcripts\Paul\</container>
-                                            <physdesc>
+                      <container type="electronic" label="Electronic Folder">\Oral History
+                        Section\</container>
+                      <container type="electronic" label="">\\SAA Oral History Project\</container>
+                      <container type="electronic" label="">\\\Final Draft
+                        Transcripts\Paul</container>
+                      <physdesc>
                         <extent>1 digital text file</extent>
                       </physdesc>
                     </did>
@@ -48074,8 +48172,12 @@
                   <c07>
                     <did>
                       <unittitle>Transcript, <unitdate>2011</unitdate></unittitle>
-                      <container type="electronic" label="Electronic Folder">\Oral History Section\SAA Oral History Project\Final Draft Transcripts\Pease-Miller\</container>
-                                            <physdesc>
+                      <container type="electronic" label="Electronic Folder">\Oral History
+                        Section\</container>
+                      <container type="electronic" label="">\\SAA Oral History Project\</container>
+                      <container type="electronic" label="">\\\Final Draft
+                        Transcripts\Pease-Miller</container>
+                      <physdesc>
                         <extent>1 digital text file</extent>
                       </physdesc>
                     </did>
@@ -48105,8 +48207,12 @@
                   <c07>
                     <did>
                       <unittitle>Transcript, <unitdate>2010</unitdate></unittitle>
-                      <container type="electronic" label="Electronic Folder">\Oral History Section\SAA Oral History Project\Final Draft Transcripts\Pitti\</container>
-                                            <physdesc>
+                      <container type="electronic" label="Electronic Folder">\Oral History
+                        Section\</container>
+                      <container type="electronic" label="">\\SAA Oral History Project\</container>
+                      <container type="electronic" label="">\\\Final Draft
+                        Transcripts\Pitti</container>
+                      <physdesc>
                         <extent>1 digital text file</extent>
                       </physdesc>
                     </did>
@@ -48136,8 +48242,12 @@
                   <c07>
                     <did>
                       <unittitle>Transcript, <unitdate>2011</unitdate></unittitle>
-                      <container type="electronic" label="Electronic Folder">\Oral History Section\SAA Oral History Project\Final Draft Transcripts\LAST Pugh\</container>
-                                            <physdesc>
+                      <container type="electronic" label="Electronic Folder">\Oral History
+                        Section\</container>
+                      <container type="electronic" label="">\\SAA Oral History Project\</container>
+                      <container type="electronic" label="">\\\Final Draft Transcripts\LAST
+                        Pugh</container>
+                      <physdesc>
                         <extent>1 digital text file</extent>
                       </physdesc>
                     </did>
@@ -48167,8 +48277,12 @@
                   <c07>
                     <did>
                       <unittitle>Transcript, <unitdate>2010</unitdate></unittitle>
-                      <container type="electronic" label="Electronic Folder">\Oral History Section\SAA Oral History Project\Final Draft Transcripts\Wilsted\</container>
-                                            <physdesc>
+                      <container type="electronic" label="Electronic Folder">\Oral History
+                        Section\</container>
+                      <container type="electronic" label="">\\SAA Oral History Project\</container>
+                      <container type="electronic" label="">\\\Final Draft
+                        Transcripts\Wilsted</container>
+                      <physdesc>
                         <extent>1 digital text file</extent>
                       </physdesc>
                     </did>
@@ -48178,38 +48292,44 @@
               <c05>
                 <did>
                   <unittitle>SAA Oral History Project Administrative Files</unittitle>
-                  <container type="electronic" label="Electronic Folder">\Oral History Section\SAA Oral History Project\</container>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\Oral History Section\</container>
+                  <container type="electronic" label="">\\SAA Oral History Project</container>
                 </did>
                 <c06>
                   <did>
                     <unittitle>Correspondence, <unitdate>2010-2013</unitdate></unittitle>
-                    <container type="electronic" label="Electronic Folder">\Correspondence 2010-2013\</container>
-                                      </did>
+                    <container type="electronic" label="Electronic Folder">\Correspondence
+                      2010-2013\</container>
+                  </did>
                 </c06>
-                                <c06>
+                <c06>
                   <did>
                     <unittitle>Project Manual, <unitdate>2010-2015</unitdate></unittitle>
-                    <container type="electronic" label="Electronic Folder">\Project Manual\</container>
-                                      </did>
+                    <container type="electronic" label="Electronic Folder">\Project
+                      Manual\</container>
+                  </did>
                 </c06>
                 <c06>
                   <did>
                     <unittitle>Promo Reel, <unitdate>2010</unitdate></unittitle>
                     <container type="electronic" label="Electronic Folder">\Promo Reel\</container>
-                                      </did>
+                  </did>
                 </c06>
                 <c06>
                   <did>
                     <unittitle>Reports and Budgets, <unitdate>2010-2012</unitdate></unittitle>
-                    <container type="electronic" label="Electronic Folder">\Reports and Budgets\</container>
-                    
+                    <container type="electronic" label="Electronic Folder">\Reports and
+                      Budgets\</container>
+
                   </did>
                 </c06>
                 <c06>
                   <did>
                     <unittitle>Soundbytes, <unitdate>2015</unitdate></unittitle>
-                    <container type="electronic" label="Electronic Folder">\Soundbytes 2015\</container>
-                                      </did>
+                    <container type="electronic" label="Electronic Folder">\Soundbytes
+                      2015\</container>
+                  </did>
                 </c06>
               </c05>
             </c04>
@@ -48220,8 +48340,10 @@
               <c05>
                 <did>
                   <unittitle>Administrative Files, <unitdate>2006-2007</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\Preservation Section\Administrative Files\</container>
-                    
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\Preservation Section\</container>
+                  <container type="electronic" label="">\\Administrative Files\</container>
+
                 </did>
               </c05>
               <c05>
@@ -48855,9 +48977,13 @@
               <did>
                 <unittitle>Electronic Archival Description (EAD) Roundtable Help Pages,
                     <unitdate>2008-2010</unitdate></unittitle>
-                <container type="electronic" label="Electronic Folder">\EAD Roundtable\eadhelppages-20120630\</container>
-                <physdesc><extent>675 digital files</extent></physdesc>
-                              </did>
+                <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\EAD Roundtable\</container>
+                <container type="electronic" label="">\\eadhelppages-20120630\</container>
+                <physdesc>
+                  <extent>675 digital files</extent>
+                </physdesc>
+              </did>
             </c04>
             <c04>
               <did>
@@ -48924,10 +49050,14 @@
               <c05>
                 <did>
                   <unittitle>Annual Meetings, <unitdate>2001-2006</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\Labor Archives Roundtable\Annual Meetings\</container>
-                  <physdesc><extent>14 digital files</extent></physdesc>
-                  
-                                  </did>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\Labor Archives Roundtable\</container>
+                  <container type="electronic" label="">\\Annual Meetings\</container>
+                  <physdesc>
+                    <extent>14 digital files</extent>
+                  </physdesc>
+
+                </did>
               </c05>
               <c05>
                 <did>
@@ -48939,10 +49069,14 @@
               <c05>
                 <did>
                   <unittitle>Annual Reports, <unitdate>2001-2006</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\Labor Archives Roundtable\Annual Reports\</container>
-                  <physdesc><extent>3 digital files</extent></physdesc>
-                  
-                                  </did>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\Labor Archives Roundtable\</container>
+                  <container type="electronic" label="">\\Annual Reports\</container>
+                  <physdesc>
+                    <extent>3 digital files</extent>
+                  </physdesc>
+
+                </did>
               </c05>
               <c05>
                 <did>
@@ -48968,9 +49102,13 @@
               <c05>
                 <did>
                   <unittitle>Labor History Month, <unitdate>2008</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\Labor Archives Roundtable\Labor History Month 2008\</container>
-                  <physdesc><extent>3 digital files</extent></physdesc>
-                  
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\Labor Archives Roundtable\</container>
+                  <container type="electronic" label="">\\Labor History Month 2008\</container>
+                  <physdesc>
+                    <extent>3 digital files</extent>
+                  </physdesc>
+
                 </did>
               </c05>
               <c05>
@@ -48990,9 +49128,13 @@
               <c05>
                 <did>
                   <unittitle>Retreat Materials and Notes, <unitdate>2006</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\Labor Archives Roundtable\2006 LAR Retreat\</container>
-                  <physdesc><extent>9 digital files</extent></physdesc>
-                  
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\Labor Archives Roundtable\</container>
+                  <container type="electronic" label="">\\2006 LAR Retreat\</container>
+                  <physdesc>
+                    <extent>9 digital files</extent>
+                  </physdesc>
+
                 </did>
               </c05>
             </c04>
@@ -49469,8 +49611,12 @@
               <c05>
                 <did>
                   <unittitle>Accessibility Working Group, <unitdate>2008-2009</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\Records Management RT\Accessibility Working Group\</container>
-                  <physdesc><extent>16 digital files</extent></physdesc>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\Records Management RT\</container>
+                  <container type="electronic" label="">\\Accessibility Working Group\</container>
+                  <physdesc>
+                    <extent>16 digital files</extent>
+                  </physdesc>
                 </did>
               </c05>
               <c05>
@@ -49490,8 +49636,12 @@
               <c05>
                 <did>
                   <unittitle>Minutes and Annual Reports, <unitdate>2002-2009</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\Records Management RT\Minutes and Annual Reports\</container>
-                  <physdesc><extent>14 digital files</extent></physdesc>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\Records Management RT\</container>
+                  <container type="electronic" label="">\\Minutes and Annual Reports\</container>
+                  <physdesc>
+                    <extent>14 digital files</extent>
+                  </physdesc>
                 </did>
               </c05>
               <c05>
@@ -49504,8 +49654,12 @@
               <c05>
                 <did>
                   <unittitle>Newsletters, <unitdate>1998-2010</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\Records Management RT\Newsletters\</container>
-                  <physdesc><extent>19 digital files</extent></physdesc>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\Records Management RT\</container>
+                  <container type="electronic" label="">\\Newsletters\</container>
+                  <physdesc>
+                    <extent>19 digital files</extent>
+                  </physdesc>
                 </did>
               </c05>
               <c05>
@@ -49518,15 +49672,23 @@
               <c05>
                 <did>
                   <unittitle>Resources and Publications, <unitdate>2008-2012</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\Records Management RT\Resources and Publications\</container>
-                  <physdesc><extent>15 digital files</extent></physdesc>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\Records Management RT\</container>
+                  <container type="electronic" label="">\\Resources and Publications\</container>
+                  <physdesc>
+                    <extent>15 digital files</extent>
+                  </physdesc>
                 </did>
               </c05>
               <c05>
                 <did>
                   <unittitle>Website, <unitdate>2007-2010</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\Records Management RT\Website\</container>
-                  <physdesc><extent>17 digital files</extent></physdesc>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\Records Management RT\</container>
+                  <container type="electronic" label="">\\Website\</container>
+                  <physdesc>
+                    <extent>17 digital files</extent>
+                  </physdesc>
                 </did>
               </c05>
             </c04>
@@ -52305,8 +52467,9 @@
               <c05>
                 <did>
                   <unittitle>Program Committee, <unitdate>2000-2001</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\SAA 2001 Program Comittee\</container>
-                                  </did>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\SAA 2001 Program Comittee\</container>
+                </did>
               </c05>
             </c04>
             <c04>
@@ -52317,7 +52480,7 @@
               <c05>
                 <did>
                   <unittitle>Press Releases, 2002</unittitle>
-                  <container type="box" label="Box">4</container>
+                  <container type="box" label="Box"/>
                   <container type="folder" label="Folder">64</container>
                 </did>
               </c05>
@@ -52455,13 +52618,14 @@
               <c05>
                 <did>
                   <unittitle>Host Committee, <unitdate>2003-2004</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\SAA 2004 Host Committee\</container>
-                                  </did>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\SAA 2004 Host Committee\</container>
+                </did>
               </c05>
               <c05>
                 <did>
                   <unittitle>Program, 2004</unittitle>
-                  <container type="box" label="Box">4</container>
+                  <container type="box" label="Box"/>
                   <container type="folder" label="Folder">38</container>
                 </did>
               </c05>
@@ -54375,13 +54539,14 @@
             <c04>
               <did>
                 <unittitle>Annual Meetings, <unitdate>2004-2014</unitdate></unittitle>
-                <container type="electronic" label="Electronic Folder">\Series 9.2\</container>
-                              </did>
+                <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\Series 9.2\</container>
+              </did>
             </c04>
             <c04>
               <did>
                 <unittitle>Archival Repository (Unidentified), Interior View, undated</unittitle>
-                <container type="box" label="Box">1</container>
+                <container type="box" label="Box"/>
                 <container type="photograph" label="Photograph">400</container>
               </did>
             </c04>
@@ -55721,7 +55886,7 @@
                 <container type="photograph" label="Photograph">496</container>
               </did>
             </c04>
-                        <c04>
+            <c04>
               <did>
                 <unittitle>Purdy, Virginia, 1979</unittitle>
                 <container type="box" label="Box">1</container>
@@ -56329,8 +56494,9 @@
               <c05>
                 <did>
                   <unittitle>Annual Meeting, <unitdate>2003</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\2003\</container>
-                                    <physdesc>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\2003\</container>
+                  <physdesc>
                     <extent>73 digital audio files</extent>
                   </physdesc>
                 </did>
@@ -56348,8 +56514,9 @@
               <c05>
                 <did>
                   <unittitle>Annual Meeting, <unitdate>2004</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\2004\</container>
-                                    <physdesc>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\2004\</container>
+                  <physdesc>
                     <extent>57 digital audio files</extent>
                   </physdesc>
                 </did>
@@ -56357,8 +56524,9 @@
               <c05>
                 <did>
                   <unittitle>Annual Meeting, <unitdate>2005</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\2005\</container>
-                                    <physdesc>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\2005\</container>
+                  <physdesc>
                     <extent>69 digital audio files</extent>
                   </physdesc>
                 </did>
@@ -56366,8 +56534,9 @@
               <c05>
                 <did>
                   <unittitle>Annual Meeting, <unitdate>2006</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\2006\</container>
-                                    <physdesc>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\2006\</container>
+                  <physdesc>
                     <extent>74 digital audio files</extent>
                   </physdesc>
                 </did>
@@ -56375,8 +56544,9 @@
               <c05>
                 <did>
                   <unittitle>Annual Meeting, <unitdate>2007</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\2007\</container>
-                                    <physdesc>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\2007\</container>
+                  <physdesc>
                     <extent>54 digital audio files</extent>
                   </physdesc>
                 </did>
@@ -56384,8 +56554,9 @@
               <c05>
                 <did>
                   <unittitle>Annual Meeting, <unitdate>2008</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\2008\</container>
-                                    <physdesc>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\2008\</container>
+                  <physdesc>
                     <extent>65 digital audio files</extent>
                   </physdesc>
                 </did>
@@ -56393,8 +56564,9 @@
               <c05>
                 <did>
                   <unittitle>Annual Meeting, <unitdate>2009</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\2009\</container>
-                                    <physdesc>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\2009\</container>
+                  <physdesc>
                     <extent>54 digital audio files</extent>
                   </physdesc>
                 </did>
@@ -56402,20 +56574,23 @@
               <c05>
                 <did>
                   <unittitle>Annual Meeting, <unitdate>2010</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\2010\</container>
-                                  </did>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\2010\</container>
+                </did>
               </c05>
               <c05>
                 <did>
                   <unittitle>Annual Meeting, <unitdate>2011</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\2011\</container>
-                                  </did>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\2011\</container>
+                </did>
               </c05>
               <c05>
                 <did>
                   <unittitle>Annual Meeting, <unitdate>2012</unitdate></unittitle>
-                  <container type="electronic" label="Electronic Folder">\2012\</container>
-                                  </did>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\2012\</container>
+                </did>
               </c05>
             </c04>
           </c03>
