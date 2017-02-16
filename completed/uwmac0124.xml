@@ -22,8 +22,7 @@
           <addressline>Archives Department</addressline>
           <addressline>P.O. Box 604</addressline>
           <addressline>Milwaukee, Wisconsin 53201-0604</addressline>
-          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr
-              href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
+          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
         </address>
         <date encodinganalog="260$c" type="publication" normal="2007">Copyright &#169; 2007
           University of Wisconsin Board of Regents</date>
@@ -35,6 +34,11 @@
           langcode="eng" scriptcode="Latn">English.</language></langusage>
     </profiledesc>
     <revisiondesc>
+      <change encodinganalog="583">
+        <date normal="2017-02-14">February 14, 2017</date>
+        <item>Ashlie Biddle added a folder to the collection (Box 9, Folder 13). Brad Houston
+          updated the relevant notes.</item>
+      </change>
       <change encodinganalog="583">
         <date normal="2016-11-02">November 2, 2016</date>
         <item>Christel Maass updated the finding aid after adding remaining materials from accession
@@ -303,7 +307,8 @@
           accessions 2011-006, 2011-019, 2011-025, 2011-046, and 2011-047. Brad Houston added
           information about accession 2015-008 in October 2015. Phyllis Reske processed some
           additional records in July 2016 (Brad Houston supervised). Christel Maass added remaining
-          materials from accession 2011-046 to the collection in November 2016.</p>
+          materials from accession 2011-046 to the collection in November 2016. Ashlie Biddle added
+          a folder from accession 2015-009 in February 2017 (Brad Houston supervised).</p>
       </processinfo>
       <phystech encodinganalog="538" audience="internal">
         <p>As of December 13, 2013, all electronic files were accessible on a Intel Core 2 Duo CPU
@@ -787,6 +792,14 @@
           </c03>
           <c03>
             <did>
+              <unittitle><title render="italic">The Hobbit</title>, Theatre Sans Fil,
+                  <unitdate>1985</unitdate></unittitle>
+              <container type="box" label="Box">9</container>
+              <container type="folder" label="Folder">13</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
               <unittitle>Homecoming, <unitdate>1982-1986</unitdate></unittitle>
               <container type="box" label="Box">10</container>
               <container type="folder" label="Folder">1-3</container>
@@ -1156,7 +1169,8 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Posters, Miscellaneous Events, <unitdate>1976</unitdate>, <unitdate>undated</unitdate></unittitle>
+              <unittitle>Posters, Miscellaneous Events, <unitdate>1976</unitdate>,
+                  <unitdate>undated</unitdate></unittitle>
               <container type="oversize" label="Oversize Folder">1</container>
             </did>
           </c03>
