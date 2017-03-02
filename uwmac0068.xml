@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='ascii'?>
 <!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
 <!-- wiarchives version:2008-05-22 -->
 <ead id="uw-mil-uwmac0068" relatedencoding="MARC21">
@@ -24,7 +24,7 @@
           <addressline>Milwaukee, Wisconsin 53201-0604</addressline>
           <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
         </address>
-        <date encodinganalog="260$c" type="publication" normal="2007">Copyright © 2007 University of
+        <date encodinganalog="260$c" type="publication" normal="2007">Copyright &#169; 2007 University of
           Wisconsin Board of Regents</date>
       </publicationstmt>
     </filedesc>
@@ -206,7 +206,7 @@
           Affair</title>newspaper, and <title render="italic">USI News</title>.</p>
     </scopecontent>
     <arrangement encodinganalog="351">
-      <p>Although some additional materials have been physically and/or intellectually arranged and
+      <p>The collection was received in, and is organized in, multiple parts. Although some additional materials have been physically and/or intellectually arranged and
         interfiled, researchers may need to consult more than one part of the collection to locate
         similar materials.</p>
       <list type="simple">
