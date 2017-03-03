@@ -38,7 +38,7 @@
     <revisiondesc>
       <change>
         <date normal="2016-12-20">December 20, 2016</date>
-        <item>Brad Houston updated the finding aid to reflect the addition of accession 2016-025. Changes were made to extent, acqinfo, processinfo, and the contents list (Series 11B).</item>
+        <item>Brad Houston updated the finding aid to reflect the addition of accession 2016-025. Changes were made to extent, acqinfo, processinfo, phystech, bioghist, and the contents list (Series 11B).</item>
       </change>
       <change>
         <date normal="2016-09-29">September 29, 2016</date>
@@ -245,6 +245,10 @@
           <chronitem>
             <date>2013-2015</date>
             <event>Amy Cooper Cary</event>
+          </chronitem>
+          <chronitem>
+            <date>2015-2017</date>
+            <event>Jennifer Johnson</event>
           </chronitem>
         </chronlist>
       </bioghist>
@@ -548,9 +552,9 @@
           720x480. Access copies were created as compressed 640x480 stereo .mp4 files.</p>
       </processinfo>
       <phystech encodinganalog="538" audience="internal">
-        <p>As of April 4, 2014, all electronic files were accessible on a Intel Core 2 Duo CPU (2.33
-          GHz, 1.95 GB RAM) running Windows XP Professional Version 2002, with Service Pack 3.
-          Software used to access the files includes Microsoft Office 2007, Firefox v. 21.0, and
+        <p>s of November 22, 2016, all electronic files were accessible on a Intel Core
+          i5-4570 CPU (3.20 GHz, 4 GB RAM) running Windows 7 Enterprise, with Service Pack
+          1. Software used to access the files includes Microsoft Office 2007, Windows Media Player Firefox v. 21.0, and
           Adobe Reader XI.</p>
         <p>The collection includes records in the following file formats:</p>
         <list type="marked">
@@ -574,6 +578,7 @@
           <item>Microsoft Works Word Processor 5-6 [.wps]</item>
           <item>Microsoft Excel 97 Workbook [.xls]</item>
           <item>Microsoft Excel for Windows 2007 onwards [.xlsx]</item>
+          <item>MPEG Audio 1/2 Layer 3 [.mp3]</item>
         </list>
       </phystech>
       <separatedmaterial encodinganalog="544 0">
@@ -594,7 +599,7 @@
             >1972-2014</unitdate></unittitle>
           <physdesc>
             <extent>42.1 cubic ft. (112 boxes)</extent>
-            <extent>1,083 digital files (171 MB)</extent>
+            <extent>1,088 digital files (354 MB)</extent>
           </physdesc>
         </did>
         <c02 id="subgrp1" level="subgrp">
@@ -10084,8 +10089,13 @@
             <scopecontent>
               <p>Series includes cassette and video tapes of <title render="italic">Raiders of the
                   Lost Archives</title> productions from 1983 and 1986, and tapes from the Special
-                Projects Committee Seminar on Regional Archival Systems held in July 1974.</p>
+                Projects Committee Seminar on Regional Archival Systems held in July 1974. Also included are oral histories with two early organizers of MAC, Stephen Masar and Patrick Quinn.</p>
             </scopecontent>
+            <c04><did><unittitle>Oral Histories</unittitle></did>
+            <c05><did><unittitle>Masar, Stephen, <unitdate>2013</unitdate></unittitle>
+            <container type="electronic" label="ID No.">1-3</container></did><physdesc><extent>3 digital audio files (total duration 1:13:35)</extent></physdesc></c05>
+              <c05><did><unittitle>Quinn, Patrick, <unitdate>2013</unitdate></unittitle>
+                <container type="electronic" label="ID No.">4-5</container></did><physdesc><extent>2 digital audio files (total duration 2:06:42)</extent></physdesc></c05></c04>
             <c04>
               <did>
                 <unittitle><title render="italic">Raiders of the Lost Archives</title>,
