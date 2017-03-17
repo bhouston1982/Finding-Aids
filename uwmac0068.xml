@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='ascii'?>
-<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
+<!-- <!DOCTYPE ead PUBLIC "//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
 <!-- wiarchives version:2008-05-22 -->
 <ead id="uw-mil-uwmac0068" relatedencoding="MARC21">
   <eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
@@ -22,10 +22,11 @@
           <addressline>Archives Department</addressline>
           <addressline>P.O. Box 604</addressline>
           <addressline>Milwaukee, Wisconsin 53201-0604</addressline>
-          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
+          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr
+              href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
         </address>
-        <date encodinganalog="260$c" type="publication" normal="2007">Copyright &#169; 2007 University of
-          Wisconsin Board of Regents</date>
+        <date encodinganalog="260$c" type="publication" normal="2007">Copyright &#169; 2007
+          University of Wisconsin Board of Regents</date>
       </publicationstmt>
     </filedesc>
     <profiledesc>
@@ -36,7 +37,8 @@
     <revisiondesc>
       <change encodinganalog="583">
         <date normal="2017-03-02">March 2, 2017</date>
-        <item>Brad Houston made some additional changes to the contents list and arrangement, scopecontent, and processinfo notes.</item>
+        <item>Brad Houston made some additional changes to the contents list and arrangement,
+          scopecontent, and processinfo notes.</item>
       </change>
       <change encodinganalog="583">
         <date normal="2017-02-16">February 16, 2017</date>
@@ -189,30 +191,29 @@
       </bioghist>
     </bioghist>
     <scopecontent>
-      <p>The collection includes documents from the Urban Research Committee's proposals for the
+      <p>The collection contains documents from the Urban Research Committee's proposals for the
         urban studies program, and an outline of a proposed 5-10 year urban studies department
-        program. Also included are course proposals within the History Department and proposals for
-        graduate program in urban studies. A large portion of the collection is comprised of records
-        regarding the Ford Foundation, which awarded a research grant in December 1959.</p>
-      <p>Records of the Urban Studies Program itself include documents pertaining to the proposal
-        for an Urban Affairs Department and for an urban studies program for undergraduates, a
-        doctoral degree program, a joint degree program with the School of Education or the School
-        of Information Studies, and master's of public administration program. Also included are
-        minutes from the Department of Urban Affairs, which consist of various memos and
-        announcements relating to courses, staffing, budgets and other departmental functions.</p>
-      <p>Course syllabi, program reviews, and a flat box containing student recruitment and program
-        event posters are also included. The collection also contains program brochures, several
-        issues of the <title render="italic">Intrapost</title>, <title render="italic">Urban
-          Affair</title>newspaper, and <title render="italic">USI News</title>.</p>
+        program. Also included are course proposals within the History Department, and proposals for
+        undergraduate, graduate, and doctoral degree programs in Urban Studies, an Urban Affairs
+        Department, a joint degree program with the School of Education or the School of Information
+        Studies, and a master's of public administration program. Program reviews, and records
+        regarding the Ford Foundation, which awarded a research grant in December 1959, are in the
+        collection, along with minutes from the Department of Urban Affairs, which consist of
+        various memos and announcements relating to courses, staffing, budgets and other
+        departmental functions. Course syllabi, student recruitment and program event posters,
+        program brochures, and several issues of the <title render="italic">Intrapost</title>,
+          <title render="italic">Urban Affair</title>newspaper, and <title render="italic">USI
+          News</title> are also included.</p>
     </scopecontent>
     <arrangement encodinganalog="351">
-      <p>The collection was received in, and is organized in, multiple parts. Although some additional materials have been physically and/or intellectually arranged and
-        interfiled, researchers may need to consult more than one part of the collection to locate
-        similar materials.</p>
+      <p>The collection was received in, and is organized in, multiple parts. Although some
+        additional materials have been physically and/or intellectually arranged and interfiled,
+        researchers may need to consult more than one part of the collection to locate similar
+        materials.</p>
       <list type="simple">
         <item>
           <ref target="uwmac0068" show="replace" actuate="onrequest">UWM Archival Collection 68:
-            Records, <unitdate>1956-1984</unitdate></ref>
+            Records, <unitdate>1956-2011</unitdate></ref>
         </item>
       </list>
     </arrangement>
@@ -223,6 +224,29 @@
           >Citation Guide for Primary Sources</extref>
       </p>
     </prefercite>
+    <relatedmaterial encodinganalog="544 1">
+      <head>Related Material in the UWM Libraries</head>
+      <archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0001"
+        actuate="onrequest" show="new">
+        <unittitle>UW-Milwaukee College of Letters &amp; Science Records</unittitle>
+        <unitid>UWM Archival Collection 1</unitid>
+      </archref>
+      <archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0090"
+        actuate="onrequest" show="new">
+        <unittitle>UW-Milwaukee Dept. of Sociology Records</unittitle>
+        <unitid>UWM Archival Collection 90</unitid>
+      </archref>
+      <archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0129"
+        actuate="onrequest" show="new">
+        <unittitle>UW-Milwaukee Urban Research Center Records</unittitle>
+        <unitid>UWM Archival Collection 129</unitid>
+      </archref>
+      <archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0136"
+        actuate="onrequest" show="new">
+        <unittitle>UW-Milwaukee Dept. of History Records</unittitle>
+        <unitid>UWM Archival Collection 136</unitid>
+      </archref>
+    </relatedmaterial>
     <descgrp type="admininfo">
       <head>Administrative/Restriction Information</head>
       <accessrestrict encodinganalog="506">
@@ -397,6 +421,7 @@
               <container type="folder" label="Folder">1-5</container>
             </did>
           </c03>
+         
           <c03>
             <did>
               <unittitle>College of Letters &amp; Science,
@@ -435,7 +460,7 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Outgoing from Chava Nachmias, <unitdate>1981-1982</unitdate></unittitle>
+              <unittitle>Outgoing from Michael Barndt, <unitdate>1980-1984</unitdate></unittitle>
               <container type="box" label="Box">10</container>
               <container type="folder" label="Folder">2</container>
             </did>
@@ -445,18 +470,19 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Outgoing from Harold M. Rose, <unitdate>1976-1977</unitdate></unittitle>
+              <unittitle>Outgoing from Chava Nachmias, <unitdate>1981-1982</unitdate></unittitle>
               <container type="box" label="Box">10</container>
-              <container type="folder" label="Folder">3-4</container>
+              <container type="folder" label="Folder">3</container>
             </did>
             <accessrestrict>
               <p>Restricted</p>
             </accessrestrict>
-          </c03><c03>
+          </c03>
+          <c03>
             <did>
-              <unittitle>Outgoing from Michael Barndt, <unitdate>1980-1984</unitdate></unittitle>
+              <unittitle>Outgoing from Harold M. Rose, <unitdate>1976-1977</unitdate></unittitle>
               <container type="box" label="Box">10</container>
-              <container type="folder" label="Folder">5</container>
+              <container type="folder" label="Folder">4-5</container>
             </did>
             <accessrestrict>
               <p>Restricted</p>
@@ -486,13 +512,11 @@
           </did>
         </c02>
         <c02>
-          
-            <did>
-              <unittitle>Course Descriptions, <unitdate>1980-1983</unitdate></unittitle>
-              <container type="box" label="Box">4</container>
-              <container type="folder" label="Folder">3</container>
-            </did>
-          
+          <did>
+            <unittitle>Course Descriptions, <unitdate>1980-1983</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+            <container type="folder" label="Folder">3</container>
+          </did>
         </c02>
         <c02>
           <did>
@@ -557,26 +581,26 @@
               <container type="folder" label="Folder">17</container>
             </did>
           </c03>
-          <c03><did><unittitle>Correspondence</unittitle></did><c04>
+          <c03>
             <did>
-              <unittitle><unitdate>1989-1991</unitdate></unittitle>
+              <unittitle>Correspondence, <unitdate>1989-1991</unitdate></unittitle>
               <container type="box" label="Box">10</container>
               <container type="folder" label="Folder">7</container>
             </did>
             <accessrestrict>
               <p>Restricted</p>
             </accessrestrict>
-          </c04> 
-          <c04>
+          </c03>
+          <c03>
             <did>
-              <unittitle><unitdate>1992-1996</unitdate></unittitle>
+              <unittitle>Correspondence, <unitdate>1992-1996</unitdate></unittitle>
               <container type="box" label="Box">11</container>
               <container type="folder" label="Folder">1-2</container>
             </did>
             <accessrestrict>
               <p>Restricted</p>
             </accessrestrict>
-          </c04></c03>
+          </c03>
           <c03>
             <did>
               <unittitle>Doctor of Philosophy in Urban Social Institutions Proposal,
@@ -607,7 +631,6 @@
               <container type="folder" label="Folder">23-24</container>
             </did>
           </c03>
-         
           <c03>
             <did>
               <unittitle>Memorandums, <unitdate>1997-2005</unitdate></unittitle>
@@ -625,7 +648,6 @@
               <container type="folder" label="Folder">25-27</container>
             </did>
           </c03>
-         
           <c03>
             <did>
               <unittitle>Proposals and Correspondence, <unitdate>1975-1976</unitdate></unittitle>
@@ -696,21 +718,47 @@
             <container type="folder" label="Folder">34</container>
           </did>
         </c02>
-       <c02><did><unittitle>Faculty Meeting Minutes</unittitle></did> <c03>
+        <c02>
           <did>
-            <unittitle><unitdate>1981-1992</unitdate></unittitle>
-            <container type="box" label="Box">6</container>
-            <container type="folder" label="Folder">35-37</container>
+            <unittitle>Faculty Meeting Minutes</unittitle>
           </did>
-        </c03>
-                <c03>
-          <did>
-            <unittitle>
-              <unitdate>1992-2007</unitdate></unittitle>
-            <container type="box" label="Box">7</container>
-            <container type="folder" label="Folder">1-5</container>
-          </did>
-        </c03></c02>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1963-1977</unitdate>
+              </unittitle>
+              <container type="box" label="Box">2</container>
+              <container type="folder" label="Folder">9-10</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1978-1982</unitdate>
+              </unittitle>
+              <container type="box" label="Box">4</container>
+              <container type="folder" label="Folder">9</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1981-1992</unitdate>
+              </unittitle>
+              <container type="box" label="Box">6</container>
+              <container type="folder" label="Folder">35-36</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1993-2008</unitdate>
+              </unittitle>
+              <container type="box" label="Box">7</container>
+              <container type="folder" label="Folder">1-5</container>
+            </did>
+          </c03>
+        </c02>
         <c02>
           <did>
             <unittitle>Fall Open House and Social, <unitdate>2002-2006</unitdate></unittitle>
@@ -759,7 +807,7 @@
         <c02>
           <did>
             <unittitle>Graduate Faculty Council, Program Evaluation,
-                <unitdate>2001-2005</unitdate></unittitle>
+              <unitdate>2001-2005</unitdate></unittitle>
             <container type="box" label="Box">7</container>
             <container type="folder" label="Folder">9</container>
           </did>
@@ -803,7 +851,7 @@
               <container type="folder" label="Folder">16-19</container>
             </did>
           </c03>
-                  </c02>
+        </c02>
         <c02>
           <did>
             <unittitle>Graduate Student Fairs, <unitdate>1996-1997</unitdate></unittitle>
@@ -1018,24 +1066,10 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Minutes, <unitdate>1963-1977</unitdate></unittitle>
-            <container type="box" label="Box">2</container>
-            <container type="folder" label="Folder">9-10</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Minutes, <unitdate>1978-1982</unitdate></unittitle>
-            <container type="box" label="Box">4</container>
-            <container type="folder" label="Folder">9</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
             <unittitle>Newsletters, <unitdate>1980-2006</unitdate></unittitle>
             <container type="box" label="Box">7</container>
             <container type="folder" label="Folder">38-39</container>
-          </did>     
+          </did>
         </c02>
         <c02>
           <did>
@@ -1056,14 +1090,6 @@
           <did>
             <unittitle>Planning Document, <unitdate>1981-1982</unitdate></unittitle>
             <container type="box" label="Box">4</container>
-            <container type="folder" label="Folder">10</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Planning Document, Draft and Correspondence,
-              <unitdate>1981-1982</unitdate></unittitle>
-            <container type="box" label="Box">4</container>
             <container type="folder" label="Folder">11</container>
           </did>
         </c02>
@@ -1082,7 +1108,7 @@
             <container type="folder" label="Folder">41</container>
           </did>
         </c02>
-       
+
         <c02>
           <did>
             <unittitle>Program Brochures</unittitle>
@@ -1277,7 +1303,7 @@
               <unittitle> Course Numbers 250-971, <unitdate>1981-2011</unitdate>
               </unittitle>
               <container type="box" label="Box">8</container>
-              <container type="folder" label="Folder">28-32</container>
+              <container type="folder" label="Folder">28-33</container>
             </did>
           </c03>
           <c03>
@@ -1292,8 +1318,8 @@
         <c02>
           <did>
             <unittitle>Symposium on Milwaukee History, <unitdate>2004</unitdate></unittitle>
-            <container type="box" label="Box">5</container>
-            <container type="folder" label="Folder">22</container>
+            <container type="box" label="Box">9</container>
+            <container type="folder" label="Folder">5</container>
           </did>
         </c02>
         <c02>
@@ -1307,7 +1333,7 @@
           <did>
             <unittitle>Undergraduate Certificate Brochures, <unitdate>undated</unitdate></unittitle>
             <container type="box" label="Box">9</container>
-            <container type="folder" label="Folder">5</container>
+            <container type="folder" label="Folder">6</container>
           </did>
         </c02>
         <c02>
@@ -1322,7 +1348,7 @@
           <did>
             <unittitle>Urban Forum, <unitdate>1987-1988</unitdate></unittitle>
             <container type="box" label="Box">9</container>
-            <container type="folder" label="Folder">6</container>
+            <container type="folder" label="Folder">7</container>
           </did>
         </c02>
         <c02>
@@ -1345,7 +1371,7 @@
           <did>
             <unittitle>Urban Research Center, <unitdate>1977-1982</unitdate></unittitle>
             <container type="box" label="Box">9</container>
-            <container type="folder" label="Folder">7</container>
+            <container type="folder" label="Folder">8</container>
           </did>
         </c02>
         <c02>
