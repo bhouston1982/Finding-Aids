@@ -36,8 +36,15 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date normal="2016-08-01">March 21, 2017</date>
+        <item>Ashlie Biddle updated the finding aid to reflect the addition of accession 2016-032.
+          Changes were made to call number, extent, abstract, arrangement, bioghist, accessrestrict,
+          acqinfo, processinfo, and the contents list.</item>
+      </change>
+      <change>
         <date normal="2016-08-04">August 4, 2016</date>
-        <item>Christel Maass made a correction to the number of accessions in the arrangement note.</item>
+        <item>Christel Maass made a correction to the number of accessions in the arrangement
+          note.</item>
       </change>
       <change>
         <date normal="2016-08-01">August 1, 2016</date>
@@ -153,9 +160,11 @@
         >Accession 2013-011</unitid>
       <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
         >Accession 2016-003</unitid>
+      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
+        >Accession 2016-032</unitid>
       <physdesc label="Quantity">
         <extent encodinganalog="300">73.9 cubic ft. (83 boxes)</extent>
-        <extent encodinganalog="300">plus additions of 9.8 cubic ft. (11 boxes)</extent>
+        <extent encodinganalog="300">plus additions of 23.4 cubic ft. (37 boxes)</extent>
       </physdesc>
       <repository encodinganalog="852">
         <extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
@@ -164,17 +173,16 @@
       </repository>
       <abstract encodinganalog="520">Records of the largest academic division at the University of
         Wisconsin-Milwaukee (UWM), which administers numerous centers, departments, and programs.
-        The records document the administration of the college's six deans: Joseph G. Baier
+        The records document the administration of the college's seven deans: Joseph G. Baier
         (1956-1966), Roy G. Francis (1966-1969), Howard J. Pincus (1969-1972), William F. Halloran
-        (1972-1998), Marshall Goodman (1999-2002), and Richard Meadows (2002-2011). Most of the
-        records date from 1965 to 1980, but the collection contains a few records of UWM's
-        predecessor institutions and three boxes of post-1980 material from the Halloran
-        administration. The majority of the records are correspondence and reports between the
-        deans, associate deans, and the department heads concerning academic activities, curriculum
-        development, and program funding. The files also contain records of numerous ad hoc and
-        standing college committees, and committees organized within the departments. Also included
-        are photos of faculty, student life, departmental functions, and other events sponsored by
-        the College.</abstract>
+        (1972-1998), Marshall Goodman (1999-2002), Richard Meadows (2002-2011), and Rodney Swain
+        (2011-2017). Most of the records date from 1965 to 2000, but the collection contains a few
+        records of UWM's predecessor institutions. The majority of the records are correspondence
+        and reports between the deans, associate deans, and the department heads concerning academic
+        activities, curriculum development, and program funding. The files also contain records of
+        numerous ad hoc and standing college committees, and committees organized within the
+        departments. Also included are photos of faculty, student life, departmental functions, and
+        other events sponsored by the College.</abstract>
       <langmaterial encodinganalog="546" label="Language">
         <language encodinganalog="041" langcode="eng">English</language>
       </langmaterial>
@@ -216,8 +224,12 @@
           <event>G. Richard Meadows</event>
         </chronitem>
         <chronitem>
-          <date>2011-</date>
+          <date>2011-2017</date>
           <event>Rodney Swain</event>
+        </chronitem>
+        <chronitem>
+          <date>2017-</date>
+          <event>Acting Dean Dave Clark</event>
         </chronitem>
       </chronlist>
     </bioghist>
@@ -293,10 +305,6 @@
         copies of which can sometimes be found in the departmental files. The correspondence usually
         discusses funding and staff levels for college operations or major changes in university
         procedures.</p>
-      <p>The collection contains extensive correspondence between the dean and the vice chancellor,
-        copies of which can sometimes be found in the departmental files. The correspondence usually
-        discusses funding and staff levels for college operations or major changes in university
-        procedures.</p>
       <p>Also included in the collection is a selection of photographs from various Letters &amp;
         Science events and publications. The majority of these are portrait photos of faculty and
         staff, but also present are photos of students and alumni, including documentation of the
@@ -347,6 +355,10 @@
           <ref target="acc2016-003" show="replace" actuate="onrequest">Accession 2016-003: Personnel
             Files, 1960-2011</ref>
         </item>
+        <item>
+          <ref target="acc2016-003" show="replace" actuate="onrequest">Accession 2016-032:
+            Departmental Files, Meeting Minutes, and Personnel Files, 1968-2013</ref>
+        </item>
       </list>
     </arrangement>
     <otherfindaid encodinganalog="555">
@@ -368,10 +380,10 @@
       <head>Administrative/Restriction Information</head>
       <accessrestrict encodinganalog="506">
         <p>The unclassified personnel files in boxes 36-56 and in accessions 2002-071, 2009-063,
-          2010-068, 2013-011, 2016-003 are restricted in accordance with UWM Personnel File Policy
-          S-42. Access is regulated by Section III. A.2 and III. A.3. There are no access
-          restrictions on the rest of the collection, which is open to all members of the public in
-          accordance with state law.</p>
+          2010-068, 2013-011, 2016-003, and 2016-032 are restricted in accordance with UWM Personnel
+          File Policy S-42. Access is regulated by Section III. A.2 and III. A.3. There are no
+          access restrictions on the rest of the collection, which is open to all members of the
+          public in accordance with state law.</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>The researcher assumes full responsibility for conforming with the laws of libel,
@@ -385,9 +397,10 @@
           additional accession (2006-013) was transferred in 2006. The College of Letters &amp;
           Science transferred accession 2011-029 in November 2011. The College transferred
           additional materials in June 2010 (accession 2009-063), August 2013 (accession 2013-011),
-          and July 2016 (2016-003). Dept. of Philosophy personnel files were transferred to the
-          Archives in January 2003 (accession 2002-071) and Dept. of Psychology personnel files were
-          transferred in June 2011 (accession 2010-068).</p>
+          July 2016 (2016-003), and February 2017 (accession 2019-032). Dept. of Philosophy
+          personnel files were transferred to the Archives in January 2003 (accession 2002-071) and
+          Dept. of Psychology personnel files were transferred in June 2011 (accession
+          2010-068).</p>
       </acqinfo>
       <processinfo encodinganalog="583">
         <p>Mark A. Vargas processed the collection at the Archives between November 1992 and January
@@ -405,8 +418,9 @@
           2002-071, 2009-063, 2010-068(2), and 2013-011 in September 2013. Charles Hosale added two
           folders of processed records from the dribble file in September 2014. Phyllis Reske
           processed some additional materials in July 2016 (Brad Houston supervised). Brad Houston
-          updated the finding aid to include information about accession 2016-003 in August
-          2016.</p>
+          updated the finding aid to include information about accession 2016-003 in August 2016.
+          Ashlie Biddle updated the finding aid to include information about accession 2016-032 and
+          separated restricted information within the accession.</p>
       </processinfo>
     </descgrp>
     <dsc type="combined">
@@ -5792,6 +5806,21 @@
             <extent>3 cubic ft. (3 boxes)</extent>
           </physdesc>
           <abstract>Additional personnel files dating from 1960-2011. </abstract>
+        </did>
+      </c01>
+      <c01 level="otherlevel" otherlevel="minimal" id="acc2016-032">
+        <did>
+          <unitid>Accession 2016-032</unitid>
+          <unittitle>Departmental Files, Meeting Minutes, and Personnel Files
+              <unitdate>1968-2013</unitdate></unittitle>
+          <physdesc>
+            <extent>13.6 cubic ft. (16 boxes)</extent>
+          </physdesc>
+          <abstract>The first 10 boxes consist of records from various departments (mostly financial
+            statistics and correspondence) within the college as well as meeting minutes from several committees and
+            subcommittees. Boxes 8-10 contain unprocessed pocket folders of handwritten meeting
+            minutes from several different Letters and Science committees. The last 6 boxes are
+            personnel files. </abstract>
         </did>
       </c01>
     </dsc>
