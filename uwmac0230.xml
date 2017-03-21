@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd" [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
+<ead id="uw-mil-[file name]" relatedencoding="MARC21">
+	<eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
+		dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924"
+		relatedencoding="MARC21">
+		<eadid encodinganalog="856$u" countrycode="us" mainagencycode="wimiugma"
+			url="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-[call number]"
+			>uw-mil-[insert file name]</eadid>
+		<filedesc>
+			<titlestmt>
+				<titleproper encodinganalog="245$a">Finding Aid of the [collection title, including
+					dates]</titleproper>
+				<author encodinganalog="245$c"/>
+			</titlestmt>
+			<publicationstmt>
+				<publisher encodinganalog="260$b">University of Wisconsin-Milwaukee Libraries,
+					Archives Department</publisher>
+				<address>
+					<addressline>University of Wisconsin-Milwaukee</addressline>
+					<addressline>UWM Libraries</addressline>
+					<addressline>Archives Department</addressline>
+					<addressline>P.O. Box 604</addressline>
+					<addressline>Milwaukee, Wisconsin 53201-0604</addressline>
+					<addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr
+							href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
+				</address>
+				<date encodinganalog="260$c" type="publication" normal="2016">Copyright &#169; 2016
+					University of Wisconsin Board of Regents</date>
+			</publicationstmt>
+		</filedesc>
+		<profiledesc>
+			<creation encodinganalog="500">Finding aid encoded by [name of individual who encoded
+				the finding aid].</creation>
+			<langusage encodinganalog="546">Finding aid written in <language encodinganalog="041"
+					langcode="eng" scriptcode="Latn">English.</language></langusage>
+		</profiledesc>
+	</eadheader>
+	<archdesc level="collection" relatedencoding="MARC21">
+		<did>
+			<physloc type="locationcode" audience="internal">wimiugma</physloc>
+			<unittitle encodinganalog="245$a">[insert title], <unitdate type="inclusive"
+					encodinganalog="245$f" normal="[ie. 1917/1940]">[insert
+				dates]</unitdate></unittitle>
+			<origination label="Creator">
+				<corpname encodinganalog="110">[insert creator name]</corpname>
+			</origination>		
+			<unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma"
+				countrycode="us">[insert collection number]</unitid>
+			<physdesc label="Quantity">
+				<extent encodinganalog="300">[insert size] cubic ft. ([insert #] boxes)</extent>
+			</physdesc>
+			<repository encodinganalog="852">
+				<extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
+					title="University of Wisconsin-Milwaukee Logo." role="logoimage"/>
+				<extref href="http://www.uwm.edu/Libraries/arch/index.html">
+					<corpname>University of Wisconsin-Milwaukee Libraries, Archives
+						Department</corpname>
+				</extref>
+			</repository>
+			<physloc/>
+			<abstract encodinganalog="520"> </abstract>
+			<langmaterial encodinganalog="546" label="Language">
+				<language encodinganalog="041" langcode="eng">English</language>
+			</langmaterial>
+		</did>
+		<bioghist encodinganalog="545">
+			<p> </p>
+		</bioghist>
+		<scopecontent encodinganalog="520">
+			<p> </p>
+		</scopecontent>
+		<arrangement encodinganalog="351">
+			<p>The files are organized alphabetically by personal name or by subject, then
+				chronologically.</p>
+		</arrangement>
+		<otherfindaid encodinganalog="555">
+			<p/>
+		</otherfindaid>
+		<prefercite encodinganalog="524">
+			<p>
+				<extref
+					href="http://uwm.edu/libraries/archives/research/citation-guide-for-primary-sources/"
+					>Citation Guide for Primary Sources</extref>
+			</p>
+		</prefercite>
+		<altformavail encodinganalog="530">
+			<head>Alternate Format</head>
+			<p> </p>
+		</altformavail>
+		<relatedmaterial encodinganalog="544 1">
+			<head>Related Material in the UWM Libraries</head>
+			<archref href="" actuate="onrequest" show="new">
+				<unittitle/>
+				<unitid/>
+			</archref>
+		</relatedmaterial>
+		<separatedmaterial encodinganalog="544 0">
+			<head>Separated Material in the UWM Libraries</head>
+			<p> </p>
+		</separatedmaterial>
+		<descgrp type="admininfo">
+			<head>Administrative/Restriction Information</head>
+			<accessrestrict encodinganalog="506">
+				<p>There are no access restrictions on the materials, and the collection is open to
+					all members of the public in accordance with state law.</p>
+			</accessrestrict>
+			<userestrict encodinganalog="540">
+				<p>The researcher assumes full responsibility for conforming with the laws of libel,
+					privacy, and copyright which may be involved in the use of this collection
+					(Wisconsin Statutes 19.21-19.39).</p>
+			</userestrict>
+			<custodhist encodinganalog="561">
+				<p/>
+			</custodhist>
+			<acqinfo encodinganalog="541">
+				<p> </p>
+			</acqinfo>
+			<processinfo encodinganalog="583">
+				<p> </p>
+			</processinfo>
+			<processinfo>
+				<head>Preservation Information</head>
+				<p> </p>
+			</processinfo>
+			<phystech encodinganalog="538"/>
+			<!-- <Note: The ENCODINGANALOG attribute corresponds to either MARC 340 or 538. A decision will need to be made in each case which value is more appropriate, if this element is used.> -->
+			<separatedmaterial encodinganalog="544 0">
+				<head>Deaccession Information</head>
+				<p> </p>
+			</separatedmaterial>
+		</descgrp>
+		<dsc type="in-depth">
+			<head>Contents List</head>
+			<c01 level="otherlevel" otherlevel="processed" id="[ie. uwmac0042">
+				<did>
+					<unitid/>
+					<unittitle>
+						<unitdate type="inclusive" normal="[ie. 1917/1940]"/>
+					</unittitle>
+					<physdesc>
+						<extent/>
+					</physdesc>
+				</did>
+				<c02>
+					<did>
+						<unittitle/>
+						<container type="box" label="Box"/>
+						<container type="folder" label="Folder"/>
+					</did>
+				</c02>
+			</c01>
+		</dsc>
+	</archdesc>
+</ead>
