@@ -70,6 +70,7 @@
 			</langmaterial>
 		</did>
 		<bioghist encodinganalog="545">
+
 			<p>The Student Wisconsin Education Association (SWEA) at UWM was a branch of the
 				National Education Association (NEA), founded in 1937, which assists student
 				teachers in engaging in their communities and offers professional development
@@ -128,8 +129,7 @@
 					School of Education Office of Student Services. </p>
 			</custodhist>
 			<acqinfo encodinganalog="541">
-				<p>Robert Longwell-Grice donated the materials (accession 2016-013) to the Archives
-					on behalf of the UWM School of Education. </p>
+				<p>Robert Longwell-Grice donated the materials (accession 2016-013) to the Archives on behalf of the UWM School of Education. </p>
 			</acqinfo>
 			<processinfo encodinganalog="583">
 				<p>Alison Sielaff processed accession 2016-013 during Winter 2017 (Brad Houston
@@ -137,6 +137,7 @@
 			</processinfo>
 			<processinfo>
 				<head>Preservation Information</head>
+
 				<p>Alison Sielaff disassembled the scrapbooks as part of processing. The pages were
 					moved to acid-free folders in the order in which they appeared in the original
 					scrapbooks.</p>
@@ -145,6 +146,7 @@
 					files from DVDs were converted to MP2 or MPEG-4 video files. Original VOB files
 					are available; contact an archivist for more information.</p>
 			</processinfo>
+
 			<phystech encodinganalog="538" audience="internal">
 				<p>As of March 2017, all files were accessible on a Intel Core i5-4570 CPU (3.20
 					GHz, 4 GB RAM) running Windows 7, with Service Pack 1. Microsoft Office 2016,
@@ -232,7 +234,7 @@
 							<container type="electronic" label=""
 								>\Outreach_Presentation_2007\</container>
 						</did>
-					</c03>
+          </c03>
 					<c03>
 						<did>
 							<unittitle>Student Projects</unittitle>
@@ -242,6 +244,7 @@
 								<unittitle>
 									<unitdate>2003</unitdate>
 								</unittitle>
+
 								<container type="electronic" label="Electronic Folder"/>
 								<container type="electronic" label="">
 									\Urban_Teacher_World_June_22_2003\</container>
@@ -249,6 +252,7 @@
 						</c04>
 						<c04>
 							<did>
+
 								<unittitle>
 									<unitdate>2004</unitdate>
 								</unittitle>
@@ -259,6 +263,7 @@
 						</c04>
 						<c04>
 							<did>
+
 								<unittitle>
 									<unitdate>2005</unitdate>
 								</unittitle>
@@ -284,6 +289,7 @@
 								</unittitle>
 								<container type="electronic" label="Electronic Folder"/>
 								<container type="electronic" label="">
+
 									\UrbanTeachWrld07\</container>
 							</did>
 						</c04>
