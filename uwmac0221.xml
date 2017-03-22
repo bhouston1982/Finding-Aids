@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+ <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd" [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > 
+<ead id="uw-mil-uwmac0221" relatedencoding="MARC21">
+	<eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
+		dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924"
+		relatedencoding="MARC21">
+		<eadid encodinganalog="856$u" countrycode="us" mainagencycode="wimiugma"
+			url="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0221"
+			>uw-mil-uwmac0221</eadid>
+		<filedesc>
+			<titlestmt>
+				<titleproper encodinganalog="245$a">Finding Aid of the UW-Milwaukee Web Collection,
+					1997-2017</titleproper>
+				<author encodinganalog="245$c">Brad Houston</author>
+			</titlestmt>
+			<publicationstmt>
+				<publisher encodinganalog="260$b">University of Wisconsin-Milwaukee Libraries,
+					Archives Department</publisher>
+				<address>
+					<addressline>University of Wisconsin-Milwaukee</addressline>
+					<addressline>UWM Libraries</addressline>
+					<addressline>Archives Department</addressline>
+					<addressline>P.O. Box 604</addressline>
+					<addressline>Milwaukee, Wisconsin 53201-0604</addressline>
+					<addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr
+							href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
+				</address>
+				<date encodinganalog="260$c" type="publication" normal="2012">Copyright &#169; 2013
+					University of Wisconsin Board of Regents</date>
+			</publicationstmt>
+		</filedesc>
+		<profiledesc>
+			<creation encodinganalog="500">Finding aid encoded by Brad Houston.</creation>
+			<langusage encodinganalog="546">Finding aid written in <language encodinganalog="041"
+					langcode="eng" scriptcode="Latn">English.</language></langusage>
+		</profiledesc>
+		<revisiondesc>
+			<change>
+				<date normal="2013-03-28">March 28, 2013</date>
+				<item>Brad Houston updated the finding aid to reflect the addition of new pages and
+					sites to the collection. Changes were made to physdesc, accessioninfo,
+					processinfo, and the contents list.</item>
+			</change>
+			<change>
+				<date normal="2013-05-14">May 14, 2013</date>
+				<item>Brad Houston made some formatting changes to the contents list.</item>
+			</change>
+			<change>
+				<date normal="2013-03-28">May 7, 2014</date>
+				<item>Charles Tonelli updated the finding aid to reflect the addition of new pages
+					and sites to the collection. Changes were made to processinfo and the contents
+					list.</item>
+			</change>
+		</revisiondesc>
+	</eadheader>
+	<archdesc level="collection" relatedencoding="MARC21">
+		<did>
+			<physloc type="locationcode" audience="internal">wimiugma</physloc>
+			<unittitle encodinganalog="245$a">UW-Milwaukee Web Collection, <unitdate
+					type="inclusive" encodinganalog="245$f" normal="1997/2013"
+				>1997-2017</unitdate></unittitle>
+			<origination label="Creator">
+				<corpname encodinganalog="110">University of Wisconsin-Milwaukee</corpname>
+			</origination>
+			<unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma"
+				countrycode="us">UWM Archival Collection 221</unitid>
+			<physdesc label="Quantity">
+				<extent encodinganalog="300">Approximately 1 million digital files (59 GB)</extent>
+			</physdesc>
+			<repository encodinganalog="852">
+				<extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
+					title="University of Wisconsin-Milwaukee Logo." role="logoimage"/>
+				<extref href="http://www.uwm.edu/Libraries/arch/index.html">
+					<corpname>University of Wisconsin-Milwaukee Libraries, Archives
+						Department</corpname>
+				</extref>
+			</repository>
+			<physloc/>
+			<abstract encodinganalog="520">Web collection of University of Wisconsin-Milwaukee
+				websites and affiliated sites crawled by the UWM Libraries, Archives Department
+				using the Internet Archive's Archive-It web crawler beginning in 2012, as well as
+				pages crawled by the Internet Archive from 1997 to 2014. The web collection includes
+				websites, blogs, Facebook pages, Flickr pages, and Twitter feeds created by various
+				divisions, offices, and departments of the University of
+				Wisconsin-Milwaukee.</abstract>
+			<langmaterial encodinganalog="546" label="Language">
+				<language encodinganalog="041" langcode="eng">English</language>
+			</langmaterial>
+		</did>
+		<scopecontent encodinganalog="520">
+			<p>Official websites, social media accounts, and affiliated sites relating to the
+				University of Wisconsin-Milwaukee. The collection was initially captured using the
+				Internet Archive's Archive-It Web Crawler between October 2012 and January 2013, and
+				updated periodically thereafter. The collection contains websites, Facebook pages,
+				Twitter accounts, Flickr accounts, and other web content created by offices and
+				divisions of the University. Most of the official pages and documents captured are
+				hosted on the uwm.edu server, though some are housed on other subdomains and are
+				listed separately. In addition to the UWM homepage, homepages and sub-sites for each
+				of the University's divisions, schools, and colleges are listed separately for ease
+				of access.</p>
+			<p>Full text search of web collection and browsing of the collection's videos are
+				available at the <extref actuate="onrequest" show="new"
+					href="http://archive-it.org/collections/3368">collection landing page</extref>
+				on the Archive-It site. See the entries for individual sites for additional
+				information about the scope and content of each site.</p>
+		</scopecontent>
+		<arrangement encodinganalog="351">
+			<p>The base unit of description is school, division, or office website, subdomain, or
+				social media account. The collection is arranged into six functional series:</p>
+			<list numeration="arabic" type="ordered">
+				<item>
+					<ref target="series1" show="replace" actuate="onrequest">Main Site,
+						1997-2014</ref>
+				</item>
+				<item>
+					<ref target="series2" show="replace" actuate="onrequest">Academic and Research
+						Units, 2012-2014</ref>
+				</item>
+				<item>
+					<ref target="series3" show="replace" actuate="onrequest">Administrative Units,
+						1998-2014</ref>
+				</item>
+				<item>
+					<ref target="series4" show="replace" actuate="onrequest">Athletics,
+						2012-2014</ref>
+				</item>
+				<item>
+					<ref target="series5" show="replace" actuate="onrequest">Social Media,
+						2009-2014</ref>
+				</item>
+				<item>
+					<ref target="series6" show="replace" actuate="onrequest">Affiliate Sites,
+						2012-2014</ref>
+				</item>
+			</list>
+		</arrangement>
+		<otherfindaid encodinganalog="555">
+			<p><extref actuate="onrequest" show="new" href="https://archive-it.org/collections/3368"
+					>The Archive-It landing page for the collection</extref> includes more
+				information about the materials in the collection, including site-specific and
+				document-specific metadata and exact dates of capture.</p>
+		</otherfindaid>
+		<prefercite encodinganalog="524">
+			<p>
+				<extref
+					href="http://uwm.edu/libraries/archives/research/citation-guide-for-primary-sources/"
+					>Citation Guide for Primary Sources</extref>
+			</p>
+		</prefercite>
+		<descgrp type="admininfo">
+			<head>Administrative/Restriction Information</head>
+			<accessrestrict encodinganalog="506">
+				<p>There are no access restrictions on the materials, and the collection is open to
+					all members of the public in accordance with state law.</p>
+			</accessrestrict>
+			<userestrict encodinganalog="540">
+				<p>The researcher assumes full responsibility for conforming with the laws of libel,
+					privacy, and copyright which may be involved in the use of this collection
+					(Wisconsin Statutes 19.21-19.39).</p>
+			</userestrict>
+			<acqinfo encodinganalog="541">
+				<p>The initial materials were collected by the UWM Archives between October 2012 and
+					January 2013, using Internet Archive's Archive-It web capture service.
+					Archive-It used the Heritrix web crawler to capture and archive web pages. Brad
+					Houston ran new crawls in March 2013 and March 2014 to add additional pages and
+					sites to the collection.</p>
+			</acqinfo>
+			<processinfo encodinganalog="583">
+				<p>Brad Houston and Charles Welborn processed the initial collection in winter 2013.
+					Brad Houston processed the added materials in March 2013. Grant Roedl updated
+					the finding aid to reflect new seeds and updated metadata on the Archive-It site
+					(Brad Houston Processed).</p>
+			</processinfo>
+		</descgrp>
+		<dsc type="in-depth">
+			<head>Contents List</head>
+			<c01 id="series1" level="series">
+				<did>
+					<unittitle>1. Main Website, <unitdate normal="1997/2014" type="inclusive"
+							>1997-2014</unitdate></unittitle>
+				</did>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Homepage</unittitle>
+					</did>
+					<scopecontent>
+						<p>Homepage of the University of Wisconsin-Milwaukee. Most other sites in
+							this collection are browsable from this page.</p>
+					</scopecontent>
+					<dao actuate="onrequest" show="new" title="1997-2014"
+						href="http://wayback.archive.org/web/*/http://www.uwm.edu">
+						<daodesc>
+							<p>Internet Archive Capture, 1997-2017</p>
+						</daodesc>
+					</dao>
+					<dao actuate="onrequest" show="new" title="2012-2014"
+						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/">
+						<daodesc>
+							<p>Archive-It Capture, 2012-2014</p>
+						</daodesc>
+					</dao>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>UWM Report: News from UW-Milwaukee</unittitle>
+					</did>
+					<scopecontent>
+						<p>Homepage of University Communications and Media Relations, the office
+							responsible for external communications between UWM and the wider
+							community. Included in the capture are press releases, feature stories,
+							campus announcements, and back issues of campus publications created by
+							University Communications, including the <title render="italic">UWM
+								Report</title> (2006-2013); <title render="italic">UWM
+								Alumni</title>, formerly <title render="italic">UWM Today</title>
+							(2005-2012); <title render="italic">UWM Research Report</title>
+							(2009-2012); and <title render="italic">UWM In the News</title>, a
+							collection of articles from local media about UWM. As of January 2013,
+							links to articles from the "News Archives" and "Features Archives" pages
+							are defunct; news releases from 2011 to 2013 may be browsed through the
+							main News page.</p>
+					</scopecontent>
+					<dao actuate="onrequest" show="new" title="2012-2014"
+						href="http://wayback.archive-it.org/3368/*/http://www5.uwm.edu/news/">
+						<daodesc>
+							<p>2012-2016</p>
+						</daodesc>
+					</dao>
+					<dao actuate="onrequest" show="new" title="2012-2014"
+						href="https://wayback.archive-it.org/3368/*/https://uwm.edu/news/">
+						<daodesc>
+							<p>2012-2017</p>
+						</daodesc>
+					</dao>
+				</c02>
+			</c01>
+			<c01 id="series2" level="series">
+				<did>
+					<unittitle>2. Academic and Research Units,
+						<unitdate>2012-2014</unitdate></unittitle>
+				</did>
+				<c02 level="subseries">
+					<did>
+						<unittitle>College of Engineering and Applied Science</unittitle>
+					</did>
+					<scopecontent>
+						<p>Established in 1964, the College of Engineering and Applied Science
+							(CEAS) today is organized into five departments of Civil Engineering,
+							Electrical Engineering and Computer Science, Industrial and
+							Manufacturing Engineering, Materials, and Mechanical Engineering,
+							offering both undergraduate and graduate programs in engineering and
+							computer science. The College of Engineering and Applied Science site
+							contains program information for prospective, incoming, and current
+							students; student resources; listings of faculty and administrative
+							staff; and news on featured research conducted through CEAS, including
+							links to research centers and labs. </p>
+					</scopecontent>
+					<dao actuate="onrequest" show="new" title="2012-2017"
+						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/ceas/">
+						<daodesc>
+							<p>2012-2017</p>
+						</daodesc>
+					</dao>
+					<dao actuate="onrequest" show="new" title="2014-2017"
+						href="http://wayback.archive-it.org/3368/*/http://uwm.edu/engineering/">
+						<daodesc>
+							<p>2014-2017</p>
+						</daodesc>
+					</dao>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>College of Health Sciences</unittitle>
+					</did>
+					<scopecontent>
+						<p>The College of Health Sciences is organized into seven departments of
+							Biomedical Sciences, Communication Sciences and Disorders, Health
+							Informatics and Administration, Kinesiology, Occupational Science and
+							Technology, Continuing Education, and Sports and Recreation, offering
+							both undergraduate and graduate programs, as well as certificate
+							programs. The College of Health Sciences site provides program
+							information and resources for future and current students; faculty and
+							administrative staff listings and internal resources; College news; and
+							links to research labs, clinics, and centers.</p>
+					</scopecontent>
+					<dao actuate="onrequest" show="new" title="2012-2014"
+						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/chs/">
+						<daodesc>
+							<p>2012-2014</p>
+						</daodesc>
+					</dao>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>College of Letters and Science</unittitle>
+					</did>
+					<scopecontent>
+						<p>The largest of UWM's schools and colleges, the College of Letters and
+							Sciences offers traditional liberal arts certificates, undergraduate,
+							and graduate degrees provided throughout the 22 humanities, natural
+							sciences, and social sciences departments of the College. The College of
+							Letters and Sciences site provides information for prospective and
+							current students, including material on undergraduate and graduate
+							programs, and student services and resources; links to the College of
+							Letters and Sciences’ academic departments; resources for faculty and
+							staff, including departmental and administrative directories; curriculum
+							and governance rules and reports, including assessment plans, budget
+							reports, and faculty governance rules; minutes and agendas of the
+							Letters and Sciences Faculty Committee; and links to the centers and
+							institutes administered by and participating with the College of Letters
+							and Sciences, including the Language Resource Center, Center for 21st
+							Century Studies, and the Roberto Hernandez Center.</p>
+					</scopecontent>
+					<dao actuate="onrequest" show="new" title="2012-2016"
+						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/letsci/">
+						<daodesc>
+							<p>2012-2016</p>
+						</daodesc>
+					</dao>
+					<dao actuate="onrequest" show="new" title="2016-2017"
+						href="http://wayback.archive-it.org/3368/*/http://uwm.edu/letters-science/">
+						<daodesc>
+							<p>2016-2017</p>
+						</daodesc>
+					</dao>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>College of Nursing</unittitle>
+					</did>
+					<scopecontent>
+						<p>Established in 1965, the UWM College of Nursing is Wisconsin’s largest
+							nursing school and only one of two schools that offer a full complement
+							of degree options including Bachelor of Science, Master of Nursing,
+							Doctor of Nursing Practice, PhD, and graduate certificates. The College
+							of Nursing site includes information for undergraduate and graduate
+							students, including program details, forms and materials, and student
+							resources; faculty and staff directories; faculty research areas and
+							actively funded research projects, with links to the College’s research
+							centers and institutes; and resources on community and corporate
+							partners of the College. </p>
+					</scopecontent>
+					<dao actuate="onrequest" show="new" title="2012-2017"
+						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/nursing/">
+						<daodesc>
+							<p>2012-2017</p>
+						</daodesc>
+					</dao>
+					<dao actuate="onrequest" show="new" title="2012-2017"
+						href="http://wayback.archive-it.org/3368/*/http://uwm.edu/nursing/">
+						<daodesc>
+							<p>2012-2017</p>
+						</daodesc>
+					</dao>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Graduate School</unittitle>
+					</did>
+					<scopecontent>
+						<p>The UWM Graduate School awards advanced academic degrees to graduate
+							students who have previously earned bachelor’s degrees through
+							undergraduate programs at UWM and elsewhere. The site includes relevant
+							information for prospective, incoming, and current students; faculty and
+							staff resources; academic policies and procedures; and extensive
+							information on research conducted through the Graduate School. Minutes
+							and agendas are also available for Graduate School committees including
+							the Graduate Course and Curriculum Committee, the Graduate Fellowships
+							Committee, and the Graduate Program Review Committee. </p>
+					</scopecontent>
+					<dao actuate="onrequest" show="new" title="2012-2016"
+						href="http://wayback.archive-it.org/3368/*/http://www.graduateschool.uwm.edu/">
+						<daodesc>
+							<p>2012-2016</p>
+						</daodesc>
+					</dao>
+					<dao actuate="onrequest" show="new" title="2016-2017"
+						href="http://wayback.archive-it.org/3368/*/http://www.graduateschool.uwm.edu/">
+						<daodesc>
+							<p>2016-2017</p>
+						</daodesc>
+					</dao>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Helen Bader School of Social Welfare</unittitle>
+					</did>
+					<scopecontent>
+						<p>the Helen Bader School of Social Welfare offers undergraduate and
+							graduate degrees to prepare students for careers in social, health,
+							educational, and criminal justice professions. The site includes
+							information for future and current students, including policies and
+							procedures, and student resources; a faculty and staff directory;
+							research resources, including links to research conducted within and in
+							conjunction with the School; and news and events within the School. </p>
+					</scopecontent>
+					<dao actuate="onrequest" show="new" title="2012-2015"
+						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/hbssw/">
+						<daodesc>
+							<p>2012-2015</p>
+						</daodesc>
+					</dao>
+					<dao actuate="onrequest" show="new" title="2015-2017"
+						href="http://wayback.archive-it.org/3368/*/http://uwm.edu/socialwelfare/">
+						<daodesc>
+							<p>2015-2017</p>
+						</daodesc>
+					</dao>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Joseph J. Zilber School of Public Health</unittitle>
+					</did>
+					<scopecontent>
+						<p>the Zilber School of Public Health advances the understanding of health
+							disparities, educates the local public health workforce, guides public
+							health policy, and partners with local organizations to address
+							community public health issues. The site includes information about the
+							School’s certificate, master’s, and doctoral degree programs; faculty
+							and staff listings; information on the School of Public Health Planning
+							Council, including a listing of council members, executive summary, and
+							full report; rosters of numerous teams and committees, including the
+							Epidemiology PhD Work Team, School Formation Planning Committee, and the
+							Library Resources Committee among others; and news on research
+							initiatives, including links to the School’s laboratories. </p>
+					</scopecontent>
+					<dao actuate="onrequest" show="new" title="2012-2017"
+						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/publichealth/">
+						<daodesc>
+							<p>2012-2017</p>
+						</daodesc>
+					</dao>
+					<dao actuate="onrequest" show="new" title="2012-2017"
+						href="http://wayback.archive-it.org/3368/*/http://uwm.edu/publichealth/">
+						<daodesc>
+							<p>2012-2017</p>
+						</daodesc>
+					</dao>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Peck School of the Arts</unittitle>
+					</did>
+					<scopecontent>
+						<p>The Peck School of the Arts (PSOA), formerly the UWM School of Fine Arts,
+							was the third school created at UWM in 1962 and today encompasses the
+							departments of art, music, dance, theatre, and film. Notable components
+							of the PSOA include INOVA (Institute of Visual Art), the School's
+							contemporary art museum, and the internationally renowned Fine Arts
+							Quartet. The Peck School of the Arts site includes information on the
+							School's departments and programs, faculty, and former students; events
+							and performances; and links to UWM Year of the Arts, the 50th
+							anniversary celebration of the School at UWM; and Peck School News.</p>
+					</scopecontent>
+					<dao actuate="onrequest" show="new" title="2012-2014"
+						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/psoa/">
+						<daodesc>
+							<p>2012-2014</p>
+						</daodesc>
+					</dao>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Research Centers and Institutes</unittitle>
+					</did>
+					<scopecontent>
+						<p>As a Research I designated university, UWM encompasses a network of
+							clinics, centers, institutes, and laboratories to accommodate the
+							research needs of faculty, entrepreneurs, scientists, and graduate
+							students. The UWM Centers and Institutes' site includes links for
+							numerous centers and institutes, including the Center for Celtic
+							Studies; the Institute on Race and Ethnicity; the Roberto Hernandez
+							Center; and the Institute for Visual Arts (INOVA).</p>
+					</scopecontent>
+					<dao actuate="onrequest" show="new" title="2012-2014"
+						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/academics/centers-institutes.cfm">
+						<daodesc>
+							<p>2012-2014</p>
+						</daodesc>
+					</dao>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>School of Architecture and Urban Planning</unittitle>
+					</did>
+					<scopecontent>
+						<p>Established in 1966, the School of Architecture and Urban Planning
+							(SARUP) offers Bachelor's, Master's and Doctoral degrees in
+							Architecture, a Master's in Urban Planning, a Coordinated Master's
+							degree in Architecture and Urban Planning, and numerous certificate
+							programs. The School of Architecture and Urban Planning site includes
+							materials about the School's programs; faculty and staff directories;
+							galleries of student and faculty work; and news and events, including
+							the School's lecture series and exhibitions.</p>
+					</scopecontent>
+					<dao actuate="onrequest" show="new" title="2012-2014"
+						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/SARUP/">
+						<daodesc>
+							<p>2012-2014</p>
+						</daodesc>
+					</dao>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>School of Freshwater Sciences</unittitle>
+					</did>
+					<scopecontent>
+						<p>Established in 2009, the School of Freshwater Sciences (SFS) is the first
+							graduate school in the United States dedicated solely to the study of
+							freshwater and offers research and education programs in freshwater
+							system dynamics; human and ecosystem health; freshwater technology; and
+							freshwater economics, policy, and management. The School of Freshwater
+							Sciences site offers course descriptions and information on master's and
+							doctoral degree programs; news and events; faculty and administrative
+							staff listings; information on the School's fleet and facilities; and
+							news on research conducted through SFS.</p>
+					</scopecontent>
+					<dao actuate="onrequest" show="new" title="2012-2014"
+						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/freshwater/">
+						<daodesc>
+							<p>2012-2014</p>
+						</daodesc>
+					</dao>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>School of Information Studies</unittitle>
+					</did>
+					<scopecontent>
+						<p>The School of Information Studies (SOIS) offers undergraduate and
+							graduate degree programs that prepare students for careers in the
+							information professions. The School of Information Studies site includes
+							information for prospective and current students, including program
+							materials, course descriptions, student resources, and links to student
+							services; faculty and administration directories; links to SOIS social
+							media sites; information on student and professional organizations and
+							chapters; and notes on research conducted through the School, including
+							faculty and student interests and funded research, workshop and funding
+							resources, and links to the School's research centers and groups.</p>
+					</scopecontent>
+					<dao actuate="onrequest" show="new" title="2012-2014"
+						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/sois/">
+						<daodesc>
+							<p>2012-2014</p>
+						</daodesc>
+					</dao>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Sheldon B. Lubar School of Business</unittitle>
+					</did>
+					<scopecontent>
+						<p>The AACSB accredited Lubar School of Business provides undergraduate and
+							graduate business programs, including the nationally ranked MBA program.
+							The Lubar School of Business site includes information for prospective,
+							incoming, and current students; faculty and administrative staff
+							listings; news and events; and links to the School's research centers,
+							including the Center for Technological Innovation, the Helen Bader
+							Institute for Nonprofit Management, and the Bostrom Center for
+							Entrepreneurship and Innovation.</p>
+					</scopecontent>
+					<dao actuate="onrequest" show="new" title="2012-2014"
+						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/business/">
+						<daodesc>
+							<p>2012-2014</p>
+						</daodesc>
+					</dao>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>UWM Libraries</unittitle>
+					</did>
+					<scopecontent>
+						<p>The UWM Libraries, formerly the UWM Golda Meir Library, accommodates the
+							information needs of UWM faculty and students through traditional print
+							and electronic resources and unique materials available through library
+							departments. The site includes general information about the Libraries,
+							including library policies, services, and staff directory; information
+							on the Daniel M. Soref Learning Commons, including available services
+							and policies; and links to the departments of the Libraries and the
+							Friends of the Golda Meir Library.</p>
+					</scopecontent>
+					<dao actuate="onrequest" show="new" title="2012-2014"
+						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/libraries/">
+						<daodesc>
+							<p>2012-2014</p>
+						</daodesc>
+					</dao>
+				</c02>
+			</c01>
+			<c01 id="series3" level="series">
+				<did>
+					<unittitle>3. Administrative Units, <unitdate>1998-2014</unitdate></unittitle>
+				</did>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Academic Affairs</unittitle>
+					</did>
+					<scopecontent>
+						<p>The Provost's Office is responsible for the administration of academic
+							affairs of the university and renders decisions on academic programming,
+							including curricula changes; the establishment and termination of degree
+							programs; budget decisions in the academic sector; and long-range
+							planning for academic affairs. The site includes policies and procedures
+							for academic program planning and review; reports and assessments of the
+							Access to Success initiative, the campus blueprint to enhance access to
+							UWM and increase student success; budget and planning reports and
+							proposals; student Factbooks and entrance/exit surveys; and resources on
+							UWM's diversity action initiatives.</p>
+					</scopecontent>
+					<dao actuate="onrequest" show="new" title="2012-2014"
+						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/acad_aff/">
+						<daodesc>
+							<p>2012-2014</p>
+						</daodesc>
+					</dao>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Alumni Association</unittitle>
+					</did>
+					<scopecontent>
+						<p>The UWM Alumni Association provides services for graduates of UWM and its
+							predecessor institutions, including volunteering and networking
+							opportunities; career counseling through Alumni Career Services; and the
+							Alumni Association's publication, <title render="italic">UWM
+								Today</title>. The site includes news on Alumni events; access to
+							Alumni Association publications, including back issues of the UWM alumni
+							magazine; and information on the various Alumni chapters.</p>
+					</scopecontent>
+					<dao actuate="onrequest" show="new" title="2012-2014"
+						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/alumni/">
+						<daodesc>
+							<p>2012-2014</p>
+						</daodesc>
+					</dao>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Auxiliary Services</unittitle>
+					</did>
+					<scopecontent>
+						<p>The Auxiliary Services department provides support for UWM in regards to
+							Restaurant Operations, Computer Operations, and the Center for Student
+							Involvement. The site includes resources for UWM Panther Card and
+							ePanther Accounts and links to departmental sites, including the UWM
+							Bookstore; the Student Union; Neighborhood and University Housing;
+							Restaurant Operations; Reservations and Event Planning Services; and the
+							Student Association.</p>
+					</scopecontent>
+					<dao actuate="onrequest" show="new" title="2012-2014"
+						href="http://wayback.archive-it.org/3368/*/http://www.aux.uwm.edu/">
+						<daodesc>
+							<p>2012-2014</p>
+						</daodesc>
+					</dao>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Campus Budget Site</unittitle>
+					</did>
+					<scopecontent>
+						<p>[Insert new Description Here}</p>
+					</scopecontent>
+					<dao actuate="onrequest" show="new" title="2012-2014"
+						href="http://wayback.archive-it.org/3368/*/http://uwm.edu/budget">
+						<daodesc>
+							<p>2012-2016</p>
+						</daodesc>
+					</dao>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Finance and Administrative Affairs</unittitle>
+					</did>
+					<scopecontent>
+						<p>Finance and Administrative Affairs provides accounting, budgetary,
+							personnel, IT, and other operational services for UWM. The site includes
+							personnel and IT related policies and procedures, university weather and
+							emergency operations procedures, and links to the individual departments
+							of the Division of Finance and Administrative Affairs.</p>
+					</scopecontent>
+					<dao actuate="onrequest" show="new" title="2012-2014"
+						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/faa/">
+						<daodesc>
+							<p>2012-2014</p>
+						</daodesc>
+					</dao>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Office of the Chancellor</unittitle>
+					</did>
+					<scopecontent>
+						<p>The chancellor is the chief administrative officer for the university,
+							with responsibility for overseeing UWM's administrative offices,
+							centers, colleges, and schools. The site includes an up-to-date listing
+							of campus leadership; communications from current Chancellor Michael R.
+							Lovell, including his Plenary Address and Regent Address; and links to
+							UWM initiatives, including Access to Success, the Wisconsin Energy
+							Resource Consortium, the Greater Milwaukee Foundation, and the Research
+							Growth Initiative, among others.</p>
+					</scopecontent>
+					<dao actuate="onrequest" show="new" title="Office of the Chancellor"
+						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/chancellor/">
+						<daodesc>
+							<p>2012-2014</p>
+						</daodesc>
+					</dao>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Secretary of the University</unittitle>
+					</did>
+					<scopecontent>
+						<p>The Secretary of the University manages and facilitates governance
+							documents at UWM, including university-wide policies and procedures and
+							minutes/agendas of standing and ad hoc faculty and academic staff
+							committees. Minutes and agendas for the Faculty Senate and Academic
+							Staff Senate can be found on this site, as well as Faculty Documents,
+							which are reports and proposals produced by committees and departments
+							for consideration and/or approval by the Faculty Senate.</p>
+					</scopecontent>
+					<dao actuate="onrequest" show="new" title="1998-2009"
+						href="http://wayback.archive.org/web/20100715000000*/http://www.uwm.edu/Dept/SecU/">
+						<daodesc>
+							<p>1998-2009</p>
+						</daodesc>
+					</dao>
+					<dao actuate="onrequest" show="new" title="2009-2012"
+						href="http://wayback.archive.org/web/20090401000000*/http://www.uwm.edu/secu">
+						<daodesc>
+							<p>2009-2012</p>
+						</daodesc>
+					</dao>
+					<dao actuate="onrequest" show="new" title="2012-2013"
+						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/secu/">
+						<daodesc>
+							<p>2012-2014</p>
+						</daodesc>
+					</dao>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Student Affairs</unittitle>
+					</did>
+					<scopecontent>
+						<p>The Division of Student Affairs comprises of several units, which provide
+							programs and services that support the personal and professional
+							development of UWM students throughout their university careers.
+							Divisional Units of the UWM Division of Student Affairs include the
+							Career Development Center, Center for Student Involvement, the
+							Children's Center, the LGBT Resource Center, and Women's Resource Center
+							among others. The site includes general information, including campus
+							maps, listings of campus programs and events, and Student Affairs
+							directories; links to the Center for Student Involvement; and
+							information regarding the Student Affairs Assessment Team.</p>
+					</scopecontent>
+					<dao actuate="onrequest" show="new" title="2012-2014"
+						href="http://wayback.archive-it.org/3368/*/http://www.aux.uwm.edu/studentaffairs/">
+						<daodesc>
+							<p>2012-2014</p>
+						</daodesc>
+					</dao>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>University Relations</unittitle>
+					</did>
+					<scopecontent>
+						<p>The Division of University Relations at UWM encompasses several areas,
+							including university communications and media relations, government
+							relations, and neighborhood relations. The site includes links to the
+							aforementioned divisional units; information pertaining to public
+							records requests; and the Final Campus Master Plan report, completed in
+							May 2010.</p>
+					</scopecontent>
+					<dao actuate="onrequest" show="new" title="2012-2014"
+						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/univ_rel/">
+						<daodesc>
+							<p>2012-2014</p>
+						</daodesc>
+					</dao>
+				</c02>
+			</c01>
+			<c01 id="series4" level="series">
+				<did>
+					<unittitle>4. Athletics, <unitdate>2012-2013</unitdate></unittitle>
+				</did>
+				<c02 level="subseries">
+					<did>
+						<unittitle>UWM Panthers</unittitle>
+					</did>
+					<scopecontent>
+						<p>The UWM Athletics site includes materials for all men's and women's
+							sports, including current rosters, statistics, schedules and results,
+							media guides, and news. Archived rosters, statistics, news, and media
+							guides are available for all sports as well. The site also provides
+							materials on the athletic department in general, including a staff
+							directory, facilities information, a UWM Athletics Hall of Fame, and
+							department news.</p>
+					</scopecontent>
+					<dao actuate="onrequest" show="new" title="2012-2014"
+						href="http://wayback.archive-it.org/3368/*/http://www.uwmpanthers.com/">
+						<daodesc>
+							<p>2012-2014</p>
+						</daodesc>
+					</dao>
+				</c02>
+			</c01>
+			<c01 id="series5" level="series">
+				<did>
+					<unittitle>5. Social Media Accounts, <unitdate>2009-2014</unitdate></unittitle>
+				</did>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Facebook</unittitle>
+					</did>
+					<c03>
+						<did>
+							<unittitle>Main UWM Account</unittitle>
+						</did>
+						<dao actuate="onrequest" show="new" title="2012-2014"
+							href="http://wayback.archive-it.org/3368/*/http://www.facebook.com/UWMilwaukee/">
+							<daodesc>
+								<p>2012-2014</p>
+							</daodesc>
+						</dao>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Milwaukee Panthers</unittitle>
+						</did>
+						<dao actuate="onrequest" show="new" title="2012-2014"
+							href="http://wayback.archive-it.org/3368/*/http://www.facebook.com/MilwaukeePanthers/">
+							<daodesc>
+								<p>2012-2014</p>
+							</daodesc>
+						</dao>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Flickr</unittitle>
+					</did>
+					<c03>
+						<did>
+							<unittitle>Main UWM Account</unittitle>
+						</did>
+						<dao actuate="onrequest" show="new" title="2012-2014"
+							href="http://wayback.archive-it.org/3368/*/http://www.flickr.com/photos/uwmilwaukee/">
+							<daodesc>
+								<p>2012-2014</p>
+							</daodesc>
+						</dao>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Twitter</unittitle>
+					</did>
+					<c03>
+						<did>
+							<unittitle>Main UWM Account</unittitle>
+						</did>
+						<dao actuate="onrequest" show="new" title="2012-2014"
+							href="http://wayback.archive-it.org/3368/*/http://twitter.com/uwm/">
+							<daodesc>
+								<p>2012-2014</p>
+							</daodesc>
+						</dao>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Milwaukee Panthers</unittitle>
+						</did>
+						<dao actuate="onrequest" show="new" title="2009-2012"
+							href="http://wayback.archive-it.org/3368/*/http://twitter.com/MKEPanthers/">
+							<daodesc>
+								<p>2009-2012</p>
+							</daodesc>
+						</dao>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>UWM Alumni Association</unittitle>
+						</did>
+						<dao actuate="onrequest" show="new" title="2012-2014"
+							href="http://wayback.archive-it.org/3368/*/http://twitter.com/uwmalumni/">
+							<daodesc>
+								<p>2012-2014</p>
+							</daodesc>
+						</dao>
+					</c03>
+				</c02>
+			</c01>
+			<c01 id="series6" level="series">
+				<did>
+					<unittitle>6. UWM Affiliate Sites, <unitdate>2012-2014</unitdate></unittitle>
+				</did>
+				<c02 level="subseries">
+					<did>
+						<unittitle>UWM Foundation</unittitle>
+					</did>
+					<scopecontent>
+						<p>The Mission of the UWM Foundation is to support the educational, literary
+							and scientific endeavors of the University of Wisconsin-Milwaukee by
+							receiving, managing and distributing gifts to benefit the University's
+							students, faculty, programs and community. Included on the site are a
+							news feed, staffing information, and financial reports.</p>
+					</scopecontent>
+					<dao actuate="onrequest" show="new" title="2012-2014"
+						href="http://wayback.archive-it.org/3368/*/http://www.uwmfdn.org/">
+						<daodesc>
+							<p>2012-2014</p>
+						</daodesc>
+					</dao>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>UWM Post</unittitle>
+					</did>
+					<scopecontent id="ref122">
+						<p>Website of the UWM Post, the online-only student newspaper organization
+							for the University of Wisconsin-Milwaukee. The site includes both
+							UWM-specific original reporting and links to UWM and Milwaukee news from
+							other news outlets around the city.</p>
+					</scopecontent>
+					<dao actuate="onrequest" show="new"
+						href="http://web.archive.org/web/*/http://www.uwmpost.com">
+						<daodesc>
+							<p>1999-2014</p>
+						</daodesc>
+					</dao>
+					<dao actuate="onrequest" show="new"
+						href="http://wayback.archive-it.org/3368/*/http://uwmpost.com/">
+						<daodesc>
+							<p>2012-2014</p>
+						</daodesc>
+					</dao>
+				</c02>
+			</c01>
+		</dsc>
+	</archdesc>
+</ead>
