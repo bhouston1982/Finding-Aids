@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="ascii" standalone="no"?>
+<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
+<!-- wiarchives version:2008-05-22 -->
+<ead id="uw-mil-uwmac0073" relatedencoding="MARC21">
+  <eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
+    dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924"
+    relatedencoding="MARC21">
+    <eadid countrycode="US" mainagencycode="wimiugma"
+      url="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0073"
+      encodinganalog="856$u">uw-mil-uwmac0073</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245$a">Finding Aid of the UW-Milwaukee Milwaukee Urban
+          Observatory Records, 1965-1983</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="260$b">University of Wisconsin-Milwaukee Libraries, Archives
+          Department</publisher>
+        <address>
+          <addressline>University of Wisconsin-Milwaukee</addressline>
+          <addressline>UWM Libraries</addressline>
+          <addressline>Archives Department</addressline>
+          <addressline>P.O. Box 604</addressline>
+          <addressline>Milwaukee, Wisconsin 53201-0604</addressline>
+          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr
+              href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
+        </address>
+        <date encodinganalog="260$c" type="publication" normal="2007">Copyright &#169; 2007
+          University of Wisconsin Board of Regents</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation encodinganalog="500">Finding aid encoded by Dan Vinson</creation>
+      <langusage encodinganalog="546">Finding aid written in <language encodinganalog="041"
+          langcode="eng" scriptcode="Latn">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change encodinganalog="583">
+        <date normal="2017-01-26">January 26, 2017</date>
+        <item>Christel Maass updated the finding aid after adding additional, previously cataloged
+          copies of The Milwaukee Observer to the collection. Folders in box 2 were
+          renumbered.</item>
+      </change>
+      <change encodinganalog="583">
+        <date normal="2017-03-21">March 21, 2017</date>
+        <item>Phyllis Reske updated the finding aid after adding research 
+          publications to the collection. Changes made to abstract, process info, and contents
+          list. Folders in boxes 1-3 were renumbered.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="collection" relatedencoding="MARC21">
+    <did>
+      <physloc type="locationcode" audience="internal">wimiugma</physloc>
+      <unittitle encodinganalog="245$a">UW-Milwaukee Milwaukee Urban Observatory Records, <unitdate
+          type="inclusive" encodinganalog="245$f" normal="1965/1983"
+        >1965-1983</unitdate></unittitle>
+      <origination label="Creator">
+        <corpname encodinganalog="110">University of Wisconsin-Milwaukee. Milwaukee Urban
+          Observatory</corpname>
+      </origination>
+      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
+        >UWM Archival Collection 73</unitid>
+      <physdesc label="Quantity">
+        <extent encodinganalog="300">3.2 cubic ft. (4 boxes)</extent>
+      </physdesc>
+      <repository encodinganalog="852">
+        <extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
+          title="University of Wisconsin-Milwaukee Logo." role="logoimage"/>
+        <extref href="http://www.uwm.edu/Libraries/arch/index.html">
+          <corpname>University of Wisconsin-Milwaukee Libraries, Archives Department</corpname>
+        </extref>
+      </repository>
+      <abstract encodinganalog="520">The Milwaukee Urban Observatory (MUO) was a research center for
+        urban studies. The records contain correspondence, memos, and minutes about the routine
+        operations of the MUO as well as a variety of reports and research publications detailing 
+        urban problems and possible solutions. A sampling of topics included in these reports are 
+        freeway impact, taxes, elderly housing, property values, the university's impact on the 
+        surrounding community, and racial divisions. Also included are copies of the 
+        <title render="italic">Urban Observer</title>, a publication of the MUO, and extensive 
+        correspondence between Milwaukee Mayor Henry Maier's office and the MUO.</abstract>
+      <langmaterial encodinganalog="546" label="Language">
+        <language encodinganalog="041" langcode="eng">English</language>
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="545">
+      <p>The Urban Observatory idea was designed to foster a partnership for research between the
+        academic community and metropolitan government officials. This idea was first proposed by
+        Bob Wood of MIT in 1962 and received significant backing from Milwaukee Mayor Henry Maier
+        while he was president of the National League of Cities in 1965. This effort culminated in
+        Milwaukee being one of the six pilot cities for the project in 1969. The MUO operates under
+        the National League of Cities and supported primarily by the cooperative funds of UWM,
+        UW-Extension, City of Milwaukee, and the United States Departments of Housing and Urban
+        Development and Health, Education, and Welfare. The MUO ceased operations after 1983.</p>
+    </bioghist>
+    <arrangement encodinganalog="351">
+      <p>The files are organized alphabetically by subject, then chronologically.</p>
+    </arrangement>
+    <prefercite encodinganalog="524">
+      <p>
+        <extref
+          href="http://uwm.edu/libraries/archives/research/citation-guide-for-primary-sources/"
+          >Citation Guide for Primary Sources</extref>
+      </p>
+    </prefercite>
+    <relatedmaterial encodinganalog="544 1">
+      <head>Related Material in the UWM Libraries</head>
+      <archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-whs-milw0044"
+        actuate="onrequest" show="new">
+        <unittitle>Milwaukee (Wis.). Mayor: Records of the Henry W. Maier Administration</unittitle>
+        <unitid>Milwaukee Series 44</unitid>
+        <unitid>Milwaukee Tape 1235A</unitid>
+      </archref>
+    </relatedmaterial>
+    <descgrp type="admininfo">
+      <head>Administrative/Restriction Information</head>
+      <accessrestrict encodinganalog="506">
+        <p>There are no access restrictions on the materials, and the collection is open to all
+          members of the public in accordance with state law.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>The researcher assumes full responsibility for conforming with the laws of libel,
+          privacy, and copyright which may be involved in the use of this collection (Wisconsin
+          Statutes 19.21-19.39).</p>
+      </userestrict>
+      <acqinfo encodinganalog="541">
+        <p>An unknown individual transferred the collection to the Archives prior to 1989.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+        <p>Tom Jorsch processed the collection at the Archives in June 1996.  Christel Maass added 
+          previously cataloged items in January 2017. Phyllis Reske added Urban Observatory research
+          publications stored earlier in the Employment Training and Institute collection in March 2017.</p>
+      </processinfo>
+    </descgrp>
+    <dsc type="in-depth">
+      <head>Contents List</head>
+      <c01>
+        <did>
+          <unittitle>Access Study, 1978-1980</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">1</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Allocation of State Aids and Shared Taxes in Wisconsin, undated</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">2</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Brochures, 1976-1980</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">3</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Business Study, 1978-1980</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">4</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Cable TV Project</unittitle>
+        </did>
+        <c02>
+          <did>
+            <unittitle>Correspondence, 1971-1974</unittitle>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Draft Proposals, 1971, 1973</unittitle>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">6</container>
+          </did>
+        </c02>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Census Data Project, 1980-1982</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">7</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle><title render="italic">Census Facts: Milwaukee Areas and
+            Neighborhoods, 1970-1980 Statistics Compared</title>, 1984</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">8</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle><title render="italic">Census Update, City of
+            Milwaukee, 1975</title></unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">9</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Chapter 220 Research Project, 1976-1978</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">10</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Citizen Attitude Survey, 1970-1973</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">11</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Citizen Participation Models, CR-SDC, 1974-1977</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">12</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Citizen Participation Study, 1969-1973</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">13</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle><title render="italic">Commercial Insurance: Selected
+          Areas in the City of Milwaukee</title>, undated</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">14</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Committee on Discipline and Human Relations, 1979-1980</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">15</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Communications Technology Project, 1977</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">16</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Conference, School Desegregation, 1975-1977</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">17</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Co-op Housing Study, 1975</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">18</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Council of Observers, 1970-1980</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">19-20</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Current Trends in Wisconsin Population Conference, 1981</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">21</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Decision Making in Municipal Development Programs and Federal Grants-In-Aid,
+            1972</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">22</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Decision Making on Capitol Programs, 1972</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">23</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Elderly Housing Report, 1977</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">24</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Engineering Geology in the Milwaukee Area, 1974</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">25</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Evaluation for a Community Wide System of Primary Health Care,
+            1973-1974</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">26</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Evaluations, 1979-1981</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">27</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Exclusionary Zoning Project, 1976</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">28</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Faculty-Community Connection, 1969-1978</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">29</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Fifth Year Research Projects, 1973</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">30</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>First Offender Project, 1972-1974</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">31</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle><title render="italic">Fiscal, Legal, and Social Implications of Merging the
+              Milwaukee Mental Health Center as Part of the Milwaukee County Hospital
+              Complex</title>, Final Report, 1980</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">32</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Freeway Impact Study, 1970-1972</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">33</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Freeway Impact Study</unittitle>
+        </did>
+        <c02>
+          <did>
+            <unittitle>Phase I, Final Report, 1972</unittitle>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">34</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Phase II, 1972</unittitle>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">35</container>
+          </did>
+        </c02>
+      </c01>
+      <c01>
+        <did>
+          <unittitle><title render="italic">Full Count 1980 Information:
+          Greater Milwaukee Area Including City of Milwaukee Neighborhoods
+          and 1970-1980 Percentages</title>, 1982</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">36</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Functions and Activities, 1970-1983</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">37</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle><title render="italic">Getting it Together in
+          Milwaukee: From Census Data to Fact Book in Thirteen Steps
+          or More</title>, 1973</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">38</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle><title render="italic">Greater Milwaukee 1970-1980
+          Census Data, by Race and Spanish Origin</title>, 1981</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">39</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Greater Milwaukee Urban Caucus, 1979-1980</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">40</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Greenleigh Associates Evaluation, 1973-1974</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">41</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Health Needs of the Elderly, 1972-1974</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">42</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>History and Formation, 1965-1971</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">1</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Housing Policies Manuscript, 1974</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">2</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Housing Policies Study, 1970-1972</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">3</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Housing Policies Study, 1973</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">4</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Housing Policies Study, Minutes, 1972-1973</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">5</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Immigration and Education in Milwaukee Public Schools, 1981</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">6</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Impact of Housing on the University in Milwaukee East Side and Shorewood,
+            1974</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">7</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Impact of the School of Nursing's Outreach Activities on the Greater Milwaukee
+            Metropolitan Community, 1981</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">8</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Impact of the University on Housing, 1973-1974</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">9</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Impact of the University on Housing, Final Report, 1974</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">10</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Information Systems Project, 1975-1977</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">11</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Information on Milwaukee Urban Observatory, 1975</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">12</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Inter-Institutional Committee, Minutes, 1968-1970</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">13</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Labor Force Involvement of Milwaukee's Working Women: Focus on Milwaukee's
+            Racial Gap, 1980</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">14</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Letters of Support for Proposed 1980 Metropolitan Milwaukee Fact Book,
+            1980</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">15</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Letters to Mayor Maier, 1970, 1973</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">16</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Local Involvement, 1968-1970</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">17</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Manpower Policies Study, 1971-1974</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">18</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Match-Title I, 1969-1974</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">19</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Mayor's Task Forces, 1973-1975</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">20</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Metropolitan Milwaukee Fact Book: 1970, 1969-1973</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">21</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Metropolitan Milwaukee Fact Book</unittitle>
+        </did>
+        <c02>
+          <did>
+            <unittitle>Legal Problems, 1972-1973</unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">22</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Progress Reports, 1971-1973</unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">23</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Funding, 1980-1981</unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">24</container>
+          </did>
+        </c02>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Metropolitan Milwaukee Higher Education Inter-Institutional Committee on Title
+            I, Response to Establish Urban Observatory, undated</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">25</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle><title render="italic">The Milwaukee Observer</title>,
+              <unitdate>1972-1983</unitdate></unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">26-30</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Minority Business Development Program, Cost Benefit Analysis, 1973</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">31</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Model Cities, 1969-1970</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">32</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Municipal Finance Study, 1970-1974</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">33</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Municipal Ordinances Recodification Project, 1970-1972</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">34</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>National Academy of Public Administration Evaluation, 1971</unittitle>
+          <container type="box" label="Box">2</container>
+          <container type="folder" label="Folder">35</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>National League of Cities</unittitle>
+        </did>
+        <c02>
+          <did>
+            <unittitle>Contract, 1970-1974</unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">36</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Contract Amendments 1-22, 1970-1974</unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">37-39</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Contract Termination, 1973-1974</unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">38</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Correspondence, 1968-1974</unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">39</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Quarterly Reports, 1970-1971</unittitle>
+            <container type="box" label="Box">2</container>
+            <container type="folder" label="Folder">40</container>
+          </did>
+        </c02>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Neighborhood Approval Technical Task Force, 1970-1971</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">1</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Neighborhood Design and Development, General Correspondence and Project
+            Proposals, 1971-1974</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">2</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Observer Readership Survey, 1975</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">3</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Ombudsman, 1971-1974</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">4</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Open Enrollment in Milwaukee, 1974-1976</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">5</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Physical Facilities for Child Care and Educational Environments,
+            1972</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">6</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Planning Conference on the Ethics of Robotics and Artificial Intelligence
+            Research, 1979-1980</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">7</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Planning for Juvenile Programs in Suburban Areas, undated</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">8</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Policy Alternatives for Development of Milwaukee's North Harbor Tract,
+            1979</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">9</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Profile of the SMSA (Standard Metropolitan Statistical Area), Correspondence
+            and Report, 1970-1971</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">10</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Progress Reports, 1969-1982</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">11-12</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Public Technology Incorporated (PTI) and The Urban Technology System (UTS),
+            1975</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">13</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Publication Lists, 1970-1977</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">14</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Regional Economic Analysis, Correspondence and General, 1972-1974</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">15</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Regional Employment Migration Study, 1971</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">16</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Residential Search Patterns of Black Urban Households, 1974</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">17</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Revenue Sharing, 1971-1972</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">18</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Riverwest Study, 1980</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">19</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>School Desegregation Planning, Milwaukee, 1976: Chronology, Plans, and
+            Participants, 1979</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">20</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Sewer Project, 1977-1978</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">21</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Social Indicators</unittitle>
+        </did>
+        <c02>
+          <did>
+            <unittitle>Correspondence, 1970-1974</unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">22</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>First and Second Year Work Program, 1970-1972</unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">23</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Reports, 1971-1972</unittitle>
+            <container type="box" label="Box">3</container>
+            <container type="folder" label="Folder">24</container>
+          </did>
+        </c02>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Social Indicators II, Data Sheets--Originals, 1970-1972</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">25</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle><title render="italic">A Social Report for Milwaukee:
+          Trends and Indicators</title>, 1973</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">29</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Stimulating Urban Economic Development, 1978</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">26</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Strengths in the Black Community, 1975</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">27</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle><title render="italic">Summary Report for the U.S.
+          Department of Housing and Urban Development on the Milwaukee
+          Urban Observatory September 20, 1969 - June 30, 1974</title>, 1974</unittitle>
+          <container type="box" label="Box">1</container>
+          <container type="folder" label="Folder">29</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Survey, Latin Community, 1974</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">28</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Tax Control Forum, 1978</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">29</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Technical Advisory Council, 1969-1975</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">30-31</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Technical Advisory Council, Health and Social Change, 1972</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">32</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Urban Committee, 1969-1974</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">33-36</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Urban Committee, NASA Program, 1971</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">38</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Urban Committee, Press Conferences, 1969-1970</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">37</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Urban Information Center, 1971-1983</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">39</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Urban Observatory Conferences, 1965, 1968-1974</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">40-41</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Usage, 1973-1982</unittitle>
+          <container type="box" label="Box">3</container>
+          <container type="folder" label="Folder">42</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>What's New in Financing for Local Governments, 1978-1979</unittitle>
+          <container type="box" label="Box">4</container>
+          <container type="folder" label="Folder">1</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>William P. Irwin, Papers, 1974</unittitle>
+          <container type="box" label="Box">4</container>
+          <container type="folder" label="Folder">2</container>
+        </did>
+      </c01>
+      <c01>
+        <did>
+          <unittitle>Work Program, 1969-1976</unittitle>
+          <container type="box" label="Box">4</container>
+          <container type="folder" label="Folder">3-5</container>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

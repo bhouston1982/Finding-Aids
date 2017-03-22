@@ -23,8 +23,7 @@
           <addressline>Archives Department</addressline>
           <addressline>P.O. Box 604</addressline>
           <addressline>Milwaukee, Wisconsin 53201-0604</addressline>
-          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr
-              href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
+          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
         </address>
         <date encodinganalog="260$c" type="publication" normal="2007">Copyright &#169; 2007
           University of Wisconsin Board of Regents</date>
@@ -38,7 +37,9 @@
     <revisiondesc>
       <change>
         <date normal="2016-12-20">December 20, 2016</date>
-        <item>Brad Houston updated the finding aid to reflect the addition of accession 2016-025. Changes were made to extent, acqinfo, processinfo, and the contents list (Series 11B).</item>
+        <item>Brad Houston updated the finding aid to reflect the addition of accession 2016-025.
+          Changes were made to extent, acqinfo, processinfo, phystech, bioghist, and the contents
+          list (Series 11B).</item>
       </change>
       <change>
         <date normal="2016-09-29">September 29, 2016</date>
@@ -245,6 +246,10 @@
           <chronitem>
             <date>2013-2015</date>
             <event>Amy Cooper Cary</event>
+          </chronitem>
+          <chronitem>
+            <date>2015-2017</date>
+            <event>Jennifer Johnson</event>
           </chronitem>
         </chronlist>
       </bioghist>
@@ -457,14 +462,14 @@
         </item>
         <item>
           <ref target="subgrp11" show="replace" actuate="onrequest">Audio-Visual Materials,
-              1972-2004<list type="ordered" numeration="upperalpha">
+              1972-2013<list type="ordered" numeration="upperalpha">
               <item>
                 <ref target="photos" show="replace" actuate="onrequest">Photographs and Slides,
                   1973-1997</ref>
               </item>
               <item>
                 <ref target="audiovisual" show="replace" actuate="onrequest">Audio and
-                  Videocassettes, 1974-1986</ref>
+                  Videocassettes, 1974-2013</ref>
               </item>
               <item>
                 <ref target="memorabilia" show="replace" actuate="onrequest">Memorabilia,
@@ -539,18 +544,19 @@
           Houston) processed accessions 2004-059, 2004-060, 2005-057, 2006-060, 2010-049, 2012-042,
           2012-055, 2013-29, and 2013-031. Hayley Jackson updated the finding aid to include
           information about accession 2013-051 in June 2014. Christel Maass added accession 2015-022
-          to the collection in December 2015.</p>
+          to the collection in December 2015. Brad Houston processed accession 2016-025 in December
+          2016.</p>
       </processinfo>
       <processinfo>
         <head>Preservation Information</head>
-        <p>aul Eisloeffel at the Nebraska State Historical Society digitized the VHS recordings in
+        <p>Paul Eisloeffel at the Nebraska State Historical Society digitized the VHS recordings in
           2015. Preservation master files were created as uncompressed stereo .avi files captured at
           720x480. Access copies were created as compressed 640x480 stereo .mp4 files.</p>
       </processinfo>
       <phystech encodinganalog="538" audience="internal">
-        <p>As of April 4, 2014, all electronic files were accessible on a Intel Core 2 Duo CPU (2.33
-          GHz, 1.95 GB RAM) running Windows XP Professional Version 2002, with Service Pack 3.
-          Software used to access the files includes Microsoft Office 2007, Firefox v. 21.0, and
+        <p>As of November 22, 2016, all electronic files were accessible on a Intel Core i5-4570 CPU
+          (3.20 GHz, 4 GB RAM) running Windows 7 Enterprise, with Service Pack 1. Software used to
+          access the files includes Microsoft Office 2007, Windows Media Player Firefox v. 21.0, and
           Adobe Reader XI.</p>
         <p>The collection includes records in the following file formats:</p>
         <list type="marked">
@@ -574,6 +580,7 @@
           <item>Microsoft Works Word Processor 5-6 [.wps]</item>
           <item>Microsoft Excel 97 Workbook [.xls]</item>
           <item>Microsoft Excel for Windows 2007 onwards [.xlsx]</item>
+          <item>MPEG Audio 1/2 Layer 3 [.mp3]</item>
         </list>
       </phystech>
       <separatedmaterial encodinganalog="544 0">
@@ -594,7 +601,7 @@
             >1972-2014</unitdate></unittitle>
           <physdesc>
             <extent>42.1 cubic ft. (112 boxes)</extent>
-            <extent>1,083 digital files (171 MB)</extent>
+            <extent>1,088 digital files (354 MB)</extent>
           </physdesc>
         </did>
         <c02 id="subgrp1" level="subgrp">
@@ -3600,6 +3607,9 @@
               <did>
                 <unittitle>Correspondence, Email, 1999-2001</unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\1. President\</container>
+                <container type="electronic" label="">Boles Correspondence Email
+                  1999-2001\</container>
               </did>
             </c04>
             <c04>
@@ -3972,33 +3982,25 @@
               <did>
                 <unittitle>Advocacy, <unitdate>undated</unitdate></unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\1. President\</container>
+                <container type="electronic" label="">Swain 2011-2013\</container>
+                <container type="electronic" label="">Advocacy\</container>
               </did>
             </c04>
+
             <c04>
               <did>
                 <unittitle>Archival Issues, <unitdate>undated</unitdate></unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\1. President\</container>
+                <container type="electronic" label="">Swain 2011-2013\</container>
+                <container type="electronic" label="">Archival Issues\</container>
               </did>
             </c04>
-            <c04>
-              <did>
-                <unittitle>Constitution Bylaws Review, <unitdate>2011</unitdate></unittitle>
-                <container type="electronic" label="Electronic Folder"/>
-              </did>
-            </c04>
-            <c04>
-              <did>
-                <unittitle>Development Task Force, <unitdate>2012</unitdate></unittitle>
-                <container type="electronic" label="Electronic Folder"/>
-              </did>
-            </c04>
-            <c04>
-              <did>
-                <unittitle>Documentation Working Group, <unitdate>2013</unitdate>
-                </unittitle>
-                <container type="electronic" label="Electronic Folder"/>
-              </did>
-            </c04>
+
+
+
+
             <c04>
               <did>
                 <unittitle>Education Committee, <unitdate>undated</unitdate></unittitle>
@@ -4009,52 +4011,126 @@
               <did>
                 <unittitle>Financial Advisory Committee, <unitdate>undated</unitdate></unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\1. President\</container>
+                <container type="electronic" label="">Swain 2011-2013\</container>
+                <container type="electronic" label="">Financial Advisory Committee\</container>
               </did>
             </c04>
+
             <c04>
               <did>
                 <unittitle>Fortieth Anniversary Campaign, <unitdate>2011-2012</unitdate></unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\1. President\</container>
+                <container type="electronic" label="">Swain 2011-2013\</container>
+                <container type="electronic" label="">Fortieth Anniversary Campaign
+                  2011-2012\</container>
               </did>
             </c04>
-            <c04>
-              <did>
-                <unittitle>Newsletter Redesign Task Force, <unitdate>2012</unitdate>
-                </unittitle>
-                <container type="electronic" label="Electronic Folder"/>
-              </did>
-            </c04>
-            <c04>
-              <did>
-                <unittitle>Online Publications Task Force, <unitdate>2012</unitdate></unittitle>
-                <container type="electronic" label="Electronic Folder"/>
-              </did>
-            </c04>
+
+
+
+
             <c04>
               <did>
                 <unittitle>Presidents Letters, <unitdate>2011-2013</unitdate></unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\1. President\</container>
+                <container type="electronic" label="">Swain 2011-2013\</container>
+                <container type="electronic" label="">Presidents Letters 2011-2013\</container>
               </did>
             </c04>
+
             <c04>
               <did>
                 <unittitle>Presidents Reports, <unitdate>2011-2012</unitdate></unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\1. President\</container>
+                <container type="electronic" label="">Swain 2011-2013\</container>
+                <container type="electronic" label="">Presidents Reports 2011-2012\</container>
               </did>
             </c04>
+
             <c04>
               <did>
                 <unittitle>SAA Regional Forum and Planning Committee,
                   <unitdate>undated</unitdate></unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\1. President\</container>
+                <container type="electronic" label="">Swain 2011-2013\</container>
+                <container type="electronic" label="">Task Force Working Groups\</container>
               </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Task Forces and Working Groups</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>Constitution Bylaws Review, <unitdate>2011</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\1. President\</container>
+                  <container type="electronic" label="">Swain 2011-2013\</container>
+                  <container type="electronic" label="">Task Force Working Groups\</container>
+                  <container type="electronic" label="">Constitution Bylaws Review 2011\</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Development Task Force, <unitdate>2012</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\1. President\</container>
+                  <container type="electronic" label="">Swain 2011-2013\</container>
+                  <container type="electronic" label="">Task Force Working Groups\</container>
+                  <container type="electronic" label="">Development Task Force 2012\</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Documentation Working Group, <unitdate>2013</unitdate>
+                  </unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\1. President\</container>
+                  <container type="electronic" label="">Swain 2011-2013\</container>
+                  <container type="electronic" label="">Task Force Working Groups\</container>
+                  <container type="electronic" label="">Documentation Working Group
+                    2013\</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Newsletter Redesign Task Force, <unitdate>2012</unitdate>
+                  </unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\1. President\</container>
+                  <container type="electronic" label="">Swain 2011-2013\</container>
+                  <container type="electronic" label="">Task Force Working Groups\</container>
+                  <container type="electronic" label="">Newsletter Redesign Task Force
+                    2012\</container>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Online Publications Task Force, <unitdate>2012</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\1. President\</container>
+                  <container type="electronic" label="">Swain 2011-2013\</container>
+                  <container type="electronic" label="">Task Force Working Groups\</container>
+                  <container type="electronic" label="">Online Publications Task Force
+                    2012\</container>
+                </did>
+              </c05>
             </c04>
             <c04>
               <did>
                 <unittitle>Values Statement, <unitdate>2013</unitdate></unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\1. President\</container>
+                <container type="electronic" label="">Swain 2011-2013\</container>
+                <container type="electronic" label="">Values Statement 2013\</container>
               </did>
             </c04>
+
           </c03>
         </c02>
         <c02 id="subgrp2" level="subgrp">
@@ -4192,8 +4268,12 @@
               <did>
                 <unittitle>Newsletter Columns, <unitdate>2006-2007</unitdate></unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\2. Vice President\</container>
+                <container type="electronic" label="">Zanish-Belcher 2006-2008\</container>
+                <container type="electronic" label="">Newsletter columns 2006-2007\</container>
               </did>
             </c04>
+
             <c04>
               <did>
                 <unittitle>Reports</unittitle>
@@ -4213,8 +4293,12 @@
                     <unitdate>2006-2008</unitdate>
                   </unittitle>
                   <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\2. Vice President\</container>
+                  <container type="electronic" label="">Zanish-Belcher 2006-2008\</container>
+                  <container type="electronic" label="">Reports 2006-2008\</container>
                 </did>
               </c05>
+
             </c04>
             <c04>
               <did>
@@ -4239,14 +4323,22 @@
               <did>
                 <unittitle>MAC Logos, <unitdate>2007</unitdate></unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\2. Vice President\</container>
+                <container type="electronic" label="">Bicknese 2008-2010\</container>
+                <container type="electronic" label="">MAC Logos\</container>
               </did>
             </c04>
+
             <c04>
               <did>
                 <unittitle>Meeting Manual Revisions, <unitdate>2008</unitdate></unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\2. Vice President\</container>
+                <container type="electronic" label="">Bicknese 2008-2010\</container>
+                <container type="electronic" label="">Meeting Manual Revisions\</container>
               </did>
             </c04>
+
             <c04>
               <did>
                 <unittitle>Meeting Proposal, <unitdate>2011</unitdate></unittitle>
@@ -4259,8 +4351,13 @@
                 <unittitle>Special Meeting Committees and Task Forces,
                   <unitdate>undated</unitdate></unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\2. Vice President\</container>
+                <container type="electronic" label="">Bicknese 2008-2010\</container>
+                <container type="electronic" label="">Special Meeting Committees and Task
+                  Forces\</container>
               </did>
             </c04>
+
             <c04>
               <did>
                 <unittitle>Spring Meeting, <unitdate>2010</unitdate></unittitle>
@@ -4272,14 +4369,23 @@
               <did>
                 <unittitle>Symposium Development, <unitdate>2007</unitdate></unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\2. Vice President\</container>
+                <container type="electronic" label="">Bicknese 2008-2010\</container>
+                <container type="electronic" label="">Symposium Development\</container>
               </did>
             </c04>
+
             <c04>
               <did>
                 <unittitle>Vice President Publications, <unitdate>2008-2010</unitdate></unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\2. Vice President\</container>
+                <container type="electronic" label="">Bicknese 2008-2010\</container>
+                <container type="electronic" label="">Vice President Publications
+                  2008-2010\</container>
               </did>
             </c04>
+
           </c03>
           <c03 id="shelstad2" level="otherlevel" otherlevel="sub-subgrp">
             <did>
@@ -4289,20 +4395,34 @@
               <did>
                 <unittitle>Education Survey, <unitdate>undated</unitdate></unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\2. Vice President\</container>
+                <container type="electronic" label="">Shelstad 2010-2012\</container>
+                <container type="electronic" label="">Education Survey\</container>
               </did>
             </c04>
+
             <c04>
               <did>
                 <unittitle>MAC Fortieth Anniversary, <unitdate>2011-2012</unitdate></unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\2. Vice President\</container>
+                <container type="electronic" label="">Shelstad 2010-2012\</container>
+                <container type="electronic" label="">MAC Fortieth Anniversary
+                  2011-2012\</container>
               </did>
             </c04>
+
             <c04>
               <did>
                 <unittitle>Vice Presidents Newsletter, <unitdate>2010-2012</unitdate></unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\2. Vice President\</container>
+                <container type="electronic" label="">Shelstad 2010-2012\</container>
+                <container type="electronic" label="">Vice Presidents Newsletter
+                  2010-2012\</container>
               </did>
             </c04>
+
           </c03>
         </c02>
         <c02 id="subgrp3" level="subgrp">
@@ -5136,8 +5256,11 @@
               <did>
                 <unittitle>Logos, 2005</unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\3B. Secretary\</container>
+                <container type="electronic" label="">Logos\</container>
               </did>
             </c04>
+
             <c04>
               <did>
                 <unittitle>MAC Chronology, 1996</unittitle>
@@ -5269,8 +5392,11 @@
               <did>
                 <unittitle>Secretary Manual and Information, 2013</unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\3B. Secretary\</container>
+                <container type="electronic" label="">Secretary Manual and Information\</container>
               </did>
             </c04>
+
             <c04>
               <did>
                 <unittitle>Secretary's Reports, 2003-2007</unittitle>
@@ -5370,8 +5496,13 @@
             <did>
               <unittitle>Between-Meeting Council Items, <unitdate>2009-2013</unitdate></unittitle>
               <container type="electronic" label="Electronic Folder"/>
+              <container type="electronic" label="">\4. Council Records 2005-2013\</container>
+              <container type="electronic" label="">between meeting council actions
+                2009-2013\</container>
+
             </did>
           </c03>
+
           <c03>
             <did>
               <unittitle>Council Meetings, 1972-1979</unittitle>
@@ -5416,64 +5547,9 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Council Meetings, 1994-1995</unittitle>
-              <container type="box" label="Box">49</container>
-              <container type="folder" label="Folder">1-6</container>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Council Meetings, 1996</unittitle>
-              <container type="box" label="Box">50</container>
-              <container type="folder" label="Folder">1-2</container>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Council Meetings, 1997-1998</unittitle>
-              <container type="box" label="Box">115</container>
-              <container type="folder" label="Folder">23-25</container>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Council Meetings, 1999-2001</unittitle>
-              <container type="box" label="Box">50</container>
-              <container type="folder" label="Folder">3-5</container>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Council Meetings, 2002</unittitle>
-              <container type="box" label="Box">116</container>
-              <container type="folder" label="Folder">1</container>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Council Meetings, 2003</unittitle>
-              <container type="box" label="Box">50</container>
-              <container type="folder" label="Folder">6</container>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Council Meetings, 2004-2009</unittitle>
-              <container type="box" label="Box">116</container>
-              <container type="folder" label="Folder">2-6</container>
-              <container type="electronic" label="Electronic Folder"/>
-            </did>
-          </c03>
-          <c03>
-            <did>
-              <unittitle>Council Meetings, <unitdate>2010-2013</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
+              <unittitle> Council Meetings, <unitdate>1994-2013</unitdate></unittitle>
+              <container type="electronic" label="">\4. Council Records 2005-2013\</container>
+              <container type="electronic" label="">Meeting Minutes and Reports\</container>
             </did>
             <arrangement>
               <p>Records are arranged by date of in-person Council meetings at the annual meeting
@@ -5485,6 +5561,63 @@
                 folders for 1994-2007.</p>
             </scopecontent>
           </c03>
+
+          <c03>
+            <did>
+              <unittitle>Council Meetings, 1994-1995</unittitle>
+              <container type="box" label="Box">49</container>
+              <container type="folder" label="Folder">1-6</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Council Meetings, 1996</unittitle>
+              <container type="box" label="Box">50</container>
+              <container type="folder" label="Folder">1-2</container>
+
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Council Meetings, 1997-1998</unittitle>
+              <container type="box" label="Box">115</container>
+              <container type="folder" label="Folder">23-25</container>
+
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Council Meetings, 1999-2001</unittitle>
+              <container type="box" label="Box">50</container>
+              <container type="folder" label="Folder">3-5</container>
+
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Council Meetings, 2002</unittitle>
+              <container type="box" label="Box">116</container>
+              <container type="folder" label="Folder">1</container>
+
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Council Meetings, 2003</unittitle>
+              <container type="box" label="Box">50</container>
+              <container type="folder" label="Folder">6</container>
+
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Council Meetings, 2004-2009</unittitle>
+              <container type="box" label="Box">116</container>
+              <container type="folder" label="Folder">2-6</container>
+
+            </did>
+          </c03>
+
         </c02>
         <c02 id="subgrp5" level="subgrp">
           <did>
@@ -8290,8 +8423,11 @@
               <did>
                 <unittitle>Electronic Records, 2004 Spring, Milwaukee</unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2004 Spring - Milwaukee WI\</container>
               </did>
             </c04>
+
             <c04>
               <did>
                 <unittitle>Local Arrangements Committee, <unitdate>2000-2004</unitdate></unittitle>
@@ -8329,8 +8465,11 @@
               <did>
                 <unittitle>Electronic Records, 2004 Fall, Des Moines</unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2004 Fall - Des Moines IA\</container>
               </did>
             </c04>
+
             <c04>
               <did>
                 <unittitle>Local Arrangements Committee, <unitdate>2004</unitdate></unittitle>
@@ -8368,8 +8507,11 @@
               <did>
                 <unittitle>Electronic Records, 2005 Spring, Chicago</unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2005 Spring - Chicago IL\</container>
               </did>
             </c04>
+
             <c04>
               <did>
                 <unittitle>Local Arrangements Committee, <unitdate>2004-2005</unitdate></unittitle>
@@ -8393,8 +8535,11 @@
               <did>
                 <unittitle>Electronic Records, 2005 Fall, Bloomington</unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2005 Fall - Bloomington IN\</container>
               </did>
             </c04>
+
             <c04>
               <did>
                 <unittitle>Local Arrangements Committee, <unitdate>2003-2006</unitdate></unittitle>
@@ -8418,8 +8563,11 @@
               <did>
                 <unittitle>Electronic Records, 2006 Spring, Bloomington</unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2006 Spring - Bloomington IL\</container>
               </did>
             </c04>
+
             <c04>
               <did>
                 <unittitle>Program, <unitdate>2006</unitdate></unittitle>
@@ -8436,8 +8584,11 @@
               <did>
                 <unittitle>Electronic Records, 2006 Fall, Omaha</unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2006 Fall - Omaha NE\</container>
               </did>
             </c04>
+
             <c04>
               <did>
                 <unittitle>Program, <unitdate>2006</unitdate></unittitle>
@@ -8454,8 +8605,11 @@
               <did>
                 <unittitle>Electronic Records, 2007 Spring, Columbus</unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2007 Spring - Columbus OH\</container>
               </did>
             </c04>
+
             <c04>
               <did>
                 <unittitle>Program, <unitdate>2007</unitdate></unittitle>
@@ -8472,8 +8626,11 @@
               <did>
                 <unittitle>Electronic Records, 2007 Fall, Cranbrook</unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2007 Fall - Cranbrook MI\</container>
               </did>
             </c04>
+
           </c03>
           <c03>
             <did>
@@ -8483,8 +8640,11 @@
               <did>
                 <unittitle>Electronic Records, 2008 Spring, Louisville</unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2008 Spring - Louisville KY\</container>
               </did>
             </c04>
+
             <c04>
               <did>
                 <unittitle>Local Arrangements Committee, <unitdate>2007-2008</unitdate></unittitle>
@@ -8508,8 +8668,11 @@
               <did>
                 <unittitle>Electronic Records, 2008 Fall, Lawrence</unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2008 Fall - Lawrence KS\</container>
               </did>
             </c04>
+
             <c04>
               <did>
                 <unittitle>
@@ -8528,8 +8691,11 @@
               <did>
                 <unittitle>Electronic Records, 2009 Spring, St. Louis</unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2009 Spring - St. Louis MO\</container>
               </did>
             </c04>
+
             <c04>
               <did>
                 <unittitle>Local Arrangements Committee, <unitdate>2009</unitdate></unittitle>
@@ -8560,8 +8726,11 @@
               <did>
                 <unittitle>Electronic Records, 2009 Fall, Madison</unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2009 Fall - Madison WI\</container>
               </did>
             </c04>
+
           </c03>
           <c03>
             <did>
@@ -8571,8 +8740,11 @@
               <did>
                 <unittitle>Electronic Records, 2010 Spring, Chicago</unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2010 Spring - Chicago IL\</container>
               </did>
             </c04>
+
             <c04>
               <did>
                 <unittitle>Meeting Packet, <unitdate>2010</unitdate></unittitle>
@@ -8596,8 +8768,11 @@
               <did>
                 <unittitle>Electronic Records, 2010 Fall, Dayton</unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2010 Fall - Dayton OH\</container>
               </did>
             </c04>
+
           </c03>
           <c03>
             <did>
@@ -8605,10 +8780,32 @@
             </did>
             <c04>
               <did>
-                <unittitle>Electronic Records, 2011 Spring, St. Paul</unittitle>
+                <unittitle>Local Arrangements Committee, <unitdate>2011</unitdate></unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2011 Spring - St. Paul\</container>
+                <container type="electronic" label="">Local Arrangement Committee\</container>
               </did>
             </c04>
+            <c04>
+              <did>
+                <unittitle>Meeting Materials, <unitdate/>2011</unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2011 Spring - St. Paul\</container>
+                <container type="electronic" label="">Meeting Materials\</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Program Committee, <unitdate/>2011</unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2011 Spring - St. Paul\</container>
+                <container type="electronic" label="">Program Committee\</container>
+              </did>
+            </c04>
+
           </c03>
           <c03>
             <did>
@@ -8623,10 +8820,32 @@
             </c04>
             <c04>
               <did>
-                <unittitle>Electronic Records, 2011 Fall, Sioux City</unittitle>
+                <unittitle>Flyer, <unitdate>2011</unitdate></unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2011 Fall - Sioux City IA\</container>
+                <container type="electronic" label="">Flyer\</container>
               </did>
             </c04>
+            <c04>
+              <did>
+                <unittitle>Reports, <unitdate>2011</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2011 Fall - Sioux City IA\</container>
+                <container type="electronic" label="">Reports\</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Symposium Web Content, <unitdate>2011</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2011 Fall - Sioux City IA\</container>
+                <container type="electronic" label="">Symposium Web Content\</container>
+              </did>
+            </c04>
+
             <c04>
               <did>
                 <unittitle>Organizing Committee, <unitdate>2010</unitdate></unittitle>
@@ -8641,10 +8860,59 @@
             </did>
             <c04>
               <did>
-                <unittitle>Electronic Records, 2012 Spring, Grand Rapids</unittitle>
+                <unittitle>40th Anniversary Celebration, <unitdate>2012</unitdate></unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2012 Spring - Grand Rapids MI\</container>
+                <container type="electronic" label="">40th Anniversary Celebration\</container>
               </did>
             </c04>
+            <c04>
+              <did>
+                <unittitle>Images, <unitdate>2012</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2012 Spring - Grand Rapids MI\</container>
+                <container type="electronic" label="">Images\</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Photographs, <unitdate>2012</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2012 Spring - Grand Rapids MI\</container>
+                <container type="electronic" label="">PhotographsMembersMtg2012\</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Program, <unitdate>2012</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2012 Spring - Grand Rapids MI\</container>
+                <container type="electronic" label="">Program\</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Program Committee Forms, <unitdate>2012</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2012 Spring - Grand Rapids MI\</container>
+                <container type="electronic" label="">PC Forms\</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Reports, <unitdate>2012</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2012 Spring - Grand Rapids MI\</container>
+                <container type="electronic" label="">Reports\</container>
+              </did>
+            </c04>
+
           </c03>
           <c03>
             <did>
@@ -8652,10 +8920,68 @@
             </did>
             <c04>
               <did>
-                <unittitle>Electronic Records, 2012 Fall, Cincinnati</unittitle>
+                <unittitle>Evaluation, <unitdate>2012</unitdate></unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2012 Fall - Cincinnati OH\</container>
+                <container type="electronic" label="">Evaluation\</container>
               </did>
             </c04>
+            <c04>
+              <did>
+                <unittitle>Local Arrangements Committee, <unitdate>2012</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2012 Fall - Cincinnati OH\</container>
+                <container type="electronic" label="">Local Arrangement Committee\</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Publicity, <unitdate>2012</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2012 Fall - Cincinnati OH\</container>
+                <container type="electronic" label="">Publicity\</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Registration, <unitdate>2012</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2012 Fall - Cincinnati OH\</container>
+                <container type="electronic" label="">Registration\</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Reports and Budgets, <unitdate>2012</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2012 Fall - Cincinnati OH\</container>
+                <container type="electronic" label="">Reports and Budgets\</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Symposium Handouts, <unitdate>2012</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2012 Fall - Cincinnati OH\</container>
+                <container type="electronic" label="">Symposium Handouts\</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Webpage, <unitdate>2012</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2012 Fall - Cincinnati OH\</container>
+                <container type="electronic" label="">Webpage\</container>
+              </did>
+            </c04>
+
           </c03>
           <c03>
             <did>
@@ -8663,10 +8989,32 @@
             </did>
             <c04>
               <did>
-                <unittitle>Electronic Records, 2013 Spring, Indianapolis</unittitle>
+                <unittitle>Program, <unitdate>2013</unitdate></unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2013 Spring - Indianapolis IN\</container>
+                <container type="electronic" label="">Program\</container>
               </did>
             </c04>
+            <c04>
+              <did>
+                <unittitle>Proposal, <unitdate>2013</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2013 Spring - Indianapolis IN\</container>
+                <container type="electronic" label="">Proposal\</container>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Reports, <unitdate>2013</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2013 Spring - Indianapolis IN\</container>
+                
+              </did>
+            </c04>
+
           </c03>
           <c03>
             <did>
@@ -8692,10 +9040,14 @@
             </did>
             <c04>
               <did>
-                <unittitle>Electronic Records, 2014 Spring, Kansas City</unittitle>
+                <unittitle>Kansas City, <unitdate>2014</unitdate></unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2014 Spring - Kansas City MO\</container>
+                
               </did>
             </c04>
+
           </c03>
           <c03>
             <did>
@@ -8703,10 +9055,14 @@
             </did>
             <c04>
               <did>
-                <unittitle>Electronic Records, 2015 Spring, Lexington</unittitle>
+                <unittitle>Lexington, <unitdate>2015</unitdate></unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2015 Spring - Lexington KY\</container>
+                
               </did>
             </c04>
+
           </c03>
         </c02>
         <c02 id="subgrp7" level="subgrp">
@@ -10052,7 +10408,7 @@
         <c02 id="subgrp11" level="subgrp">
           <did>
             <unittitle>11. Audio-Visual Materials and Memorabilia,
-              <unitdate>1972-2004</unitdate></unittitle>
+              <unitdate>1972-2013</unitdate></unittitle>
           </did>
           <c03 id="photos" level="series">
             <did>
@@ -10079,13 +10435,42 @@
           </c03>
           <c03 id="audiovisual" level="series">
             <did>
-              <unittitle>B. Audio and Videocassettes, 1974-1986</unittitle>
+              <unittitle>B. Audio and Videocassettes, 1974-2013</unittitle>
             </did>
             <scopecontent>
               <p>Series includes cassette and video tapes of <title render="italic">Raiders of the
                   Lost Archives</title> productions from 1983 and 1986, and tapes from the Special
-                Projects Committee Seminar on Regional Archival Systems held in July 1974.</p>
+                Projects Committee Seminar on Regional Archival Systems held in July 1974. Also
+                included are oral histories with two early organizers of MAC, Stephen Masar and
+                Patrick Quinn.</p>
             </scopecontent>
+            <c04>
+              <did>
+                <unittitle>Oral Histories</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>Masar, Stephen, <unitdate>2013</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\11B. Audio and Videocassettes\</container>
+                  <container type="electronic" label="">Oral_Histories\</container>
+                  <physdesc>
+                    <extent>3 digital audio files (total duration 1:13:35)</extent>
+                  </physdesc>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Quinn, Patrick, <unitdate>2013</unitdate></unittitle>
+                  <container type="electronic" label="Electronic Folder"/>
+                  <container type="electronic" label="">\11B. Audio and Videocassettes\</container>
+                  <container type="electronic" label="">Oral_Histories\</container>
+                  <physdesc>
+                    <extent>2 digital audio files (total duration 2:06:42)</extent>
+                  </physdesc>
+                </did>
+              </c05>
+            </c04>
             <c04>
               <did>
                 <unittitle><title render="italic">Raiders of the Lost Archives</title>,

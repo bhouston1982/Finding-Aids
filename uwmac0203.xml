@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd" [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > 
+<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd" [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
 <ead id="uw-mil-uwmac0203" relatedencoding="MARC21">
 	<eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
 		dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924"
@@ -71,18 +71,18 @@
 			</langmaterial>
 		</did>
 		<bioghist encodinganalog="545">
-			<p>In 1956, when the University of Wisconsin-Milwaukee was established, the Department
-				of Social Work was created, and administered within the College of Letters &amp;
-				Science. In April 1963, the School of Social Work was established, headed by a
-				director, and remained part of the College of Letters &amp; Science. In 1965, the
-				School changed its name to the School of Social Welfare and became an independent,
-				dean-headed school. The School of Social Welfare during this period maintained a
-				curriculum similar to that of the modern Department of Social Work, although in 1968
-				a program in Criminal Justice was added to the school's offerings. In 2002, the
-				faculty of the School of Social Welfare voted to departmentalize the school into a
-				Department of Criminal Justice and a Department of Social Work, citing the need for
-				both programs to focus on their particular specialities. The split was approved by
-				the Faculty Senate and the two departments split in Spring 2003.</p>
+			<p>The Department of Social Work was created in 1956 and initially administered within
+				the College of Letters &amp; Science. In 1963, the Department was renamed the School
+				of Social Work, but at this time was still administratively part of Letters &amp;
+				Science and headed by a director. In 1965, the School changed its name to the School
+				of Social Welfare and became an independent school led by its own dean. The School
+				of Social Welfare during this period maintained a curriculum similar to that of the
+				modern Department of Social Work, although in 1968 a program in Criminal Justice was
+				added to the school's offerings. In 2002, the faculty of the School of Social
+				Welfare voted to departmentalize the school into a Department of Criminal Justice
+				and a Department of Social Work, citing the need for both programs to focus on their
+				particular specialities. The split was approved by the Faculty Senate and the two
+				departments split in Spring 2003.</p>
 			<bioghist>
 				<head>Department Heads</head>
 				<chronlist>
@@ -156,13 +156,21 @@
 				tenure and promotion, and other sensitive matters pertaining to the department.</p>
 		</scopecontent>
 		<arrangement encodinganalog="351">
-			<list type="simple"><item>
-				<ref target="uwmac0203" show="replace" actuate="onrequest">UWM Archival Collection 203: UW-Milwaukee Dept. of Social Work Records, 
-					Records, 1982-2012</ref>
-			</item></list>
+			<list type="simple">
+				<item>
+					<ref target="uwmac0203" show="replace" actuate="onrequest">UWM Archival
+						Collection 203: UW-Milwaukee Dept. of Social Work Records, Records,
+						1982-2012</ref>
+				</item>
+			</list>
 			<p>The syllabi files are organized chronologically, then by course number.</p>
 			<p>The collection contains one additional accession:</p>
-			<list type="simple"><item><ref target="acc2015-017" show="replace" actuate="onrequest">Accession 2015-017: Executive Committee Meeting Minutes, 1995-2000</ref></item></list>
+			<list type="simple">
+				<item>
+					<ref target="acc2015-017" show="replace" actuate="onrequest">Accession 2015-017:
+						Executive Committee Meeting Minutes, 1995-2000</ref>
+				</item>
+			</list>
 		</arrangement>
 		<prefercite encodinganalog="524">
 			<p>
@@ -235,59 +243,84 @@
 					</did>
 					<c03>
 						<did>
-							<unittitle><unitdate>1982-1986</unitdate></unittitle>
+							<unittitle>
+								<unitdate>1982-1986</unitdate>
+							</unittitle>
 							<container type="box" label="Box">1</container>
 						</did>
 					</c03>
 					<c03>
 						<did>
-							<unittitle><unitdate>1987-1991</unitdate></unittitle>
+							<unittitle>
+								<unitdate>1987-1991</unitdate>
+							</unittitle>
 							<container type="box" label="Box">2</container>
 						</did>
 					</c03>
 					<c03>
 						<did>
-							<unittitle><unitdate>1992-1996</unitdate></unittitle>
+							<unittitle>
+								<unitdate>1992-1996</unitdate>
+							</unittitle>
 							<container type="box" label="Box">3</container>
 						</did>
 					</c03>
 					<c03>
 						<did>
-							<unittitle><unitdate>1996-2000</unitdate></unittitle>
+							<unittitle>
+								<unitdate>1996-2000</unitdate>
+							</unittitle>
 							<container type="box" label="Box">4</container>
 						</did>
 					</c03>
 					<c03>
 						<did>
-							<unittitle><unitdate>2001-2004</unitdate></unittitle>
+							<unittitle>
+								<unitdate>2001-2004</unitdate>
+							</unittitle>
 							<container type="box" label="Box">5</container>
 						</did>
-					</c03>				
+					</c03>
 					<c03>
 						<did>
-							<unittitle><unitdate>2004-2008</unitdate></unittitle>
+							<unittitle>
+								<unitdate>2004-2008</unitdate>
+							</unittitle>
 							<container type="box" label="Box">6</container>
 						</did>
 					</c03>
-					
+
 					<c03>
 						<did>
-							<unittitle><unitdate>2008-2012</unitdate></unittitle>
+							<unittitle>
+								<unitdate>2008-2012</unitdate>
+							</unittitle>
 							<container type="box" label="Box">7</container>
 						</did>
 					</c03>
 				</c02>
 			</c01>
 			<c01 level="otherlevel" otherlevel="minimal" id="acc2015-017">
-				<did><unitid>Accession 2015-017</unitid>
-				<unittitle>Executive Committee Meeting Minutes, <unitdate type="inclusive" normal="1995/2000">1995-2000</unitdate></unittitle>
+				<did>
+					<unitid>Accession 2015-017</unitid>
+					<unittitle>Executive Committee Meeting Minutes, <unitdate type="inclusive"
+							normal="1995/2000">1995-2000</unitdate></unittitle>
 					<physdesc>
 						<extent>1.4 cubic ft. (2 boxes)</extent>
 					</physdesc>
-					<abstract>Executive Committee Meeting Minutes, 1995-2000. Includes decisions made on tenure and promotion and other sensitive matters pertaining to the operation of the department. Minutes of meetings discussing consideration of faculty tenure include closed-session discussion of personnel actions and decisions, merit review scores, and course evaluation summaries.</abstract></did>
-				<accessrestrict><p>The accession is restricted under UWM Select Policy S-42 (Personnel File Policy), as well as the closed meeting session provisions in Wis. Stat. 19.85 (c). Consult an archivist for additional information.</p></accessrestrict>
+					<abstract>Executive Committee Meeting Minutes, 1995-2000. Includes decisions
+						made on tenure and promotion and other sensitive matters pertaining to the
+						operation of the department. Minutes of meetings discussing consideration of
+						faculty tenure include closed-session discussion of personnel actions and
+						decisions, merit review scores, and course evaluation summaries.</abstract>
+				</did>
+				<accessrestrict>
+					<p>The accession is restricted under UWM Select Policy S-42 (Personnel File
+						Policy), as well as the closed meeting session provisions in Wis. Stat.
+						19.85 (c). Consult an archivist for additional information.</p>
+				</accessrestrict>
 			</c01>
-		
+
 		</dsc>
 	</archdesc>
 </ead>

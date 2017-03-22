@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ascii"?>
-  <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > 
+<!--  <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
 <!-- wiarchives version:2009-09-17 -->
 <ead id="uw-mil-uwmmss0139" relatedencoding="MARC21">
   <eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
@@ -35,6 +35,9 @@
     </profiledesc>
     <revisiondesc>
       <change encodinganalog="583">
+        <date normal="2017-03-03">March 3, 2017</date>
+        <item>Brad Houston updated the finding aid to reflect the "Path" method of describing electronic records (below). </item>
+      </change><change encodinganalog="583">
         <date normal="2017-01-23">January 23, 2017</date>
         <item>Brad Houston updated the finding aid to reflect addition of electronic records to the
           collection. Changes were made to titleproper, extent, processinfo, arrangement, phystech,
@@ -146,8 +149,8 @@
         >UWM Manuscript Collection 139</unitid>
       <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
         >Accession 2011-011</unitid>
-      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
-        >Accession 2015-035</unitid>
+      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US">Accession 2013-038</unitid>
+      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US">Accession 2015-035</unitid>
       <physdesc label="Quantity">
         <extent encodinganalog="300">259.7 cubic ft. (510 boxes)</extent>
         <extent encodinganalog="300">40 binders</extent>
@@ -277,6 +280,10 @@
         <item>
           <ref target="acc2011-011" show="replace" actuate="onrequest">Accession 2011-011:
             Additions, 1988-2010</ref>
+        </item>
+        <item>
+          <ref target="acc2013-038" show="replace" actuate="onrequest">Accession 2013-038:
+            Publications and Annual Meeting Materials, 1997-2013</ref>
         </item>
         <item>
           <ref target="acc2015-035" show="replace" actuate="onrequest">Accession 2015-035:
@@ -1921,7 +1928,7 @@
               <unittitle>Meeting Agendas, <unitdate>2005-2015</unitdate></unittitle>
               <container type="electronic" label="Electronic Folder"/>
               <container type="electronic" label="">\Series 01\</container>
-              <container type="electronic" label="">\Meeting Agendas\</container>
+              <container type="electronic" label="">Meeting Agendas\</container>
 
             </did>
           </c03>
@@ -2078,7 +2085,7 @@
                   <unittitle><unitdate>2001-2015</unitdate></unittitle>
                   <container type="electronic" label="Electronic Folder"/>
                   <container type="electronic" label="">\Series 01\</container>
-                  <container type="electronic" label="">\Meeting Minutes\</container>
+                  <container type="electronic" label="">Meeting Minutes\</container>
                 </did>
               </c05>
             </c04>
@@ -2531,7 +2538,7 @@
         </c02>
         <c02 id="series2" level="series">
           <did>
-            <unittitle>2. Annual Meetings, 1944-2010</unittitle>
+            <unittitle>2. Annual Meetings, 1944-2011</unittitle>
           </did>
           <scopecontent>
             <p>This series contains materials from annual meetings, as well as pre- and
@@ -2553,7 +2560,7 @@
                 <unittitle><unitdate>1997-2011</unitdate></unittitle>
                 <container type="electronic" label="Electronic Folder"/>
                 <container type="electronic" label="">\Series 02\</container>
-                <container type="electronic" label="">\Poster Abstracts\</container>
+                <container type="electronic" label="">Poster Abstracts\</container>
 
               </did>
             </c04>
@@ -3634,7 +3641,7 @@
                 <unittitle>2009</unittitle>
                 <container type="electronic" label="Electronic Folder"/>
                 <container type="electronic" label="">\Series 02\</container>
-                <container type="electronic" label="">\Annual Meeting Press Kit 2009\</container>
+                <container type="electronic" label="">Annual Meeting Press Kit 2009\</container>
               </did>
             </c04>
           </c03>
@@ -4465,7 +4472,7 @@
               <unittitle><unitdate>2000-2004</unitdate></unittitle>
               <container type="electronic" label="Electronic Folder"/>
               <container type="electronic" label="">\Series 02A\</container>
-              <container type="electronic" label="">\Annual Meeting Handouts and
+              <container type="electronic" label="">Annual Meeting Handouts and
                 Posters\</container>
             </did>
           </c03>
@@ -4559,18 +4566,12 @@
             </did>
             <c04>
               <did>
-                <unittitle>Board Review Syllabi Books 1 &amp; 2</unittitle>
-                <container type="box" label="Box">741</container>
-              </did>
-            </c04>
-            <c04>
-              <did>
                 <unittitle>Abstracts</unittitle>
                 <container type="electronic" label="Electronic Folder"/>
                 <container type="electronic" label="">\Series 02A\</container>
-                <container type="electronic" label="">\Annual Meeting Handouts and
+                <container type="electronic" label="">Annual Meeting Handouts and
                   Posters\</container>
-                <container type="electronic" label="">\2008\</container>
+                <container type="electronic" label="">2008\</container>
               </did>
               <accessrestrict>
                 <p>Use CD 49 access copy</p>
@@ -4578,12 +4579,19 @@
             </c04>
             <c04>
               <did>
+                <unittitle>Board Review Syllabi Books 1 &amp; 2</unittitle>
+                <container type="box" label="Box">741</container>
+              </did>
+            </c04>
+            
+            <c04>
+              <did>
                 <unittitle>Handouts</unittitle>
                 <container type="electronic" label="Electronic Folder"/>
                 <container type="electronic" label="">\Series 02A\</container>
-                <container type="electronic" label="">\Annual Meeting Handouts and
+                <container type="electronic" label="">Annual Meeting Handouts and
                   Posters\</container>
-                <container type="electronic" label="">\2008 Annual Meeting Handouts\</container>
+                <container type="electronic" label="">2008\</container> <container type="electronic" label="">\Annual Meeting Handouts\</container>
                 <physdesc>
                   <extent>397 pdf files</extent>
                 </physdesc>
@@ -4611,9 +4619,9 @@
               <unittitle>2009</unittitle>
               <container type="electronic" label="Electronic Folder"/>
               <container type="electronic" label="">\Series 02A\</container>
-              <container type="electronic" label="">\Annual Meeting Handouts and
+              <container type="electronic" label="">Annual Meeting Handouts and
                 Posters\</container>
-              <container type="electronic" label="">\2009\</container>
+              <container type="electronic" label="">2009\</container>
               <physdesc>
                 <extent>488 pdf files</extent>
               </physdesc>
@@ -15678,7 +15686,7 @@
           </c03>
           <c03>
             <did>
-              <unittitle>Merrel-Dow AAAI Scholarship in Allergy Award, undated</unittitle>
+              <unittitle>Merrell-Dow AAAI Scholarship in Allergy Award, undated</unittitle>
               <container type="box" label="Box">446</container>
               <container type="folder" label="Folder">29</container>
             </did>
@@ -16973,7 +16981,7 @@
         </c02>
         <c02 id="series7" level="series">
           <did>
-            <unittitle>7. Audio-Visual Materials, 1937-2004</unittitle>
+            <unittitle>7. Audio-Visual Materials, 1937-2015</unittitle>
           </did>
           <scopecontent>
             <p>Included in this series are photographs, including annual meeting, past president and
@@ -17341,7 +17349,7 @@
                   </did>
                 </c06>
               </c05>
-
+             
               <c05>
                 <did>
                   <unittitle>2004</unittitle>
@@ -17355,12 +17363,6 @@
                     </physdesc>
                   </did>
                 </c06>
-              </c05>
-              <c05>
-                <did>
-                  <unittitle><unitdate>2015</unitdate></unittitle>
-                  <container type="electronic" label="Ekectronic Folder"/>
-                </did>
               </c05>
             </c04>
             <c04>
@@ -17622,7 +17624,7 @@
           </c03>
           <c03 id="subseries7b" level="subseries">
             <did>
-              <unittitle>7B. Audio Cassettes and Digital Audio Files, 1983-2007</unittitle>
+              <unittitle>7B. Audio Cassettes and Digital Audio Files, 1983-2015</unittitle>
             </did>
             <c04>
               <did>
@@ -17882,10 +17884,10 @@
               </c05>
               <c05>
                 <did>
-                  <unittitle><unitdate>2003-2007</unitdate>, <unitdate>2015</unitdate></unittitle>
+                  <unittitle><unitdate>2003-2007</unitdate> <unitdate>2015</unitdate></unittitle>
                   <container type="electronic" label="Electronic Folder"/>
                   <container type="electronic" label="">\Series 07\</container>
-                  <container type="electronic" label="">\Annual Meeting Recordings\</container>
+                  <container type="electronic" label="">Annual Meeting Recordings\</container>
 
                 </did>
               </c05>
@@ -17912,8 +17914,8 @@
                   <unittitle>2007</unittitle>
                   <container type="electronic" label="Electronic Folder"/>
                   <container type="electronic" label="">\Series 07\</container>
-                  <container type="electronic" label="">\Annual Meeting Recordings\</container>
-                  <container type="electronic" label="">\2007\</container>
+                  <container type="electronic" label="">Annual Meeting Recordings\</container>
+                  <container type="electronic" label="">2007\</container>
 
                   <physdesc>
                     <extent>91 digital audio files</extent>
@@ -18216,7 +18218,7 @@
           </c03>
           <c03 id="subseries7c" level="subseries">
             <did>
-              <unittitle>7C. Photographs, 1937-2012</unittitle>
+              <unittitle>7C. Photographs, 1937-2013</unittitle>
             </did>
             <c04>
               <did>
@@ -18466,7 +18468,7 @@
                   <unittitle><unitdate>1999-2013</unitdate></unittitle>
                   <container type="electronic" label="Electronic Folder"/>
                   <container type="electronic" label="">\Series 07\</container>
-                  <container type="electronic" label="">\Meeting Photos\</container>
+                  <container type="electronic" label="">Meeting Photos\</container>
 
                 </did>
               </c05>
@@ -19573,7 +19575,7 @@
         </c02>
         <c02 id="series8" level="series">
           <did>
-            <unittitle>8. Continuing Medical Education, 1979, 1981, 1985-2008</unittitle>
+            <unittitle>8. Continuing Medical Education, 1979, 1981, 1985-2010</unittitle>
           </did>
           <scopecontent>
             <p>This series contains information on programs and seminars for doctors, nurses, and
@@ -19596,7 +19598,7 @@
                 Course, <unitdate>2008</unitdate></unittitle>
               <container type="electronic" label="Electronic Folder"/>
               <container type="electronic" label="">\Series 08\</container>
-              <container type="electronic" label="">\AAAAI-ACAAI Certification and Maintenance of
+              <container type="electronic" label="">AAAAI-ACAAI Certification and Maintenance of
                 Certification Board Review 2008\</container>
 
             </did>
@@ -19609,7 +19611,7 @@
               <unittitle>ACAAI Exam Review, <unitdate>2007</unitdate></unittitle>
               <container type="electronic" label="Electronic Folder"/>
               <container type="electronic" label="">\Series 08\</container>
-              <container type="electronic" label="">\ACAAI Exam Review 2007\</container>
+              <container type="electronic" label="">ACAAI Exam Review 2007\</container>
 
             </did>
           </c03>
@@ -19618,7 +19620,7 @@
               <unittitle>ACAAI Exam Review, <unitdate>2008</unitdate></unittitle>
               <container type="electronic" label="Electronic Folder"/>
               <container type="electronic" label="">\Series 08\</container>
-              <container type="electronic" label="">\ACAAI Exam Review 2008\</container>
+              <container type="electronic" label="">ACAAI Exam Review 2008\</container>
 
             </did>
           </c03>
@@ -19669,7 +19671,7 @@
               <unittitle>Allergies, <unitdate>circa 2010</unitdate></unittitle>
               <container type="electronic" label="Electronic Folder"/>
               <container type="electronic" label="">\Series 08\</container>
-              <container type="electronic" label="">\Allergies\</container>
+              <container type="electronic" label="">Allergies\</container>
 
             </did>
           </c03>
@@ -20033,20 +20035,21 @@
           </c03>
           <c03>
             <did>
+              <unittitle>Asthma, <unitdate>circa 2010</unitdate></unittitle>
+              <container type="electronic" label="Electronic Folder"/>
+              <container type="electronic" label="">\Series 08\</container>
+              <container type="electronic" label="">Asthma\</container>
+              
+            </did>
+          </c03>
+          <c03>
+            <did>
               <unittitle>Asthma &#8217;95, 1995</unittitle>
               <container type="box" label="Box">380</container>
               <container type="folder" label="Folder">13</container>
             </did>
           </c03>
-          <c03>
-            <did>
-              <unittitle>Asthma, <unitdate>circa 2010</unitdate></unittitle>
-              <container type="electronic" label="Electronic Folder"/>
-              <container type="electronic" label="">\Series 08\</container>
-              <container type="electronic" label="">\Asthma\</container>
-
-            </did>
-          </c03>
+          
           <c03>
             <did>
               <unittitle>Asthma and Airway Allergies: Mechanisms and Management, 1992</unittitle>
@@ -21411,7 +21414,7 @@
               <unittitle>Novel Therapies in Allergic Disease, <unitdate>2000</unitdate></unittitle>
               <container type="electronic" label="Electronic Folder"/>
               <container type="electronic" label="">\Series 08\</container>
-              <container type="electronic" label="">\Asthma\</container>
+              <container type="electronic" label="">Novel Therapies in Allergic Disease\</container>
 
             </did>
           </c03>
@@ -21981,7 +21984,7 @@
               <unittitle>Webinars, <unitdate>2003</unitdate></unittitle>
               <container type="electronic" label="Electronic Folder"/>
               <container type="electronic" label="">\Series 08\</container>
-              <container type="electronic" label="">\2003 Webinars\</container>
+              <container type="electronic" label="">2003 Webinars\</container>
 
             </did>
           </c03>

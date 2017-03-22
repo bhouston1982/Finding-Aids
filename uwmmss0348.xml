@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd" [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > 
+<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd" [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
 <ead id="uw-mil-uwmmss0348" relatedencoding="MARC21">
 	<eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
 		dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924"
@@ -24,7 +24,7 @@
 					<addressline>Milwaukee, Wisconsin 53201-0604</addressline>
 					<addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
 				</address>
-				<date encodinganalog="260$c" type="publication" normal="2016">Copyright &#169; 2016
+				<date encodinganalog="260$c" type="publication" normal="2016">Copyright &#169; 2017
 					University of Wisconsin Board of Regents</date>
 			</publicationstmt>
 		</filedesc>
@@ -59,30 +59,36 @@
 						Department</corpname>
 				</extref>
 			</repository>
-			<physloc>wimiugma</physloc>
 			<abstract encodinganalog="520">This collection documents the activities of the Student
-				Wisconsin Education Association. The majority of the documents are in scrapbook
-				format, which highlights the group's outreach events such as Read Across America and
-				Toys for Tots, as well as its board members. The collection also holds records for
-				the Urban Teacher World Milwaukee program, which provides information about the
-				program and their events for students. </abstract>
+				Wisconsin Education Association from 2000-2011. The majority of the documents are in
+				scrapbook format, which highlights the group's outreach events such as Read Across
+				America and Toys for Tots, as well as its board members. The collection also holds
+				records for the Urban Teacher World Milwaukee program, which provides information
+				about the program and their events for students. </abstract>
 			<langmaterial encodinganalog="546" label="Language">
 				<language encodinganalog="041" langcode="eng">English</language>
 			</langmaterial>
 		</did>
 		<bioghist encodinganalog="545">
-			<p>The documents in this collection date back to 2000, but there are mentions of the
-				Student Wisconsin Education Association (SWEA) at UWM being founded sometime in the
-				1990s. The organization is a branch of the National Education Association (NEA),
-				founded in 1937, which assists student teachers in engaging in their communities and
-				offers professional development opportunities. In the 2003-2004 academic year, SWEA
-				was presented with two national awards: the Local Excellence Award, for its
-				professional development opportunities and community outreach events; and the
-				Outstanding CLASS Project Award, for their chapter book about group activities and
-				their impact on the community. </p>
+
+			<p>The Student Wisconsin Education Association (SWEA) at UWM was a branch of the
+				National Education Association (NEA), founded in 1937, which assists student
+				teachers in engaging in their communities and offers professional development
+				opportunities. In the 2003-2004 academic year, the NEA presented the UWM chapter
+				with two national awards: the Local Excellence Award, for its professional
+				development opportunities and community outreach events; and the Outstanding CLASS
+				Project Award, for their chapter book about group activities and their impact on the
+				community. The group became defunct in 2016.</p>
 		</bioghist>
 		<scopecontent encodinganalog="520">
-			<p><!--[insert ScopeContent here] --></p>
+			<p>The majority of the items in the collection are in scrapbook format, highlighting the
+				group's various events and members. Other documents include fliers for events,
+				presentation proposals, and itineraries for events. One particular program
+				highlighted is Urban Teacher World-Milwaukee, which was designed to encourage
+				students in urban areas to pursue a career in education. The DVDs and electronic
+				files listed originated from these folders, and include publicity for each year's
+				program, as well as copies of the various presentations created by students from
+				2003-2011.</p>
 		</scopecontent>
 		<arrangement encodinganalog="351">
 			<p>The files are organized alphabetically by subject, then chronologically.</p>
@@ -100,9 +106,10 @@
 		</prefercite>
 		<relatedmaterial encodinganalog="544 1">
 			<head>Related Material in the UWM Libraries</head>
-			<archref href="" actuate="onrequest" show="new">
-				<unittitle/>
-				<unitid/>
+			<archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0004"
+				actuate="onrequest" show="new">
+				<unittitle>UW-Milwaukee School of Education Records</unittitle>
+				<unitid>UWM Archival Collection 4</unitid>
 			</archref>
 		</relatedmaterial>
 		<descgrp type="admininfo">
@@ -122,8 +129,7 @@
 					School of Education Office of Student Services. </p>
 			</custodhist>
 			<acqinfo encodinganalog="541">
-				<p>Robert Longwell-Grice donated the materials (accession 2016-013) to the Archives
-					on behalf of the UWM School of Education </p>
+				<p>Robert Longwell-Grice donated the materials (accession 2016-013) to the Archives on behalf of the UWM School of Education. </p>
 			</acqinfo>
 			<processinfo encodinganalog="583">
 				<p>Alison Sielaff processed accession 2016-013 during Winter 2017 (Brad Houston
@@ -131,12 +137,17 @@
 			</processinfo>
 			<processinfo>
 				<head>Preservation Information</head>
+
+				<p>Alison Sielaff disassembled the scrapbooks as part of processing. The pages were
+					moved to acid-free folders in the order in which they appeared in the original
+					scrapbooks.</p>
 				<p>CDs found in the Urban Teacher World folder were separated and migrated to
 					storage on Archives department servers during processing. Once migrated, VOB
 					files from DVDs were converted to MP2 or MPEG-4 video files. Original VOB files
 					are available; contact an archivist for more information.</p>
 			</processinfo>
-			<phystech encodinganalog="538">
+
+			<phystech encodinganalog="538" audience="internal">
 				<p>As of March 2017, all files were accessible on a Intel Core i5-4570 CPU (3.20
 					GHz, 4 GB RAM) running Windows 7, with Service Pack 1. Microsoft Office 2016,
 					Windows Picture and Fax Viewer, and VLC media player were used to view the
@@ -158,10 +169,9 @@
 			<head>Contents List</head>
 			<c01 level="otherlevel" otherlevel="processed" id="uwmmss0348">
 				<did>
-					<unitid>uwmmss0348</unitid>
-					<unittitle>Student Wisconsin Educators Association at UW-Milwaukee Records,
-							<unitdate type="inclusive" normal="2000/2015"
-						>2000-2015</unitdate></unittitle>
+					<unitid>UWM Manuscript Collection 348</unitid>
+					<unittitle>Records, <unitdate type="inclusive" normal="2000/2011"
+							>2000-2011</unitdate></unittitle>
 					<physdesc>
 						<extent encodinganalog="300">1.6 cubic feet (3 boxes)</extent>
 						<extent encodinganalog="300">147 digital files (9 GB)</extent>
@@ -206,18 +216,25 @@
 				</c02>
 				<c02>
 					<did>
-						<unittitle>Urban Teacher World, <unitdate>2000-2011</unitdate></unittitle>
-						<container type="box" label="Box">2</container>
-						<container type="folder" label="Folder">4</container>
+						<unittitle>Urban Teacher World</unittitle>
 					</did>
 					<c03>
 						<did>
-							<unittitle>Outreach Presentation, <unitdate>2007</unitdate></unittitle>
-							<container type="electronic" label="Electronic Folder">
-								\Outreach_Presentation_2007\</container>
+							<unittitle>
+								<unitdate>2000-2011</unitdate>
+							</unittitle>
+							<container type="box" label="Box">2</container>
+							<container type="folder" label="Folder">4</container>
 						</did>
 					</c03>
-
+					<c03>
+						<did>
+							<unittitle>Outreach Presentation, <unitdate>2007</unitdate></unittitle>
+							<container type="electronic" label="Electronic Folder"/>
+							<container type="electronic" label=""
+								>\Outreach_Presentation_2007\</container>
+						</did>
+          </c03>
 					<c03>
 						<did>
 							<unittitle>Student Projects</unittitle>
@@ -227,28 +244,41 @@
 								<unittitle>
 									<unitdate>2003</unitdate>
 								</unittitle>
-								<container type="electronic" label="Electronic Folder">
+
+								<container type="electronic" label="Electronic Folder"/>
+								<container type="electronic" label="">
 									\Urban_Teacher_World_June_22_2003\</container>
 							</did>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><unitdate>2004</unitdate></unittitle>
-								<container type="electronic" label="Electronic Folder">
+
+								<unittitle>
+									<unitdate>2004</unitdate>
+								</unittitle>
+								<container type="electronic" label="Electronic Folder"/>
+								<container type="electronic" label="">
 									\Urban_Teacher_World_2004\</container>
 							</did>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><unitdate>2005</unitdate></unittitle>
-								<container type="electronic" label="Electronic Folder">
+
+								<unittitle>
+									<unitdate>2005</unitdate>
+								</unittitle>
+								<container type="electronic" label="Electronic Folder"/>
+								<container type="electronic" label="">
 									\Urban_Teacher_World_2005\</container>
 							</did>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><unitdate>2006</unitdate></unittitle>
-								<container type="electronic" label="Electronic Folder">
+								<unittitle>
+									<unitdate>2006</unitdate>
+								</unittitle>
+								<container type="electronic" label="Electronic Folder"/>
+								<container type="electronic" label="">
 									\Urban_Teacher_World_2006\</container>
 							</did>
 						</c04>
@@ -257,29 +287,38 @@
 								<unittitle>
 									<unitdate>2007</unitdate>
 								</unittitle>
-								<container type="electronic" label="Electronic Folder">
+								<container type="electronic" label="Electronic Folder"/>
+								<container type="electronic" label="">
+
 									\UrbanTeachWrld07\</container>
 							</did>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><unitdate>2009</unitdate></unittitle>
-								<container type="electronic" label="Electronic Folder">
+								<unittitle>
+									<unitdate>2009</unitdate>
+								</unittitle>
+								<container type="electronic" label="Electronic Folder"/>
+								<container type="electronic" label="">
 									\Urban_Teacher_World_2009\</container>
 							</did>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><unitdate>2010</unitdate></unittitle>
-								<container type="electronic" label="Electronic Folder">
-									\UTW2010\</container>
+								<unittitle>
+									<unitdate>2010</unitdate>
+								</unittitle>
+								<container type="electronic" label="Electronic Folder"/>
+								<container type="electronic" label="">\UTW2010\</container>
 							</did>
 						</c04>
 						<c04>
 							<did>
-								<unittitle><unitdate>2011</unitdate></unittitle>
-								<container type="electronic" label="Electronic Folder">
-									\UTW2011\</container>
+								<unittitle>
+									<unitdate>2011</unitdate>
+								</unittitle>
+								<container type="electronic" label="Electronic Folder"/>
+								<container type="electronic" label="">\UTW2011\</container>
 							</did>
 						</c04>
 					</c03>
