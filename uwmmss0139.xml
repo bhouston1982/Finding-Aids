@@ -4591,7 +4591,7 @@
                 <container type="electronic" label="">\Series 02A\</container>
                 <container type="electronic" label="">Annual Meeting Handouts and
                   Posters\</container>
-                <container type="electronic" label="">2008\</container> <container type="electronic" label="">\Annual Meeting Handouts\</container>
+                <container type="electronic" label="">2008\</container> <container type="electronic" label="">Annual Meeting Handouts\</container>
                 <physdesc>
                   <extent>397 pdf files</extent>
                 </physdesc>
@@ -17884,7 +17884,7 @@
               </c05>
               <c05>
                 <did>
-                  <unittitle><unitdate>2003-2007</unitdate> <unitdate>2015</unitdate></unittitle>
+                  <unittitle><unitdate>2003-2007</unitdate>, <unitdate>2015</unitdate></unittitle>
                   <container type="electronic" label="Electronic Folder"/>
                   <container type="electronic" label="">\Series 07\</container>
                   <container type="electronic" label="">Annual Meeting Recordings\</container>
