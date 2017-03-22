@@ -36,6 +36,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date normal="2017-03-22">March 22, 2017</date>
+        <item>Brad Houston updated the finding aid to reflect new description style for electronic records. Changes were made to electronic file components in series 1, 2, 3, 4, 6, and 11, as well as to the processing note.</item>
+      </change>
+      <change>
         <date normal="2016-12-20">December 20, 2016</date>
         <item>Brad Houston updated the finding aid to reflect the addition of accession 2016-025.
           Changes were made to extent, acqinfo, processinfo, phystech, bioghist, and the contents
@@ -546,6 +550,7 @@
           information about accession 2013-051 in June 2014. Christel Maass added accession 2015-022
           to the collection in December 2015. Brad Houston processed accession 2016-025 in December
           2016.</p>
+        <p>In March 2016, Brad Houston updated the listings for electronic records to better reflect electronic folders' places in the Archives file server hierarchy.</p>
       </processinfo>
       <processinfo>
         <head>Preservation Information</head>
@@ -4054,11 +4059,11 @@
             <c04>
               <did>
                 <unittitle>SAA Regional Forum and Planning Committee,
-                  <unitdate>undated</unitdate></unittitle>
+                  <unitdate>2012-2013</unitdate></unittitle>
                 <container type="electronic" label="Electronic Folder"/>
                 <container type="electronic" label="">\1. President\</container>
                 <container type="electronic" label="">Swain 2011-2013\</container>
-                <container type="electronic" label="">Task Force Working Groups\</container>
+                <container type="electronic" label="">SAA Regional Forum and Planning Committee\</container>
               </did>
             </c04>
             <c04>
@@ -4349,7 +4354,7 @@
             <c04>
               <did>
                 <unittitle>Special Meeting Committees and Task Forces,
-                  <unitdate>undated</unitdate></unittitle>
+                  <unitdate>2008</unitdate></unittitle>
                 <container type="electronic" label="Electronic Folder"/>
                 <container type="electronic" label="">\2. Vice President\</container>
                 <container type="electronic" label="">Bicknese 2008-2010\</container>
