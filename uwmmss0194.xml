@@ -4003,13 +4003,13 @@
               </did>
             </c04>
 
-
-
-
             <c04>
               <did>
-                <unittitle>Education Committee, <unitdate>undated</unitdate></unittitle>
-                <container type="electronic" label="Electronic Folder"/>
+                <unittitle>Education Committee, <unitdate>2013</unitdate></unittitle>
+                <container type="electronic" label="Electronic Folder"/><container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\1. President\</container>
+                <container type="electronic" label="">Swain 2011-2013\</container>
+                <container type="electronic" label="">Education Committee\</container>
               </did>
             </c04>
             <c04>
@@ -4032,10 +4032,6 @@
                   2011-2012\</container>
               </did>
             </c04>
-
-
-
-
             <c04>
               <did>
                 <unittitle>Presidents Letters, <unitdate>2011-2013</unitdate></unittitle>
@@ -9016,7 +9012,7 @@
                 <container type="electronic" label="Electronic Folder"/>
                 <container type="electronic" label="">\6. Meetings\</container>
                 <container type="electronic" label="">2013 Spring - Indianapolis IN\</container>
-                
+                <container type="electronic" label="">Reports\</container>
               </did>
             </c04>
 
@@ -9029,6 +9025,8 @@
               <did>
                 <unittitle>Electronic Records, 2013 Fall, Green Bay</unittitle>
                 <container type="electronic" label="Electronic Folder"/>
+                <container type="electronic" label="">\6. Meetings\</container>
+                <container type="electronic" label="">2013 Fall - Green Bay WI\</container>
               </did>
             </c04>
             <c04>
