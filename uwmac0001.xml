@@ -36,8 +36,15 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date normal="2016-08-01">March 21, 2017</date>
+        <item>Ashlie Biddle updated the finding aid to reflect the addition of accession 2016-032.
+          Changes were made to call number, extent, abstract, arrangement, bioghist, accessrestrict,
+          acqinfo, processinfo, and the contents list.</item>
+      </change>
+      <change>
         <date normal="2016-08-04">August 4, 2016</date>
-        <item>Christel Maass made a correction to the number of accessions in the arrangement note.</item>
+        <item>Christel Maass made a correction to the number of accessions in the arrangement
+          note.</item>
       </change>
       <change>
         <date normal="2016-08-01">August 1, 2016</date>
@@ -153,9 +160,11 @@
         >Accession 2013-011</unitid>
       <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
         >Accession 2016-003</unitid>
+      <unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma" countrycode="US"
+        >Accession 2016-032</unitid>
       <physdesc label="Quantity">
         <extent encodinganalog="300">73.9 cubic ft. (83 boxes)</extent>
-        <extent encodinganalog="300">plus additions of 9.8 cubic ft. (11 boxes)</extent>
+        <extent encodinganalog="300">plus additions of 23 cubic ft. (36 boxes)</extent>
       </physdesc>
       <repository encodinganalog="852">
         <extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
@@ -164,17 +173,16 @@
       </repository>
       <abstract encodinganalog="520">Records of the largest academic division at the University of
         Wisconsin-Milwaukee (UWM), which administers numerous centers, departments, and programs.
-        The records document the administration of the college's six deans: Joseph G. Baier
+        The records document the administration of the college's seven deans: Joseph G. Baier
         (1956-1966), Roy G. Francis (1966-1969), Howard J. Pincus (1969-1972), William F. Halloran
-        (1972-1998), Marshall Goodman (1999-2002), and Richard Meadows (2002-2011). Most of the
-        records date from 1965 to 1980, but the collection contains a few records of UWM's
-        predecessor institutions and three boxes of post-1980 material from the Halloran
-        administration. The majority of the records are correspondence and reports between the
-        deans, associate deans, and the department heads concerning academic activities, curriculum
-        development, and program funding. The files also contain records of numerous ad hoc and
-        standing college committees, and committees organized within the departments. Also included
-        are photos of faculty, student life, departmental functions, and other events sponsored by
-        the College.</abstract>
+        (1972-1998), Marshall Goodman (1999-2002), Richard Meadows (2002-2011), and Rodney Swain
+        (2011-2017). Most of the records date from 1965 to 2000, but the collection contains a few
+        records of UWM's predecessor institutions. The majority of the records are correspondence
+        and reports between the deans, associate deans, and the department heads concerning academic
+        activities, curriculum development, and program funding. The files also contain records of
+        numerous ad hoc and standing college committees, and committees organized within the
+        departments. Also included are photos of faculty, student life, departmental functions, and
+        other events sponsored by the College.</abstract>
       <langmaterial encodinganalog="546" label="Language">
         <language encodinganalog="041" langcode="eng">English</language>
       </langmaterial>
@@ -216,8 +224,12 @@
           <event>G. Richard Meadows</event>
         </chronitem>
         <chronitem>
-          <date>2011-</date>
+          <date>2011-2016</date>
           <event>Rodney Swain</event>
+        </chronitem>
+        <chronitem>
+          <date>2017- </date>
+          <event>Dave Clark (interim)</event>
         </chronitem>
       </chronlist>
     </bioghist>
@@ -293,10 +305,6 @@
         copies of which can sometimes be found in the departmental files. The correspondence usually
         discusses funding and staff levels for college operations or major changes in university
         procedures.</p>
-      <p>The collection contains extensive correspondence between the dean and the vice chancellor,
-        copies of which can sometimes be found in the departmental files. The correspondence usually
-        discusses funding and staff levels for college operations or major changes in university
-        procedures.</p>
       <p>Also included in the collection is a selection of photographs from various Letters &amp;
         Science events and publications. The majority of these are portrait photos of faculty and
         staff, but also present are photos of students and alumni, including documentation of the
@@ -347,6 +355,10 @@
           <ref target="acc2016-003" show="replace" actuate="onrequest">Accession 2016-003: Personnel
             Files, 1960-2011</ref>
         </item>
+        <item>
+          <ref target="acc2016-003" show="replace" actuate="onrequest">Accession 2016-032: Subject
+            and Personnel Files, 1968-2013</ref>
+        </item>
       </list>
     </arrangement>
     <otherfindaid encodinganalog="555">
@@ -368,10 +380,10 @@
       <head>Administrative/Restriction Information</head>
       <accessrestrict encodinganalog="506">
         <p>The unclassified personnel files in boxes 36-56 and in accessions 2002-071, 2009-063,
-          2010-068, 2013-011, 2016-003 are restricted in accordance with UWM Personnel File Policy
-          S-42. Access is regulated by Section III. A.2 and III. A.3. There are no access
-          restrictions on the rest of the collection, which is open to all members of the public in
-          accordance with state law.</p>
+          2010-068, 2013-011, 2016-003, and 2016-032 (boxes 11-15) are restricted in accordance with
+          UWM Personnel File Policy S-42. Access is regulated by Section III. A.2 and III. A.3.
+          There are no access restrictions on the rest of the collection, which is open to all
+          members of the public in accordance with state law.</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>The researcher assumes full responsibility for conforming with the laws of libel,
@@ -385,9 +397,10 @@
           additional accession (2006-013) was transferred in 2006. The College of Letters &amp;
           Science transferred accession 2011-029 in November 2011. The College transferred
           additional materials in June 2010 (accession 2009-063), August 2013 (accession 2013-011),
-          and July 2016 (2016-003). Dept. of Philosophy personnel files were transferred to the
-          Archives in January 2003 (accession 2002-071) and Dept. of Psychology personnel files were
-          transferred in June 2011 (accession 2010-068).</p>
+          July 2016 (2016-003), and February 2017 (accession 2019-032). Dept. of Philosophy
+          personnel files were transferred to the Archives in January 2003 (accession 2002-071) and
+          Dept. of Psychology personnel files were transferred in June 2011 (accession
+          2010-068).</p>
       </acqinfo>
       <processinfo encodinganalog="583">
         <p>Mark A. Vargas processed the collection at the Archives between November 1992 and January
@@ -405,8 +418,9 @@
           2002-071, 2009-063, 2010-068(2), and 2013-011 in September 2013. Charles Hosale added two
           folders of processed records from the dribble file in September 2014. Phyllis Reske
           processed some additional materials in July 2016 (Brad Houston supervised). Brad Houston
-          updated the finding aid to include information about accession 2016-003 in August
-          2016.</p>
+          updated the finding aid to include information about accession 2016-003 in August 2016.
+          Ashlie Biddle updated the finding aid to include information about accession 2016-032 and
+          separated restricted information within the accession.</p>
       </processinfo>
     </descgrp>
     <dsc type="combined">
@@ -5793,6 +5807,1034 @@
           </physdesc>
           <abstract>Additional personnel files dating from 1960-2011. </abstract>
         </did>
+      </c01>
+      <c01 level="otherlevel" otherlevel="minimal" id="acc2016-032">
+        <did>
+          <unitid>Accession 2016-032</unitid>
+          <unittitle>Departmental Files, Meeting Minutes, and Personnel Files
+              <unitdate>1968-2013</unitdate></unittitle>
+          <physdesc>
+            <extent>13.2 cubic ft. (15 boxes)</extent>
+          </physdesc>
+          <abstract>This accession includes budget information, records from the Center of
+            International Studies, Diversity Assessment Workbooks, records from the Latin America
+            Center, financial information concerning the Milwaukee Graduate Assistants Assoication
+            (MGAA), personnel awards, records how the Law Studies Program came into being, and
+            several quality reinvestiment plans. A large portion of the accession is meeting minutes
+            from college committees, department committees, staff, and faculty.</abstract>
+        </did>
+        <scopecontent>
+          <p>The meeting minutes in boxes 8-10 are unprocessed handwritten records placed in pocket
+            folders arranged by year. The meeting minutes are from several committees.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <unittitle>Academic Staff Meetings <unitdate>1992-1993</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Academic Staff Professional Development Program
+              <unitdate>1992</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Affirmative Action Data-Monitoring <unitdate>1992-1993</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Affirmative Action Evaluation of Deans and Administrators
+                <unitdate>1997</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Africology Faculty Annual Summaries <unitdate>2005</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Allocations <unitdate>1992-1993</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Annual Report, Natural Sciences <unitdate>2004</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Anthropology Faculty Annual Summaries <unitdate>2005</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Benefits Office <unitdate>1995-2002</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Biological Sciences Faculty Annual Summaries
+              <unitdate>2005</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Brown Bag Speakers <unitdate>1996-1997</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Budget <unitdate>1988-1989</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Budget <unitdate>1993-1994</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Budget <unitdate>1994-1995</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Budget <unitdate>1995-1997</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Budget <unitdate>2003-2004</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Budget Lapse <unitdate>1992-1993</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Budget Meeting with Provost <unitdate>2005</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Budget Meeting with Provost <unitdate>2007</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Budget Meeting with Provost <unitdate>2010</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Budget Planning and Affirmative Action <unitdate>1995</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Building Manager <unitdate>2002</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Business and Financial Services <unitdate>1995-1996</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Career Tracking for Diversity Compliance
+              <unitdate>1998-1999</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Center for International Studies Budget
+              <unitdate>1992-1993</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Center for International Studies Correspondence
+                <unitdate>1991-1993</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Center for International Studies Correspondence
+                <unitdate>1993-1995</unitdate></unittitle>
+            <container type="box" label="Box">1</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Center for International Studies Grants and Awards
+                <unitdate>1991-1994</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Center for International Studies Grants and Awards
+                <unitdate>1993-1997</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Center for International Studies Occassional Papers
+                <unitdate>1993-1995</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Chairs' Training <unitdate>2001</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Chancellor Correspondence <unitdate>1995-1997</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Chemistry and Biochemistry Faculty Annual Summaries
+              <unitdate>2005</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Chemistry Staffing Plans <unitdate>2002-2003</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Classified Outstanding Service Awards
+              <unitdate>2000-2001</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Classified Outstanding Service Awards
+              <unitdate>2001-2002</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Classified Outstanding Service Awards
+              <unitdate>2002-2003</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Classified Outstanding Service Awards
+              <unitdate>2003-2004</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Classified Service Reform Proposal <unitdate>1996</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Classified Staff Correspondence <unitdate>1993</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Cold Fusion <unitdate>2001-2002</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Comprehensive National Resource Center and Foreign Language and Area Studies
+              Fellowship <unitdate>2002-2003</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Department of Employee Relations <unitdate>1992-1993</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Diversity Assessment Workbook <unitdate>1995-1996</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Diversity Assessment Workbook <unitdate>1996-1997</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Diversity Assessment Workbook <unitdate>1997-1998</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Diversity Assessment Workbook <unitdate>1999-2000</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Diversity Assessment Workbook <unitdate>2000-2004</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Economics Faculty Annual Summaries <unitdate>2005</unitdate></unittitle>
+            <container type="box" label="Box">2</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Employee Assistance Program <unitdate>1992-1993</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Equity Award <unitdate>1992-1993</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Exceptional Performance Awards <unitdate>1992-1996</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Faculty Development Plans <unitdate>1989-1993</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Faculty Meeting Minutes <unitdate>1986-1991</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Faculty Meeting Minutes <unitdate>1992-1997</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Faculty Meeting Minutes <unitdate>1998-2000</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Faculty Meeting Minutes <unitdate>2001-2002</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Faculty Meeting Minutes <unitdate>2003-2004</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Faculty Meeting Minutes <unitdate>2005</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Faculty and Staff Development Program Guidelines
+                <unitdate>1995-1997</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Faculty Salary Equity Study <unitdate>1993</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Faculty Workload Audit <unitdate>1992-1993</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>First Friday <unitdate>1996</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Foreign Language Departments Merger
+              <unitdate>1995-1996</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Fringe Benefit Rates for Extramural Support Funds
+                <unitdate>1992-2001</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Gay and Lesbian Studies Certificate Program
+              <unitdate>1993-2002</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Gender Equity Project <unitdate>1990-1995</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Geography Faculty Annual Summaries <unitdate>2005</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Geosciences Faculty Annual Summaries <unitdate>2005</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Goodman Correspondence <unitdate>1995-1996</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>History Faculty Annual Summaries <unitdate>2005</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Horstman Meetings <unitdate>1995-2002</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Human Resources Correspondence <unitdate>1995-2003</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Information Technology Survey <unitdate>1992-2003</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>International Relations Major <unitdate>1990-1993</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>International Relations Major Title VI <unitdate>1990</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Journalism and Mass Communication Faculty Annual Summaries
+                <unitdate>2005</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Labor Management Minutes <unitdate>1992-1993</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Labor Management Minutes <unitdate>1995-1996</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Labor Management Minutes <unitdate>1996-1997</unitdate></unittitle>
+            <container type="box" label="Box">3</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Labor Management Minutes <unitdate>2000-2004</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Labor Relations <unitdate>1992-1996</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Language and Literature Advisory Committee Meetings
+                <unitdate>1981-1987</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Language and Literature Advisory Committee Meetings
+                <unitdate>1987-1996</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Language Resource Center <unitdate>1990-2003</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Latin America Center Advisory Committee
+              <unitdate>1989-2008</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Latin America Center Budget <unitdate>1983-1996</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Latin America Center Correspondence
+              <unitdate>1968-1996</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Latin America Center Correspondence
+              <unitdate>1997-2010</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Latin America Center General Grant Information
+              <unitdate>1984-2004</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Latin America Center Internal Review <unitdate>1993</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Lawson (Kronos Project) <unitdate>2001-2002</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Letters and Science Ad Hoc Committees
+              <unitdate>1997-2001</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Letters and Science Basketball Game <unitdate>1997</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Letters and Science Department Chairs Meetings
+              <unitdate>1995-1996</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Letters and Science Department Chairs Meetings
+              <unitdate>1996-1997</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Letters and Science Department Chairs Meetings
+              <unitdate>2000-2002</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Letters and Science Department Chairs Meetings
+              <unitdate>2002-2003</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Letters and Science Goals <unitdate>2002-2003</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Letters and Science Spring Awards Picnic
+              <unitdate>1997</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Limited Term Employees Review Team <unitdate>1991-1993</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Material Handling Staff Personnel Management Survey
+                <unitdate>1991-1993</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Mathematical Sciences Faculty Annual Surveys
+              <unitdate>2005</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Media Technician Study <unitdate>1994-1996</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Military Leave <unitdate>2001-2002</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Milwaukee Commitment Report <unitdate>2001-2002</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Milwaukee Graduate Assistants Association Agreement
+                <unitdate>1991-1995</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Milwaukee Graduate Assistants Association Bargaining
+                <unitdate>2000-2001</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Milwaukee Graduate Assistants Association Bargaining
+                <unitdate>2003-2005</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Non-represented Classified Employment Compensation
+                <unitdate>1995-1996</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Office of Diversity Compliance Concilliation Agreement
+                <unitdate>1995-1996</unitdate></unittitle>
+            <container type="box" label="Box">4</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Office Support Exam Development <unitdate>1993-1996</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Pay Plan <unitdate>1995-2001</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Performance Appraisal Classified Staff
+              <unitdate>1992-1993</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Performance Appraisal Classified Staff
+              <unitdate>1994-1995</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+            <container type="folder" label="Folder"/>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Performance Appraisal Classified Staff
+              <unitdate>2001-2002</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Personnel Action Deadlines <unitdate>1989-1996</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Personnel Representatives Meetings <unitdate>1995-1996</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Personnel Representatives Meetings <unitdate>1996-1997</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Personnel Representatives Meetings <unitdate>2000-2002
+              </unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Personnel Representatives Meetings <unitdate>2002-2003</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Personnel Representatives Meetings <unitdate>2003-2004</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Physics Faculty Annual Summaries <unitdate>2005</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Planning Document <unitdate>2004</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Plan 2008 Report <unitdate>2003</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Political Science Faculty Annual Summaries
+              <unitdate>2005</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Proposal for Undergraduate Law Studies Program
+              <unitdate>1972-1980</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Proposal for Undergraduate Law Studies Program
+              <unitdate>1980-1988</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Proposal for Undergraduate Law Studies Program
+              <unitdate>1982</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Psychology Faculty Annual Summaries <unitdate>2005</unitdate></unittitle>
+            <container type="box" label="Box">5</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Quality Reinvestment Plan <unitdate>1991-1993</unitdate></unittitle>
+            <container type="box" label="Box">6</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Quality Reinvestment Plan <unitdate>1992-1993</unitdate></unittitle>
+            <container type="box" label="Box">6</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Quality Reinvestment Plan <unitdate>1993-1994</unitdate></unittitle>
+            <container type="box" label="Box">6</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Recruitment Correspondence <unitdate>2009-2013</unitdate></unittitle>
+            <container type="box" label="Box">6</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Research Growth Initiative Awards <unitdate>2009-2010</unitdate></unittitle>
+            <container type="box" label="Box">6</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Salary Adjustments Guidelines <unitdate>1989-1992 and
+              2001-2002</unitdate></unittitle>
+            <container type="box" label="Box">7</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Service Designation Review <unitdate>1992-1993</unitdate></unittitle>
+            <container type="box" label="Box">7</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Sociology Faculty Annual Summaries <unitdate>2005</unitdate></unittitle>
+            <container type="box" label="Box">7</container>
+            <container type="folder" label="Folder"/>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Staff Development Programs <unitdate>1992-1993</unitdate></unittitle>
+            <container type="box" label="Box">7</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Student and Multicultural Affairs Reorganization Plan
+                <unitdate>2003</unitdate></unittitle>
+            <container type="box" label="Box">7</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Wisconsin Association of Black State State Employees Conference
+                <unitdate>1995-1996</unitdate></unittitle>
+            <container type="box" label="Box">7</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Wisconsin State Department of Administration Required Budget Lapse
+                <unitdate>1992-1993</unitdate></unittitle>
+            <container type="box" label="Box">7</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Wisconsin Legislative Updates <unitdate>1989</unitdate></unittitle>
+            <container type="box" label="Box">7</container>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Meeting Minutes <unitdate>2006-2012</unitdate></unittitle>
+            <container type="box" label="Box">8-10</container>
+          </did>
+        </c02>
       </c01>
     </dsc>
   </archdesc>
