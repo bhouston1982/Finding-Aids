@@ -36,6 +36,11 @@
     </profiledesc>
     <revisiondesc>
       <change encodinganalog="583">
+        <date normal="2017-03-28">March 28, 2017</date>
+        <item>Ashlie Biddle rearranged boxes 3-5 to match the order shown in the contents list of
+          the finding aid.</item>
+      </change>
+      <change encodinganalog="583">
         <date normal="2017-02-02">February 2, 2017</date>
         <item>Christel Maass added an item, formerly cataloged, to box 4 of the collection and
           updated the contents list.</item>
@@ -107,12 +112,14 @@
         on 15 October 1964. The center was officially established in February 1966. Between
         1964-1973, the center was administered by the College of Letters &amp; Science; beginning in
         the Fall of 1973, it was administered by the Graduate School. The Great Lakes Research
-        Facility was purchased in 1973, and is administered by UWM for the UW System.</p>
+        Facility was purchased in 1973, and is administered by UWM for the UW System. </p>
+      <p>From 1966 to 1996, the center was titled the Center for Great Lakes Studies.
+        In 1997, the center changed its name to the University of Wisconsin System/ University of
+        Wisconsin Milwaukee Great Lakes Water Institute. In the year 2000 the name was shortened to the Water Institute.</p>
     </bioghist>
     <arrangement encodinganalog="351">
       <p>The files are organized alphabetically by subject, then chronologically.</p>
-      <p>Publications are organized by report number in boxes 3-5. If there is no report number,
-        then the publication is organized by the last name of the author.</p>
+      <p>Special Reports are organized by report number in boxes 4-5.</p>
     </arrangement>
     <prefercite encodinganalog="524">
       <p>
@@ -169,7 +176,8 @@
           originally consisted of six series. A few files were added by Jeremy Brett in November
           2006. Molly Whiteside (supervised by Christel Maass) added a few miscellaneous items to
           the collection in September 2015. Christel Maass added an item, previously cataloged, to
-          box 4 of the collection in February 2017.</p>
+          box 4 of the collection in February 2017. Ashlie Biddle rearranged boxes 3-5 in March
+          2017.</p>
       </processinfo>
     </descgrp>
     <dsc type="in-depth">
@@ -313,7 +321,7 @@
             <did>
               <unittitle><title render="italic">Investigations of the Effects of Chlorinating Power
                   Plant Cooling Water on the Biota of Lake Michigan</title>, 1974-1975</unittitle>
-              <container type="box" label="Box">5</container>
+              <container type="box" label="Box">3</container>
             </did>
             <dao href="http://digital.library.wisc.edu/1793/54897" actuate="onrequest" show="new">
               <daodesc>
@@ -325,7 +333,7 @@
             <did>
               <unittitle><title render="italic">Investigations of the Effects of Chlorinating Power
                   Plant Cooling Water on the Biota of Lake Michigan</title>, 1975-1976</unittitle>
-              <container type="box" label="Box">5</container>
+              <container type="box" label="Box">3</container>
             </did>
             <dao href="http://digital.library.wisc.edu/1793/54899" actuate="onrequest" show="new">
               <daodesc>
@@ -338,7 +346,7 @@
           <did>
             <unittitle>Mayer, Harold M., <title render="italic">Wisconsin's Great Lakes Ports:
                 Background and Future Alternatives</title>, 1975</unittitle>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box">3</container>
           </did>
           <dao href="http://digital.library.wisc.edu/1793/54925" actuate="onrequest" show="new">
             <daodesc>
@@ -352,9 +360,9 @@
           </did>
           <c03>
             <did>
-              <unittitle><title render="italic">Case for a Great Lakes Studies Facility at the
+              <unittitle><title render="italic"> The Case for a Great Lakes Studies Facility at the
                   University of Wisconsin-Milwaukee</title>, 1969</unittitle>
-              <container type="box" label="Box">5</container>
+              <container type="box" label="Box">3</container>
             </did>
             <dao href="http://digital.library.wisc.edu/1793/54943" actuate="onrequest" show="new">
               <daodesc>
@@ -366,7 +374,7 @@
             <did>
               <unittitle><title render="italic">Center for Great Lakes Studies at UWM: Present
                   Status and Progress During the Quinquennium 1967-1972</title>, 1972</unittitle>
-              <container type="box" label="Box">5</container>
+              <container type="box" label="Box">3</container>
             </did>
             <dao href="http://digital.library.wisc.edu/1793/54937" actuate="onrequest" show="new">
               <daodesc>
@@ -378,7 +386,7 @@
             <did>
               <unittitle><title render="italic">Development of an Automatic Vessel-Operated
                   Temperature Depth Profiling System</title>, 1971</unittitle>
-              <container type="box" label="Box">5</container>
+              <container type="box" label="Box">3</container>
             </did>
             <dao href="http://digital.library.wisc.edu/1793/54935" actuate="onrequest" show="new">
               <daodesc>
@@ -388,10 +396,10 @@
           </c03>
           <c03>
             <did>
-              <unittitle><title render="italic">General Account of the Aims, Activities and
+              <unittitle><title render="italic">A General Account of the Aims, Activities and
                   Organization of the Center for Great Lakes Studies at the University of
                   Wisconsin-Milwaukee</title>, 1974</unittitle>
-              <container type="box" label="Box">5</container>
+              <container type="box" label="Box">3</container>
             </did>
             <dao href="http://digital.library.wisc.edu/1793/54947" actuate="onrequest" show="new">
               <daodesc>
@@ -401,9 +409,9 @@
           </c03>
           <c03>
             <did>
-              <unittitle><title render="italic">Great Lakes: General Characteristics; Multiple Uses;
-                  University Involvement</title>, 1968</unittitle>
-              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">The Great Lakes: General Characteristics; Multiple
+                  Uses; University Involvement</title>, 1968</unittitle>
+              <container type="box" label="Box">3</container>
             </did>
             <dao href="http://digital.library.wisc.edu/1793/54949" actuate="onrequest" show="new">
               <daodesc>
@@ -413,8 +421,9 @@
           </c03>
           <c03>
             <did>
-              <unittitle><title render="italic">Plan for a Fast Work Boat</title>, 1968</unittitle>
-              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">A Plan for a Fast Work Boat</title>,
+                1968</unittitle>
+              <container type="box" label="Box">3</container>
             </did>
             <dao href="http://digital.library.wisc.edu/1793/54951" actuate="onrequest" show="new">
               <daodesc>
@@ -426,7 +435,7 @@
             <did>
               <unittitle><title render="italic">Whither Great Lakes Studies in Wisconsin</title>,
                 1971</unittitle>
-              <container type="box" label="Box">5</container>
+              <container type="box" label="Box">3</container>
             </did>
             <dao href="http://digital.library.wisc.edu/1793/54927" actuate="onrequest" show="new">
               <daodesc>
@@ -443,300 +452,309 @@
             <did>
               <unittitle><title render="italic">Construction and Evaluation of Free-Falling Net for
                   Sampling Mesopelagic Fishes</title>, 1969</unittitle>
-              <container type="box" label="Box">5</container>
+              <container type="box" label="Box">3</container>
             </did>
           </c03>
         </c02>
         <c02>
           <did>
-            <unittitle>Special Report No. 1, Mortimer, C.H., <title render="italic">Internal Waves
-                and Associated Currents Observed in Lake Michigan During the Summer of 1963</title>,
-              1968</unittitle>
-            <container type="box" label="Box">3</container>
+            <unittitle>Special Reports</unittitle>
           </did>
-          <dao href="http://digital.library.wisc.edu/1793/54939" actuate="onrequest" show="new">
-            <daodesc>
-              <p>View this publication</p>
-            </daodesc>
-          </dao>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Special Report No. 2, Schenker, Eric, <title render="italic">Effects of
-                Containerization on Great Lakes Ports</title>, 1968</unittitle>
-            <container type="box" label="Box">3</container>
-          </did>
-          <dao href="http://digital.library.wisc.edu/1793/54969" actuate="onrequest" show="new">
-            <daodesc>
-              <p>View this publication</p>
-            </daodesc>
-          </dao>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Special Report No. 2 (1973 Edition), Schenker, Eric, <title render="italic"
-                >Effects of Containerization on Great Lakes Ports</title>, 1973</unittitle>
-            <container type="box" label="Box">3</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Special Report No. 4, Fee, Everett J.,<title render="italic">Digital Computer
-                Programs for the Defant Method of Seiche Analysis</title>, 1968</unittitle>
-            <container type="box" label="Box">3</container>
-          </did>
-          <dao href="http://digital.library.wisc.edu/1793/54905" actuate="onrequest" show="new">
-            <daodesc>
-              <p>View this publication</p>
-            </daodesc>
-          </dao>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Special Report No. 5, Schenker, Eric, <title render="italic">Future General
-                Cargo Traffic and Terminal Requirements at the Port of Milwaukee</title>,
-              1968</unittitle>
-            <container type="box" label="Box">3</container>
-          </did>
-          <dao href="http://digital.library.wisc.edu/1793/54977" actuate="onrequest" show="new">
-            <daodesc>
-              <p>View this publication</p>
-            </daodesc>
-          </dao>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Special Report No. 6, Fee, Everett, <title render="italic">Digital Computer
-                Programs for Spectral Analysis of Time Series</title>, 1969</unittitle>
-            <container type="box" label="Box">3</container>
-          </did>
-          <dao href="http://digital.library.wisc.edu/1793/54907" actuate="onrequest" show="new">
-            <daodesc>
-              <p>View this publication</p>
-            </daodesc>
-          </dao>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Special Report No. 7, Gannon, John E. <title render="italic">Great Lakes
-                Plankton Investigations: A Bibliography</title>, 1969</unittitle>
-            <container type="box" label="Box">3</container>
-          </did>
-          <dao href="http://digital.library.wisc.edu/1793/54911" actuate="onrequest" show="new">
-            <daodesc>
-              <p>View this publication</p>
-            </daodesc>
-          </dao>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Special Report No. 8, Gannon, John E., <title render="italic">Studies of the
-                Effects of Dredged Materials from Selected Great Lakes Harbors on Plankton and
-                Benthos</title>, 1969</unittitle>
-            <container type="box" label="Box">3</container>
-          </did>
-          <dao href="http://digital.library.wisc.edu/1793/54909" actuate="onrequest" show="new">
-            <daodesc>
-              <p>View this publication</p>
-            </daodesc>
-          </dao>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Special Report No. 9, Hogman, Walter J., <title render="italic">Documentation
-                of a Computer Program for Multispecies Fish Populations</title>, 1969</unittitle>
-            <container type="box" label="Box">3</container>
-          </did>
-          <dao href="http://digital.library.wisc.edu/1793/54915" actuate="onrequest" show="new">
-            <daodesc>
-              <p>View this publication</p>
-            </daodesc>
-          </dao>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Special Report No. 10, Schenker, Eric, <title render="italic">Overseas
-                Shipping at Great Lakes Ports: Projections for the Future</title>, 1970</unittitle>
-            <container type="box" label="Box">3</container>
-          </did>
-          <dao href="http://digital.library.wisc.edu/1793/54973" actuate="onrequest" show="new">
-            <daodesc>
-              <p>View this publication</p>
-            </daodesc>
-          </dao>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Special Report No. 11, Beeton, A.M., <title render="italic">Statement on
-                Pollution and Eutrophication of the Great Lakes</title>, 1970</unittitle>
-            <container type="box" label="Box">3</container>
-          </did>
-          <dao href="http://digital.library.wisc.edu/1793/54887" actuate="onrequest" show="new">
-            <daodesc>
-              <p>View this publication</p>
-            </daodesc>
-          </dao>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Special Report No. 12 Part 1, Mortimer, C.H., <title render="italic"
-                >Large-Scale Oscillatory Motions and Seasonal Temperature Changes in Lake Michigan
-                and Lake Ontario Part I. Text</title>, 1971</unittitle>
-            <container type="box" label="Box">3</container>
-          </did>
-          <dao href="http://digital.library.wisc.edu/1793/54929" actuate="onrequest" show="new">
-            <daodesc>
-              <p>View this publication</p>
-            </daodesc>
-          </dao>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Special Report No. 12 Part 2, Mortimer, C.H., <title render="italic"
-                >Large-Scale Oscillatory Motions and Seasonal Temperature Changes in Lake Michigan
-                and Lake Ontario Part II. Illustrations</title>, 1971</unittitle>
-            <container type="box" label="Box">3</container>
-          </did>
-          <dao href="http://digital.library.wisc.edu/1793/54931" actuate="onrequest" show="new">
-            <daodesc>
-              <p>View this publication</p>
-            </daodesc>
-          </dao>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Special Report No. 13, Howmiller, R., P., <title render="italic">Report on a
-                Cruise of the R/V Neeskay in Central Lake Michigan and Green Bay</title>,
-              1971</unittitle>
-            <container type="box" label="Box">3</container>
-          </did>
-          <dao href="http://digital.library.wisc.edu/1793/54917" actuate="onrequest" show="new">
-            <daodesc>
-              <p>View this publication</p>
-            </daodesc>
-          </dao>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Special Report No. 14, Fee, Everett J., <title render="italic">Digital
-                Computer Programs for Estimating Primary Production, Integrated Over Depth and Time,
-                in Water Bodies</title>, 1971</unittitle>
-            <container type="box" label="Box">4</container>
-          </did>
-          <dao href="http://digital.library.wisc.edu/1793/54903" actuate="onrequest" show="new">
-            <daodesc>
-              <p>View this publication</p>
-            </daodesc>
-          </dao>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Special Report No. 15, Schenker, Eric, <title render="italic">Extending the
-                St. Lawrence Seaway Navigation Season: A Cost-Benefit Approach</title>,
-              1972</unittitle>
-            <container type="box" label="Box">4</container>
-          </did>
-          <dao href="http://digital.library.wisc.edu/1793/54975" actuate="onrequest" show="new">
-            <daodesc>
-              <p>View this publication</p>
-            </daodesc>
-          </dao>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Special Report No. 18, Beeton, A.M.<title render="italic">Investigation of
-                the Influence of Thermal Discharge from a Large Electric Power Station on the
-                Biology and Near-Shore Circulation of Lake Michigan Part A- Biology</title>,
-              1974</unittitle>
-            <container type="box" label="Box">4</container>
-          </did>
-          <dao href="http://digital.library.wisc.edu/1793/54885" actuate="onrequest" show="new">
-            <daodesc>
-              <p>View this publication</p>
-            </daodesc>
-          </dao>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Special Report No. 19, Rao, Desiraju B., <title render="italic"
-                >Two-Dimensional Normal Modes in Arbitrary Enclosed Basins on a Rotating Earth:
-                Application to Lakes Ontario and Superior</title>, 1974</unittitle>
-            <container type="box" label="Box">4</container>
-          </did>
-          <dao href="http://digital.library.wisc.edu/1793/54953" actuate="onrequest" show="new">
-            <daodesc>
-              <p>View this publication</p>
-            </daodesc>
-          </dao>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Special Report No. 22, Sato, G. K., <title render="italic">Investigation of
-                the Influence of Thermal Discharge from a Large Electric Power Station on the
-                Temperature and Near-Shore Circulation on Lake Michigan, Final Report</title>,
-              1974</unittitle>
-            <container type="box" label="Box">4</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Special Report No. 23, Balfe, Margaret, <title render="italic">Analysis of
-                International Great Lakes Shipping and Hinterland</title>, 1975</unittitle>
-            <container type="box" label="Box">4</container>
-          </did>
-          <dao href="http://digital.library.wisc.edu/1793/54959" actuate="onrequest" show="new">
-            <daodesc>
-              <p>View this publication</p>
-            </daodesc>
-          </dao>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Special Report No. 31, Brooks, Arthur S., <title render="italic">Effects of
-                Intermittent Chlorination on the Biota of Lake Michigan</title>, 1977</unittitle>
-            <container type="box" label="Box">4</container>
-          </did>
-          <dao href="http://digital.library.wisc.edu/1793/54889" actuate="onrequest" show="new">
-            <daodesc>
-              <p>View this publication</p>
-            </daodesc>
-          </dao>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Special Report No. 32, Mortimer, C.H., <title render="italic">Internal Waves
-                Observed in Lake Ontario During the International Field Year for the Great Lakes
-                (IFYGL) 1972: I. Descriptive Survey and Preliminary Interpretation of Near-Inertial
-                Oscillations in Terms of Linear Channel-Wave Models</title>, 1977</unittitle>
-            <container type="box" label="Box">4</container>
-          </did>
-          <dao href="http://digital.library.wisc.edu/1793/54941" actuate="onrequest" show="new">
-            <daodesc>
-              <p>View this publication</p>
-            </daodesc>
-          </dao>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Special Report No. 33, Marmorino, G. O., <title render="italic">Internal
-                Waves Observed in Lake Ontario During the International Field Year for the Great
-                Lakes (IFYGL) 1972: II. Spectral Analysis and Modal Decomposition</title>,
-              1978</unittitle>
-            <container type="box" label="Box">4</container>
-          </did>
-          <dao href="http://digital.library.wisc.edu/1793/54919" actuate="onrequest" show="new">
-            <daodesc>
-              <p>View this publication</p>
-            </daodesc>
-          </dao>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Special Report No. 42, Mortimer, C.H., <title render="italic">Long Internal
-                Waves in Lakes: Review of a Century of Research,
-              </title><unitdate>1993</unitdate></unittitle>
-            <container type="box" label="Box">4</container>
-          </did>
+          <c03>
+            <did>
+              <unittitle>Special Report No. 1, Mortimer, C.H., <title render="italic">Internal Waves
+                  and Associated Currents Observed in Lake Michigan During the Summer of
+                  1963</title>, 1968</unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54939" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Special Report No. 2, Schenker, Eric, <title render="italic">Effects of
+                  Containerization on Great Lakes Ports</title>, 1968</unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54969" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Special Report No. 2 (1973 Edition), Schenker, Eric, <title render="italic"
+                  >Effects of Containerization on Great Lakes Ports</title>, 1973</unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Special Report No. 4, Fee, Everett J.,<title render="italic">Digital
+                  Computer Programs for the Defant Method of Seiche Analysis</title>,
+                1968</unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54905" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Special Report No. 5, Schenker, Eric, <title render="italic">Future General
+                  Cargo Traffic and Terminal Requirements at the Port of Milwaukee</title>,
+                1968</unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54977" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Special Report No. 6, Fee, Everett, <title render="italic">Digital Computer
+                  Programs for Spectral Analysis of Time Series</title>, 1969</unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54907" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Special Report No. 7, Gannon, John E. <title render="italic">Great Lakes
+                  Plankton Investigations: A Bibliography</title>, 1969</unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54911" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Special Report No. 8, Gannon, John E., <title render="italic">Studies of
+                  the Effects of Dredged Materials from Selected Great Lakes Harbors on Plankton and
+                  Benthos</title>, 1969</unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54909" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Special Report No. 9, Hogman, Walter J., <title render="italic"
+                  >Documentation of a Computer Program for Multispecies Fish Populations</title>,
+                1969</unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54915" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Special Report No. 10, Schenker, Eric, <title render="italic">Overseas
+                  Shipping at Great Lakes Ports: Projections for the Future</title>,
+                1970</unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54973" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Special Report No. 11, Beeton, A.M., <title render="italic">Statement on
+                  Pollution and Eutrophication of the Great Lakes</title>, 1970</unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54887" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Special Report No. 12 Part 1, Mortimer, C.H., <title render="italic"
+                  >Large-Scale Oscillatory Motions and Seasonal Temperature Changes in Lake Michigan
+                  and Lake Ontario Part I. Text</title>, 1971</unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54929" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Special Report No. 12 Part 2, Mortimer, C.H., <title render="italic"
+                  >Large-Scale Oscillatory Motions and Seasonal Temperature Changes in Lake Michigan
+                  and Lake Ontario Part II. Illustrations</title>, 1971</unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54931" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Special Report No. 13, Howmiller, R., P., <title render="italic">Report on
+                  a Cruise of the R/V Neeskay in Central Lake Michigan and Green Bay</title>,
+                1971</unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54917" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Special Report No. 14, Fee, Everett J., <title render="italic">Digital
+                  Computer Programs for Estimating Primary Production, Integrated Over Depth and
+                  Time, in Water Bodies</title>, 1971</unittitle>
+              <container type="box" label="Box">5</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54903" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Special Report No. 15, Schenker, Eric, <title render="italic">Extending the
+                  St. Lawrence Seaway Navigation Season: A Cost-Benefit Approach</title>,
+                1972</unittitle>
+              <container type="box" label="Box">5</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54975" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Special Report No. 18, Beeton, A.M.<title render="italic">Investigation of
+                  the Influence of Thermal Discharge from a Large Electric Power Station on the
+                  Biology and Near-Shore Circulation of Lake Michigan Part A- Biology</title>,
+                1974</unittitle>
+              <container type="box" label="Box">5</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54885" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Special Report No. 19, Rao, Desiraju B., <title render="italic"
+                  >Two-Dimensional Normal Modes in Arbitrary Enclosed Basins on a Rotating Earth:
+                  Application to Lakes Ontario and Superior</title>, 1974</unittitle>
+              <container type="box" label="Box">5</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54953" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Special Report No. 22, Sato, G. K., <title render="italic">Investigation of
+                  the Influence of Thermal Discharge from a Large Electric Power Station on the
+                  Temperature and Near-Shore Circulation on Lake Michigan, Final Report</title>,
+                1974</unittitle>
+              <container type="box" label="Box">5</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Special Report No. 23, Balfe, Margaret, <title render="italic">Analysis of
+                  International Great Lakes Shipping and Hinterland</title>, 1975</unittitle>
+              <container type="box" label="Box">5</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54959" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Special Report No. 31, Brooks, Arthur S., <title render="italic">Effects of
+                  Intermittent Chlorination on the Biota of Lake Michigan</title>, 1977</unittitle>
+              <container type="box" label="Box">5</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54889" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Special Report No. 32, Mortimer, C.H., <title render="italic">Internal
+                  Waves Observed in Lake Ontario During the International Field Year for the Great
+                  Lakes (IFYGL) 1972: I. Descriptive Survey and Preliminary Interpretation of
+                  Near-Inertial Oscillations in Terms of Linear Channel-Wave Models</title>,
+                1977</unittitle>
+              <container type="box" label="Box">5</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54941" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Special Report No. 33, Marmorino, G. O., <title render="italic">Internal
+                  Waves Observed in Lake Ontario During the International Field Year for the Great
+                  Lakes (IFYGL) 1972: II. Spectral Analysis and Modal Decomposition</title>,
+                1978</unittitle>
+              <container type="box" label="Box">5</container>
+            </did>
+            <dao href="http://digital.library.wisc.edu/1793/54919" actuate="onrequest" show="new">
+              <daodesc>
+                <p>View this publication</p>
+              </daodesc>
+            </dao>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Special Report No. 42, Mortimer, C.H., <title render="italic">Long Internal
+                  Waves in Lakes: Review of a Century of Research,
+                </title><unitdate>1993</unitdate></unittitle>
+              <container type="box" label="Box">5</container>
+            </did>
+          </c03>
         </c02>
       </c01>
       <c01>
