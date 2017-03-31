@@ -194,43 +194,43 @@
       <p>Histories of the college can be found in <title render="italic">The First Ten Years</title>
         and <title render="italic">Forum 1977</title>. Both are available in the collection and in
         the UWM Libraries.</p>
-    </bioghist>
-    <bioghist>
-      <head>Deans of the College</head>
-      <chronlist>
-        <chronitem>
-          <date>1956-1966</date>
-          <event>Joseph G. Baier</event>
-        </chronitem>
-        <chronitem>
-          <date>1966-1969</date>
-          <event>Roy G. Francis</event>
-        </chronitem>
-        <chronitem>
-          <date>1969-1972</date>
-          <event>Howard J. Pincus</event>
-        </chronitem>
-        <chronitem>
-          <date>1972-1998</date>
-          <event>William F. Halloran</event>
-        </chronitem>
-        <chronitem>
-          <date>1999-2002</date>
-          <event>Marshall Goodman</event>
-        </chronitem>
-        <chronitem>
-          <date>2002-2011</date>
-          <event>G. Richard Meadows</event>
-        </chronitem>
-        <chronitem>
-          <date>2011-2016</date>
-          <event>Rodney Swain</event>
-        </chronitem>
-        <chronitem>
-          <date>2017- </date>
-          <event>Dave Clark (interim)</event>
-        </chronitem>
-      </chronlist>
+      <bioghist>
+        <head>Deans of the College</head>
+        <chronlist>
+          <chronitem>
+            <date>1956-1966</date>
+            <event>Joseph G. Baier</event>
+          </chronitem>
+          <chronitem>
+            <date>1966-1969</date>
+            <event>Roy G. Francis</event>
+          </chronitem>
+          <chronitem>
+            <date>1969-1972</date>
+            <event>Howard J. Pincus</event>
+          </chronitem>
+          <chronitem>
+            <date>1972-1998</date>
+            <event>William F. Halloran</event>
+          </chronitem>
+          <chronitem>
+            <date>1999-2002</date>
+            <event>Marshall Goodman</event>
+          </chronitem>
+          <chronitem>
+            <date>2002-2011</date>
+            <event>G. Richard Meadows</event>
+          </chronitem>
+          <chronitem>
+            <date>2011-2016</date>
+            <event>Rodney Swain</event>
+          </chronitem>
+          <chronitem>
+            <date>2017- </date>
+            <event>Dave Clark (interim)</event>
+          </chronitem>
+        </chronlist>
+      </bioghist>
     </bioghist>
     <scopecontent encodinganalog="520">
       <p>Records of the largest academic division at the University of Wisconsin-Milwaukee (UWM),
@@ -5852,7 +5852,7 @@
           <did>
             <unittitle>Ad Hoc Committees,
               <unitdate>1997-2001</unitdate></unittitle>
-            <container type="box" label="Box">4</container>
+            <container type="box" label="Box">1</container>
           </did>
         </c02>
         <c02>
@@ -5915,7 +5915,7 @@
         <c02>
           <did>
             <unittitle>Basketball Game, <unitdate>1997</unitdate></unittitle>
-            <container type="box" label="Box">4</container>
+            <container type="box" label="Box">1</container>
           </did>
         </c02>
         <c02>
@@ -5989,34 +5989,34 @@
             <container type="box" label="Box">1</container>
           </did>
         </c02>
-        <c02>
+        <c02><did><unittitle>Center for International Studies</unittitle></did><c03>
           <did>
-            <unittitle>Center for International Studies Budget,
+            <unittitle>Budget,
               <unitdate>1992-1993</unitdate></unittitle>
             <container type="box" label="Box">1</container>
           </did>
-        </c02>
-        <c02>
+        </c03>
+        <c03>
           <did>
-            <unittitle>Center for International Studies Correspondence,
+            <unittitle>Correspondence,
                 <unitdate>1991-1995</unitdate></unittitle>
             <container type="box" label="Box">1</container>
           </did>
-        </c02>
-        <c02>
+        </c03>
+        <c03>
           <did>
-            <unittitle>Center for International Studies Grants and Awards,
+            <unittitle>Grants and Awards,
                 <unitdate>1991-1997</unitdate></unittitle>
             <container type="box" label="Box">2</container>
           </did>
-        </c02>
-        <c02>
+        </c03>
+        <c03>
           <did>
-            <unittitle>Center for International Studies Occasional Papers,
+            <unittitle>Occasional Papers,
                 <unitdate>1993-1995</unitdate></unittitle>
             <container type="box" label="Box">2</container>
           </did>
-        </c02>
+        </c03></c02>
         <c02>
           <did>
             <unittitle>Chairs' Training, <unitdate>2001</unitdate></unittitle>
@@ -6560,7 +6560,7 @@
         </c03>
         <c03>
           <did>
-            <unittitle>Plan 2008,
+            <unittitle><title render="italic">Plan 2008</title>,
               <unitdate>2003-2004</unitdate></unittitle>
             <container type="box" label="Box">12</container>
           </did>
@@ -6604,25 +6604,26 @@
          </c03></c02>
         <c02><did><unittitle>Non-represented Classified Employment Compensation</unittitle></did>
           <c03>
+            <did>
+              <unittitle>
+                <unitdate>1992-1997</unitdate></unittitle>
+              <container type="box" label="Box">12</container>
+            </did>
+            <accessrestrict>
+              <p>Restricted</p>
+            </accessrestrict>
+          </c03>
+          <c03>
           <did>
             <unittitle>
                 <unitdate>1995-1996</unitdate></unittitle>
             <container type="box" label="Box">4</container>
           </did>
         </c03>
-        <c03>
-          <did>
-            <unittitle>Non-represented Classified Employment Compensation,
-              <unitdate>1992-1997</unitdate></unittitle>
-            <container type="box" label="Box">12</container>
-          </did>
-          <accessrestrict>
-            <p>Restricted</p>
-          </accessrestrict>
-        </c03></c02>
+       </c02>
         <c02>
           <did>
-            <unittitle>Office of Diversity/Compliance Concilliation Agreement,
+            <unittitle>Office of Diversity/Compliance Conciliation Agreement,
                 <unitdate>1995-1996</unitdate></unittitle>
             <container type="box" label="Box">4</container>
           </did>
@@ -6773,7 +6774,7 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Plan 2008 Report, <unitdate>2003</unitdate></unittitle>
+            <unittitle><title render="italic">Plan 2008</title> Report, <unitdate>2003</unitdate></unittitle>
             <container type="box" label="Box">5</container>
           </did>
         </c02>
@@ -6993,17 +6994,18 @@
         </c02>
         <c02>
           <did>
+            <unittitle>Wisconsin Legislative Updates, <unitdate>1989</unitdate></unittitle>
+            <container type="box" label="Box">7</container>
+          </did>
+        </c02> 
+        <c02>
+          <did>
             <unittitle>Wisconsin State Department of Administration Required Budget Lapse,
                 <unitdate>1992-1993</unitdate></unittitle>
             <container type="box" label="Box">7</container>
           </did>
         </c02>
-        <c02>
-          <did>
-            <unittitle>Wisconsin Legislative Updates, <unitdate>1989</unitdate></unittitle>
-            <container type="box" label="Box">7</container>
-          </did>
-        </c02> 
+       
       </c01>
     </dsc>
   </archdesc>
