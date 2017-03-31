@@ -216,7 +216,9 @@
 					<dao actuate="onrequest" show="new" title="2012-20174"
 						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/">
 						<daodesc>
+
 							<p>Archive-It Capture, 2012-2017</p>
+
 						</daodesc>
 					</dao>
 				</c02>
@@ -245,6 +247,7 @@
 							<p>Internet Archive Capture, 1997-2017</p>
 						</daodesc>
 					</dao>
+
 					<dao actuate="onrequest" show="new" title="2012-2016"
 						href="http://wayback.archive-it.org/3368/*/http://www5.uwm.edu/news/">
 						<daodesc>
@@ -263,6 +266,7 @@
 				<did>
 					<unittitle>2. Academic and Research Units,
 						<unitdate normal="1997/2017">1997-2017</unitdate></unittitle>
+
 				</did>
 				<c02 level="subseries">
 					<did>
@@ -517,6 +521,12 @@
 						</daodesc>
 					</dao>
 					<dao actuate="onrequest" show="new" title="2012-2014"
+						href="http://web.archive.org/web/19971016104210/http://www.uwm.edu/Dept/SFA/">
+						<daodesc>
+							<p>Wayback Machine Capture (as School of Fine Arts), 1997-2015</p>
+						</daodesc>
+					</dao>
+					<dao actuate="onrequest" show="new" title="2012-2014"
 						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/psoa/">
 						<daodesc>
 							<p>Archive-It Capture, 2012-2014</p>
@@ -526,6 +536,12 @@
 						href="http://wayback.archive-it.org/3368/*/http://uwm.edu/arts">
 						<daodesc>
 							<p>Archive-It Capture, 2015-2017</p>
+						</daodesc>
+					</dao>
+					<dao actuate="onrequest" show="new" title="2015-2017"
+						href="http://wayback.archive-it.org/3368/*/http://uwm.edu/arts">
+						<daodesc>
+							<p>2015-2017</p>
 						</daodesc>
 					</dao>
 				</c02>
@@ -574,7 +590,6 @@
 							<p>Archive-It Capture, 2012-2017</p>
 						</daodesc>
 					</dao>
-
 				</c02>
 				<c02 level="subseries">
 					<did>
@@ -630,6 +645,12 @@
 						href="http://wayback.archive-it.org/3368/*/http://uwm.edu/informationstudies/">
 						<daodesc>
 							<p>Archive-It Capture, 2016-2017</p>
+						</daodesc>
+					</dao>
+					<dao actuate="onrequest" show="new" title="2016-2017"
+						href="http://wayback.archive-it.org/3368/*/http://uwm.edu/informationstudies/">
+						<daodesc>
+							<p>2016-2017</p>
 						</daodesc>
 					</dao>
 				</c02>
@@ -797,10 +818,10 @@
 							information about developments surrounding WI Act 10 (2011), WI Act 55
 							(2015), and the effects of the $250M cut to the UW System.</p>
 					</scopecontent>
-					<dao actuate="onrequest" show="new" title="2012-2014"
+					<dao actuate="onrequest" show="new" title="2012-2017"
 						href="http://wayback.archive-it.org/3368/*/http://uwm.edu/budget">
 						<daodesc>
-							<p>Archive-It Capture, 2012-2016</p>
+							<p>Archive-It Capture, 2012-2017</p>
 						</daodesc>
 					</dao>
 				</c02>
@@ -1115,7 +1136,6 @@
 					</scopecontent>
 					<dao actuate="onrequest" show="new"
 						href="http://web.archive.org/web/*/http://www.uwmpost.com">
-						<daodesc>
 							<p>Internet Archive Capture, 1999-2016</p>
 						</daodesc>
 					</dao>

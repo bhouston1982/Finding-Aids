@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd" [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
-<ead id="uw-mil-[file name]" relatedencoding="MARC21">
+ <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd" [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > 
+<ead id="uw-mil-uwmac0230" relatedencoding="MARC21">
 	<eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
 		dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924"
 		relatedencoding="MARC21">
 		<eadid encodinganalog="856$u" countrycode="us" mainagencycode="wimiugma"
-			url="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-[call number]"
-			>uw-mil-[insert file name]</eadid>
+			url="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmac0230"
+			>uw-mil-uwmac0230</eadid>
 		<filedesc>
 			<titlestmt>
-				<titleproper encodinganalog="245$a">Finding Aid of the [collection title, including
-					dates]</titleproper>
-				<author encodinganalog="245$c"/>
+				<titleproper encodinganalog="245$a">Finding Aid of the UW-Milwaukee Employment and
+					Training Insitute, 1976-2015</titleproper>
 			</titlestmt>
 			<publicationstmt>
 				<publisher encodinganalog="260$b">University of Wisconsin-Milwaukee Libraries,
@@ -22,16 +21,14 @@
 					<addressline>Archives Department</addressline>
 					<addressline>P.O. Box 604</addressline>
 					<addressline>Milwaukee, Wisconsin 53201-0604</addressline>
-					<addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr
-							href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
+					<addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
 				</address>
 				<date encodinganalog="260$c" type="publication" normal="2016">Copyright &#169; 2016
 					University of Wisconsin Board of Regents</date>
 			</publicationstmt>
 		</filedesc>
 		<profiledesc>
-			<creation encodinganalog="500">Finding aid encoded by [name of individual who encoded
-				the finding aid].</creation>
+			<creation encodinganalog="500">Finding aid encoded by Phyllis Reske</creation>
 			<langusage encodinganalog="546">Finding aid written in <language encodinganalog="041"
 					langcode="eng" scriptcode="Latn">English.</language></langusage>
 		</profiledesc>
@@ -39,16 +36,17 @@
 	<archdesc level="collection" relatedencoding="MARC21">
 		<did>
 			<physloc type="locationcode" audience="internal">wimiugma</physloc>
-			<unittitle encodinganalog="245$a">[insert title], <unitdate type="inclusive"
-					encodinganalog="245$f" normal="[ie. 1917/1940]">[insert
-				dates]</unitdate></unittitle>
+			<unittitle encodinganalog="245$a">UW-Milwaukee Employment and Training Insitute,
+					<unitdate type="inclusive" encodinganalog="245$f" normal="1976/2015"
+					>1976-2015</unitdate></unittitle>
 			<origination label="Creator">
-				<corpname encodinganalog="110">[insert creator name]</corpname>
-			</origination>		
+				<corpname encodinganalog="110">University of Wisconsin-Milwaukee. Employment and
+					Training Institute</corpname>
+			</origination>
 			<unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma"
-				countrycode="us">[insert collection number]</unitid>
+				countrycode="us">UWM Archival Collection 230</unitid>
 			<physdesc label="Quantity">
-				<extent encodinganalog="300">[insert size] cubic ft. ([insert #] boxes)</extent>
+				<extent encodinganalog="300">2 cubic ft. (2 boxes)</extent>
 			</physdesc>
 			<repository encodinganalog="852">
 				<extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
@@ -58,25 +56,49 @@
 						Department</corpname>
 				</extref>
 			</repository>
-			<physloc/>
-			<abstract encodinganalog="520"> </abstract>
+			<abstract encodinganalog="520">Records of the Employment and Training Institute (ETI), a
+				research center in the School of Continuing Education which addresses the needs of
+				unemployed and underemployed Wisconsin workers and families. The collection is
+				comprised of education and employment publications on GED assessments,
+				post-secondary education and employment for GED and Milwaukee Public School (MPS)
+				graduates, and the labor market and AFDC single-parent employment in Milwaukee. Also
+				included in the collection are job opening and job seeker surveys and newsclippings
+				on MPS desegregation.</abstract>
 			<langmaterial encodinganalog="546" label="Language">
 				<language encodinganalog="041" langcode="eng">English</language>
 			</langmaterial>
 		</did>
 		<bioghist encodinganalog="545">
-			<p> </p>
+			<p><?oxy_comment_start author="houstobn" timestamp="20170328T123211-0500" comment="Let&apos;s paraphrase this a bit-- this sounds straight out of a press release."?>The
+				Employment and Training Institute (ETI) was established in 1978 by the University of
+				Wisconsin-Milwaukee and the University of Wisconsin-Extension to address the
+				educational and training needs of unemployed and underemployed Wisconsin workers and
+				families. ETI is part of UW-Extension's continuing commitment to the "Wisconsin
+				Idea" - that university research should be applied to solve problems and improve the
+				quality of life for all Wisconsin citizens.<?oxy_comment_end?></p>
+			<p><?oxy_comment_start author="houstobn" timestamp="20170328T123254-0500" comment="You might as well format this in a bioghist list if the director information is there anyway."?>ETI
+				addresses the needs of Wisconsin workers through applied research, policy
+				development, and community education. Philip E. Lerman served as first director of
+				ETI from 1978 to 1988. John Pawasarat has served as director since
+				1988.<?oxy_comment_end?></p>
 		</bioghist>
 		<scopecontent encodinganalog="520">
-			<p> </p>
+			<p>The majority of the collection contains research and training publications produced
+				between 1980 and 2003. Publications include GED and MPS graduate employment and
+				post-secondary education readiness, juvenile ex-offender and youth employment,
+				Metropolitian Milwaukee job opening surveys, and Milwaukee County educational and
+				employment guide and single parent AFDC population and employment earnings. The
+				collection also contains local newsclippings from 1976 on MPS desegregation.</p>
 		</scopecontent>
 		<arrangement encodinganalog="351">
-			<p>The files are organized alphabetically by personal name or by subject, then
-				chronologically.</p>
+			<p>The collection is organized into three series:</p>
+			<list type="ordered" numeration="arabic">
+				<item>Subject Files, 1976-2015</item>
+				<item>News Clippings, 1984-2003</item>
+				<item>Web Archives, 1980-2015 </item>
+			</list>
+			<p>The files are organized alphabetically by subject, then chronologically.</p>
 		</arrangement>
-		<otherfindaid encodinganalog="555">
-			<p/>
-		</otherfindaid>
 		<prefercite encodinganalog="524">
 			<p>
 				<extref
@@ -84,21 +106,14 @@
 					>Citation Guide for Primary Sources</extref>
 			</p>
 		</prefercite>
-		<altformavail encodinganalog="530">
-			<head>Alternate Format</head>
-			<p> </p>
-		</altformavail>
 		<relatedmaterial encodinganalog="544 1">
 			<head>Related Material in the UWM Libraries</head>
-			<archref href="" actuate="onrequest" show="new">
-				<unittitle/>
-				<unitid/>
+			<archref href="http://digital.library.wisc.edu/1711.dl/wiarchives.uwmac0073"
+				actuate="onrequest" show="new">
+				<unittitle>UW-Milwaukee Milwaukee Urban Observatory Records</unittitle>
+				<unitid>UWM Archival Collection 73</unitid>
 			</archref>
 		</relatedmaterial>
-		<separatedmaterial encodinganalog="544 0">
-			<head>Separated Material in the UWM Libraries</head>
-			<p> </p>
-		</separatedmaterial>
 		<descgrp type="admininfo">
 			<head>Administrative/Restriction Information</head>
 			<accessrestrict encodinganalog="506">
@@ -110,46 +125,404 @@
 					privacy, and copyright which may be involved in the use of this collection
 					(Wisconsin Statutes 19.21-19.39).</p>
 			</userestrict>
-			<custodhist encodinganalog="561">
-				<p/>
-			</custodhist>
 			<acqinfo encodinganalog="541">
-				<p> </p>
+				<p>The ETI Collection was transferred to the Archives by Lois Quinn as part of
+					accession 2016-036 in February 2017.</p>
 			</acqinfo>
 			<processinfo encodinganalog="583">
-				<p> </p>
+				<p>Phyllis Reske minimally processed accession 2016-036 in March 2017.</p>
 			</processinfo>
-			<processinfo>
-				<head>Preservation Information</head>
-				<p> </p>
-			</processinfo>
-			<phystech encodinganalog="538"/>
-			<!-- <Note: The ENCODINGANALOG attribute corresponds to either MARC 340 or 538. A decision will need to be made in each case which value is more appropriate, if this element is used.> -->
 			<separatedmaterial encodinganalog="544 0">
 				<head>Deaccession Information</head>
-				<p> </p>
+				<p>One box of publications received as part of accession 2016-036 was removed from
+					the collection and added to the Milwaukee Urban Observatory Collection (UWM
+					Archival Collection 73).</p>
 			</separatedmaterial>
 		</descgrp>
 		<dsc type="in-depth">
 			<head>Contents List</head>
-			<c01 level="otherlevel" otherlevel="processed" id="[ie. uwmac0042">
+			<c01 id="uwmac0230" level="otherlevel" otherlevel="processed">
 				<did>
-					<unitid/>
-					<unittitle>
-						<unitdate type="inclusive" normal="[ie. 1917/1940]"/>
-					</unittitle>
+					<unitid>UWM Archival Collection 230</unitid>
+					<unittitle>Records, <unitdate normal="1976/2015"
+						>1976-2015</unitdate></unittitle>
 					<physdesc>
-						<extent/>
+						<extent>2 cubic ft. (2 boxes)</extent>
 					</physdesc>
 				</did>
-				<c02>
+				<c02 id="series1" level="series">
 					<did>
-						<unittitle/>
-						<container type="box" label="Box"/>
-						<container type="folder" label="Folder"/>
+						<unittitle>1. Subject Files, <unitdate>1976-2015</unitdate></unittitle>
 					</did>
+					<c03>
+						<did>
+							<unittitle>Acceptance of GED Holders at Post-Secondary Institutions in
+								Wisconsin, <unitdate>1985</unitdate></unittitle>
+							<container type="box" label="Box">1</container>
+							<container type="folder" label="Folder">1</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Basic Education for Adults,
+								<unitdate>1980</unitdate></unittitle>
+							<container type="box" label="Box">1</container>
+							<container type="folder" label="Folder">2</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Centro Hispano Head Start Community Needs Assessment,
+									<unitdate>2015</unitdate></unittitle>
+							<container type="box" label="Box">1</container>
+							<container type="folder" label="Folder">3</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Comprehensive Employment and Training Act and Private Sector
+								Job Creation, <unitdate>1980</unitdate></unittitle>
+							<container type="box" label="Box">1</container>
+							<container type="folder" label="Folder">4</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Education for Employment</unittitle>
+						</did>
+						<c04>
+							<did>
+								<unittitle>Background Readings,
+									<unitdate>1987</unitdate></unittitle>
+								<container type="box" label="Box">1</container>
+								<container type="folder" label="Folder">5</container>
+							</did>
+						</c04>
+						<c04>
+							<did>
+								<unittitle>Consumer Economics Curriculum with Handouts for Poor
+									Readers, <unitdate>1984</unitdate></unittitle>
+								<container type="box" label="Box">1</container>
+								<container type="folder" label="Folder">6</container>
+							</did>
+						</c04>
+						<c04>
+							<did>
+								<unittitle>Job Skill Curriculum witrh Handouts for Poor Readers,
+										<unitdate>1984</unitdate></unittitle>
+								<container type="box" label="Box">1</container>
+								<container type="folder" label="Folder">7</container>
+							</did>
+						</c04>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>The Employer Perspective: Jobs Held by the Milwaukee County
+								AFDC Single Parent Population (January 1996 - March 1997),
+									<unitdate>1997</unitdate></unittitle>
+							<container type="box" label="Box">1</container>
+							<container type="folder" label="Folder">8</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Employment and Earnings of Milwaukee County Single Parent
+								AFDC Families: Establishing Benchmarks for Measuring Employment
+								Outcomes Under "W-2", <unitdate>1997</unitdate></unittitle>
+							<container type="box" label="Box">1</container>
+							<container type="folder" label="Folder">9</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Employment and Education Experiences of Milwaukee Public
+								Schools Graduates: A Follow - Up Study of the Class of 1999,
+									<unitdate>2000</unitdate></unittitle>
+							<container type="box" label="Box">1</container>
+							<container type="folder" label="Folder">10</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Equivalency Certificates: Findings and Recommendations,
+								Report to the Superintendent, <unitdate>1986</unitdate></unittitle>
+							<container type="box" label="Box">1</container>
+							<container type="folder" label="Folder">11</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>The GED as a Measure of Readiness for Employment,
+									<unitdate>1986</unitdate></unittitle>
+							<container type="box" label="Box">1</container>
+							<container type="folder" label="Folder">12</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>A GED Primer: Background Information for Dr. Herbert Grover's
+								GED Work Group, <unitdate>1986</unitdate></unittitle>
+							<container type="box" label="Box">1</container>
+							<container type="folder" label="Folder">13</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Head Start Community Assessment Data Analysis,
+									<unitdate>2014</unitdate></unittitle>
+							<container type="box" label="Box">1</container>
+							<container type="folder" label="Folder">14</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Interim Report to the Wisconsin Legislature on the Work
+								Experience and Job Training/Community Work Experience Program
+								Evaluation, <unitdate>1991</unitdate></unittitle>
+							<container type="box" label="Box">1</container>
+							<container type="folder" label="Folder">15</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Literature Survey of the Use of the GED to Measure Readiness
+								for Post-Secondary Education,
+								<unitdate>1986</unitdate></unittitle>
+							<container type="box" label="Box">1</container>
+							<container type="folder" label="Folder">16</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Milwaukee County Labor Market and Employer Directory,
+									<unitdate>1984</unitdate></unittitle>
+							<container type="box" label="Box">1</container>
+							<container type="folder" label="Folder">17</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Milwaukee County Planning Guide for Education and Employment, <unitdate>1988</unitdate></unittitle>
+							<container type="box" label="Box">1</container>
+							<container type="folder" label="Folder">18</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Model Reentry Programs for Juvenile Ex-Offenders,
+									<unitdate>1983</unitdate></unittitle>
+							<container type="box" label="Box">1</container>
+							<container type="folder" label="Folder">19</container>
+						</did>
+					</c03>
+
+					<c03>
+						<did>
+							<unittitle>Performance of GED Holders Enrolled at UW's Thirteen
+								Campuses: 1979-1985, <unitdate>1986</unitdate></unittitle>
+							<container type="box" label="Box">2</container>
+							<container type="folder" label="Folder">6</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Recommendations for Improving Milwaukee County Job Training
+								Partnership Act Programs, <unitdate>1988</unitdate></unittitle>
+							<container type="box" label="Box">2</container>
+							<container type="folder" label="Folder">7</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Survey of Central City Milwaukee Job Seekers: Fall 1995,
+									<unitdate>1996</unitdate></unittitle>
+							<container type="box" label="Box">2</container>
+							<container type="folder" label="Folder">8</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Survey of Job Openings in the Milwaukee Metropolitan
+								Area</unittitle>
+						</did>
+						<c04>
+							<did>
+								<unittitle>Week of May 23, <unitdate>1994</unitdate></unittitle>
+								<container type="box" label="Box">2</container>
+								<container type="folder" label="Folder">9</container>
+							</did>
+						</c04>
+						<c04>
+							<did>
+								<unittitle>Week of October 24, <unitdate>1994</unitdate></unittitle>
+								<container type="box" label="Box">2</container>
+								<container type="folder" label="Folder">10</container>
+							</did>
+						</c04>
+						<c04>
+							<did>
+								<unittitle>Week of May 22, <unitdate>1995</unitdate></unittitle>
+								<container type="box" label="Box">2</container>
+								<container type="folder" label="Folder">11</container>
+							</did>
+						</c04>
+						<c04>
+							<did>
+								<unittitle>Week of May 15, <unitdate>2000</unitdate></unittitle>
+								<container type="box" label="Box">2</container>
+								<container type="folder" label="Folder">12</container>
+							</did>
+						</c04>
+						<c04>
+							<did>
+								<unittitle>Week of October 21, <unitdate>2002</unitdate></unittitle>
+								<container type="box" label="Box">2</container>
+								<container type="folder" label="Folder">13</container>
+							</did>
+						</c04>
+						<c04>
+							<did>
+								<unittitle>Week of October 20, <unitdate>2003</unitdate></unittitle>
+								<container type="box" label="Box">2</container>
+								<container type="folder" label="Folder">14</container>
+							</did>
+						</c04>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Teenage Undereducation and Unemployment: What Approaches
+								Work?, <unitdate>1980</unitdate></unittitle>
+							<container type="box" label="Box">2</container>
+							<container type="folder" label="Folder">15</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Vocational Education Project: Summary of Recommendations and
+								Statement of Philosophy, <unitdate>1982</unitdate></unittitle>
+							<container type="box" label="Box">2</container>
+							<container type="folder" label="Folder">16</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Wood County Planning Guide for Education and Employment,
+									<unitdate>1988</unitdate></unittitle>
+							<container type="box" label="Box">2</container>
+							<container type="folder" label="Folder">17</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Work Assistance Research Project, Final Report,
+									<unitdate>1980</unitdate></unittitle>
+							<container type="box" label="Box">2</container>
+							<container type="folder" label="Folder">18</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Youth Employment Competency Tests and Curriculum
+								Guide</unittitle>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Community Resources, <unitdate>1984</unitdate></unittitle>
+							<container type="box" label="Box">2</container>
+							<container type="folder" label="Folder">19</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Consumer Economics, <unitdate>1984</unitdate></unittitle>
+							<container type="box" label="Box">2</container>
+							<container type="folder" label="Folder">20</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Government and Law: Youth Employment Competency Tests and
+								Curriculum Guide, <unitdate>1984</unitdate></unittitle>
+							<container type="box" label="Box">2</container>
+							<container type="folder" label="Folder">21</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Health, <unitdate>1984</unitdate></unittitle>
+							<container type="box" label="Box">2</container>
+							<container type="folder" label="Folder">22</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Interpersonal Relationships ,
+								<unitdate>1984</unitdate></unittitle>
+							<container type="box" label="Box">2</container>
+							<container type="folder" label="Folder">23</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Job Skills, <unitdate>1984</unitdate></unittitle>
+							<container type="box" label="Box">2</container>
+							<container type="folder" label="Folder">24</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Math, <unitdate>1984</unitdate></unittitle>
+							<container type="box" label="Box">2</container>
+							<container type="folder" label="Folder">25-26</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Reading: Youth Employment Competency Tests and Curriculum
+								Guide, <unitdate>1984</unitdate></unittitle>
+							<container type="box" label="Box">2</container>
+							<container type="folder" label="Folder">27</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Writing, <unitdate>1984</unitdate></unittitle>
+							<container type="box" label="Box">2</container>
+							<container type="folder" label="Folder">28</container>
+						</did>
+					</c03>
+				</c02>
+				<c02 id="series2" level="series">
+					<did>
+						<unittitle>2. News clippings, <unitdate normal="1984/2003">1984-2003</unitdate></unittitle>
+					</did>
+					<c03>
+						<did>
+							<unittitle>
+								<unitdate>1989-2003</unitdate>
+							</unittitle>
+							<container type="box" label="Box">1</container>
+							<container type="folder" label="Folder">20-27</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>School Desegregation, <unitdate>1984</unitdate></unittitle>
+							<container type="box" label="Box">1</container>
+							<container type="folder" label="Folder">28</container>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>School Desegregation, <unitdate>1984</unitdate></unittitle>
+							<container type="box" label="Box">2</container>
+							<container type="folder" label="Folder">1-5</container>
+						</did>
+					</c03>
 				</c02>
 			</c01>
+
 		</dsc>
 	</archdesc>
 </ead>
