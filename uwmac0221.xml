@@ -35,20 +35,27 @@
 		</profiledesc>
 		<revisiondesc>
 			<change>
+				<date normal="2017-03-28">March 28, 2017</date>
+				<item>Brad Houston updated the finding aid to reflect the addition of new pages and
+					sites to the collection, in conjunction with a 2017 Alternate Spring Break
+					project. Changes were made to extent, accessioninfo, processinfo, scopecontent,
+					relatedmaterial, and the contents list.</item>
+			</change>
+			<change>
+				<date normal="2014-05-14">May 14, 2014</date>
+				<item>Brad Houston made some formatting changes to the contents list.</item>
+			</change>
+			<change>
+				<date normal="2014-05-07">May 7, 2014</date>
+				<item>Charles Tonelli updated the finding aid to reflect the addition of new pages
+					and sites to the collection. Changes were made to processinfo and the contents
+					list.</item>
+			</change>
+			<change>
 				<date normal="2013-03-28">March 28, 2013</date>
 				<item>Brad Houston updated the finding aid to reflect the addition of new pages and
 					sites to the collection. Changes were made to physdesc, accessioninfo,
 					processinfo, and the contents list.</item>
-			</change>
-			<change>
-				<date normal="2013-05-14">May 14, 2013</date>
-				<item>Brad Houston made some formatting changes to the contents list.</item>
-			</change>
-			<change>
-				<date normal="2013-03-28">May 7, 2014</date>
-				<item>Charles Tonelli updated the finding aid to reflect the addition of new pages
-					and sites to the collection. Changes were made to processinfo and the contents
-					list.</item>
 			</change>
 		</revisiondesc>
 	</eadheader>
@@ -56,7 +63,7 @@
 		<did>
 			<physloc type="locationcode" audience="internal">wimiugma</physloc>
 			<unittitle encodinganalog="245$a">UW-Milwaukee Web Collection, <unitdate
-					type="inclusive" encodinganalog="245$f" normal="1997/2013"
+					type="inclusive" encodinganalog="245$f" normal="1997/2017"
 				>1997-2017</unitdate></unittitle>
 			<origination label="Creator">
 				<corpname encodinganalog="110">University of Wisconsin-Milwaukee</corpname>
@@ -64,7 +71,7 @@
 			<unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma"
 				countrycode="us">UWM Archival Collection 221</unitid>
 			<physdesc label="Quantity">
-				<extent encodinganalog="300">Approximately 1 million digital files (59 GB)</extent>
+				<extent encodinganalog="300">Approximately 6 million digital files (414 GB)</extent>
 			</physdesc>
 			<repository encodinganalog="852">
 				<extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
@@ -102,6 +109,19 @@
 					href="http://archive-it.org/collections/3368">collection landing page</extref>
 				on the Archive-It site. See the entries for individual sites for additional
 				information about the scope and content of each site.</p>
+			<p>Some entries will have links to multiple instances of their website. In most of these
+				cases, these links indicate either that the site URL has changed dramatically, or
+				that the Internet Archive Wayback Machine captured the page before UWM began
+				crawling its site in 2012. The latter case is indicated as "Internet Archive
+				Capture." Note that the Internet Archive captures typically only capture the first
+				few levels of a given website; for more in-depth captures, please refer to the
+				Archive-It capture.</p>
+			<p>Beginning in 2015, the UWM Archives began adding metadata points to key series on the
+				UWM Website, including meeting minutes, Faculty Senate documents, policies and
+				procedures, and publications landing pages. Where possible, links to such entry
+				points are accessible through the finding aid of the parent collection. The contents
+				list for this collection only lists the primary "seeds" or starting points for the
+				web crawler.</p>
 		</scopecontent>
 		<arrangement encodinganalog="351">
 			<p>The base unit of description is school, division, or office website, subdomain, or
@@ -113,23 +133,23 @@
 				</item>
 				<item>
 					<ref target="series2" show="replace" actuate="onrequest">Academic and Research
-						Units, 2012-2017</ref>
+						Units, 1997-2017</ref>
 				</item>
 				<item>
 					<ref target="series3" show="replace" actuate="onrequest">Administrative Units,
-						1998-2017</ref>
+						1997-2017</ref>
 				</item>
 				<item>
 					<ref target="series4" show="replace" actuate="onrequest">Athletics,
-						2012-2017</ref>
+						2000-2017</ref>
 				</item>
 				<item>
 					<ref target="series5" show="replace" actuate="onrequest">Social Media,
-						2009-2016</ref>
+						2009-2017</ref>
 				</item>
 				<item>
 					<ref target="series6" show="replace" actuate="onrequest">Affiliate Sites,
-						2012-2016</ref>
+						2012-2017</ref>
 				</item>
 			</list>
 		</arrangement>
@@ -168,7 +188,8 @@
 				<p>Brad Houston and Charles Welborn processed the initial collection in winter 2013.
 					Brad Houston processed the added materials in March 2013. Grant Roedl updated
 					the finding aid to reflect new seeds and updated metadata on the Archive-It site
-					(Brad Houston Processed).</p>
+					as part of a SOIS Alternative Spring Break project in March 2017 (Brad Houston
+					supervised).</p>
 			</processinfo>
 		</descgrp>
 		<dsc type="in-depth">
@@ -186,16 +207,18 @@
 						<p>Homepage of the University of Wisconsin-Milwaukee. Most other sites in
 							this collection are browsable from this page.</p>
 					</scopecontent>
-					<dao actuate="onrequest" show="new" title="1997-2014"
+					<dao actuate="onrequest" show="new" title="1997-2017"
 						href="http://wayback.archive.org/web/*/http://www.uwm.edu">
 						<daodesc>
 							<p>Internet Archive Capture, 1997-2017</p>
 						</daodesc>
 					</dao>
-					<dao actuate="onrequest" show="new" title="2012-2014"
+					<dao actuate="onrequest" show="new" title="2012-20174"
 						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/">
 						<daodesc>
-							<p>Archive-It Capture, 2012-2016</p>
+
+							<p>Archive-It Capture, 2012-2017</p>
+
 						</daodesc>
 					</dao>
 				</c02>
@@ -218,6 +241,13 @@
 							are defunct; news releases from 2011 to 2013 may be browsed through the
 							main News page.</p>
 					</scopecontent>
+					<dao actuate="onrequest" show="new" title="1997-2017"
+						href="http://web.archive.org/web/*/http://www.uwm.edu/news">
+						<daodesc>
+							<p>Internet Archive Capture, 1997-2017</p>
+						</daodesc>
+					</dao>
+
 					<dao actuate="onrequest" show="new" title="2012-2016"
 						href="http://wayback.archive-it.org/3368/*/http://www5.uwm.edu/news/">
 						<daodesc>
@@ -235,7 +265,8 @@
 			<c01 id="series2" level="series">
 				<did>
 					<unittitle>2. Academic and Research Units,
-						<unitdate>2012-2017</unitdate></unittitle>
+						<unitdate normal="1997/2017">1997-2017</unitdate></unittitle>
+
 				</did>
 				<c02 level="subseries">
 					<did>
@@ -253,6 +284,12 @@
 							staff; and news on featured research conducted through CEAS, including
 							links to research centers and labs. </p>
 					</scopecontent>
+					<dao actuate="onrequest" show="new" title="2000-2016"
+						href="http://web.archive.org/web/*/http://www.uwm.edu/CEAS/">
+						<daodesc>
+							<p>Internet Archive Capture, 2000-2016 </p>
+						</daodesc>
+					</dao>
 					<dao actuate="onrequest" show="new" title="2012-2017"
 						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/ceas/">
 						<daodesc>
@@ -281,6 +318,12 @@
 							administrative staff listings and internal resources; College news; and
 							links to research labs, clinics, and centers. </p>
 					</scopecontent>
+					<dao actuate="onrequest" show="new" title="2002-2016"
+						href="http://web.archive.org/web/*/http://www.uwm.edu/chs">
+						<daodesc>
+							<p>Internet Archive Capture, 2002-2016</p>
+						</daodesc>
+					</dao>
 					<dao actuate="onrequest" show="new" title="2012-2014"
 						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/chs/">
 						<daodesc>
@@ -315,6 +358,12 @@
 							and Sciences, including the Language Resource Center, Center for 21st
 							Century Studies, and the Roberto Hernandez Center.</p>
 					</scopecontent>
+					<dao actuate="onrequest" show="new" title="1997-2017"
+						href="http://web.archive.org/web/*/http://www.uwm.edu/letsci">
+						<daodesc>
+							<p>Internet Archive Capture, 1997-2017</p>
+						</daodesc>
+					</dao>
 					<dao actuate="onrequest" show="new" title="2012-2016"
 						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/letsci/">
 						<daodesc>
@@ -344,6 +393,12 @@
 							centers and institutes; and resources on community and corporate
 							partners of the College. </p>
 					</scopecontent>
+					<dao actuate="onrequest" show="new" title="2002-2016"
+						href="http://web.archive.org/web/*/http://www.uwm.edu/nursing">
+						<daodesc>
+							<p>Internet Archive Capture, 2002-2016</p>
+						</daodesc>
+					</dao>
 					<dao actuate="onrequest" show="new" title="2012-2017"
 						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/nursing/">
 						<daodesc>
@@ -367,6 +422,12 @@
 							the Graduate Course and Curriculum Committee, the Graduate Fellowships
 							Committee, and the Graduate Program Review Committee. </p>
 					</scopecontent>
+					<dao actuate="onrequest" show="new" title="1997-2016"
+						href="http://web.archive.org/web/*/http://www.uwm.edu/Dept/Grad_Sch/">
+						<daodesc>
+							<p>Internet Archive Capture, 1997-2016</p>
+						</daodesc>
+					</dao>
 					<dao actuate="onrequest" show="new" title="2012-2016"
 						href="http://wayback.archive-it.org/3368/*/http://www.graduateschool.uwm.edu/">
 						<daodesc>
@@ -374,7 +435,7 @@
 						</daodesc>
 					</dao>
 					<dao actuate="onrequest" show="new" title="2016-2017"
-						href="http://wayback.archive-it.org/3368/*/http://www.graduateschool.uwm.edu/">
+						href="http://wayback.archive-it.org/3368/*/http:/uwm.edu/graduateschool/">
 						<daodesc>
 							<p>Archive-It Capture, 2016-2017</p>
 						</daodesc>
@@ -393,6 +454,12 @@
 							research resources, including links to research conducted within and in
 							conjunction with the School; and news and events within the School. </p>
 					</scopecontent>
+					<dao actuate="onrequest" show="new" title="1997-2016"
+						href="http://web.archive.org/web/*/http://www.uwm.edu/Dept/SSW/">
+						<daodesc>
+							<p>Internet Archive Capture (As School of Social Welfare), 1997-2016</p>
+						</daodesc>
+					</dao>
 					<dao actuate="onrequest" show="new" title="2012-2015"
 						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/hbssw/">
 						<daodesc>
@@ -441,12 +508,18 @@
 						<unittitle>Peck School of the Arts</unittitle>
 					</did>
 					<scopecontent>
-						<p>This website is the home site for the UWM Peck School of the Arts which
-							containes academic information about the school such as the different
-							generas of art that they adress. The website also discusses the
-							admission detailes and the current news and events that are taking place
-							as well. </p>
+						<p>Home Page for the UWM Peck School of the Arts, including academic
+							information about the school and its constitutent departments. Also
+							included is information about admissions criteria, press releases, and a
+							calendar of events staged by PSOA students, faculty, and guest artists.
+						</p>
 					</scopecontent>
+					<dao actuate="onrequest" show="new" title="1997-2015"
+						href="http://web.archive.org/web/19971016104210/http://www.uwm.edu/Dept/SFA/">
+						<daodesc>
+							<p>Wayback Machine Capture (as School of Fine Arts), 1997-2015</p>
+						</daodesc>
+					</dao>
 					<dao actuate="onrequest" show="new" title="2012-2014"
 						href="http://web.archive.org/web/19971016104210/http://www.uwm.edu/Dept/SFA/">
 						<daodesc>
@@ -456,7 +529,13 @@
 					<dao actuate="onrequest" show="new" title="2012-2014"
 						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/psoa/">
 						<daodesc>
-							<p>2012-2014</p>
+							<p>Archive-It Capture, 2012-2014</p>
+						</daodesc>
+					</dao>
+					<dao actuate="onrequest" show="new" title="2015-2017"
+						href="http://wayback.archive-it.org/3368/*/http://uwm.edu/arts">
+						<daodesc>
+							<p>Archive-It Capture, 2015-2017</p>
 						</daodesc>
 					</dao>
 					<dao actuate="onrequest" show="new" title="2015-2017"
@@ -482,7 +561,7 @@
 					<dao actuate="onrequest" show="new" title="2012-2014"
 						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/academics/centers-institutes.cfm">
 						<daodesc>
-							<p>2012-2014</p>
+							<p>Archive-It Capture, 2012-2014</p>
 						</daodesc>
 					</dao>
 				</c02>
@@ -500,13 +579,17 @@
 							galleries of student and faculty work; and news and events, including
 							the School’s lecture series and exhibitions. </p>
 					</scopecontent>
-					<dao actuate="onrequest" show="new" title="2012-2017"
+					<dao actuate="onrequest" show="new" title="2000-2017"
+						href="http://web.archive.org/web/*/http://www.uwm.edu/SARUP/">
+						<daodesc>
+							<p>Internet Archive Capture, 2000-2017</p>
+						</daodesc>
+					</dao><dao actuate="onrequest" show="new" title="2012-2017"
 						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/SARUP/">
 						<daodesc>
-							<p>2012-2017</p>
+							<p>Archive-It Capture, 2012-2017</p>
 						</daodesc>
 					</dao>
-
 				</c02>
 				<c02 level="subseries">
 					<did>
@@ -526,7 +609,7 @@
 					<dao actuate="onrequest" show="new" title="2012-2017"
 						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/freshwater/">
 						<daodesc>
-							<p>2012-2017</p>
+							<p>Archive-It Capture, 2012-2017</p>
 						</daodesc>
 					</dao>
 				</c02>
@@ -547,10 +630,21 @@
 							workshop and funding resources, and links to the School’s research
 							centers and groups. </p>
 					</scopecontent>
-					<dao actuate="onrequest" show="new" title="2012-2014"
+					<dao actuate="onrequest" show="new" title="1997-2016"
+						href="http://web.archive.org/web/*/http://www.uwm.edu/Dept/SLIS/">
+						<daodesc>
+							<p>Internet Archive Capture (As School of Library and Information Studies), 1997-2016</p>
+						</daodesc>
+					</dao><dao actuate="onrequest" show="new" title="2012-2014"
 						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/sois/">
 						<daodesc>
-							<p>2012-2014</p>
+							<p>Archive-It Capture, 2012-2014</p>
+						</daodesc>
+					</dao>
+					<dao actuate="onrequest" show="new" title="2016-2017"
+						href="http://wayback.archive-it.org/3368/*/http://uwm.edu/informationstudies/">
+						<daodesc>
+							<p>Archive-It Capture, 2016-2017</p>
 						</daodesc>
 					</dao>
 					<dao actuate="onrequest" show="new" title="2016-2017"
@@ -574,10 +668,16 @@
 							Institute for Nonprofit Management, and the Bostrom Center for
 							Entrepreneurship and Innovation among others. </p>
 					</scopecontent>
+					<dao actuate="onrequest" show="new" title="2001-2011"
+						href="http://web.archive.org/web/20010405132048/http://www.uwm.edu/Dept/Business/index.html">
+						<daodesc>
+							<p>Internet Archive Capture (As School of Business Administration), 2001-2011</p>
+						</daodesc>
+					</dao>
 					<dao actuate="onrequest" show="new" title="2012-2017"
 						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/business/">
 						<daodesc>
-							<p>2012-2017</p>
+							<p>Archive-It Capture, 2012-2017</p>
 						</daodesc>
 					</dao>
 
@@ -596,10 +696,16 @@
 							and policies; and links to the departments of the Libraries and the
 							Friends of the Golda Meir Library. </p>
 					</scopecontent>
+					<dao actuate="onrequest" show="new" title="1997-2016"
+						href="http://web.archive.org/web/*/http://www.uwm.edu/Library/">
+						<daodesc>
+							<p>Internet Archive Capture, 1997-2016</p>
+						</daodesc>
+					</dao>
 					<dao actuate="onrequest" show="new" title="2012-2017"
 						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/libraries/">
 						<daodesc>
-							<p>2012-2017</p>
+							<p>Archive-It Capture, 2012-2017</p>
 						</daodesc>
 					</dao>
 
@@ -607,7 +713,7 @@
 			</c01>
 			<c01 id="series3" level="series">
 				<did>
-					<unittitle>3. Administrative Units, <unitdate>1998-2017</unitdate></unittitle>
+					<unittitle>3. Administrative Units, <unitdate normal="1997/2017">1997-2017</unitdate></unittitle>
 				</did>
 				<c02 level="subseries">
 					<did>
@@ -625,6 +731,12 @@
 							proposals; student Factbooks and entrance/exit surveys; and resources on
 							UWM’s diversity action initiatives. </p>
 					</scopecontent>
+					<dao actuate="onrequest" show="new" title="1997-2016"
+						href="http://web.archive.org/web/*/http://www.uwm.edu/Dept/Acad_Aff/">
+						<daodesc>
+							<p>Internet Archive Capture, 1997-2016</p>
+						</daodesc>
+					</dao>
 					<dao actuate="onrequest" show="new" title="2012-2015"
 						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/acad_aff/">
 						<daodesc>
@@ -651,6 +763,12 @@
 							Alumni Association publications, including back issues of the UWM alumni
 							magazine; and information on the various Alumni chapters.</p>
 					</scopecontent>
+					<dao actuate="onrequest" show="new" title="1999-2017"
+						href="http://web.archive.org/web/20010424023134/http://www.uwm.edu/Org/Alumni/">
+						<daodesc>
+							<p>Internet Archive Capture, 1999-2017</p>
+						</daodesc>
+					</dao>
 					<dao actuate="onrequest" show="new" title="2012-2014"
 						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/alumni/">
 						<daodesc>
@@ -700,10 +818,10 @@
 							information about developments surrounding WI Act 10 (2011), WI Act 55
 							(2015), and the effects of the $250M cut to the UW System.</p>
 					</scopecontent>
-					<dao actuate="onrequest" show="new" title="2012-2014"
+					<dao actuate="onrequest" show="new" title="2012-2017"
 						href="http://wayback.archive-it.org/3368/*/http://uwm.edu/budget">
 						<daodesc>
-							<p>Archive-It Capture, 2012-2016</p>
+							<p>Archive-It Capture, 2012-2017</p>
 						</daodesc>
 					</dao>
 				</c02>
@@ -718,6 +836,12 @@
 							emergency operations procedures, and links to the individual departments
 							of the Division of Finance and Administrative Affairs.</p>
 					</scopecontent>
+					<dao actuate="onrequest" show="new" title="2009-2016"
+						href="http://web.archive.org/web/20111001001259/http://www4.uwm.edu/faa/">
+						<daodesc>
+							<p>Internet Archive Capture, 2009-2016</p>
+						</daodesc>
+					</dao>
 					<dao actuate="onrequest" show="new" title="2012-2014"
 						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/faa/">
 						<daodesc>
@@ -739,6 +863,12 @@
 							Consortium, the Greater Milwaukee Foundation, and the Research Growth
 							Initiative, among others. </p>
 					</scopecontent>
+					<dao actuate="onrequest" show="new" title="Office of the Chancellor"
+						href="http://web.archive.org/web/*/http://www.uwm.edu/Dept/Chancellor/">
+						<daodesc>
+							<p>Internet Archive Capture, 1998-2010</p>
+						</daodesc>
+					</dao>
 					<dao actuate="onrequest" show="new" title="Office of the Chancellor"
 						href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/chancellor/">
 						<daodesc>
@@ -829,7 +959,7 @@
 			</c01>
 			<c01 id="series4" level="series">
 				<did>
-					<unittitle>4. Athletics, <unitdate>2012-2017</unitdate></unittitle>
+					<unittitle>4. Athletics, <unitdate normal="2000/2017">2000-2017</unitdate></unittitle>
 				</did>
 				<c02 level="subseries">
 					<did>
@@ -844,7 +974,18 @@
 							directory, facilities information, a UWM Athletics Hall of Fame, and
 							department news. </p>
 					</scopecontent>
-					<dao actuate="onrequest" show="new" title="2012-2014"
+					<dao actuate="onrequest" show="new" title="2000-2016"
+						href="http://web.archive.org/web/*/http://uwmpanthers.fansonly.com/">
+						<daodesc>
+							<p>Internet Archive Capture, 2000-2016</p>
+						</daodesc>
+					</dao>
+					<dao actuate="onrequest" show="new" title="2007-2016"
+						href="http://web.archive.org/web/*/http://uwmpanthers.cstv.com/index-main.html">
+						<daodesc>
+							<p>Internet Archive Capture, 2007-2016</p>
+						</daodesc>
+					</dao><dao actuate="onrequest" show="new" title="2012-2014"
 						href="http://wayback.archive-it.org/3368/*/http://www.uwmpanthers.com/">
 						<daodesc>
 							<p>Archive-It Capture, 2012-2014</p>
@@ -860,7 +1001,7 @@
 			</c01>
 			<c01 id="series5" level="series">
 				<did>
-					<unittitle>5. Social Media Accounts, <unitdate>2009-2016</unitdate></unittitle>
+					<unittitle>5. Social Media Accounts, <unitdate normal="2009/2017">2009-2017</unitdate></unittitle>
 				</did>
 				<c02 level="subseries">
 					<did>
@@ -870,10 +1011,10 @@
 						<did>
 							<unittitle>Main UWM Account</unittitle>
 						</did>
-						<dao actuate="onrequest" show="new" title="2012-2016"
+						<dao actuate="onrequest" show="new" title="2012-2017"
 							href="http://wayback.archive-it.org/3368/*/http://www.facebook.com/UWMilwaukee/">
 							<daodesc>
-								<p>2012-2016</p>
+								<p>Archive-It Capture, 2012-2017</p>
 							</daodesc>
 						</dao>
 					</c03>
@@ -881,10 +1022,10 @@
 						<did>
 							<unittitle>Milwaukee Panthers</unittitle>
 						</did>
-						<dao actuate="onrequest" show="new" title="2012-2016"
+						<dao actuate="onrequest" show="new" title="2012-2017"
 							href="http://wayback.archive-it.org/3368/*/http://www.facebook.com/MilwaukeePanthers/">
 							<daodesc>
-								<p>2012-2016</p>
+								<p>Archive-It Capture, 2012-2017</p>
 							</daodesc>
 						</dao>
 					</c03>
@@ -897,10 +1038,10 @@
 						<did>
 							<unittitle>Main UWM Account</unittitle>
 						</did>
-						<dao actuate="onrequest" show="new" title="2012-2016"
+						<dao actuate="onrequest" show="new" title="2012-2017"
 							href="http://wayback.archive-it.org/3368/*/http://www.flickr.com/photos/uwmilwaukee/">
 							<daodesc>
-								<p>2012-2016</p>
+								<p>Archive-It Capture, 2012-2017</p>
 							</daodesc>
 						</dao>
 					</c03>
@@ -913,10 +1054,10 @@
 						<did>
 							<unittitle>Main UWM Account</unittitle>
 						</did>
-						<dao actuate="onrequest" show="new" title="2012-2016"
+						<dao actuate="onrequest" show="new" title="2012-2017"
 							href="http://wayback.archive-it.org/3368/*/http://twitter.com/uwm/">
 							<daodesc>
-								<p>2012-2016</p>
+								<p>Archive-It Capture, 2012-2017</p>
 							</daodesc>
 						</dao>
 					</c03>
@@ -924,10 +1065,10 @@
 						<did>
 							<unittitle>Milwaukee Panthers</unittitle>
 						</did>
-						<dao actuate="onrequest" show="new" title="2009-2016"
+						<dao actuate="onrequest" show="new" title="2009-2017"
 							href="http://wayback.archive-it.org/3368/*/http://twitter.com/MKEPanthers/">
 							<daodesc>
-								<p>2009-2016</p>
+								<p>Archive-It Capture, 2009-2017</p>
 							</daodesc>
 						</dao>
 					</c03>
@@ -935,10 +1076,10 @@
 						<did>
 							<unittitle>UWM Alumni Association</unittitle>
 						</did>
-						<dao actuate="onrequest" show="new" title="2012-2016"
+						<dao actuate="onrequest" show="new" title="2012-2017"
 							href="http://wayback.archive-it.org/3368/*/http://twitter.com/uwmalumni/">
 							<daodesc>
-								<p>2012-2016</p>
+								<p>Archive-It Capture, 2012-2017</p>
 							</daodesc>
 						</dao>
 					</c03>
@@ -946,7 +1087,7 @@
 			</c01>
 			<c01 id="series6" level="series">
 				<did>
-					<unittitle>6. UWM Affiliate Sites, <unitdate>2012-2016</unitdate></unittitle>
+					<unittitle>6. UWM Affiliate Sites, <unitdate normal="2012/2017">2012-2017</unitdate></unittitle>
 				</did>
 				<c02 level="subseries">
 					<did>
@@ -958,10 +1099,10 @@
 							around the UWM campus. It includes stories about events and students on
 							campus, as well as local sports and opinions. </p>
 					</scopecontent>
-					<dao actuate="onrequest" show="new" title="2012-2014"
+					<dao actuate="onrequest" show="new" title="2014-2017"
 						href="http://wayback.archive-it.org/3368/*/http://www.uwmfdn.org/">
 						<daodesc>
-							<p>2014-2016</p>
+							<p>Archive-It Capture, 2014-2017</p>
 						</daodesc>
 					</dao>
 				</c02>
@@ -976,10 +1117,10 @@
 							students, faculty, programs and community. Included on the site are a
 							news feed, staffing information, and financial reports. </p>
 					</scopecontent>
-					<dao actuate="onrequest" show="new" title="2012-2014"
+					<dao actuate="onrequest" show="new" title="2012-2017"
 						href="http://wayback.archive-it.org/3368/*/http://www.uwmfdn.org/">
 						<daodesc>
-							<p>2012-2016</p>
+							<p>Archive-It Capture, 2012-2017</p>
 						</daodesc>
 					</dao>
 				</c02>
@@ -995,14 +1136,13 @@
 					</scopecontent>
 					<dao actuate="onrequest" show="new"
 						href="http://web.archive.org/web/*/http://www.uwmpost.com">
-						<daodesc>
-							<p>1999-2016</p>
+							<daodesc><p>Internet Archive Capture, 1999-2016</p>
 						</daodesc>
 					</dao>
 					<dao actuate="onrequest" show="new"
 						href="http://wayback.archive-it.org/3368/*/http://uwmpost.com/">
 						<daodesc>
-							<p>2012-2016</p>
+							<p>Archive-It Capture, 2012-2017</p>
 						</daodesc>
 					</dao>
 				</c02>
