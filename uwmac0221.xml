@@ -1136,7 +1136,7 @@
 					</scopecontent>
 					<dao actuate="onrequest" show="new"
 						href="http://web.archive.org/web/*/http://www.uwmpost.com">
-							<p>Internet Archive Capture, 1999-2016</p>
+							<daodesc><p>Internet Archive Capture, 1999-2016</p>
 						</daodesc>
 					</dao>
 					<dao actuate="onrequest" show="new"
