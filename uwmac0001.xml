@@ -6220,13 +6220,13 @@
             <container type="box" label="Box">3</container>
           </did>
         </c02>
-        <c02><did><unittitle>Faculty Meeting Minutes</unittitle></did><c02>
+        <c02><did><unittitle>Faculty Meeting Minutes</unittitle></did><c03>
           <did>
             <unittitle><unitdate>1986-2005</unitdate></unittitle>
             <container type="box" label="Box">3</container>
           </did>
-        </c02>
-        <c02>
+        </c03>
+        <c03>
           <did>
             <unittitle><unitdate>1993</unitdate></unittitle>
             <container type="box" label="Box">12</container>
@@ -6234,7 +6234,7 @@
           <accessrestrict>
             <p>Restricted</p>
           </accessrestrict>
-        </c02></c02>
+        </c03></c02>
         <c02>
           <did>
             <unittitle>Faculty and Staff Development Program Guidelines,
@@ -6797,13 +6797,13 @@
             <container type="box" label="Box">5</container>
           </did>
         </c02>
-       <c02><did><unittitle>Quality Reinvestment Plan</unittitle></did> <c02>
+       <c02><did><unittitle>Quality Reinvestment Plan</unittitle></did> <c03>
           <did>
             <unittitle><unitdate>1991-1994</unitdate></unittitle>
             <container type="box" label="Box">6</container>
           </did>
-        </c02> 
-        <c02>
+        </c03> 
+        <c03>
           <did>
             <unittitle><unitdate>1993-1995</unitdate></unittitle>
             <container type="box" label="Box">14</container>
@@ -6811,7 +6811,7 @@
           <accessrestrict>
             <p>Restricted</p>
           </accessrestrict>
-        </c02></c02>
+        </c03></c02>
         <c02>
           <did>
             <unittitle>Recruitment Correspondence, <unitdate>2009-2013</unitdate></unittitle>
