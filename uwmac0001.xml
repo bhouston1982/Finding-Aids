@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ascii" standalone="no"?>
-<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>]> -->
+<!--<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>]>-->
 <!-- wiarchives version:2008-05-22 -->
 <ead id="uw-mil-uwmac0001" relatedencoding="MARC21">
   <eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
@@ -163,7 +163,7 @@
         >Accession 2016-032</unitid>
       <physdesc label="Quantity">
         <extent encodinganalog="300">73.9 cubic ft. (83 boxes)</extent>
-        <extent encodinganalog="300">plus additions of 23 cubic ft. (36 boxes)</extent>
+        <extent encodinganalog="300">plus additions of 22 cubic ft. (24 boxes)</extent>
       </physdesc>
       <repository encodinganalog="852">
         <extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
@@ -5812,7 +5812,7 @@
           <unitid>Accession 2016-032</unitid>
           <unittitle>Subject and Personnel Files, <unitdate>1968-2013</unitdate></unittitle>
           <physdesc>
-            <extent>13.2 cubic ft. (15 boxes)</extent>
+            <extent>12.2 cubic ft. (13 boxes)</extent>
           </physdesc>
           <abstract>This accession includes budget information, records from the Center of
             International Studies, Diversity Assessment Workbooks, records from the Latin America
@@ -5822,14 +5822,14 @@
             from college committees, department committees, staff, and faculty.</abstract>
         </did>
         <scopecontent>
-          <p>The meeting minutes in boxes 8-10 are unprocessed handwritten records placed in pocket
+          <p>The meeting minutes in boxes 6-8 are unprocessed handwritten records placed in pocket
             folders arranged by year. The meeting minutes are from several committees.</p>
         </scopecontent>
         <c02>
           <did>
             <unittitle>Academic Department Manager, Physics,
               <unitdate>2002-2003</unitdate></unittitle>
-            <container type="box" label="Box">11</container>
+            <container type="box" label="Box">9</container>
           </did>
           <accessrestrict>
             <p>Restricted</p>
@@ -5850,15 +5850,14 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Ad Hoc Committees,
-              <unitdate>1997-2001</unitdate></unittitle>
+            <unittitle>Ad Hoc Committees, <unitdate>1997-2001</unitdate></unittitle>
             <container type="box" label="Box">1</container>
           </did>
         </c02>
         <c02>
           <did>
             <unittitle>Administrative Personnel, <unitdate>2009-2012</unitdate></unittitle>
-            <container type="box" label="Box">11</container>
+            <container type="box" label="Box">9</container>
           </did>
           <accessrestrict>
             <p>Restricted</p>
@@ -5874,8 +5873,8 @@
         <c02>
           <did>
             <unittitle>Affirmative Action Evaluation of Deans and Administrators,
-              <unitdate>1995-1996</unitdate></unittitle>
-            <container type="box" label="Box">11</container>
+                <unitdate>1995-1996</unitdate></unittitle>
+            <container type="box" label="Box">9</container>
           </did>
           <accessrestrict>
             <p>Restricted</p>
@@ -5937,33 +5936,38 @@
             <container type="box" label="Box">1</container>
           </did>
         </c02>
-        <c02><did><unittitle>Budget</unittitle></did><c03>
+        <c02>
           <did>
-            <unittitle><unitdate>1988-2004</unitdate></unittitle>
-            <container type="box" label="Box">1</container>
+            <unittitle>Budget</unittitle>
           </did>
-        </c03>
-        <c03>
-          <did>
-            <unittitle>Classified Staff, <unitdate>1991-2003</unitdate></unittitle>
-            <container type="box" label="Box">11</container>
-          </did>
-          <accessrestrict>
-            <p>Restricted</p>
-          </accessrestrict>
-        </c03>
-        <c03>
-          <did>
-            <unittitle>Lapse, <unitdate>1992-1993</unitdate></unittitle>
-            <container type="box" label="Box">1</container>
-          </did>
-        </c03>
-        <c03>
-          <did>
-            <unittitle>Meeting with Provost, <unitdate>2005-2010</unitdate></unittitle>
-            <container type="box" label="Box">1</container>
-          </did>
-        </c03></c02>
+          <c03>
+            <did>
+              <unittitle><unitdate>1988-2004</unitdate></unittitle>
+              <container type="box" label="Box">1</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Classified Staff, <unitdate>1991-2003</unitdate></unittitle>
+              <container type="box" label="Box">9</container>
+            </did>
+            <accessrestrict>
+              <p>Restricted</p>
+            </accessrestrict>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Lapse, <unitdate>1992-1993</unitdate></unittitle>
+              <container type="box" label="Box">1</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Meeting with Provost, <unitdate>2005-2010</unitdate></unittitle>
+              <container type="box" label="Box">1</container>
+            </did>
+          </c03>
+        </c02>
         <c02>
           <did>
             <unittitle>Budget Planning and Affirmative Action, <unitdate>1995</unitdate></unittitle>
@@ -5989,34 +5993,35 @@
             <container type="box" label="Box">1</container>
           </did>
         </c02>
-        <c02><did><unittitle>Center for International Studies</unittitle></did><c03>
+        <c02>
           <did>
-            <unittitle>Budget,
-              <unitdate>1992-1993</unitdate></unittitle>
-            <container type="box" label="Box">1</container>
+            <unittitle>Center for International Studies</unittitle>
           </did>
-        </c03>
-        <c03>
-          <did>
-            <unittitle>Correspondence,
-                <unitdate>1991-1995</unitdate></unittitle>
-            <container type="box" label="Box">1</container>
-          </did>
-        </c03>
-        <c03>
-          <did>
-            <unittitle>Grants and Awards,
-                <unitdate>1991-1997</unitdate></unittitle>
-            <container type="box" label="Box">2</container>
-          </did>
-        </c03>
-        <c03>
-          <did>
-            <unittitle>Occasional Papers,
-                <unitdate>1993-1995</unitdate></unittitle>
-            <container type="box" label="Box">2</container>
-          </did>
-        </c03></c02>
+          <c03>
+            <did>
+              <unittitle>Budget, <unitdate>1992-1993</unitdate></unittitle>
+              <container type="box" label="Box">1</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Correspondence, <unitdate>1991-1995</unitdate></unittitle>
+              <container type="box" label="Box">1</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Grants and Awards, <unitdate>1991-1997</unitdate></unittitle>
+              <container type="box" label="Box">2</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Occasional Papers, <unitdate>1993-1995</unitdate></unittitle>
+              <container type="box" label="Box">2</container>
+            </did>
+          </c03>
+        </c02>
         <c02>
           <did>
             <unittitle>Chairs' Training, <unitdate>2001</unitdate></unittitle>
@@ -6045,7 +6050,7 @@
         <c02>
           <did>
             <unittitle>Classified Notes, <unitdate>1995-1997</unitdate></unittitle>
-            <container type="box" label="Box">11</container>
+            <container type="box" label="Box">9</container>
           </did>
           <accessrestrict>
             <p>Restricted</p>
@@ -6061,7 +6066,7 @@
         <c02>
           <did>
             <unittitle>Classified Personnel, <unitdate>1992-2013</unitdate></unittitle>
-            <container type="box" label="Box">11</container>
+            <container type="box" label="Box">9</container>
           </did>
           <accessrestrict>
             <p>Restricted</p>
@@ -6082,7 +6087,7 @@
         <c02>
           <did>
             <unittitle>Classified Staff Salary, <unitdate>2003-2004</unitdate></unittitle>
-            <container type="box" label="Box">11</container>
+            <container type="box" label="Box">9</container>
           </did>
           <accessrestrict>
             <p>Restricted</p>
@@ -6091,7 +6096,7 @@
         <c02>
           <did>
             <unittitle>Classified Technician Reallocations, <unitdate>2002</unitdate></unittitle>
-            <container type="box" label="Box">11</container>
+            <container type="box" label="Box">9</container>
           </did>
           <accessrestrict>
             <p>Restricted</p>
@@ -6113,7 +6118,7 @@
         <c02>
           <did>
             <unittitle>Course Reimbursement Contracts, <unitdate>1999-2002</unitdate></unittitle>
-            <container type="box" label="Box">11</container>
+            <container type="box" label="Box">9</container>
           </did>
           <accessrestrict>
             <p>Restricted</p>
@@ -6121,8 +6126,7 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Department Chairs Meetings,
-              <unitdate>1995-2003</unitdate></unittitle>
+            <unittitle>Department Chairs Meetings, <unitdate>1995-2003</unitdate></unittitle>
             <container type="box" label="Box">4</container>
           </did>
         </c02>
@@ -6135,21 +6139,25 @@
         <c02>
           <did>
             <unittitle>Disability Accomodations, <unitdate>2003-2004</unitdate></unittitle>
-            <container type="box" label="Box">11</container>
+            <container type="box" label="Box">9</container>
           </did>
           <accessrestrict>
             <p>Restricted</p>
           </accessrestrict>
         </c02>
-        <c02><did><unittitle>Discretionary Compensation Awards</unittitle></did><c03>
+        <c02>
           <did>
-            <unittitle><unitdate>2000-2002</unitdate></unittitle>
-            <container type="box" label="Box">11</container>
+            <unittitle>Discretionary Compensation Awards</unittitle>
           </did>
-          <accessrestrict>
-            <p>Restricted</p>
-          </accessrestrict>
-        </c03>
+          <c03>
+            <did>
+              <unittitle><unitdate>2000-2002</unitdate></unittitle>
+              <container type="box" label="Box">9</container>
+            </did>
+            <accessrestrict>
+              <p>Restricted</p>
+            </accessrestrict>
+          </c03>
           <c03>
             <did>
               <unittitle><unitdate>2002-2004</unitdate></unittitle>
@@ -6158,33 +6166,41 @@
             <accessrestrict>
               <p>Restricted</p>
             </accessrestrict>
-          </c03></c02>      
-      <c02><did><unittitle>Diversity Assessment Workbook</unittitle></did>  <c03>
+          </c03>
+        </c02>
+        <c02>
           <did>
-            <unittitle><unitdate>1995-2004</unitdate></unittitle>
-            <container type="box" label="Box">2</container>
+            <unittitle>Diversity Assessment Workbook</unittitle>
           </did>
-        </c03>
-        <c03><did>
-          <unittitle><unitdate>2000-2001</unitdate></unittitle>
-          <container type="box" label="Box">12</container>
-        </did>
-          <accessrestrict>
-            <p>Restricted</p>
-          </accessrestrict>
-        </c03></c02>
+          <c03>
+            <did>
+              <unittitle><unitdate>1995-2004</unitdate></unittitle>
+              <container type="box" label="Box">2</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><unitdate>2000-2001</unitdate></unittitle>
+              <container type="box" label="Box">9</container>
+            </did>
+            <accessrestrict>
+              <p>Restricted</p>
+            </accessrestrict>
+          </c03>
+        </c02>
         <c02>
           <did>
             <unittitle>Economics Annual Review, <unitdate>2004</unitdate></unittitle>
-            <container type="box" label="Box">12</container>
+            <container type="box" label="Box">10</container>
           </did>
           <accessrestrict>
             <p>Restricted</p>
           </accessrestrict>
-        </c02><c02>
+        </c02>
+        <c02>
           <did>
             <unittitle>Economics Faculty Annual Summaries, <unitdate>2005</unitdate></unittitle>
-            <container type="box" label="Box">2</container>
+            <container type="box" label="Box">3</container>
           </did>
         </c02>
         <c02>
@@ -6196,7 +6212,7 @@
         <c02>
           <did>
             <unittitle>Employment History, Lecturers, <unitdate>2001-2004</unitdate></unittitle>
-            <container type="box" label="Box">12</container>
+            <container type="box" label="Box">10</container>
           </did>
           <accessrestrict>
             <p>Restricted</p>
@@ -6220,21 +6236,26 @@
             <container type="box" label="Box">3</container>
           </did>
         </c02>
-        <c02><did><unittitle>Faculty Meeting Minutes</unittitle></did><c03>
+        <c02>
           <did>
-            <unittitle><unitdate>1986-2005</unitdate></unittitle>
-            <container type="box" label="Box">3</container>
+            <unittitle>Faculty Meeting Minutes</unittitle>
           </did>
-        </c03>
-        <c03>
-          <did>
-            <unittitle><unitdate>1993</unitdate></unittitle>
-            <container type="box" label="Box">12</container>
-          </did>
-          <accessrestrict>
-            <p>Restricted</p>
-          </accessrestrict>
-        </c03></c02>
+          <c03>
+            <did>
+              <unittitle><unitdate>1986-2005</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><unitdate>1993</unitdate></unittitle>
+              <container type="box" label="Box">10</container>
+            </did>
+            <accessrestrict>
+              <p>Restricted</p>
+            </accessrestrict>
+          </c03>
+        </c02>
         <c02>
           <did>
             <unittitle>Faculty and Staff Development Program Guidelines,
@@ -6281,21 +6302,26 @@
             <container type="box" label="Box">3</container>
           </did>
         </c02>
-       <c02><did><unittitle>Gender Equity Project</unittitle></did> <c03>
+        <c02>
           <did>
-            <unittitle><unitdate>1990-1995</unitdate></unittitle>
-            <container type="box" label="Box">3</container>
+            <unittitle>Gender Equity Project</unittitle>
           </did>
-        </c03>
-        <c03>
-          <did>
-            <unittitle><unitdate>1990-1995</unitdate></unittitle>
-            <container type="box" label="Box">12</container>
-          </did>
-          <accessrestrict>
-            <p>Restricted</p>
-          </accessrestrict>
-        </c03></c02>
+          <c03>
+            <did>
+              <unittitle><unitdate>1990-1995</unitdate></unittitle>
+              <container type="box" label="Box">3</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><unitdate>1990-1995</unitdate></unittitle>
+              <container type="box" label="Box">12</container>
+            </did>
+            <accessrestrict>
+              <p>Restricted</p>
+            </accessrestrict>
+          </c03>
+        </c02>
         <c02>
           <did>
             <unittitle>Geography Faculty Annual Summaries, <unitdate>2005</unitdate></unittitle>
@@ -6305,7 +6331,7 @@
         <c02>
           <did>
             <unittitle>Goals, <unitdate>2002-2003</unitdate></unittitle>
-            <container type="box" label="Box">4</container>
+            <container type="box" label="Box">3</container>
           </did>
         </c02>
         <c02>
@@ -6313,16 +6339,6 @@
             <unittitle>Goodman Correspondence, <unitdate>1995-1996</unitdate></unittitle>
             <container type="box" label="Box">3</container>
           </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Handelman, Howard, Director of the Center for Latin America,
-              <unitdate>1994-1995</unitdate></unittitle>
-            <container type="box" label="Box">12</container>
-          </did>
-          <accessrestrict>
-            <p>Restricted</p>
-          </accessrestrict>
         </c02>
         <c02>
           <did>
@@ -6345,7 +6361,7 @@
         <c02>
           <did>
             <unittitle>I-9 Audit, <unitdate>1991-1992</unitdate></unittitle>
-            <container type="box" label="Box">12</container>
+            <container type="box" label="Box">10</container>
           </did>
           <accessrestrict>
             <p>Restricted</p>
@@ -6359,27 +6375,9 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Instrument Maker Layoff Correspondence, <unitdate>1996</unitdate></unittitle>
-            <container type="box" label="Box">12</container>
-          </did>
-          <accessrestrict>
-            <p>Restricted</p>
-          </accessrestrict>
-        </c02>
-        <c02>
-          <did>
             <unittitle>International Relations Major, <unitdate>1990-1993</unitdate></unittitle>
             <container type="box" label="Box">3</container>
           </did>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Iverson Settlement, <unitdate>1996-1997</unitdate></unittitle>
-            <container type="box" label="Box">12</container>
-          </did>
-          <accessrestrict>
-            <p>Restricted</p>
-          </accessrestrict>
         </c02>
         <c02>
           <did>
@@ -6396,12 +6394,12 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Labor Management Minutes</unittitle>
+            <unittitle>Labor-Management Minutes</unittitle>
           </did>
           <c03>
             <did>
               <unittitle>
-                <unitdate>1992-1997</unitdate>
+                <unitdate>1992-1996</unitdate>
               </unittitle>
               <container type="box" label="Box">3</container>
             </did>
@@ -6409,7 +6407,7 @@
           <c03>
             <did>
               <unittitle>
-                <unitdate>2000-2004</unitdate>
+                <unitdate>1996-2004</unitdate>
               </unittitle>
               <container type="box" label="Box">4</container>
             </did>
@@ -6477,8 +6475,17 @@
         </c02>
         <c02>
           <did>
+            <unittitle>Layoff Correspondence, <unitdate>1996</unitdate></unittitle>
+            <container type="box" label="Box">10</container>
+          </did>
+          <accessrestrict>
+            <p>Restricted</p>
+          </accessrestrict>
+        </c02>
+        <c02>
+          <did>
             <unittitle>Lecturer Rates Problems, <unitdate>2002-2003</unitdate></unittitle>
-            <container type="box" label="Box">12</container>
+            <container type="box" label="Box">10</container>
           </did>
           <accessrestrict>
             <p>Restricted</p>
@@ -6510,19 +6517,18 @@
           <did>
             <unittitle>Media Technician Study, <unitdate>1994-1996</unitdate></unittitle>
             <container type="box" label="Box">4</container>
-
           </did>
         </c02>
         <c02>
           <did>
             <unittitle>Meeting Minutes, <unitdate>2006-2012</unitdate></unittitle>
-            <container type="box" label="Box">8-10</container>
+            <container type="box" label="Box">6-8</container>
           </did>
         </c02>
         <c02>
           <did>
             <unittitle>Merit Increases, <unitdate>1992-1994</unitdate></unittitle>
-            <container type="box" label="Box">12</container>
+            <container type="box" label="Box">10</container>
           </did>
           <accessrestrict>
             <p>Restricted</p>
@@ -6531,96 +6537,110 @@
         <c02>
           <did>
             <unittitle>Merit Salary, <unitdate>1993-1994</unitdate></unittitle>
-            <container type="box" label="Box">12</container>
+            <container type="box" label="Box">10</container>
           </did>
           <accessrestrict>
             <p>Restricted</p>
           </accessrestrict>
         </c02>
-        <c02><did><unittitle>Military Leave</unittitle></did><c03>
+        <c02>
           <did>
-            <unittitle><unitdate>2001-2002</unitdate></unittitle>
-            <container type="box" label="Box">4</container>
+            <unittitle>Military Leave</unittitle>
           </did>
-        </c03>
-        <c03>
-          <did>
-            <unittitle><unitdate>2003-2004</unitdate></unittitle>
-            <container type="box" label="Box">12</container>
-          </did>
-          <accessrestrict>
-            <p>Restricted</p>
-          </accessrestrict>
-        </c03></c02>
-        <c02><did><unittitle>Milwaukee Committment Report</unittitle></did><c03>
-          <did>
-            <unittitle><unitdate>2001-2002</unitdate></unittitle>
-            <container type="box" label="Box">4</container>
-          </did>
-        </c03>
-        <c03>
-          <did>
-            <unittitle><title render="italic">Plan 2008</title>,
-              <unitdate>2003-2004</unitdate></unittitle>
-            <container type="box" label="Box">12</container>
-          </did>
-          <accessrestrict>
-            <p>Restricted</p>
-          </accessrestrict>
-        </c03></c02>
-       <c02><did><unittitle>Milwaukee Graduate Assistants Association</unittitle></did> <c03>
-          <did>
-            <unittitle>Agreement,
-                <unitdate>1991-1995</unitdate></unittitle>
-            <container type="box" label="Box">4</container>
-          </did>
-        </c03>
-        <c03>
-          <did>
-            <unittitle>Bargaining,
-                <unitdate>2000-2005</unitdate></unittitle>
-            <container type="box" label="Box">4</container>
-          </did>
-        </c03>
-         <c03>
-           <did>
-             <unittitle>Grievance,
-               <unitdate>2001</unitdate></unittitle>
-             <container type="box" label="Box">12</container>
-           </did>
-           <accessrestrict>
-             <p>Restricted</p>
-           </accessrestrict>
-         </c03>
-         <c03>
-           <did>
-             <unittitle>Salary Data,
-               <unitdate>2000</unitdate></unittitle>
-             <container type="box" label="Box">12</container>
-           </did>
-           <accessrestrict>
-             <p>Restricted</p>
-           </accessrestrict>
-         </c03></c02>
-        <c02><did><unittitle>Non-represented Classified Employment Compensation</unittitle></did>
           <c03>
             <did>
-              <unittitle>
-                <unitdate>1992-1997</unitdate></unittitle>
-              <container type="box" label="Box">12</container>
+              <unittitle><unitdate>2001-2002</unitdate></unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><unitdate>2003-2004</unitdate></unittitle>
+              <container type="box" label="Box">10</container>
+            </did>
+            <accessrestrict>
+              <p>Restricted</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Milwaukee Committment Report</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><unitdate>2001-2002</unitdate></unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title render="italic">Plan 2008</title>,
+                <unitdate>2003-2004</unitdate></unittitle>
+              <container type="box" label="Box">10</container>
+            </did>
+            <accessrestrict>
+              <p>Restricted</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Milwaukee Graduate Assistants Association</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Agreement, <unitdate>1991-1995</unitdate></unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Bargaining, <unitdate>2000-2005</unitdate></unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Grievance, <unitdate>2001</unitdate></unittitle>
+              <container type="box" label="Box">10</container>
             </did>
             <accessrestrict>
               <p>Restricted</p>
             </accessrestrict>
           </c03>
           <c03>
+            <did>
+              <unittitle>Salary Data, <unitdate>2000</unitdate></unittitle>
+              <container type="box" label="Box">10</container>
+            </did>
+            <accessrestrict>
+              <p>Restricted</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02>
           <did>
-            <unittitle>
-                <unitdate>1995-1996</unitdate></unittitle>
-            <container type="box" label="Box">4</container>
+            <unittitle>Non-represented Classified Employment Compensation</unittitle>
           </did>
-        </c03>
-       </c02>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1992-1997</unitdate></unittitle>
+              <container type="box" label="Box">10</container>
+            </did>
+            <accessrestrict>
+              <p>Restricted</p>
+            </accessrestrict>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate>1995-1996</unitdate></unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+          </c03>
+        </c02>
         <c02>
           <did>
             <unittitle>Office of Diversity/Compliance Conciliation Agreement,
@@ -6631,13 +6651,13 @@
         <c02>
           <did>
             <unittitle>Office Support Exam Development, <unitdate>1993-1996</unitdate></unittitle>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box">4</container>
           </did>
         </c02>
         <c02>
           <did>
             <unittitle>Pay Increases, Classified, <unitdate>1992-2003</unitdate></unittitle>
-            <container type="box" label="Box">12</container>
+            <container type="box" label="Box">10</container>
           </did>
           <accessrestrict>
             <p>Restricted</p>
@@ -6646,7 +6666,7 @@
         <c02>
           <did>
             <unittitle>Pay Plan, <unitdate>1995-2001</unitdate></unittitle>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box">4</container>
           </did>
         </c02>
         <c02>
@@ -6659,7 +6679,7 @@
         <c02>
           <did>
             <unittitle>Performance Recognition Award, <unitdate>1995-2002</unitdate></unittitle>
-            <container type="box" label="Box">13</container>
+            <container type="box" label="Box">10</container>
           </did>
           <accessrestrict>
             <p>Restricted</p>
@@ -6668,31 +6688,17 @@
         <c02>
           <did>
             <unittitle>Personnel Action Deadlines, <unitdate>1989-1996</unitdate></unittitle>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box">4</container>
           </did>
         </c02>
         <c02>
           <did>
-            <unittitle>Personnel Activity Reports, <unitdate>1992-1993</unitdate></unittitle>
-            <container type="box" label="Box">13</container>
+            <unittitle>Personnel Files</unittitle>
           </did>
-          <accessrestrict>
-            <p>Restricted</p>
-          </accessrestrict>
-        </c02>
-        <c02><did><unittitle>Personnel Files</unittitle></did><c03>
-          <did>
-            <unittitle><unitdate>2004-2005</unitdate></unittitle>
-            <container type="box" label="Box">13</container>
-          </did>
-          <accessrestrict>
-            <p>Restricted</p>
-          </accessrestrict>
-        </c03>
           <c03>
             <did>
-              <unittitle>Administration, <unitdate>2005-2009</unitdate></unittitle>
-              <container type="box" label="Box">13</container>
+              <unittitle><unitdate>2004-2005</unitdate></unittitle>
+              <container type="box" label="Box">10</container>
             </did>
             <accessrestrict>
               <p>Restricted</p>
@@ -6700,8 +6706,31 @@
           </c03>
           <c03>
             <did>
+              <unittitle>Administration</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Administration, <unitdate>2005-2006</unitdate></unittitle>
+                <container type="box" label="Box">10</container>
+              </did>
+              <accessrestrict>
+                <p>Restricted</p>
+              </accessrestrict>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Administration, <unitdate>2006-2009</unitdate></unittitle>
+                <container type="box" label="Box">11</container>
+              </did>
+              <accessrestrict>
+                <p>Restricted</p>
+              </accessrestrict>
+            </c04>
+          </c03>
+          <c03>
+            <did>
               <unittitle>Classified, <unitdate>2004-2009</unitdate></unittitle>
-              <container type="box" label="Box">13</container>
+              <container type="box" label="Box">11</container>
             </did>
             <accessrestrict>
               <p>Restricted</p>
@@ -6710,7 +6739,7 @@
           <c03>
             <did>
               <unittitle>Humanities, <unitdate>2005-2012</unitdate></unittitle>
-              <container type="box" label="Box">13</container>
+              <container type="box" label="Box">11</container>
             </did>
             <accessrestrict>
               <p>Restricted</p>
@@ -6719,7 +6748,7 @@
           <c03>
             <did>
               <unittitle>Natural Sciences, <unitdate>2005-2012</unitdate></unittitle>
-              <container type="box" label="Box">13</container>
+              <container type="box" label="Box">11</container>
             </did>
             <accessrestrict>
               <p>Restricted</p>
@@ -6729,7 +6758,7 @@
             <did>
               <unittitle>Natural Sciences and Social Sciences,
                 <unitdate>2007-2008</unitdate></unittitle>
-              <container type="box" label="Box">14</container>
+              <container type="box" label="Box">11</container>
             </did>
             <accessrestrict>
               <p>Restricted</p>
@@ -6738,16 +6767,17 @@
           <c03>
             <did>
               <unittitle>Social Sciences, <unitdate>2006-2012</unitdate></unittitle>
-              <container type="box" label="Box">14</container>
+              <container type="box" label="Box">11</container>
             </did>
             <accessrestrict>
               <p>Restricted</p>
             </accessrestrict>
-          </c03></c02>
+          </c03>
+        </c02>
         <c02>
           <did>
             <unittitle>Personnel Payroll and Funding, <unitdate>2012-2013</unitdate></unittitle>
-            <container type="box" label="Box">14</container>
+            <container type="box" label="Box">11</container>
           </did>
           <accessrestrict>
             <p>Restricted</p>
@@ -6755,10 +6785,20 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Personnel Representatives Meetings,
-              <unitdate>1995-2004</unitdate></unittitle>
-            <container type="box" label="Box">5</container>
+            <unittitle>Personnel Representatives Meetings</unittitle>
           </did>
+          <c03>
+            <did>
+              <unittitle><unitdate>1995-2003</unitdate></unittitle>
+              <container type="box" label="Box">4</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><unitdate>2003-2004</unitdate></unittitle>
+              <container type="box" label="Box">5</container>
+            </did>
+          </c03>
         </c02>
         <c02>
           <did>
@@ -6774,7 +6814,8 @@
         </c02>
         <c02>
           <did>
-            <unittitle><title render="italic">Plan 2008</title> Report, <unitdate>2003</unitdate></unittitle>
+            <unittitle><title render="italic">Plan 2008</title> Report,
+              <unitdate>2003</unitdate></unittitle>
             <container type="box" label="Box">5</container>
           </did>
         </c02>
@@ -6798,21 +6839,26 @@
             <container type="box" label="Box">5</container>
           </did>
         </c02>
-       <c02><did><unittitle>Quality Reinvestment Plan</unittitle></did> <c03>
+        <c02>
           <did>
-            <unittitle><unitdate>1991-1994</unitdate></unittitle>
-            <container type="box" label="Box">6</container>
+            <unittitle>Quality Reinvestment Plan</unittitle>
           </did>
-        </c03> 
-        <c03>
-          <did>
-            <unittitle><unitdate>1993-1995</unitdate></unittitle>
-            <container type="box" label="Box">14</container>
-          </did>
-          <accessrestrict>
-            <p>Restricted</p>
-          </accessrestrict>
-        </c03></c02>
+          <c03>
+            <did>
+              <unittitle><unitdate>1991-1994</unitdate></unittitle>
+              <container type="box" label="Box">6</container>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><unitdate>1993-1995</unitdate></unittitle>
+              <container type="box" label="Box">12</container>
+            </did>
+            <accessrestrict>
+              <p>Restricted</p>
+            </accessrestrict>
+          </c03>
+        </c02>
         <c02>
           <did>
             <unittitle>Recruitment Correspondence, <unitdate>2009-2013</unitdate></unittitle>
@@ -6822,7 +6868,7 @@
         <c02>
           <did>
             <unittitle>Recruitment Data, Salaries, <unitdate>1998-2013</unitdate></unittitle>
-            <container type="box" label="Box">15</container>
+            <container type="box" label="Box">13</container>
           </did>
           <accessrestrict>
             <p>Restricted</p>
@@ -6834,22 +6880,26 @@
             <container type="box" label="Box">6</container>
           </did>
         </c02>
-       <c02><did><unittitle>Salary Adjustments</unittitle></did> <c03>
+        <c02>
           <did>
-            <unittitle><unitdate>1992-1993</unitdate></unittitle>
-            <container type="box" label="Box">14</container>
+            <unittitle>Salary Adjustments</unittitle>
           </did>
-          <accessrestrict>
-            <p>Restricted</p>
-          </accessrestrict>
-        </c03>
-        <c03>
-          <did>
-            <unittitle>Guidelines, <unitdate>1989-2002</unitdate></unittitle>
-            <container type="box" label="Box">7</container>
-          </did>
-        </c03>
-       </c02>
+          <c03>
+            <did>
+              <unittitle><unitdate>1992-1993</unitdate></unittitle>
+              <container type="box" label="Box">12</container>
+            </did>
+            <accessrestrict>
+              <p>Restricted</p>
+            </accessrestrict>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Guidelines, <unitdate>1989-2002</unitdate></unittitle>
+              <container type="box" label="Box">7</container>
+            </did>
+          </c03>
+        </c02>
         <c02>
           <did>
             <unittitle>Salary Information, <unitdate>1991-1994</unitdate></unittitle>
@@ -6883,15 +6933,14 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Spring Awards Picnic,
-              <unitdate>1997</unitdate></unittitle>
+            <unittitle>Spring Awards Picnic, <unitdate>1997</unitdate></unittitle>
             <container type="box" label="Box">4</container>
           </did>
         </c02>
         <c02>
           <did>
             <unittitle>Staff Budget Amounts, <unitdate>2004-2007</unitdate></unittitle>
-            <container type="box" label="Box">14</container>
+            <container type="box" label="Box">12</container>
           </did>
           <accessrestrict>
             <p>Restricted</p>
@@ -6906,7 +6955,7 @@
         <c02>
           <did>
             <unittitle>Staff Meetings, <unitdate>2012-2013</unitdate></unittitle>
-            <container type="box" label="Box">14</container>
+            <container type="box" label="Box">12</container>
           </did>
           <accessrestrict>
             <p>Restricted</p>
@@ -6915,7 +6964,7 @@
         <c02>
           <did>
             <unittitle>Staff Position Updates, <unitdate>1996-2003</unitdate></unittitle>
-            <container type="box" label="Box">15</container>
+            <container type="box" label="Box">12</container>
           </did>
           <accessrestrict>
             <p>Restricted</p>
@@ -6925,7 +6974,7 @@
           <did>
             <unittitle>Staff Salaries and Tenure Information,
               <unitdate>1996-1999</unitdate></unittitle>
-            <container type="box" label="Box">15</container>
+            <container type="box" label="Box">12</container>
           </did>
           <accessrestrict>
             <p>Restricted</p>
@@ -6933,15 +6982,8 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Student and Multicultural Affairs Reorganization Plan,
-                <unitdate>2003</unitdate></unittitle>
-            <container type="box" label="Box">7</container>
-          </did>
-        </c02>
-        <c02>
-          <did>
             <unittitle>Unemployment Compensation, <unitdate>1992-1997</unitdate></unittitle>
-            <container type="box" label="Box">15</container>
+            <container type="box" label="Box">12</container>
           </did>
           <accessrestrict>
             <p>Restricted</p>
@@ -6950,7 +6992,7 @@
         <c02>
           <did>
             <unittitle>Unclassified Notes, <unitdate>2003-2004</unitdate></unittitle>
-            <container type="box" label="Box">15</container>
+            <container type="box" label="Box">12</container>
           </did>
           <accessrestrict>
             <p>Restricted</p>
@@ -6960,7 +7002,7 @@
           <did>
             <unittitle>University Population Diversity Data,
               <unitdate>2000-2001</unitdate></unittitle>
-            <container type="box" label="Box">15</container>
+            <container type="box" label="Box">12</container>
           </did>
           <accessrestrict>
             <p>Restricted</p>
@@ -6970,16 +7012,7 @@
           <did>
             <unittitle>Vacation Cost Projection, Classified,
               <unitdate>1995-1996</unitdate></unittitle>
-            <container type="box" label="Box">15</container>
-          </did>
-          <accessrestrict>
-            <p>Restricted</p>
-          </accessrestrict>
-        </c02>
-        <c02>
-          <did>
-            <unittitle>Williams, Nina, <unitdate>1992-1993</unitdate></unittitle>
-            <container type="box" label="Box">15</container>
+            <container type="box" label="Box">12</container>
           </did>
           <accessrestrict>
             <p>Restricted</p>
@@ -6994,18 +7027,12 @@
         </c02>
         <c02>
           <did>
-            <unittitle>Wisconsin Legislative Updates, <unitdate>1989</unitdate></unittitle>
-            <container type="box" label="Box">7</container>
-          </did>
-        </c02> 
-        <c02>
-          <did>
             <unittitle>Wisconsin State Department of Administration Required Budget Lapse,
                 <unitdate>1992-1993</unitdate></unittitle>
             <container type="box" label="Box">7</container>
           </did>
         </c02>
-       
+
       </c01>
     </dsc>
   </archdesc>
