@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd" [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd"  [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
 <ead id="uw-mil-uwmac0230" relatedencoding="MARC21">
 	<eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
 		dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924"
@@ -16,15 +16,14 @@
 				<publisher encodinganalog="260$b">University of Wisconsin-Milwaukee Libraries,
 					Archives Department</publisher>
 				<address>
-					<addressline>University of Wisconsin-Milwaukee</addressline>
-					<addressline>UWM Libraries</addressline>
-					<addressline>Archives Department</addressline>
-					<addressline>P.O. Box 604</addressline>
-					<addressline>Milwaukee, Wisconsin 53201-0604</addressline>
-					<addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr
-							href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
-				</address>
-				<date encodinganalog="260$c" type="publication" normal="2016">Copyright &#169; 2016
+          <addressline>University of Wisconsin-Milwaukee</addressline>
+          <addressline>UWM Libraries</addressline>
+          <addressline>Archives Department</addressline>
+          <addressline>P.O. Box 604</addressline>
+          <addressline>Milwaukee, Wisconsin 53201-0604</addressline>
+          <addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
+        </address>
+				<date encodinganalog="260$c" type="publication" normal="2016">Copyright © 2016
 					University of Wisconsin Board of Regents</date>
 			</publicationstmt>
 		</filedesc>
@@ -58,7 +57,7 @@
 				</extref>
 			</repository>
 			<abstract encodinganalog="520">Records of the Employment and Training Institute (ETI), a
-				research center in the School of Continuing Education, addresses the needs of
+				research center in the School of Continuing Education which addresses the needs of
 				unemployed and underemployed Wisconsin workers and families. The collection is
 				comprised of education and employment publications on GED assessments,
 				post-secondary education and employment for GED and Milwaukee Public School (MPS)
@@ -106,9 +105,9 @@
 		<arrangement encodinganalog="351">
 			<p>The collection is organized into three series:</p>
 			<list type="ordered" numeration="arabic">
-				<item>Publication Files, 1980-2015</item>
-				<item>News Clippings, 1976-2003</item>
-				<item>Web Archives, 1980-2015 </item>
+				<item><ref target="series1" actuate="onrequest" show="new">Publication Files, 1980-2015</ref></item>
+				<item><ref target="series2" actuate="onrequest" show="new">News Clippings, 1976-2003</ref></item>
+				<item><ref target="series3" actuate="onrequest" show="new">Web Archives, 1980-2015</ref></item>
 			</list>
 			<p>The files are organized alphabetically by subject, then chronologically.</p>
 		</arrangement>
@@ -139,6 +138,10 @@
 		</relatedmaterial>
 		<descgrp type="admininfo">
 			<head>Administrative/Restriction Information</head>
+			<phystech audience="internal">
+				<p id="webarch">The records in the Web Archives Series were collected using the
+					Archive-It Web Archiving tool.</p>
+			</phystech>
 			<accessrestrict encodinganalog="506">
 				<p>There are no access restrictions on the materials, and the collection is open to
 					all members of the public in accordance with state law.</p>
@@ -149,7 +152,7 @@
 					(Wisconsin Statutes 19.21-19.39).</p>
 			</userestrict>
 			<acqinfo encodinganalog="541">
-				<p>The ETI Collection was transferred to the Archives by Lois Quinn as part of
+				<p>The Employment and Training Institute Collection was transferred to the Archives by Lois Quinn as part of
 					accession 2016-036 in February 2017.</p>
 			</acqinfo>
 			<processinfo encodinganalog="583">
@@ -179,8 +182,8 @@
 					</did>
 					<c03>
 						<did>
-							<unittitle>Acceptance of GED Holders at Post-Secondary Institutions in
-								Wisconsin, <unitdate>1985</unitdate></unittitle>
+							<unittitle><title render="italic">Acceptance of GED Holders at Post-Secondary Institutions in
+								Wisconsin</title>, <unitdate>1985</unitdate></unittitle>
 							<container type="box" label="Box">1</container>
 							<container type="folder" label="Folder">1</container>
 						</did>
@@ -203,8 +206,8 @@
 					</c03>
 					<c03>
 						<did>
-							<unittitle>Comprehensive Employment and Training Act and Private Sector
-								Job Creation, <unitdate>1980</unitdate></unittitle>
+							<unittitle><title render="italic">Comprehensive Employment and Training Act and Private Sector
+								Job Creation</title>, <unitdate>1980</unitdate></unittitle>
 							<container type="box" label="Box">1</container>
 							<container type="folder" label="Folder">4</container>
 						</did>
@@ -231,7 +234,7 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle>Job Skill Curriculum witrh Handouts for Poor Readers,
+								<unittitle>Job Skill Curriculum with Handouts for Poor Readers,
 										<unitdate>1984</unitdate></unittitle>
 								<container type="box" label="Box">1</container>
 								<container type="folder" label="Folder">7</container>
@@ -240,8 +243,8 @@
 					</c03>
 					<c03>
 						<did>
-							<unittitle>The Employer Perspective: Jobs Held by the Milwaukee County
-								AFDC Single Parent Population (January 1996 - March 1997),
+							<unittitle><title render="italic">The Employer Perspective: Jobs Held by the Milwaukee County
+								AFDC Single Parent Population (January 1996 - March 1997)</title>,
 									<unitdate>1997</unitdate></unittitle>
 							<container type="box" label="Box">1</container>
 							<container type="folder" label="Folder">8</container>
@@ -249,17 +252,17 @@
 					</c03>
 					<c03>
 						<did>
-							<unittitle>Employment and Earnings of Milwaukee County Single Parent
+							<unittitle><title render="italic">Employment and Earnings of Milwaukee County Single Parent
 								AFDC Families: Establishing Benchmarks for Measuring Employment
-								Outcomes Under "W-2", <unitdate>1997</unitdate></unittitle>
+								Outcomes Under "W-2"</title>, <unitdate>1997</unitdate></unittitle>
 							<container type="box" label="Box">1</container>
 							<container type="folder" label="Folder">9</container>
 						</did>
 					</c03>
 					<c03>
 						<did>
-							<unittitle>Employment and Education Experiences of Milwaukee Public
-								Schools Graduates: A Follow - Up Study of the Class of 1999,
+							<unittitle><title render="italic">Employment and Education Experiences of Milwaukee Public
+								Schools Graduates: A Follow - Up Study of the Class of 1999</title>,
 									<unitdate>2000</unitdate></unittitle>
 							<container type="box" label="Box">1</container>
 							<container type="folder" label="Folder">10</container>
@@ -267,7 +270,7 @@
 					</c03>
 					<c03>
 						<did>
-							<unittitle>Equivalency Certificates: Findings and Recommendations,
+							<unittitle><title render="italic">Equivalency Certificates: Findings and Recommendations</title>,
 								Report to the Superintendent, <unitdate>1986</unitdate></unittitle>
 							<container type="box" label="Box">1</container>
 							<container type="folder" label="Folder">11</container>
@@ -275,7 +278,7 @@
 					</c03>
 					<c03>
 						<did>
-							<unittitle>The GED as a Measure of Readiness for Employment,
+							<unittitle><title render="italic">The GED as a Measure of Readiness for Employment</title>,
 									<unitdate>1986</unitdate></unittitle>
 							<container type="box" label="Box">1</container>
 							<container type="folder" label="Folder">12</container>
@@ -283,8 +286,8 @@
 					</c03>
 					<c03>
 						<did>
-							<unittitle>A GED Primer: Background Information for Dr. Herbert Grover's
-								GED Work Group, <unitdate>1986</unitdate></unittitle>
+							<unittitle><title render="italic">A GED Primer: Background Information for Dr. Herbert Grover's
+								GED Work Group</title>, <unitdate>1986</unitdate></unittitle>
 							<container type="box" label="Box">1</container>
 							<container type="folder" label="Folder">13</container>
 						</did>
@@ -308,8 +311,8 @@
 					</c03>
 					<c03>
 						<did>
-							<unittitle>Literature Survey of the Use of the GED to Measure Readiness
-								for Post-Secondary Education, <unitdate>1986</unitdate></unittitle>
+							<unittitle><title render="italic">Literature Survey of the Use of the GED to Measure Readiness
+								for Post-Secondary Education</title>, <unitdate>1986</unitdate></unittitle>
 							<container type="box" label="Box">1</container>
 							<container type="folder" label="Folder">16</container>
 						</did>
@@ -332,25 +335,24 @@
 					</c03>
 					<c03>
 						<did>
-							<unittitle>Model Reentry Programs for Juvenile Ex-Offenders,
+							<unittitle><title render="italic">Model Reentry Programs for Juvenile Ex-Offenders</title>,
 									<unitdate>1983</unitdate></unittitle>
 							<container type="box" label="Box">1</container>
 							<container type="folder" label="Folder">19</container>
 						</did>
 					</c03>
-
 					<c03>
 						<did>
-							<unittitle>Performance of GED Holders Enrolled at UW's Thirteen
-								Campuses: 1979-1985, <unitdate>1986</unitdate></unittitle>
+							<unittitle><title render="italic">Performance of GED Holders Enrolled at UW's Thirteen
+								Campuses: 1979-1985</title>, <unitdate>1986</unitdate></unittitle>
 							<container type="box" label="Box">1</container>
 							<container type="folder" label="Folder">20</container>
 						</did>
 					</c03>
 					<c03>
 						<did>
-							<unittitle>Recommendations for Improving Milwaukee County Job Training
-								Partnership Act Programs, <unitdate>1988</unitdate></unittitle>
+							<unittitle><title render="italic">Recommendations for Improving Milwaukee County Job Training
+								Partnership Act Programs</title>, <unitdate>1988</unitdate></unittitle>
 							<container type="box" label="Box">1</container>
 							<container type="folder" label="Folder">21</container>
 						</did>
@@ -413,16 +415,16 @@
 					</c03>
 					<c03>
 						<did>
-							<unittitle>Teenage Undereducation and Unemployment: What Approaches
-								Work?, <unitdate>1980</unitdate></unittitle>
+							<unittitle><title render="italic">Teenage Undereducation and Unemployment: What Approaches
+								Work?</title>, <unitdate>1980</unitdate></unittitle>
 							<container type="box" label="Box">1</container>
 							<container type="folder" label="Folder">29</container>
 						</did>
 					</c03>
 					<c03>
 						<did>
-							<unittitle>Vocational Education Project: Summary of Recommendations and
-								Statement of Philosophy, <unitdate>1982</unitdate></unittitle>
+							<unittitle><title render="italic">Vocational Education Project: Summary of Recommendations and
+								Statement of Philosophy</title>, <unitdate>1982</unitdate></unittitle>
 							<container type="box" label="Box">1</container>
 							<container type="folder" label="Folder">30</container>
 						</did>
@@ -465,8 +467,8 @@
 						</c04>
 						<c04>
 							<did>
-								<unittitle>Government and Law: Youth Employment Competency Tests and
-									Curriculum Guide, <unitdate>1984</unitdate></unittitle>
+								<unittitle><title render="italic">Government and Law: Youth Employment Competency Tests and
+									Curriculum Guide</title>, <unitdate>1984</unitdate></unittitle>
 								<container type="box" label="Box">1</container>
 								<container type="folder" label="Folder">35</container>
 							</did>
@@ -535,6 +537,65 @@
 							<unittitle>School Desegregation, <unitdate>1976</unitdate></unittitle>
 							<container type="box" label="Box">2</container>
 							<container type="folder" label="Folder">13-18</container>
+						</did>
+					</c03>
+				</c02>
+				<c02 id="series3" level="series">
+					<did>
+						<unitid>series3</unitid>
+						<unittitle>3. Web Archives, <unitdate type="inclusive"
+								normal="2008-12-05/2017-03-22">2008-2017</unitdate></unittitle>
+						<physdesc>
+							<extent unit="captures">180 captures</extent>
+						</physdesc>
+					</did>
+					<scopecontent>
+						<p>Home Page of the the Employment and Training Institute, including a
+							majority of their publications from 1976-2016. The links to the Labor
+							Market Drilldowns on the Publications page are active, but do not
+							properly link to the drilldown database; most other publications have
+							been captured.</p>
+					</scopecontent>
+					<acqinfo>
+						<p>Web crawling is managed through the Internet Archive's Archive-It
+							service. This series includes links to both the university's collection
+							and the Internet Archive's public collection.</p>
+						<p>Web records from UWM are collected on a semi-annual basis. Crawls of the
+							UWM Web Site may be performed at more frequent intervals in cases of
+							major events, significant additions or changes to the UWM Website or the
+							websites of schools and colleges, etc. Social Media feeds are crawled on
+							an as-requested basis.</p>
+					</acqinfo>
+					<phystech>
+						<p>Web Archives collected by the Internet Archives Wayback Machine and
+							Archive-It Web Harvesting Tools.</p>
+					</phystech>
+					<c03 id="series3_1">
+						<did>
+							<container type="Web-Archive">1</container>
+							<unittitle>Archive-It Capture, </unittitle>
+							<unitdate normal="2015-08-28/2017-03-22">2015 August 28-2017 March
+								22</unitdate>
+							<dao actuate="onrequest" show="new"
+								href="http://wayback.archive-it.org/3368/*/http://www4.uwm.edu/eti/">
+								<daodesc>
+									<p>View online</p>
+								</daodesc>
+							</dao>
+						</did>
+					</c03>
+					<c03 id="series3_2">
+						<did>
+							<container type="Web-Archive">2</container>
+							<unittitle>Internet Archive Capture, </unittitle>
+							<unitdate normal="2008-12-05/2017-03-22">2008 December 5-2017 March
+								22</unitdate>
+							<dao actuate="onrequest" show="new"
+								href="https://web.archive.org/web/*/http://www4.uwm.edu/eti/">
+								<daodesc>
+									<p>View online</p>
+								</daodesc>
+							</dao>
 						</did>
 					</c03>
 				</c02>
