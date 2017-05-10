@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://lcweb2.loc.gov/xmlcommon/dtds/ead2002/ead.dtd" [ <!ENTITY uwmlogo SYSTEM "foo.jpg" NDATA jpeg>] > -->
+<ead id="uw-mil-uwmmss0351" relatedencoding="MARC21">
+	<eadheader langencoding="iso639-2b" audience="internal" countryencoding="iso3166-1"
+		dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924"
+		relatedencoding="MARC21">
+		<eadid encodinganalog="856$u" countrycode="us" mainagencycode="wimiugma"
+			url="http://digital.library.wisc.edu/1711.dl/wiarchives.uw-mil-uwmmss0351"
+			>uw-mil-uwmmss0351</eadid>
+		<filedesc>
+			<titlestmt>
+				<titleproper encodinganalog="245$a">Finding Aid of the Lisbon Area Neighborhood
+					Development Corporation Records, 1999-2013</titleproper>
+				<author encodinganalog="245$c"/>
+			</titlestmt>
+			<publicationstmt>
+				<publisher encodinganalog="260$b">University of Wisconsin-Milwaukee Libraries,
+					Archives Department</publisher>
+				<address>
+					<addressline>University of Wisconsin-Milwaukee</addressline>
+					<addressline>UWM Libraries</addressline>
+					<addressline>Archives Department</addressline>
+					<addressline>P.O. Box 604</addressline>
+					<addressline>Milwaukee, Wisconsin 53201-0604</addressline>
+					<addressline>URL: www.uwm.edu/Libraries/arch/index.html<extptr
+							href="http://www.uwm.edu/Libraries/arch/index.html"/></addressline>
+				</address>
+				<date encodinganalog="260$c" type="publication" normal="2016">Copyright &#169; 2016
+					University of Wisconsin Board of Regents</date>
+			</publicationstmt>
+		</filedesc>
+		<profiledesc>
+			<creation encodinganalog="500">Finding aid encoded by Dan Vinson.</creation>
+			<langusage encodinganalog="546">Finding aid written in <language encodinganalog="041"
+					langcode="eng" scriptcode="Latn">English.</language></langusage>
+		</profiledesc>
+	</eadheader>
+	<archdesc level="collection" relatedencoding="MARC21">
+		<did>
+			<physloc type="locationcode" audience="internal">wimiugma</physloc>
+			<unittitle encodinganalog="245$a">Lisbon Area Neighborhood Development Corporation
+				Records, <unitdate type="inclusive" encodinganalog="245$f" normal="1999/2013"
+					>1999-2013</unitdate></unittitle>
+			<origination label="Creator">
+				<corpname encodinganalog="110">Lisbon Area Neighborhood Development
+					Corporation</corpname>
+			</origination>
+			<unitid label="Call Number" encodinganalog="099" repositorycode="us-wimiugma"
+				countrycode="us">UWM Manuscript Collection 351</unitid>
+			<physdesc label="Quantity">
+				<extent encodinganalog="300">5 cubic ft. (5 boxes)(electronic records amount???)</extent>
+			</physdesc>
+			<repository encodinganalog="852">
+				<extptr entityref="uwmlogo" show="embed" actuate="onload" altrender="center"
+					title="University of Wisconsin-Milwaukee Logo." role="logoimage"/>
+				<extref href="http://www.uwm.edu/Libraries/arch/index.html">
+					<corpname>University of Wisconsin-Milwaukee Libraries, Archives
+						Department</corpname>
+				</extref>
+			</repository>
+			<abstract encodinganalog="520">Electronic and physical records of the Lisbon Area
+				Neighborhood Corporation (LAND). The collection documents how LAND acquired grants
+				and implemented programs to improve the neighborhood surrounding Lisbon Avenue
+				located on the north side of Milwaukee's inner city. The collection includes meeting
+				minutes, grant proposals, budget and census data, resource and social events for 
+				residents, and property rehabilitation reports. Also included are digital images of 
+				the LAND programs and events.</abstract>
+			<langmaterial encodinganalog="546" label="Language">
+				<language encodinganalog="041" langcode="eng">English</language>
+			</langmaterial>
+		</did>
+		<bioghist encodinganalog="545">
+			<p>The Lisbon Area Neighborhood Development Corporation (LAND) was a nonprofit
+				organization that was founded in 1988 to address the neighborhood problems around
+				35th Street and Lisbon Avenue. LAND’s services included economic and community
+				development through the rental of commercial property, home repair programs, and
+				community organizing. LAND partnered with organizations, institutions, and business
+				in the area to improve the neighborhood. LAND’s community organizing included
+				working with residents to host neighborhood clean-ups, beautification projects,
+				community meetings to address residents’ issues and concerns, and community events
+				to provide education and resources.</p>
+		</bioghist>
+		<scopecontent encodinganalog="520">
+			<p>Most of the physical and electronic records are progress reports on property improvement 
+				and community organizing programs dating from 2004-2013.</p>
+		</scopecontent>
+		<arrangement encodinganalog="351">
+			<p>The files are organized by series, alphabetically by subject, then chronologically.</p>
+		</arrangement>
+		<prefercite encodinganalog="524">
+			<p>
+				<extref
+					href="http://uwm.edu/libraries/archives/research/citation-guide-for-primary-sources/"
+					>Citation Guide for Primary Sources</extref>
+			</p>
+		</prefercite>
+		<descgrp type="admininfo">
+			<head>Administrative/Restriction Information</head>
+			<accessrestrict encodinganalog="506">
+				<p>Portions of the collection are restricted according to Title 5 of the United States Code, 
+					Section 552a.</p>
+			</accessrestrict>
+			<userestrict encodinganalog="540">
+				<p>The researcher assumes full responsibility for conforming with the laws of libel,
+					privacy, and copyright which may be involved in the use of this collection
+					(Wisconsin Statutes 19.21-19.39).</p>
+			</userestrict>
+			<acqinfo encodinganalog="541">
+				<p> </p>
+			</acqinfo>
+			<processinfo encodinganalog="583">
+				<p> </p>
+			</processinfo>
+			<processinfo>
+				<head>Preservation Information</head>
+				<p> </p>
+			</processinfo>
+		</descgrp>
+		<dsc type="in-depth">
+			<head>Contents List</head>
+			<c01 level="otherlevel" otherlevel="processed" id="uwmmss0351">
+				<did>
+					<unitid>UWM Mss 351</unitid>
+					<unittitle>Lisbon Area Neighborhood Development Corporation, 1999-2013<unitdate
+							type="inclusive" normal="1999-2013"/>
+					</unittitle>
+					<physdesc>
+						<extent/>
+					</physdesc>
+				</did>
+				<c02 level="series" id="series1">
+					<did>
+						<unittitle>1. Subject Files, <unitdate>1999-2013</unitdate></unittitle>
+						<c03>
+							<did>
+								<unittitle>Campaigns and Programs</unittitle>
+
+							</did>
+
+							<c04>
+								<did>
+									<unittitle>Crime and Drug Prevention,
+											<unitdate>2005-2008</unitdate></unittitle>
+									<container type="electronic" label="Electronic Folder"/>
+									<container type="electronic" label=""
+										>Campaigns_and_Programs\</container>
+									<container type="electronic" label=""
+										>Crime_and_Drug_Prevention_2005-2008\</container>
+									<container type="electronic" label="">\</container>
+								</did>
+							</c04>
+							<c04>
+								<did>
+									<unittitle>Economic Development,
+										<unitdate/>2004-2011</unittitle>
+									<container type="electronic" label="Electronic Folder"/>
+									<container type="electronic" label=""
+										>Campaigns_and_Programs\</container>
+									<container type="electronic" label=""
+										>Economic_Development_2004-2011\</container>
+									<container type="electronic" label="">\</container>
+								</did>
+							</c04>
+							<c04>
+								<did>
+									<unittitle>Education, <unitdate/>2008-2011</unittitle>
+									<container type="electronic" label="Electronic Folder"/>
+									<container type="electronic" label=""
+										>Campaigns_and_Programs\</container>
+									<container type="electronic" label=""
+										>Education_2008-2011\</container>
+									<container type="electronic" label="">\</container>
+								</did>
+							</c04>
+							<c04>
+								<did>
+									<unittitle>Neighborhood Improvement,
+										<unitdate/>1999-2012</unittitle>
+									<container type="electronic" label="Electronic Folder"/>
+									<container type="electronic" label=""
+										>Campaigns_and_Programs\</container>
+									<container type="electronic" label=""
+										>Neighborhood_Improvement_1999-2012\</container>
+									<container type="electronic" label="">\</container>
+								</did>
+							</c04>
+						</c03>
+						<c03>
+							<did>
+								<unittitle>Community Development Block Grant</unittitle>
+
+							</did>
+
+							<c04>
+								<did>
+									<unittitle>General Administration,
+											<unitdate>2006-2012</unitdate></unittitle>
+									<container type="electronic" label="Electronic Folder"/>
+									<container type="electronic" label=""
+										>Community_Development_Block_Grant\</container>
+									<container type="electronic" label=""
+										>General_Administration_2006-2012\</container>
+									<container type="electronic" label="">\</container>
+								</did>
+							</c04>
+							<c04>
+								<did>
+									<unittitle>Monthly Reports, <unitdate/>2008-2013</unittitle>
+									<container type="electronic" label="Electronic Folder"/>
+									<container type="electronic" label=""
+										>Community_Development_Block_Grant\</container>
+									<container type="electronic" label=""
+										>Monthly_Reports\</container>
+								</did>
+							</c04>
+						</c03>
+
+						<c03>
+							<did>
+								<unittitle>Correspondence,
+									<unitdate>2004-2013</unitdate></unittitle>
+								<container type="electronic" label="Electronic Folder"/>
+								<container type="electronic" label="">Correspondence\</container>
+							</did>
+						</c03>
+						<c03>
+							<did>
+								<unittitle>Crime Prevention Through Environmental Design,
+										<unitdate>2007-2009</unitdate></unittitle>
+								<container type="electronic" label="Electronic Folder"/>
+								<container type="electronic" label=""
+									>Crime_Prevention_Through_Environmental_Design\</container>
+							</did>
+						</c03>
+						<c03>
+							<did>
+								<unittitle>Executive Director Reports,
+										<unitdate>2009-2012</unitdate></unittitle>
+								<container type="electronic" label="Electronic Folder"/>
+								<container type="electronic" label=""
+									>Executive_Director_Reports_2009-2012\</container>
+							</did>
+						</c03>
+						<c03>
+							<did>
+								<unittitle>Flyers, <unitdate>2004-2012</unitdate></unittitle>
+								<container type="electronic" label="Electronic Folder"/>
+								<container type="electronic" label="">Flyers\</container>
+							</did>
+						</c03>
+						<c03>
+							<did>
+								<unittitle>LANDFARE, <unitdate>2009-2012</unitdate></unittitle>
+								<container type="electronic" label="Electronic Folder"/>
+								<container type="electronic" label="">LANDFARE\</container>
+							</did>
+						</c03>
+						<c03>
+							<did>
+								<unittitle>Local Initiatives Support Corporation,
+										<unitdate>2009</unitdate></unittitle>
+								<container type="electronic" label="Electronic Folder"/>
+								<container type="electronic" label=""
+									>Local_Initiatives_Support_Corporation\</container>
+							</did>
+						</c03>
+						<c03>
+							<did>
+								<unittitle>Logos, <unitdate>2009</unitdate></unittitle>
+								<container type="electronic" label="Electronic Folder"/>
+								<container type="electronic" label="">Logos\</container>
+							</did>
+						</c03>
+						<c03>
+							<did>
+								<unittitle>Meeting Agenda and Notes,
+									<unitdate>2007-2013</unitdate></unittitle>
+								<container type="electronic" label="Electronic Folder"/>
+								<container type="electronic" label=""
+									>Meeting_Agendas_and_Notes\</container>
+							</did>
+						</c03>
+						<c03>
+							<did>
+								<unittitle>Minor Home Repair</unittitle>
+
+							</did>
+
+							<c04>
+								<did>
+									<unittitle>Activity Reports,
+										<unitdate>2008-2010</unitdate></unittitle>
+									<container type="electronic" label="Electronic Folder"/>
+									<container type="electronic" label=""
+										>Minor_Home_Repair\</container>
+									<container type="electronic" label=""
+										>Activity_Reports_2008-2010\</container>
+								</did>
+							</c04>
+							<c04>
+								<did>
+									<unittitle>Grant Application, <unitdate/>2009</unittitle>
+									<container type="electronic" label="Electronic Folder"/>
+									<container type="electronic" label=""
+										>Minor_Home_Repair\</container>
+									<container type="electronic" label=""
+										>Grant_Application_2009\</container>
+								</did>
+							</c04>
+							<c04>
+								<did>
+									<unittitle>Letter to Residents, <unitdate/>2007</unittitle>
+									<container type="electronic" label="Electronic Folder"/>
+									<container type="electronic" label=""
+										>Minor_Home_Repair\</container>
+									<container type="electronic" label=""
+										>Letter_to_Residents_2007\</container>
+								</did>
+							</c04>
+							<c04>
+								<did>
+									<unittitle>Monthly Narrative, <unitdate/>2007-2010</unittitle>
+									<container type="electronic" label="Electronic Folder"/>
+									<container type="electronic" label=""
+										>Minor_Home_Repair\</container>
+									<container type="electronic" label=""
+										>Monthly_Narratives_2007-2010\</container>
+								</did>
+							</c04>
+							<c04>
+								<did>
+									<unittitle>Reports, <unitdate/>2009-2010</unittitle>
+									<container type="electronic" label="Electronic Folder"/>
+									<container type="electronic" label=""
+										>Minor_Home_Repair\</container>
+									<container type="electronic" label=""
+										>Reports_2009-2010\</container>
+								</did>
+							</c04>
+						</c03>
+						<c03>
+							<did>
+								<unittitle>Mission Profile Services,
+									<unitdate>2004-2012</unitdate></unittitle>
+								<container type="electronic" label="Electronic Folder"/>
+								<container type="electronic" label=""
+									>Mission_Profile_Services\</container>
+							</did>
+						</c03>
+						<c03>
+							<did>
+								<unittitle>Neighborhood Property Data,
+									<unitdate>1999</unitdate></unittitle>
+								<container type="electronic" label="Electronic Folder"/>
+								<container type="electronic" label=""
+									>Neighborhood_Property_Data\</container>
+							</did>
+						</c03>
+						<c03>
+							<did>
+								<unittitle>Project Activity Reports,
+									<unitdate>2007-2013</unitdate></unittitle>
+								<container type="electronic" label="Electronic Folder"/>
+								<container type="electronic" label=""
+									>Project_Activity_Reports\</container>
+							</did>
+						</c03>
+						<c03>
+							<did>
+								<unittitle>Resident Engagement Community Forum,
+										<unitdate>2005</unitdate></unittitle>
+								<container type="electronic" label="Electronic Folder"/>
+								<container type="electronic" label=""
+									>Resident_Engagement_Community_Forum\</container>
+							</did>
+						</c03>
+						<c03>
+							<did>
+								<unittitle>Spaulding Place,
+									<unitdate>2004-2006</unitdate></unittitle>
+								<container type="electronic" label="Electronic Folder"/>
+								<container type="electronic" label="">Spaulding_Place\</container>
+							</did>
+						</c03>
+						<c03>
+							<did>
+								<unittitle>Special Economic Development,
+									<unitdate>2004</unitdate></unittitle>
+								<container type="electronic" label="Electronic Folder"/>
+								<container type="electronic" label=""
+									>Special_Economic_Development\</container>
+							</did>
+						</c03>
+						<c03>
+							<did>
+								<unittitle>Thirty-seventh Street,
+									<unitdate>2007-2012</unitdate></unittitle>
+								<container type="electronic" label="Electronic Folder"/>
+								<container type="electronic" label="">37th_St\</container>
+							</did>
+						</c03>
+						<c03>
+							<did>
+								<unittitle>Twenty-eighth Street,
+									<unitdate>2008-2009</unitdate></unittitle>
+								<container type="electronic" label="Electronic Folder"/>
+								<container type="electronic" label="">28th_St\</container>
+							</did>
+						</c03>
+						<c03>
+							<did>
+								<unittitle>UWM Community University Partnership</unittitle>
+
+							</did>
+
+							<c04>
+								<did>
+									<unittitle>Back to School for Adults,
+											<unitdate>2009-2010</unitdate></unittitle>
+									<container type="electronic" label="Electronic Folder"/>
+									<container type="electronic" label=""
+										>UWM_Community-University_Partnership\</container>
+									<container type="electronic" label=""
+										>Back_to_School_for_Adults_2009-2010\</container>
+								</did>
+							</c04>
+							<c04>
+								<did>
+									<unittitle>Programs and Initiatives, <unitdate/>2008</unittitle>
+									<container type="electronic" label="Electronic Folder"/>
+									<container type="electronic" label=""
+										>UWM_Community-University_Partnership\</container>
+									<container type="electronic" label=""
+										>Programs_and_Initiative_2008\</container>
+								</did>
+							</c04>
+							<c04>
+								<did>
+									<unittitle>Soil Testing, <unitdate/>2013</unittitle>
+									<container type="electronic" label="Electronic Folder"/>
+									<container type="electronic" label=""
+										>UWM_Community-University_Partnership\</container>
+									<container type="electronic" label=""
+										>Soil_Testing_2013\</container>
+								</did>
+							</c04>
+						</c03>
+						<c03>
+							<did>
+								<unittitle>Walls Project, <unitdate/>2008-2009</unittitle>
+								<container type="electronic" label="Electronic Folder"/>
+								<container type="electronic" label="">Walls_Project\</container>
+							</did>
+						</c03>
+						<c03>
+							<did>
+								<unittitle>Washington Park Partners,
+									<unitdate>2004-2007</unitdate></unittitle>
+								<container type="electronic" label="Electronic Folder"/>
+								<container type="electronic" label=""
+									>Washington_Park_Partners\</container>
+							</did>
+						</c03>
+						<c03>
+							<did>
+								<unittitle>West North Avenue Advancement Association,
+										<unitdate>1999-2000</unitdate></unittitle>
+								<container type="electronic" label="Electronic Folder"/>
+								<container type="electronic" label=""
+									>West_North_Avenue_Advancement_Association\</container>
+							</did>
+						</c03>
+						<c02 level="series" id="series2">
+							<did>
+								<unittitle>2. Images, <unitdate>2005-2013</unitdate></unittitle>
+
+								<c03>
+									<did>
+										<unittitle>Clean Up and Neighborhood Walk,
+												<unitdate>2013</unitdate></unittitle>
+										<container type="electronic" label="Electronic Folder"/>
+										<container type="electronic" label="">Images\</container>
+										<container type="electronic" label=""
+											>Cleanup_and_Neighborhood_Walk_2013\</container>
+									</did>
+								</c03>
+								<c03>
+									<did>
+										<unittitle>Community Dialogue with Gwen Moore,
+												<unitdate>2010</unitdate></unittitle>
+										<container type="electronic" label="Electronic Folder"/>
+										<container type="electronic" label="">Images\</container>
+										<container type="electronic" label=""
+											>Community_Dialogue_with_Gwen_Moore_7-14-10\</container>
+									</did>
+								</c03>
+								<c03>
+									<did>
+										<unittitle>Crime Prevention Through Environmental Design,
+												<unitdate>2009</unitdate></unittitle>
+										<container type="electronic" label="Electronic Folder"/>
+										<container type="electronic" label="">Images\</container>
+										<container type="electronic" label=""
+											>CPTED_Neighborhood_Beautification_Project_39th_St_7-27-09\</container>
+									</did>
+								</c03>
+								<c03>
+									<did>
+										<unittitle>Giving Tree,
+											<unitdate>2011</unitdate></unittitle>
+										<container type="electronic" label="Electronic Folder"/>
+										<container type="electronic" label="">Images\</container>
+										<container type="electronic" label=""
+											>Giving_Tree_12-9-11\</container>
+									</did>
+								</c03>
+								<c03>
+									<did>
+										<unittitle>Homsource, <unitdate>2006</unitdate></unittitle>
+										<container type="electronic" label="Electronic Folder"/>
+										<container type="electronic" label="">Images\</container>
+										<container type="electronic" label=""
+											>Homesource_11-9-06\</container>
+									</did>
+								</c03>
+								<c03>
+									<did>
+										<unittitle>Housing Program,
+											<unitdate>2009</unitdate></unittitle>
+										<container type="electronic" label="Electronic Folder"/>
+										<container type="electronic" label="">Images\</container>
+										<container type="electronic" label=""
+											>Housing_Program_1-7-09\</container>
+									</did>
+								</c03>
+								<c03>
+									<did>
+										<unittitle>Jones Island Water Plant Tour,
+												<unitdate>2011</unitdate></unittitle>
+										<container type="electronic" label="Electronic Folder"/>
+										<container type="electronic" label="">Images\</container>
+										<container type="electronic" label=""
+											>Jones_Island_Water_Plant_Tour_10-25-11\</container>
+									</did>
+								</c03>
+								<c03>
+									<did>
+										<unittitle>Holiday Party,
+											<unitdate>2010</unitdate></unittitle>
+										<container type="electronic" label="Electronic Folder"/>
+										<container type="electronic" label="">Images\</container>
+										<container type="electronic" label=""
+											>LAND_Holiday_Party_2010\</container>
+									</did>
+								</c03>
+								<c03>
+									<did>
+										<unittitle>LANDFARE,
+											<unitdate>2009-2012</unitdate></unittitle>
+										<container type="electronic" label="Electronic Folder"/>
+										<container type="electronic" label="">Images\</container>
+										<container type="electronic" label="">LANDFARE\</container>
+									</did>
+								</c03>
+								<c03>
+									<did>
+										<unittitle>Milwaukee Theater and Parade,
+												<unitdate>2009</unitdate></unittitle>
+										<container type="electronic" label="Electronic Folder"/>
+										<container type="electronic" label="">Images\</container>
+										<container type="electronic" label=""
+											>Milwaukee_Theater_and_Parade_2009\</container>
+									</did>
+								</c03>
+								<c03>
+									<did>
+										<unittitle>National Night Out Thrid District Police,
+												<unitdate>2011</unitdate></unittitle>
+										<container type="electronic" label="Electronic Folder"/>
+										<container type="electronic" label="">Images\</container>
+										<container type="electronic" label=""
+											>National_Night_Out_3rd_District_Police_7-27-11\</container>
+									</did>
+								</c03>
+								<c03>
+									<did>
+										<unittitle>Neighborhood Cleanup,
+											<unitdate>2011</unitdate></unittitle>
+										<container type="electronic" label="Electronic Folder"/>
+										<container type="electronic" label="">Images\</container>
+										<container type="electronic" label=""
+											>Neighborhood_Cleanup_6-15-11\</container>
+									</did>
+								</c03>
+								<c03>
+									<did>
+										<unittitle>Neighborhood Walk,
+											<unitdate>2011</unitdate></unittitle>
+										<container type="electronic" label="Electronic Folder"/>
+										<container type="electronic" label="">Images\</container>
+										<container type="electronic" label=""
+											>Neighborhood_Walk_8-1-12\</container>
+									</did>
+								</c03>
+								<c03>
+									<did>
+										<unittitle>Prepared Readiness Workshop Youth,
+												<unitdate>2011</unitdate></unittitle>
+										<container type="electronic" label="Electronic Folder"/>
+										<container type="electronic" label="">Images\</container>
+										<container type="electronic" label=""
+											>Prepared_Readiness_Workshop_Youth_Env_Education7-25-11\</container>
+									</did>
+								</c03>
+								<c03>
+									<did>
+										<unittitle>Ready Set Go,
+											<unitdate>2009</unitdate></unittitle>
+										<container type="electronic" label="Electronic Folder"/>
+										<container type="electronic" label="">Images\</container>
+										<container type="electronic" label=""
+											>Ready-Set-Go_3-27-09\</container>
+									</did>
+								</c03>
+								<c03>
+									<did>
+										<unittitle>Social Gathering,
+											<unitdate>2010</unitdate></unittitle>
+										<container type="electronic" label="Electronic Folder"/>
+										<container type="electronic" label="">Images\</container>
+										<container type="electronic" label=""
+											>Social_Gathering_2010\</container>
+									</did>
+								</c03>
+								<c03>
+									<did>
+										<unittitle>Soil Testing Project,
+											<unitdate>2009</unitdate></unittitle>
+										<container type="electronic" label="Electronic Folder"/>
+										<container type="electronic" label="">Images\</container>
+										<container type="electronic" label=""
+											>Soil_Testing_Project_2009\</container>
+									</did>
+								</c03>
+								<c03>
+									<did>
+										<unittitle>Thirty Eighth Street School,
+												<unitdate>2007</unitdate></unittitle>
+										<container type="electronic" label="Electronic Folder"/>
+										<container type="electronic" label="">Images\</container>
+										<container type="electronic" label=""
+											>38th_st_school_service_learning_5-23-07\</container>
+									</did>
+								</c03>
+								<c03>
+									<did>
+										<unittitle>UWM Back to School,
+											<unitdate>2009</unitdate></unittitle>
+										<container type="electronic" label="Electronic Folder"/>
+										<container type="electronic" label="">Images\</container>
+										<container type="electronic" label=""
+											>Back_to_School_UWM-MATC_5-18-09\</container>
+									</did>
+								</c03>
+								<c03>
+									<did>
+										<unittitle>Urban Waldorf and Metcalfe,
+												<unitdate>2007</unitdate></unittitle>
+										<container type="electronic" label="Electronic Folder"/>
+										<container type="electronic" label="">Images\</container>
+										<container type="electronic" label=""
+											>Urban_Waldorf_and_Metcalfe_SL_2007\</container>
+									</did>
+								</c03>
+								<c03>
+									<did>
+										<unittitle>Valentine Banquet,
+											<unitdate>2005</unitdate></unittitle>
+										<container type="electronic" label="Electronic Folder"/>
+										<container type="electronic" label="">Images\</container>
+										<container type="electronic" label=""
+											>Valentine_Banquet_2005\</container>
+									</did>
+								</c03>
+								<c03>
+									<did>
+										<unittitle>Walls Project,
+											<unitdate>2009</unitdate></unittitle>
+										<container type="electronic" label="Electronic Folder"/>
+										<container type="electronic" label="">Images\</container>
+										<container type="electronic" label=""
+											>Walls_Project_c_2009\</container>
+									</did>
+								</c03>
+								<c03>
+									<did>
+										<unittitle>Westside Academy and Fourtieth Street Cleanup,
+												<unitdate>2008</unitdate></unittitle>
+										<container type="electronic" label="Electronic Folder"/>
+										<container type="electronic" label="">Images\</container>
+										<container type="electronic" label=""
+											>Westside_Academy_and_40th_St_Cleanup_11-20-08\</container>
+									</did>
+								</c03>
+								<c03>
+									<did>
+										<unittitle>Westside Academy Service Learning,
+												<unitdate>2008</unitdate></unittitle>
+										<container type="electronic" label="Electronic Folder"/>
+										<container type="electronic" label="">Images\</container>
+										<container type="electronic" label=""
+											>Westside_Academy_Service_Learning10-10-08\</container>
+									</did>
+								</c03>
+								<c03>
+									<did>
+										<unittitle>Willie Hines,
+											<unitdate>2005</unitdate></unittitle>
+										<container type="electronic" label="Electronic Folder"/>
+										<container type="electronic" label="">Images\</container>
+										<container type="electronic" label=""
+											>Willie_Hines_2005\</container>
+									</did>
+								</c03>
+								<c03>
+									<did>
+										<unittitle>Youth Environmental Project,
+												<unitdate>2012</unitdate></unittitle>
+										<container type="electronic" label="Electronic Folder"/>
+										<container type="electronic" label="">Images\</container>
+										<container type="electronic" label=""
+											>Youth_Environmental_Project\</container>
+									</did>
+								</c03>
+								<c03>
+									<did>
+										<unittitle>Youth Project,
+											<unitdate>2010-2012</unitdate></unittitle>
+										<container type="electronic" label="Electronic Folder"/>
+										<container type="electronic" label="">Images\</container>
+										<container type="electronic" label=""
+											>Youth_Environmental_Project_2010-2012\</container>
+									</did>
+								</c03>
+
+							</did>
+						</c02>
+					</did>
+
+
+
+				</c02>
+			</c01>
+		</dsc>
+	</archdesc>
+</ead>
